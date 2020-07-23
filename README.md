@@ -1,1 +1,1 @@
-this is a small README file
+This is a very small README file.
