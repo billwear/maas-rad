@@ -1,4 +1,4 @@
-.PHONY: %.html file
+.PHONY: %.html finale
 
 %.html: %.md
 	cp templates/vanilla-template.html ./template.html
@@ -13,5 +13,6 @@
 
 finale: %.html
 	xpub push github all
+
 
 
