@@ -9,7 +9,7 @@
 	xpub convert discourse tagged html $< ui
 	cp $@  maas-rad-cli
 
-finale: maas-documentation-25.html
+finale: maas-documentation-25.html about-maas-840.html
 	xpub push github all
 
 
