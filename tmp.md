@@ -1,7 +1,5 @@
 MAAS is **Metal As A Service**, a service that lets you treat physical servers like virtual machines -- instances -- in the cloud.  No need to manage servers individually: MAAS turns your bare metal into an elastic, cloud-like resource.
-<!-- cli
 You can do everything through the MAAS CLI.  No need for a GUI, a browser, or dense Web forms.  We can also link you to a neat python toolset which will give you some command-line shortcuts.
- cli -->
  
 #### Quick questions you might have:
 
