@@ -500,47 +500,47 @@ Commissioning means that MAAS has successfully booted the machine, scanned and r
 | 52-54-00-17-64-c8 | off     | Commissioning  | admin      | Medi
 | n4cgrm            | virsh   | QEMU           | Prescriber |     
 +-------------------+---------+----------------+------------+-----
-
-
-MAAS controls machines through IPMI (or another BMC). It can also manage machines through a converged chassis controller, such as Cisco UCS.  You can choose how you want to control power on your machines based on what is available.  MAAS overwrites the machine's disk space with your chosen, pre-cached OS images.
-
-[note type=&quot;negative&quot; status=&quot;Warning&quot;]
-*The above comment about disk space bears repeating: MAAS will overwrite the disk space of all machines it enlists. All pool machines are under the control of MAAS; you should provision them using other methods.*
-[/note]
-
-MAAS users allocate (&quot;acquire&quot;) machines for use when needed. The web UI also allows you to acquire machines manually, such as when you are reserving specific hardware for certain users. You can remotely access and customise the installed operating system via SSH.
-
-&lt;!-- ui
-![acquire|690x363](https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg)
- ui --&gt;
-&lt;!-- vanilla
-![acquire|690x363](https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg)
- vanilla --&gt;
-&lt;! --cli
 </code></pre>
 
-<p>+-------------------+---------+-----------+------------+-------------+--------------+-------------------+
+<p>MAAS controls machines through IPMI (or another BMC). It can also manage machines through a converged chassis controller, such as Cisco UCS.  You can choose how you want to control power on your machines based on what is available.  MAAS overwrites the machine&rsquo;s disk space with your chosen, pre-cached OS images.</p>
+<p>[note type=&rdquo;negative&rdquo; status=&rdquo;Warning&rdquo;]
+<em>The above comment about disk space bears repeating: MAAS will overwrite the disk space of all machines it enlists. All pool machines are under the control of MAAS; you should provision them using other methods.</em>
+[/note]</p>
+<p>MAAS users allocate (&ldquo;acquire&rdquo;) machines for use when needed. The web UI also allows you to acquire machines manually, such as when you are reserving specific hardware for certain users. You can remotely access and customise the installed operating system via SSH.</p>
+<!-- ui
+![acquire|690x363](https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg)
+ ui -->
+
+<!-- vanilla
+![acquire|690x363](https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg)
+ vanilla -->
+
+<! --cli
+
+<pre><code>+-------------------+---------+-----------+------------+-------------+--------------+-------------------+
 | 52-54-00-9b-e4-9a | off     | Ready     | None       | default     | Patient-Care | 192.168.123.0/24  |
 | af8e33            | virsh   | QEMU      | default    |             | untagged     | 52:54:00:9b:e4:9a |
-+-------------------+---------+-----------+------------+-------------+--------------+-------------------+</p>
-<p>~ $ maas admin machines allocate system_id=af8e33
++-------------------+---------+-----------+------------+-------------+--------------+-------------------+
+
+~ $ maas admin machines allocate system_id=af8e33
 Success.
 Machine-readable output follows:
 {
-&hellip;
-    &ldquo;min_hwe_kernel&rdquo;: &ldquo;&rdquo;,
-    &ldquo;node_type_name&rdquo;: &ldquo;Machine&rdquo;,
-    &ldquo;testing_status_name&rdquo;: &ldquo;Passed&rdquo;,
-    &ldquo;network_test_status&rdquo;: -1,
-    &ldquo;interface_test_status&rdquo;: -1,
-    &ldquo;current_testing_result_id&rdquo;: 70,
-    &ldquo;cpu_count&rdquo;: 1,
-    &ldquo;storage_test_status&rdquo;: 2,
-    &ldquo;system_id&rdquo;: &ldquo;af8e33&rdquo;,
-    &ldquo;status_name&rdquo;: &ldquo;Allocated&rdquo;,
-&hellip;
+...
+    &quot;min_hwe_kernel&quot;: &quot;&quot;,
+    &quot;node_type_name&quot;: &quot;Machine&quot;,
+    &quot;testing_status_name&quot;: &quot;Passed&quot;,
+    &quot;network_test_status&quot;: -1,
+    &quot;interface_test_status&quot;: -1,
+    &quot;current_testing_result_id&quot;: 70,
+    &quot;cpu_count&quot;: 1,
+    &quot;storage_test_status&quot;: 2,
+    &quot;system_id&quot;: &quot;af8e33&quot;,
+    &quot;status_name&quot;: &quot;Allocated&quot;,
+...
 }
-```</p>
+</code></pre>
+
 <p>When acquiring machines from the API/CLI, you can specify requirements (&ldquo;constraints&rdquo;). Common constraints are memory, CPU cores, connected networks, and assigned physical zone.</p>
 <p>An acquired MAAS machine is more flexible than a virtual instance in a cloud. You have complete control, including hardware drivers and root access. If you want to upgrade the BIOS, for example, you can allocate a machine to yourself and complete the upgrade.  Once you have completed the upgrade, you can send the machine back to the pool.</p>
 <p>Note that <a href="https://jaas.ai/docs/maas-cloud">Juju</a> is designed to work with MAAS. MAAS becomes a backend Juju resource pool with all functionality fully available. For instance, if Juju removes a machine, then MAAS will release that machine to the pool.  With Juju, MAAS can become an integral part of your data centre strategy and operations.</p>
