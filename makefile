@@ -1,3 +1,5 @@
+all: maas-documentation-25.html about-maas-840.html
+
 maas-documentation-25.html: maas-documentation-25.md
 	cp templates/vanilla-template.html ./template.html
 	xpub convert discourse tagged html maas-documentation-25.md vanilla
