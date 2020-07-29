@@ -1,5 +1,3 @@
-.PHONY: finale %.html
-
 %.html: %.md
 	cp templates/vanilla-template.html ./template.html
 	xpub convert discourse tagged html $< vanilla
@@ -11,7 +9,7 @@
 	xpub convert discourse tagged html $< ui
 	cp $@  maas-rad-cli
 
-finale: %.html
+finale: maas-documentation-25.html
 	xpub push github all
 
 
