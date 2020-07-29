@@ -16,9 +16,11 @@ MAAS can act as a standalone PXE/preseed service or integrate with other technol
 <!-- ui
 ![deploying|690x385](https://discourse.maas.io/uploads/default/original/1X/d19eff9ef45c554d085ee1d657e4ddd810eac6df.jpeg)  
  ui -->
+
 <!-- vanilla
 ![deploying|690x385](https://discourse.maas.io/uploads/default/original/1X/d19eff9ef45c554d085ee1d657e4ddd810eac6df.jpeg)  
  vanilla -->
+
 <!-- cli
 ```
 ~/mnt/Dropbox/src/git/maas-rad $ maas admin machine deploy kbrpyq
@@ -54,9 +56,11 @@ MAAS integrates all the tools you need into a smooth system-management experienc
 <!-- ui
 - web UI (optimised for mobile devices)
  ui -->
+ 
 <!-- vanilla
 - web UI (optimised for mobile devices)
  vanilla -->
+ 
 - Ubuntu, CentOS, Windows, and RHEL installation support
 - open-source IP address management (IPAM)
 - full API/CLI support
@@ -74,9 +78,11 @@ These tools can be controlled from
 <!-- vanilla
  a responsive web UI or a [CLI](/t/maas-cli/802) driven by a REST API.
  vanilla -->
+
 <!-- ui
  a responsive web UI.
  ui -->
+
 <!-- cli
  a [CLI](/t/maas-cli/802) driven by a REST API.
  cli -->
@@ -85,9 +91,11 @@ You can easily (re)configure and scale your data centre with MAAS.
 <!-- ui
 ![mixed-states|690x438](https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg)  
  ui -->
+
 <!-- vanilla
 ![mixed-states|690x438](https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg)  
  vanilla -->
+
 <!-- cli
 ```
 +-------------------+---------+-----------+------------+-------------+--------------+-------------------+
@@ -145,9 +153,11 @@ Commissioning means that MAAS has successfully booted the machine, scanned and r
 <!-- ui
 ![commissioning|606x400](https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg)
  ui -->
+ 
 <!-- vanilla
 ![commissioning|606x400](https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg)
  vanilla -->
+ 
 <!-- cli
 ```
 +-------------------+---------+----------------+------------+-----
@@ -168,9 +178,11 @@ MAAS users allocate ("acquire") machines for use when needed. The web UI also al
 <!-- ui
 ![acquire|690x363](https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg)
  ui -->
+
 <!-- vanilla
 ![acquire|690x363](https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg)
  vanilla -->
+
 <!-- cli
 ```
 +-------------------+---------+-----------+------------+-------------+--------------+-------------------+
@@ -196,7 +208,7 @@ Machine-readable output follows:
 ...
 }
 ```
- cli -->
+cli -->
 
 <!-- cli
 When acquiring machines from the API/CLI, you can specify requirements ("constraints"). Common constraints are memory, CPU cores, connected networks, and assigned physical zone.

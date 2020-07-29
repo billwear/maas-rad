@@ -6,6 +6,7 @@
   </head>
 <body>
 <div style="float:left; width:20%;">
+    <a href="http://stormrider.io/maas-rad.html">RAD index</a>
 <h3>
 <a href="maas-documentation-25.html">Introduction
 </a>
@@ -267,70 +268,6 @@
   </li>
 </ul>
 <h3>
-  <a href="maas-cli-802.html">CLI
-  </a>
-</h3>
-<ul>
-  <li>
-    <a href="common-cli-tasks-794.html">Common tasks
-    </a>
-  </li>
-  <li>
-    <a href="audit-event-logs-791.html">Audit event logs
-    </a>
-  </li>
-  <li>
-    <a href="cli-kernel-management-799.html">Kernel management
-    </a>
-  </li>
-  <li>
-    <a href="cli-image-management-797.html">Image management
-    </a>
-  </li>
-  <li>
-    <a href="cli-interface-management-798.html">Interface management
-    </a>
-  </li>
-  <li>
-    <a href="cli-tag-management-801.html">Tag management
-    </a>
-  </li>
-  <li>
-    <a href="cli-resource-pool-management-800.html">Resource pool management
-    </a>
-  </li>
-  <li>
-    <a href="cli-dhcp-snippet-management-796.html">DHCP snippet management
-    </a>
-  </li>
-  <li>
-    <a href="cli-commissioning-and-hardware-testing-scripts-832.html">Commissioning and hardware testing scripts
-    </a>
-  </li>
-  <li>
-    <a href="cli-advanced-tasks-793.html">Advanced tasks
-    </a>
-  </li>
-  <li>
-    <a href="cli-composable-hardware-795.html">Composable hardware
-    </a>
-  </li>
-  <li>
-    <a href="python-api-client-810.html">API client
-    </a>
-  </li>
-</ul>
-<h3>
-  <a href="https://maas.io/docs/api">API documentation
-  </a>
-</h3>
-<ul>
-  <li>
-    <a href="api-authentication-742.html">API authentication
-    </a>
-  </li>
-</ul>
-<h3>
   <a href="troubleshooting-837.html">Troubleshoot
   </a>
 </h3>
@@ -370,11 +307,51 @@ You can do everything through the MAAS CLI.  No need for a GUI, a browser, or de
 <li><a href="concepts-and-terms-785.html">What concepts might I need to understand before starting?</a></li>
 <li><a href="explore-maas-787.html">Can I just install it and try it for myself?</a></li>
 </ul>
+<!-- cli
+
+<pre><code>+-------------------+---------+-----------+------------+-------------+--------------+-------------------+
+| Hostname          | Power   | Status    | Owner      | Zone        | Fabric       | Subnet            |
+| System ID         | Type    | Vendor    | Pool       | Spaces      | VLAN         | MAC Address       |
++===================+=========+===========+============+=============+==============+===================+
+| 52-54-00-15-36-f2 | off     | Allocated | admin      | Medications | Patient-Care | 192.168.123.0/24  |
+| kbrpyq            | virsh   | QEMU      | MedRec     |             | untagged     | 52:54:00:15:36:f2 |
++-------------------+---------+-----------+------------+-------------+--------------+-------------------+
+| 52-54-00-17-64-c8 | off     | Deployed  | admin      | Medications | Patient-Care | 192.168.123.0/24  |
+| n4cgrm            | virsh   | QEMU      | Prescriber |             | untagged     | 52:54:00:17:64:c8 |
++-------------------+---------+-----------+------------+-------------+--------------+-------------------+
+| 52-54-00-1d-47-95 | off     | Allocated | admin      | Payroll     | Patient-Care | 192.168.123.0/24  |
+| b73rrn            | virsh   | QEMU      | StaffComp  |             | untagged     | 52:54:00:1d:47:95 |
++-------------------+---------+-----------+------------+-------------+--------------+-------------------+
+| 52-54-00-1e-06-41 | off     | Deployed  | admin      | Medications | Patient-Care | 192.168.123.0/24  |
+| ysf7g8            | virsh   | QEMU      | NurServ    |             | untagged     | 52:54:00:1e:06:41 |
++-------------------+---------+-----------+------------+-------------+--------------+-------------------+
+| 52-54-00-1e-a5-7e | off     | Ready     | None       | ProServ     | Patient-Care | 192.168.123.0/24  |
+| cnky7e            | virsh   | QEMU      | PhysDoc    |             | untagged     | 52:54:00:1e:a5:7e |
++-------------------+---------+-----------+------------+-------------+--------------+-------------------+
+| 52-54-00-2e-c4-40 | off     | Ready     | None       | Inventory   | Patient-Care | 192.168.123.0/24  |
+| 7ca7qs            | virsh   | QEMU      | SuppServ   |             | untagged     | 52:54:00:2e:c4:40 |
++-------------------+---------+-----------+------------+-------------+--------------+-------------------+
+| 52-54-00-4e-60-b2 | off     | Ready     | None       | Medications | Patient-Care | 192.168.123.0/24  |
+| tgckyb            | virsh   | QEMU      | MedRec     |             | untagged     | 52:54:00:4e:60:b2 |
++-------------------+---------+-----------+------------+-------------+--------------+-------------------+
+| 52-54-00-52-93-10 | off     | Ready     | None       | BizOffice   | Patient-Care | 192.168.123.0/24  |
+| c3337x            | virsh   | QEMU      | BusOfc     |             | untagged     | 52:54:00:52:93:10 |
++-------------------+---------+-----------+------------+-------------+--------------+-------------------+
+| 52-54-00-5d-b5-a1 | off     | Ready     | None       | Payroll     | Patient-Care | 192.168.123.0/24  |
+| epth6x            | virsh   | QEMU      | StaffComp  |             | untagged     | 52:54:00:5d:b5:a1 |
++-------------------+---------+-----------+------------+-------------+--------------+-------------------+
+</code></pre>
+
+cli -->
+
 <p><img alt="splash-screen|690x406" src="https://discourse.maas.io/uploads/default/optimized/1X/18456dbd3fbfec14eddd044816fd0719692282da_2_690x406.jpeg"> 
 <!-- vanilla
 <img alt="splash-screen|690x406" src="https://discourse.maas.io/uploads/default/optimized/1X/18456dbd3fbfec14eddd044816fd0719692282da_2_690x406.jpeg"> 
  vanilla --></p>
-<p><em>Part of the machine list from <a href="give-me-an-example-of-maas-1314.html">Metaphorical General Hospital</a>, our example datacentre.</em></p>
+<p><em>Part of the machine list from <a href="give-me-an-example-of-maas-1314.html">Metaphorical General Hospital</a>, our example datacentre.</em>
+<!-- cli
+ *Generated with <a href="https://github.com/billwear/maas-cli-tools">lsmm</a>.*
+ cli --></p>
 <hr>
 <h2 id="heading--whats-new">New version of MAAS</h2>
 
