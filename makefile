@@ -5,9 +5,11 @@
 	mv $@ maas-vanilla
 	cp templates/ui-only-template.html ./template.html
 	xpub convert discourse tagged html $< ui
+	scp $@ stormrider.io:/var/www/html/maas-rad/maas-rad-ui
 	mv $@ maas-rad-ui
 	cp templates/cli-only-template.html ./template.html
 	xpub convert discourse tagged html $< ui
+	scp $@ stormrider.io:/var/www/html/maas-rad/maas-rad-cli
 	cp $@  maas-rad-cli
 
 finale: maas-documentation-25.html about-maas-840.html
