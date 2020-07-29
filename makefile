@@ -1,6 +1,7 @@
 %.html: %.md
 	cp templates/vanilla-template.html ./template.html
 	xpub convert discourse tagged html $< vanilla
+	scp $@ stormrider.io:/var/www/html/maas-rad/maas-vanilla
 	mv $@ maas-vanilla
 	cp templates/ui-only-template.html ./template.html
 	xpub convert discourse tagged html $< ui
