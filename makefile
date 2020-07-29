@@ -1,4 +1,4 @@
-all: maas-documentation-25.html about-maas-840.html
+.PHONY: %.html file
 
 %.html: %.md
 	cp templates/vanilla-template.html ./template.html
@@ -10,6 +10,8 @@ all: maas-documentation-25.html about-maas-840.html
 	cp templates/cli-only-template.html ./template.html
 	xpub convert discourse tagged html $< ui
 	cp $@  maas-rad-cli
+
+finale: %.html
 	xpub push github all
 
 
