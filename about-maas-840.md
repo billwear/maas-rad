@@ -53,14 +53,7 @@ MAAS can manage a large number of physical machines by merging them into user-de
 
 MAAS integrates all the tools you need into a smooth system-management experience. It includes:
 
-<!-- ui
-- web UI (optimised for mobile devices)
- ui -->
- 
-<!-- vanilla
-- web UI (optimised for mobile devices)
- vanilla -->
- 
+<!-- cli
 - Ubuntu, CentOS, Windows, and RHEL installation support
 - open-source IP address management (IPAM)
 - full API/CLI support
@@ -73,20 +66,50 @@ MAAS integrates all the tools you need into a smooth system-management experienc
 - NTP for the entire infrastructure
 - hardware testing
 - composable hardware support
+cli -->
 
-These tools can be controlled from
+<!-- ui
+- web UI (optimised for mobile devices)
+- Ubuntu, CentOS, Windows, and RHEL installation support
+- open-source IP address management (IPAM)
+- high availability (optional)
+- IPv6 support
+- inventory of components
+- DHCP and DNS for other devices on the network
+- DHCP relay integration
+- VLAN and fabric support
+- NTP for the entire infrastructure
+- hardware testing
+- composable hardware support
+ ui -->
+ 
 <!-- vanilla
- a responsive web UI or a [CLI](/t/maas-cli/802) driven by a REST API.
+- web UI (optimised for mobile devices)
+- Ubuntu, CentOS, Windows, and RHEL installation support
+- open-source IP address management (IPAM)
+- full API/CLI support
+- high availability (optional)
+- IPv6 support
+- inventory of components
+- DHCP and DNS for other devices on the network
+- DHCP relay integration
+- VLAN and fabric support
+- NTP for the entire infrastructure
+- hardware testing
+- composable hardware support
+ vanilla -->
+ 
+<!-- vanilla
+These tools can be controlled from a responsive web UI or a [CLI](/t/maas-cli/802) driven by a REST API. You can easily (re)configure and scale your data centre with MAAS.
  vanilla -->
 
 <!-- ui
- a responsive web UI.
- ui -->
+These tools can be controlled from a responsive web UI. You can easily (re)configure and scale your data centre with MAAS.
+ui -->
 
 <!-- cli
- a [CLI](/t/maas-cli/802) driven by a REST API.
+These tools can be controlled from a [CLI](/t/maas-cli/802) driven by a REST API. You can easily (re)configure and scale your data centre with MAAS.
  cli -->
-You can easily (re)configure and scale your data centre with MAAS.
 
 <!-- ui
 ![mixed-states|690x438](https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg)  
