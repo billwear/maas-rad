@@ -1,4 +1,4 @@
-.PHONY: %.html finale
+.PHONY: finale %.html
 
 %.html: %.md
 	cp templates/vanilla-template.html ./template.html
