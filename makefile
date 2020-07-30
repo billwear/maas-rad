@@ -12,7 +12,8 @@
 	scp $@ stormrider.io:/var/www/html/maas-rad/maas-rad-cli
 	cp $@  maas-rad-cli
 
-finale: maas-documentation-25.html about-maas-840.html
+finale: maas-documentation-25.html about-maas-840.html \
+	give-me-an-example-of-maas-1314.md
 	yes | xpub push github all
 
 
