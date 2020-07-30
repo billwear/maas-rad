@@ -29,7 +29,7 @@ You can handle this lowest level with individual [machines](/t/introduction-to-m
 
 ![vmm|690x330](https://discourse.maas.io/uploads/default/optimized/1X/f66940a21313a27734bcaef6c539d36a720a6834_2_690x330.jpeg) 
 
-<details><summary><em>Try it!</em></summary>
+<!--<details>--><!--<summary>--><em>Try it!</em><!--</summary>-->
 
 <h4>Creating some sample VMs</h4>
 
@@ -106,7 +106,7 @@ Let's assume that once you're done adding VMs, you have around 20 up and ready, 
 ![kvms|517x500](https://discourse.maas.io/uploads/default/optimized/1X/f9f302d8de9344908758a433dae9abfada0b0db3_2_517x500.jpeg) 
 
 No need to create a lot of VMs for this example (unless you just want to do so).  
-</details>
+<!--</details>-->
 <h3>Manually adding machines</h3>
 
 Once you've created the necessary VMs, you'll want to [manually add machines](/t/add-machines/821#heading--add-a-node-manually) to MAAS that correspond to your VMs.
