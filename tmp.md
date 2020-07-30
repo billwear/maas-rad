@@ -8,6 +8,7 @@ vanilla -->
 ![splash-screen|690x406](https://discourse.maas.io/uploads/default/optimized/1X/18456dbd3fbfec14eddd044816fd0719692282da_2_690x406.jpeg)
 ui -->
 
+*TODO: Text image of hospital machines in mixed states*
 
 So imagine that you're the IT administrator for a new, 100-bed hospital that's under construction, intended to serve a suburban community of 5,000 people.  Call it "Metaphorical General Hospital" (MGH).   Your job is to design a flexible datacentre for this facility.  You've decided to start with MAAS as your tool of choice, and for this planning exercise, you'll use VMs in a VM host.
 
