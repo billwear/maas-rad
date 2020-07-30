@@ -39,6 +39,7 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 
 
 <!-- cli
+
 ***TODO: research and post the virsh steps for creating VMs***
 cli-->
 
