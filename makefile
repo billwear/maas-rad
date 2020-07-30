@@ -8,7 +8,7 @@
 	scp $@ stormrider.io:/var/www/html/maas-rad/maas-rad-ui
 	mv $@ maas-rad-ui
 	cp templates/cli-only-template.html ./template.html
-	xpub convert discourse tagged html $< ui
+	xpub convert discourse tagged html $< cli
 	scp $@ stormrider.io:/var/www/html/maas-rad/maas-rad-cli
 	cp $@  maas-rad-cli
 
