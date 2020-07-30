@@ -27,6 +27,8 @@ You'll need to start with a little network thinking (and design).  Talking throu
 
 You can handle this lowest level with individual [machines](/t/introduction-to-machines/829).  With MAAS, you'll be able to modify how many machines are performing which functions, somewhat on-the-fly, but let's assume that you start by creating (at least) one VM for each function.  Since you can reassign machines at will, you aren't going to name them for their functions; instead, you're just going to use the MAC address of each machine to uniquely identify it.
 
+![vmm|690x330](https://discourse.maas.io/uploads/default/optimized/1X/f66940a21313a27734bcaef6c539d36a720a6834_2_690x330.jpeg) 
+
 <details>
 <summary>
 <em>Try it!</em>
