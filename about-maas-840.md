@@ -41,14 +41,14 @@ Machine-readable output follows:
 ```
 cli -->
 
-<details>
+
 
 Tell me about PXE booting
 
 
 PXE stands for "Preboot Execution Environment," usually pronounced "pixie."  The term refers to a way of booting an OS image (or other software assembly) downloaded to a client via a NIC.  The NIC must be PXE-capable for this to work.  Many NICs can be configured to support PXE boot with a software switch.
 
-</details>
+
 
 <h2 id="heading--what-maas-offers">What MAAS offers</h2>
 
@@ -166,7 +166,7 @@ In special cases, such as [high availability or load balancing](/t/high-availabi
 
 When you [add a new machine](/t/add-machines/821#heading--add-a-node-manually) to MAAS, or elect to add a machine that MAAS has [enlisted](/t/add-machines/821#heading--enlistment), MAAS [commissions](/t/commission-machines/822) it for service and adds it to the pool.  At that point, the machine is ready for use. MAAS keeps things simple, marking machines as "New," "Commissioning," "Ready," and so on.
 
-<details>
+
 
 Tell me, quickly, about enlistment and commissioning.
 
@@ -177,7 +177,7 @@ Enlistment just means that MAAS discovers a machine when you turn it on, and pre
 
 Commissioning means that MAAS has successfully booted the machine, scanned and recorded its resources, and prepared it for eventual deployment.  Machines that you explicitly add are automatically commissioned.  MAAS marks a successfully-commissioned machine as "Ready" in the machine list.
 
-</details>
+
 
 <!-- ui
 ![commissioning|606x400](https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg)

@@ -1,6 +1,6 @@
 Built on a foundation of networking knowledge, MAAS introduces a number of new terms, and adds some nuances to common terms.  Some of these terms may be common networking terms you never looked up; others represent more complex concepts that may be unique to MAAS.  This article presents and explains some of these important terms.
 
-<details>
+
 
 Show me an alphabetical list of terms
 
@@ -42,7 +42,7 @@ Show me an alphabetical list of terms
 * [VM hosts](/t/concepts-and-terms/785#heading--vm-hosts)
 * [WAN](/t/concepts-and-terms/785#heading--WAN)
 
-</details>
+
 
 <h2 id="heading--nodes">Nodes</h2>
 
@@ -121,7 +121,7 @@ An image is used to provision a machine. As soon as you install MAAS, images are
 
 A **fabric** connects VLANs.  If you understand a VLAN, you know that they permit network connections only between specific switch ports or specifically identified ports ("tagged" ports). Consequently, it would be impossible for two VLANs to communicate with each other.  A fabric makes these VLAN-to-VLAN connections possible.
 
-<details>
+
 
 Take me on a quick, deep dive on fabrics
 
@@ -140,7 +140,7 @@ The details of the method aren't particularly relevant here, but it usually invo
 
 Think of each of the local exchange conferences as a VLAN; the long-distance operator's patch cables created what was called a "fabric."  Our use of fabric is exactly the same idea: some number of private "conversations" (connections) connected to each other so that specific people in each "group" can all talk to each other. 
 
-</details>
+
 
 You could describe a fabric as a VLAN namespace. It's a switch or a combination of switches that use trunking to provide access to specific VLANs. MAAS creates a default fabric ('fabric-0') for each detected subnet during installation.
 

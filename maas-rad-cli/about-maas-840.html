@@ -396,15 +396,8 @@ Machine-readable output follows:
     &quot;current_installation_result_id&quot;: 80, ...
 </code></pre>
 
-<details>
-
-Tell me about PXE booting
-
-
-PXE stands for "Preboot Execution Environment," usually pronounced "pixie."  The term refers to a way of booting an OS image (or other software assembly) downloaded to a client via a NIC.  The NIC must be PXE-capable for this to work.  Many NICs can be configured to support PXE boot with a software switch.
-
-</details>
-
+<p>Tell me about PXE booting</p>
+<p>PXE stands for &ldquo;Preboot Execution Environment,&rdquo; usually pronounced &ldquo;pixie.&rdquo;  The term refers to a way of booting an OS image (or other software assembly) downloaded to a client via a NIC.  The NIC must be PXE-capable for this to work.  Many NICs can be configured to support PXE boot with a software switch.</p>
 <h2 id="heading--what-maas-offers">What MAAS offers</h2>
 
 <p>MAAS can manage a large number of physical machines by merging them into user-defined resource pools. MAAS automatically provisions participating machines and makes them available for use. You can return unused machines to the assigned pool at any time. </p>
@@ -505,19 +498,10 @@ Please note that Windows and RHEL images require <a href="https://www.ubuntu.com
 <h2 id="heading--how-maas-works">How MAAS works</h2>
 
 <p>When you <a href="add-machines-821.html#heading--add-a-node-manually">add a new machine</a> to MAAS, or elect to add a machine that MAAS has <a href="add-machines-821.html#heading--enlistment">enlisted</a>, MAAS <a href="commission-machines-822.html">commissions</a> it for service and adds it to the pool.  At that point, the machine is ready for use. MAAS keeps things simple, marking machines as &ldquo;New,&rdquo; &ldquo;Commissioning,&rdquo; &ldquo;Ready,&rdquo; and so on.</p>
-<details>
-
-Tell me, quickly, about enlistment and commissioning.
-
-
-There are two ways to add a machine to MAAS.  Assuming it's on the network and capable of PXE-booting, you can add it explicitly -- or MAAS can simply discover it when you turn it on.
-
-Enlistment just means that MAAS discovers a machine when you turn it on, and presents it to the MAAS administrator, so that they can choose whether or not to commission it.  Machines that have only been enlisted will show up in the machine list as "New."
-
-Commissioning means that MAAS has successfully booted the machine, scanned and recorded its resources, and prepared it for eventual deployment.  Machines that you explicitly add are automatically commissioned.  MAAS marks a successfully-commissioned machine as "Ready" in the machine list.
-
-</details>
-
+<p>Tell me, quickly, about enlistment and commissioning.</p>
+<p>There are two ways to add a machine to MAAS.  Assuming it&rsquo;s on the network and capable of PXE-booting, you can add it explicitly &ndash; or MAAS can simply discover it when you turn it on.</p>
+<p>Enlistment just means that MAAS discovers a machine when you turn it on, and presents it to the MAAS administrator, so that they can choose whether or not to commission it.  Machines that have only been enlisted will show up in the machine list as &ldquo;New.&rdquo;</p>
+<p>Commissioning means that MAAS has successfully booted the machine, scanned and recorded its resources, and prepared it for eventual deployment.  Machines that you explicitly add are automatically commissioned.  MAAS marks a successfully-commissioned machine as &ldquo;Ready&rdquo; in the machine list.</p>
 <!-- ui
 ![commissioning|606x400](https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg)
  ui -->

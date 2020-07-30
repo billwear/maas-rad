@@ -31,7 +31,7 @@ You can handle this lowest level with individual [machines](/t/introduction-to-m
 
 ![vmm|690x330](https://discourse.maas.io/uploads/default/optimized/1X/f66940a21313a27734bcaef6c539d36a720a6834_2_690x330.jpeg) 
 
-<details>
+
 
 <em>Try it!</em>
 
@@ -103,7 +103,7 @@ Another VM will instantiate, using the name of the cloned VM with an added "-clo
 
 You can create VMs as desired, remembering to mind your overall disk usage on your host system.
 
-</details>
+
 
 Let's assume that once you're done adding VMs, you have around 20 up and ready, all named after their assigned MAC address:
 
@@ -117,7 +117,7 @@ Once you've created the necessary VMs, you'll want to [manually add machines](/t
 
 ![blank-machines|690x440](https://discourse.maas.io/uploads/default/original/1X/91679cd615868eda4654541a68e59de57328ddfa.jpeg) 
 
-<details>
+
 
 <em>Try it!</em>
 
@@ -137,7 +137,7 @@ Here, we've assigned a variant of the MAC address as the machine name.  Note tha
 For default configurations, the Virsh Address is "qemu+ssh://[your-login-id]@192.168.122.1/system;" replace "[your-login-id]" with your username or login ID on the machine where you're hosting MAAS and the Virtual Machine Manager.  Likewise, the password is your normal login password for the same host.  Finally, you can retrieve the Virsh VM ID from the "Overview" screen of the VM itself:
 
 ![kvm-16|619x500](https://discourse.maas.io/uploads/default/original/1X/79e135e48576bb6f455dd42fd7a09a2c7448d221.jpeg) 
-<!-- </details> -->
+<!--  -->
 
 As you add machines, they automatically commission:
 
@@ -151,7 +151,7 @@ Assigning machines to specific functions is something you can do after you [comm
 
 ![tags|690x422](https://discourse.maas.io/uploads/default/original/1X/2ea0827b9ef327b59ad722215d556969218cc22f.jpeg) 
 
-<details>
+
 
 <em>Try it!</em>
 
@@ -171,7 +171,7 @@ Select "Save changes" to add the tag(s) to the machine.  When you return to the 
 
 ![tags-5|690x222](https://discourse.maas.io/uploads/default/optimized/1X/8a21ca291aa800440d9074270ab9d9108cff9be1_2_690x222.jpeg) 
 
-<!-- </details> -->
+<!--  -->
 
 Tags can will help you keep up with which machine(s) are covering which functions as you apply your apps.  You can search and filter by tags, and you can utilize tags from within the API, as well.
 
@@ -204,7 +204,7 @@ As you look at the list of functions you've created, and talk more with the staf
 
 You're aware that the number of machines you'll need use for each of the individual functions with vary according to real-world events in the hospital.  Still, you'd prefer to budget machines for these different functions, so that you know you can meet the needs of each.  The easiest way to handle this?  Creating [resource pools](/t/resource-pools/831) and naming them after the (new) top-level headings in your outline.  That way, you can reserve some number of machines for those functions, learning over time the right number of machines to allocate to each activity.
 
-<details>
+
 
 <em>Try it!</em>
 
@@ -233,7 +233,7 @@ Just choose the one you want for this machine (in our example, ProServ) and you'
 
 ![pools-6|690x215](https://discourse.maas.io/uploads/default/original/1X/0cff1cf26f28236dbabc89b14a92c69435934933.jpeg) 
 
-</details>
+
 
 Here's a snippet of the updated machine list, with all machines added to the appropriate resource pool:
 
@@ -247,7 +247,7 @@ Another optional identifier for machines is the "Note" field.  While it can be l
 
 ![notes-1|690x87](https://discourse.maas.io/uploads/default/optimized/1X/8724395dfe9fc4d3f4a10a05687c33c6a3dded07_2_690x87.jpeg) 
 
-<details>
+
 
 <em>Try it!</em>
 
@@ -264,7 +264,7 @@ When you save the changes and return to the machine list, you'll notice that the
 
 ![notes-4|690x93](https://discourse.maas.io/uploads/default/original/1X/46cf42808ef44829f1c610e479d6dfb62af2d898.jpeg) 
 
-</details>
+
 
 <h2>VLANs</h2>
 
@@ -289,7 +289,7 @@ Each of these higher-level groupings is ideal for a VLAN, so you create six of t
 
 ![vlans-1|690x365](https://discourse.maas.io/uploads/default/original/1X/7245ed378ce0b9000aaf6f15b16ea16dbde2fccf.jpeg) 
 
-<details>
+
 
 <em>Try it!</em>
 
@@ -314,7 +314,7 @@ Enter the Name and ID of the VLAN, and select the fabric to enclose it (in this 
 
 When you're satisfied with your choices, select "Add VLAN" to complete the operation.
 
-</details>
+
 
 Ignoring the networking aspects (for now), these VLANs should help isolate major functions and provide a level of data integrity and access control for your new hospital network.
 
@@ -333,7 +333,7 @@ Considering your network design so far, you notice that some of the VLANs need t
 
 You want to incorporate these highest-level groupings into your network, but how?  MAAS provides the answer with fabrics.  A fabric is a set of interconnected VLANs that can communicate, so you simply create three fabrics, each covering one of these top-level categories.
 
-<details>
+
 
 <em>Try it!</em>
 
@@ -360,6 +360,6 @@ You can click "Edit" and choose the desired fabric from the dropdown list:
 
 Finally, click "Save summary" to move this VLAN to the desired fabric.  The end result of assigning our example VLANs to the three fabrics is shown below.
 
-</details>
+
 
 ![fabrics-6|690x499](https://discourse.maas.io/uploads/default/original/1X/23c214cd6836dd783347f050f2cdba04da7bcaa1.jpeg)

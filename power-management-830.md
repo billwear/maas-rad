@@ -40,7 +40,7 @@ The machine's hostname -- according to MAAS -- is a randomly chosen string (here
 
 MAAS supports many types of BMC hardware, though not all the drivers have the same capabilities. See the below table for a feature comparison of the BMC drivers currently supported by MAAS.
 
-<details>
+
 
 Tell me about BMC
 
@@ -49,7 +49,7 @@ BMC, or "Baseboard Management Controller," is an extra microcontroller on the mo
 
 In the context of MAAS, the BMC is generally controlled by SNMP commands.  Any given BMC will function in the context of one or more "power types," which are physical interfaces that permit use of the IPMI ("Intelligent Platform Management Interface") protocol.  Each power type has a different set of expected parameters required to access and command the BMC.
 
-</details>
+
 
 <table>
 <colgroup>
