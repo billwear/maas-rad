@@ -37,6 +37,8 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 
 TODO: research and post the virsh steps for creating VMs
 
+
+
 <!-- ui
 1. Open the Virtual Machine Manager application.  You'll see a screen that looks something like this:
 
