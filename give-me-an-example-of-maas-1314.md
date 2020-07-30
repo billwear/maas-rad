@@ -31,10 +31,10 @@ You can handle this lowest level with individual [machines](/t/introduction-to-m
 
 ![vmm|690x330](https://discourse.maas.io/uploads/default/optimized/1X/f66940a21313a27734bcaef6c539d36a720a6834_2_690x330.jpeg) 
 
-<details>
-<summary>
+<!--<details>
+<summary> -->
 <em>Try it!</em>
-</summary>
+<!--</summary>-->
 <h4>Creating some sample VMs</h4>
 
 Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libvirt.html) on the machine where you'll be running MAAS, you can create virtual machines like this:
@@ -103,7 +103,7 @@ Another VM will instantiate, using the name of the cloned VM with an added "-clo
 
 You can create VMs as desired, remembering to mind your overall disk usage on your host system.
 
-</details>
+<!--</details>-->
 
 Let's assume that once you're done adding VMs, you have around 20 up and ready, all named after their assigned MAC address:
 
