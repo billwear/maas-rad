@@ -103,7 +103,7 @@ Another VM will instantiate, using the name of the cloned VM with an added "-clo
 
 You can create VMs as desired, remembering to mind your overall disk usage on your host system.
 
-<!--</details>-->
+</details>
 
 Let's assume that once you're done adding VMs, you have around 20 up and ready, all named after their assigned MAC address:
 
