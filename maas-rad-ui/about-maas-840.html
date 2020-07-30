@@ -333,7 +333,10 @@ Machine-readable output follows:
 
 cli -->
 
-<details><summary>Tell me about PXE booting</summary>
+<details>
+<summary>
+Tell me about PXE booting
+</summary>
 
 PXE stands for "Preboot Execution Environment," usually pronounced "pixie."  The term refers to a way of booting an OS image (or other software assembly) downloaded to a client via a NIC.  The NIC must be PXE-capable for this to work.  Many NICs can be configured to support PXE boot with a software switch.
 
@@ -440,7 +443,10 @@ Please note that Windows and RHEL images require <a href="https://www.ubuntu.com
 <h2 id="heading--how-maas-works">How MAAS works</h2>
 
 <p>When you <a href="add-machines-821.html#heading--add-a-node-manually">add a new machine</a> to MAAS, or elect to add a machine that MAAS has <a href="add-machines-821.html#heading--enlistment">enlisted</a>, MAAS <a href="commission-machines-822.html">commissions</a> it for service and adds it to the pool.  At that point, the machine is ready for use. MAAS keeps things simple, marking machines as &ldquo;New,&rdquo; &ldquo;Commissioning,&rdquo; &ldquo;Ready,&rdquo; and so on.</p>
-<details><summary>Tell me, quickly, about enlistment and commissioning.</summary>
+<details>
+<summary>
+Tell me, quickly, about enlistment and commissioning.
+</summary>
 
 There are two ways to add a machine to MAAS.  Assuming it's on the network and capable of PXE-booting, you can add it explicitly -- or MAAS can simply discover it when you turn it on.
 

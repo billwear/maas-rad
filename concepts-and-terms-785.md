@@ -1,6 +1,9 @@
 Built on a foundation of networking knowledge, MAAS introduces a number of new terms, and adds some nuances to common terms.  Some of these terms may be common networking terms you never looked up; others represent more complex concepts that may be unique to MAAS.  This article presents and explains some of these important terms.
 
-<details><summary>Show me an alphabetical list of terms</summary>
+<details>
+<summary>
+Show me an alphabetical list of terms
+</summary>
 
 * [Availability zones](/t/concepts-and-terms/785#heading--zones)
 * [Client](/t/concepts-and-terms/785#heading--client)
@@ -118,7 +121,10 @@ An image is used to provision a machine. As soon as you install MAAS, images are
 
 A **fabric** connects VLANs.  If you understand a VLAN, you know that they permit network connections only between specific switch ports or specifically identified ports ("tagged" ports). Consequently, it would be impossible for two VLANs to communicate with each other.  A fabric makes these VLAN-to-VLAN connections possible.
 
-<details><summary>Take me on a quick, deep dive on fabrics</summary>
+<details>
+<summary>
+Take me on a quick, deep dive on fabrics
+</summary>
 
 We can illustrate a network fabric more easily by rewinding the term to one of its earliest uses: the early phone system.  In a telephone switchboard, subscriber lines (customer phone numbers) ran in a grid pattern in the back of the switchboard, but they didn't touch each other until the operator inserted the plugs of a patch cable to join them.  With some "plugboards" (what a switchboard was actually called), an operator could conference multiple lines by adding more patch cords.
 

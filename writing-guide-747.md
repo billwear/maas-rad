@@ -200,10 +200,14 @@ You can create optional detail sections (something like and "in-line sidebar") b
 This sequence would present like this in the finished document:
 
 <details>
-<summary>this summary appears with an arrow next to it</summary>
+<summary>
+this summary appears with an arrow next to it
+</summary>
 this text toggles when you click on the arrow
 <details>
-<summary>You can do multiple levels of this.</summary>
+<summary>
+You can do multiple levels of this.
+</summary>
 this is yet another hidden level
 </details>
 </details>
