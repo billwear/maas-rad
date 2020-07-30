@@ -29,7 +29,7 @@ You can handle this lowest level with individual [machines](/t/introduction-to-m
 
 ![vmm|690x330](https://discourse.maas.io/uploads/default/optimized/1X/f66940a21313a27734bcaef6c539d36a720a6834_2_690x330.jpeg) 
 
-<detail><summary><em>Try it!</em></summary>
+<details><summary><em>Try it!</em></summary>
 
 <h4>Creating some sample VMs</h4>
 
