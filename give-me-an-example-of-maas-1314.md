@@ -9,7 +9,7 @@ vanilla -->
 ui -->
 
 <!-- cli
-*TODO: Text image of hospital machines in mixed states*
+***TODO: Text image of hospital machines in mixed states***
 cli-->
 
 So imagine that you're the IT administrator for a new, 100-bed hospital that's under construction, intended to serve a suburban community of 5,000 people.  Call it "Metaphorical General Hospital" (MGH).   Your job is to design a flexible datacentre for this facility.  You've decided to start with MAAS as your tool of choice, and for this planning exercise, you'll use VMs in a VM host.
