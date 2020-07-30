@@ -40,9 +40,9 @@ The MAAS region and rack controllers interact in a number of different ways, dep
 Again, this list doesn't represent every interaction between the controllers and machines, but it gives you a good idea of how MAAS works.
 
 <details>
-<summary>
+
 Tell me about the DHCP "next-server" statement
-</summary>
+
 
 The `next-server` directive is used to specify the host address from which an initial boot file is to be loaded, usually a TFTP server.  In the case of MAAS, the rack controller providing DHCP actually inserts itself, since it can proxy (broker) the delivery of boot bits to the machine in question.
 </details>

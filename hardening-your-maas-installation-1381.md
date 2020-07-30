@@ -63,9 +63,9 @@ Recognize that your particular configuration and version may vary, so consult th
 One of the best steps you can take to improve both security and availability of your MAAS installation is to install TLS-terminating load balancer.  For MAAS, we recommend using [HAProxy](https://www.haproxy.com).  This section explains how to set one up.
 
 <details>
-<summary>
+
 What is a TLS-terminated load balancer?
-</summary>
+
 
 In the context of MAAS, a [load balancer](https://www.nginx.com/resources/glossary/load-balancing/) distributes the incoming Web UI and API requests across multiple region controllers.  This reduces both load on MAAS and wait times for user requests.  Typically, this is known as a high-availability (HA) configuration, although there are two other [HA configurations](/t/high-availability/804) that can be enabled for MAAS: one for BMC access (for powering on machines), and one for DHCP, which enables primary and secondary DHCP instances that manage the same VLAN.
 

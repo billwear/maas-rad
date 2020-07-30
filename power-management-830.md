@@ -41,9 +41,9 @@ The machine's hostname -- according to MAAS -- is a randomly chosen string (here
 MAAS supports many types of BMC hardware, though not all the drivers have the same capabilities. See the below table for a feature comparison of the BMC drivers currently supported by MAAS.
 
 <details>
-<summary>
+
 Tell me about BMC
-</summary>
+
 
 BMC, or "Baseboard Management Controller," is an extra microcontroller on the motherboard of a server which forms the interface between system-management software and the device's hardware.  The BMC can collect data from attached sensors, alert administrators to issues, and respond to remote-control commands to control system operation or power state, independent of the system's CPU.
 

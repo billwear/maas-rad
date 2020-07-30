@@ -29,9 +29,9 @@ A rack controller provides:
 A rack controller is attached to each "fabric". As the name implies, a typical setup is to have a rack controller in each data centre server rack. The rack controller will cache large items for performance, such as operating system install images, but maintains no independent state other than the credentials required to talk to the region controller.
 
 <details>
-<summary>
+
 Tell me about fabrics
-</summary>
+
 
 A fabric is simply a way of linking [VLANs](/t/concepts-and-terms/785#heading--vlans) (Virtual LANs) together.  If you're familiar with a VLAN, you know that it's designed to limit network traffic to specific ports (e.g., on a [switch](/t/concepts-and-terms/785#heading--switch)) or by evaluating labels called "tags" (unrelated to MAAS tags).  By definition, this would mean that two VLANs can't communicate with each other -- it would defeat the purpose of the VLAN -- unless you implement some extraordinary measures.
 

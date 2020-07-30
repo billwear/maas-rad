@@ -28,7 +28,7 @@ After having chosen to install a region controller, three consecutive dialog box
 -   Set a username for the MAAS administrator
 -   Set a password for the MAAS administrator
 
-<details> <summary>Walkthrough of MAAS environment installation</summary>
+<details> Walkthrough of MAAS environment installation
 
 <p>Confirm the installation of a MAAS environment.
   <img alt="regiond install dialog 1" src="https://assets.ubuntu.com/v1/c6c52498-iso-install-region_01.png" /></p>
@@ -56,7 +56,7 @@ After having chosen to install a rack controller, three consecutive dialog boxes
 
 For nodes on an [IPv6](/t/ipv6/761) subnet, the URL must use a hostname instead of an IP address and it must resolve to both IPv4 and IPv6 addresses, both on the rack controller and on the nodes.
 
-<details> <summary>Walkthrough of rack controller installation</summary>
+<details> Walkthrough of rack controller installation
 <p>Confirm the installation of a rack controller.
   <img alt="rackd install dialog 1" src="https://assets.ubuntu.com/v1/c9074cf9-iso-install-rack_01.png" /></p>
 <p>Point the new rack controller at an existing region API server so it can
