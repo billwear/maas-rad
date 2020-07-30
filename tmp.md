@@ -35,23 +35,23 @@ You can handle this lowest level with individual [machines](/t/introduction-to-m
 
 Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libvirt.html) on the machine where you'll be running MAAS, you can create virtual machines like this:
 
-1. Open the Virtual Machine Manager application.  You'll see a screen that looks something like this:
+<p>1. Open the Virtual Machine Manager application.  You'll see a screen that looks something like this:</p>
 
 ![vmm|690x330](https://discourse.maas.io/uploads/default/optimized/1X/f66940a21313a27734bcaef6c539d36a720a6834_2_690x330.jpeg) 
 
-2. Choose File >> New Virtual Machine, which brings you to a corresponding dialog:
+<p>2. Choose File >> New Virtual Machine, which brings you to a corresponding dialog:</p>
 
 ![kvm-1|465x500](https://discourse.maas.io/uploads/default/original/1X/0702d9f2ab4c3659d13be553449093548a9e2f10.jpeg) 
 
-3. Select the "Network Boot (PXE)" option and click the "Forward" button:
+<p>3. Select the "Network Boot (PXE)" option and click the "Forward" button:</p>
 
 ![kvm-2|465x500](https://discourse.maas.io/uploads/default/original/1X/0000fb5f072f2b3668465753ae6a713859d8a444.jpeg)
 
-4.  Choose the "Generic..." operating system by typing the first letters of "Generic" in the text box and selecting the relevant choice when it becomes available, then go Forward:
+<p>4.  Choose the "Generic..." operating system by typing the first letters of "Generic" in the text box and selecting the relevant choice when it becomes available, then go Forward:</p>
 
 ![kvm-3|465x500](https://discourse.maas.io/uploads/default/original/1X/041914a0718633fce685ac7919e2478da0e62c1b.jpeg) 
 
-5. For CPU and memory, you can usually accept the defaults:
+<p>5. For CPU and memory, you can usually accept the defaults:</p>
 
 ![kvm-4|465x500](https://discourse.maas.io/uploads/default/original/1X/5a46262e3573aae7252951b3331ac9e3f3ef69c4.jpeg) 
 
