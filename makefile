@@ -1,4 +1,5 @@
-TARGET_DEPS := *.html
+TARGET_DEPS := *.md
+
 
 %.html: %.md
 	cp templates/vanilla-template.html ./template.html
