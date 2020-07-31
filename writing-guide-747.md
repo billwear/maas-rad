@@ -188,29 +188,25 @@ This image would appear in this way:
 
 You can create optional detail sections (something like and "in-line sidebar") by using these constructions:
 
-    
-    this summary appears with an arrow next to it
+    <details>
+    <summary>this summary appears with an arrow next to it</summary>
     this text toggles when you click on the arrow
-    
-    You can do multiple levels of this.
+    <details>
+    <summary>You can do multiple levels of this.</summary>
     this is yet another hidden level
-    
-    
+    </details>
+    </details>
 
 This sequence would present like this in the finished document:
 
-
-
-this summary appears with an arrow next to it
-
+<details>
+<summary>this summary appears with an arrow next to it</summary>
 this text toggles when you click on the arrow
-
-
-You can do multiple levels of this.
-
+<details>
+<summary>You can do multiple levels of this.</summary>
 this is yet another hidden level
-
-
+</details>
+</details>
 
 <h2 id="heading--capitalization">Capitalization</h2>
 

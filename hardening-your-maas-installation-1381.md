@@ -62,10 +62,7 @@ Recognize that your particular configuration and version may vary, so consult th
 
 One of the best steps you can take to improve both security and availability of your MAAS installation is to install TLS-terminating load balancer.  For MAAS, we recommend using [HAProxy](https://www.haproxy.com).  This section explains how to set one up.
 
-
-
-What is a TLS-terminated load balancer?
-
+<details><summary>What is a TLS-terminated load balancer?</summary>
 
 In the context of MAAS, a [load balancer](https://www.nginx.com/resources/glossary/load-balancing/) distributes the incoming Web UI and API requests across multiple region controllers.  This reduces both load on MAAS and wait times for user requests.  Typically, this is known as a high-availability (HA) configuration, although there are two other [HA configurations](/t/high-availability/804) that can be enabled for MAAS: one for BMC access (for powering on machines), and one for DHCP, which enables primary and secondary DHCP instances that manage the same VLAN.
 
@@ -73,7 +70,7 @@ A TLS-terminated load balancer is a load balancer that carries encryption and de
 
 TLS is meant to provide privacy and data integrity between two or more applications.  Privacy is provided by [symmetric cryptography](https://en.wikipedia.org/wiki/Symmetric-key_algorithm), based on a shared secret and uniquely-generated keys negotiated at the start of a session (during the [TLS handshake](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_handshake)).  Identity of each app can be authenticated, though this feature can be optional.  Authenticity of messages is ensured by using [message authentication codes](https://en.wikipedia.org/wiki/Message_authentication_code) to detect tampering.
 
-
+</details>
 
 <h3 id="heading--pem-file">PEM file</h3>
 

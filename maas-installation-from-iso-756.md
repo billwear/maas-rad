@@ -28,7 +28,7 @@ After having chosen to install a region controller, three consecutive dialog box
 -   Set a username for the MAAS administrator
 -   Set a password for the MAAS administrator
 
- Walkthrough of MAAS environment installation
+<details> <summary>Walkthrough of MAAS environment installation</summary>
 
 <p>Confirm the installation of a MAAS environment.
   <img alt="regiond install dialog 1" src="https://assets.ubuntu.com/v1/c6c52498-iso-install-region_01.png" /></p>
@@ -42,7 +42,7 @@ After having chosen to install a region controller, three consecutive dialog box
   <img alt="regiond install dialog 3" src="https://assets.ubuntu.com/v1/0b9e34b5-iso-install-region_03.png" /></p>
 <!-- LINKS -->
 
- 
+</details> 
 
 During one step of the generic Server install you will be asked whether a proxy is needed for the server itself. This is separate from the proxy that MAAS provides to its nodes (see [Proxy](/t/proxy/763)).
 
@@ -56,7 +56,7 @@ After having chosen to install a rack controller, three consecutive dialog boxes
 
 For nodes on an [IPv6](/t/ipv6/761) subnet, the URL must use a hostname instead of an IP address and it must resolve to both IPv4 and IPv6 addresses, both on the rack controller and on the nodes.
 
- Walkthrough of rack controller installation
+<details> <summary>Walkthrough of rack controller installation</summary>
 <p>Confirm the installation of a rack controller.
   <img alt="rackd install dialog 1" src="https://assets.ubuntu.com/v1/c9074cf9-iso-install-rack_01.png" /></p>
 <p>Point the new rack controller at an existing region API server so it can
@@ -67,7 +67,7 @@ For nodes on an [IPv6](/t/ipv6/761) subnet, the URL must use a hostname instead 
   <img alt="rackd install dialog 3" src="https://assets.ubuntu.com/v1/4edce87a-iso-install-rack_03.png" /></p>
 <!-- LINKS -->
 
- 
+</details> 
 
 The final dialog will not confirm whether registration was successful. Once Ubuntu Server is fully installed and rebooted you should inspect `/var/log/maas/rackd.log` for any possible error messages. Alternatively, you may verify that the rack controller shows up in the web UI. You can always register the rack controller manually (after the server has rebooted) if a mistake was made. See [MAAS CLI - install a rack controller](/t/advanced-cli-tasks/793#heading--install-a-rack-controller).
 

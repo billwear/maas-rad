@@ -13,42 +13,13 @@ MAAS expands to "Metal As A Service". It converts bare-metal servers into cloud 
 
 MAAS can act as a standalone PXE/preseed service or integrate with other technologies. It works exceptionally well with [Juju](https://jaas.ai/docs/maas-cloud), the service and model management tool. MAAS manages the machines and Juju manages the services running on those machines -- a perfect arrangement.  Virtual machines (VMs) can even act as MAAS machines if they boot from the network via PXE.
 
-<!-- ui
 ![deploying|690x385](https://discourse.maas.io/uploads/default/original/1X/d19eff9ef45c554d085ee1d657e4ddd810eac6df.jpeg)  
- ui -->
 
-<!-- vanilla
-![deploying|690x385](https://discourse.maas.io/uploads/default/original/1X/d19eff9ef45c554d085ee1d657e4ddd810eac6df.jpeg)  
- vanilla -->
-
-<!-- cli
-```
-~/mnt/Dropbox/src/git/maas-rad $ maas admin machine deploy kbrpyq
-Success.
-Machine-readable output follows:
-{
-    "current_commissioning_result_id": 15,
-    "memory_test_status": -1,
-    "min_hwe_kernel": "",
-    "pod": null,
-    "status": 9,
-    "power_type": "virsh",
-    "status_name": "Deploying",
-    "cache_sets": [],
-    "bios_boot_method": "pxe",
-    "power_state": "off",
-    "current_installation_result_id": 80, ...
-```
-cli -->
-
-
-
-Tell me about PXE booting
-
+<details><summary>Tell me about PXE booting</summary>
 
 PXE stands for "Preboot Execution Environment," usually pronounced "pixie."  The term refers to a way of booting an OS image (or other software assembly) downloaded to a client via a NIC.  The NIC must be PXE-capable for this to work.  Many NICs can be configured to support PXE boot with a software switch.
 
-
+</details>
 
 <h2 id="heading--what-maas-offers">What MAAS offers</h2>
 
@@ -56,37 +27,6 @@ MAAS can manage a large number of physical machines by merging them into user-de
 
 MAAS integrates all the tools you need into a smooth system-management experience. It includes:
 
-<!-- cli
-- Ubuntu, CentOS, Windows, and RHEL installation support
-- open-source IP address management (IPAM)
-- full API/CLI support
-- high availability (optional)
-- IPv6 support
-- inventory of components
-- DHCP and DNS for other devices on the network
-- DHCP relay integration
-- VLAN and fabric support
-- NTP for the entire infrastructure
-- hardware testing
-- composable hardware support
-cli -->
-
-<!-- ui
-- web UI (optimised for mobile devices)
-- Ubuntu, CentOS, Windows, and RHEL installation support
-- open-source IP address management (IPAM)
-- high availability (optional)
-- IPv6 support
-- inventory of components
-- DHCP and DNS for other devices on the network
-- DHCP relay integration
-- VLAN and fabric support
-- NTP for the entire infrastructure
-- hardware testing
-- composable hardware support
- ui -->
- 
-<!-- vanilla
 - web UI (optimised for mobile devices)
 - Ubuntu, CentOS, Windows, and RHEL installation support
 - open-source IP address management (IPAM)
@@ -100,51 +40,10 @@ cli -->
 - NTP for the entire infrastructure
 - hardware testing
 - composable hardware support
- vanilla -->
- 
-<!-- vanilla
-These tools can be controlled from a responsive web UI or a [CLI](/t/maas-cli/802) driven by a REST API. You can easily (re)configure and scale your data centre with MAAS.
- vanilla -->
 
-<!-- ui
-These tools can be controlled from a responsive web UI. You can easily (re)configure and scale your data centre with MAAS.
-ui -->
+These tools can be controlled from a responsive web UI or a [CLI](/t/maas-cli/802) driven by a REST API.  You can easily (re)configure and scale your data centre with MAAS.
 
-<!-- cli
-These tools can be controlled from a [CLI](/t/maas-cli/802) driven by a REST API. You can easily (re)configure and scale your data centre with MAAS.
- cli -->
-
-<!-- ui
 ![mixed-states|690x438](https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg)  
- ui -->
-
-<!-- vanilla
-![mixed-states|690x438](https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg)  
- vanilla -->
-
-<!-- cli
-```
-+-------------------+---------+-----------+------------+-------------+--------------+-------------------+
-| Hostname          | Power   | Status    | Owner      | Zone        | Fabric       | Subnet            |
-| System ID         | Type    | Vendor    | Pool       | Spaces      | VLAN         | MAC Address       |
-+===================+=========+===========+============+=============+==============+===================+
-| 52-54-00-15-36-f2 | on      | Deploying | admin      | Medications | Patient-Care | 192.168.123.0/24  |
-| kbrpyq            | virsh   | QEMU      | MedRec     |             | untagged     | 52:54:00:15:36:f2 |
-+-------------------+---------+-----------+------------+-------------+--------------+-------------------+
-| 52-54-00-17-64-c8 | off     | Deployed  | admin      | Medications | Patient-Care | 192.168.123.0/24  |
-| n4cgrm            | virsh   | QEMU      | Prescriber |             | untagged     | 52:54:00:17:64:c8 |
-+-------------------+---------+-----------+------------+-------------+--------------+-------------------+
-| 52-54-00-1d-47-95 | off     | Allocated | admin      | Payroll     | Patient-Care | 192.168.123.0/24  |
-| b73rrn            | virsh   | QEMU      | StaffComp  |             | untagged     | 52:54:00:1d:47:95 |
-+-------------------+---------+-----------+------------+-------------+--------------+-------------------+
-| 52-54-00-1e-06-41 | off     | Deployed  | admin      | Medications | Patient-Care | 192.168.123.0/24  |
-| ysf7g8            | virsh   | QEMU      | NurServ    |             | untagged     | 52:54:00:1e:06:41 |
-+-------------------+---------+-----------+------------+-------------+--------------+-------------------+
-| 52-54-00-1e-a5-7e | off     | Ready     | None       | ProServ     | Patient-Care | 192.168.123.0/24  |
-| cnky7e            | virsh   | QEMU      | PhysDoc    |             | untagged     | 52:54:00:1e:a5:7e |
-+-------------------+---------+-----------+------------+-------------+--------------+-------------------+
-```
-cli -->
 
 MAAS works with any system configuration tools. Both the [Chef](https://www.chef.io/chef) and [Juju](https://jaas.ai/) teams recommend MAAS as a physical provisioning system.
 
@@ -166,10 +65,7 @@ In special cases, such as [high availability or load balancing](/t/high-availabi
 
 When you [add a new machine](/t/add-machines/821#heading--add-a-node-manually) to MAAS, or elect to add a machine that MAAS has [enlisted](/t/add-machines/821#heading--enlistment), MAAS [commissions](/t/commission-machines/822) it for service and adds it to the pool.  At that point, the machine is ready for use. MAAS keeps things simple, marking machines as "New," "Commissioning," "Ready," and so on.
 
-
-
-Tell me, quickly, about enlistment and commissioning.
-
+<details><summary>Tell me, quickly, about enlistment and commissioning.</summary>
 
 There are two ways to add a machine to MAAS.  Assuming it's on the network and capable of PXE-booting, you can add it explicitly -- or MAAS can simply discover it when you turn it on.
 
@@ -177,24 +73,9 @@ Enlistment just means that MAAS discovers a machine when you turn it on, and pre
 
 Commissioning means that MAAS has successfully booted the machine, scanned and recorded its resources, and prepared it for eventual deployment.  Machines that you explicitly add are automatically commissioned.  MAAS marks a successfully-commissioned machine as "Ready" in the machine list.
 
+</details>
 
-
-<!-- ui
-![commissioning|606x400](https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg)
- ui -->
- 
-<!-- vanilla
-![commissioning|606x400](https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg)
- vanilla -->
- 
-<!-- cli
-```
-+-------------------+---------+----------------+------------+-----
-| 52-54-00-17-64-c8 | off     | Commissioning  | admin      | Medi
-| n4cgrm            | virsh   | QEMU           | Prescriber |     
-+-------------------+---------+----------------+------------+-----
-```
-cli -->
+![commissioning|606x400](https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg) 
 
 MAAS controls machines through IPMI (or another BMC). It can also manage machines through a converged chassis controller, such as Cisco UCS.  You can choose how you want to control power on your machines based on what is available.  MAAS overwrites the machine's disk space with your chosen, pre-cached OS images.
 
@@ -204,46 +85,11 @@ MAAS controls machines through IPMI (or another BMC). It can also manage machine
 
 MAAS users allocate ("acquire") machines for use when needed. The web UI also allows you to acquire machines manually, such as when you are reserving specific hardware for certain users. You can remotely access and customise the installed operating system via SSH.
 
-<!-- ui
-![acquire|690x363](https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg)
- ui -->
+![acquire|690x363](https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg) 
 
-<!-- vanilla
-![acquire|690x363](https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg)
- vanilla -->
-
-<!-- cli
-```
-+-------------------+---------+-----------+------------+-------------+--------------+-------------------+
-| 52-54-00-9b-e4-9a | off     | Ready     | None       | default     | Patient-Care | 192.168.123.0/24  |
-| af8e33            | virsh   | QEMU      | default    |             | untagged     | 52:54:00:9b:e4:9a |
-+-------------------+---------+-----------+------------+-------------+--------------+-------------------+
-
-~ $ maas admin machines allocate system_id=af8e33
-Success.
-Machine-readable output follows:
-{
-...
-    "min_hwe_kernel": "",
-    "node_type_name": "Machine",
-    "testing_status_name": "Passed",
-    "network_test_status": -1,
-    "interface_test_status": -1,
-    "current_testing_result_id": 70,
-    "cpu_count": 1,
-    "storage_test_status": 2,
-    "system_id": "af8e33",
-    "status_name": "Allocated",
-...
-}
-```
-cli -->
-
-<!-- cli
 When acquiring machines from the API/CLI, you can specify requirements ("constraints"). Common constraints are memory, CPU cores, connected networks, and assigned physical zone.
 
- cli -->
 An acquired MAAS machine is more flexible than a virtual instance in a cloud. You have complete control, including hardware drivers and root access. If you want to upgrade the BIOS, for example, you can allocate a machine to yourself and complete the upgrade.  Once you have completed the upgrade, you can send the machine back to the pool.
 
 Note that [Juju](https://jaas.ai/docs/maas-cloud) is designed to work with MAAS. MAAS becomes a backend Juju resource pool with all functionality fully available. For instance, if Juju removes a machine, then MAAS will release that machine to the pool.  With Juju, MAAS can become an integral part of your data centre strategy and operations.
-
+<!-- zork-out -->

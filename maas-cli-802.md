@@ -1,6 +1,6 @@
 The MAAS CLI can do everything that the web UI can do, and more. The CLI uses the `maas` command exclusively which, in turn, connects to the API.  This page explains what is needed to get started with the CLI.
 
-Note that we do not provide complete coverage of the MAAS CLI. For an exhaustive treatment, you may want to see the [API documentation](https://maas.io/docs/api).  Also note that this page represents user-entered values as uppercase variables preceded with the '$' character (e.g. $PROFILE and $EMAIL_ADDRESS). You should replace these placeholders with actual values.
+Note that this article does not provide complete coverage of the MAAS CLI. For an exhaustive treatment, you may want to see the [API documentation](https://maas.io/docs/api).  Also note that this page represents user-entered values as uppercase variables preceded with the '$' character (e.g. $PROFILE and $EMAIL_ADDRESS). You should replace these placeholders with actual values.
 
 #### Quick questions you may have:
 

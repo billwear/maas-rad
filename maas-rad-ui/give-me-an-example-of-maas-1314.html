@@ -296,15 +296,7 @@
     </div>
 <div class="container" style="float:right; width:75%;">
 <h1>Give me an example of MAAS</h1><p>An evolving example may be useful to introduce you to MAAS, and it doesn&rsquo;t have to be comprehensive &ndash;  just coherent and plausible.  This example will continue to expand and update over time.</p>
-<!-- vanilla
-![splash-screen|690x406](https://discourse.maas.io/uploads/default/optimized/1X/18456dbd3fbfec14eddd044816fd0719692282da_2_690x406.jpeg)
-vanilla -->
-
-<p><img alt="splash-screen|690x406" src="https://discourse.maas.io/uploads/default/optimized/1X/18456dbd3fbfec14eddd044816fd0719692282da_2_690x406.jpeg"></p>
-<!-- cli
-***TODO: Text image of hospital machines in mixed states***
-cli-->
-
+<p><img alt="splash-screen|690x406" src="https://discourse.maas.io/uploads/default/optimized/1X/18456dbd3fbfec14eddd044816fd0719692282da_2_690x406.jpeg"> </p>
 <p>So imagine that you&rsquo;re the IT administrator for a new, 100-bed hospital that&rsquo;s under construction, intended to serve a suburban community of 5,000 people.  Call it &ldquo;Metaphorical General Hospital&rdquo; (MGH).   Your job is to design a flexible datacentre for this facility.  You&rsquo;ve decided to start with MAAS as your tool of choice, and for this planning exercise, you&rsquo;ll use VMs in a VM host.</p>
 <h2>Machines</h2>
 
@@ -319,25 +311,31 @@ cli-->
 <tr><td>Food service</td><td>Instrumentation</td><td>Information technology</td></tr>
 </table></p>
 <p>You can handle this lowest level with individual <a href="introduction-to-machines-829.html">machines</a>.  With MAAS, you&rsquo;ll be able to modify how many machines are performing which functions, somewhat on-the-fly, but let&rsquo;s assume that you start by creating (at least) one VM for each function.  Since you can reassign machines at will, you aren&rsquo;t going to name them for their functions; instead, you&rsquo;re just going to use the MAC address of each machine to uniquely identify it.</p>
-<p><img alt="vmm|690x330" src="https://discourse.maas.io/uploads/default/optimized/1X/f66940a21313a27734bcaef6c539d36a720a6834_2_690x330.jpeg"> </p>
-<p>zorkDzorkS<em>Try it!</em>zorkSC</p>
-<h4>Creating some sample VMs</h4>
-
+<p><details>
+<summary>
+<em>Try it!</em>
+</summary>
+<h4>Creating some sample VMs</h4></p>
 <p>Assuming you&rsquo;ve <a href="https://help.ubuntu.com/lts/serverguide/libvirt.html">installed libvirt</a> on the machine where you&rsquo;ll be running MAAS, you can create virtual machines like this:</p>
-<p>1. Open the Virtual Machine Manager application.  You'll see a screen that looks something like this:</p>
-
+<ol>
+<li>Open the Virtual Machine Manager application.  You&rsquo;ll see a screen that looks something like this:</li>
+</ol>
 <p><img alt="vmm|690x330" src="https://discourse.maas.io/uploads/default/optimized/1X/f66940a21313a27734bcaef6c539d36a720a6834_2_690x330.jpeg"> </p>
-<p>2. Choose File >> New Virtual Machine, which brings you to a corresponding dialog:</p>
-
+<ol>
+<li>Choose File &ndash;&gt; New Virtual Machine, which brings you to a corresponding dialog:</li>
+</ol>
 <p><img alt="kvm-1|465x500" src="https://discourse.maas.io/uploads/default/original/1X/0702d9f2ab4c3659d13be553449093548a9e2f10.jpeg"> </p>
-<p>3. Select the "Network Boot (PXE)" option and click the "Forward" button:</p>
-
+<ol>
+<li>Select the &ldquo;Network Boot (PXE)&rdquo; option and click the &ldquo;Forward&rdquo; button:</li>
+</ol>
 <p><img alt="kvm-2|465x500" src="https://discourse.maas.io/uploads/default/original/1X/0000fb5f072f2b3668465753ae6a713859d8a444.jpeg"></p>
-<p>4.  Choose the "Generic..." operating system by typing the first letters of "Generic" in the text box and selecting the relevant choice when it becomes available, then go Forward:</p>
-
+<ol>
+<li>Choose the &ldquo;Generic&hellip;&rdquo; operating system by typing the first letters of &ldquo;Generic&rdquo; in the text box and selecting the relevant choice when it becomes available, then go Forward:</li>
+</ol>
 <p><img alt="kvm-3|465x500" src="https://discourse.maas.io/uploads/default/original/1X/041914a0718633fce685ac7919e2478da0e62c1b.jpeg"> </p>
-<p>5. For CPU and memory, you can usually accept the defaults:</p>
-
+<ol>
+<li>For CPU and memory, you can usually accept the defaults:</li>
+</ol>
 <p><img alt="kvm-4|465x500" src="https://discourse.maas.io/uploads/default/original/1X/5a46262e3573aae7252951b3331ac9e3f3ef69c4.jpeg"> </p>
 <ol>
 <li>whereas the storage values have a noticeable effect on local disk usage, so note that, generally, a VM only requires about 5.0 GiB, given an example exercise like this:</li>
@@ -377,14 +375,16 @@ cli-->
 <p>Another VM will instantiate, using the name of the cloned VM with an added &ldquo;-clone&rdquo; suffix:</p>
 <p><img alt="kvm-15|690x224" src="https://discourse.maas.io/uploads/default/original/1X/a14b17602c2ad2465197a77c302080ca2eb59fc8.jpeg"> </p>
 <p>You can create VMs as desired, remembering to mind your overall disk usage on your host system.</p>
+<p></details></p>
 <p>Let&rsquo;s assume that once you&rsquo;re done adding VMs, you have around 20 up and ready, all named after their assigned MAC address:</p>
 <p><img alt="kvms|517x500" src="https://discourse.maas.io/uploads/default/optimized/1X/f9f302d8de9344908758a433dae9abfada0b0db3_2_517x500.jpeg"> </p>
-<p>No need to create a lot of VMs for this example (unless you just want to do so).<br>
-zorkDC
-<h3>Manually adding machines</h3></p>
+<p>No need to create a lot of VMs for this example (unless you just want to do so).  </p>
+<h3>Manually adding machines</h3>
+
 <p>Once you&rsquo;ve created the necessary VMs, you&rsquo;ll want to <a href="add-machines-821.html#heading--add-a-node-manually">manually add machines</a> to MAAS that correspond to your VMs.</p>
 <p><img alt="blank-machines|690x440" src="https://discourse.maas.io/uploads/default/original/1X/91679cd615868eda4654541a68e59de57328ddfa.jpeg"> </p>
-<p><em>Try it!</em></p>
+<p><details>
+<summary><em>Try it!</em></summary></p>
 <p>Creating a machine from a VM requires about a dozen pieces of information, most of which you can gather from the VM itself:</p>
 <p><img alt="add-machine-screen|690x270" src="https://discourse.maas.io/uploads/default/optimized/1X/bc6c18c0fd31367bd4a9909fb7d954dc06f15c40_2_690x270.jpeg"> </p>
 <p>In the left column, you&rsquo;re only required to enter a machine name and the machine&rsquo;s MAC address:  </p>
@@ -393,7 +393,7 @@ zorkDC
 <p><img alt="right-column|690x271" src="https://discourse.maas.io/uploads/default/original/1X/aa076ee437ce481808bb5f41320a45e60f3676de.jpeg"> </p>
 <p>For default configurations, the Virsh Address is &ldquo;qemu+ssh://[your-login-id]@192.168.122.1/system;&rdquo; replace &ldquo;[your-login-id]&rdquo; with your username or login ID on the machine where you&rsquo;re hosting MAAS and the Virtual Machine Manager.  Likewise, the password is your normal login password for the same host.  Finally, you can retrieve the Virsh VM ID from the &ldquo;Overview&rdquo; screen of the VM itself:</p>
 <p><img alt="kvm-16|619x500" src="https://discourse.maas.io/uploads/default/original/1X/79e135e48576bb6f455dd42fd7a09a2c7448d221.jpeg"> 
-<!--  --></p>
+</details></p>
 <p>As you add machines, they automatically commission:</p>
 <p><img alt="auto-commission|639x407" src="https://discourse.maas.io/uploads/default/original/1X/37f1df9e4072b29c7183d4ae8ec1768504c4f66f.jpeg"> </p>
 <p>When finished, the commissioned machines with be at the &ldquo;Ready&rdquo; state.</p>
@@ -401,8 +401,9 @@ zorkDC
 
 <p>Assigning machines to specific functions is something you can do after you <a href="commission-machines-822.html">commission</a> and <a href="deploy-machines-825.html">deploy</a> them.  (Later on, we&rsquo;ll discuss ways to load user apps and data onto the machines using the MAAS API.) Once you&rsquo;ve got machines running apps, you want to keep up-to-date about which machine is doing what, when you&rsquo;re looking at the machine list.  You&rsquo;ll want to assign <a href="maas-tags-834.html">tags</a> to machines.  </p>
 <p><img alt="tags|690x422" src="https://discourse.maas.io/uploads/default/original/1X/2ea0827b9ef327b59ad722215d556969218cc22f.jpeg"> </p>
-<p><em>Try it!</em></p>
-<p>Adding a tag to a machine is simple.  Just decide which machine you want to tag:</p>
+<p><details>
+<summary><em>Try it!</em></summary>
+Adding a tag to a machine is simple.  Just decide which machine you want to tag:</p>
 <p><img alt="tags-2|690x204" src="https://discourse.maas.io/uploads/default/optimized/1X/4f32fb8105ecee30afd0f3ca226b265dffe6e11b_2_690x204.jpeg"> </p>
 <p>You&rsquo;ll want to click on the machine name (in this case, the MAC address), and then choose &ldquo;Configuration&rdquo; on the next screen that comes up.  This will bring you to a screen from which you can edit some parameters about the machine:</p>
 <p><img alt="tags-3|690x256" src="https://discourse.maas.io/uploads/default/optimized/1X/c31a50cebf68c8c5fbfbbe0115bb5c1daeb84ae8_2_690x256.jpeg"> </p>
@@ -410,8 +411,7 @@ zorkDC
 <p><img alt="tags-4|690x256" src="https://discourse.maas.io/uploads/default/optimized/1X/39a0e2f01ba7f3dc141bcf57c09b4e62f737525d_2_690x256.jpeg"> </p>
 <p>Select &ldquo;Save changes&rdquo; to add the tag(s) to the machine.  When you return to the machine list, you&rsquo;ll note that the tag is now associated with that machine:</p>
 <p><img alt="tags-5|690x222" src="https://discourse.maas.io/uploads/default/optimized/1X/8a21ca291aa800440d9074270ab9d9108cff9be1_2_690x222.jpeg"> </p>
-<!--  -->
-
+<p></details></p>
 <p>Tags can will help you keep up with which machine(s) are covering which functions as you apply your apps.  You can search and filter by tags, and you can utilize tags from within the API, as well.</p>
 <h2>Resource pools</h2>
 
@@ -440,7 +440,8 @@ zorkDC
 </table>
 
 <p>You&rsquo;re aware that the number of machines you&rsquo;ll need use for each of the individual functions with vary according to real-world events in the hospital.  Still, you&rsquo;d prefer to budget machines for these different functions, so that you know you can meet the needs of each.  The easiest way to handle this?  Creating <a href="resource-pools-831.html">resource pools</a> and naming them after the (new) top-level headings in your outline.  That way, you can reserve some number of machines for those functions, learning over time the right number of machines to allocate to each activity.</p>
-<p><em>Try it!</em></p>
+<p><details>
+<summary><em>Try it!</em></summary></p>
 <p>Notice at the top of the machine list, there is a tab labeled, &ldquo;Resource pools:&rdquo;</p>
 <p><img alt="pools-1|690x447" src="https://discourse.maas.io/uploads/default/original/1X/f7d4c52a176f53f29a0c1ac3190e7abb563dc993.jpeg"> </p>
 <p>In this example, there are already some resource pools defined to match the different functions above, except for one: Provider services.  Click the &ldquo;Resource pools&rdquo; tab to go there:</p>
@@ -453,6 +454,7 @@ zorkDC
 <p><img alt="pools-5|690x333" src="https://discourse.maas.io/uploads/default/original/1X/f373606dcd50c96a35af932379830f101d4a77e0.jpeg"> </p>
 <p>Just choose the one you want for this machine (in our example, ProServ) and you&rsquo;re done:</p>
 <p><img alt="pools-6|690x215" src="https://discourse.maas.io/uploads/default/original/1X/0cff1cf26f28236dbabc89b14a92c69435934933.jpeg"> </p>
+<p></details></p>
 <p>Here&rsquo;s a snippet of the updated machine list, with all machines added to the appropriate resource pool:</p>
 <p><img alt="pools-7|681x500" src="https://discourse.maas.io/uploads/default/original/1X/704b6d1603f6f90fca42891d98c3bb418458b94a.jpeg"> </p>
 <p>Resource pools are mostly for your use, helping you to budget servers within a given category.  Untagged servers can be in a pool, so if you&rsquo;ve got five servers in the &ldquo;Prescriber controls&rdquo; resource pool, you can tag them with &ldquo;Pharmacy,&rdquo; &ldquo;Medication reconciliation,&rdquo; etc., as you use them.  It will also be obvious when you&rsquo;re running low on servers for that pool, and need to either provision more or move some unused ones from another pool.</p>
@@ -460,13 +462,15 @@ zorkDC
 
 <p>Another optional identifier for machines is the &ldquo;Note&rdquo; field.  While it can be long, a portion of it shows up on the machine list, which makes it useful for adding special identifiers or groupings.  In this example, we&rsquo;ve added a vague identifier which might help an IT admin remember server locations or access rights.</p>
 <p><img alt="notes-1|690x87" src="https://discourse.maas.io/uploads/default/optimized/1X/8724395dfe9fc4d3f4a10a05687c33c6a3dded07_2_690x87.jpeg"> </p>
-<p><em>Try it!</em></p>
+<p><details>
+<summary><em>Try it!</em></summary></p>
 <p>You can edit notes by clicking on a machine name in the machine list, switching to the &ldquo;Configuration&rdquo; tab, and selecting the &ldquo;Edit&rdquo; button.  These choices will bring you to a screen like this one:</p>
 <p><img alt="notes-2|690x348" src="https://discourse.maas.io/uploads/default/original/1X/a9d61f28a4ada7d97ff6f896d2f1e8e719ad680b.jpeg"> </p>
 <p>From here, you can add freeform text into the &ldquo;Note&rdquo; field:</p>
 <p><img alt="notes-3|690x330" src="https://discourse.maas.io/uploads/default/original/1X/f8d647daffa9b3210fb99d440107a58e539a6c35.jpeg"> </p>
 <p>When you save the changes and return to the machine list, you&rsquo;ll notice that the NOTE field for that machine now contains your changes: </p>
 <p><img alt="notes-4|690x93" src="https://discourse.maas.io/uploads/default/original/1X/46cf42808ef44829f1c610e479d6dfb62af2d898.jpeg"> </p>
+<p></details></p>
 <h2>VLANs</h2>
 
 <p>Looking over your design, you notice that some of these resource pools must have their network traffic &ldquo;firewalled&rdquo; from others &ndash; for example, Provider services and Nursing services shouldn&rsquo;t be readily visible to Staff compensation or Food service.  Likewise, the relevant monitoring agencies require that facilities manage medications as a separate activity. The traditional way to separate these networks (other than creating entirely <em>separate</em> networks) would be a VLAN.  Luckily, MAAS supports multiple VLANS.  Adding one higher level to your design, you find yourself with this updated network topology:</p>
@@ -487,7 +491,8 @@ zorkDC
 
 <p>Each of these higher-level groupings is ideal for a VLAN, so you create six of them, one for each division:</p>
 <p><img alt="vlans-1|690x365" src="https://discourse.maas.io/uploads/default/original/1X/7245ed378ce0b9000aaf6f15b16ea16dbde2fccf.jpeg"> </p>
-<p><em>Try it!</em></p>
+<p><details>
+<summary><em>Try it!</em></summary></p>
 <p>Adding a functional VLAN requires some additional (common) networking aspects, which we&rsquo;ll cover later.  In the meantime, though, here&rsquo;s the short version of adding and naming the VLAN itself.  </p>
 <p>From anywhere on the MAAS page, select &ldquo;Subnets&rdquo; from the top menubar, which brings you to this screen:</p>
 <p><img alt="vlans-2|690x281" src="https://discourse.maas.io/uploads/default/optimized/1X/befd3a3eb5987d412477d0a076d16a50e81dae30_2_690x281.jpeg"> </p>
@@ -498,6 +503,7 @@ zorkDC
 <p>Enter the Name and ID of the VLAN, and select the fabric to enclose it (in this case, the &ldquo;default&rdquo; fabric):</p>
 <p><img alt="vlans-5|690x135" src="https://discourse.maas.io/uploads/default/optimized/1X/961d5cae7119db1c3fb7e8d6ae6ce7015d9263d1_2_690x135.jpeg"> </p>
 <p>When you&rsquo;re satisfied with your choices, select &ldquo;Add VLAN&rdquo; to complete the operation.</p>
+<p></details></p>
 <p>Ignoring the networking aspects (for now), these VLANs should help isolate major functions and provide a level of data integrity and access control for your new hospital network.</p>
 <h2>Fabrics</h2>
 
@@ -512,7 +518,8 @@ zorkDC
 </table>
 
 <p>You want to incorporate these highest-level groupings into your network, but how?  MAAS provides the answer with fabrics.  A fabric is a set of interconnected VLANs that can communicate, so you simply create three fabrics, each covering one of these top-level categories.</p>
-<p><em>Try it!</em></p>
+<p><details>
+<summary><em>Try it!</em></summary></p>
 <p>You can add a fabric by selecting the &ldquo;Subnets&rdquo; tab, clicking on the &ldquo;Add&rdquo; dropdown, and choosing &ldquo;Fabric:&rdquo;</p>
 <p><img alt="fabrics-1|690x329" src="https://discourse.maas.io/uploads/default/optimized/1X/509e9696919e69cfc57602a6228425a472b3ac1d_2_690x329.jpeg"> </p>
 <p>You&rsquo;ll see the &ldquo;Add fabric&rdquo; dialog appear.  Enter the desired fabric name and click &ldquo;Add fabric:&rdquo;</p>
@@ -524,6 +531,7 @@ zorkDC
 <p>You can click &ldquo;Edit&rdquo; and choose the desired fabric from the dropdown list:</p>
 <p><img alt="fabrics-5|690x293" src="https://discourse.maas.io/uploads/default/optimized/1X/6f6e2bff0d67dc02d33800e5cc1d60db24fb398a_2_690x293.jpeg"> </p>
 <p>Finally, click &ldquo;Save summary&rdquo; to move this VLAN to the desired fabric.  The end result of assigning our example VLANs to the three fabrics is shown below.</p>
+<p></details></p>
 <p><img alt="fabrics-6|690x499" src="https://discourse.maas.io/uploads/default/original/1X/23c214cd6836dd783347f050f2cdba04da7bcaa1.jpeg"></p>
 </div>
 </body>

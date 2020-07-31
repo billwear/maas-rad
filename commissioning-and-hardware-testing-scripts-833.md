@@ -75,6 +75,7 @@ The key of the dictionary must be a string, and it's this string that's used by 
     -   `storage`: Allows the selection of a storage device on the currently-running machine.
     -   `interface`: Allows the selection of an interface on the currently-running machine.
     -   `url`: Allows the the passing of a valid URL.
+    -   `runtime`: Specifies how long the script may run. This overrides the timeout value. It is currently only passed as the environment variable RUNTIME.
 -   `title`: The title of the parameter field when displayed in the UI. The following types have the following default values:
     -   `storage`: storage device.
     -   `interface`: interface specifer.

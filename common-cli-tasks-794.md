@@ -120,7 +120,7 @@ See [Deploy nodes](/t/deploy-machines/825).
 By default, when you deploy a node, MAAS will consider the deployment a failure if it doesn't complete within 30 minutes. However, this timeout is configurable:
 
 ``` bash
-maas $PROFILE set-config name=node-timeout value=$NUMBER_OF_MINUTES
+maas $PROFILE maas set-config name=node-timeout value=$NUMBER_OF_MINUTES
 ```
 
 
