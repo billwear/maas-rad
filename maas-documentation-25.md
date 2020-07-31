@@ -8,7 +8,7 @@ MAAS is **Metal As A Service**, a service that lets you treat physical servers l
 * [What concepts might I need to understand before starting?](/t/concepts-and-terms/785)
 * [Can I just install it and try it for myself?](/t/explore-maas/787)
 
-![splash-screen|690x406](upload://3sIcZqo5xpV2cBz5DFLHjyI30dc.jpeg) 
+![splash-screen|690x406](https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg) 
 
 *Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre.*
 
