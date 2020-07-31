@@ -29,7 +29,7 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 
 1. Open the Virtual Machine Manager application.  You'll see a screen that looks something like this:
 
-![vmm|690x330](https://discourse.maas.io/uploads/default/optimized/1X/f66940a21313a27734bcaef6c539d36a720a6834_2_690x330.jpeg) 
+     ![vmm|690x330](https://discourse.maas.io/uploads/default/optimized/1X/f66940a21313a27734bcaef6c539d36a720a6834_2_690x330.jpeg) 
 
 2. Choose File --> New Virtual Machine, which brings you to a corresponding dialog:
 
