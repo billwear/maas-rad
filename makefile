@@ -1,5 +1,4 @@
-TARGET_DEPS := maas-documentation-25.html about-maas-840.html
-TARGET_DEPS += give-me-an-example-of-maas-1314.html
+TARGET_DEPS := *.html
 
 %.html: %.md
 	cp templates/vanilla-template.html ./template.html
