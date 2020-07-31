@@ -81,7 +81,7 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 
 You now have a VM that you can add to MAAS.  If you want more than one, you can simply right-click on the one you've just created and select "Clone:"
 
-[Note] **Pro Tip**: Cloned VMs tend to use considerably less host disk space than newly-created ones. [/Note]
+[note] **Pro Tip**: Cloned VMs tend to use considerably less host disk space than newly-created ones. [/note]
 
 ![kvm-14|456x468](https://discourse.maas.io/uploads/default/original/1X/2348efd7dbf17ba445e3c4e6b3926fdc8cfbc888.jpeg) 
 
