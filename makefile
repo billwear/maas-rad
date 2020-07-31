@@ -1,3 +1,6 @@
+TARGET_DEPS := maas-documentation-25.html about-maas-840.html
+TARGET_DEPS += give-me-an-example-of-maas-1314.html
+
 %.html: %.md
 	cp templates/vanilla-template.html ./template.html
 	xpub convert dc2html -t vanilla $<
@@ -12,7 +15,7 @@
 	scp $@ stormrider.io:/var/www/html/maas-rad/maas-rad-cli
 	cp $@  maas-rad-cli
 
-finale: maas-documentation-25.html about-maas-840.html  give-me-an-example-of-maas-1314.html
+finale: $(TARGET_DEPS)
 	xpub push github
 
 
