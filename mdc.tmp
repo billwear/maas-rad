@@ -1,41 +1,27 @@
-The `python-libmaas` client library is an asyncio-based client library whose purpose is to allow developers, integrators and administrators to better interact with MAAS.  This software is in development and does not yet support all MAAS endpoints (nor all operations). It currently supports MAAS versions 2.1 and 2.2-beta3.
+This page provides several useful examples of MAAS zone usage.
 
-* [What should I know about library endpoints?](/t/cli-resource-pool-management/800#heading--library-endpoints)
-* [How can I install and use  python-libmaas?](/t/cli-resource-pool-management/800#heading--installation-and-usage-of-python-libmaas)
+See [Concepts and terms](/t/concepts-and-terms/785#heading--zones) to understand more about zones and [Zones](/t/availability-zones/820) for how to work with them.
 
-<h2 id="heading--library-endpoints">Library endpoints</h2>
+<h2 id="heading--fault-tolerance">Fault tolerance</h2>
 
-At this time, the client library supports these endpoints:
+Fault tolerance is "the property that enables a system to continue operating properly in the event of the failure of (or one or more faults within) some of its components". To help create better fault tolerance, multiple MAAS zones can be employed.
 
--   account
--   boot-sources, boot-resources
--   machines, devices, region controllers, rack controllers
--   events
--   configuration
--   tags
--   version
--   zones
+For this, a zone can be defined in different ways. It can be based on power supply for instance, or it can represent a portion of your network or an entire data centre location.
 
-See the below resources to better understand the above terms and how they are used:
+Machines that work in tandem in order to provide an instance of a service should be allocated in the same zone. The entire service should be replicated in another zone.
 
--   [Concepts and terms](/t/concepts-and-terms/785)
--   [MAAS CLI](/t/maas-cli/802)
--   [API documentation](https://maas.io/docs/api)
+<h2 id="heading--service-performance">Service performance</h2>
 
-<h2 id="heading--installation-and-usage-of-python-libmaas">Installation and usage of python-libmaas</h2>
+Service performance is the ability of your service to operate in the most efficient manner possible where the typical criteria used is speed. Multiple MAAS zones can be used to help.
 
-For installation and initial steps, see:
+Nodes should be allocated in the zone closest to the performance-critical resources they need.
 
--   `https://github.com/maas/python-libmaas`
--   `http://maas.github.io/python-libmaas/index.html`
+For example, for applications that are highly sensitive to network latency, it may make sense to design a network topology consisting of several smaller networks, and have each of those represented as a zone. The zones can then be used to allocate nodes that have the best performance depending on the service offered.
 
-For examples:
+<h2 id="heading--power-management">Power management</h2>
 
--   `http://maas.github.io/python-libmaas/client/index.html`
--   `http://maas.github.io/python-libmaas/client/nodes/index.html`
+Power management is concerned with power usage density and cooling. This topic can be addressed with the use of several MAAS zones.
 
-For pypi information:
-
-`https://pypi.python.org/pypi/python-libmaas`
+Nodes can be distributed in such a way that power-hungry and/or "hot" systems are located in different zones. This can help mitigate power consumption and heat problems.
 
 <!-- LINKS -->
