@@ -98,7 +98,6 @@ TARGET_DEPS += select-and-import-images-751.html
 TARGET_DEPS += storage-775.html
 TARGET_DEPS += subnet-management-766.html
 TARGET_DEPS += tips-tricks-and-traps-1506.html
-TARGET_DEPS += tmp.html
 TARGET_DEPS += troubleshooting-837.html
 TARGET_DEPS += ubuntu-kernels-828.html
 TARGET_DEPS += upgrade-2-3-to-2-4-from-ubuntu-16-04-777.html

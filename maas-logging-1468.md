@@ -26,7 +26,17 @@ Syslog data is kept in `/var/log/maas/rsyslog/<machine-name><yyyy-mm-dd>/message
 
 To add a remote syslog server, click the Settings tab and then click the Network services tab. Scroll down to the Syslog section, where you can add a syslog URL or IP:
 
+<!-- vanilla
 ![remote_syslog](https://assets.ubuntu.com/v1/e139d4e9-installconfig-syslog__2.6-remote-syslog.png)
+ vanilla -->
+
+<!-- ui
+![remote_syslog](https://assets.ubuntu.com/v1/e139d4e9-installconfig-syslog__2.6-remote-syslog.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 Click the Save button to save your changes.
 

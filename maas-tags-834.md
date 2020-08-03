@@ -66,7 +66,17 @@ In this view, you can use tags as machine search filters. Select one or several 
 
 Below, tag 'virtual' has been selected (with the mouse), and the search field automatically reflects this. Five machines satisfy this search filter.
 
+<!-- vanilla
 ![tags: search](https://assets.ubuntu.com/v1/69aa9997-nodes-tags__2.6-tags-filter.png)
+ vanilla -->
+
+<!-- ui
+![tags: search](https://assets.ubuntu.com/v1/69aa9997-nodes-tags__2.6-tags-filter.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 Remove a tag from the search filter by either hitting the 'x' character alongside a tag or editing the search expression.
 
@@ -80,7 +90,17 @@ Select the 'Configuration' tab and then the 'Edit' button alongside 'Machine con
 -   To create a basic tag, type the name of the new tag in the 'Add a tag' field and hit Enter. The tag will be created and automatically assigned to the machine. Repeat if desired.
 -   To assign an existing tag, type at least three characters to trigger a real-time search. Any resulting tags will show up in a drop-down menu. Select as desired.
 
+<!-- vanilla
 ![tags: add & remove](https://assets.ubuntu.com/v1/250050ee-nodes-tags__2.6-tags-add-remove.png)
+ vanilla -->
+
+<!-- ui
+![tags: add & remove](https://assets.ubuntu.com/v1/250050ee-nodes-tags__2.6-tags-add-remove.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 You can apply changes by pressing the 'Save changes' button.
 
@@ -96,7 +116,17 @@ Network interface tags can only be assigned when a machine is in either a 'Ready
 
 With the machine selected from the 'Machines' page, on the 'Interfaces' tab use the 'Edit Physical' button from the 'Actions' menu icon to the right of an interface:
 
+<!-- vanilla
 ![tags: net interface](https://assets.ubuntu.com/v1/dd9cf996-nodes-tags__2.6-tag-net-interfaces.png)
+ vanilla -->
+
+<!-- ui
+![tags: net interface](https://assets.ubuntu.com/v1/dd9cf996-nodes-tags__2.6-tag-net-interfaces.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 To add a tag, type its name into the 'Tags' field and press Enter. Repeat as desired. Use the small 'x' next to a tag to unassign the tag.
 
@@ -108,7 +138,17 @@ Alongside tags for an entire machine and network interfaces, you can also define
 
 To add a tag to a storage device, click on the machine with the storage you wish to tag on the 'Machines' page of the web UI and open the 'Storage' tab. Use the menu in the 'Actions' column beneath 'Available disks and partitions' to select 'Edit disk' for your chosen device:
 
+<!-- vanilla
 ![tags: storage](https://assets.ubuntu.com/v1/43dd9f9d-nodes-tags__2.6-tag-storage.png)
+ vanilla -->
+
+<!-- ui
+![tags: storage](https://assets.ubuntu.com/v1/43dd9f9d-nodes-tags__2.6-tag-storage.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 To add a tag, type its name into the 'Tags' field and press Enter. Repeat as desired. Use the small 'x' next to a tag to unassign the tag.
 
@@ -118,6 +158,16 @@ You can apply changes by pressing the 'Save' button.
 
 At this time, other than simple tag assignments as demonstrated above, the best way to manage MAAS tags is by using the CLI (see [CLI Tag management](/t/cli-tag-management/801)). Juju integration is also covered there.
 
+<!-- vanilla
 ![tags: multiple](https://assets.ubuntu.com/v1/fff81a99-nodes-tags__2.6-tag-multiple.png)
+ vanilla -->
+
+<!-- ui
+![tags: multiple](https://assets.ubuntu.com/v1/fff81a99-nodes-tags__2.6-tag-multiple.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 <!-- LINKS -->

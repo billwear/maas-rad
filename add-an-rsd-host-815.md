@@ -1,6 +1,16 @@
 Add an RSD host by using the 'Add pod' button. Choose 'Rack Scale Design' from the pod type drop-down menu.
 
+<!-- vanilla
 ![add RSD pod](https://assets.ubuntu.com/v1/2604a48b-nodes-comp-hw__2.4_pod-add-rsd.png)
+ vanilla -->
+
+<!-- ui
+![add RSD pod](https://assets.ubuntu.com/v1/2604a48b-nodes-comp-hw__2.4_pod-add-rsd.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 You will need to get values for 'Pod address' (IP address or URL followed by a port), 'Pod user', and 'Pod password' from your RSD administrator.
 

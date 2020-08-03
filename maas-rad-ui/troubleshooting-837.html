@@ -374,7 +374,15 @@ Stderr: 'gpg: no valid OpenPGP data found.\n'
 <h3 id="heading--extract-the-cloud-image">Extract the cloud image</h3>
 
 <p>First, download the cloud image that corresponds to the architecture of your node. The <em>Images</em> page of the web UI lists the images currently being cached by MAAS:</p>
+<!-- vanilla
+![web UI image list](https://assets.ubuntu.com/v1/130aa580-troulbeshoot-faq__2.3_images.png)
+ vanilla -->
+
 <p><img alt="web UI image list" src="https://assets.ubuntu.com/v1/130aa580-troulbeshoot-faq__2.3_images.png"></p>
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <p>Images can be downloaded from <a href="https://cloud-images.ubuntu.com/daily/server/">https://cloud-images.ubuntu.com/daily/server</a>.</p>
 <p>For example:</p>
 <pre><code class="bash">wget https://cloud-images.ubuntu.com/daily/server/xenial/current/xenial-server-cloudimg-amd64-root.tar.gz
@@ -430,7 +438,15 @@ chown maas:maas squashfs
 </code></pre>
 
 <p>You can now use this image to commission or deploy a node and access the root account with the backdoor password, such as by deploying the same specific image from the web UI to the node you wish to troubleshoot.</p>
+<!-- vanilla
+![web UI deploy image](https://assets.ubuntu.com/v1/f622d104-troulbeshoot-faq__2.3_deploy.png)
+ vanilla -->
+
 <p><img alt="web UI deploy image" src="https://assets.ubuntu.com/v1/f622d104-troulbeshoot-faq__2.3_deploy.png"></p>
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <!-- IMAGES -->
 
 <!-- LINKS -->

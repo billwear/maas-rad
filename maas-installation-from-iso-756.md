@@ -8,7 +8,17 @@ Todo:
 -->
 The [Ubuntu Server ISO](http://www.ubuntu.com/download/server) offers to have the server-to-be-installed provide a complete MAAS environment or a single rack controller. This page is based on Ubuntu 16.04.1 LTS.
 
+<!-- vanilla
 ![server install menu](https://assets.ubuntu.com/v1/82e04c4c-iso-install_01.png)
+ vanilla -->
+
+<!-- ui
+![server install menu](https://assets.ubuntu.com/v1/82e04c4c-iso-install_01.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 Choosing option **Install MAAS Region Controller** will actually install an entire MAAS environment. That is, it is equivalent to installing the 'maas' metapackage. The wording of this menu option will change in a future printing of the ISO.
 

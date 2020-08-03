@@ -146,7 +146,17 @@ Layouts can be set globally and on a per-machine basis.
 
 All machines will have a default layout applied when commissioned. An administrator can configure the default layout on the 'Settings' page, under the 'Storage' tab.
 
+<!-- vanilla
 ![default storage layout](https://discourse.maas.io/uploads/default/original/1X/80de3bc701552cd00bec707830accf380c214b17.png)
+ vanilla -->
+
+<!-- ui
+![default storage layout](https://discourse.maas.io/uploads/default/original/1X/80de3bc701552cd00bec707830accf380c214b17.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 See [Disk erasure](/t/disk-erasure/774) for an explanation of the options related to the erasing of disks.
 

@@ -363,10 +363,26 @@
 
 <p>After installing MAAS, the &lsquo;Pods&rsquo; page is typically empty:</p>
 <p><img alt="initial pods page" src="https://assets.ubuntu.com/v1/c1698d33-manage-kvm-pods__2.5_pod-initial-page.png"></p>
+<!-- ui
+![initial pods page](https://assets.ubuntu.com/v1/c1698d33-manage-kvm-pods__2.5_pod-initial-page.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <h3 id="heading--25">2.5+</h3>
 
 <p>Once a machine as been added to MAAS and gone through enlistment, commissioning and hardware testing, you can deploy it (after acquiring it) as a KVM host by ticking the &lsquo;Install MAAS-managed KVM Host&rsquo; checkbox:</p>
 <p><img alt="kvmpoddeploy" src="https://assets.ubuntu.com/v1/d7271011-manage-kvm-pods__2.5_kvm-pod-deploy.png"></p>
+<!-- ui
+![kvmpoddeploy](https://assets.ubuntu.com/v1/d7271011-manage-kvm-pods__2.5_kvm-pod-deploy.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <p>You can also use the <a href="common-cli-tasks-794.html#heading--deploy-a-node">MAAS CLI</a> to deploy a machine to use as a KVM host.</p>
 <h3 id="heading--manualpre-25">Manual/Pre-2.5</h3>
 
@@ -421,6 +437,14 @@ Insufficient permissions for <code>$USER</code> may cause the <code>virsh</code>
 
 <p>Now, add a KVM host by using the &lsquo;Add pod&rsquo; button. Choose &lsquo;Virsh (Virtual systems)&rsquo; from the &lsquo;Pod type&rsquo; drop-down menu.</p>
 <p><img alt="add Virsh pod" src="https://assets.ubuntu.com/v1/ca39b7a1-manage-kvm-pods__2.5_pod-add-virsh.png"></p>
+<!-- ui
+![add Virsh pod](https://assets.ubuntu.com/v1/ca39b7a1-manage-kvm-pods__2.5_pod-add-virsh.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <p>Here, &lsquo;Virsh address&rsquo; typically looks like the following:</p>
 <pre><code class="no-highlight">qemu+ssh://&lt;kvm host IP&gt;/system
 </code></pre>
@@ -432,6 +456,14 @@ MAAS will automatically discover and store the resources your KVM host contains.
 
 <p>Add an RSD Pod by using the &lsquo;Add pod&rsquo; button. Choose &lsquo;Rack Scale Design&rsquo; from the Pod type drop-down menu.</p>
 <p><img alt="add RSD pod" src="https://assets.ubuntu.com/v1/2604a48b-nodes-comp-hw__2.4_pod-add-rsd.png"></p>
+<!-- ui
+![add RSD pod](https://assets.ubuntu.com/v1/2604a48b-nodes-comp-hw__2.4_pod-add-rsd.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <p>You will need to get values for &lsquo;Pod address&rsquo; (IP address or URL followed by a port), &lsquo;Pod user&rsquo;, and &lsquo;Pod password&rsquo; from your RSD administrator.</p>
 <p><blockquote style="background:lightgrey;">
 MAAS will automatically discover and store the resources your RSD Pod contains.
@@ -440,20 +472,52 @@ MAAS will automatically discover and store the resources your RSD Pod contains.
 
 <p>Pods and a summary of their resources are listed on the &lsquo;Pods&rsquo; page:</p>
 <p><img alt="save pod" src="https://assets.ubuntu.com/v1/6a1e0fc2-manage-kvm-pods__2.5_pod-list.png"></p>
+<!-- ui
+![save pod](https://assets.ubuntu.com/v1/6a1e0fc2-manage-kvm-pods__2.5_pod-list.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <h2 id="heading--view-pod-details">View pod details</h2>
 
 <p>One the &lsquo;Pods&rsquo; page, click a pod&rsquo;s name to show the resources that belong to it, including total number of CPU cores, the amount of total RAM and local storage. These values update to reflect usage and remaining resources.</p>
 <p>The main view also lists the machines contained within the pod.</p>
 <p><img alt="pod details" src="https://assets.ubuntu.com/v1/458b90b6-manage-kvm-pods__2.5_pod-details.png"></p>
+<!-- ui
+![pod details](https://assets.ubuntu.com/v1/458b90b6-manage-kvm-pods__2.5_pod-details.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <h2 id="heading--kvm-host-storage-pools">KVM host storage pools</h2>
 
 <p>Libvirt “storage pools” are storage resources managed by libvirt. For a more in-depth take on libvirt storage pools, see <a href="https://libvirt.org/storage.html">here</a>.</p>
 <p>MAAS displays information about each pod&rsquo;s storage pools so you can understand your resource usage at a glance:</p>
 <p><img alt="storagepoolusage" src="https://assets.ubuntu.com/v1/984dcd91-manage-kvm-pods__2.5_libvirt_storage_usage.png"></p>
+<!-- ui
+![storagepoolusage](https://assets.ubuntu.com/v1/984dcd91-manage-kvm-pods__2.5_libvirt_storage_usage.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <h2 id="heading--configuration">Configuration</h2>
 
 <p>Pods have several configuration options. Modify these by selecting the &lsquo;Configuration&rsquo; tab and clicking &lsquo;Edit&rsquo;. Options include a pod&rsquo;s location, password, network zone, and default resource pool.</p>
 <p><img alt="pod configuration" src="https://assets.ubuntu.com/v1/50c94029-manage-kvm-pods__2.5_pod-compose-config.png"></p>
+<!-- ui
+![pod configuration](https://assets.ubuntu.com/v1/50c94029-manage-kvm-pods__2.5_pod-compose-config.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <h3 id="heading--overcommit-resources">Overcommit resources</h3>
 
 <p>Overcommitted resources are those allocated beyond what&rsquo;s available in the physical resource. Sliders on the configuration page allow you to strictly limit whether CPU and memory can be over committed, and to what extent. The input fields to the right of the sliders accept floating point values from 0 to 10, with a default value of 1.</p>
@@ -469,20 +533,60 @@ MAAS will automatically discover and store the resources your RSD Pod contains.
 
 <p>While on a pod&rsquo;s details view, select &lsquo;Compose&rsquo; from the &lsquo;Take action&rsquo; drop-down menu to compose a machine.</p>
 <p><img alt="pod compose machine" src="https://assets.ubuntu.com/v1/62316284-manage-kvm-pods__2.5_pod-compose-machine.png"></p>
+<!-- ui
+![pod compose machine](https://assets.ubuntu.com/v1/62316284-manage-kvm-pods__2.5_pod-compose-machine.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <p>You can choose which storage pool to use from a drop-down list:</p>
 <p><img alt="storagepoolavail" src="https://assets.ubuntu.com/v1/a026986c-manage-kvm-pods__2.5_libvirt_storage.png"></p>
+<!-- ui
+![storagepoolavail](https://assets.ubuntu.com/v1/a026986c-manage-kvm-pods__2.5_libvirt_storage.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <p>You can also use the <a href="cli-composable-hardware-795.html#heading--compose-pod-virtual-machines">MAAS CLI</a> to compose pod VMs with specific storage pool constraints.</p>
 <p>Click the &lsquo;Compose machine&rsquo; button when you&rsquo;re finished. MAAS will present the pod detail view. In a few moments, your new machine will be auto-commissioned. The &lsquo;Machines&rsquo; page will reflect this as well.</p>
 <p>The new machine&rsquo;s resources will be deducted from the pod&rsquo;s resources:</p>
 <p><img alt="pod compose machine commissioning" src="https://assets.ubuntu.com/v1/0047fe3d-manage-kvm-pods__2.5_pod-compose-machine-commissioning.png"></p>
+<!-- ui
+![pod compose machine commissioning](https://assets.ubuntu.com/v1/0047fe3d-manage-kvm-pods__2.5_pod-compose-machine-commissioning.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <h2 id="heading--delete-a-machine">Delete a machine</h2>
 
 <p>To delete a machine, simply delete it as you would any other MAAS node. Select the desired machine from the list of machines and select &lsquo;Delete&rsquo; from the &lsquo;Take Action&rsquo; menu.</p>
 <p><img alt="pod decompose machine" src="https://assets.ubuntu.com/v1/613c1d7b-manage-kvm-pods__2.5_pod-decompose-machine.png"></p>
+<!-- ui
+![pod decompose machine](https://assets.ubuntu.com/v1/613c1d7b-manage-kvm-pods__2.5_pod-decompose-machine.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <h2 id="heading--delete-a-pod">Delete a pod</h2>
 
 <p>While on the main pods page, select a pod and choose the &lsquo;Delete&rsquo; action from the &lsquo;Take action&rsquo; dropdown menu. Click &lsquo;Delete 1 pod&rsquo; to confirm the action:</p>
 <p><img alt="pod delete" src="https://assets.ubuntu.com/v1/55498a64-manage-kvm-pods__2.5_pod-delete.png"></p>
+<!-- ui
+![pod delete](https://assets.ubuntu.com/v1/55498a64-manage-kvm-pods__2.5_pod-delete.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <p>[note type=&rdquo;caution&rdquo;]
 Deleting a pod will also delete all its machines and remove them from MAAS.
 </blockquote></p>

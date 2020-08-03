@@ -498,6 +498,14 @@ The register command is not required when you are adding a rack controller to a 
 <p>MAAS will ask for the URL of the region API server. If you provide a hostname, ensure it is resolvable. Next, MAAS will prompt you for the secret key, stored in file <code>/var/lib/maas/secret</code> on the API server.</p>
 <p>You can get the above information from the web UI by visiting the &lsquo;Controllers&rsquo; page and clicking the button &lsquo;Add rack controller&rsquo;. Here is an example of what you may see:</p>
 <p><img alt="cli-install-rackd" src="https://assets.ubuntu.com/v1/61fa1b99-manage-maas-cli-advanced__2.2_install-rackd.png"></p>
+<!-- ui
+![cli-install-rackd](https://assets.ubuntu.com/v1/61fa1b99-manage-maas-cli-advanced__2.2_install-rackd.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <p>Based on the above, then, we could have also entered:</p>
 <pre><code class="bash">sudo maas-rack register --url http://10.5.1.5:5240/MAAS \
     --secret fa847000e7cb681101d26e3477e6e39e

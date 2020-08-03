@@ -4,13 +4,33 @@ This page has been deprecated in favor of newer terminology and technology.  Ple
 
 After installing MAAS, the 'KVM' page is typically empty:
 
+<!-- vanilla
 ![kvm-open-screen|638x321](upload://zG2Jg6P7iEbakdEQtGVzm5WcY9l.jpeg) 
+ vanilla -->
+
+<!-- ui
+![kvm-open-screen|638x321](upload://zG2Jg6P7iEbakdEQtGVzm5WcY9l.jpeg) 
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 <h2 id="heading--25">2.5+</h2>
 
 Once MAAS has enlisted, commissioned, and acquired a newly-added machine, you can deploy it as a KVM host:
 
+<!-- vanilla
 ![kvmpoddeploy](//discourse.maas.io/uploads/default/original/1X/63904b128941348ac07ec6a40ee12c51748c9f0a.png)
+ vanilla -->
+
+<!-- ui
+![kvmpoddeploy](//discourse.maas.io/uploads/default/original/1X/63904b128941348ac07ec6a40ee12c51748c9f0a.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 <h3 id="heading--cli">CLI</h3>
 
@@ -102,7 +122,17 @@ Insufficient permissions for `$USER` may cause the `virsh` command to fail with 
 
 Now, add a KVM host by using the 'Add pod' button. Choose 'Virsh (Virtual systems)' from the 'Pod type' drop-down menu.
 
+<!-- vanilla
 ![kvm-add-screen|690x250](upload://1mHQflonvsii29tTSWDv4vUqzzC.jpeg) 
+ vanilla -->
+
+<!-- ui
+![kvm-add-screen|690x250](upload://1mHQflonvsii29tTSWDv4vUqzzC.jpeg) 
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 Here, 'Virsh address' typically looks like the following:
 
@@ -140,7 +170,17 @@ maas $PROFILE pods create type=virsh power_address=qemu+ssh://ubuntu@192.168.1.2
 
 KVM hosts have several configuration options. Modify these by selecting the 'Configuration' tab and clicking 'Edit'. Options include a KVM host's location, password, network zone, and default resource pool.
 
+<!-- vanilla
 ![pod configuration](https://discourse.maas.io/uploads/default/original/1X/e6f9b3effcc9e4f44a09836cf6185449410bae7f.png)
+ vanilla -->
+
+<!-- ui
+![pod configuration](https://discourse.maas.io/uploads/default/original/1X/e6f9b3effcc9e4f44a09836cf6185449410bae7f.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 <h3 id="heading--overcommit-resources">Overcommit resources</h3>
 

@@ -6,6 +6,16 @@ Libvirt “storage pools” are storage resources managed by libvirt. For a more
 
 MAAS displays information about each pod's storage pools so you can understand your resource usage at a glance:
 
+<!-- vanilla
 ![storagepoolusage](https://assets.ubuntu.com/v1/5682ed1d-manage-kvm-storage__2.6-libvert-storage-usage.png)
+ vanilla -->
+
+<!-- ui
+![storagepoolusage](https://assets.ubuntu.com/v1/5682ed1d-manage-kvm-storage__2.6-libvert-storage-usage.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 <!-- LINKS -->

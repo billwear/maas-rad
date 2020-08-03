@@ -294,7 +294,17 @@ Scripts can be uploaded to MAAS using the web UI. Select the 'User scripts' tab 
 
 A status message of Commissioning script created will appear.  You'll then be able to select your script after selecting [Test hardware](/t/hardware-testing/826) from a machine's 'Take action' menu.
 
+<!-- vanilla
 ![select custom script](https://assets.ubuntu.com/v1/50e08fdf-nodes-hw-scripts__2.4_select.png)
+ vanilla -->
+
+<!-- ui
+![select custom script](https://assets.ubuntu.com/v1/50e08fdf-nodes-hw-scripts__2.4_select.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 [note]
 MAAS executes scripts in lexicographical order. This order allows you to control when your scripts execute, and whether they run before or after the standard MAAS scripts.
@@ -304,13 +314,33 @@ MAAS executes scripts in lexicographical order. This order allows you to control
 
 Clicking on the title of a completed or failed script will reveal the output from that specific script.
 
+<!-- vanilla
 ![failed script output](https://assets.ubuntu.com/v1/855015e5-nodes-hw-scripts__2.2_fail.png)
+ vanilla -->
+
+<!-- ui
+![failed script output](https://assets.ubuntu.com/v1/855015e5-nodes-hw-scripts__2.2_fail.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 If you need further details, especially when writing and running your own scripts, you can connect to a machine and examine its logs and environment.
 
 To do this, enable Allow SSH access and prevent the machine from powering off when selecting 'Test hardware' from the machine 'Take action' menu.
 
+<!-- vanilla
 ![enable SSH within Test Hardware](https://assets.ubuntu.com/v1/da793c67-nodes-hw-scripts__2.4_ssh.png)
+ vanilla -->
+
+<!-- ui
+![enable SSH within Test Hardware](https://assets.ubuntu.com/v1/da793c67-nodes-hw-scripts__2.4_ssh.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 Because scripts operate within an ephemeral version of Ubuntu, enabling this option stops the machine from shutting down, allowing you to connect and probe a script's status.
 

@@ -399,27 +399,67 @@ For RSD, MAAS has only been validated to work with Intel RSD reference software 
 
 <p>See <a href="web-ui-782.html">Web UI</a> for how to get started with the web UI.</p>
 <p>Composable hardware systems are managed on the &lsquo;Pods&rsquo; page, which is initially empty:</p>
-<p><img alt="initial pods page" src="https://assets.ubuntu.com/v1/c1698d33-nodes-comp-hw__2.4_pod-initial-page.png"></p>
+<!-- vanilla
+![initial pods page](https://assets.ubuntu.com/v1/c1698d33-nodes-comp-hw__2.4_pod-initial-page.png)
+ vanilla -->
+
+<!-- ui
+![initial pods page](https://assets.ubuntu.com/v1/c1698d33-nodes-comp-hw__2.4_pod-initial-page.png)
+ ui -->
+
+<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
 <h3 id="heading--add-a-pod">Add a pod</h3>
 
 <p>Add/register a pod by using the &lsquo;Add pod&rsquo; button.</p>
 <p>The first example depicts an RSD Pod being added. After choosing &lsquo;Rack Scale Design&rsquo; for &lsquo;Pod type&rsquo; the below form will appear:</p>
-<p><img alt="add RSD pod" src="https://assets.ubuntu.com/v1/2604a48b-nodes-comp-hw__2.4_pod-add-rsd.png"></p>
+<!-- vanilla
+![add RSD pod](https://assets.ubuntu.com/v1/2604a48b-nodes-comp-hw__2.4_pod-add-rsd.png)
+ vanilla -->
+
+<!-- ui
+![add RSD pod](https://assets.ubuntu.com/v1/2604a48b-nodes-comp-hw__2.4_pod-add-rsd.png)
+ ui -->
+
+<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
 <p>Fill in the fields. You will need to get values for &lsquo;Pod address&rsquo; (IP address or URL followed by a port), &lsquo;Pod user&rsquo;, and &lsquo;Pod password&rsquo; from the RSD administrator. Then click &lsquo;Save pod&rsquo;.</p>
 <p>Once added, MAAS will automatically discover and store the resources that a pod contains. Any pre-composed machines will also appear on the &lsquo;Machines&rsquo; page and be commissioned. </p>
 <h4 id="heading--virsh-pods">Virsh pods</h4>
 
 <p>This is how a virsh pod is added:</p>
-<p><img alt="add Virsh pod" src="https://assets.ubuntu.com/v1/ca39b7a1-nodes-comp-hw__2.4_pod-add-virsh.png"></p>
+<!-- vanilla
+![add Virsh pod](https://assets.ubuntu.com/v1/ca39b7a1-nodes-comp-hw__2.4_pod-add-virsh.png)
+ vanilla -->
+
+<!-- ui
+![add Virsh pod](https://assets.ubuntu.com/v1/ca39b7a1-nodes-comp-hw__2.4_pod-add-virsh.png)
+ ui -->
+
+<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
 <h3 id="heading--list-pods">List pods</h3>
 
 <p>The new pod, including a summary of contained resources, will be listed on the &lsquo;Pods&rsquo; page:</p>
-<p><img alt="save pod" src="https://assets.ubuntu.com/v1/6a1e0fc2-nodes-comp-hw__2.4_pod-list.png"></p>
+<!-- vanilla
+![save pod](https://assets.ubuntu.com/v1/6a1e0fc2-nodes-comp-hw__2.4_pod-list.png)
+ vanilla -->
+
+<!-- ui
+![save pod](https://assets.ubuntu.com/v1/6a1e0fc2-nodes-comp-hw__2.4_pod-list.png)
+ ui -->
+
+<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
 <h3 id="heading--view-pod-details">View pod details</h3>
 
 <p>Clicking a pod&rsquo;s name on the &lsquo;Pods&rsquo; page will reveal the resources contained within it, including its total number of CPU cores, the amount of total RAM and local storage. These values update to reflect usage and remaining resources.</p>
 <p>The main view also lists the machines contained within the pod.</p>
-<p><img alt="pod details" src="https://assets.ubuntu.com/v1/a3308637-nodes-comp-hw__2.4_pod-details.png"></p>
+<!-- vanilla
+![pod details](https://assets.ubuntu.com/v1/a3308637-nodes-comp-hw__2.4_pod-details.png)
+ vanilla -->
+
+<!-- ui
+![pod details](https://assets.ubuntu.com/v1/a3308637-nodes-comp-hw__2.4_pod-details.png)
+ ui -->
+
+<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
 <h3 id="heading--configuration">Configuration</h3>
 
 <p>Pods have several configuration options. These are modified by selecting the &lsquo;Configuration&rsquo; tab and clicking &lsquo;Edit&rsquo;. Options include a pod&rsquo;s location, password, network zone.</p>
@@ -432,21 +472,53 @@ For RSD, MAAS has only been validated to work with Intel RSD reference software 
 <li><code>32 physical CPU cores * 10.0 multiplier  = 320 virtual CPU cores</code></li>
 <li><code>128GB physical Memory  * 5.5 multiplier  = 704G virtual Memory</code></li>
 </ul>
-<p><img alt="pod configuration" src="https://assets.ubuntu.com/v1/10205df8-nodes-comp-hw__2.4_pod-compose-config.png"></p>
+<!-- vanilla
+![pod configuration](https://assets.ubuntu.com/v1/10205df8-nodes-comp-hw__2.4_pod-compose-config.png)
+ vanilla -->
+
+<!-- ui
+![pod configuration](https://assets.ubuntu.com/v1/10205df8-nodes-comp-hw__2.4_pod-compose-config.png)
+ ui -->
+
+<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
 <p>Over committing resources allows a user to compose many MAAS-managed VMs without worrying about the physical limitations of the host. For example, on a physical host with 4 cores and 12 GB of memory, you could compose 4 virsh nodes, each using 2 cores and 4 GB of memory, obviously over-committing the available physical resources. Provided you never run all 4 simultaneously, you&rsquo;d have all the benefits of MAAS-managed VMs without over-taxing your host.</p>
 <h3 id="heading--compose-a-pod-machine">Compose a pod machine</h3>
 
 <p>While on a pod&rsquo;s details view, begin the machine composition process by selecting &lsquo;Compose&rsquo; from the &lsquo;Take action&rsquo; dropdown menu:</p>
-<p><img alt="pod compose machine" src="https://assets.ubuntu.com/v1/65eb4f52-nodes-comp-hw__2.4_pod-compose-machine.png"></p>
+<!-- vanilla
+![pod compose machine](https://assets.ubuntu.com/v1/65eb4f52-nodes-comp-hw__2.4_pod-compose-machine.png)
+ vanilla -->
+
+<!-- ui
+![pod compose machine](https://assets.ubuntu.com/v1/65eb4f52-nodes-comp-hw__2.4_pod-compose-machine.png)
+ ui -->
+
+<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
 <p>Fill in the fields (many are optional) and hit &lsquo;Compose machine&rsquo; to finish. You will be brought back to the pod&rsquo;s details view. In a few moments the new machine will be auto-commissioned.</p>
 <p>The main &lsquo;Machines&rsquo; page should reflect this as well.</p>
 <p>As expected, the new machine&rsquo;s resources will be deducted from the pod&rsquo;s resources:</p>
-<p><img alt="pod compose machine commissioning" src="https://assets.ubuntu.com/v1/0a3d0805-nodes-comp-hw__2.4_pod-compose-machine-commissioning.png"></p>
+<!-- vanilla
+![pod compose machine commissioning](https://assets.ubuntu.com/v1/0a3d0805-nodes-comp-hw__2.4_pod-compose-machine-commissioning.png)
+ vanilla -->
+
+<!-- ui
+![pod compose machine commissioning](https://assets.ubuntu.com/v1/0a3d0805-nodes-comp-hw__2.4_pod-compose-machine-commissioning.png)
+ ui -->
+
+<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
 <h3 id="heading--decompose-a-pod-machine">Decompose a pod machine</h3>
 
 <p>Decomposing a pod machine means to send the machine&rsquo;s resources back to the pod for reuse. Doing so within MAAS will also cause the corresponding MAAS node to be Deleted.</p>
 <p>While on a pod&rsquo;s details view, select the machine to decompose and choose the &lsquo;Delete&rsquo; button from the dropdown menu:</p>
-<p><img alt="pod decompose machine" src="https://assets.ubuntu.com/v1/6ba608fd-nodes-comp-hw__2.4_pod-decompose-machine.png"></p>
+<!-- vanilla
+![pod decompose machine](https://assets.ubuntu.com/v1/6ba608fd-nodes-comp-hw__2.4_pod-decompose-machine.png)
+ vanilla -->
+
+<!-- ui
+![pod decompose machine](https://assets.ubuntu.com/v1/6ba608fd-nodes-comp-hw__2.4_pod-decompose-machine.png)
+ ui -->
+
+<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
 <p>Confirm by hitting the &lsquo;Delete machine&rsquo; button.</p>
 <p><blockquote style="background:lightgrey;">
 This operation can also be achieved by simply deleting the corresponding MAAS node in the regular way.
@@ -455,7 +527,15 @@ This operation can also be achieved by simply deleting the corresponding MAAS no
 <h3 id="heading--delete-a-pod">Delete a pod</h3>
 
 <p>While on the main pods page, select a pod and choose the &lsquo;Delete&rsquo; action from the dropdown menu. Hit &lsquo;Delete 1 pod&rsquo; to confirm the action:</p>
-<p><img alt="pod delete" src="https://assets.ubuntu.com/v1/1c0090c6-nodes-comp-hw__2.4_pod-delete.png"></p>
+<!-- vanilla
+![pod delete](https://assets.ubuntu.com/v1/1c0090c6-nodes-comp-hw__2.4_pod-delete.png)
+ vanilla -->
+
+<!-- ui
+![pod delete](https://assets.ubuntu.com/v1/1c0090c6-nodes-comp-hw__2.4_pod-delete.png)
+ ui -->
+
+<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
 <p>Deleting a pod will also decompose all its machines, thereby also removing all corresponding nodes from MAAS.</p>
 <!-- LINKS -->
 </div>

@@ -8,7 +8,17 @@ External sites, such as an existing NTP infrastructure, can be used directly as 
 
 On the 'Settings' page, select the 'Network services' tab and scroll down to the 'NTP' section:
 
+<!-- vanilla
 ![configure NTP](https://assets.ubuntu.com/v1/69180b4a-installconfig-network-ntp__2.6-configure-ntp.png)
+ vanilla -->
+
+<!-- ui
+![configure NTP](https://assets.ubuntu.com/v1/69180b4a-installconfig-network-ntp__2.6-configure-ntp.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 Enter the address of the desired NTP server. Apply any changes by pressing the 'Save' button.
 

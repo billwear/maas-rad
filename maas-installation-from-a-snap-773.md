@@ -156,6 +156,8 @@ To set up PostgreSQL, even if it's running on a different machine, you can use t
 
         sudo maas init region+rack --database-uri "postgres://$MAAS_DBUSER:$MAAS_DBPASS@$HOSTNAME/$MAAS_DBNAME"
 
+[note] You should use `localhost` for `$HOSTNAME` if you're running PostgreSQL on the same box as MAAS.[/note]
+
 Don't worry; if you leave out any of the database parameters, you'll be prompted for those details.
 
 <h2 id="heading--service-status">Checking MAAS service status</h2>

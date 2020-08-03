@@ -299,11 +299,27 @@
 This page has been deprecated in favor of newer terminology and technology.  Please see the <a href="adding-a-vm-host-1549.html">updated page</a>.
 </blockquote></p>
 <p>After installing MAAS, the &lsquo;KVM&rsquo; page is typically empty:</p>
+<!-- vanilla
+![kvm-open-screen|638x321](upload://zG2Jg6P7iEbakdEQtGVzm5WcY9l.jpeg) 
+ vanilla -->
+
 <p><img alt="kvm-open-screen|638x321" src="upload://zG2Jg6P7iEbakdEQtGVzm5WcY9l.jpeg"> </p>
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <h2 id="heading--25">2.5+</h2>
 
 <p>Once MAAS has enlisted, commissioned, and acquired a newly-added machine, you can deploy it as a KVM host:</p>
+<!-- vanilla
+![kvmpoddeploy](//discourse.maas.io/uploads/default/original/1X/63904b128941348ac07ec6a40ee12c51748c9f0a.png)
+ vanilla -->
+
 <p><img alt="kvmpoddeploy" src="//discourse.maas.io/uploads/default/original/1X/63904b128941348ac07ec6a40ee12c51748c9f0a.png"></p>
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <h3 id="heading--cli">CLI</h3>
 
 <p>Once MAAS has enlisted, commissioned, and acquired a machine, you can deploy it as a KVM host:</p>
@@ -375,7 +391,15 @@ Insufficient permissions for <code>$USER</code> may cause the <code>virsh</code>
 <h3 id="heading--add">Add</h3>
 
 <p>Now, add a KVM host by using the &lsquo;Add pod&rsquo; button. Choose &lsquo;Virsh (Virtual systems)&rsquo; from the &lsquo;Pod type&rsquo; drop-down menu.</p>
+<!-- vanilla
+![kvm-add-screen|690x250](upload://1mHQflonvsii29tTSWDv4vUqzzC.jpeg) 
+ vanilla -->
+
 <p><img alt="kvm-add-screen|690x250" src="upload://1mHQflonvsii29tTSWDv4vUqzzC.jpeg"> </p>
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <p>Here, &lsquo;Virsh address&rsquo; typically looks like the following:</p>
 <pre><code class="no-highlight">qemu+ssh://&lt;kvm host IP&gt;/system
 </code></pre>
@@ -402,7 +426,15 @@ MAAS will automatically discover and store the resources your KVM host contains.
 <h2 id="heading--configuration">Configuration</h2>
 
 <p>KVM hosts have several configuration options. Modify these by selecting the &lsquo;Configuration&rsquo; tab and clicking &lsquo;Edit&rsquo;. Options include a KVM host&rsquo;s location, password, network zone, and default resource pool.</p>
+<!-- vanilla
+![pod configuration](https://discourse.maas.io/uploads/default/original/1X/e6f9b3effcc9e4f44a09836cf6185449410bae7f.png)
+ vanilla -->
+
 <p><img alt="pod configuration" src="https://discourse.maas.io/uploads/default/original/1X/e6f9b3effcc9e4f44a09836cf6185449410bae7f.png"></p>
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 <h3 id="heading--overcommit-resources">Overcommit resources</h3>
 
 <p>Overcommitted resources are those allocated beyond what&rsquo;s available in the physical resource. Using sliders on the configuration page, you can limit whether MAAS will attempt to overcommit CPU and memory. The input fields to the right of the sliders accept floating-point values from 0 to 10, with a default value of 1.</p>
