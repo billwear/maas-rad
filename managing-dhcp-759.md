@@ -70,7 +70,20 @@ To relay from one VLAN (source) to another VLAN (target):
 
 2.  Set up the external relay. This relay is set up independently from MAAS. See [DHCP relay](/t/concepts-and-terms/785#heading--dhcp-relay) for software suggestions.
 
-3.  Configure MAAS-managed DHCP. Navigate to the source VLAN page and select the 'Relay DHCP' action. Fill in the fields in the resulting form. The crucial setting is the target VLAN ('Relay VLAN'). Press the 'Relay DHCP' button to finish. See [MAAS CLI](/t/cli-advanced-tasks/793#heading--relay-dhcp) for how to do this with the CLI.
+<!-- vanilla
+3.  Configure MAAS-managed DHCP. Navigate to the source VLAN page and select the 'Relay DHCP' action. Fill in the fields in the resulting form. The crucial setting is the target VLAN ('Relay VLAN'). Press the 'Relay DHCP' button to finish.
+
+### IMPORT TEXT FROM [MAAS CLI](/t/cli-advanced-tasks/793#heading--relay-dhcp) for how to do this with the CLI.
+ vanilla -->
+
+<!-- ui
+3.  Configure MAAS-managed DHCP. Navigate to the source VLAN page and select the 'Relay DHCP' action. Fill in the fields in the resulting form. The crucial setting is the target VLAN ('Relay VLAN'). Press the 'Relay DHCP' button to finish.
+ ui -->
+
+<!-- cli
+3. Here's how you do this with the cli...
+### IMPORT TEXT FROM [MAAS CLI](/t/cli-advanced-tasks/793#heading--relay-dhcp) for how to do this with the CLI.
+ cli -->
 
 <h2 id="heading--dhcp-snippets">DHCP Snippets</h2>
 
@@ -80,20 +93,27 @@ When MAAS manages DHCP, you customise it through the use of DHCP snippets. These
 Modifications made directly to `dhcpd.conf.template` or `dhcpd6.conf.template` are not supported.
 [/note]
 
+<!-- vanilla
 To manage snippets, as an admin, open the 'Settings' page and click on the 'DHCP snippets' tab.
 
 For example, to create a new snippet press 'Add custom snippet'. In the resulting window, choose a name and type for it and enter its associated DHCP configuration. Click 'Save snippet' to apply the change, and make sure to activate the checkbox in the 'Enabled' column of the snippets list.
 
-<!-- vanilla
 ![Manage DHCP snippets](https://discourse.maas.io/uploads/default/optimized/1X/a3247c726ed9e3e5d7a99becd89920e81aaa86f7_2_690x259.png)
+
+bring in text from [MAAS CLI](/t/cli-dhcp-snippet-management/796) for doing this with the CLI.
+
  vanilla -->
 
 <!-- ui
+To manage snippets, as an admin, open the 'Settings' page and click on the 'DHCP snippets' tab.
+
+For example, to create a new snippet press 'Add custom snippet'. In the resulting window, choose a name and type for it and enter its associated DHCP configuration. Click 'Save snippet' to apply the change, and make sure to activate the checkbox in the 'Enabled' column of the snippets list.
+
 ![Manage DHCP snippets](https://discourse.maas.io/uploads/default/optimized/1X/a3247c726ed9e3e5d7a99becd89920e81aaa86f7_2_690x259.png)
  ui -->
 
 <!-- cli
 ### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
+bring in text from [MAAS CLI](/t/cli-dhcp-snippet-management/796) for doing this with the CLI.
+cli -->
 
-See [MAAS CLI](/t/cli-dhcp-snippet-management/796) for doing this with the CLI.

@@ -359,28 +359,45 @@
 <li>
 <p>Set up the external relay. This relay is set up independently from MAAS. See <a href="concepts-and-terms-785.html#heading--dhcp-relay">DHCP relay</a> for software suggestions.</p>
 </li>
-<li>
-<p>Configure MAAS-managed DHCP. Navigate to the source VLAN page and select the &lsquo;Relay DHCP&rsquo; action. Fill in the fields in the resulting form. The crucial setting is the target VLAN (&lsquo;Relay VLAN&rsquo;). Press the &lsquo;Relay DHCP&rsquo; button to finish. See <a href="cli-advanced-tasks-793.html#heading--relay-dhcp">MAAS CLI</a> for how to do this with the CLI.</p>
-</li>
 </ol>
+<!-- vanilla
+3.  Configure MAAS-managed DHCP. Navigate to the source VLAN page and select the 'Relay DHCP' action. Fill in the fields in the resulting form. The crucial setting is the target VLAN ('Relay VLAN'). Press the 'Relay DHCP' button to finish.
+
+### IMPORT TEXT FROM [MAAS CLI](cli-advanced-tasks-793.html#heading--relay-dhcp) for how to do this with the CLI.
+ vanilla -->
+
+<ol>
+<li>Configure MAAS-managed DHCP. Navigate to the source VLAN page and select the &lsquo;Relay DHCP&rsquo; action. Fill in the fields in the resulting form. The crucial setting is the target VLAN (&lsquo;Relay VLAN&rsquo;). Press the &lsquo;Relay DHCP&rsquo; button to finish.</li>
+</ol>
+<!-- cli
+3. Here's how you do this with the cli...
+### IMPORT TEXT FROM [MAAS CLI](cli-advanced-tasks-793.html#heading--relay-dhcp) for how to do this with the CLI.
+ cli -->
+
 <h2 id="heading--dhcp-snippets">DHCP Snippets</h2>
 
 <p>When MAAS manages DHCP, you customise it through the use of DHCP snippets. These are user-defined configuration options that can be applied either globally, per subnet, or per machine. You apply a global snippet to all VLANs, subnets, and machines. All three types end up in <code>/var/lib/maas/dhcpd.conf</code> or <code>/var/lib/maas/dhcpd6.conf</code>. For information on what options to use, refer to the <a href="http://manpages.ubuntu.com/cgi-bin/search.py?q=dhcpd.conf"><code>dhcpd.conf</code> man page</a>.</p>
 <p><blockquote style="background:lightgrey;">
 Modifications made directly to <code>dhcpd.conf.template</code> or <code>dhcpd6.conf.template</code> are not supported.
 </blockquote></p>
-<p>To manage snippets, as an admin, open the &lsquo;Settings&rsquo; page and click on the &lsquo;DHCP snippets&rsquo; tab.</p>
-<p>For example, to create a new snippet press &lsquo;Add custom snippet&rsquo;. In the resulting window, choose a name and type for it and enter its associated DHCP configuration. Click &lsquo;Save snippet&rsquo; to apply the change, and make sure to activate the checkbox in the &lsquo;Enabled&rsquo; column of the snippets list.</p>
 <!-- vanilla
+To manage snippets, as an admin, open the 'Settings' page and click on the 'DHCP snippets' tab.
+
+For example, to create a new snippet press 'Add custom snippet'. In the resulting window, choose a name and type for it and enter its associated DHCP configuration. Click 'Save snippet' to apply the change, and make sure to activate the checkbox in the 'Enabled' column of the snippets list.
+
 ![Manage DHCP snippets](https://discourse.maas.io/uploads/default/optimized/1X/a3247c726ed9e3e5d7a99becd89920e81aaa86f7_2_690x259.png)
+
+bring in text from [MAAS CLI](cli-dhcp-snippet-management-796.html) for doing this with the CLI.
+
  vanilla -->
 
+<p>To manage snippets, as an admin, open the &lsquo;Settings&rsquo; page and click on the &lsquo;DHCP snippets&rsquo; tab.</p>
+<p>For example, to create a new snippet press &lsquo;Add custom snippet&rsquo;. In the resulting window, choose a name and type for it and enter its associated DHCP configuration. Click &lsquo;Save snippet&rsquo; to apply the change, and make sure to activate the checkbox in the &lsquo;Enabled&rsquo; column of the snippets list.</p>
 <p><img alt="Manage DHCP snippets" src="https://discourse.maas.io/uploads/default/optimized/1X/a3247c726ed9e3e5d7a99becd89920e81aaa86f7_2_690x259.png"></p>
 <!-- cli
 ### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
-
-<p>See <a href="cli-dhcp-snippet-management-796.html">MAAS CLI</a> for doing this with the CLI.</p>
+bring in text from [MAAS CLI](cli-dhcp-snippet-management-796.html) for doing this with the CLI.
+cli -->
 </div>
 </body>
 </html>

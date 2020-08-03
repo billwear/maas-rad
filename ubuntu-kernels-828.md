@@ -39,7 +39,15 @@ Before MAAS 2.1 on Xenial, HWE kernels are referred to by the notation `hwe-<rel
 
 In MAAS 2.1, starting with Xenial kernels, the notation has changed. The following is used to refer to the latest HWE kernel available for Xenial: `hwe-16.04`.
 
+<!-- cli
+### BRING IN THESE INSTRUCTIONS TO THIS SECITON
 See [MAAS CLI](/t/cli-image-management/797#heading--hardware-enablement-hwe) for how to target specific HWE kernels when selecting install images.
+ cli -->
+
+<!-- vanilla
+### BRING IN THESE INSTRUCTIONS TO THIS SECITON
+See [MAAS CLI](/t/cli-image-management/797#heading--hardware-enablement-hwe) for how to target specific HWE kernels when selecting install images.
+ vanilla -->
 
 See [LTS Enablement Stack](https://wiki.ubuntu.com/Kernel/LTSEnablementStack) (Ubuntu wiki) for the latest information on HWE.
 

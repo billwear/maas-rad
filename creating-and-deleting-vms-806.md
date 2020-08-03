@@ -183,24 +183,34 @@ Example output:
     "MyVMHost"
     1
 
+<!-- vanilla
 <h2 id="heading--delete-a-machine">Deleting a VM from the Web UI</h2>
 
 To delete a VM, delete it as you would any other MAAS machine. Select the desired machine from the list of machines and select 'Delete' from the 'Take Action' menu.
 
-<!-- vanilla
 ![delete-vm|690x400](https://discourse.maas.io/uploads/default/optimized/1X/34d3f5fcd8a86bfa827bab5383209ea9ca117f50_2_690x400.jpeg) 
  vanilla -->
 
 <!-- ui
+<h2 id="heading--delete-a-machine">Deleting a VM from the Web UI</h2>
+
+To delete a VM, delete it as you would any other MAAS machine. Select the desired machine from the list of machines and select 'Delete' from the 'Take Action' menu.
+
 ![delete-vm|690x400](https://discourse.maas.io/uploads/default/optimized/1X/34d3f5fcd8a86bfa827bab5383209ea9ca117f50_2_690x400.jpeg) 
  ui -->
 
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
-
+<!-- vanilla
 <h2 id="heading--delete-a-vm">Deleting a VM with the CLI</h2>
 
     maas $PROFILE machine delete $SYSTEM_ID
 
 After you delete a machine, its resources will be available for other VMs.
+ vanilla -->
+
+<!-- cli
+<h2 id="heading--delete-a-vm">Deleting a VM with the CLI</h2>
+
+    maas $PROFILE machine delete $SYSTEM_ID
+
+After you delete a machine, its resources will be available for other VMs.
+ cli -->

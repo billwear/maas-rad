@@ -382,22 +382,29 @@
 <p>Syslog data is kept in <code>/var/log/maas/rsyslog/&lt;machine-name&gt;&lt;yyyy-mm-dd&gt;/messages</code> (<code>/var/snap/maas/common/log/rsyslog/&lt;machine-name&gt;&lt;yyyy-mm-dd&gt;/messages</code> when using the snap). Every machine known to MAAS will have corresponding syslogs.</p>
 <h2 id="heading--using-a-remote-syslog-server">Using a remote syslog server</h2>
 
-<p>To add a remote syslog server, click the Settings tab and then click the Network services tab. Scroll down to the Syslog section, where you can add a syslog URL or IP:</p>
 <!-- vanilla
+To add a remote syslog server, click the Settings tab and then click the Network services tab. Scroll down to the Syslog section, where you can add a syslog URL or IP:
+
 ![remote_syslog](https://assets.ubuntu.com/v1/e139d4e9-installconfig-syslog__2.6-remote-syslog.png)
+
+Click the Save button to save your changes.
+
+### ADD SUITABLE MATERIAL FROM [MAAS CLI](cli-advanced-tasks-793.html#heading--add-or-update-a-remote-syslog-server).
+
  vanilla -->
 
 <!-- ui
+To add a remote syslog server, click the Settings tab and then click the Network services tab. Scroll down to the Syslog section, where you can add a syslog URL or IP:
+
 ![remote_syslog](https://assets.ubuntu.com/v1/e139d4e9-installconfig-syslog__2.6-remote-syslog.png)
+
+Click the Save button to save your changes.
  ui -->
 
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
-<p>Click the Save button to save your changes.</p>
+<h3>ADD SUITABLE MATERIAL FROM <a href="cli-advanced-tasks-793.html#heading--add-or-update-a-remote-syslog-server">MAAS CLI</a>.</h3>
 <p><blockquote style="background:lightgrey;">
 Note that MAAS controllers&rsquo; syslogs are not forwarded to the external syslog server &ndash; only machine syslog information is forwarded.
 </blockquote></p>
-<p>See <a href="cli-advanced-tasks-793.html#heading--add-or-update-a-remote-syslog-server">MAAS CLI</a> to learn how to add a remote syslog server using the CLI.</p>
-<!-- LINKS -->
 </div>
 </body>
 </html>

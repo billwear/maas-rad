@@ -2,9 +2,22 @@ Mirroring images is worthy of consideration.  The SimpleStreams protocol deliver
 
 #### Quick questions you may have:
 
+<!-- vanilla
 * [How do I set up a local mirror?](/t/local-image-mirror/752#heading--set-up-local-mirror)
 * [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/751#heading--image-mirrors)
 * [How do I use a local mirror through the CLI?](/t/local-image-mirror/752#heading--local-mirror-with-cli)
+ vanilla -->
+
+<!-- cli
+* [How do I set up a local mirror?](/t/local-image-mirror/752#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/751#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](/t/local-image-mirror/752#heading--local-mirror-with-cli)
+ cli -->
+
+<!-- ui
+* [How do I set up a local mirror?](/t/local-image-mirror/752#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/751#heading--image-mirrors)
+ ui -->
 
 <h2 id="heading--set-up-local-mirror">Setting up a local mirror</h2>
 
@@ -47,8 +60,21 @@ Verify the availability of the images by visiting the above URL.
 
 The final `sstream-mirror` command should be invoked at regular intervals (i.e. with `cron`) to ensure the mirror contains the latest images.
 
+<!-- vanilla
 <h2 id="heading--local-mirror-with-cli">Configure MAAS to use a local mirror with the CLI</h2>
+ vanilla -->
 
+<!-- vanilla
+### BRING THIS TEXT INTO THIS SECTION
 See [Add a boot source](/t/cli-image-management/797#heading--add-a-boot-source) and [Using a local image mirror](/t/cli-image-management/797#heading--using-a-local-image-mirror) for instructions on how to do this with the CLI.
+ vanilla -->
 
-<!-- LINKS -->
+<!-- cli
+<h2 id="heading--local-mirror-with-cli">Configure MAAS to use a local mirror with the CLI</h2>
+ cli -->
+
+<!-- cli
+### BRING THIS TEXT INTO THIS SECTION
+See [Add a boot source](/t/cli-image-management/797#heading--add-a-boot-source) and [Using a local image mirror](/t/cli-image-management/797#heading--using-a-local-image-mirror) for instructions on how to do this with the CLI.
+ cli -->
+

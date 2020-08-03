@@ -24,26 +24,30 @@ Syslog data is kept in `/var/log/maas/rsyslog/<machine-name><yyyy-mm-dd>/message
 
 <h2 id="heading--using-a-remote-syslog-server">Using a remote syslog server</h2>
 
+<!-- vanilla
 To add a remote syslog server, click the Settings tab and then click the Network services tab. Scroll down to the Syslog section, where you can add a syslog URL or IP:
 
-<!-- vanilla
 ![remote_syslog](https://assets.ubuntu.com/v1/e139d4e9-installconfig-syslog__2.6-remote-syslog.png)
+
+Click the Save button to save your changes.
+
+### ADD SUITABLE MATERIAL FROM [MAAS CLI](/t/cli-advanced-tasks/793#heading--add-or-update-a-remote-syslog-server).
+
  vanilla -->
 
 <!-- ui
+To add a remote syslog server, click the Settings tab and then click the Network services tab. Scroll down to the Syslog section, where you can add a syslog URL or IP:
+
 ![remote_syslog](https://assets.ubuntu.com/v1/e139d4e9-installconfig-syslog__2.6-remote-syslog.png)
+
+Click the Save button to save your changes.
  ui -->
 
 <!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+### ADD SUITABLE MATERIAL FROM [MAAS CLI](/t/cli-advanced-tasks/793#heading--add-or-update-a-remote-syslog-server).
  cli -->
-
-Click the Save button to save your changes.
 
 [note]
 Note that MAAS controllers' syslogs are not forwarded to the external syslog server -- only machine syslog information is forwarded.
 [/note]
 
-See [MAAS CLI](/t/cli-advanced-tasks/793#heading--add-or-update-a-remote-syslog-server) to learn how to add a remote syslog server using the CLI.
-
-<!-- LINKS -->

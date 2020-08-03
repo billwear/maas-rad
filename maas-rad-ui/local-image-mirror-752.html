@@ -297,10 +297,21 @@
 <div class="container" style="float:right; width:75%;">
 <h1>Local image mirror</h1><p>Mirroring images is worthy of consideration.  The SimpleStreams protocol delivers Images to MAAS, which is especially useful when your Internet link is slow or unreliable. In this mirrored configuration, images will be instantly available when MAAS requests them.</p>
 <h4>Quick questions you may have:</h4>
+<!-- vanilla
+* [How do I set up a local mirror?](local-image-mirror-752.html#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](select-and-import-images-751.html#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](local-image-mirror-752.html#heading--local-mirror-with-cli)
+ vanilla -->
+
+<!-- cli
+* [How do I set up a local mirror?](local-image-mirror-752.html#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](select-and-import-images-751.html#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](local-image-mirror-752.html#heading--local-mirror-with-cli)
+ cli -->
+
 <ul>
 <li><a href="local-image-mirror-752.html#heading--set-up-local-mirror">How do I set up a local mirror?</a></li>
 <li><a href="select-and-import-images-751.html#heading--image-mirrors">How do I configure MAAS to use the local mirror?</a></li>
-<li><a href="local-image-mirror-752.html#heading--local-mirror-with-cli">How do I use a local mirror through the CLI?</a></li>
 </ul>
 <h2 id="heading--set-up-local-mirror">Setting up a local mirror</h2>
 
@@ -330,10 +341,23 @@ sudo sstream-mirror --keyring=$KEYRING_FILE $IMAGE_SRC $IMAGE_DIR \
 <p>Where <code>&lt;myserver&gt;</code> identifies your server&rsquo;s hostname or IP address.</p>
 <p>Verify the availability of the images by visiting the above URL.</p>
 <p>The final <code>sstream-mirror</code> command should be invoked at regular intervals (i.e. with <code>cron</code>) to ensure the mirror contains the latest images.</p>
+<!-- vanilla
 <h2 id="heading--local-mirror-with-cli">Configure MAAS to use a local mirror with the CLI</h2>
+ vanilla -->
 
-<p>See <a href="cli-image-management-797.html#heading--add-a-boot-source">Add a boot source</a> and <a href="cli-image-management-797.html#heading--using-a-local-image-mirror">Using a local image mirror</a> for instructions on how to do this with the CLI.</p>
-<!-- LINKS -->
+<!-- vanilla
+### BRING THIS TEXT INTO THIS SECTION
+See [Add a boot source](cli-image-management-797.html#heading--add-a-boot-source) and [Using a local image mirror](cli-image-management-797.html#heading--using-a-local-image-mirror) for instructions on how to do this with the CLI.
+ vanilla -->
+
+<!-- cli
+<h2 id="heading--local-mirror-with-cli">Configure MAAS to use a local mirror with the CLI</h2>
+ cli -->
+
+<!-- cli
+### BRING THIS TEXT INTO THIS SECTION
+See [Add a boot source](cli-image-management-797.html#heading--add-a-boot-source) and [Using a local image mirror](cli-image-management-797.html#heading--using-a-local-image-mirror) for instructions on how to do this with the CLI.
+ cli -->
 </div>
 </body>
 </html>

@@ -15,5 +15,6 @@ rm logging-776.md
 rm maas-security-811.md
 rm pods-823.md
 rm working-with-git-and-github-746.md
+rm manage-composable-machines-812.md
 sed -i '/^## Navigation/,$d' maas-documentation-25.md
 sed -i "s/\(^\!\[.*\)/<!-- vanilla\n\1\n vanilla -->\n\n<!-- ui\n\1\n ui -->\n\n<!-- cli\n### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###\n cli -->/g" *.md

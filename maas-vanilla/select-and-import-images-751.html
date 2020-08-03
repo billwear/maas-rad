@@ -367,42 +367,65 @@
 <li><a href="select-and-import-images-751.html#heading--other-images">How do I import and provision non-Ubuntu images?</a></li>
 <li><a href="cli-image-management-797.html#heading--select-images">How can I use the CLI to select and import images?</a></li>
 </ul>
+<!-- cli
+* [How do I import standard images from maas.io?](select-and-import-images-751.html#heading--import-maasio-image-ui)
+* [How do I use other image mirrors to download images?](select-and-import-images-751.html#heading--image-mirrors)
+* [How do I import and provision non-Ubuntu images?](select-and-import-images-751.html#heading--other-images)
+* [How can I use the CLI to select and import images?](cli-image-management-797.html#heading--select-images)
+ cli -->
+
+<!-- ui
+* [How do I import standard images from maas.io?](select-and-import-images-751.html#heading--import-maasio-image-ui)
+* [How do I use other image mirrors to download images?](select-and-import-images-751.html#heading--image-mirrors)
+* [How do I import and provision non-Ubuntu images?](select-and-import-images-751.html#heading--other-images)
+ ui -->
+
 <p>Note that it is possible to build your own images in a limited sense: see <a href="maas-image-builder-1112.html">MAAS Image Builder</a>.</p>
 <h2 id="heading--import-maasio-image-ui">Importing images from maas.io</h2>
 
 <p>The &lsquo;Images&rsquo; page shows what images and architectures have been selected and downloaded. By default, MAAS will automatically grab the most recent Ubuntu LTS releases (and amd64 architecture). Below, we have selected two additional releases:</p>
 <p><img alt="select and import images" src="https://discourse.maas.io/uploads/default/optimized/1X/d208922f1126ec92f6ef06cfaa5e16dbbfc613d0_2_690x462.png"></p>
 <!-- ui
+The 'Images' page shows what images and architectures have been selected and downloaded. By default, MAAS will automatically grab the most recent Ubuntu LTS releases (and amd64 architecture). Below, we have selected two additional releases:
+
 ![select and import images](https://discourse.maas.io/uploads/default/optimized/1X/d208922f1126ec92f6ef06cfaa5e16dbbfc613d0_2_690x462.png)
  ui -->
 
 <!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+### ADD SUITABLE CLI EXPLANATION/EXAMPLE OR PRINTOUT ###
  cli -->
 
 <p>You can tell MAAS to sync images hourly, at the region level, using a toggle switch in the top-right corner of the screen.  See <a href="images-754.html#boot-image-sources">Boot image sources</a>) for more details. We highly recommended synching images hourly. Syncing at the rack controller level (from regiond) occurs every 5 min and cannot be disabled.</p>
 <p>Click the &lsquo;Save selection&rsquo; button to initiate the import. MAAS will present existing images along with the newly-selected ones. The latter will have their status updated as the import is processed:</p>
 <p><img alt="ubuntu images importing" src="https://discourse.maas.io/uploads/default/optimized/1X/f7daa92c97f1ada61c2172044d43856ed3e14b5f_2_690x139.png"></p>
+<p>To remove an image, unselect it and click &lsquo;Save selection&rsquo;.</p>
 <!-- ui
+Click the 'Save selection' button to initiate the import. MAAS will present existing images along with the newly-selected ones. The latter will have their status updated as the import is processed:
+
 ![ubuntu images importing](https://discourse.maas.io/uploads/default/optimized/1X/f7daa92c97f1ada61c2172044d43856ed3e14b5f_2_690x139.png)
+
+To remove an image, unselect it and click 'Save selection'.
  ui -->
 
 <!-- cli
 ### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
  cli -->
 
-<p>To remove an image, unselect it and click &lsquo;Save selection&rsquo;.</p>
 <h2 id="heading--image-mirrors">Image mirrors</h2>
 
 <p>You can also host Ubuntu images on a mirror. Configure this mirror by selecting &lsquo;Custom&rsquo; beneath &lsquo;Choose source&rsquo;. Enter the mirror URL and click &lsquo;Connect&rsquo;.</p>
 <p>Advanced options, such as using a GPG key or keyring to validate the mirror path (snap installation location: /snap/maas/current/usr/share/keyrings/ubuntu-cloudimage-keyring.gpg), are revealed by clicking &lsquo;Show advanced options&rsquo;:</p>
 <p><img alt="image mirror configuration" src="https://discourse.maas.io/uploads/default/original/1X/dbe44a827e70e318a6139c3e335019a6a27c4374.png"></p>
 <!-- ui
+You can also host Ubuntu images on a mirror. Configure this mirror by selecting 'Custom' beneath 'Choose source'. Enter the mirror URL and click 'Connect'.
+
+Advanced options, such as using a GPG key or keyring to validate the mirror path (snap installation location: /snap/maas/current/usr/share/keyrings/ubuntu-cloudimage-keyring.gpg), are revealed by clicking 'Show advanced options':
+
 ![image mirror configuration](https://discourse.maas.io/uploads/default/original/1X/dbe44a827e70e318a6139c3e335019a6a27c4374.png)
  ui -->
 
 <!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+### ADD SUITABLE CLI EXPLANATION/EXAMPLE OR PRINTOUT ###
  cli -->
 
 <p>Optionally, a local mirror can be set up as the boot source. MAAS will then use it instead of the standard internet-based server. Local mirroring significantly reduces the time required import images. See <a href="local-image-mirror-752.html">Local image mirror</a> for instructions.</p>
@@ -410,15 +433,11 @@
 
 <p>It is also possible to import and provision images other than Ubuntu. Images supported and provided by MAAS will appear beneath the &lsquo;Other Images&rsquo; section. Currently, images for CentOS 6.6, CentOS 7.0, and CentOS 8.0 are available. These images can be imported and used just like the Ubuntu images above.</p>
 <p><img alt="other images importing" src="https://discourse.maas.io/uploads/default/optimized/1X/198aa78b2dd3a650f1b3909ae2c9269e159ca1dc_2_690x182.png"></p>
-<!-- ui
-![other images importing](https://discourse.maas.io/uploads/default/optimized/1X/198aa78b2dd3a650f1b3909ae2c9269e159ca1dc_2_690x182.png)
- ui -->
-
+<p>It is also possible to import and provision images other than Ubuntu. Images supported and provided by MAAS will appear beneath the &lsquo;Other Images&rsquo; section. Currently, images for CentOS 6.6, CentOS 7.0, and CentOS 8.0 are available. These images can be imported and used just like the Ubuntu images above.</p>
+<p><img alt="other images importing" src="https://discourse.maas.io/uploads/default/optimized/1X/198aa78b2dd3a650f1b3909ae2c9269e159ca1dc_2_690x182.png"></p>
 <!-- cli
 ### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
  cli -->
-
-<!-- LINKS -->
 </div>
 </body>
 </html>
