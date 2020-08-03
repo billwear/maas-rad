@@ -51,7 +51,17 @@ MAAS integrates all the tools you need into a smooth system-management experienc
 - hardware testing
 - composable hardware support
 
+<!-- vanilla
 These tools can be controlled from a responsive web UI or a [CLI](/t/maas-cli/802) driven by a REST API.  You can easily (re)configure and scale your data centre with MAAS.
+ vanilla -->
+
+<!-- ui
+These tools can be controlled from a responsive web UI.  You can easily (re)configure and scale your data centre with MAAS.
+ ui -->
+
+<!-- cli
+These tools can be controlled from a [CLI](/t/maas-cli/802) driven by a REST API.  You can easily (re)configure and scale your data centre with MAAS.
+ cli -->
 
 <!-- vanilla
 ![mixed-states|690x438](https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg)  
