@@ -35,12 +35,24 @@ PXE stands for "Preboot Execution Environment," usually pronounced "pixie."  The
 
 MAAS can manage a large number of physical machines by merging them into user-defined resource pools. MAAS automatically provisions participating machines and makes them available for use. You can return unused machines to the assigned pool at any time. 
 
-MAAS integrates all the tools you need into a smooth system-management experience. It includes:
+<!-- vanilla
+MAAS integrates all the tools you need into a smooth system-management experience.
+ In addition to full API/CLI support, and a web UI that is optimised for mobile devices, it includes:
+ vanilla -->
 
-- web UI (optimised for mobile devices)
+<!-- ui
+MAAS integrates all the tools you need into a smooth system-management experience.
+ In addition to a web UI that is optimised for mobile devices, it includes:
+ ui -->
+
+<!-- cli
+MAAS integrates all the tools you need into a smooth system-management experience.
+ In addtion to full API/CLI support, it includes:
+ cli -->
+
+
 - Ubuntu, CentOS, Windows, and RHEL installation support
 - open-source IP address management (IPAM)
-- full API/CLI support
 - high availability (optional)
 - IPv6 support
 - inventory of components
@@ -147,9 +159,15 @@ MAAS users allocate ("acquire") machines for use when needed. The web UI also al
 ### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
  cli -->
 
+<!-- cli
 When acquiring machines from the API/CLI, you can specify requirements ("constraints"). Common constraints are memory, CPU cores, connected networks, and assigned physical zone.
+ cli -->
+
+<!-- vanilla
+When acquiring machines from the API/CLI, you can specify requirements ("constraints"). Common constraints are memory, CPU cores, connected networks, and assigned physical zone.
+ vanilla -->
 
 An acquired MAAS machine is more flexible than a virtual instance in a cloud. You have complete control, including hardware drivers and root access. If you want to upgrade the BIOS, for example, you can allocate a machine to yourself and complete the upgrade.  Once you have completed the upgrade, you can send the machine back to the pool.
 
-Note that [Juju](https://jaas.ai/docs/maas-cloud) is designed to work with MAAS. MAAS becomes a backend Juju resource pool with all functionality fully available. For instance, if Juju removes a machine, then MAAS will release that machine to the pool.  With Juju, MAAS can become an integral part of your data centre strategy and operations.
-<!-- zork-out -->
+Note that [Juju](https://jaas.ai/docs/maas-cloud) is designed to work with MAAS. MAAS
+becomes a backend Juju resource pool with all functionality fully available. For instance, if Juju removes a machine, then MAAS will release that machine to the pool.  With Juju, MAAS can become an integral part of your data centre strategy and operations.
