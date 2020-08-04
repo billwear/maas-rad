@@ -25,11 +25,11 @@ To configure a machine's power type, click on the machine from the 'Machines' pa
 Choose a type in the dropdown menu that corresponds to the machine's underlying machine's BMC card.
 
 <!-- vanilla
-![power types selection](../images/b53c6613-nodes-power-types__2.4_selection.png)
+![power types selection|690x399](../images/b53c6613-nodes-power-types__2.4_selection.png)
  vanilla -->
 
 <!-- ui
-![power types selection](../images/b53c6613-nodes-power-types__2.4_selection.png)
+![power types selection|690x399](../images/b53c6613-nodes-power-types__2.4_selection.png)
  ui -->
 
 <!-- cli
