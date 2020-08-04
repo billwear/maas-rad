@@ -61,11 +61,11 @@ Another possible cause for this error may be the networking: traffic may be gett
 Consider a machine backed by VM. Below, a 'Power type' of `Virsh` has been selected, and the 'Power address' of `qemu+ssh://ubuntu@192.168.1.2/system` has been entered (replace values as appropriate).  The value of 'Power ID' is the VM domain (guest) name, here `node2`.
 
 <!-- vanilla
-![power types example: virsh](../images/c75e00a8-nodes-power-types__2.4_example-virsh.png)
+![power types example: virsh|690x344](../images/c75e00a8-nodes-power-types__2.4_example-virsh.png)
  vanilla -->
 
 <!-- ui
-![power types example: virsh](../images/c75e00a8-nodes-power-types__2.4_example-virsh.png)
+![power types example: virsh|690x344](../images/c75e00a8-nodes-power-types__2.4_example-virsh.png)
  ui -->
 
 <!-- cli
