@@ -32,7 +32,7 @@ As an example, running this command might produce output that looks like this:
 ### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
  cli -->
 
-The 'maas' metapackage is the recommended way to install MAAS. See the [Introduction](/t/what-is-maas/840#heading--key-components-and-colocation-of-all-services) for more detail on colocating all services on a single host.  Note that high availability with MAAS involves installing multiple region/rack controllers. See [MAAS HA](/t/high-availability/804) for more information on this topic.
+The 'maas' metapackage is the recommended way to install MAAS. See the [Introduction](/t/about-maas/840#heading--key-components-and-colocation-of-all-services) for more detail on colocating all services on a single host.  Note that high availability with MAAS involves installing multiple region/rack controllers. See [MAAS HA](/t/high-availability/804) for more information on this topic.
 
 <h2 id="heading--package-repositories">Package repositories</h2>
 

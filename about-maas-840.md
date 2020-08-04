@@ -2,12 +2,12 @@ MAAS is an open-source tool that lets you build a data centre from bare-metal se
 
 #### Quick questions you might have:
 
-* [What is MAAS?](#heading--what-is-maas)
+* [What is MAAS?](#heading--about-maas)
 * [What does MAAS offer me?](/t/about-maas/840#heading--what-maas-offers)
 * [Can MAAS colocate key components to conserve my resources?](/t/about-maas/840#heading--colocation-of-key-components)
 * [How does MAAS work?](/t/about-maas/840#heading--how-maas-works)
 
-<h2 id="heading--what-is-maas">What is MAAS?</h2>
+<h2 id="heading--about-maas">What is MAAS?</h2>
 
 MAAS expands to "Metal As A Service". It converts bare-metal servers into cloud instances of virtual machines. There is no need to manage individual units. You can quickly provision or destroy machines, as if they were instances hosted in a public cloud like Amazon AWS, Google GCE, or Microsoft Azure.
 

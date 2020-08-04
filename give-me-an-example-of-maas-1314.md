@@ -516,11 +516,11 @@ To add the "Provider services" (ProServ) pool, click on "Add pool:"
 Fill in the fields for "Name" (which is a required field, with no spaces), and for "Description."  In this case, we've filled them in with "ProServ" and "Provider services:"
 
 <!-- vanilla
-![pools-4|690x164](../imagesmutNbxfTQOVU5JwXBvESQ84iNuN.jpeg) 
+![pools-4|690x164](../images/mutNbxfTQOVU5JwXBvESQ84iNuN.jpeg) 
  vanilla -->
 
 <!-- ui
-![pools-4|690x164](../imagesmutNbxfTQOVU5JwXBvESQ84iNuN.jpeg) 
+![pools-4|690x164](../images/mutNbxfTQOVU5JwXBvESQ84iNuN.jpeg) 
  ui -->
 
 <!-- cli
