@@ -102,11 +102,11 @@ We generally recommended installing both controllers on the same system.  The de
 In special cases, such as [high availability or load balancing](/t/high-availability/804), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp/759) will cause problems.
 
 <!-- vanilla
-![intro-arch-overview](../images/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png)
+![intro-arch-overview|690x406](../images/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png)
  vanilla -->
 
 <!-- ui
-![intro-arch-overview](../images/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png)
+![intro-arch-overview|690x406](../images/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png)
  ui -->
 
 <!-- cli
