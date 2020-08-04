@@ -430,9 +430,9 @@ These tools can be controlled from a responsive web UI.  You can easily (re)conf
 
 <h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
 <p>MAAS works with any system configuration tools. Both the <a href="https://www.chef.io/chef">Chef</a> and <a href="https://jaas.ai/">Juju</a> teams recommend MAAS as a physical provisioning system.</p>
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 Please note that Windows and RHEL images require <a href="https://www.ubuntu.com/support">Ubuntu Advantage</a> to work correctly with MAAS.
-</blockquote></p>
+[/note]</p>
 <h3 id="heading--colocation-of-key-components">Colocation of key components</h3>
 
 <p>MAAS relies on two key components: the <em>region controller</em> and the <em>rack controller</em>. The region controller handles operator requests; the rack controller provides high-bandwidth services to multiple racks. In essence, rack controllers manage racks, while the region controller manages the data centre.  See <a href="concepts-and-terms-785.html#heading--controllers">Concepts and terms</a> for a deeper understanding of these components.</p>
@@ -467,7 +467,7 @@ Please note that Windows and RHEL images require <a href="https://www.ubuntu.com
 <p>MAAS controls machines through IPMI (or another BMC). It can also manage machines through a converged chassis controller, such as Cisco UCS.  You can choose how you want to control power on your machines based on what is available.  MAAS overwrites the machine&rsquo;s disk space with your chosen, pre-cached OS images.</p>
 <p>[note type=&rdquo;negative&rdquo; status=&rdquo;Warning&rdquo;]
 <em>The above comment about disk space bears repeating: MAAS will overwrite the disk space of all machines it enlists. All pool machines are under the control of MAAS; you should provision them using other methods.</em>
-</blockquote></p>
+[/note]</p>
 <p>MAAS users allocate (&ldquo;acquire&rdquo;) machines for use when needed. The web UI also allows you to acquire machines manually, such as when you are reserving specific hardware for certain users. You can remotely access and customise the installed operating system via SSH.</p>
 <!-- vanilla
 ![acquire|690x363](../images/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg) 

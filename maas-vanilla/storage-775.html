@@ -369,15 +369,15 @@
 <li><a href="disk-erasure-774.html">How can I erase a disk?</a></li>
 </ul>
 <p>A machine&rsquo;s storage is dependant upon the underlying system&rsquo;s disks, but its configuration (i.e., disk usage) is the result of a storage template. In MAAS, this template is called a layout, and MAAS applies it to a machine during commissioning.  Once a layout is applied, a regular user can make modifications to a machine at the filesystem level to arrive at the machine&rsquo;s final storage configuration.  When a machine is no longer needed, a user can choose from among several disk erasure types before releasing it.</p>
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 MAAS supports storage configuration for CentOS and RHEL deployments. Support includes RAID, LVM, and custom partitioning with different file systems (ZFS and bcache excluded). This support requires a newer version of Curtin, <a href="https://launchpad.net/ubuntu/+source/curtin">available as a PPA</a>.
-</blockquote></p>
+[/note]</p>
 <h2 id="heading--uefi">UEFI</h2>
 
 <p>Every layout type supports a machine booting with UEFI. In such a case, MAAS automatically creates an EFI boot partition (<code>/boot/efi</code>). Other than setting the machine to boot from UEFI, the user does not need to take any additional action.</p>
 <p>[note type=&rdquo;negative&rdquo; status=&rdquo;Warning&rdquo;]
 UEFI must be enabled or disabled for the lifespan of the machine. For example, do not enlist a machine with UEFI enabled, and then disable it before commissioning. It won&rsquo;t work!
-</blockquote></p>
+[/note]</p>
 <p>The EFI partition, if created, will be the first partition (<code>sda1</code>) and will have a FAT32 filesystem with a size of 512 MB.</p>
 <h2 id="heading--layouts">Layouts</h2>
 
@@ -636,7 +636,7 @@ UEFI must be enabled or disabled for the lifespan of the machine. For example, d
 <p>The blank layout removes all storage configuration from all storage devices. It is useful when needing to apply a custom storage configuration.</p>
 <p>[note type=&rdquo;negative&rdquo; status=&rdquo;Warning&rdquo;]
 Machines with the blank layout applied are not deployable; you must first configure storage manually.
-</blockquote></p>
+[/note]</p>
 <h2 id="heading--setting-layouts">Setting layouts</h2>
 
 <p>Layouts can be set globally and on a per-machine basis.</p>
@@ -658,22 +658,22 @@ To change the default with the CLI see [MAAS CLI - advanced tasks](cli-advanced-
 <p>See <a href="disk-erasure-774.html">Disk erasure</a> for an explanation of the options related to the erasing of disks.</p>
 <p>[note type=&rdquo;caution&rdquo; status=&rdquo;Important&rdquo;]
 The new default will only apply to newly-commissioned machines.
-</blockquote></p>
+[/note]</p>
 <h3 id="heading--node-layout">Machine layout</h3>
 
 <p>An administrator can change the layout for a single machine as well as customise that layout providing this is done while the machine has a status of &lsquo;Ready&rsquo;. This is only possible via the CLI at this time (see <a href="cli-advanced-tasks-793.html#heading--set-a-storage-layout">MAAS CLI - advanced tasks</a>).</p>
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 Only an administrator can modify storage at the block device level (providing the machine has a status of &lsquo;Ready&rsquo;).
-</blockquote></p>
+[/note]</p>
 <!-- cli
 
 <h3 id="heading--node-layout">Machine layout</h3>
 
 An administrator can change the layout for a single machine as well as customise that layout providing this is done while the machine has a status of 'Ready'. This is only possible via the CLI at this time (see [MAAS CLI - advanced tasks](cli-advanced-tasks-793.html#heading--set-a-storage-layout)).
 
-<blockquote style="background:lightgrey;">
+[note]
 Only an administrator can modify storage at the block device level (providing the machine has a status of 'Ready').
-</blockquote>
+[/note]
  cli -->
 
 <h2 id="heading--final-storage-modifications">Final storage modifications</h2>

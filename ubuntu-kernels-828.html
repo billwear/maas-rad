@@ -384,9 +384,9 @@
 
 <p>New hardware gets released all the time. If an Ubuntu host runs an older kernel, it&rsquo;s unlikely that MAAS can support the hardware. Canonical does make every effort to backport more recent kernels enabling more hardware. The acronym HWE stands for &ldquo;HardWare Enablement.&rdquo;</p>
 <p>You also gain kernel improvements and new features when installing an HWE kernel.</p>
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 There is the notion of an HWE <em>stack</em>, which refers to the window manager and kernel when the Ubuntu host is running a desktop environment. HWE stacks do not apply to MAAS since machines are provisioned strictly as non-graphical servers.
-</blockquote></p>
+[/note]</p>
 <p>Note that these backported/HWE kernels are only available for LTS releases (e.g. Trusty, Xenial, etc.). For example, the first available HWE kernel for Ubuntu 16.04 LTS (Xenial) will be the GA kernel from Ubuntu 16.10 (Yakkety).</p>
 <p>Before MAAS 2.1 on Xenial, HWE kernels are referred to by the notation <code>hwe-&lt;release letter&gt;</code>. So, to install the Yakkety HWE kernel on Xenial, the <code>hwe-y</code> kernel is used. By default, when using the web UI, MAAS imports all available HWE kernels along with its generic boot images. So if you are importinTrusty images are imported then the following HWE kernels are included: <code>hwe-u</code>, <code>hwe-v</code>, <code>hwe-w</code>, <code>hwe-x</code> (presuming the Xenial HWE kernel is available).</p>
 <p>In MAAS 2.1, starting with Xenial kernels, the notation has changed. The following is used to refer to the latest HWE kernel available for Xenial: <code>hwe-16.04</code>.</p>

@@ -313,9 +313,9 @@
 <pre><code class="bash">maas $PROFILE resource-pools create name=myresource description=&quot;A new resource pool.&quot;
 </code></pre>
 
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 The <code>description</code> field is optional.
-</blockquote></p>
+[/note]</p>
 <h2 id="heading--list-available-resource-pools">List available resource pools</h2>
 
 <pre><code class="bash">maas $PROFILE resource-pools read
@@ -331,9 +331,9 @@ The <code>description</code> field is optional.
 <pre><code class="bash">maas $PROFILE resource-pool update $RESOURCE_POOL_ID name=newname description=&quot;A new description.&quot;
 </code></pre>
 
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 The <code>name</code> and <code>description</code> fields are optional.
-</blockquote></p>
+[/note]</p>
 <h2 id="heading--delete-a-resource-pool">Delete a resource pool</h2>
 
 <pre><code class="bash">maas $PROFILE resource-pool delete $RESOURCE_POOL_ID

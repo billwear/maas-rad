@@ -516,9 +516,9 @@ Machine-readable output follows:
 <pre><code class="bash">s admin block-device read &lt;node-id&gt; vda
 </code></pre>
 
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 MAAS allows the name of a block device to be changed. If the block device name has changed then the API call needs to use the new name.
-</blockquote></p>
+[/note]</p>
 <pre><code>Using the ID is safer as it never changes.
 </code></pre>
 <h3 id="heading--create-block-device">Create Block Device</h3>
@@ -552,9 +552,9 @@ Machine-readable output follows:
 }
 </code></pre>
 
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 The serial number is what MAAS will use when a machine is deployed to find the specific block device. It&rsquo;s important that this be correct. In a rare chance that your block device does not provide a model or serial number you can provide an id_path. The id_path should be a path that is always the same, no matter the kernel version.
-</blockquote></p>
+[/note]</p>
 <h3 id="heading--update-block-device">Update Block Device</h3>
 
 <p>An administrator can also update the details held on a physical block device, such as its name, from the API:</p>
@@ -629,9 +629,9 @@ Machine-readable output follows:
 }
 </code></pre>
 
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 You cannot format a block device that contains partitions or is used to make another virtual block device.
-</blockquote></p>
+[/note]</p>
 <h3 id="heading--unformat-block-device">Unformat Block Device</h3>
 
 <p>You can remove the filesystem from a block device with the &lsquo;unformat&rsquo; API call:</p>
@@ -743,9 +743,9 @@ Machine-readable output follows:
 <pre><code class="bash">maas admin block-device set-boot-disk &lt;node-id&gt; 10
 </code></pre>
 
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 Only an administrator can set which block device should be used as the boot disk and only a physical block device can be set as as the boot disk. This operation should be done before a machine is acquired or the storage layout will be applied to the previous boot disk.
-</blockquote></p>
+[/note]</p>
 </div>
 </body>
 </html>
