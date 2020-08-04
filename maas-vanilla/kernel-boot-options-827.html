@@ -387,9 +387,9 @@
 <h2 id="heading--per-node-kernel-boot-options">Per-machine kernel boot options</h2>
 
 <p>Per-machine kernel boot options are set using the CLI.</p>
-<p>[note]
+<p><blockquote style="background:lightgrey;">
 Per-machine boot options take precedence to global ones.
-[/note]</p>
+</blockquote></p>
 <p>To specify kernel boot options for an individual machine, first create a tag:</p>
 <pre><code class="bash">maas $PROFILE tags create name='$TAG_NAME' \
     comment='$COMMENT' kernel_opts='$KERNEL_OPTIONS'

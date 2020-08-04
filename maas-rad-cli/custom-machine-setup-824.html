@@ -399,9 +399,15 @@
 </table>
 <p>Additionally, the template for each phase typically consists of two files. The first is a higher-level file that often contains little more than a URL or a link to further credentials, while a second file contains the executable logic.</p>
 <p>The <code>enlist</code> template, for example, contains only minimal variables, whereas <code>enlist_userdata</code> includes both user variables and initialisation logic.</p>
+<<<<<<< HEAD
 <p>[note]
 Tempita’s inheritance mechanism is the reverse of what you might expect. Inherited files, such as <code>enlist_userdata</code>, become the new template which can then reference variables from the higher-level file, such as <code>enlist</code>.
 [/note]</p>
+=======
+<p><blockquote style="background:lightgrey;">
+Tempita’s inheritance mechanism is the reverse of what you might expect. Inherited files, such as <code>enlist_userdata</code>, become the new template which can then reference variables from the higher-level file, such as <code>enlist</code>.
+</blockquote></p>
+>>>>>>> 75e4a1abae154640b9d13b6c30692f3db5187954
 <h3 id="heading--template-naming">Template naming</h3>
 
 <p>MAAS interprets templates in lexical order by their filename.  This order allows for base configuration options and parameters to be overridden based on a combination of operating system, architecture, sub-architecture, release, and machine name.</p>
@@ -434,9 +440,15 @@ Tempita’s inheritance mechanism is the reverse of what you might expect. Inher
 <p>The prefix can be either <code>enlist</code>, <code>enlist_userdata</code>, <code>commissioning</code>, <code>curtin</code>, <code>curtin_userdata</code> or <code>preseed_master</code>. Alternatively, you can omit the prefix and the following underscore.</p>
 <p>For example, to create a generic configuration template for Ubuntu 16.04 Xenial running on an x64 architecture, the file would need to be called <code>ubuntu_amd64_generic_xenial_node</code>.</p>
 <p>To create the equivalent template for curtin_userdata, the file would be called <code>curtin_userdata_ubuntu_amd64_generic_xenial_node</code>.</p>
+<<<<<<< HEAD
 <p>[note]
 Any file targetting a specific machine will replace the values and configuration held within any generic files. If those values are needed, you will need to copy these generic template values into your new file.
 [/note]</p>
+=======
+<p><blockquote style="background:lightgrey;">
+Any file targetting a specific machine will replace the values and configuration held within any generic files. If those values are needed, you will need to copy these generic template values into your new file.
+</blockquote></p>
+>>>>>>> 75e4a1abae154640b9d13b6c30692f3db5187954
 <h3 id="heading--configuration">Configuration</h3>
 
 <p>You can customise the Curtin installation by either editing the existing <code>curtin_userdata</code> template or by adding a custom file as described above.</p>

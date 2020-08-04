@@ -362,7 +362,11 @@
 <h1>Adding a VM host</h1><p>A VM host is simply a machine which can run virtual machines (VMs) by allocating  resources across the VMs you want to create.  If needed, you can overcommit resources, allocating more resources than actually available, so long as you don&rsquo;t try to use more than the VM host has available at any one time. Once MAAS has enlisted, commissioned, and acquired a newly-added machine, you can deploy it as a VM host.  Alternatively, you can create a VM host from a machine you&rsquo;ve already got running.</p>
 <p>[note type=&rdquo;caution&rdquo; status=&rdquo;Warning&rdquo;]
 You <strong>must</strong> <a href="vm-host-networking-1526.html">configure your network</a> to support a VM host before following the procedures in this section.  You will also want to make sure that you have <a href="vm-host-networking-1526.html#heading--set-up-ssh">set up SSH</a> (if needed) before you follow any procedures in this section. 
+<<<<<<< HEAD
 [/note]</p>
+=======
+</blockquote></p>
+>>>>>>> 75e4a1abae154640b9d13b6c30692f3db5187954
 <!-- vanilla
 * [How do I configure networking for VM hosts?](vm-host-networking-1526.html)
 * [How do I set up SSH when manually adding a VM host?](vm-host-networking-1526.html#heading--set-up-ssh)
@@ -409,9 +413,15 @@ of like this for LXD (Beta):
 
     https://10.0.0.100:8443
 
+<<<<<<< HEAD
 [note]
 MAAS will automatically discover and store the resources your VM host contains. Any existing machines will also appear on the 'Machines' page, and MAAS will automatically attempt to commission them.
 [/note]
+=======
+<blockquote style="background:lightgrey;">
+MAAS will automatically discover and store the resources your VM host contains. Any existing machines will also appear on the 'Machines' page, and MAAS will automatically attempt to commission them.
+</blockquote>
+>>>>>>> 75e4a1abae154640b9d13b6c30692f3db5187954
  vanilla -->
 
 <!-- ui
@@ -433,9 +443,15 @@ of like this for LXD (Beta):
 
     https://10.0.0.100:8443
 
+<<<<<<< HEAD
 [note]
 MAAS will automatically discover and store the resources your VM host contains. Any existing machines will also appear on the 'Machines' page, and MAAS will automatically attempt to commission them.
 [/note]
+=======
+<blockquote style="background:lightgrey;">
+MAAS will automatically discover and store the resources your VM host contains. Any existing machines will also appear on the 'Machines' page, and MAAS will automatically attempt to commission them.
+</blockquote>
+>>>>>>> 75e4a1abae154640b9d13b6c30692f3db5187954
  ui -->
 
 <!-- vanilla

@@ -414,9 +414,9 @@ ssh-keygen -t rsa -N ''
 </code></pre>
 
 <p>Next, add the contents of <code>~maas/.ssh/id_rsa.pub</code> to the KVM host user&rsquo;s <code>~$USER/.ssh/authorized_keys</code>. To do this, you can, for example, log into your KVM host node via SSH from a host for which you provided MAAS an existing public SSH key (e.g. your imported Launchpad keys).</p>
-<p>[note]
+<p><blockquote style="background:lightgrey;">
 Insufficient permissions for <code>$USER</code> may cause the <code>virsh</code> command to fail with an error such as <code>failed to connect to the hypervisor</code>. Check the <code>$USER</code> group membership to make sure <code>$USER</code> is a member of the <code>libvirtd</code> group.
-[/note]</p>
+</blockquote></p>
 <h4 id="heading--add">Add</h4>
 
 <p>Now, add a KVM host by using the &lsquo;Add pod&rsquo; button. Choose &lsquo;Virsh (Virtual systems)&rsquo; from the &lsquo;Pod type&rsquo; drop-down menu.</p>
@@ -425,17 +425,17 @@ Insufficient permissions for <code>$USER</code> may cause the <code>virsh</code>
 <pre><code class="no-highlight">qemu+ssh://&lt;kvm host IP&gt;/system
 </code></pre>
 
-<p>[note]
+<p><blockquote style="background:lightgrey;">
 MAAS will automatically discover and store the resources your KVM host contains. Any existing machines will also appear on the &lsquo;Machines&rsquo; page and be commissioned.
-[/note]</p>
+</blockquote></p>
 <h2 id="heading--add-an-rsd-pod">Add an RSD Pod</h2>
 
 <p>Add an RSD Pod by using the &lsquo;Add pod&rsquo; button. Choose &lsquo;Rack Scale Design&rsquo; from the Pod type drop-down menu.</p>
 <p><img alt="add RSD pod" src="../images/2604a48b-nodes-comp-hw__2.4_pod-add-rsd.png"></p>
 <p>You will need to get values for &lsquo;Pod address&rsquo; (IP address or URL followed by a port), &lsquo;Pod user&rsquo;, and &lsquo;Pod password&rsquo; from your RSD administrator.</p>
-<p>[note]
+<p><blockquote style="background:lightgrey;">
 MAAS will automatically discover and store the resources your RSD Pod contains.
-[/note]</p>
+</blockquote></p>
 <h2 id="heading--list-pods">List pods</h2>
 
 <p>Pods and a summary of their resources are listed on the &lsquo;Pods&rsquo; page:</p>
@@ -485,7 +485,7 @@ MAAS will automatically discover and store the resources your RSD Pod contains.
 <p><img alt="pod delete" src="../images/55498a64-manage-kvm-pods__2.5_pod-delete.png"></p>
 <p>[note type=&rdquo;caution&rdquo;]
 Deleting a pod will also delete all its machines and remove them from MAAS.
-[/note]</p>
+</blockquote></p>
 <!-- LINKS -->
 </div>
 </body>

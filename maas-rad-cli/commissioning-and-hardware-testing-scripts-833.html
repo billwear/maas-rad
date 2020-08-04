@@ -622,9 +622,15 @@ fi
 <h3 id="heading--commissioning-script-update-firmware">Commissioning script: Update firmware</h3>
 
 <p>Below is a sample script to update the mainboard firmware on an ASUS P8P67 Pro using a vendor-provided tool. The tool will is automatically downloaded and extracted by MAAS. The script reboots the system to complete the update. The system will boot back into the MAAS ephemeral environment to finish commissioning and optionally testing.</p>
+<<<<<<< HEAD
 <p>[note]
 Vendor tools which use UEFI boot capsules or need to store resource files on disk while rebooting are not currently supported.
 [/note]</p>
+=======
+<p><blockquote style="background:lightgrey;">
+Vendor tools which use UEFI boot capsules or need to store resource files on disk while rebooting are not currently supported.
+</blockquote></p>
+>>>>>>> 75e4a1abae154640b9d13b6c30692f3db5187954
 <pre><code class="bash">#!/bin/bash -ex
 # --- Start MAAS 1.0 script metadata ---
 # name: update_asus_p8p67_firmware
@@ -701,9 +707,15 @@ A status message of Commissioning script created will appear.  You'll then be ab
 ### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
  vanilla -->
 
+<<<<<<< HEAD
 <p>[note]
 MAAS executes scripts in lexicographical order. This order allows you to control when your scripts execute, and whether they run before or after the standard MAAS scripts.
 [/note]</p>
+=======
+<p><blockquote style="background:lightgrey;">
+MAAS executes scripts in lexicographical order. This order allows you to control when your scripts execute, and whether they run before or after the standard MAAS scripts.
+</blockquote></p>
+>>>>>>> 75e4a1abae154640b9d13b6c30692f3db5187954
 <h2 id="heading--debugging">Debugging</h2>
 
 <p>Clicking on the title of a completed or failed script will reveal the output from that specific script.</p>

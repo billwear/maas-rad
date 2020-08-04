@@ -720,9 +720,15 @@
 <pre><code class="bash">maas $PROFILE machine deploy $SYSTEM_ID install_rackd=True
 </code></pre>
 
+<<<<<<< HEAD
 <p>[note]
 This features makes use of the MAAS snap to configure the rack controller on the deployed machine. &lsquo;snap store&rsquo; mirrors are not yet available, which means the machine will need access to the internet.
 [/note]</p>
+=======
+<p><blockquote style="background:lightgrey;">
+This features makes use of the MAAS snap to configure the rack controller on the deployed machine. &lsquo;snap store&rsquo; mirrors are not yet available, which means the machine will need access to the internet.
+</blockquote></p>
+>>>>>>> 75e4a1abae154640b9d13b6c30692f3db5187954
 <h3 id="heading--improved-dns-reloading">Improved DNS reloading</h3>
 
 <p>This release includes various improvements to the DNS reload mechanism, allowing MAAS to be smarter about when to reload DNS after changes have been automatically detected or made.</p>
@@ -1080,9 +1086,15 @@ If you would like to contribute you can find the source code in GitHub:</p>
 <li>ga-16.04-lowlatency: the low latency GA kernel for Xenial</li>
 <li>hwe-16.04-lowlatency: the low latency HWE kernel for Xenial</li>
 </ul>
+<<<<<<< HEAD
 <p>[note]
 As time of writing, the last 2 kernels are the same.
 [/note]</p>
+=======
+<p><blockquote style="background:lightgrey;">
+As time of writing, the last 2 kernels are the same.
+</blockquote></p>
+>>>>>>> 75e4a1abae154640b9d13b6c30692f3db5187954
 <h3 id="heading--bootloaders-are-now-provided-in-the-image-stream">Bootloaders are now provided in the image stream</h3>
 
 <p>Previously, bootloaders were downloaded on the rack controller from the Ubuntu archives for each architecture MAAS had images for. Starting with MAAS 2.1, bootloaders are downloaded with the images from where rack controllers retrieve them, as they do with images. So MAAS no longer directly interacts with the Ubuntu archives.</p>

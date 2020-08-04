@@ -367,9 +367,9 @@
 </ul>
 <p>The agent that triggers deployment may vary. For instance, if the machines are destined to run complex, inter-related services that scale up or down frequently, like a &ldquo;cloud&rdquo; resource, then <a href="https://jujucharms.com/docs/stable/about-juju">Juju</a> is the recommended deployment agent. Juju will also install and configure services on the deployed machines. If you want to use MAAS to install a base operating system and work on the machines manually, then you can deploy a machine directly with MAAS.</p>
 <p>Machines deployed with MAAS will also be ready to accept connections via SSH, to the &lsquo;ubuntu&rsquo; user account.  This connection assumes that you have imported an SSH key has to your MAAS account. This is explained in <a href="user-accounts-790.html#heading--ssh-keys">SSH keys</a>.</p>
-<p>[note]
+<p><blockquote style="background:lightgrey;">
 Juju adds SSH keys to machines under its control.
-[/note]</p>
+</blockquote></p>
 <p>MAAS also supports machine customisation with a process called &ldquo;preseeding.&rdquo; For more information about customising machines, see <a href="custom-machine-setup-824.html">Custom machine setup</a>.</p>
 <h2 id="heading--acquire">Acquire</h2>
 
@@ -391,9 +391,9 @@ Juju adds SSH keys to machines under its control.
 </ol>
 </li>
 </ol>
-<p>[note]
+<p><blockquote style="background:lightgrey;">
 The curtin installer uses an image-based method and is now the only installer used by MAAS. Although the older debian-installer method has been removed, curtin continues to support preseed files. For more information about customising machines see <a href="custom-machine-setup-824.html">Custom machine setup</a>.
-[/note]</p>
+</blockquote></p>
 <p>Before deploying, you should:</p>
 <ul>
 <li>review and possibly set the <a href="ubuntu-kernels-828.html">Ubuntu kernels</a> and the <a href="kernel-boot-options-827.html">Kernel boot options</a> that will get used by deployed machines.</li>

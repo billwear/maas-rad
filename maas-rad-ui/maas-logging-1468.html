@@ -300,7 +300,21 @@
 <ul>
 <li><a href="commissioning-logs-1478.html">What are commissioning logs?</a></li>
 <li><a href="maas-logging-1468.html#heading--path">What is the syslog logging path?</a></li>
+<<<<<<< HEAD
 <li><a href="maas-logging-1468.html#heading--using-a-remote-syslog-server">How do I use a remote syslog server?</a></li>
+=======
+<li><a href="maas-logging-1468.html#heading--using-a-remote-syslog-server">How do I use a remote syslog server?</a>
+&lt;!&ndash; * <a href="=/test-logs/1479">What are test logs?</a></li>
+<li><a href="=/machine-logs/1480">What are machine logs?</a></li>
+<li><a href="=/event-logs/1481">What are event logs?</a> &ndash;&gt;
+&lt;!&ndash; * <a href="=/the-maas-log-file/1482">What is the maas.log file?</a></li>
+<li><a href="=/the-rackd-log-file/1483">What is the rackd.log file?</a></li>
+<li><a href="=/the-regiond-log-file/1484">What is the regiond.log file?</a></li>
+<li><a href="=/the-http-access-log-file/1485">What is the HTTP access log file?</a></li>
+<li><a href="=/the-http-error-log-file/1486">What is the HTTP error log file?</a></li>
+<li><a href="=/the-proxy-log-files/1487">What are the proxy log files?</a></li>
+<li><a href="=/the-maas-rsyslog-files/1488">What are the MAAS rsyslog files?</a> &ndash;&gt;</li>
+>>>>>>> 75e4a1abae154640b9d13b6c30692f3db5187954
 </ul>
 <p>The discussion of these logs and their contents can be very extensive, so each type of logging has its own documentation section, reachable from the left-hand menu &ndash; or from the list of questions above.</p>
 <h2 id="heading--path">The syslog logging path</h2>
@@ -308,6 +322,7 @@
 <p>Syslog data is kept in <code>/var/log/maas/rsyslog/&lt;machine-name&gt;&lt;yyyy-mm-dd&gt;/messages</code> (<code>/var/snap/maas/common/log/rsyslog/&lt;machine-name&gt;&lt;yyyy-mm-dd&gt;/messages</code> when using the snap). Every machine known to MAAS will have corresponding syslogs.</p>
 <h2 id="heading--using-a-remote-syslog-server">Using a remote syslog server</h2>
 
+<<<<<<< HEAD
 <p>To add a remote syslog server, click the Settings tab and then click the Network services tab. Scroll down to the Syslog section, where you can add a syslog URL or IP:</p>
 <p><img alt="remote_syslog" src="https://assets.ubuntu.com/v1/e139d4e9-installconfig-syslog__2.6-remote-syslog.png"></p>
 <p>Click the Save button to save your changes.</p>
@@ -316,6 +331,29 @@ Note that MAAS controllers&rsquo; syslogs are not forwarded to the external sysl
 [/note]</p>
 <p>See <a href="cli-advanced-tasks-793.html#heading--add-or-update-a-remote-syslog-server">MAAS CLI</a> to learn how to add a remote syslog server using the CLI.</p>
 <!-- LINKS -->
+=======
+<!-- vanilla
+To add a remote syslog server, click the Settings tab and then click the Network services tab. Scroll down to the Syslog section, where you can add a syslog URL or IP:
+
+![remote_syslog](../images/e139d4e9-installconfig-syslog__2.6-remote-syslog.png)
+
+Click the Save button to save your changes.
+
+### ADD SUITABLE MATERIAL FROM [MAAS CLI](cli-advanced-tasks-793.html#heading--add-or-update-a-remote-syslog-server).
+
+ vanilla -->
+
+<p>To add a remote syslog server, click the Settings tab and then click the Network services tab. Scroll down to the Syslog section, where you can add a syslog URL or IP:</p>
+<p><img alt="remote_syslog" src="../images/e139d4e9-installconfig-syslog__2.6-remote-syslog.png"></p>
+<p>Click the Save button to save your changes.</p>
+<!-- cli
+### ADD SUITABLE MATERIAL FROM [MAAS CLI](cli-advanced-tasks-793.html#heading--add-or-update-a-remote-syslog-server).
+ cli -->
+
+<p><blockquote style="background:lightgrey;">
+Note that MAAS controllers&rsquo; syslogs are not forwarded to the external syslog server &ndash; only machine syslog information is forwarded.
+</blockquote></p>
+>>>>>>> 75e4a1abae154640b9d13b6c30692f3db5187954
 </div>
 </body>
 </html>

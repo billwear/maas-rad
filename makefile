@@ -103,12 +103,24 @@ TARGET_DEPS += zone-examples-784.html
 %.html: %.md
 	cp templates/vanilla-template.html ./template.html
 	xpub convert dc2html -t vanilla $<
+<<<<<<< HEAD
 	mv $@ maas-vanilla
 	cp templates/ui-only-template.html ./template.html
 	xpub convert dc2html -t ui $<
 	mv $@ maas-rad-ui
 	cp templates/cli-only-template.html ./template.html
 	xpub convert dc2html -t cli $<
+=======
+	scp $@ stormrider.io:/var/www/html/maas-rad/maas-vanilla
+	mv $@ maas-vanilla
+	cp templates/ui-only-template.html ./template.html
+	xpub convert dc2html -t ui $<
+	scp $@ stormrider.io:/var/www/html/maas-rad/maas-rad-ui
+	mv $@ maas-rad-ui
+	cp templates/cli-only-template.html ./template.html
+	xpub convert dc2html -t cli $<
+	scp $@ stormrider.io:/var/www/html/maas-rad/maas-rad-cli
+>>>>>>> 75e4a1abae154640b9d13b6c30692f3db5187954
 	cp $@  maas-rad-cli
 
 finale: $(TARGET_DEPS)

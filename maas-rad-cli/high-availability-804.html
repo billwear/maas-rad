@@ -425,9 +425,15 @@ maas_url:
 <h3 id="heading--load-balancing-with-haproxy-optional">Load balancing with HAProxy (optional)</h3>
 
 <p>You can add load balancing with <a href="http://www.haproxy.org/">HAProxy</a> load-balancing software to support multiple API servers. In this setup, HAProxy provides access to the MAAS web UI and API.</p>
+<<<<<<< HEAD
 <p>[note]
 If you happen to have Apache running on the same server where you intend to install HAProxy, you will need to stop and disable <code>apache2</code>, because HAProxy binds to port 80.
 [/note]</p>
+=======
+<p><blockquote style="background:lightgrey;">
+If you happen to have Apache running on the same server where you intend to install HAProxy, you will need to stop and disable <code>apache2</code>, because HAProxy binds to port 80.
+</blockquote></p>
+>>>>>>> 75e4a1abae154640b9d13b6c30692f3db5187954
 <h4 id="heading--install">Install</h4>
 
 <pre><code class="bash">sudo apt install haproxy
