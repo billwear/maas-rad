@@ -440,9 +440,9 @@
 <h2 id="heading--dhcp-snippets">DHCP Snippets</h2>
 
 <p>When MAAS manages DHCP, you customise it through the use of DHCP snippets. These are user-defined configuration options that can be applied either globally, per subnet, or per machine. You apply a global snippet to all VLANs, subnets, and machines. All three types end up in <code>/var/lib/maas/dhcpd.conf</code> or <code>/var/lib/maas/dhcpd6.conf</code>. For information on what options to use, refer to the <a href="http://manpages.ubuntu.com/cgi-bin/search.py?q=dhcpd.conf"><code>dhcpd.conf</code> man page</a>.</p>
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 Modifications made directly to <code>dhcpd.conf.template</code> or <code>dhcpd6.conf.template</code> are not supported.
-</blockquote></p>
+[/note]</p>
 <p>To manage snippets, as an admin, open the &lsquo;Settings&rsquo; page and click on the &lsquo;DHCP snippets&rsquo; tab.</p>
 <p>For example, to create a new snippet press &lsquo;Add custom snippet&rsquo;. In the resulting window, choose a name and type for it and enter its associated DHCP configuration. Click &lsquo;Save snippet&rsquo; to apply the change, and make sure to activate the checkbox in the &lsquo;Enabled&rsquo; column of the snippets list.</p>
 <p><img alt="Manage DHCP snippets" src="../images/a3247c726ed9e3e5d7a99becd89920e81aaa86f7_2_690x259.png"></p>

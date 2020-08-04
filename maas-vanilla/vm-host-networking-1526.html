@@ -370,9 +370,9 @@
 <li><a href="vm-host-networking-1526.html#heading--lxd-setup">What else must I do to use LXD VM hosts?</a></li>
 </ul>
 <p>To enable VM host networking features, MAAS must match the VM host IP address of a potential VM host with a known device (a machine or controller). For example, if a machine not known to MAAS is set up as a VM host, enhanced interface selection features will not be available.</p>
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 It&rsquo;s essential to enforce usage of IP addresses to avoid domain name conflicts, should different controllers resolve the same domain name with different IP addresses. You should also avoid using 127.0.0.1 when running multiple controllers, as it would confuse MAAS.
-</blockquote></p>
+[/note]</p>
 <h2 id="heading--maas-bridge-web-ui">Set up VM host bridge with MAAS UI</h2>
 
 <p>You can use the MAAS UI to configure a bridge to connect a VM host to MAAS:</p>
@@ -381,7 +381,7 @@ It&rsquo;s essential to enforce usage of IP addresses to avoid domain name confl
 <li>Switch to the &ldquo;Network&rdquo; tab.</li>
 <li>Select the network where you want to create the bridge and click &ldquo;Create bridge:&rdquo;</li>
 </ol>
-<p><img alt="select_interface_for_bridge|690x391" src="../images/29624d737106c5bad777aee9d2c8cad9c3de7151_2_690x391.jpeg"> </p>
+<p><img alt="select_interface_for_bridge" width="690" height="391" src="../images/29624d737106c5bad777aee9d2c8cad9c3de7151_2_690x391.jpeg"> </p>
 <!-- ui
 ![select_interface_for_bridge|690x391](../images/29624d737106c5bad777aee9d2c8cad9c3de7151_2_690x391.jpeg) 
  ui -->
@@ -393,7 +393,7 @@ It&rsquo;s essential to enforce usage of IP addresses to avoid domain name confl
 <ol>
 <li>Configure the bridge on a subnet MAAS controls.  You may use any IP mode for the bridge:</li>
 </ol>
-<p><img alt="save_bridge|690x393" src="../images/dd8567ff1cd76606c5ce1751e606fcfab2bc7ce2_2_690x393.jpeg"> </p>
+<p><img alt="save_bridge" width="690" height="393" src="../images/dd8567ff1cd76606c5ce1751e606fcfab2bc7ce2_2_690x393.jpeg"> </p>
 <!-- ui
 ![save_bridge|690x393](../images/dd8567ff1cd76606c5ce1751e606fcfab2bc7ce2_2_690x393.jpeg) 
  ui -->
@@ -403,7 +403,7 @@ It&rsquo;s essential to enforce usage of IP addresses to avoid domain name confl
  cli -->
 
 <p>When you&rsquo;re done, it should look something like this:</p>
-<p><img alt="configured_bridge|690x391" src="../images/e392d638f0acecb9d54c81bbca4ee17cbcd05445_2_690x391.jpeg"> </p>
+<p><img alt="configured_bridge" width="690" height="391" src="../images/e392d638f0acecb9d54c81bbca4ee17cbcd05445_2_690x391.jpeg"> </p>
 <!-- ui
 ![configured_bridge|690x391](../images/e392d638f0acecb9d54c81bbca4ee17cbcd05445_2_690x391.jpeg) 
  ui -->

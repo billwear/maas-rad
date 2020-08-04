@@ -414,9 +414,9 @@
 <pre><code class="bash">maas $PROFILE machine commission $SYSTEM_ID
 </code></pre>
 
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 To commission a node, it must have a status of &lsquo;New&rsquo;.
-</blockquote></p>
+[/note]</p>
 <p>To commission all nodes in the &lsquo;New&rsquo; state:</p>
 <pre><code class="bash">maas $PROFILE machines accept-all
 </code></pre>
@@ -432,9 +432,9 @@ To commission a node, it must have a status of &lsquo;New&rsquo;.
 <pre><code class="bash">maas $PROFILE machines allocate system_id=$SYSTEM_ID
 </code></pre>
 
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 To acquire a node, it must have a status of &lsquo;Ready&rsquo;.
-</blockquote></p>
+[/note]</p>
 <h2 id="heading--deploy-a-node">Deploy a node</h2>
 
 <p>To deploy a node:</p>
@@ -445,9 +445,9 @@ To acquire a node, it must have a status of &lsquo;Ready&rsquo;.
 <pre><code class="bash">maas $PROFILE machine deploy $SYSTEM_ID install_kvm=True
 </code></pre>
 
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 To deploy with the CLI, the node must have a status of &lsquo;Allocated&rsquo;. See &lsquo;Acquire a node&rsquo; above (or use the <a href="deploy-machines-825.html#acquire-nodes">web UI</a>).
-</blockquote></p>
+[/note]</p>
 <p>See <a href="deploy-machines-825.html">Deploy nodes</a>.</p>
 <h2 id="heading--configure-deployment-timeout">Configure deployment timeout</h2>
 
@@ -511,9 +511,9 @@ To deploy with the CLI, the node must have a status of &lsquo;Allocated&rsquo;. 
 </code></pre>
 
 <p>You will also need to set a default gateway (see <a href="#heading--set-a-default-gateway">below</a>).</p>
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 You must enable DHCP for PXE booting on the &lsquo;untagged&rsquo; VLAN.
-</blockquote></p>
+[/note]</p>
 <p>See <a href="managing-dhcp-759.html">DHCP</a> for more on this subject.</p>
 <h2 id="heading--set-a-dns-forwarder">Set a DNS forwarder</h2>
 
