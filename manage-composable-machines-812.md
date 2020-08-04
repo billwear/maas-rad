@@ -2,13 +2,13 @@
 
 After installing MAAS, the 'Pods' page is typically empty:
 
-![initial pods page](https://assets.ubuntu.com/v1/c1698d33-manage-kvm-pods__2.5_pod-initial-page.png)
+![initial pods page](../images/c1698d33-manage-kvm-pods__2.5_pod-initial-page.png)
 
 <h3 id="heading--25">2.5+</h3>
 
 Once a machine as been added to MAAS and gone through enlistment, commissioning and hardware testing, you can deploy it (after acquiring it) as a KVM host by ticking the 'Install MAAS-managed KVM Host' checkbox:
 
-![kvmpoddeploy](https://assets.ubuntu.com/v1/d7271011-manage-kvm-pods__2.5_kvm-pod-deploy.png)
+![kvmpoddeploy](../images/d7271011-manage-kvm-pods__2.5_kvm-pod-deploy.png)
 
 You can also use the [MAAS CLI](/t/common-cli-tasks/794#heading--deploy-a-node) to deploy a machine to use as a KVM host.
 
@@ -78,7 +78,7 @@ Insufficient permissions for `$USER` may cause the `virsh` command to fail with 
 
 Now, add a KVM host by using the 'Add pod' button. Choose 'Virsh (Virtual systems)' from the 'Pod type' drop-down menu.
 
-![add Virsh pod](https://assets.ubuntu.com/v1/ca39b7a1-manage-kvm-pods__2.5_pod-add-virsh.png)
+![add Virsh pod](../images/ca39b7a1-manage-kvm-pods__2.5_pod-add-virsh.png)
 
 Here, 'Virsh address' typically looks like the following:
 
@@ -94,7 +94,7 @@ MAAS will automatically discover and store the resources your KVM host contains.
 
 Add an RSD Pod by using the 'Add pod' button. Choose 'Rack Scale Design' from the Pod type drop-down menu.
 
-![add RSD pod](https://assets.ubuntu.com/v1/2604a48b-nodes-comp-hw__2.4_pod-add-rsd.png)
+![add RSD pod](../images/2604a48b-nodes-comp-hw__2.4_pod-add-rsd.png)
 
 You will need to get values for 'Pod address' (IP address or URL followed by a port), 'Pod user', and 'Pod password' from your RSD administrator.
 
@@ -106,7 +106,7 @@ MAAS will automatically discover and store the resources your RSD Pod contains.
 
 Pods and a summary of their resources are listed on the 'Pods' page:
 
-![save pod](https://assets.ubuntu.com/v1/6a1e0fc2-manage-kvm-pods__2.5_pod-list.png)
+![save pod](../images/6a1e0fc2-manage-kvm-pods__2.5_pod-list.png)
 
 <h2 id="heading--view-pod-details">View pod details</h2>
 
@@ -114,7 +114,7 @@ One the 'Pods' page, click a pod's name to show the resources that belong to it,
 
 The main view also lists the machines contained within the pod.
 
-![pod details](https://assets.ubuntu.com/v1/458b90b6-manage-kvm-pods__2.5_pod-details.png)
+![pod details](../images/458b90b6-manage-kvm-pods__2.5_pod-details.png)
 
 <h2 id="heading--kvm-host-storage-pools">KVM host storage pools</h2>
 
@@ -122,13 +122,13 @@ Libvirt “storage pools” are storage resources managed by libvirt. For a more
 
 MAAS displays information about each pod's storage pools so you can understand your resource usage at a glance:
 
-![storagepoolusage](https://assets.ubuntu.com/v1/984dcd91-manage-kvm-pods__2.5_libvirt_storage_usage.png)
+![storagepoolusage](../images/984dcd91-manage-kvm-pods__2.5_libvirt_storage_usage.png)
 
 <h2 id="heading--configuration">Configuration</h2>
 
 Pods have several configuration options. Modify these by selecting the 'Configuration' tab and clicking 'Edit'. Options include a pod's location, password, network zone, and default resource pool.
 
-![pod configuration](https://assets.ubuntu.com/v1/50c94029-manage-kvm-pods__2.5_pod-compose-config.png)
+![pod configuration](../images/50c94029-manage-kvm-pods__2.5_pod-compose-config.png)
 
 <h3 id="heading--overcommit-resources">Overcommit resources</h3>
 
@@ -147,11 +147,11 @@ Overcommitting resources allows a user to compose many MAAS-managed machines wit
 
 While on a pod's details view, select 'Compose' from the 'Take action' drop-down menu to compose a machine.
 
-![pod compose machine](https://assets.ubuntu.com/v1/62316284-manage-kvm-pods__2.5_pod-compose-machine.png)
+![pod compose machine](../images/62316284-manage-kvm-pods__2.5_pod-compose-machine.png)
 
 You can choose which storage pool to use from a drop-down list:
 
-![storagepoolavail](https://assets.ubuntu.com/v1/a026986c-manage-kvm-pods__2.5_libvirt_storage.png)
+![storagepoolavail](../images/a026986c-manage-kvm-pods__2.5_libvirt_storage.png)
 
 You can also use the [MAAS CLI](/t/cli-composable-hardware/795#heading--compose-pod-virtual-machines) to compose pod VMs with specific storage pool constraints.
 
@@ -159,19 +159,19 @@ Click the 'Compose machine' button when you're finished. MAAS will present the p
 
 The new machine's resources will be deducted from the pod's resources:
 
-![pod compose machine commissioning](https://assets.ubuntu.com/v1/0047fe3d-manage-kvm-pods__2.5_pod-compose-machine-commissioning.png)
+![pod compose machine commissioning](../images/0047fe3d-manage-kvm-pods__2.5_pod-compose-machine-commissioning.png)
 
 <h2 id="heading--delete-a-machine">Delete a machine</h2>
 
 To delete a machine, simply delete it as you would any other MAAS node. Select the desired machine from the list of machines and select 'Delete' from the 'Take Action' menu.
 
-![pod decompose machine](https://assets.ubuntu.com/v1/613c1d7b-manage-kvm-pods__2.5_pod-decompose-machine.png)
+![pod decompose machine](../images/613c1d7b-manage-kvm-pods__2.5_pod-decompose-machine.png)
 
 <h2 id="heading--delete-a-pod">Delete a pod</h2>
 
 While on the main pods page, select a pod and choose the 'Delete' action from the 'Take action' dropdown menu. Click 'Delete 1 pod' to confirm the action:
 
-![pod delete](https://assets.ubuntu.com/v1/55498a64-manage-kvm-pods__2.5_pod-delete.png)
+![pod delete](../images/55498a64-manage-kvm-pods__2.5_pod-delete.png)
 
 [note type="caution"]
 Deleting a pod will also delete all its machines and remove them from MAAS.

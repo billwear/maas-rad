@@ -4,7 +4,17 @@ You can use the Web UI to manage the networking elements of MAAS, including subn
 
 To access the main networking view visit the 'Subnets' page:
 
-![subnets page](https://assets.ubuntu.com/v1/657bb332-installconfig-networking__2.4_subnets.png)
+<!-- vanilla
+![subnets page](../images/657bb332-installconfig-networking__2.4_subnets.png)
+ vanilla -->
+
+<!-- ui
+![subnets page](../images/657bb332-installconfig-networking__2.4_subnets.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 Due to the nature of this example, we re-use elements like fabrics, VLANs, subnets, and spaces.  MAAS can automatically detect these elements -- here there are two fabrics, one VLAN, five subnets, and two spaces -- but if MAAS doesn't find them, they can be added manually using the 'Add' button.
 
@@ -20,7 +30,17 @@ Clicking a subnet (here `192.168.100.0/24`) will display its detail screen, whic
 
 The **Subnet summary** section is the largest and most complex of the subnet configuration screens:
 
-![networking subnets page summary](https://assets.ubuntu.com/v1/17617b35-installconfig-networking__2.4_subnets-summary.png)
+<!-- vanilla
+![networking subnets page summary](../images/17617b35-installconfig-networking__2.4_subnets-summary.png)
+ vanilla -->
+
+<!-- ui
+![networking subnets page summary](../images/17617b35-installconfig-networking__2.4_subnets-summary.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 This screen presents the following configurable options:
 
@@ -52,7 +72,17 @@ This screen presents the following configurable options:
 
 This section of the subnet page presents metrics regarding address usage by this subnet.
 
-![networking subnets utilisation](https://assets.ubuntu.com/v1/3d3e4b61-installconfig-networking__2.4_subnets-utilisation.png)
+<!-- vanilla
+![networking subnets utilisation](../images/3d3e4b61-installconfig-networking__2.4_subnets-utilisation.png)
+ vanilla -->
+
+<!-- ui
+![networking subnets utilisation](../images/3d3e4b61-installconfig-networking__2.4_subnets-utilisation.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 'Subnet addresses' shows the total number of addresses associated with the subnet, here 254. 'Availability' shows how many of those addresses are unused, and therefore "available", here 189, which corresponds to a percentage of roughly 74% of the total. Finally, 'Used' shows the percentage that is used, here roughly 26%.
 
@@ -62,13 +92,33 @@ This section can be used to define a static route between two subnets. A route i
 
 To create a static route, click the 'Add static route' button to reveal the edit pane. Enter a Gateway IP address, select a destination subnet from the 'Destination' drop-down list, and edit the routing metric value if needed. Clicking 'Add' will activate the route. Routes can be edited and removed using the icons to the right of each entry.
 
-![networking static routes configuration](https://assets.ubuntu.com/v1/49f5e240-installconfig-networking__2.4_subnets-routes.png)
+<!-- vanilla
+![networking static routes configuration](../images/49f5e240-installconfig-networking__2.4_subnets-routes.png)
+ vanilla -->
+
+<!-- ui
+![networking static routes configuration](../images/49f5e240-installconfig-networking__2.4_subnets-routes.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 <h4>Reserved ranges</h4>
 
 The reserved ranges section of the subnet screen looks like this:
 
-![networking subnets reserved](https://assets.ubuntu.com/v1/5f9f50f9-installconfig-networking__2.4_subnets-reserved.png)
+<!-- vanilla
+![networking subnets reserved](../images/5f9f50f9-installconfig-networking__2.4_subnets-reserved.png)
+ vanilla -->
+
+<!-- ui
+![networking subnets reserved](../images/5f9f50f9-installconfig-networking__2.4_subnets-reserved.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 This subject is treated separately in [IP ranges](/t/ip-ranges/760).
 
@@ -76,7 +126,17 @@ This subject is treated separately in [IP ranges](/t/ip-ranges/760).
 
 This section displays hosts (including controllers) associated with the used addresses along with related bits of host information.
 
-![networking subnets used](https://assets.ubuntu.com/v1/b9e69b0b-installconfig-networking__2.4_subnets-used.png)
+<!-- vanilla
+![networking subnets used](../images/b9e69b0b-installconfig-networking__2.4_subnets-used.png)
+ vanilla -->
+
+<!-- ui
+![networking subnets used](../images/b9e69b0b-installconfig-networking__2.4_subnets-used.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 
 <!-- LINKS -->

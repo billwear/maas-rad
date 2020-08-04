@@ -4,6 +4,7 @@ MAAS runs scripts during enlistment, commissioning and testing to collect data a
 
 <h4>Quick questions you may have:</h4>
 
+<!-- vanilla
 * [What metadata fields exist, and how do they control the scripts?](/t/commissioning-and-hardware-testing-scripts/833#heading--metadata-fields)
 * [What parameters can I use to control the scripts?](/t/commissioning-and-hardware-testing-scripts/833#heading--parameters)
 * [ What environment variables are available to me?](/t/commissioning-and-hardware-testing-scripts/833#heading--environment-variables)
@@ -12,16 +13,49 @@ MAAS runs scripts during enlistment, commissioning and testing to collect data a
 * [How do I upload scripts to MAAS?](/t/commissioning-and-hardware-testing-scripts/833#heading--upload-procedure)
 * [How can I debug script issues and failures?](/t/commissioning-and-hardware-testing-scripts/833#heading--debugging)
 * [How can I use these scripts via the command line?](/t/cli-commissioning-and-hardware-testing-scripts/832)
+ vanilla -->
 
----
+<!-- cli
+* [What metadata fields exist, and how do they control the scripts?](/t/commissioning-and-hardware-testing-scripts/833#heading--metadata-fields)
+* [What parameters can I use to control the scripts?](/t/commissioning-and-hardware-testing-scripts/833#heading--parameters)
+* [ What environment variables are available to me?](/t/commissioning-and-hardware-testing-scripts/833#heading--environment-variables)
+* [How can I control the results output from the scripts?](/t/commissioning-and-hardware-testing-scripts/833#heading--results)
+* [What would some example scripts look like?](/t/commissioning-and-hardware-testing-scripts/833#heading--script-examples)
+* [How do I upload scripts to MAAS?](/t/commissioning-and-hardware-testing-scripts/833#heading--upload-procedure)
+* [How can I debug script issues and failures?](/t/commissioning-and-hardware-testing-scripts/833#heading--debugging)
+* [How can I use these scripts via the command line?](/t/cli-commissioning-and-hardware-testing-scripts/832)
+ cli -->
 
+<!-- ui
+* [What metadata fields exist, and how do they control the scripts?](/t/commissioning-and-hardware-testing-scripts/833#heading--metadata-fields)
+* [What parameters can I use to control the scripts?](/t/commissioning-and-hardware-testing-scripts/833#heading--parameters)
+* [ What environment variables are available to me?](/t/commissioning-and-hardware-testing-scripts/833#heading--environment-variables)
+* [How can I control the results output from the scripts?](/t/commissioning-and-hardware-testing-scripts/833#heading--results)
+* [What would some example scripts look like?](/t/commissioning-and-hardware-testing-scripts/833#heading--script-examples)
+* [How do I upload scripts to MAAS?](/t/commissioning-and-hardware-testing-scripts/833#heading--upload-procedure)
+* [How can I debug script issues and failures?](/t/commissioning-and-hardware-testing-scripts/833#heading--debugging)
+ ui -->
+
+<!-- vanilla
 Scripts can be selected to run from web UI [during commissioning](/t/commission-machines/822), by [testing hardware](/t/hardware-testing/826) or from the [command line](/t/cli-commissioning-and-hardware-testing-scripts/832). Note that MAAS only runs built-in commissioning scripts during enlistment. Custom scripts can be run when you explicitly choose to commission a machine.  A typical administrator workflow (with machine states), using customised commissioning scripts, can be represented as:
+ vanilla -->
+
+<!-- ui
+Scripts can be selected to run from web UI [during commissioning](/t/commission-machines/822) or when [testing hardware](/t/hardware-testing/826).  Note that MAAS only runs built-in commissioning scripts during enlistment. Custom scripts can be run when you explicitly choose to commission a machine.  A typical administrator workflow (with machine states), using customised commissioning scripts, can be represented as:
+ ui  -->
+
+<!-- cli
+### IMPORT THE LINK BELOW INTO THIS SECTION
+
+Scripts can be selected to run from from the [command line](/t/cli-commissioning-and-hardware-testing-scripts/832) or when [testing hardware](/t/hardware-testing/826). Note that MAAS only runs built-in commissioning scripts during enlistment. Custom scripts can be run when you explicitly choose to commission a machine.  A typical administrator workflow (with machine states), using customised commissioning scripts, can be represented as:
+ cli -->
 
 Add machine -&gt; Enlistment (runs built-in commissioning scripts MAAS) -&gt; New -&gt; Commission (runs built-in and custom commissioning scripts) -&gt; Ready -&gt; Deploy
 
 NOTE: Scripts are run in alphabetical order in an ephemeral environment.  We recommend running your scripts after any MAAS built-in scripts.  This can be done by naming your scripts 99-z*.  It is possible to reboot the system during commissioning using a script, however, as the environment is ephemeral, any changes to the environment will be destroyed upon reboot (barring, of course, firmware type updates).
 
 This article explains script metadata, parameter passing, and results-reporting.  It also offers examples of both commissioning and hardware testing scripts.
+
 <h2 id="heading--metadata-fields">Metadata fields</h2>
 
 Metadata fields tell MAAS when to use the script, how it should run, and what information it's gathering. A script can have the following fields:
@@ -75,6 +109,7 @@ The key of the dictionary must be a string, and it's this string that's used by 
     -   `storage`: Allows the selection of a storage device on the currently-running machine.
     -   `interface`: Allows the selection of an interface on the currently-running machine.
     -   `url`: Allows the the passing of a valid URL.
+    -   `runtime`: Specifies how long the script may run. This overrides the timeout value. It is currently only passed as the environment variable RUNTIME.
 -   `title`: The title of the parameter field when displayed in the UI. The following types have the following default values:
     -   `storage`: storage device.
     -   `interface`: interface specifer.
@@ -283,17 +318,49 @@ This Bash script contains comment-delineated metadata, which configures the scri
 
 <h3 id="heading--automatic-script-selection-by-hardware-type">Automatic script selection by hardware type</h3>
 
+<!-- vanilla
 When selecting multiple machines in the [web UI](/t/introduction-to-machines/829), scripts which declare the `for_hardware` field will only run on machines with matching hardware. To automatically run a script when 'Update firmware' or 'Configure HBA' is selected, you must tag the script with 'update_firmware' or 'configure_hba'.
+ vanilla -->
 
+<!-- ui
+When selecting multiple machines in the [web UI](/t/introduction-to-machines/829), scripts which declare the `for_hardware` field will only run on machines with matching hardware. To automatically run a script when 'Update firmware' or 'Configure HBA' is selected, you must tag the script with 'update_firmware' or 'configure_hba'.
+ ui -->
+
+<!-- cli
+### BRING THE TEXT FROM THIS LINK INTO THIS SECTION
 Similarly, scripts selected by tag on the [command line](/t/cli-commissioning-and-hardware-testing-scripts/832) which specify the `for_hardware` field will only run on matching hardware.
+ cli -->
+
+<!-- vanilla
+### BRING THE TEXT FROM THIS LINK INTO THIS SECTION
+Similarly, scripts selected by tag on the [command line](/t/cli-commissioning-and-hardware-testing-scripts/832) which specify the `for_hardware` field will only run on matching hardware.
+ vanilla -->
 
 <h2 id="heading--upload-procedure">Upload procedure</h2>
 
+<!-- vanilla
 Scripts can be uploaded to MAAS using the web UI. Select the 'User scripts' tab of the 'Settings' page - the 'Commissioning scripts' section is near the top. Within the Commissioning scripts section, click the Upload script button followed by 'Choose file' to open a requester, locate the script, and select Upload to upload it to MAAS.
 
 A status message of Commissioning script created will appear.  You'll then be able to select your script after selecting [Test hardware](/t/hardware-testing/826) from a machine's 'Take action' menu.
 
-![select custom script](https://assets.ubuntu.com/v1/50e08fdf-nodes-hw-scripts__2.4_select.png)
+![select custom script](../images/50e08fdf-nodes-hw-scripts__2.4_select.png)
+ vanilla -->
+
+<!-- ui
+Scripts can be uploaded to MAAS using the web UI. Select the 'User scripts' tab of the 'Settings' page - the 'Commissioning scripts' section is near the top. Within the Commissioning scripts section, click the Upload script button followed by 'Choose file' to open a requester, locate the script, and select Upload to upload it to MAAS.
+
+A status message of Commissioning script created will appear.  You'll then be able to select your script after selecting [Test hardware](/t/hardware-testing/826) from a machine's 'Take action' menu.
+
+![select custom script](../images/50e08fdf-nodes-hw-scripts__2.4_select.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
+<!-- vanilla
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ vanilla -->
 
 [note]
 MAAS executes scripts in lexicographical order. This order allows you to control when your scripts execute, and whether they run before or after the standard MAAS scripts.
@@ -303,13 +370,33 @@ MAAS executes scripts in lexicographical order. This order allows you to control
 
 Clicking on the title of a completed or failed script will reveal the output from that specific script.
 
-![failed script output](https://assets.ubuntu.com/v1/855015e5-nodes-hw-scripts__2.2_fail.png)
+<!-- vanilla
+![failed script output](../images/855015e5-nodes-hw-scripts__2.2_fail.png)
+ vanilla -->
+
+<!-- ui
+![failed script output](../images/855015e5-nodes-hw-scripts__2.2_fail.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 If you need further details, especially when writing and running your own scripts, you can connect to a machine and examine its logs and environment.
 
 To do this, enable Allow SSH access and prevent the machine from powering off when selecting 'Test hardware' from the machine 'Take action' menu.
 
-![enable SSH within Test Hardware](https://assets.ubuntu.com/v1/da793c67-nodes-hw-scripts__2.4_ssh.png)
+<!-- vanilla
+![enable SSH within Test Hardware](../images/da793c67-nodes-hw-scripts__2.4_ssh.png)
+ vanilla -->
+
+<!-- ui
+![enable SSH within Test Hardware](../images/da793c67-nodes-hw-scripts__2.4_ssh.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 Because scripts operate within an ephemeral version of Ubuntu, enabling this option stops the machine from shutting down, allowing you to connect and probe a script's status.
 
@@ -356,9 +443,17 @@ Here, all the scripts are run again after downloading from MAAS, but no output d
 /tmp/user_data.sh.*/bin/maas-run-remote-scripts --no-send /tmp/user_data.sh.*
 ```
 
+<!-- vanilla
+### RATIONALIZE WHAT'S MENTIONED HERE INTO THIS SECTION, IF MISSING
 <h2 id="heading--command-line-access">Command line access</h2>
 
 For information about managing scripts, applying tags to scripts and seeing script results using the CLI, please see [CLI Testing Scripts](/t/cli-commissioning-and-hardware-testing-scripts/832).
+ vanilla -->
 
-<!-- LINKS -->
-<!-- IMAGES -->
+<!-- cli
+### RATIONALIZE WHAT'S MENTIONED HERE INTO THIS SECTION, IF MISSING
+<h2 id="heading--command-line-access">Command line access</h2>
+
+For information about managing scripts, applying tags to scripts and seeing script results using the CLI, please see [CLI Testing Scripts](/t/cli-commissioning-and-hardware-testing-scripts/832).
+ cli -->
+

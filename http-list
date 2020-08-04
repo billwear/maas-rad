@@ -1,0 +1,734 @@
+about-maas-840.md:MAAS can act as a standalone PXE/preseed service or integrate with other technologies. It works exceptionally well with [Juju](https://jaas.ai/docs/maas-cloud), the service and model management tool. MAAS manages the machines and Juju manages the services running on those machines -- a perfect arrangement.  Virtual machines (VMs) can even act as MAAS machines if they boot from the network via PXE.
+about-maas-840.md:![deploying|690x385](https://discourse.maas.io/uploads/default/original/1X/d19eff9ef45c554d085ee1d657e4ddd810eac6df.jpeg)  
+about-maas-840.md:![deploying|690x385](https://discourse.maas.io/uploads/default/original/1X/d19eff9ef45c554d085ee1d657e4ddd810eac6df.jpeg)  
+about-maas-840.md:![mixed-states|690x438](https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg)  
+about-maas-840.md:![mixed-states|690x438](https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg)  
+about-maas-840.md:MAAS works with any system configuration tools. Both the [Chef](https://www.chef.io/chef) and [Juju](https://jaas.ai/) teams recommend MAAS as a physical provisioning system.
+about-maas-840.md:Please note that Windows and RHEL images require [Ubuntu Advantage](https://www.ubuntu.com/support) to work correctly with MAAS.
+about-maas-840.md:![intro-arch-overview](https://discourse.maas.io/uploads/default/original/1X/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png)
+about-maas-840.md:![intro-arch-overview](https://discourse.maas.io/uploads/default/original/1X/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png)
+about-maas-840.md:![commissioning|606x400](https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg) 
+about-maas-840.md:![commissioning|606x400](https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg) 
+about-maas-840.md:![acquire|690x363](https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg) 
+about-maas-840.md:![acquire|690x363](https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg) 
+about-maas-840.md:Note that [Juju](https://jaas.ai/docs/maas-cloud) is designed to work with MAAS. MAAS
+add-an-rsd-host-815.md:![add RSD pod](https://assets.ubuntu.com/v1/2604a48b-nodes-comp-hw__2.4_pod-add-rsd.png)
+add-an-rsd-host-815.md:![add RSD pod](https://assets.ubuntu.com/v1/2604a48b-nodes-comp-hw__2.4_pod-add-rsd.png)
+adding-a-vm-host-1549.md:* [How do I add a VM host using MAAS versions below 2.5?](https://old-docs.maas.io/2.5/en/manage-kvm-add-host)
+adding-a-vm-host-1549.md:* [How do I add a VM host using MAAS versions below 2.5?](https://old-docs.maas.io/2.5/en/manage-kvm-add-host)
+adding-a-vm-host-1549.md:* [How do I add a VM host using MAAS versions below 2.5?](https://old-docs.maas.io/2.5/en/manage-kvm-add-host)
+adding-a-vm-host-1549.md:![kvm-open-screen|638x321](https://discourse.maas.io/uploads/default/original/1X/fa0cc573f34cb23ca0ac026e97ef5b618ff1fed3.jpeg) 
+adding-a-vm-host-1549.md:If you want to add a [libvirt](https://ubuntu.com/server/docs/virtualization-libvirt) or LXD VM host to a machine which is already installed, you can do so with the 'Add KVM' button:
+adding-a-vm-host-1549.md:![new-kvm-add|690x348](https://discourse.maas.io/uploads/default/optimized/1X/197ae57b89b32546cf054fff49452f9025354af8_2_690x348.jpeg) 
+adding-a-vm-host-1549.md:    https://10.0.0.100:8443
+adding-a-vm-host-1549.md:![kvm-open-screen|638x321](https://discourse.maas.io/uploads/default/original/1X/fa0cc573f34cb23ca0ac026e97ef5b618ff1fed3.jpeg) 
+adding-a-vm-host-1549.md:If you want to add a [libvirt](https://ubuntu.com/server/docs/virtualization-libvirt) or LXD VM host to a machine which is already installed, you can do so with the 'Add KVM' button:
+adding-a-vm-host-1549.md:![new-kvm-add|690x348](https://discourse.maas.io/uploads/default/optimized/1X/197ae57b89b32546cf054fff49452f9025354af8_2_690x348.jpeg) 
+adding-a-vm-host-1549.md:    https://10.0.0.100:8443
+adding-a-vm-host-1549.md:![pod configuration](https://discourse.maas.io/uploads/default/original/1X/e6f9b3effcc9e4f44a09836cf6185449410bae7f.png)
+adding-a-vm-host-1549.md:![pod configuration](https://discourse.maas.io/uploads/default/original/1X/e6f9b3effcc9e4f44a09836cf6185449410bae7f.png)
+adding-a-vm-host-1549.md:![kvm-overcommit|690x269](https://discourse.maas.io/uploads/default/optimized/1X/27a8f21392af3d29a500e33f99e1f79c578cf29c_2_690x269.jpeg) 
+adding-a-vm-host-1549.md:![kvm-overcommit|690x269](https://discourse.maas.io/uploads/default/optimized/1X/27a8f21392af3d29a500e33f99e1f79c578cf29c_2_690x269.jpeg) 
+add-machines-821.md:* [How do I add virtual machines?](https://discourse.maas.io/t/adding-a-vm-host/1549)
+add-machines-821.md:![tftp-download-boot|618x500](https://discourse.maas.io/uploads/default/optimized/1X/76f7113545e6950fec60bdeac06cfaf79b14b3ff_2_618x500.jpeg) 
+add-machines-821.md:![squashfs|623x500](https://discourse.maas.io/uploads/default/optimized/1X/500f9bd2d070790a4007085705035366bee88a4a_2_623x500.jpeg) 
+add-machines-821.md:![cloud-init|613x500](https://discourse.maas.io/uploads/default/optimized/1X/bd87f78c8ee668a22640bf15607c9e3e532d46bb_2_613x500.jpeg) 
+add-machines-821.md:![add node manually](https://assets.ubuntu.com/v1/20aa36b2-nodes-add__2.5_add-node-manually.png)
+add-machines-821.md:![add node manually](https://assets.ubuntu.com/v1/20aa36b2-nodes-add__2.5_add-node-manually.png)
+add-machines-821.md:![add node via chassis](https://assets.ubuntu.com/v1/d5314a8a-nodes-add__2.4_add-node-chassis.png)
+add-machines-821.md:![add node via chassis](https://assets.ubuntu.com/v1/d5314a8a-nodes-add__2.4_add-node-chassis.png)
+api-authentication-742.md:MAAS's API uses [OAuth](http://en.wikipedia.org/wiki/OAuth) as its authentication mechanism. This isn't third-party (3-legged) OAuth, so the process used is what's commonly referred to as 0-legged OAuth: the consumer accesses protected resources by submitting OAuth signed requests.
+api-authentication-742.md:Note that some API endpoints support unauthenticated requests (i.e. anonymous access). See the [API documentation](https://maas.io/docs/api) for details. 
+api-authentication-742.md:import httplib2
+api-authentication-742.md:        consumer_token, token=resource_token, http_url=site,
+api-authentication-742.md:    http = httplib2.Http()
+api-authentication-742.md:    return http.request(url, method, body=None, headers=headers)
+api-authentication-742.md:    'http://server/MAAS/api/1.0', '/nodes/?op=list', 'GET', '<key>', '<secret>',
+api-authentication-742.md:        { :site => "http://localhost/MAAS/api/1.0",
+api-authentication-742.md:     "http://server/MAAS/api/1.0", "/nodes/?op=list", "<key>", "<secret>",
+availability-zones-820.md:![add zone](https://assets.ubuntu.com/v1/f4032f39-manage-zones__2.4_add-zone.png)
+availability-zones-820.md:![add zone](https://assets.ubuntu.com/v1/f4032f39-manage-zones__2.4_add-zone.png)
+cli-advanced-tasks-793.md:![cli-install-rackd](https://assets.ubuntu.com/v1/61fa1b99-manage-maas-cli-advanced__2.2_install-rackd.png)
+cli-advanced-tasks-793.md:![cli-install-rackd](https://assets.ubuntu.com/v1/61fa1b99-manage-maas-cli-advanced__2.2_install-rackd.png)
+cli-advanced-tasks-793.md:sudo maas-rack register --url http://10.5.1.5:5240/MAAS \
+cli-composable-hardware-795.md:[note] `jq` is a command-line JSON processor. More details at https://stedolan.github.io/jq/[/note]
+cli-composable-hardware-795.md:See the [MAAS API documentation](https://maas.io/docs/api#post-maasapi20machines-opallocate) for a list of all constraint keys.
+cli-image-management-797.md:-   URL=https://$MIRROR/maas/images/ephemeral-v3/daily/
+cli-image-management-797.md:-   URL=https://images.maas.io/ephemeral-v3/daily/
+commissioning-and-hardware-testing-scripts-833.md:The source code to all built-in scripts is available on [launchpad](https://git.launchpad.net/maas/tree/src/metadataserver/builtin_scripts).
+commissioning-and-hardware-testing-scripts-833.md:Before the script runs, MAAS will download and install the [HP RESTful Interface Tool](https://downloads.linux.hpe.com/SDR/project/hprest/) package from HP. After the script completes, the built-in commissioning scripts will be re-run to capture the new configuration.
+commissioning-and-hardware-testing-scripts-833.md:#  url: http://downloads.linux.hpe.com/SDR/repo/hprest/pool/non-free/hprest-1.5-26_amd64.deb
+commissioning-and-hardware-testing-scripts-833.md:#  url: http://example.com/firmware.tar.gz
+commissioning-and-hardware-testing-scripts-833.md:![select custom script](https://assets.ubuntu.com/v1/50e08fdf-nodes-hw-scripts__2.4_select.png)
+commissioning-and-hardware-testing-scripts-833.md:![select custom script](https://assets.ubuntu.com/v1/50e08fdf-nodes-hw-scripts__2.4_select.png)
+commissioning-and-hardware-testing-scripts-833.md:![failed script output](https://assets.ubuntu.com/v1/855015e5-nodes-hw-scripts__2.2_fail.png)
+commissioning-and-hardware-testing-scripts-833.md:![failed script output](https://assets.ubuntu.com/v1/855015e5-nodes-hw-scripts__2.2_fail.png)
+commissioning-and-hardware-testing-scripts-833.md:![enable SSH within Test Hardware](https://assets.ubuntu.com/v1/da793c67-nodes-hw-scripts__2.4_ssh.png)
+commissioning-and-hardware-testing-scripts-833.md:![enable SSH within Test Hardware](https://assets.ubuntu.com/v1/da793c67-nodes-hw-scripts__2.4_ssh.png)
+commissioning-logs-1478.md:![commissioning-log|690x445](https://discourse.maas.io/uploads/default/optimized/1X/f2e52a4bf55b37e5ff63e7d1fab1aac32aebc48c_2_690x445.jpeg) 
+commissioning-logs-1478.md:![commissioning-log|690x445](https://discourse.maas.io/uploads/default/optimized/1X/f2e52a4bf55b37e5ff63e7d1fab1aac32aebc48c_2_690x445.jpeg) 
+commissioning-logs-1478.md:nomodeset ro root=squash:http://192.168.122.2:5248/images/ubuntu/amd64/generic/bionic/daily/squashfs ip=::::52-54-00-0b-6d-8c:BOOTIF ip6=off overlayroot=tmpfs overlayroot_cfgdisk=disabled cc:{'datasource_list': ['MAAS']}end_cc cloud-config-url=http://192-168-122-0--24.maas-internal:5248/MAAS/metadata/latest/by-id/pb6833/?op=get_preseed apparmor=0 log_host=192.168.122.2 log_port=5247 BOOTIF=01-52:54:00:0b:6d:8c
+commissioning-logs-1478.md:apt: {preserve_sources_list: false, proxy: 'http://192-168-122-0--24.maas-internal:8000/',
+commissioning-logs-1478.md:  sources_list: 'deb http://archive.ubuntu.com/ubuntu $RELEASE multiverse universe
+commissioning-logs-1478.md:    # deb-src http://archive.ubuntu.com/ubuntu $RELEASE multiverse universe restricted
+commissioning-logs-1478.md:    deb http://archive.ubuntu.com/ubuntu $RELEASE-updates multiverse universe restricted
+commissioning-logs-1478.md:    # deb-src http://archive.ubuntu.com/ubuntu $RELEASE-updates multiverse universe
+commissioning-logs-1478.md:    deb http://archive.ubuntu.com/ubuntu $RELEASE-security multiverse universe restricted
+commissioning-logs-1478.md:    # deb-src http://archive.ubuntu.com/ubuntu $RELEASE-security multiverse universe
+commissioning-logs-1478.md:    deb http://archive.ubuntu.com/ubuntu $RELEASE-backports multiverse universe restricted
+commissioning-logs-1478.md:    # deb-src http://archive.ubuntu.com/ubuntu $RELEASE-backports multiverse universe
+commissioning-logs-1478.md:  MAAS: {consumer_key: (withheld), metadata_url: 'http://192-168-122-0--24.maas-internal:5248/MAAS/metadata/',
+commissioning-logs-1478.md:  maas: {consumer_key: (withheld), endpoint: 'http://192-168-122-0--24.maas-internal:5248/MAAS/metadata/status/pb6833',
+commissioning-logs-1478.md:+ curl --max-time 1 -s -f http://fe80::1%ens3:8080/api/sys/mb/fruid
+commissioning-logs-1478.md:--2020-03-23 22:02:15--  http://192.168.122.2:5248/machine-resources/amd64
+commissioning-logs-1478.md:nomodeset ro root=squash:http://192.168.122.2:5248/images/ubuntu/amd64/generic/bionic/daily/squashfs ip=::::52-54-00-0b-6d-8c:BOOTIF ip6=off overlayroot=tmpfs overlayroot_cfgdisk=disabled cc:{'datasource_list': ['MAAS']}end_cc cloud-config-url=http://192-168-122-0--24.maas-internal:5248/MAAS/metadata/latest/by-id/pb6833/?op=get_preseed apparmor=0 log_host=192.168.122.2 log_port=5247 BOOTIF=01-52:54:00:0b:6d:8c
+commission-machines-822.md:![commission](https://discourse.maas.io/uploads/default/optimized/1X/5f196ca5e175e3f37d7cffbb2341fb0ee9cee16a_2_690x98.png)
+commission-machines-822.md:![confirm commission](https://discourse.maas.io/uploads/default/optimized/1X/5f196ca5e175e3f37d7cffbb2341fb0ee9cee16a_2_690x98.png)
+commission-machines-822.md:![commission](https://discourse.maas.io/uploads/default/optimized/1X/5f196ca5e175e3f37d7cffbb2341fb0ee9cee16a_2_690x98.png)
+commission-machines-822.md:![confirm commission](https://discourse.maas.io/uploads/default/optimized/1X/5f196ca5e175e3f37d7cffbb2341fb0ee9cee16a_2_690x98.png)
+commission-machines-822.md:![Screenshot%20from%202020-02-04%2017-12-18|690x452](https://discourse.maas.io/uploads/default/optimized/1X/7b47235ff57a570ccba6a6ed09186a3d7483f5a4_2_690x452.png) 
+commission-machines-822.md:![Screenshot%20from%202020-02-04%2017-12-18|690x452](https://discourse.maas.io/uploads/default/optimized/1X/7b47235ff57a570ccba6a6ed09186a3d7483f5a4_2_690x452.png) 
+commission-machines-822.md:![edit interface](https://discourse.maas.io/uploads/default/optimized/1X/438475b8906736b45fc809cd105a56be5052397d_2_690x124.png)
+commission-machines-822.md:![configure interface](https://discourse.maas.io/uploads/default/optimized/1X/70b21d256df52399ac7ab09c3051f4bf011da55e_2_690x431.png)
+commission-machines-822.md:![edit interface](https://discourse.maas.io/uploads/default/optimized/1X/438475b8906736b45fc809cd105a56be5052397d_2_690x124.png)
+commission-machines-822.md:![configure interface](https://discourse.maas.io/uploads/default/optimized/1X/70b21d256df52399ac7ab09c3051f4bf011da55e_2_690x431.png)
+commission-machines-822.md:A bond interface is used to aggregate two or more physical interfaces into a single logical interface. Combining multiple network connections in parallel can increase network throughput beyond what a single NIC will allow.  It also provides some redundancy in case one of the NICs should fail.  More information about the theory behind bonded NICs is found in the [relevant IEEE standard](https://1.ieee802.org/tsn/802-1ax-rev/).
+commission-machines-822.md:![configure setbond](https://discourse.maas.io/uploads/default/optimized/1X/7dd772c961c9f6f871f657b0397646446a4e23e7_2_690x125.png)
+commission-machines-822.md:![configure bond](https://discourse.maas.io/uploads/default/optimized/1X/699a55f98f3e1a81da75d1595e40bb74c99aff8e_2_690x357.png)
+commission-machines-822.md:![configure setbond](https://discourse.maas.io/uploads/default/optimized/1X/7dd772c961c9f6f871f657b0397646446a4e23e7_2_690x125.png)
+commission-machines-822.md:![configure bond](https://discourse.maas.io/uploads/default/optimized/1X/699a55f98f3e1a81da75d1595e40bb74c99aff8e_2_690x357.png)
+commission-machines-822.md:![configure bridge](https://discourse.maas.io/uploads/default/optimized/1X/83ef3d6f40d5b558396d96717dd2822fc1ce8b68_2_690x308.png)
+commission-machines-822.md:![configure bridge](https://discourse.maas.io/uploads/default/optimized/1X/83ef3d6f40d5b558396d96717dd2822fc1ce8b68_2_690x308.png)
+common-cli-tasks-794.md:[jq](https://stedolan.github.io/jq/) is a command-line JSON processor.
+common-cli-tasks-794.md:maas $PROFILE maas set-config name=enable_http_proxy value=false
+common-cli-tasks-794.md:maas $PROFILE maas set-config name=http_proxy value=$EXTERNAL_PROXY
+common-cli-tasks-794.md:maas $PROFILE maas set-config name=enable_http_proxy value=true
+common-cli-tasks-794.md:maas $PROFILE maas set-config name=http_proxy value=http://squid.example.com:3128/
+concepts-and-terms-785.md:![fabrics and spaces](https://discourse.maas.io/uploads/default/original/1X/46177305128bf7f3190f8a7bbd037c33e96f6a9e.png)
+concepts-and-terms-785.md:![fabrics and spaces](https://discourse.maas.io/uploads/default/original/1X/46177305128bf7f3190f8a7bbd037c33e96f6a9e.png)
+concepts-and-terms-785.md:Spaces facilitate machine acquisition for [Juju](https://jaas.ai/). See [Juju network spaces](https://jaas.ai/docs/spaces) for more details.
+concepts-and-terms-785.md:Two common software implementations are [isc-dhcp-relay](http://packages.ubuntu.com/xenial/isc-dhcp-relay) and [dhcp-helper](http://packages.ubuntu.com/xenial/dhcp-helper).
+concepts-and-terms-785.md:![machine locked state](https://discourse.maas.io/uploads/default/original/1X/7d1f0928fb599d465916e43e731535dfee60e65a.png)
+concepts-and-terms-785.md:![machine locked state](https://discourse.maas.io/uploads/default/original/1X/7d1f0928fb599d465916e43e731535dfee60e65a.png)
+concepts-and-terms-785.md:![default repositories config](https://assets.ubuntu.com/v1/77b93794-manage-repositories__2.4_default-repo-config.png)
+concepts-and-terms-785.md:![default repositories config](https://assets.ubuntu.com/v1/77b93794-manage-repositories__2.4_default-repo-config.png)
+concepts-and-terms-785.md:`deb http://dl.google.com/linux/chrome/deb stable main`
+concepts-and-terms-785.md:wget https://dl.google.com/linux/linux_signing_key.pub
+concepts-and-terms-785.md:![add repository](https://assets.ubuntu.com/v1/1aa1c512-manage-repositories__2.4_add-repo.png)
+concepts-and-terms-785.md:![add repository](https://assets.ubuntu.com/v1/1aa1c512-manage-repositories__2.4_add-repo.png)
+concepts-and-terms-785.md:A Personal Package Archive (PPA) is a [Launchpad](https://launchpad.net)-based method for any individual (or team) to build and distribute packages for Ubuntu.
+concepts-and-terms-785.md:Adding a PPA is equally straightforward. Using the [`sosreport` PPA](https://launchpad.net/~canonical-support/+archive/ubuntu/support-tools) as an example, first acquire the PPA's address from its page on Launchpad:
+concepts-and-terms-785.md:![add PPA](https://assets.ubuntu.com/v1/a0962e17-manage-repositories__2.4_add-ppa.png)
+concepts-and-terms-785.md:![add PPA](https://assets.ubuntu.com/v1/a0962e17-manage-repositories__2.4_add-ppa.png)
+concepts-and-terms-785.md:See [Launchpad PPAs](https://help.launchpad.net/Packaging/PPA) for more information on PPAs.
+concepts-and-terms-785.md:Of course, there is [much more to DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol), but what's covered here should be sufficient understanding for using MAAS.
+configuration-journey-781.md:http://${API_HOST}:5240/MAAS
+configuration-journey-781.md:![login-screen|690x327](https://discourse.maas.io/uploads/default/original/1X/efd8e3f150dfec28114c452c12e24e320848e075.jpeg) 
+configuration-journey-781.md:![login-screen|690x327](https://discourse.maas.io/uploads/default/original/1X/efd8e3f150dfec28114c452c12e24e320848e075.jpeg) 
+configuration-journey-781.md:![config-journey-1|690x460](https://discourse.maas.io/uploads/default/original/1X/337aa15e178b14b0ba9a0646953268bf7adac0bb.jpeg)  
+configuration-journey-781.md:![config-journey-1|690x460](https://discourse.maas.io/uploads/default/original/1X/337aa15e178b14b0ba9a0646953268bf7adac0bb.jpeg)  
+configuration-journey-781.md:![config-journey-2|690x344](https://discourse.maas.io/uploads/default/original/1X/f9751eb857dcd0c124783edeb1aaf87b8b538127.jpeg)  
+configuration-journey-781.md:![config-journey-2|690x344](https://discourse.maas.io/uploads/default/original/1X/f9751eb857dcd0c124783edeb1aaf87b8b538127.jpeg)  
+configuration-journey-781.md:![image-download-1|690x416](https://discourse.maas.io/uploads/default/original/1X/6445cde5ffc1e237a1e6d85d280f451bc0b2ab92.jpeg)  
+configuration-journey-781.md:![image-download-1|690x416](https://discourse.maas.io/uploads/default/original/1X/6445cde5ffc1e237a1e6d85d280f451bc0b2ab92.jpeg)  
+configuration-journey-781.md:![config-journey-ssh-keys|690x178](https://discourse.maas.io/uploads/default/optimized/1X/dbdcdce7c8f3b7181f894bdfe987758e0c8635fc_2_690x178.jpeg) 
+configuration-journey-781.md:![config-journey-ssh-keys|690x178](https://discourse.maas.io/uploads/default/optimized/1X/dbdcdce7c8f3b7181f894bdfe987758e0c8635fc_2_690x178.jpeg) 
+configuration-journey-781.md:![config-ssh-select-key-source|690x190](https://discourse.maas.io/uploads/default/original/1X/0e4cbf7c8fae3f21664a4d5fe8d0f90785dd6859.jpeg) 
+configuration-journey-781.md:![config-ssh-select-key-source|690x190](https://discourse.maas.io/uploads/default/original/1X/0e4cbf7c8fae3f21664a4d5fe8d0f90785dd6859.jpeg) 
+configuration-journey-781.md:![copying-ssh-keys|690x250](https://discourse.maas.io/uploads/default/original/1X/a94f1f68db07dd9be9e8eaed50f22828c7bb51e0.jpeg) 
+configuration-journey-781.md:![copying-ssh-keys|690x250](https://discourse.maas.io/uploads/default/original/1X/a94f1f68db07dd9be9e8eaed50f22828c7bb51e0.jpeg) 
+configuration-journey-781.md:![pasting-ssh-keys|690x234](https://discourse.maas.io/uploads/default/optimized/1X/ab62bf22308343988016189fbbb851c44caf2e33_2_690x234.jpeg) 
+configuration-journey-781.md:![pasting-ssh-keys|690x234](https://discourse.maas.io/uploads/default/optimized/1X/ab62bf22308343988016189fbbb851c44caf2e33_2_690x234.jpeg) 
+configuration-journey-781.md:![discovery|690x392](https://discourse.maas.io/uploads/default/optimized/1X/902f07b6e96d06dcd072501473ce85ff3d303610_2_690x392.jpeg)  
+configuration-journey-781.md:![discovery|690x392](https://discourse.maas.io/uploads/default/optimized/1X/902f07b6e96d06dcd072501473ce85ff3d303610_2_690x392.jpeg)  
+configuration-journey-781.md:![fabrics-etc-example|690x442](https://discourse.maas.io/uploads/default/optimized/1X/dd60fdeba34d3cf33d4cf42db1f745ba95542b69_2_690x442.jpeg) 
+configuration-journey-781.md:![fabrics-etc-example|690x442](https://discourse.maas.io/uploads/default/optimized/1X/dd60fdeba34d3cf33d4cf42db1f745ba95542b69_2_690x442.jpeg) 
+configuration-journey-781.md:![subnet-list-full|690x297](https://discourse.maas.io/uploads/default/optimized/1X/89d90a15e70a57e6951ee62910b503895e08251e_2_690x297.jpeg) 
+configuration-journey-781.md:![subnet-list-full|690x297](https://discourse.maas.io/uploads/default/optimized/1X/89d90a15e70a57e6951ee62910b503895e08251e_2_690x297.jpeg) 
+configuration-journey-781.md:![deploying-machines|690x394](https://discourse.maas.io/uploads/default/optimized/1X/58a37e0dc29bc233f771c33d07a0e03e8d55cb87_2_690x394.jpeg) 
+configuration-journey-781.md:![deploying-machines|690x394](https://discourse.maas.io/uploads/default/optimized/1X/58a37e0dc29bc233f771c33d07a0e03e8d55cb87_2_690x394.jpeg) 
+configuration-journey-781.md:When it comes to running applications, MAAS can easily deploy any supported variant of Ubuntu, including LTS and non-LTR versions for x86, ARM, PPC and s390x systems. You can also deploy several other operating systems to your machines, including CentOS 7, CentOS 6, Windows, RHEL, and ESXi images, via <a href="https://www.ubuntu.com/support" rel="nofollow noopener">Ubuntu Advantage</a>.
+configuration-journey-781.md:![images-menu-screen|690x351](https://discourse.maas.io/uploads/default/optimized/1X/27c47222c1fc0e34ed70134a1007dde067d2de81_2_690x351.jpeg) 
+configuration-journey-781.md:![images-menu-screen|690x351](https://discourse.maas.io/uploads/default/optimized/1X/27c47222c1fc0e34ed70134a1007dde067d2de81_2_690x351.jpeg) 
+configuration-journey-781.md:[VM hosts]( /t/introduction-to-vm-hosting/1524) can give you greater control over your hardware.  A VM host is a collection of individual virtual machines.  You can use a VM host to compose machines into an abstraction of resources that functions like a physical machine – without building one! It’s easy to add a VM host: click the "Add KVM" button on the "KVM" page of the web UI, give the VM host a name, and select "Virsh" as the VM host type.  You will also need to enter the address for the [libvirt](https://ubuntu.com/server/docs/virtualization-libvirt) controlled pool below.
+configuration-journey-781.md:![pod1|690x398](https://discourse.maas.io/uploads/default/optimized/1X/c57d7cf802bfd3f968cc54a829cd1629c45e9f62_2_690x398.jpeg) 
+configuration-journey-781.md:![pod1|690x398](https://discourse.maas.io/uploads/default/optimized/1X/c57d7cf802bfd3f968cc54a829cd1629c45e9f62_2_690x398.jpeg) 
+configuration-journey-781.md:![compose-machine|690x422](https://discourse.maas.io/uploads/default/optimized/1X/763029b5678b6f88317359d28eac3003f7298f37_2_690x422.jpeg) 
+configuration-journey-781.md:![compose-machine|690x422](https://discourse.maas.io/uploads/default/optimized/1X/763029b5678b6f88317359d28eac3003f7298f37_2_690x422.jpeg) 
+configuring-tls-encryption-764.md:      proxy_pass http://localhost:5240;
+configuring-tls-encryption-764.md:      proxy_pass http://localhost:5240/MAAS/ws;
+configuring-tls-encryption-764.md:                    proxy_http_version 1.1;
+configuring-tls-encryption-764.md:                    proxy_set_header Upgrade $http_upgrade;
+configuring-tls-encryption-764.md:            ProxyPass / http://localhost:5240/
+configuring-tls-encryption-764.md:            ProxyPassReverse / http://localhost:5240/
+contact-us-743.md:-   The MAAS [IRC channel](http://webchat.freenode.net/?channels=maas) on freenode
+contact-us-743.md:-   The MAAS [Discourse forum](https://discourse.maas.io)
+contact-us-743.md:-   The MAAS [Launchpad](https://launchpad.net/maas) source code and issue tracking repository
+contact-us-743.md:If you're interested in adopting MAAS for enterprise use or are looking to partner with Canonical, fill out the [Contact Canonical](https://maas.io/contact-us) form and someone will be in touch within one working day.
+contact-us-743.md:Alternatively, if you need some professional support, visit the [Ubuntu Advantage shop](https://buy.ubuntu.com/).
+contact-us-743.md:Finally, if you find a problem with the documentation you can [create an issue](https://github.com/CanonicalLtd/maas-docs/issues/new) or contribute directly within the [Docs Discourse category](https://discourse.maas.io/c/docs) (the source of the documentation).
+creating-a-custom-ubuntu-image-1652.md:MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customizing Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](https://maas.io/docs/custom-node-setup-preseed).
+creating-a-custom-ubuntu-image-1652.md:When the [MAAS stream](https://images.maas.io/ephemeral-v3/daily/) is generated by [lp:maas-images](https://launchpad.net/maas-images) it starts by downloading the base SquashFS rootfs from cloud-images.ubuntu.com that is used for all clouds. The SquashFS does not contain a kernel so [lp:maas-images](https://launchpad.net/maas-images) mounts the SquashFS with an overlay and chroots in. It then  installs a kernel and extra initramfs scripts from the cloud-initramfs-rooturl and cloud-initramfs-copymods packages to allow network booting. Once everything is installed the kernel and newly generated initramfs are pulled out of the overlay and everything is unmounted. [lp:maas-images](https://launchpad.net/maas-images) provides the unmodified SquashFS, installed kernel, and generated initramfs as separate files on images.maas.io.
+creating-a-custom-ubuntu-image-1652.md:    `wget http://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64-root.tar.xz`
+creating-and-deleting-vms-806.md:![compose-machine|690x276](https://discourse.maas.io/uploads/default/optimized/1X/937726bb839eefb28e9297e8f97bd48556c1014c_2_690x276.jpeg) 
+creating-and-deleting-vms-806.md:![compose-machine|690x276](https://discourse.maas.io/uploads/default/optimized/1X/937726bb839eefb28e9297e8f97bd48556c1014c_2_690x276.jpeg) 
+creating-and-deleting-vms-806.md:![deduct-storage|690x359](https://discourse.maas.io/uploads/default/optimized/1X/3b621ab0e7b4f6a86963d2b7c50b677b815956ab_2_690x359.jpeg) 
+creating-and-deleting-vms-806.md:![deduct-storage|690x359](https://discourse.maas.io/uploads/default/optimized/1X/3b621ab0e7b4f6a86963d2b7c50b677b815956ab_2_690x359.jpeg) 
+creating-and-deleting-vms-806.md:See the Machines [MAAS API documentation](https://maas.io/docs/api#machines) for a list of all constraint keys.
+creating-and-deleting-vms-806.md:![delete-vm|690x400](https://discourse.maas.io/uploads/default/optimized/1X/34d3f5fcd8a86bfa827bab5383209ea9ca117f50_2_690x400.jpeg) 
+creating-and-deleting-vms-806.md:![delete-vm|690x400](https://discourse.maas.io/uploads/default/optimized/1X/34d3f5fcd8a86bfa827bab5383209ea9ca117f50_2_690x400.jpeg) 
+custom-machine-setup-824.md:During machine [enlistment](/t/add-machines/821#heading--enlistment), [deployment](/t/deploy-machines/825), [commissioning](/t/commission-machines/822) and machine installation, MAAS sends [Tempita-derived](https://raw.githubusercontent.com/ravenac95/tempita/master/docs/index.txt) configuration files to the [cloud-init](https://launchpad.net/cloud-init) process running on the target machine. MAAS refers to this process as **preseeding**.These preseed files are used to configure a machine's ephemeral and installation environments and can be modified or augmented to a custom machine configuration.
+custom-machine-setup-824.md:1.  [Curtin](https://launchpad.net/curtin), a preseeding system similar to Kickstart or d-i (Debian Installer), applies customisations during operating system (OS) image installation. MAAS performs these changes on deployment, during OS installation, but before the machine reboots into the installed OS. Curtin customisations are perfect for administrators who want their deployments to have identical setups all the time, every time. [This blog post](https://blog.ubuntu.com/2017/06/02/customising-maas-installs) contains an excellent high-level overview of custom MAAS installs using Curtin.
+custom-machine-setup-824.md:2.  [Cloud-init](https://launchpad.net/cloud-init), a system for setting up machines immediately after instantiation. Curtin applies customisations after the first boot, when MAAS changes a machine's status to 'Deployed.' Customisations are per-instances, meaning that user-supplied scripts must be re-specified on redeployment. Cloud-init customisations are the best way for MAAS users to customise their deployments, similar to how the various cloud services prepare VMs when launching instances.
+custom-machine-setup-824.md:The [Tempita](https://raw.githubusercontent.com/ravenac95/tempita/master/docs/index.txt) template files are found within the `/etc/maas/preseeds/` directory on the region controller. Each template uses a filename prefix that corresponds to a particular phase of MAAS machine deployment:
+custom-machine-setup-824.md:|  3\. Installation | curtin ([Curtin](https://launchpad.net/curtin)) |
+custom-machine-setup-824.md:  signal: ["wget", "--no-proxy", "http://example.com/", "--post-data", "system_id=&signal=starting_install", "-O", "/dev/null"]
+deploy-machines-825.md:The agent that triggers deployment may vary. For instance, if the machines are destined to run complex, inter-related services that scale up or down frequently, like a "cloud" resource, then [Juju](https://jujucharms.com/docs/stable/about-juju) is the recommended deployment agent. Juju will also install and configure services on the deployed machines. If you want to use MAAS to install a base operating system and work on the machines manually, then you can deploy a machine directly with MAAS.
+deploy-machines-825.md:Acquiring ("allocating") a machine reserves the machine for the exclusive use of the acquiring process. The machine is no longer available to any other process, including another MAAS instance, or a process such as [Juju](https://jujucharms.com/docs/stable/about-juju).
+deploy-machines-825.md:![deploy](https://assets.ubuntu.com/v1/56958753-nodes-deploy__2.4_deploy.png)
+deploy-machines-825.md:![deploy](https://assets.ubuntu.com/v1/56958753-nodes-deploy__2.4_deploy.png)
+deploy-machines-825.md:![confirm deploy](https://assets.ubuntu.com/v1/d65b9884-nodes-deploy__2.6-deploy-confirm.png)
+deploy-machines-825.md:![confirm deploy](https://assets.ubuntu.com/v1/d65b9884-nodes-deploy__2.6-deploy-confirm.png)
+disc-stats.md:1. [can i skip commissioning?](https://discourse.maas.io/t/is-there-a-way-to-skip-auto-commissioning/1722/7)
+disc-stats.md:2. [MAAS 2.7 UI issues](https://discourse.maas.io/t/maas-2-7-ui-issues/1540/6)
+disc-stats.md:3. [plans for gpu in kvm?](https://discourse.maas.io/t/any-plans-for-gpu-in-kvm/1696/8)
+disc-stats.md:4. [MAAS NTP not working in 2.8](https://discourse.maas.io/t/maas-2-8-7328-not-configuring-chrony/1736/2)
+disc-stats.md:5. [Can't init MAAS...](https://discourse.maas.io/t/maas-test-configuration-init-command-not-found/1719/8)
+disc-stats.md:6. [LXD auth with cert on 2.8](https://discourse.maas.io/t/lxd-pod-authorization-with-cert/1726)
+disc-stats.md:7. [2.6 --> 2.8 not working](https://discourse.maas.io/t/upgrading-from-maas-2-6-to-2-8/1720/3)
+disc-stats.md:8. [issues powering on machines with 2.7](https://discourse.maas.io/t/maas-issue-when-power-on-machine/1727)
+disc-stats.md:9. [pxe boot over trunk port at switch](https://discourse.maas.io/t/pxe-boot-over-trunk-port-at-the-switch/538/11)
+disc-stats.md:10. [trouble with smartctl validation](https://discourse.maas.io/t/not-able-to-get-past-smartctl-validation/1713/4)
+disk-erasure-774.md:![disk erasure default settings](https://assets.ubuntu.com/v1/4e90c4c7-installconfig-storage-erasure__defaults.png)
+disk-erasure-774.md:![disk erasure default settings](https://assets.ubuntu.com/v1/4e90c4c7-installconfig-storage-erasure__defaults.png)
+disk-erasure-774.md:![disk erasure default node view](https://assets.ubuntu.com/v1/66e1dcc2-installconfig-storage-erasure__defaults-node.png)
+disk-erasure-774.md:![disk erasure default node view](https://assets.ubuntu.com/v1/66e1dcc2-installconfig-storage-erasure__defaults-node.png)
+explore-maas-787.md:We recommend testing MAAS with [libvirt](https://ubuntu.com/server/docs/virtualization-libvirt) and its VM/QEMU hypervisor driver. The majority of Linux distributions, including Ubuntu, support this tool. It is easy to install</a>, and MAAS natively supports power management of VMs created in libvirt. We also recommend that you install the GUI-based `virt-manager` to ease configuration, but you can use `libvirt` from the command line.
+explore-maas-787.md:MAAS also works in a Linux virtual machine running from Oracle’s [VirtualBox](https://www.virtualbox.org).  VirtualBox may be useful if you want to test MAAS from a Microsoft Windows or macOS environment.
+explore-maas-787.md:[Snaps](https://snapcraft.io/docs) are containerised software packages. To install MAAS from a snap simply enter the following:
+explore-maas-787.md:    MAAS URL [default=http://10.45.222.159:5240/MAAS]:
+explore-maas-787.md:Once you have completed this process, you can access the web UI from the default URL (above) and begin your [configuration journey](https://maas.io/docs/configuration-journey).
+getting-help-838.md:The best place to get help with your MAAS issue is on the [MAAS Discourse forum](https://discourse.maas.io/). There, you can interact with the MAAS team as well as search for issues similar to your own.
+getting-help-838.md:-   [Ask Ubuntu](http://askubuntu.com/questions/ask?tags=maas) web site
+getting-help-838.md:-   [Freenode #maas](http://webchat.freenode.net/?channels=maas) IRC channel
+getting-help-838.md:A big step on the way to doing this is by using [sosreport](https://github.com/sosreport/sosreport), an automated information-gathering utility. It is available in the Ubuntu archives:
+getting-help-838.md:This will create a tarball containing MAAS log files, MAAS configuration files and a dump of the MAAS database. By default, the tarball will end up in /tmp but you can change the location. See the [sosreport man page](http://manpages.ubuntu.com/cgi-bin/search.py?q=sosreport) for details. If there are things you do not wish to share publicly, feel free to edit the tarball.
+give-me-an-example-of-maas-1314.md:![splash-screen|690x406](https://discourse.maas.io/uploads/default/optimized/1X/18456dbd3fbfec14eddd044816fd0719692282da_2_690x406.jpeg) 
+give-me-an-example-of-maas-1314.md:![splash-screen|690x406](https://discourse.maas.io/uploads/default/optimized/1X/18456dbd3fbfec14eddd044816fd0719692282da_2_690x406.jpeg) 
+give-me-an-example-of-maas-1314.md:Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libvirt.html) on the machine where you'll be running MAAS, you can create virtual machines like this:
+give-me-an-example-of-maas-1314.md:![vmm|690x330](https://discourse.maas.io/uploads/default/optimized/1X/f66940a21313a27734bcaef6c539d36a720a6834_2_690x330.jpeg) 
+give-me-an-example-of-maas-1314.md:![vmm|690x330](https://discourse.maas.io/uploads/default/optimized/1X/f66940a21313a27734bcaef6c539d36a720a6834_2_690x330.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-1|465x500](https://discourse.maas.io/uploads/default/original/1X/0702d9f2ab4c3659d13be553449093548a9e2f10.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-1|465x500](https://discourse.maas.io/uploads/default/original/1X/0702d9f2ab4c3659d13be553449093548a9e2f10.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-2|465x500](https://discourse.maas.io/uploads/default/original/1X/0000fb5f072f2b3668465753ae6a713859d8a444.jpeg)
+give-me-an-example-of-maas-1314.md:![kvm-2|465x500](https://discourse.maas.io/uploads/default/original/1X/0000fb5f072f2b3668465753ae6a713859d8a444.jpeg)
+give-me-an-example-of-maas-1314.md:![kvm-3|465x500](https://discourse.maas.io/uploads/default/original/1X/041914a0718633fce685ac7919e2478da0e62c1b.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-3|465x500](https://discourse.maas.io/uploads/default/original/1X/041914a0718633fce685ac7919e2478da0e62c1b.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-4|465x500](https://discourse.maas.io/uploads/default/original/1X/5a46262e3573aae7252951b3331ac9e3f3ef69c4.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-4|465x500](https://discourse.maas.io/uploads/default/original/1X/5a46262e3573aae7252951b3331ac9e3f3ef69c4.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-5|465x500](https://discourse.maas.io/uploads/default/original/1X/15f5e344c03bd1469c00333d466027e403c00ee8.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-5|465x500](https://discourse.maas.io/uploads/default/original/1X/15f5e344c03bd1469c00333d466027e403c00ee8.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-6|465x500](https://discourse.maas.io/uploads/default/original/1X/d4191b100d963032d47fed1f198aea76e8de273e.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-6|465x500](https://discourse.maas.io/uploads/default/original/1X/d4191b100d963032d47fed1f198aea76e8de273e.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-7|625x500](https://discourse.maas.io/uploads/default/original/1X/09b4e50049c2a251d100113e50a241d0c4a06f51.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-7|625x500](https://discourse.maas.io/uploads/default/original/1X/09b4e50049c2a251d100113e50a241d0c4a06f51.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-9|619x500](https://discourse.maas.io/uploads/default/original/1X/7b6cd37f7663db53571845da0159977092898fa4.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-9|619x500](https://discourse.maas.io/uploads/default/original/1X/7b6cd37f7663db53571845da0159977092898fa4.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-10|619x500](https://discourse.maas.io/uploads/default/original/1X/54a8d6a77d9660e13aa1c0e278048ed1c751d65e.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-10|619x500](https://discourse.maas.io/uploads/default/original/1X/54a8d6a77d9660e13aa1c0e278048ed1c751d65e.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-11|480x183](https://discourse.maas.io/uploads/default/original/1X/6f4ab26216cc2951a202851869f7c7efc5691129.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-11|480x183](https://discourse.maas.io/uploads/default/original/1X/6f4ab26216cc2951a202851869f7c7efc5691129.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-12|619x500](https://discourse.maas.io/uploads/default/original/1X/26fe981020c03e46c81e2bceed840bea7b2f14d6.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-12|619x500](https://discourse.maas.io/uploads/default/original/1X/26fe981020c03e46c81e2bceed840bea7b2f14d6.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-13|502x245](https://discourse.maas.io/uploads/default/original/1X/537a485f0ff014aeb82afc71bc09b2988bf5cb56.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-13|502x245](https://discourse.maas.io/uploads/default/original/1X/537a485f0ff014aeb82afc71bc09b2988bf5cb56.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-14|456x468](https://discourse.maas.io/uploads/default/original/1X/2348efd7dbf17ba445e3c4e6b3926fdc8cfbc888.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-14|456x468](https://discourse.maas.io/uploads/default/original/1X/2348efd7dbf17ba445e3c4e6b3926fdc8cfbc888.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-15|690x224](https://discourse.maas.io/uploads/default/original/1X/a14b17602c2ad2465197a77c302080ca2eb59fc8.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-15|690x224](https://discourse.maas.io/uploads/default/original/1X/a14b17602c2ad2465197a77c302080ca2eb59fc8.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvms|517x500](https://discourse.maas.io/uploads/default/optimized/1X/f9f302d8de9344908758a433dae9abfada0b0db3_2_517x500.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvms|517x500](https://discourse.maas.io/uploads/default/optimized/1X/f9f302d8de9344908758a433dae9abfada0b0db3_2_517x500.jpeg) 
+give-me-an-example-of-maas-1314.md:![blank-machines|690x440](https://discourse.maas.io/uploads/default/original/1X/91679cd615868eda4654541a68e59de57328ddfa.jpeg) 
+give-me-an-example-of-maas-1314.md:![blank-machines|690x440](https://discourse.maas.io/uploads/default/original/1X/91679cd615868eda4654541a68e59de57328ddfa.jpeg) 
+give-me-an-example-of-maas-1314.md:![add-machine-screen|690x270](https://discourse.maas.io/uploads/default/optimized/1X/bc6c18c0fd31367bd4a9909fb7d954dc06f15c40_2_690x270.jpeg) 
+give-me-an-example-of-maas-1314.md:![add-machine-screen|690x270](https://discourse.maas.io/uploads/default/optimized/1X/bc6c18c0fd31367bd4a9909fb7d954dc06f15c40_2_690x270.jpeg) 
+give-me-an-example-of-maas-1314.md:![left-column|690x481](https://discourse.maas.io/uploads/default/original/1X/1de8d7afae996292d71e9787641bf0317b2327c9.jpeg) 
+give-me-an-example-of-maas-1314.md:![left-column|690x481](https://discourse.maas.io/uploads/default/original/1X/1de8d7afae996292d71e9787641bf0317b2327c9.jpeg) 
+give-me-an-example-of-maas-1314.md:![right-column|690x271](https://discourse.maas.io/uploads/default/original/1X/aa076ee437ce481808bb5f41320a45e60f3676de.jpeg) 
+give-me-an-example-of-maas-1314.md:![right-column|690x271](https://discourse.maas.io/uploads/default/original/1X/aa076ee437ce481808bb5f41320a45e60f3676de.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-16|619x500](https://discourse.maas.io/uploads/default/original/1X/79e135e48576bb6f455dd42fd7a09a2c7448d221.jpeg) 
+give-me-an-example-of-maas-1314.md:![kvm-16|619x500](https://discourse.maas.io/uploads/default/original/1X/79e135e48576bb6f455dd42fd7a09a2c7448d221.jpeg) 
+give-me-an-example-of-maas-1314.md:![auto-commission|639x407](https://discourse.maas.io/uploads/default/original/1X/37f1df9e4072b29c7183d4ae8ec1768504c4f66f.jpeg) 
+give-me-an-example-of-maas-1314.md:![auto-commission|639x407](https://discourse.maas.io/uploads/default/original/1X/37f1df9e4072b29c7183d4ae8ec1768504c4f66f.jpeg) 
+give-me-an-example-of-maas-1314.md:![tags|690x422](https://discourse.maas.io/uploads/default/original/1X/2ea0827b9ef327b59ad722215d556969218cc22f.jpeg) 
+give-me-an-example-of-maas-1314.md:![tags|690x422](https://discourse.maas.io/uploads/default/original/1X/2ea0827b9ef327b59ad722215d556969218cc22f.jpeg) 
+give-me-an-example-of-maas-1314.md:![tags-2|690x204](https://discourse.maas.io/uploads/default/optimized/1X/4f32fb8105ecee30afd0f3ca226b265dffe6e11b_2_690x204.jpeg) 
+give-me-an-example-of-maas-1314.md:![tags-2|690x204](https://discourse.maas.io/uploads/default/optimized/1X/4f32fb8105ecee30afd0f3ca226b265dffe6e11b_2_690x204.jpeg) 
+give-me-an-example-of-maas-1314.md:![tags-3|690x256](https://discourse.maas.io/uploads/default/optimized/1X/c31a50cebf68c8c5fbfbbe0115bb5c1daeb84ae8_2_690x256.jpeg) 
+give-me-an-example-of-maas-1314.md:![tags-3|690x256](https://discourse.maas.io/uploads/default/optimized/1X/c31a50cebf68c8c5fbfbbe0115bb5c1daeb84ae8_2_690x256.jpeg) 
+give-me-an-example-of-maas-1314.md:![tags-4|690x256](https://discourse.maas.io/uploads/default/optimized/1X/39a0e2f01ba7f3dc141bcf57c09b4e62f737525d_2_690x256.jpeg) 
+give-me-an-example-of-maas-1314.md:![tags-4|690x256](https://discourse.maas.io/uploads/default/optimized/1X/39a0e2f01ba7f3dc141bcf57c09b4e62f737525d_2_690x256.jpeg) 
+give-me-an-example-of-maas-1314.md:![tags-5|690x222](https://discourse.maas.io/uploads/default/optimized/1X/8a21ca291aa800440d9074270ab9d9108cff9be1_2_690x222.jpeg) 
+give-me-an-example-of-maas-1314.md:![tags-5|690x222](https://discourse.maas.io/uploads/default/optimized/1X/8a21ca291aa800440d9074270ab9d9108cff9be1_2_690x222.jpeg) 
+give-me-an-example-of-maas-1314.md:![pools-1|690x447](https://discourse.maas.io/uploads/default/original/1X/f7d4c52a176f53f29a0c1ac3190e7abb563dc993.jpeg) 
+give-me-an-example-of-maas-1314.md:![pools-1|690x447](https://discourse.maas.io/uploads/default/original/1X/f7d4c52a176f53f29a0c1ac3190e7abb563dc993.jpeg) 
+give-me-an-example-of-maas-1314.md:![pools-2|690x239](https://discourse.maas.io/uploads/default/optimized/1X/c05804c1f1bba45439d8894698b4dcefd64e7a5a_2_690x239.jpeg) 
+give-me-an-example-of-maas-1314.md:![pools-2|690x239](https://discourse.maas.io/uploads/default/optimized/1X/c05804c1f1bba45439d8894698b4dcefd64e7a5a_2_690x239.jpeg) 
+give-me-an-example-of-maas-1314.md:![pools-3|690x160](https://discourse.maas.io/uploads/default/optimized/1X/bebf192974683dde6cb21407f6db299f1e407925_2_690x160.jpeg) 
+give-me-an-example-of-maas-1314.md:![pools-3|690x160](https://discourse.maas.io/uploads/default/optimized/1X/bebf192974683dde6cb21407f6db299f1e407925_2_690x160.jpeg) 
+give-me-an-example-of-maas-1314.md:![pools-5|690x333](https://discourse.maas.io/uploads/default/original/1X/f373606dcd50c96a35af932379830f101d4a77e0.jpeg) 
+give-me-an-example-of-maas-1314.md:![pools-5|690x333](https://discourse.maas.io/uploads/default/original/1X/f373606dcd50c96a35af932379830f101d4a77e0.jpeg) 
+give-me-an-example-of-maas-1314.md:![pools-6|690x215](https://discourse.maas.io/uploads/default/original/1X/0cff1cf26f28236dbabc89b14a92c69435934933.jpeg) 
+give-me-an-example-of-maas-1314.md:![pools-6|690x215](https://discourse.maas.io/uploads/default/original/1X/0cff1cf26f28236dbabc89b14a92c69435934933.jpeg) 
+give-me-an-example-of-maas-1314.md:![pools-7|681x500](https://discourse.maas.io/uploads/default/original/1X/704b6d1603f6f90fca42891d98c3bb418458b94a.jpeg) 
+give-me-an-example-of-maas-1314.md:![pools-7|681x500](https://discourse.maas.io/uploads/default/original/1X/704b6d1603f6f90fca42891d98c3bb418458b94a.jpeg) 
+give-me-an-example-of-maas-1314.md:![notes-1|690x87](https://discourse.maas.io/uploads/default/optimized/1X/8724395dfe9fc4d3f4a10a05687c33c6a3dded07_2_690x87.jpeg) 
+give-me-an-example-of-maas-1314.md:![notes-1|690x87](https://discourse.maas.io/uploads/default/optimized/1X/8724395dfe9fc4d3f4a10a05687c33c6a3dded07_2_690x87.jpeg) 
+give-me-an-example-of-maas-1314.md:![notes-2|690x348](https://discourse.maas.io/uploads/default/original/1X/a9d61f28a4ada7d97ff6f896d2f1e8e719ad680b.jpeg) 
+give-me-an-example-of-maas-1314.md:![notes-2|690x348](https://discourse.maas.io/uploads/default/original/1X/a9d61f28a4ada7d97ff6f896d2f1e8e719ad680b.jpeg) 
+give-me-an-example-of-maas-1314.md:![notes-3|690x330](https://discourse.maas.io/uploads/default/original/1X/f8d647daffa9b3210fb99d440107a58e539a6c35.jpeg) 
+give-me-an-example-of-maas-1314.md:![notes-3|690x330](https://discourse.maas.io/uploads/default/original/1X/f8d647daffa9b3210fb99d440107a58e539a6c35.jpeg) 
+give-me-an-example-of-maas-1314.md:![notes-4|690x93](https://discourse.maas.io/uploads/default/original/1X/46cf42808ef44829f1c610e479d6dfb62af2d898.jpeg) 
+give-me-an-example-of-maas-1314.md:![notes-4|690x93](https://discourse.maas.io/uploads/default/original/1X/46cf42808ef44829f1c610e479d6dfb62af2d898.jpeg) 
+give-me-an-example-of-maas-1314.md:![vlans-1|690x365](https://discourse.maas.io/uploads/default/original/1X/7245ed378ce0b9000aaf6f15b16ea16dbde2fccf.jpeg) 
+give-me-an-example-of-maas-1314.md:![vlans-1|690x365](https://discourse.maas.io/uploads/default/original/1X/7245ed378ce0b9000aaf6f15b16ea16dbde2fccf.jpeg) 
+give-me-an-example-of-maas-1314.md:![vlans-2|690x281](https://discourse.maas.io/uploads/default/optimized/1X/befd3a3eb5987d412477d0a076d16a50e81dae30_2_690x281.jpeg) 
+give-me-an-example-of-maas-1314.md:![vlans-2|690x281](https://discourse.maas.io/uploads/default/optimized/1X/befd3a3eb5987d412477d0a076d16a50e81dae30_2_690x281.jpeg) 
+give-me-an-example-of-maas-1314.md:![vlans-3|690x275](https://discourse.maas.io/uploads/default/optimized/1X/dbdea7bec608d14e89da82cfdea87df3f93855dd_2_690x275.jpeg) 
+give-me-an-example-of-maas-1314.md:![vlans-3|690x275](https://discourse.maas.io/uploads/default/optimized/1X/dbdea7bec608d14e89da82cfdea87df3f93855dd_2_690x275.jpeg) 
+give-me-an-example-of-maas-1314.md:![vlans-4|690x141](https://discourse.maas.io/uploads/default/optimized/1X/e371011171ba18839f96788fefa40a04af3e79bb_2_690x141.jpeg) 
+give-me-an-example-of-maas-1314.md:![vlans-4|690x141](https://discourse.maas.io/uploads/default/optimized/1X/e371011171ba18839f96788fefa40a04af3e79bb_2_690x141.jpeg) 
+give-me-an-example-of-maas-1314.md:![vlans-5|690x135](https://discourse.maas.io/uploads/default/optimized/1X/961d5cae7119db1c3fb7e8d6ae6ce7015d9263d1_2_690x135.jpeg) 
+give-me-an-example-of-maas-1314.md:![vlans-5|690x135](https://discourse.maas.io/uploads/default/optimized/1X/961d5cae7119db1c3fb7e8d6ae6ce7015d9263d1_2_690x135.jpeg) 
+give-me-an-example-of-maas-1314.md:![fabrics-1|690x329](https://discourse.maas.io/uploads/default/optimized/1X/509e9696919e69cfc57602a6228425a472b3ac1d_2_690x329.jpeg) 
+give-me-an-example-of-maas-1314.md:![fabrics-1|690x329](https://discourse.maas.io/uploads/default/optimized/1X/509e9696919e69cfc57602a6228425a472b3ac1d_2_690x329.jpeg) 
+give-me-an-example-of-maas-1314.md:![fabrics-2|690x108](https://discourse.maas.io/uploads/default/optimized/1X/7873e6a97212673ab08c8c3c33f9d63d7069b8e8_2_690x108.jpeg) 
+give-me-an-example-of-maas-1314.md:![fabrics-2|690x108](https://discourse.maas.io/uploads/default/optimized/1X/7873e6a97212673ab08c8c3c33f9d63d7069b8e8_2_690x108.jpeg) 
+give-me-an-example-of-maas-1314.md:![fabrics-3|690x304](https://discourse.maas.io/uploads/default/optimized/1X/4f787bc5d57c7f811641e32b42c96bb2a2792356_2_690x304.jpeg) 
+give-me-an-example-of-maas-1314.md:![fabrics-3|690x304](https://discourse.maas.io/uploads/default/optimized/1X/4f787bc5d57c7f811641e32b42c96bb2a2792356_2_690x304.jpeg) 
+give-me-an-example-of-maas-1314.md:![fabrics-4|690x234](https://discourse.maas.io/uploads/default/optimized/1X/ecca590663b90106b144c003851732a16acd5220_2_690x234.jpeg) 
+give-me-an-example-of-maas-1314.md:![fabrics-4|690x234](https://discourse.maas.io/uploads/default/optimized/1X/ecca590663b90106b144c003851732a16acd5220_2_690x234.jpeg) 
+give-me-an-example-of-maas-1314.md:![fabrics-5|690x293](https://discourse.maas.io/uploads/default/optimized/1X/6f6e2bff0d67dc02d33800e5cc1d60db24fb398a_2_690x293.jpeg) 
+give-me-an-example-of-maas-1314.md:![fabrics-5|690x293](https://discourse.maas.io/uploads/default/optimized/1X/6f6e2bff0d67dc02d33800e5cc1d60db24fb398a_2_690x293.jpeg) 
+give-me-an-example-of-maas-1314.md:![fabrics-6|690x499](https://discourse.maas.io/uploads/default/original/1X/23c214cd6836dd783347f050f2cdba04da7bcaa1.jpeg)
+give-me-an-example-of-maas-1314.md:![fabrics-6|690x499](https://discourse.maas.io/uploads/default/original/1X/23c214cd6836dd783347f050f2cdba04da7bcaa1.jpeg)
+hardening-your-maas-installation-1381.md:Consider setting your [firewall](https://help.ubuntu.com/lts/serverguide/firewall.html#firewall-logs) on your rack and region controllers to disallow communication on all ports except those used by MAAS. For example, assuming you have installed `ufw`, you could execute:
+hardening-your-maas-installation-1381.md:One of the best steps you can take to improve both security and availability of your MAAS installation is to install TLS-terminating load balancer.  For MAAS, we recommend using [HAProxy](https://www.haproxy.com).  This section explains how to set one up.
+hardening-your-maas-installation-1381.md:In the context of MAAS, a [load balancer](https://www.nginx.com/resources/glossary/load-balancing/) distributes the incoming Web UI and API requests across multiple region controllers.  This reduces both load on MAAS and wait times for user requests.  Typically, this is known as a high-availability (HA) configuration, although there are two other [HA configurations](/t/high-availability/804) that can be enabled for MAAS: one for BMC access (for powering on machines), and one for DHCP, which enables primary and secondary DHCP instances that manage the same VLAN.
+hardening-your-maas-installation-1381.md:TLS is meant to provide privacy and data integrity between two or more applications.  Privacy is provided by [symmetric cryptography](https://en.wikipedia.org/wiki/Symmetric-key_algorithm), based on a shared secret and uniquely-generated keys negotiated at the start of a session (during the [TLS handshake](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_handshake)).  Identity of each app can be authenticated, though this feature can be optional.  Authenticity of messages is ensured by using [message authentication codes](https://en.wikipedia.org/wiki/Message_authentication_code) to detect tampering.
+hardening-your-maas-installation-1381.md:Next, in the `defaults` section, add the following lines under `mode http`:
+hardening-your-maas-installation-1381.md:    option http-server-close
+hardening-your-maas-installation-1381.md:The option `forwardfor` tells HAProxy to add X-Forward-For headers to each request.  The `http-server-close` option reduces latency between HAProxy and your users by closing connections but maintaining a keep-alive.
+hardening-your-maas-installation-1381.md:        reqadd X-Forwarded-Proto:\ https
+hardening-your-maas-installation-1381.md:Note that you can also [enable HAProxy logging](https://www.digitalocean.com/community/tutorials/how-to-implement-ssl-termination-with-haproxy-on-ubuntu-14-04) if desired.  This logging is an optional feature of the HAProxy tool and is thus left to your discretion.  
+hardening-your-maas-installation-1381.md:The Ubuntu firewall, [UFW](https://wiki.ubuntu.com/UncomplicatedFirewall), is a front-end for [iptables](https://help.ubuntu.com/community/IptablesHowTo), so the UFW log output is very similar to what you'll encounter in iptables itself.  If you want to secure your MAAS installation, it's very important to periodically review your UFW logs, found in `/var/log/ufw*`.
+hardening-your-maas-installation-1381.md:You can also compare attempts on unusual port numbers against [well-known hacker tools](http://www.relevanttechnologies.com/resources_4.asp).  For instance, repeated attempts against port 12361 might mean that someone is attempting to attack with the Whack-a-mole exploit.
+hardening-your-maas-installation-1381.md:Review the IP addresses that are being rejected and dropped.  Try to identify them with a `ping -a <IP address>`.  Spoofed addresses won't have an owner (and you can block them).  Real addresses have a [whois](http://www.internic.net/whois.html) entry, so it's possible you can contact the ISP to report and resolve this issue.
+hardening-your-maas-installation-1381.md:* `/var/log/httpd/`, `/var/log/apache`, or `/var/log/apache2` (in the case of Apache), or
+hardening-your-maas-installation-1381.md:    --> 200 OK (referrer: http://10.132.172.231:5240/MAAS/r/; agent: Mozilla/5.0 (X11;
+hardening-your-maas-installation-1381.md:    --> 400 BAD_REQUEST (referrer: http://10.132.172.231:5240/MAAS/r/; agent:
+hardening-your-maas-installation-1381.md:    --> 204 NO_CONTENT (referrer: http://10.132.172.231:5240/MAAS/r/; agent: Mozilla/5.0
+hardening-your-maas-installation-1381.md:As mentioned, this subject is far too complex for a detailed tutorial in this section.  For more information, try the [Ubuntu journalctl manpage](http://manpages.ubuntu.com/manpages/cosmic/man1/journalctl.1.html) or [another, similar source](https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs).  
+hardening-your-maas-installation-1381.md:PostgreSQL contains secrets, and should be encrypted for maximum protection.  You should consider [full disk encryption](https://help.ubuntu.com/community/Full_Disk_Encryption_Howto_2019).  Also recommended is [TLS encryption between MAAS and PostgreSQL]( https://www.postgresql.org/docs/current/ssl-tcp.html).
+hardening-your-maas-installation-1381.md:Since snaps are fully confined or "sandboxed," they bring a lot of inherent security to the contained application.  More detailed information can be found in [this snap blog](https://snapcraft.io/blog/where-eagles-snap-snap-security-overview).
+hardening-your-maas-installation-1381.md:If you need help implementing MAAS security, please [contact us](https://maas.io/contact-us).  We will be happy to assist you in arranging security consulting appropriate to your needs.
+hardware-testing-826.md:![hw test deployed node](https://assets.ubuntu.com/v1/8e876889-nodes-hw-testing__2.4_deployed.png)
+hardware-testing-826.md:![hw test deployed node](https://assets.ubuntu.com/v1/8e876889-nodes-hw-testing__2.4_deployed.png)
+hardware-testing-826.md:![hw test deployed node choices](https://assets.ubuntu.com/v1/ccfefe25-nodes-hw-testing__2.4_deployed-choices.png)
+hardware-testing-826.md:![hw test deployed node choices](https://assets.ubuntu.com/v1/ccfefe25-nodes-hw-testing__2.4_deployed-choices.png)
+high-availability-804.md:![reconfigure DHCP](https://assets.ubuntu.com/v1/c3d1e0c1-manage-ha__2.6-ha-dhcp.png)
+high-availability-804.md:![reconfigure DHCP](https://assets.ubuntu.com/v1/c3d1e0c1-manage-ha__2.6-ha-dhcp.png)
+high-availability-804.md:      - http://<ip 1>:<port>/MAAS/
+high-availability-804.md:      - http://<ip 2>:<port>/MAAS/
+high-availability-804.md:MAAS stores all state information in the PostgreSQL database. It is therefore recommended to run it in HA mode. Configuring HA for PostgreSQL is external to MAAS. You will, therefore, need to study the [PostgreSQL documentation](https://www.postgresql.org/docs/9.5/static/high-availability.html) and implement the variant of HA that makes you feel most comfortable.
+high-availability-804.md:You can add load balancing with [HAProxy](http://www.haproxy.org/) load-balancing software to support multiple API servers. In this setup, HAProxy provides access to the MAAS web UI and API.
+high-availability-804.md:Configure each API server's load balancer by copying the following into `/etc/haproxy/haproxy.cfg` (see the [upstream configuration manual](http://cbonte.github.io/haproxy-dconv/1.6/configuration.html) as a reference). Replace $PRIMARY_API_SERVER_IP and $SECONDARY_API_SERVER_IP with their respective IP addresses:
+high-availability-804.md:    option  http-server-close
+historical-release-notes-835.md:A number of bug fixes (see the [list in Launchpad](https://bugs.launchpad.net/maas/+bugs?field.milestone%3Alist=87757&field.milestone%3Alist=89662&field.milestone%3Alist=89714&field.milestone%3Alist=89840&field.milestone%3Alist=89954&field.milestone%3Alist=89682&field.status%3Alist=FIXRELEASED)).
+historical-release-notes-835.md:See [2.6 release notes](https://discourse.maas.io/t/whats-new-in-maas-2-6/1305) for details on the 2.6 release tree.
+historical-release-notes-835.md:In common with changes made to Ubuntu Server, *ntpd* has been replaced with [Chrony](https://chrony.tuxfamily.org/) for the NTP protocol. MAAS will handle the upgrade process automatically and resume NTP service operation.
+historical-release-notes-835.md:-   MAAS has now fully dropped the use of [YUI](https://en.wikipedia.org/wiki/YUI_Library) for the web UI. The final sections using this were the Settings and login pages. Both have now been transitioned to use AngularJS instead.
+historical-release-notes-835.md:-   <https://launchpad.net/maas/+milestone/2.4.0alpha1>
+historical-release-notes-835.md:-   <https://launchpad.net/maas/+milestone/2.4.0alpha2>
+historical-release-notes-835.md:-   <https://launchpad.net/maas/+milestone/2.4.0beta1>
+historical-release-notes-835.md:-   <https://launchpad.net/maas/+milestone/2.4.0beta2>
+historical-release-notes-835.md:-   <https://launchpad.net/maas/+milestone/2.4.0beta3>
+historical-release-notes-835.md:-   <https://launchpad.net/maas/+milestone/2.4.0rc1>
+historical-release-notes-835.md:-   <https://launchpad.net/maas/+milestone/2.4.0rc2>
+historical-release-notes-835.md:<https://github.com/maas/python-libmaas/releases>
+historical-release-notes-835.md:-   Join us on IRC. We can be found on the [maas](http://webchat.freenode.net/?channels=maas) channel on [freenode](https://freenode.net/).
+historical-release-notes-835.md:-   Subscribe to the [maas-devel](https://lists.ubuntu.com/mailman/listinfo/Maas-devel) mailing list, a great place to ask questions.
+historical-release-notes-835.md:<h3 id="heading--ephemeral-images-over-http">Ephemeral images over HTTP</h3>
+historical-release-notes-835.md:For more information, please refer to <https://docs.ubuntu.com/maas/2.3/en/nodes-hw-testing>
+historical-release-notes-835.md:<h3 id="heading--ephemeral-images-now-use-http">Ephemeral images now use HTTP</h3>
+historical-release-notes-835.md:Users who would like to continue to use and load their ephemeral images via 'tgt' they can disable http boot with the following command.
+historical-release-notes-835.md:maas $PROFILE maas set-config name=http_boot value=False
+historical-release-notes-835.md:-   <https://launchpad.net/maas/+milestone/2.3.0>
+historical-release-notes-835.md:-   <https://launchpad.net/maas/+milestone/2.3.0rc2>
+historical-release-notes-835.md:-   <https://launchpad.net/maas/+milestone/2.3.0rc1>
+historical-release-notes-835.md:-   <https://launchpad.net/maas/+milestone/2.3.0beta3>
+historical-release-notes-835.md:-   <https://launchpad.net/maas/+milestone/2.3.0beta2>
+historical-release-notes-835.md:-   <https://launchpad.net/maas/+milestone/2.3.0beta1>
+historical-release-notes-835.md:-   <https://launchpad.net/maas/+milestone/2.3.0alpha3>
+historical-release-notes-835.md:-   <https://launchpad.net/maas/+milestone/2.3.0alpha2>
+historical-release-notes-835.md:-   <https://launchpad.net/maas/+milestone/2.3.0alpha1>
+historical-release-notes-835.md:For installation and initial steps: http://maas.github.io/python-libmaas/index.html
+historical-release-notes-835.md:-   http://maas.github.io/python-libmaas/client/index.html
+historical-release-notes-835.md:-   http://maas.github.io/python-libmaas/client/nodes/index.html
+historical-release-notes-835.md:For pypi information: https://pypi.python.org/pypi/python-libmaas
+historical-release-notes-835.md:https://github.com/maas/python-libmaas
+historical-release-notes-835.md:MAAS will not migrate the URL of a non-default image source (i.e. a mirror) as it must first contain the v3 stream, which is available at `http://images.maas.io/ephemeral-v3/`.
+historical-release-notes-835.md:    `deb http://dl.google.com/linux/chrome/deb/ stable main`
+images-754.md:MAAS provides supported images for stable Ubuntu releases, and for CentOS 6.6, CentOS 7, and CentOS 8.0 releases.  [Ubuntu Advantage](https://www.ubuntu.com/support) is needed to build customer Windows, RHEL and ESXi images.
+images-754.md:[`https://images.maas.io/ephemeral-v3/daily/`](https://images.maas.io/ephemeral-v3/daily/)
+installation-and-configuration-checklist-750.md:Lots of folks would have [Juju](https://jujucharms.com/docs/stable/about-juju) take over at this point. Juju acts as a sort of command & control centre for adding services/applications on top of MAAS machines (among other "clouds"). If you're just not there and/or you want to quickly test things out you can use the web UI to [deploy a machine](/t/deploy-machines/825) directly.
+install-with-lxd-757.md:[LXD](https://linuxcontainers.org/lxd/) is a manager for Linux-based containers (LXC), offering a user experience similar to virtual machines without the same overheads.
+interactive-search-819.md:![searchbar](https://assets.ubuntu.com/v1/ccb90c91-manage-search__2.5_searchbar.png)
+interactive-search-819.md:![searchbar](https://assets.ubuntu.com/v1/ccb90c91-manage-search__2.5_searchbar.png)
+interactive-search-819.md:![filters](https://assets.ubuntu.com/v1/6ac5b4ec-manage-search__2.5_filters.png)
+interactive-search-819.md:![filters](https://assets.ubuntu.com/v1/6ac5b4ec-manage-search__2.5_filters.png)
+interactive-search-819.md:![filterresult](https://assets.ubuntu.com/v1/7b5d8e86-manage-search__2.5_filtered-search.png)
+interactive-search-819.md:![filterresult](https://assets.ubuntu.com/v1/7b5d8e86-manage-search__2.5_filtered-search.png)
+introduction-to-controllers-786.md:For example, let's say that your [hospital](https://maas.io/docs/maas-example-config) has three key functions: Patient management, Accounting, and Facilities, each on their own VLAN.  Let's say that there are some situations in which you need to share data between all three of these functions.  To accomplish this, you can create a fabric that joins these three VLANS.  Since this fabric just makes it possible for these VLANs to communicate, you can manage the cross-VLAN access with additional software, or permissions, depending on your application software architecture.
+introduction-to-machines-829.md:![machine-list-general|690x416](https://discourse.maas.io/uploads/default/optimized/1X/30df04b0bcec5fcf6538590ed795cb0514a64675_2_690x416.jpeg) 
+introduction-to-machines-829.md:![machine-list-general|690x416](https://discourse.maas.io/uploads/default/optimized/1X/30df04b0bcec5fcf6538590ed795cb0514a64675_2_690x416.jpeg) 
+introduction-to-machines-829.md:![machine-list-columns|690x105](https://discourse.maas.io/uploads/default/optimized/1X/e6339dd1439b3b54be7a75f7239d1981754a07f6_2_690x105.jpeg) 
+introduction-to-machines-829.md:![machine-list-columns|690x105](https://discourse.maas.io/uploads/default/optimized/1X/e6339dd1439b3b54be7a75f7239d1981754a07f6_2_690x105.jpeg) 
+introduction-to-machines-829.md:![machine-list-christmas-tree|663x500](https://discourse.maas.io/uploads/default/optimized/1X/19e038dbc6e669bfffc0ea5a9946432a75142bfb_2_663x500.jpeg) 
+introduction-to-machines-829.md:![machine-list-christmas-tree|663x500](https://discourse.maas.io/uploads/default/optimized/1X/19e038dbc6e669bfffc0ea5a9946432a75142bfb_2_663x500.jpeg) 
+introduction-to-machines-829.md:![rollover-icons|690x222](https://discourse.maas.io/uploads/default/optimized/1X/8f78a8877a029e7a44bcd4cf3d138499637fe790_2_690x222.jpeg) 
+introduction-to-machines-829.md:![rollover-icons|690x222](https://discourse.maas.io/uploads/default/optimized/1X/8f78a8877a029e7a44bcd4cf3d138499637fe790_2_690x222.jpeg) 
+introduction-to-machines-829.md:![machine-add-hardware-menu|690x235](https://discourse.maas.io/uploads/default/optimized/1X/9a0747649e6aff999d3c04335eb752accedaf3de_2_690x235.jpeg) 
+introduction-to-machines-829.md:![machine-add-hardware-menu|690x235](https://discourse.maas.io/uploads/default/optimized/1X/9a0747649e6aff999d3c04335eb752accedaf3de_2_690x235.jpeg) 
+introduction-to-machines-829.md:![machine-take-action-menu-dropped|690x364](https://discourse.maas.io/uploads/default/optimized/1X/e03d5ac8de9ea4f4827ed057bb2dd83e241aac3b_2_690x364.jpeg) 
+introduction-to-machines-829.md:![machine-take-action-menu-dropped|690x364](https://discourse.maas.io/uploads/default/optimized/1X/e03d5ac8de9ea4f4827ed057bb2dd83e241aac3b_2_690x364.jpeg) 
+introduction-to-machines-829.md:![machine-details|690x439](https://discourse.maas.io/uploads/default/optimized/1X/c9684bf883d01d3fe610ec27e95618075c44b324_2_690x439.jpeg)
+introduction-to-machines-829.md:![machine-details|690x439](https://discourse.maas.io/uploads/default/optimized/1X/c9684bf883d01d3fe610ec27e95618075c44b324_2_690x439.jpeg)
+introduction-to-machines-829.md: ![machine-event-output|690x370](https://discourse.maas.io/uploads/default/optimized/1X/2efac92fca2c90f53ac86bd98485d8e98a1f91d4_2_690x370.jpeg) 
+introduction-to-machines-829.md:![machine-details|690x439](https://discourse.maas.io/uploads/default/optimized/1X/c9684bf883d01d3fe610ec27e95618075c44b324_2_690x439.jpeg)
+introduction-to-machines-829.md:![machine-details|690x439](https://discourse.maas.io/uploads/default/optimized/1X/c9684bf883d01d3fe610ec27e95618075c44b324_2_690x439.jpeg)
+introduction-to-machines-829.md:![machine-summary-overview-card|690x119](https://discourse.maas.io/uploads/default/optimized/1X/3e50fb21f4985db0a85519e2e933e24658770b9e_2_690x119.jpeg) 
+introduction-to-machines-829.md:![machine-summary-overview-card|690x119](https://discourse.maas.io/uploads/default/optimized/1X/3e50fb21f4985db0a85519e2e933e24658770b9e_2_690x119.jpeg) 
+introduction-to-machines-829.md:![cpu-test|690x215](https://discourse.maas.io/uploads/default/optimized/1X/4fe98db93dd34f3b167b56286b06ec6d244d5848_2_690x215.jpeg) 
+introduction-to-machines-829.md:![cpu-test|690x215](https://discourse.maas.io/uploads/default/optimized/1X/4fe98db93dd34f3b167b56286b06ec6d244d5848_2_690x215.jpeg) 
+introduction-to-machines-829.md:![cpu-testing-in-progress|690x231](https://discourse.maas.io/uploads/default/original/1X/3d6996b32a5193dab76b112c864a216c845aa985.jpeg) 
+introduction-to-machines-829.md:![cpu-testing-in-progress|690x231](https://discourse.maas.io/uploads/default/original/1X/3d6996b32a5193dab76b112c864a216c845aa985.jpeg) 
+introduction-to-machines-829.md:![cpu-tests-log|690x185](https://discourse.maas.io/uploads/default/optimized/1X/89d287347928d6adb039ca582d4a94c3b54588e1_2_690x185.jpeg) 
+introduction-to-machines-829.md:![cpu-tests-log|690x185](https://discourse.maas.io/uploads/default/optimized/1X/89d287347928d6adb039ca582d4a94c3b54588e1_2_690x185.jpeg) 
+introduction-to-machines-829.md:The rest of the cards on the Machine summary are either self-explanatory, or they're covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu's "Machines" option.  Incidentally, you can learn more about testing by visiting the [Hardware testing](https://maas.io/docs/hardware-testing) page.
+introduction-to-machines-829.md:![machine-network-tab|690x206](https://discourse.maas.io/uploads/default/optimized/1X/7a7b22ee7202b50df09c7bef598250db0eb1cc15_2_690x206.jpeg) 
+introduction-to-machines-829.md:![machine-network-tab|690x206](https://discourse.maas.io/uploads/default/optimized/1X/7a7b22ee7202b50df09c7bef598250db0eb1cc15_2_690x206.jpeg) 
+introduction-to-machines-829.md:![machine-network-tab-undeployed-machine|690x176](https://discourse.maas.io/uploads/default/optimized/1X/01d53759105647d71786154e99ff210f8c71d2e7_2_690x176.jpeg) 
+introduction-to-machines-829.md:![machine-network-tab-undeployed-machine|690x176](https://discourse.maas.io/uploads/default/optimized/1X/01d53759105647d71786154e99ff210f8c71d2e7_2_690x176.jpeg) 
+introduction-to-machines-829.md:Options on this tab are described in the introduction to [Networking](https://maas.io/docs/networking) article in this documentation set.
+introduction-to-machines-829.md:![machine-storage-tab|690x431](https://discourse.maas.io/uploads/default/optimized/1X/9dc30aedf5ed173bb7b474910fa9939f7f066c95_2_690x431.jpeg) 
+introduction-to-machines-829.md:![machine-storage-tab|690x431](https://discourse.maas.io/uploads/default/optimized/1X/9dc30aedf5ed173bb7b474910fa9939f7f066c95_2_690x431.jpeg) 
+introduction-to-machines-829.md:This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article [Storage](https://maas.io/docs/storage) for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.
+introduction-to-machines-829.md:![comm-logging-summary|690x279](https://discourse.maas.io/uploads/default/optimized/1X/b3d6248013fb5186d3ea61931816fe688b94a6a2_2_690x279.jpeg) 
+introduction-to-machines-829.md:![comm-logging-summary|690x279](https://discourse.maas.io/uploads/default/optimized/1X/b3d6248013fb5186d3ea61931816fe688b94a6a2_2_690x279.jpeg) 
+introduction-to-machines-829.md:![comm-logs-details|690x379](https://discourse.maas.io/uploads/default/optimized/1X/13fce404b9bb304e08a7c5de5a395c514e98b9b0_2_690x379.jpeg) 
+introduction-to-machines-829.md:![comm-logs-details|690x379](https://discourse.maas.io/uploads/default/optimized/1X/13fce404b9bb304e08a7c5de5a395c514e98b9b0_2_690x379.jpeg) 
+introduction-to-machines-829.md:These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on [Logging](https://maas.io/docs/logging) for more details on how to read and interpret these logs.
+introduction-to-machines-829.md:![machine-menu-test-summary|690x189](https://discourse.maas.io/uploads/default/optimized/1X/b6a6ff3c8fae4a638c18a18bf65c4aa51f29e984_2_690x189.jpeg) 
+introduction-to-machines-829.md:![machine-menu-test-summary|690x189](https://discourse.maas.io/uploads/default/optimized/1X/b6a6ff3c8fae4a638c18a18bf65c4aa51f29e984_2_690x189.jpeg) 
+introduction-to-machines-829.md:![machine-test-tab-details|690x431](https://discourse.maas.io/uploads/default/optimized/1X/8113eba28a3f08279ff2b5f7593e30db05d00824_2_690x431.jpeg) 
+introduction-to-machines-829.md:![machine-test-tab-details|690x431](https://discourse.maas.io/uploads/default/optimized/1X/8113eba28a3f08279ff2b5f7593e30db05d00824_2_690x431.jpeg) 
+introduction-to-machines-829.md:The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on [Hardware testing](https://maas.io/docs/hardware-testing).
+introduction-to-machines-829.md:![machine-logs-tab|690x439](https://discourse.maas.io/uploads/default/optimized/1X/02b4bc35c8985fe0b954d8deb0afba18866cfe66_2_690x439.jpeg) 
+introduction-to-machines-829.md:![machine-logs-tab|690x439](https://discourse.maas.io/uploads/default/optimized/1X/02b4bc35c8985fe0b954d8deb0afba18866cfe66_2_690x439.jpeg) 
+introduction-to-machines-829.md:Help interpreting these logs can be found under the [Logging](https://maas.io/docs/logging) section of this documentation.
+introduction-to-machines-829.md:![machine-list-event-tab-log|690x305](https://discourse.maas.io/uploads/default/optimized/1X/114ada7188f8ebf12883a54c0976ad8abda1d211_2_690x305.jpeg) 
+introduction-to-machines-829.md:![machine-list-event-tab-log|690x305](https://discourse.maas.io/uploads/default/optimized/1X/114ada7188f8ebf12883a54c0976ad8abda1d211_2_690x305.jpeg) 
+introduction-to-machines-829.md:There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the [Logging](https://maas.io/docs/logging) section of this documentation.
+introduction-to-machines-829.md:![machine-config-tab-failed-testing|690x412](https://discourse.maas.io/uploads/default/optimized/1X/13bb1352103c759365fc6b923672f021982a10c3_2_690x412.jpeg) 
+introduction-to-machines-829.md:![machine-config-tab-failed-testing|690x412](https://discourse.maas.io/uploads/default/optimized/1X/13bb1352103c759365fc6b923672f021982a10c3_2_690x412.jpeg) 
+introduction-to-machines-829.md: ![power-config-failed-login|690x192](https://discourse.maas.io/uploads/default/optimized/1X/8f4c4ae8ec07f42551bad654375f513debc53ef1_2_690x192.jpeg) 
+introduction-to-machines-829.md:![machine-config-no-error|690x388](https://discourse.maas.io/uploads/default/optimized/1X/635e27e87bcac0c3cb3ce3085bd2fa55f60ff137_2_690x388.jpeg) 
+introduction-to-machines-829.md:![machine-config-no-error|690x388](https://discourse.maas.io/uploads/default/optimized/1X/635e27e87bcac0c3cb3ce3085bd2fa55f60ff137_2_690x388.jpeg) 
+introduction-to-machines-829.md:More information on Power configuration will be found in the [Power management](https://maas.io/docs/bmc-power-types) section of this documentation.
+introduction-to-vm-hosting-1524.md:VM hosts in MAAS allow for the dynamic composition of nodes from a pool of available hardware resources (e.g. disk space, memory, cores).  You can create virtual machines (VMs) as needed within the limits of your resources, without concern for physical hardware.  MAAS currently supports VM hosts and VMs created via [libvirt](https://ubuntu.com/server/docs/virtualization-libvirt).  As part of MAAS 2.8, we also support LXD VMs and VM hosts as a Beta feature.
+ip-ranges-760.md:![reserved IP range](https://assets.ubuntu.com/v1/be85b7d6-installconfig-network-ipranges__2.4_add-reserved-iprange.png)
+ip-ranges-760.md:![reserved IP range](https://assets.ubuntu.com/v1/be85b7d6-installconfig-network-ipranges__2.4_add-reserved-iprange.png)
+ipv6-addressing-761.md:http://[::1]:5240/MAAS/
+kernel-boot-options-827.md:MAAS can specify kernel boot options to machines on both a global basis and a per-machine basis. A full catalog of available options can be found in the [Linux kernel parameters list](https://www.kernel.org/doc/html/latest/admin-guide/kernel-parameters.html) at kernel.org.
+kernel-boot-options-827.md:![global kernel options](https://assets.ubuntu.com/v1/8b793b6d-nodes-kernel-options__2.2_global.png)
+kernel-boot-options-827.md:![global kernel options](https://assets.ubuntu.com/v1/8b793b6d-nodes-kernel-options__2.2_global.png)
+local-image-mirror-752.md:IMAGE_SRC=https://images.maas.io/ephemeral-v3/daily/
+local-image-mirror-752.md:`URL=http://<myserver>/maas/images/ephemeral-v3/daily/`
+maas-2-6-release-notes-836.md:-   [MAAS 2.6.0 beta 2](https://discourse.maas.io/t/2-6-0-beta-2-released/523)
+maas-2-6-release-notes-836.md:-   [MAAS 2.6.0 beta 1](https://discourse.maas.io/t/2-6-0-beta-1-released/495)
+maas-2-6-release-notes-836.md:-   [MAAS 2.6.0 alpha 2](https://discourse.maas.io/t/maas-2-6-0-alpha-2-released/460)
+maas-2-6-release-notes-836.md:-   [MAAS 2.6.0 alpha 1](https://discourse.maas.io/t/maas-2-6-0-alpha-1-released/413)
+maas-cli-802.md:Note that this article does not provide complete coverage of the MAAS CLI. For an exhaustive treatment, you may want to see the [API documentation](https://maas.io/docs/api).  Also note that this page represents user-entered values as uppercase variables preceded with the '$' character (e.g. $PROFILE and $EMAIL_ADDRESS). You should replace these placeholders with actual values.
+maas-cli-802.md:maas login admin http://localhost:5240/MAAS/api/2.0
+maas-cli-802.md:MAAS_URL=http://$API_SERVER/MAAS/api/2.0
+maas-documentation-25.md:![splash-screen|690x406](https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg)
+maas-documentation-25.md:![splash-screen|690x406](https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg)
+maas-documentation-25.md:- [What's new in 2.8 ›](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
+maas-documentation-25.md:- [Professional support](https://maas.io/contact-us)
+maas-documentation-25.md:- [Ask a question](http://askubuntu.com/questions/tagged/maas)
+maas-documentation-25.md:- [IRC](http://webchat.freenode.net/?channels=maas)
+maas-documentation-25.md:- [MAAS 2.5 (and earlier) documentation](https://old-docs.maas.io/2.5/en/)
+maas-documentation-25.md:- [Push some code](https://launchpad.net/maas)
+maas-documentation-25.md:- [File an issue](https://bugs.launchpad.net/maas/+filebug)
+maas-image-builder-1112.md:MAAS Image Builder is an alternative to [packer](https://www.packer.io/) for creating MAAS images.  You can:
+maas-image-builder-1112.md:https://launchpad.net/~/+archivesubscriptions
+maas-image-builder-1112.md:    “https://LaunchpadID:Password@private-ppa.launchpad.net/maas-image-builder-partners/stable/ubuntu"
+maas-image-builder-1112.md: - https://mirror.centos.org  - OS, updates, and extra repositories
+maas-image-builder-1112.md: - https://download.fedoraproject.org  - EPEL
+maas-image-builder-1112.md: - https://copr-be.cloud.fedoraproject.org - Canonical maintained cloud-init repository
+maas-image-builder-1112.md:MAAS Image Builder can create CentOS images behind a proxy -- just set the ‘http_proxy’ environment variable to _your_ particular proxy. Once deployed, <code>yum</code> will use this MAAS-configured proxy.
+maas-image-builder-1112.md:* https://download.fedoraproject.org - Access to the EPEL repository to install required deps
+maas-image-builder-1112.md:* https://copr-be.cloud.fedoraproject.org - Access to the Canonical maintained cloud-init copr repository
+maas-image-builder-1112.md:MAAS image builder supports creating RHEL images behind a proxy. To use a proxy when building a RHEL image, just set the ‘http_proxy’ environment variable to _your_ local proxy. Once deployed, <code>yum</code> will use the MAAS-configured proxy.
+maas-image-builder-1112.md:http://technet.microsoft.com/en-US/evalcenter/dn205299.aspx
+maas-installation-from-a-snap-773.md:[Snaps](https://snapcraft.io/docs) are containerised software packages. To install MAAS from a snap simply enter the following:
+maas-installation-from-a-snap-773.md:The MAAS initialisation mode "all" is [deprecated in MAAS version 2.8.0 and will be removed in MAAS version 2.9.0](https://maas.io/deprecations/MD1).
+maas-installation-from-a-snap-773.md:    MAAS URL [default=http://10.45.222.159:5240/MAAS]:
+maas-installation-from-a-snap-773.md:With MAAS installed and initialised, you can now open the web UI in your browser and begin your [Configuration journey](https://maas.io/docs/configuration-journey).
+maas-installation-from-a-snap-773.md:    MAAS URL [default=http://10.55.60.1:5240/MAAS]: http://192.168.122.1:5240/MAAS
+maas-installation-from-a-snap-773.md:You will use the username and password created above to access the web UI.  If you enter a [Launchpad](https://launchpad.net/) or [GitHub](https://github.com) account name with associated SSH key, MAAS will import them automatically.
+maas-installation-from-packages-769.md:You can install a newer stable version via PPAs listed on the [MAAS launchpad](https://launchpad.net/~maas), including:
+maas-installation-from-packages-769.md:-   [ppa:maas/2.6](https://launchpad.net/~maas/+archive/ubuntu/2.6)
+maas-installation-from-packages-769.md:-   [ppa:maas/2.7](https://launchpad.net/~maas/+archive/ubuntu/2.7)
+maas-installation-from-packages-769.md:Once all this is done, you're ready to access MAAS from the web UI and begin your [Configuration journey](https://maas.io/docs/configuration-journey).
+maas-logging-1468.md:* [What is the HTTP access log file?](=/the-http-access-log-file/1485)
+maas-logging-1468.md:* [What is the HTTP error log file?](=/the-http-error-log-file/1486)
+maas-logging-1468.md:![remote_syslog](https://assets.ubuntu.com/v1/e139d4e9-installconfig-syslog__2.6-remote-syslog.png)
+maas-logging-1468.md:![remote_syslog](https://assets.ubuntu.com/v1/e139d4e9-installconfig-syslog__2.6-remote-syslog.png)
+maas-requirements-789.md:<a href="https://maas.io/docs/concepts-and-terms#heading--controllers">Region controller</a> (minus PostgreSQL)</td>
+maas-requirements-789.md:<td><a href="https://maas.io/docs/concepts-and-terms#heading--controllers">Rack controller</a></td>
+maas-requirements-789.md:<a href="https://maas.io/docs/concepts-and-terms#heading--controllers">Region controller</a> (minus PostgreSQL)</td>
+maas-requirements-789.md:<td><a href="https://maas.io/docs/concepts-and-terms#heading--controllers">Rack controller</a></td>
+maas-tags-834.md:Because [Juju](https://jujucharms.com/docs/stable/about-juju.html) is the recommended way to deploy services on machines managed by MAAS (see [below](#heading--tag-management)), it supports MAAS tags for application deployments. By specifying MAAS tags as Juju "constraints", services can be deployed to machines that have particular user-defined characteristics.
+maas-tags-834.md:A *tag definition* is the criteria by which machines are auto-labelled by the corresponding tag. During machine enlistment, MAAS collects hardware information (using the [lshw](http://ezix.org/project/wiki/HardwareLiSter) utility). The definition used in creating a tag is then constructed using an *XPath expression* based on that information. See [w3schools documentation](https://www.w3schools.com/xml/xpath_intro.asp) for details on XPath.
+maas-tags-834.md:![tags: search](https://assets.ubuntu.com/v1/69aa9997-nodes-tags__2.6-tags-filter.png)
+maas-tags-834.md:![tags: search](https://assets.ubuntu.com/v1/69aa9997-nodes-tags__2.6-tags-filter.png)
+maas-tags-834.md:![tags: add & remove](https://assets.ubuntu.com/v1/250050ee-nodes-tags__2.6-tags-add-remove.png)
+maas-tags-834.md:![tags: add & remove](https://assets.ubuntu.com/v1/250050ee-nodes-tags__2.6-tags-add-remove.png)
+maas-tags-834.md:![tags: net interface](https://assets.ubuntu.com/v1/dd9cf996-nodes-tags__2.6-tag-net-interfaces.png)
+maas-tags-834.md:![tags: net interface](https://assets.ubuntu.com/v1/dd9cf996-nodes-tags__2.6-tag-net-interfaces.png)
+maas-tags-834.md:![tags: storage](https://assets.ubuntu.com/v1/43dd9f9d-nodes-tags__2.6-tag-storage.png)
+maas-tags-834.md:![tags: storage](https://assets.ubuntu.com/v1/43dd9f9d-nodes-tags__2.6-tag-storage.png)
+maas-tags-834.md:![tags: multiple](https://assets.ubuntu.com/v1/fff81a99-nodes-tags__2.6-tag-multiple.png)
+maas-tags-834.md:![tags: multiple](https://assets.ubuntu.com/v1/fff81a99-nodes-tags__2.6-tag-multiple.png)
+manage-composable-machines-812.md:![initial pods page](https://assets.ubuntu.com/v1/c1698d33-manage-kvm-pods__2.5_pod-initial-page.png)
+manage-composable-machines-812.md:![kvmpoddeploy](https://assets.ubuntu.com/v1/d7271011-manage-kvm-pods__2.5_kvm-pod-deploy.png)
+manage-composable-machines-812.md:![add Virsh pod](https://assets.ubuntu.com/v1/ca39b7a1-manage-kvm-pods__2.5_pod-add-virsh.png)
+manage-composable-machines-812.md:![add RSD pod](https://assets.ubuntu.com/v1/2604a48b-nodes-comp-hw__2.4_pod-add-rsd.png)
+manage-composable-machines-812.md:![save pod](https://assets.ubuntu.com/v1/6a1e0fc2-manage-kvm-pods__2.5_pod-list.png)
+manage-composable-machines-812.md:![pod details](https://assets.ubuntu.com/v1/458b90b6-manage-kvm-pods__2.5_pod-details.png)
+manage-composable-machines-812.md:Libvirt “storage pools” are storage resources managed by libvirt. For a more in-depth take on libvirt storage pools, see [here](https://libvirt.org/storage.html).
+manage-composable-machines-812.md:![storagepoolusage](https://assets.ubuntu.com/v1/984dcd91-manage-kvm-pods__2.5_libvirt_storage_usage.png)
+manage-composable-machines-812.md:![pod configuration](https://assets.ubuntu.com/v1/50c94029-manage-kvm-pods__2.5_pod-compose-config.png)
+manage-composable-machines-812.md:![pod compose machine](https://assets.ubuntu.com/v1/62316284-manage-kvm-pods__2.5_pod-compose-machine.png)
+manage-composable-machines-812.md:![storagepoolavail](https://assets.ubuntu.com/v1/a026986c-manage-kvm-pods__2.5_libvirt_storage.png)
+manage-composable-machines-812.md:![pod compose machine commissioning](https://assets.ubuntu.com/v1/0047fe3d-manage-kvm-pods__2.5_pod-compose-machine-commissioning.png)
+manage-composable-machines-812.md:![pod decompose machine](https://assets.ubuntu.com/v1/613c1d7b-manage-kvm-pods__2.5_pod-decompose-machine.png)
+manage-composable-machines-812.md:![pod delete](https://assets.ubuntu.com/v1/55498a64-manage-kvm-pods__2.5_pod-delete.png)
+managing-dhcp-759.md:![Enable DHCP](https://discourse.maas.io/uploads/default/optimized/1X/6727ac9a78a11e0ec602a5cb646a5776eff67677_2_690x431.png)
+managing-dhcp-759.md:![Enable DHCP](https://discourse.maas.io/uploads/default/optimized/1X/6727ac9a78a11e0ec602a5cb646a5776eff67677_2_690x431.png)
+managing-dhcp-759.md:When MAAS manages DHCP, you customise it through the use of DHCP snippets. These are user-defined configuration options that can be applied either globally, per subnet, or per machine. You apply a global snippet to all VLANs, subnets, and machines. All three types end up in `/var/lib/maas/dhcpd.conf` or `/var/lib/maas/dhcpd6.conf`. For information on what options to use, refer to the [`dhcpd.conf` man page](http://manpages.ubuntu.com/cgi-bin/search.py?q=dhcpd.conf).
+managing-dhcp-759.md:![Manage DHCP snippets](https://discourse.maas.io/uploads/default/optimized/1X/a3247c726ed9e3e5d7a99becd89920e81aaa86f7_2_690x259.png)
+managing-dhcp-759.md:![Manage DHCP snippets](https://discourse.maas.io/uploads/default/optimized/1X/a3247c726ed9e3e5d7a99becd89920e81aaa86f7_2_690x259.png)
+managing-stp-765.md:To alleviate this problem, you should enable [Portfast](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4000/8-2glx/configuration/guide/stp_enha.html#wp1019873) for Cisco switches or its equivalent on other vendor equipment, which allows the ports to come up almost immediately.
+network-discovery-758.md:![network discovery page](https://assets.ubuntu.com/v1/1782e4aa-installconfig-networking__2.4_discovery.png)
+network-discovery-758.md:![network discovery page](https://assets.ubuntu.com/v1/1782e4aa-installconfig-networking__2.4_discovery.png)
+networking-768.md:![subnets page](https://assets.ubuntu.com/v1/657bb332-installconfig-networking__2.4_subnets.png)
+networking-768.md:![subnets page](https://assets.ubuntu.com/v1/657bb332-installconfig-networking__2.4_subnets.png)
+networking-768.md:![networking subnets page summary](https://assets.ubuntu.com/v1/17617b35-installconfig-networking__2.4_subnets-summary.png)
+networking-768.md:![networking subnets page summary](https://assets.ubuntu.com/v1/17617b35-installconfig-networking__2.4_subnets-summary.png)
+networking-768.md:![networking subnets utilisation](https://assets.ubuntu.com/v1/3d3e4b61-installconfig-networking__2.4_subnets-utilisation.png)
+networking-768.md:![networking subnets utilisation](https://assets.ubuntu.com/v1/3d3e4b61-installconfig-networking__2.4_subnets-utilisation.png)
+networking-768.md:![networking static routes configuration](https://assets.ubuntu.com/v1/49f5e240-installconfig-networking__2.4_subnets-routes.png)
+networking-768.md:![networking static routes configuration](https://assets.ubuntu.com/v1/49f5e240-installconfig-networking__2.4_subnets-routes.png)
+networking-768.md:![networking subnets reserved](https://assets.ubuntu.com/v1/5f9f50f9-installconfig-networking__2.4_subnets-reserved.png)
+networking-768.md:![networking subnets reserved](https://assets.ubuntu.com/v1/5f9f50f9-installconfig-networking__2.4_subnets-reserved.png)
+networking-768.md:![networking subnets used](https://assets.ubuntu.com/v1/b9e69b0b-installconfig-networking__2.4_subnets-used.png)
+networking-768.md:![networking subnets used](https://assets.ubuntu.com/v1/b9e69b0b-installconfig-networking__2.4_subnets-used.png)
+network-testing-1267.md:![link-disconnected|690x307](https://discourse.maas.io/uploads/default/optimized/1X/687feb2ddea8b317f0deba239bcb1779fd5f33d3_2_690x307.jpeg) 
+network-testing-1267.md:![link-disconnected|690x307](https://discourse.maas.io/uploads/default/optimized/1X/687feb2ddea8b317f0deba239bcb1779fd5f33d3_2_690x307.jpeg) 
+network-testing-1267.md:![mark-as-connected|690x312](https://discourse.maas.io/uploads/default/optimized/1X/b8b24a2e5fbc40b6469a24733a518b510cf0d955_2_690x312.jpeg) 
+network-testing-1267.md:![mark-as-connected|690x312](https://discourse.maas.io/uploads/default/optimized/1X/b8b24a2e5fbc40b6469a24733a518b510cf0d955_2_690x312.jpeg) 
+network-testing-1267.md:![link-connected-to-slow-interface|690x256](https://discourse.maas.io/uploads/default/optimized/1X/e73a81df222f44c0b364eefcd0880e2a84c7303b_2_690x256.jpeg)  
+network-testing-1267.md:![link-connected-to-slow-interface|690x256](https://discourse.maas.io/uploads/default/optimized/1X/e73a81df222f44c0b364eefcd0880e2a84c7303b_2_690x256.jpeg)  
+network-testing-1267.md:![test-connectivity|690x310](https://discourse.maas.io/uploads/default/optimized/1X/c4f81cb3ef1a90f0a46fb62c893a4cc9f7e5f45a_2_690x310.jpeg) 
+network-testing-1267.md:![test-connectivity|690x310](https://discourse.maas.io/uploads/default/optimized/1X/c4f81cb3ef1a90f0a46fb62c893a4cc9f7e5f45a_2_690x310.jpeg) 
+network-testing-1267.md:![specify-urls-ui|690x100](https://discourse.maas.io/uploads/default/optimized/1X/12dd87ce0bffd54c2e459c4dea850af5fcbe14d0_2_690x100.jpeg) 
+network-testing-1267.md:![specify-urls-ui|690x100](https://discourse.maas.io/uploads/default/optimized/1X/12dd87ce0bffd54c2e459c4dea850af5fcbe14d0_2_690x100.jpeg) 
+network-testing-1267.md:![specify-urls-api|690x75](https://discourse.maas.io/uploads/default/optimized/1X/b92a8ca1821bc1ccf60cf7fddcb57f3fbeda4408_2_690x75.jpeg) 
+network-testing-1267.md:![specify-urls-api|690x75](https://discourse.maas.io/uploads/default/optimized/1X/b92a8ca1821bc1ccf60cf7fddcb57f3fbeda4408_2_690x75.jpeg) 
+network-testing-1267.md:![breaking-nics|690x217](https://discourse.maas.io/uploads/default/optimized/1X/1f7e76d2470210bb5a0fe5a1a8cb542f5ef44c51_2_690x217.jpeg) 
+network-testing-1267.md:![breaking-nics|690x217](https://discourse.maas.io/uploads/default/optimized/1X/1f7e76d2470210bb5a0fe5a1a8cb542f5ef44c51_2_690x217.jpeg) 
+network-testing-1267.md:![test-single-interface-from-api|690x36](https://discourse.maas.io/uploads/default/optimized/1X/7fadb56a2939f7a781510a55813141de03521e0d_2_690x36.jpeg) 
+network-testing-1267.md:![test-single-interface-from-api|690x36](https://discourse.maas.io/uploads/default/optimized/1X/7fadb56a2939f7a781510a55813141de03521e0d_2_690x36.jpeg) 
+network-testing-1267.md:![specify-network-tests|690x197](https://discourse.maas.io/uploads/default/optimized/1X/0dcf089dbd8efc2fc9d0782d3b15f47647e950b8_2_690x197.jpeg) 
+network-testing-1267.md:![specify-network-tests|690x197](https://discourse.maas.io/uploads/default/optimized/1X/0dcf089dbd8efc2fc9d0782d3b15f47647e950b8_2_690x197.jpeg) 
+ntp-services-762.md:MAAS provides managed NTP services (with [Chrony](https://chrony.tuxfamily.org/)) for all region and rack controllers. This arrangement allows MAAS to both keep its controllers synchronised, and keep deployed machines synchronised as well. You can configure NTP on the 'Network services' tab of the 'Settings' page.
+ntp-services-762.md:![configure NTP](https://assets.ubuntu.com/v1/69180b4a-installconfig-network-ntp__2.6-configure-ntp.png)
+ntp-services-762.md:![configure NTP](https://assets.ubuntu.com/v1/69180b4a-installconfig-network-ntp__2.6-configure-ntp.png)
+package-repositories-814.md:![default repositories config](https://assets.ubuntu.com/v1/77b93794-manage-repositories__2.4_default-repo-config.png)
+package-repositories-814.md:![default repositories config](https://assets.ubuntu.com/v1/77b93794-manage-repositories__2.4_default-repo-config.png)
+package-repositories-814.md:`deb http://dl.google.com/linux/chrome/deb stable main`
+package-repositories-814.md:wget https://dl.google.com/linux/linux_signing_key.pub
+package-repositories-814.md:![add repository](https://assets.ubuntu.com/v1/1aa1c512-manage-repositories__2.4_add-repo.png)
+package-repositories-814.md:![add repository](https://assets.ubuntu.com/v1/1aa1c512-manage-repositories__2.4_add-repo.png)
+package-repositories-814.md:A Personal Package Archive (PPA) is a [Launchpad](https://launchpad.net)-based method for any individual (or team) to build and distribute packages for Ubuntu.
+package-repositories-814.md:Adding a PPA is equally straightforward. Using the [`sosreport` PPA](https://launchpad.net/~canonical-support/+archive/ubuntu/support-tools) as an example, first acquire the PPA's address from its page on Launchpad:
+package-repositories-814.md:![add PPA](https://assets.ubuntu.com/v1/a0962e17-manage-repositories__2.4_add-ppa.png)
+package-repositories-814.md:![add PPA](https://assets.ubuntu.com/v1/a0962e17-manage-repositories__2.4_add-ppa.png)
+package-repositories-814.md:See [Launchpad PPAs](https://help.launchpad.net/Packaging/PPA) for more information on PPAs.
+postgresql-ha-hot-standby-803.md:**Disclaimer: These *notes* give an idea of what is involved in setting up 'hot standby' HA mode in PostgreSQL. The below procedures are not regularly tested. Please use the [PostgreSQL documentation](https://www.postgresql.org/docs/9.5/static/high-availability.html) when setting up HA on PostgreSQL.**
+power-management-830.md:To manage a machine, MAAS must be able to power cycle it, usually through the machine's [BMC](https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface#Baseboard_management_controller) card.  Until you configure the power type, a newly-added machine can't be enlisted and used by MAAS.
+power-management-830.md:![power types undefined](https://assets.ubuntu.com/v1/4fae5977-nodes-power-types__2.4_undefined.png)
+power-management-830.md:![power types undefined](https://assets.ubuntu.com/v1/4fae5977-nodes-power-types__2.4_undefined.png)
+power-management-830.md:![power types selection](https://assets.ubuntu.com/v1/b53c6613-nodes-power-types__2.4_selection.png)
+power-management-830.md:![power types selection](https://assets.ubuntu.com/v1/b53c6613-nodes-power-types__2.4_selection.png)
+power-management-830.md:![power types power error](https://assets.ubuntu.com/v1/3bd5e93b-nodes-power-types__2.4_power-error.png)
+power-management-830.md:![power types power error](https://assets.ubuntu.com/v1/3bd5e93b-nodes-power-types__2.4_power-error.png)
+power-management-830.md:![power types example: virsh](https://assets.ubuntu.com/v1/c75e00a8-nodes-power-types__2.4_example-virsh.png)
+power-management-830.md:![power types example: virsh](https://assets.ubuntu.com/v1/c75e00a8-nodes-power-types__2.4_example-virsh.png)
+prometheus-metrics-813.md:MAAS services can provide [Prometheus](https://prometheus.io/) endpoints for collecting performance metrics.  These include:
+prometheus-metrics-813.md:Once the `/metrics` endpoint is available in MAAS services, Prometheus can be configured to scrape metric values from these. You can configure this by adding a stanza like the following to the [prometheus configuration](https://prometheus.io/docs/prometheus/latest/configuration/configuration/):
+prometheus-metrics-813.md:[Grafana](https://grafana.com/) and Prometheus can be easily deployed using [Juju](https://jujucharms.com/).
+prometheus-metrics-813.md:The [MAAS performance repo](https://git.launchpad.net/~maas-committers/maas/+git/maas-performance) repository provides a sample `deploy-stack` script that will deploy and configure the stack on LXD containers.
+proxy-763.md:![Configure proxy](https://assets.ubuntu.com/v1/55800a33-installconfig-network-proxy__2.4_configure-proxy.png)
+proxy-763.md:![Configure proxy](https://assets.ubuntu.com/v1/55800a33-installconfig-network-proxy__2.4_configure-proxy.png)
+python-api-client-810.md:-   [API documentation](https://maas.io/docs/api)
+python-api-client-810.md:-   `https://github.com/maas/python-libmaas`
+python-api-client-810.md:-   `http://maas.github.io/python-libmaas/index.html`
+python-api-client-810.md:-   `http://maas.github.io/python-libmaas/client/index.html`
+python-api-client-810.md:-   `http://maas.github.io/python-libmaas/client/nodes/index.html`
+python-api-client-810.md:`https://pypi.python.org/pypi/python-libmaas`
+rack-controllers-771.md:![4_install-rackd|690x251](https://discourse.maas.io/uploads/default/optimized/1X/0a5f1d374a3e53235a83eb157163be49016e63b5_2_690x251.png) 
+rack-controllers-771.md:![4_install-rackd|690x251](https://discourse.maas.io/uploads/default/optimized/1X/0a5f1d374a3e53235a83eb157163be49016e63b5_2_690x251.png) 
+resource-pools-831.md:![add resource pool](https://assets.ubuntu.com/v1/2f010325-nodes-resource-pools__2.5_add-pool.png)
+resource-pools-831.md:![add resource pool](https://assets.ubuntu.com/v1/2f010325-nodes-resource-pools__2.5_add-pool.png)
+resource-pools-831.md:![add resource pool](https://assets.ubuntu.com/v1/630ed938-nodes-resource-pools__2.5_delete-pool.png)
+resource-pools-831.md:![add resource pool](https://assets.ubuntu.com/v1/630ed938-nodes-resource-pools__2.5_delete-pool.png)
+resource-pools-831.md:![add resource pool](https://assets.ubuntu.com/v1/648e7a8e-nodes-resource-pools__2.5_add-machine.png)
+resource-pools-831.md:![add resource pool](https://assets.ubuntu.com/v1/648e7a8e-nodes-resource-pools__2.5_add-machine.png)
+resource-pools-831.md:![add_pod_to_pool](https://assets.ubuntu.com/v1/84a89952-nodes-resource-pools__2.5_pod_to_pool.png)
+resource-pools-831.md:![add_pod_to_pool](https://assets.ubuntu.com/v1/84a89952-nodes-resource-pools__2.5_pod_to_pool.png)
+rsd-storage-818.md:![rsdresources](https://assets.ubuntu.com/v1/46e17163-manage-rsd-storage__2.5__intel-rsd-storage.png)
+rsd-storage-818.md:![rsdresources](https://assets.ubuntu.com/v1/46e17163-manage-rsd-storage__2.5__intel-rsd-storage.png)
+select-and-import-images-751.md:![select and import images](https://discourse.maas.io/uploads/default/optimized/1X/d208922f1126ec92f6ef06cfaa5e16dbbfc613d0_2_690x462.png)
+select-and-import-images-751.md:![select and import images](https://discourse.maas.io/uploads/default/optimized/1X/d208922f1126ec92f6ef06cfaa5e16dbbfc613d0_2_690x462.png)
+select-and-import-images-751.md:![ubuntu images importing](https://discourse.maas.io/uploads/default/optimized/1X/f7daa92c97f1ada61c2172044d43856ed3e14b5f_2_690x139.png)
+select-and-import-images-751.md:![ubuntu images importing](https://discourse.maas.io/uploads/default/optimized/1X/f7daa92c97f1ada61c2172044d43856ed3e14b5f_2_690x139.png)
+select-and-import-images-751.md:![image mirror configuration](https://discourse.maas.io/uploads/default/original/1X/dbe44a827e70e318a6139c3e335019a6a27c4374.png)
+select-and-import-images-751.md:![image mirror configuration](https://discourse.maas.io/uploads/default/original/1X/dbe44a827e70e318a6139c3e335019a6a27c4374.png)
+select-and-import-images-751.md:![other images importing](https://discourse.maas.io/uploads/default/optimized/1X/198aa78b2dd3a650f1b3909ae2c9269e159ca1dc_2_690x182.png)
+select-and-import-images-751.md:![other images importing](https://discourse.maas.io/uploads/default/optimized/1X/198aa78b2dd3a650f1b3909ae2c9269e159ca1dc_2_690x182.png)
+storage-775.md:MAAS supports storage configuration for CentOS and RHEL deployments. Support includes RAID, LVM, and custom partitioning with different file systems (ZFS and bcache excluded). This support requires a newer version of Curtin, [available as a PPA](https://launchpad.net/ubuntu/+source/curtin).
+storage-775.md:![default storage layout](https://discourse.maas.io/uploads/default/original/1X/80de3bc701552cd00bec707830accf380c214b17.png)
+storage-775.md:![default storage layout](https://discourse.maas.io/uploads/default/original/1X/80de3bc701552cd00bec707830accf380c214b17.png)
+subnet-management-766.md:![subnet management toggle](https://assets.ubuntu.com/v1/e5d80c8c-installconfig-network-subnet-management__2.6-management-toggle.png)
+subnet-management-766.md:![subnet management toggle](https://assets.ubuntu.com/v1/e5d80c8c-installconfig-network-subnet-management__2.6-management-toggle.png)
+tips-tricks-and-traps-1506.md:When no specific interface is assigned as the network boot device, petitboot has a known issue which is detailed in [LP#1852678](https://bugs.launchpad.net/ubuntu-power-systems/+bug/1852678), specifically comment #24, that can cause issues when deploying systems using MAAS, since in this case all active NICs are used for PXE boot with the same address.
+tmp.md:See [LTS Enablement Stack](https://wiki.ubuntu.com/Kernel/LTSEnablementStack) (Ubuntu wiki) for the latest information on HWE.
+tmp.md:See [Rolling LTS Enablement Stack](https://wiki.ubuntu.com/Kernel/RollingLTSEnablementStack#hwe-16.04-edge) (Ubuntu wiki) for more information.
+tmp.md:The low-latency kernel is based on the GA kernel, but uses a more aggressive configuration to reduce latency. It is categorised as a soft real-time kernel. For more information, see [Criteria for real-time computing](https://en.wikipedia.org/wiki/Real-time_computing#Criteria_for_real-time_computing) (Wikipedia).
+tmp.md:![default minimum kernel](https://assets.ubuntu.com/v1/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png)
+tmp.md:![default minimum kernel](https://assets.ubuntu.com/v1/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png)
+tmp.md:![machine minimum kernel](https://assets.ubuntu.com/v1/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png)
+tmp.md:![machine minimum kernel](https://assets.ubuntu.com/v1/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png)
+tmp.md:![machine during deploy kernel](https://assets.ubuntu.com/v1/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png)
+tmp.md:![machine during deploy kernel](https://assets.ubuntu.com/v1/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png)
+troubleshooting-837.md:By default, the web UI is located at `http://<hostname>:5240/MAAS/`. If you can't access it, there are a few things to try:
+troubleshooting-837.md:2.  Check that the hostname is correct - It may seem obvious, but check that the hostname is being resolved properly. Try running a browser (even a text mode one like `elinks`) on the same box as the MAAS server and navigating to the page. If that doesn't work, try `http://127.0.0.1:5240/MAAS/`, which will always point at the local server.
+troubleshooting-837.md:Ephemeral images are used by MAAS to boot nodes during commissioning, as well as during deployment. By design, these images are not built to be edited or tampered with, instead they're used to probe the hardware and launch [cloud-init](https://launchpad.net/cloud-init).
+troubleshooting-837.md:![web UI image list](https://assets.ubuntu.com/v1/130aa580-troulbeshoot-faq__2.3_images.png)
+troubleshooting-837.md:![web UI image list](https://assets.ubuntu.com/v1/130aa580-troulbeshoot-faq__2.3_images.png)
+troubleshooting-837.md:Images can be downloaded from [https://cloud-images.ubuntu.com/daily/server](https://cloud-images.ubuntu.com/daily/server/).
+troubleshooting-837.md:wget https://cloud-images.ubuntu.com/daily/server/xenial/current/xenial-server-cloudimg-amd64-root.tar.gz
+troubleshooting-837.md:![web UI deploy image](https://assets.ubuntu.com/v1/f622d104-troulbeshoot-faq__2.3_deploy.png)
+troubleshooting-837.md:![web UI deploy image](https://assets.ubuntu.com/v1/f622d104-troulbeshoot-faq__2.3_deploy.png)
+ubuntu-kernels-828.md:See [LTS Enablement Stack](https://wiki.ubuntu.com/Kernel/LTSEnablementStack) (Ubuntu wiki) for the latest information on HWE.
+ubuntu-kernels-828.md:See [Rolling LTS Enablement Stack](https://wiki.ubuntu.com/Kernel/RollingLTSEnablementStack#hwe-16.04-edge) (Ubuntu wiki) for more information.
+ubuntu-kernels-828.md:The low-latency kernel is based on the GA kernel, but uses a more aggressive configuration to reduce latency. It is categorised as a soft real-time kernel. For more information, see [Criteria for real-time computing](https://en.wikipedia.org/wiki/Real-time_computing#Criteria_for_real-time_computing) (Wikipedia).
+ubuntu-kernels-828.md:![default minimum kernel](https://assets.ubuntu.com/v1/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png)
+ubuntu-kernels-828.md:![default minimum kernel](https://assets.ubuntu.com/v1/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png)
+ubuntu-kernels-828.md:![machine minimum kernel](https://assets.ubuntu.com/v1/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png)
+ubuntu-kernels-828.md:![machine minimum kernel](https://assets.ubuntu.com/v1/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png)
+ubuntu-kernels-828.md:![machine during deploy kernel](https://assets.ubuntu.com/v1/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png)
+ubuntu-kernels-828.md:![machine during deploy kernel](https://assets.ubuntu.com/v1/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png)
+upgrade-2-3-to-2-4-from-ubuntu-16-04-777.md:MAAS 2.3 will continue to be supported on Ubuntu 16.04 LTS until the end of its support cycle. See [Ubuntu Releases](https://wiki.ubuntu.com/Releases) for release and EOL dates for all Ubuntu versions.
+upgrade-from-1-9-to-2-x-778.md:<td><a href="https://maas.io/docs/upgrade-from-1-9-to-2-x#heading--ip-range-changes">IP range changes</a></td>
+upgrade-from-1-9-to-2-x-778.md:<td><a href="https://maas.io/docs/upgrade-from-1-9-to-2-x#heading--troubleshooting">Troubleshooting</a></td>
+upgrade-from-1-9-to-2-x-778.md:MAAS 1.9 will continue to be supported on Ubuntu 14.04 LTS (Trusty Tahr) until the latter reaches the end of its support cycle. See [Ubuntu Releases](https://wiki.ubuntu.com/Releases) for release and EOL dates for all Ubuntu versions.
+upgrade-from-1-9-to-2-x-778.md:Upgrading from 1.9 to 2.3 will therefore involve upgrading the version of Ubuntu to 16.04 LTS. In so doing, the MAAS database and MAAS configuration will be migrated. See the [Xenial Release Notes](https://wiki.ubuntu.com/XenialXerus/ReleaseNotes#Upgrading_from_Ubuntu_14.04_LTS_or_15.10) for upgrading to Xenial.
+upgrade-from-1-9-to-2-x-778.md:MAAS 1.9 allows users to configure their managed networks to use either [static](https://docs.ubuntu.com/maas/1.9/en/nodes-commission) or dynamic ranges. A static range is used by MAAS to allocate automatic (static) IP addresses while a dynamic range is used solely for DHCP.
+upgrading-maas-779.md:See the [Releases](https://wiki.ubuntu.com/Releases) section on the Ubuntu wiki for more information about the Ubuntu release schedule.
+user-accounts-790.md:![current users](https://assets.ubuntu.com/v1/76402e4b-manage-user-accounts__2.4_current-users.png)
+user-accounts-790.md:![current users](https://assets.ubuntu.com/v1/76402e4b-manage-user-accounts__2.4_current-users.png)
+user-accounts-790.md:![add user](https://assets.ubuntu.com/v1/1c59c2c5-manage-user-accounts__2.4_add-user.png)
+user-accounts-790.md:![add user](https://assets.ubuntu.com/v1/1c59c2c5-manage-user-accounts__2.4_add-user.png)
+user-accounts-790.md:Before a user can deploy a machine, they must import at least one public SSH key into MAAS. This key allows the user to access the deployed machine. The user must possess the corresponding private key. See [Public key authentication](https://www.ssh.com/ssh/public-key-authentication) (ssh.com) if you're not familiar with SSH keys.
+user-accounts-790.md:Public keys residing on either [Launchpad](https://help.launchpad.net/YourAccount) or [GitHub](https://help.github.com/articles/connecting-to-github-with-ssh/) can also be added. Select either from the 'Source' menu and specify the user ID associated with the key(s). Press the 'Import' button to add any keys MAAS discovers to the current user's MAAS account.
+user-accounts-790.md:![add user SSH key](https://assets.ubuntu.com/v1/fc95765e-manage-user-accounts__2.4_add-user-ssh-key.png)
+user-accounts-790.md:![add user SSH key](https://assets.ubuntu.com/v1/fc95765e-manage-user-accounts__2.4_add-user-ssh-key.png)
+user-accounts-790.md:The user preferences page includes an API key for the currently active user. This key can be copied and regenerated as needed. The API key is used to login to the API from the [MAAS CLI](/t/maas-cli/802). Other services connecting to MAAS such as [Juju](https://jujucharms.com/docs/stable/clouds-maas) will also need this key.
+user-accounts-790.md:![change user password](https://assets.ubuntu.com/v1/289ef578-manage-user-accounts__2.4_change-user-password.png)
+user-accounts-790.md:![change user password](https://assets.ubuntu.com/v1/289ef578-manage-user-accounts__2.4_change-user-password.png)
+vm-host-networking-1526.md:![select_interface_for_bridge|690x391](https://discourse.maas.io/uploads/default/optimized/1X/29624d737106c5bad777aee9d2c8cad9c3de7151_2_690x391.jpeg) 
+vm-host-networking-1526.md:![select_interface_for_bridge|690x391](https://discourse.maas.io/uploads/default/optimized/1X/29624d737106c5bad777aee9d2c8cad9c3de7151_2_690x391.jpeg) 
+vm-host-networking-1526.md:![save_bridge|690x393](https://discourse.maas.io/uploads/default/optimized/1X/dd8567ff1cd76606c5ce1751e606fcfab2bc7ce2_2_690x393.jpeg) 
+vm-host-networking-1526.md:![save_bridge|690x393](https://discourse.maas.io/uploads/default/optimized/1X/dd8567ff1cd76606c5ce1751e606fcfab2bc7ce2_2_690x393.jpeg) 
+vm-host-networking-1526.md:![configured_bridge|690x391](https://discourse.maas.io/uploads/default/optimized/1X/e392d638f0acecb9d54c81bbca4ee17cbcd05445_2_690x391.jpeg) 
+vm-host-networking-1526.md:![configured_bridge|690x391](https://discourse.maas.io/uploads/default/optimized/1X/e392d638f0acecb9d54c81bbca4ee17cbcd05445_2_690x391.jpeg) 
+vm-host-networking-1526.md:It is also possible to use [libvirt](https://ubuntu.com/server/docs/virtualization-libvirt) to configure a virtual bridge.  This method will also work for LXD VM hosts running on Ubuntu.  Be aware that other methods may be required if you are configuring LXD on an OS other than Ubuntu.
+vm-host-storage-pools-1525.md:"Storage pools” are storage resources managed by a VM host. A storage pool is a given amount of storage set aside for use by VMs. A pool can be organized into storage volumes, assigned to VMs as individual block devices. More information is available for both [libvirt](https://libvirt.org/storage.html) and [LXD](https://lxd.readthedocs.io/en/latest/storage/) storage pools.
+vm-host-storage-pools-1525.md:![storage-pools|690x183](https://discourse.maas.io/uploads/default/optimized/1X/3387f256f9bd02f7fc2079f119377305256973c8_2_690x183.jpeg)
+vm-host-storage-pools-1525.md:![storage-pools|690x183](https://discourse.maas.io/uploads/default/optimized/1X/3387f256f9bd02f7fc2079f119377305256973c8_2_690x183.jpeg)
+vmware-images-753.md:MAAS 2.5 and above can deploy VMware ESXi as a custom image. MAAS cannot directly deploy the VMware ESXi ISO; you must create a specialised image from an official VMWare ISO. Canonical created a [packer](https://www.packer.io/) template to automate the image creation process.
+vmware-images-753.md:-   [The VMWare ESxi ISO](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
+vmware-images-753.md:-   [Packer - https://www.packer.io/intro/getting-started/install.html](https://www.packer.io/intro/getting-started/install.html)
+vmware-images-753.md:-   <a href="https://github.com/canonical/packer-maas">Packer template</a> for MAAS custom image
+vmware-images-753.md:The image may be customized by modifying packer-maas/vmware-esxi/http/vmware-esxi-ks.cfg see Installation and Upgrade Scripts in the [VMware ESXi installation and Setup manual](https://docs.vmware.com/en/VMware-vSphere/6.7/vsphere-esxi-67-installation-setup-guide.pdf) for more information.
+vmware-images-753.md:VMware has [very specific hardware requirements](https://www.vmware.com/resources/compatibility/search.php). In particular, running VMware ESXi is not supported in a virtual machine or MAAS virsh Pod.
+whats-new-in-2-6-788.md:Welcome to MAAS 2.6, a significant update to [Canonical's](https://www.canonical.com/) *Metal as a Service* - the smartest way to manage bare metal.
+whats-new-in-2-6-788.md:-   [MAAS 2.6.2](https://discourse.maas.io/t/maas-2-6-2-released/1148)
+whats-new-in-2-6-788.md:-   [MAAS 2.6.1](https://discourse.maas.io/t/maas-2-6-1-released/1025)
+whats-new-in-2-6-788.md:-   [MAAS 2.6.0 (final)](https://discourse.maas.io/t/maas-2-6-0-released/724)
+whats-new-in-2-6-788.md:-   [MAAS 2.6.0 RC](https://discourse.maas.io/t/maas-2-6-0-rc-released/598)
+whats-new-in-2-6-788.md:-   [MAAS 2.6.0 beta 4](https://discourse.maas.io/t/maas-2-6-0-beta-4-released/537)
+whats-new-in-2-6-788.md:-   [MAAS 2.6.0 beta 3](https://discourse.maas.io/t/maas-2-6-0-beta-3-released/533)
+whats-new-in-2-6-788.md:-   [MAAS 2.6.0 beta 2](https://discourse.maas.io/t/2-6-0-beta-2-released/523)
+whats-new-in-2-6-788.md:-   [MAAS 2.6.0 beta 1](https://discourse.maas.io/t/2-6-0-beta-1-released/495)
+whats-new-in-2-6-788.md:-   [MAAS 2.6.0 alpha 2](https://discourse.maas.io/t/maas-2-6-0-alpha-2-released/460)
+whats-new-in-2-6-788.md:-   [MAAS 2.6.0 alpha 1](https://discourse.maas.io/t/maas-2-6-0-alpha-1-released/413)
+whats-new-in-maas-2-6-1305.md:If you’re new to MAAS, take a look at [Explore MAAS](https://discourse.maas.io/t/explore-maas/787) to get an overview of its installation and capabilities. If you need a more comprehensive review of the changes in this release, including known issues, workarounds and bug fixes, take a look at the detailed release notes in the following MAAS Discourse topics:
+whats-new-in-maas-2-6-1305.md:* [MAAS 2.6.2](https://discourse.maas.io/t/maas-2-6-2-released/1148)
+whats-new-in-maas-2-6-1305.md:* [MAAS 2.6.1](https://discourse.maas.io/t/maas-2-6-1-released/1025)
+whats-new-in-maas-2-6-1305.md:* [MAAS 2.6.0 (final)](https://discourse.maas.io/t/maas-2-6-0-released/724)
+whats-new-in-maas-2-6-1305.md:* [MAAS 2.6.0 RC](https://discourse.maas.io/t/maas-2-6-0-rc-released/598)
+whats-new-in-maas-2-6-1305.md:* [MAAS 2.6.0 beta 4](https://discourse.maas.io/t/maas-2-6-0-beta-4-released/537)
+whats-new-in-maas-2-6-1305.md:* [MAAS 2.6.0 beta 3](https://discourse.maas.io/t/maas-2-6-0-beta-3-released/533)
+whats-new-in-maas-2-6-1305.md:* [MAAS 2.6.0 beta 2](https://discourse.maas.io/t/2-6-0-beta-2-released/523)
+whats-new-in-maas-2-6-1305.md:* [MAAS 2.6.0 beta 1](https://discourse.maas.io/t/2-6-0-beta-1-released/495)
+whats-new-in-maas-2-6-1305.md:* [MAAS 2.6.0 alpha 2](https://discourse.maas.io/t/maas-2-6-0-alpha-2-released/460)
+whats-new-in-maas-2-6-1305.md:* [MAAS 2.6.0 alpha 1](https://discourse.maas.io/t/maas-2-6-0-alpha-1-released/413)
+whats-new-in-maas-2-7-1306.md:A number of bug fixes (see the [list in Launchpad](https://bugs.launchpad.net/maas/+bugs?field.milestone%3Alist=87757&field.milestone%3Alist=89662&field.milestone%3Alist=89714&field.milestone%3Alist=89840&field.milestone%3Alist=89954&field.milestone%3Alist=89682&field.status%3Alist=FIXRELEASED)).
+whats-new-in-maas-2-8-1655.md:- [How do I install MAAS 2.8 as a snap?](https://discourse.maas.io/t/maas-installation-from-a-snap/773)
+whats-new-in-maas-2-8-1655.md:- [How do I upgrade my MAAS 2.7 snap to a MAAS 2.8 snap?](https://discourse.maas.io/t/maas-installation-from-a-snap/773#heading--upgrade-maas-snap)
+whats-new-in-maas-2-8-1655.md:MAAS 2.8 adds the beta capability to use LXD-based VM hosts and virtual machines (VMs), in addition to the [libvirt](https://ubuntu.com/server/docs/virtualization-libvirt)-based VM hosts/VMs already available.  These new LXD VM hosts use the same underlying technology as libvirt (QEMU). Unlike libvirt KVMs, though, LXD VMs can be managed without requiring SSH access to the VM host. LXD are remotely accessed via secure HTTP transport, which provides better security for LXD-based VMs. In addition, LXD has a better API, and is part of a much larger constellation of enterprise software, offering a wider range of future features and use cases.
+whats-new-in-maas-2-8-1655.md:![new-machine-list|690x357](https://discourse.maas.io/uploads/default/original/1X/b4ec4124225f052fb8646f754c22d287fffcc850.jpeg) 
+whats-new-in-maas-2-8-1655.md:![new-machine-list|690x357](https://discourse.maas.io/uploads/default/original/1X/b4ec4124225f052fb8646f754c22d287fffcc850.jpeg) 
+whats-new-in-maas-2-8-1655.md:Among those other changes are persisting UI state for grouping, new grouping options, bookmarkable URLs with filter and search parameters, and many other performance improvements. If you're interested in more details, see this [blog post](https://ubuntu.com/blog/building-a-cross-framework-ui-with-single-spa-in-maas-2-8).
+whats-new-in-maas-2-8-1655.md:We've also fixed number of bugs (see the [list in Launchpad](https://bugs.launchpad.net/bugs/+bugs?field.milestone%3Alist=89978&field.milestone%3Alist=90576&field.milestone%3Alist=90599&field.milestone%3Alist=90640&field.milestone%3Alist=90645&field.milestone%3Alist=90722&field.milestone%3Alist=91005&field.milestone%3Alist=91123&field.milestone%3Alist=91124&field.milestone%3Alist=91180&field.status%3Alist=FIXRELEASED)).  Notable among these are the following:
+whats-new-in-maas-2-8-1655.md:- [MAAS event table](https://bugs.launchpad.net/maas/+bug/1860619): Power events are now being logged differently to reduce log sizes and improve performance.
+whats-new-in-maas-2-8-1655.md:- [Unprivileged users controlling services](https://bugs.launchpad.net/maas/+bug/1864201): Unprivileged users can no longer start, stop, or restart services via HTTP channels.
+whats-new-in-maas-2-8-1655.md:- [Adding KVMs to snap-installed MAAS](https://bugs.launchpad.net/maas/+bug/1852405): SSH key usage has been updated so that KVMs can now be added to snap-installed MAAS without difficulty.
+whats-new-in-maas-2-8-1655.md:- [Trouble editing physical interfaces in GUI](https://bugs.launchpad.net/maas/+bug/1864241): It is now possible to edit physical interface parameters, when appropriate, from the web UI.
+whats-new-in-maas-2-8-1655.md:- [Subnet pages slow to load](https://bugs.launchpad.net/maas/+bug/1873430): Subnet pages now load more quickly and efficiently.
+whats-new-in-maas-2-8-1655.md:- [Trouble loading multiple MAC addresses](https://bugs.launchpad.net/maas/+bug/1865122): You can now reliably load multiple MAC addresses using the web UI.
+whats-new-in-maas-2-8-1655.md:- [Disabling DNS on regiond subnet breaks DNS](https://bugs.launchpad.net/maas/+bug/1871584): This problem has been resolved.
+whats-new-in-maas-2-8-1655.md:* **Extra power types when adding chassis:** ([see bug report](https://bugs.launchpad.net/maas/+bug/1883743)) When adding a chassis, the "Power type" dropdown will show power types not supported by a chassis.  Selecting one of the non-supported power types will result in the UI blocking the action.  Here is a list of power types supported for chassis creation:
+whats-new-in-maas-2-8-1655.md:* **MAAS keys count in user list is bogus:** ([see bug report](https://bugs.launchpad.net/maas/+bug/1884112)) The count of keys shown in the User list in the UI is wrong.
+writing-guide-747.md:    Refer to [Google](https://www.google.com).
+writing-guide-747.md:which would show up as "Refer to [Google](https://www.google.com)."
+writing-guide-747.md:![web UI showing node view](https://discourse.maas.io/uploads/default/original/1X/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png)
+writing-guide-747.md:![web UI showing node view](https://discourse.maas.io/uploads/default/original/1X/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png)
+writing-guide-747.md:![web UI showing node view](https://discourse.maas.io/uploads/default/original/1X/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png)
+writing-guide-747.md:![web UI showing node view](https://discourse.maas.io/uploads/default/original/1X/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png)

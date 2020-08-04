@@ -99,7 +99,17 @@ As images are constantly updated and refreshed, the backdoor will only ever be t
 
 First, download the cloud image that corresponds to the architecture of your node. The *Images* page of the web UI lists the images currently being cached by MAAS:
 
-![web UI image list](https://assets.ubuntu.com/v1/130aa580-troulbeshoot-faq__2.3_images.png)
+<!-- vanilla
+![web UI image list](../images/130aa580-troulbeshoot-faq__2.3_images.png)
+ vanilla -->
+
+<!-- ui
+![web UI image list](../images/130aa580-troulbeshoot-faq__2.3_images.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 Images can be downloaded from [https://cloud-images.ubuntu.com/daily/server](https://cloud-images.ubuntu.com/daily/server/).
 
@@ -180,7 +190,17 @@ chown maas:maas squashfs
 
 You can now use this image to commission or deploy a node and access the root account with the backdoor password, such as by deploying the same specific image from the web UI to the node you wish to troubleshoot.
 
-![web UI deploy image](https://assets.ubuntu.com/v1/f622d104-troulbeshoot-faq__2.3_deploy.png)
+<!-- vanilla
+![web UI deploy image](../images/f622d104-troulbeshoot-faq__2.3_deploy.png)
+ vanilla -->
+
+<!-- ui
+![web UI deploy image](../images/f622d104-troulbeshoot-faq__2.3_deploy.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 <!-- IMAGES -->
 <!-- LINKS -->

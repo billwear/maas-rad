@@ -1,8 +1,5 @@
 MAAS is **Metal As A Service**, a service that lets you treat physical servers like virtual machines -- instances -- in the cloud.  No need to manage servers individually: MAAS turns your bare metal into an elastic, cloud-like resource.
-<!-- cli
-You can do everything through the MAAS CLI.  No need for a GUI, a browser, or dense Web forms.  We can also link you to a neat python toolset which will give you some command-line shortcuts.
- cli -->
- 
+
 #### Quick questions you might have:
 
 * [What is MAAS -- and what does it really do for me?](/t/about-maas/840)
@@ -11,13 +8,18 @@ You can do everything through the MAAS CLI.  No need for a GUI, a browser, or de
 * [What concepts might I need to understand before starting?](/t/concepts-and-terms/785)
 * [Can I just install it and try it for myself?](/t/explore-maas/787)
 
-<!-- ui
-![splash-screen|690x406](https://discourse.maas.io/uploads/default/optimized/1X/18456dbd3fbfec14eddd044816fd0719692282da_2_690x406.jpeg) 
- ui -->
 <!-- vanilla
-![splash-screen|690x406](https://discourse.maas.io/uploads/default/optimized/1X/18456dbd3fbfec14eddd044816fd0719692282da_2_690x406.jpeg) 
+![splash-screen|690x406](../images/18456dbd3fbfec14eddd044816fd0719692282da.jpeg)
  vanilla -->
- 
+
+<!-- ui
+![splash-screen|690x406](../images/18456dbd3fbfec14eddd044816fd0719692282da.jpeg)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
 *Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre.*
 
 ---

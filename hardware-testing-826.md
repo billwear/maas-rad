@@ -13,13 +13,33 @@ The majority of testing scripts only work with machines that are backed by physi
 
 To launch a test, select the target machine from the 'Machines' page and use the 'Take action' drop-down menu to select 'Test hardware'. When ready, hit the 'Test machine' button. Here, a test is applied to a deployed machine:
 
-![hw test deployed node](https://assets.ubuntu.com/v1/8e876889-nodes-hw-testing__2.4_deployed.png)
+<!-- vanilla
+![hw test deployed node](../images/8e876889-nodes-hw-testing__2.4_deployed.png)
+ vanilla -->
+
+<!-- ui
+![hw test deployed node](../images/8e876889-nodes-hw-testing__2.4_deployed.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 There is the option of not powering off the machine and to allow SSH access.
 
 A default test will be selected (`smartctl-validate`, a hard drive test) but you can choose others by clicking the 'Select scripts' label. Doing so will reveal the following choices:
 
-![hw test deployed node choices](https://assets.ubuntu.com/v1/ccfefe25-nodes-hw-testing__2.4_deployed-choices.png)
+<!-- vanilla
+![hw test deployed node choices](../images/ccfefe25-nodes-hw-testing__2.4_deployed-choices.png)
+ vanilla -->
+
+<!-- ui
+![hw test deployed node choices](../images/ccfefe25-nodes-hw-testing__2.4_deployed-choices.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 <h2 id="heading--included-scripts">Scripts available for testing</h2>
 

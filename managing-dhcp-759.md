@@ -28,7 +28,17 @@ To enable MAAS-managed DHCP, under the 'Subnets' page select the desired VLAN an
 3.  Create a reserved, dynamic IP range. Fill in the fields 'Dynamic range start IP' and 'Dynamic range end IP'.
 4.  Apply your changes with the 'Provide DHCP' button.
 
-![Enable DHCP](https://discourse.maas.io/uploads/default/optimized/1X/6727ac9a78a11e0ec602a5cb646a5776eff67677_2_690x431.png)
+<!-- vanilla
+![Enable DHCP](../images/6727ac9a78a11e0ec602a5cb646a5776eff67677_2_690x431.png)
+ vanilla -->
+
+<!-- ui
+![Enable DHCP](../images/6727ac9a78a11e0ec602a5cb646a5776eff67677_2_690x431.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 Now, addresses in this range will get assigned to machines that are being either enlisted or commissioned.  In addition, if you are deploying a machine that has an interface connected to the untagged VLAN, and it has an IP assignment mode set to 'DHCP,' then it will also get an address in this range.
 
@@ -60,7 +70,20 @@ To relay from one VLAN (source) to another VLAN (target):
 
 2.  Set up the external relay. This relay is set up independently from MAAS. See [DHCP relay](/t/concepts-and-terms/785#heading--dhcp-relay) for software suggestions.
 
-3.  Configure MAAS-managed DHCP. Navigate to the source VLAN page and select the 'Relay DHCP' action. Fill in the fields in the resulting form. The crucial setting is the target VLAN ('Relay VLAN'). Press the 'Relay DHCP' button to finish. See [MAAS CLI](/t/cli-advanced-tasks/793#heading--relay-dhcp) for how to do this with the CLI.
+<!-- vanilla
+3.  Configure MAAS-managed DHCP. Navigate to the source VLAN page and select the 'Relay DHCP' action. Fill in the fields in the resulting form. The crucial setting is the target VLAN ('Relay VLAN'). Press the 'Relay DHCP' button to finish.
+
+### IMPORT TEXT FROM [MAAS CLI](/t/cli-advanced-tasks/793#heading--relay-dhcp) for how to do this with the CLI.
+ vanilla -->
+
+<!-- ui
+3.  Configure MAAS-managed DHCP. Navigate to the source VLAN page and select the 'Relay DHCP' action. Fill in the fields in the resulting form. The crucial setting is the target VLAN ('Relay VLAN'). Press the 'Relay DHCP' button to finish.
+ ui -->
+
+<!-- cli
+3. Here's how you do this with the cli...
+### IMPORT TEXT FROM [MAAS CLI](/t/cli-advanced-tasks/793#heading--relay-dhcp) for how to do this with the CLI.
+ cli -->
 
 <h2 id="heading--dhcp-snippets">DHCP Snippets</h2>
 
@@ -70,10 +93,27 @@ When MAAS manages DHCP, you customise it through the use of DHCP snippets. These
 Modifications made directly to `dhcpd.conf.template` or `dhcpd6.conf.template` are not supported.
 [/note]
 
+<!-- vanilla
 To manage snippets, as an admin, open the 'Settings' page and click on the 'DHCP snippets' tab.
 
 For example, to create a new snippet press 'Add custom snippet'. In the resulting window, choose a name and type for it and enter its associated DHCP configuration. Click 'Save snippet' to apply the change, and make sure to activate the checkbox in the 'Enabled' column of the snippets list.
 
-![Manage DHCP snippets](https://discourse.maas.io/uploads/default/optimized/1X/a3247c726ed9e3e5d7a99becd89920e81aaa86f7_2_690x259.png)
+![Manage DHCP snippets](../images/a3247c726ed9e3e5d7a99becd89920e81aaa86f7_2_690x259.png)
 
-See [MAAS CLI](/t/cli-dhcp-snippet-management/796) for doing this with the CLI.
+bring in text from [MAAS CLI](/t/cli-dhcp-snippet-management/796) for doing this with the CLI.
+
+ vanilla -->
+
+<!-- ui
+To manage snippets, as an admin, open the 'Settings' page and click on the 'DHCP snippets' tab.
+
+For example, to create a new snippet press 'Add custom snippet'. In the resulting window, choose a name and type for it and enter its associated DHCP configuration. Click 'Save snippet' to apply the change, and make sure to activate the checkbox in the 'Enabled' column of the snippets list.
+
+![Manage DHCP snippets](../images/a3247c726ed9e3e5d7a99becd89920e81aaa86f7_2_690x259.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+bring in text from [MAAS CLI](/t/cli-dhcp-snippet-management/796) for doing this with the CLI.
+cli -->
+
