@@ -60,4 +60,3 @@ response = perform_API_request(
      "consumer_key>")
 ```
 
-<!-- LINKS -->

@@ -28,7 +28,17 @@ If you are enabling DHCP for the first time after adding a second rack controlle
 
 Access the appropriate VLAN (via the 'Subnets' page) and choose action 'Reconfigure DHCP'. There, you will see the second rack controller in the 'Secondary controller' field. All you should have to do is press the 'Reconfigure DHCP' button:
 
-![reconfigure DHCP](https://assets.ubuntu.com/v1/c3d1e0c1-manage-ha__2.6-ha-dhcp.png)
+<!-- vanilla
+![reconfigure DHCP](images/c3d1e0c1-manage-ha__2.6-ha-dhcp.png)
+ vanilla -->
+
+<!-- ui
+![reconfigure DHCP](images/c3d1e0c1-manage-ha__2.6-ha-dhcp.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 <h3 id="heading--multiple-region-endpoints">Configure multiple region endpoints</h3>
 
@@ -119,7 +129,7 @@ The configuration of region controller HA is now complete.
 Setting up high-availability using snaps is relatively easy. To use snaps instead of a package distribution of MAAS:
 
 1.  Set up PostgreSQL for high-availability as [explained above](/t/high-availability/804#heading--postgresql-ha). PostgreSQL should run outside of the snap.
-2.  [Install](/t/maas-installation-from-a-snap/773#heading--install-from-snap) the MAAS snap on each machine you intend to use as a rack or region controller. You'll need the MAAS shared secret, located here, `/var/lib/maas/secret`, on the first region controller you set up.
+2.  [Install](/t/maas-installation-from-a-snap/773#heading--install-from-snap) the MAAS snap on each machine you intend to use as a rack or region controller. You'll need the MAAS shared secret, located here, `/var/snap/maas/common/maas/secret`, on the first region controller you set up.
 3.  [Initialise the snap](/t/maas-installation-from-a-snap/773#heading--initialisation) as a `rack` or `region` controller. Note that if you intend to use a machine as a region controller, you'll need to tell MAAS how to access your PostgreSQL database host with the following arguments:
     -   `--database-host DATABASE_HOST`
     -   `--database-name DATABASE_NAME`

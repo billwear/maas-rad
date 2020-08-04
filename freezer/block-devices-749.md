@@ -10,6 +10,7 @@ A virtual block device is a block device that is exposed by the Linux kernel whe
 
 <h3 id="heading--list-block-devices">List Block Devices</h3>
 
+<!-- vanilla
 To view all block devices on a machine use the read operation. This list both physical and virtual block devices, as you can see in the output from the following command:
 
 ``` bash
@@ -90,6 +91,98 @@ Machine-readable output follows:
     }
 ]
 ```
+
+### CREATE A GOOD UI EXPLANATION FROM THE STORAGE TAB
+
+vanilla -->
+
+<!-- ui
+### CREATE A GOOD UI EXPLANATION FROM THE STORAGE TAB
+-->
+
+<!-- cli
+To view all block devices on a machine use the read operation. This list both physical and virtual block devices, as you can see in the output from the following command:
+
+``` bash
+maas admin block-devices read <node-id>
+```
+
+Output:
+
+``` nohighlight
+Success.
+Machine-readable output follows:
+[
+    {
+        "id": 10,
+        "path": "/dev/disk/by-dname/vda",
+        "serial": "",
+        "block_size": 4096,
+        "available_size": 0,
+        "resource_uri": "/MAAS/api/2.0/nodes/4y3h8a/blockdevices/10/",
+        "filesystem": null,
+        "id_path": "/dev/vda",
+        "size": 5368709120,
+        "partition_table_type": "MBR",
+        "model": "",
+        "type": "physical",
+        "uuid": null,
+        "used_size": 5365563392,
+        "used_for": "MBR partitioned with 1 partition",
+        "partitions": [
+            {
+                "bootable": false,
+                "id": 9,
+                "resource_uri":"/MAAS/api/2.0/nodes/4y3h8a/blockdevices/10/partition/9",
+                "path": "/dev/disk/by-dname/vda-part1",
+                "uuid": "aae082cd-8be0-4a64-ab49-e998abd6ea43",
+                "used_for": "LVM volume for vgroot",
+                "size": 5360320512,
+                "type": "partition",
+                "filesystem": {
+                    "uuid": "a56ebfa6-8ef4-48b5-b6bc-9f9d27065d24",
+                    "mount_options": null,
+                    "label": null,
+                    "fstype": "lvm-pv",
+                    "mount_point": null
+                }
+            }
+        ],
+        "tags": [
+            "rotary"
+        ],
+        "name": "vda"
+    },
+    {
+        "id": 11,
+        "path": "/dev/disk/by-dname/lvroot",
+        "serial": null,
+        "block_size": 4096,
+        "available_size": 0,
+        "resource_uri": "/MAAS/api/2.0/nodes/4y3h8a/blockdevices/11/",
+        "filesystem": {
+            "uuid": "7181a0c0-9e16-4276-8a55-c77364d137ca",
+            "mount_options": null,
+            "label": "root",
+            "fstype": "ext4",
+            "mount_point": "/"
+        },
+        "id_path": null,
+        "size": 3221225472,
+        "partition_table_type": null,
+        "model": null,
+        "type": "virtual",
+        "uuid": "fc8ba89e-9149-412c-bcea-e596eb7c0d14",
+        "used_size": 3221225472,
+        "used_for": "ext4 formatted filesystem mounted at /",
+        "partitions": [],
+        "tags": [],
+        "name": "vgroot-lvroot"
+    }
+]
+```
+ cli -->
+ 
 
 <h3 id="heading--read-block-device">Read Block Device</h3>
 

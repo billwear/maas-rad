@@ -17,3 +17,8 @@ cp image-pull.sh images
 cd images
 chmod 777 image-pull.sh
 ./image-pull.sh
+cd ..
+sed -i 's/https:\/\/discourse.maas.io\/uploads\/default\/optimized\/1X/..\/images/g' *.md
+sed -i 's/https:\/\/discourse.maas.io\/uploads\/default\/original\/1X/..\/images/g' *.md
+sed -i 's/upload:\/\//..\/images/g' *.md
+sed -i 's/https:\/\/assets.ubuntu.com\/v1/..\/images/g' *.md

@@ -56,7 +56,6 @@ TARGET_DEPS += maas-communication-783.html
 TARGET_DEPS += maas-documentation-25.html
 TARGET_DEPS += maas-image-builder-1112.html
 TARGET_DEPS += maas-installation-from-a-snap-773.html
-TARGET_DEPS += maas-installation-from-iso-756.html
 TARGET_DEPS += maas-installation-from-packages-769.html
 TARGET_DEPS += maas-logging-1468.html
 TARGET_DEPS += maas-requirements-789.html

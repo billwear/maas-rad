@@ -146,7 +146,23 @@ Layouts can be set globally and on a per-machine basis.
 
 All machines will have a default layout applied when commissioned. An administrator can configure the default layout on the 'Settings' page, under the 'Storage' tab.
 
-![default storage layout](https://discourse.maas.io/uploads/default/original/1X/80de3bc701552cd00bec707830accf380c214b17.png)
+<!-- vanilla
+![default storage layout](images/80de3bc701552cd00bec707830accf380c214b17.png)
+ vanilla -->
+
+<!-- ui
+![default storage layout](images/80de3bc701552cd00bec707830accf380c214b17.png)
+ ui -->
+
+<!-- vanilla
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+To change the default with the CLI see [MAAS CLI - advanced tasks](/t/cli-advanced-tasks/793#heading--set-the-default-storage-layout).
+ vanilla -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+To change the default with the CLI see [MAAS CLI - advanced tasks](/t/cli-advanced-tasks/793#heading--set-the-default-storage-layout).
+ cli -->
 
 See [Disk erasure](/t/disk-erasure/774) for an explanation of the options related to the erasing of disks.
 
@@ -154,7 +170,19 @@ See [Disk erasure](/t/disk-erasure/774) for an explanation of the options relate
 The new default will only apply to newly-commissioned machines.
 [/note]
 
-To change the default with the CLI see [MAAS CLI - advanced tasks](/t/cli-advanced-tasks/793#heading--set-the-default-storage-layout).
+<!-- vanilla
+
+<h3 id="heading--node-layout">Machine layout</h3>
+
+An administrator can change the layout for a single machine as well as customise that layout providing this is done while the machine has a status of 'Ready'. This is only possible via the CLI at this time (see [MAAS CLI - advanced tasks](/t/cli-advanced-tasks/793#heading--set-a-storage-layout)).
+
+
+[note]
+Only an administrator can modify storage at the block device level (providing the machine has a status of 'Ready').
+[/note]
+ vanilla -->
+
+<!-- cli
 
 <h3 id="heading--node-layout">Machine layout</h3>
 
@@ -163,6 +191,7 @@ An administrator can change the layout for a single machine as well as customise
 [note]
 Only an administrator can modify storage at the block device level (providing the machine has a status of 'Ready').
 [/note]
+ cli -->
 
 <h2 id="heading--final-storage-modifications">Final storage modifications</h2>
 
@@ -172,4 +201,3 @@ Once MAAS provisions a machine with block devices, via a layout or administrator
 
 You can erase machine storage in several ways. See [Disk erasure](/t/disk-erasure/774) for details.
 
-<!-- LINKS -->

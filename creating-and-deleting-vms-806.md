@@ -17,11 +17,11 @@ If you have created a VM host, you will want to create and delete virtual machin
 While on VM host's details view, select 'Compose' from the 'Take action' drop-down menu to compose a machine.
 
 <!-- vanilla
-![compose-machine|690x276](images/937726bb839eefb28e9297e8f97bd48556c1014c_2_690x276.jpeg) 
+![compose-machine|690x276](../images/937726bb839eefb28e9297e8f97bd48556c1014c_2_690x276.jpeg) 
  vanilla -->
 
 <!-- ui
-![compose-machine|690x276](images/937726bb839eefb28e9297e8f97bd48556c1014c_2_690x276.jpeg) 
+![compose-machine|690x276](../images/937726bb839eefb28e9297e8f97bd48556c1014c_2_690x276.jpeg) 
  ui -->
 
 <!-- cli
@@ -35,11 +35,11 @@ Click the 'Compose machine' button when you're finished. MAAS will present the V
 MAAS will deduct the new machine's resources from the VM host's resources:
 
 <!-- vanilla
-![deduct-storage|690x359](images/3b621ab0e7b4f6a86963d2b7c50b677b815956ab_2_690x359.jpeg) 
+![deduct-storage|690x359](../images/3b621ab0e7b4f6a86963d2b7c50b677b815956ab_2_690x359.jpeg) 
  vanilla -->
 
 <!-- ui
-![deduct-storage|690x359](images/3b621ab0e7b4f6a86963d2b7c50b677b815956ab_2_690x359.jpeg) 
+![deduct-storage|690x359](../images/3b621ab0e7b4f6a86963d2b7c50b677b815956ab_2_690x359.jpeg) 
  ui -->
 
 <!-- cli
@@ -188,7 +188,7 @@ Example output:
 
 To delete a VM, delete it as you would any other MAAS machine. Select the desired machine from the list of machines and select 'Delete' from the 'Take Action' menu.
 
-![delete-vm|690x400](images/34d3f5fcd8a86bfa827bab5383209ea9ca117f50_2_690x400.jpeg) 
+![delete-vm|690x400](../images/34d3f5fcd8a86bfa827bab5383209ea9ca117f50_2_690x400.jpeg) 
  vanilla -->
 
 <!-- ui
@@ -196,7 +196,7 @@ To delete a VM, delete it as you would any other MAAS machine. Select the desire
 
 To delete a VM, delete it as you would any other MAAS machine. Select the desired machine from the list of machines and select 'Delete' from the 'Take Action' menu.
 
-![delete-vm|690x400](images/34d3f5fcd8a86bfa827bab5383209ea9ca117f50_2_690x400.jpeg) 
+![delete-vm|690x400](../images/34d3f5fcd8a86bfa827bab5383209ea9ca117f50_2_690x400.jpeg) 
  ui -->
 
 <!-- vanilla
