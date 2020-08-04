@@ -15,13 +15,13 @@ A newly installed MAAS comes with a default zone which initially contains all no
 <!-- vanilla
 To create a zone, navigate to the 'AZs' page of the web UI and use the 'Add AZ' button. Enter a name for the zone and click 'Add AZ'.
 
-![add zone](https://assets.ubuntu.com/v1/f4032f39-manage-zones__2.4_add-zone.png)
+![add zone](images/f4032f39-manage-zones__2.4_add-zone.png)
  vanilla -->
 
 <!-- ui
 To create a zone, navigate to the 'AZs' page of the web UI and use the 'Add AZ' button. Enter a name for the zone and click 'Add AZ'.
 
-![add zone](https://assets.ubuntu.com/v1/f4032f39-manage-zones__2.4_add-zone.png)
+![add zone](images/f4032f39-manage-zones__2.4_add-zone.png)
  ui -->
 
 <!-- cli

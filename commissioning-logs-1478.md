@@ -3,11 +3,11 @@ Commissioning logs, which are presented on the "Commissioning" tab for any machi
 When you click on the "Commissioning" tab under a given machine, you will see a screen similar to this one:
 
 <!-- vanilla
-![commissioning-log|690x445](https://discourse.maas.io/uploads/default/optimized/1X/f2e52a4bf55b37e5ff63e7d1fab1aac32aebc48c_2_690x445.jpeg) 
+![commissioning-log|690x445](images/f2e52a4bf55b37e5ff63e7d1fab1aac32aebc48c_2_690x445.jpeg) 
  vanilla -->
 
 <!-- ui
-![commissioning-log|690x445](https://discourse.maas.io/uploads/default/optimized/1X/f2e52a4bf55b37e5ff63e7d1fab1aac32aebc48c_2_690x445.jpeg) 
+![commissioning-log|690x445](images/f2e52a4bf55b37e5ff63e7d1fab1aac32aebc48c_2_690x445.jpeg) 
  ui -->
 
 <!-- cli

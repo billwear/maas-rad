@@ -21,11 +21,11 @@ When you choose either of those two options, a window will appear allowing you t
 Below is an example window when creating a 'reserved range' (the windows are identical):
 
 <!-- vanilla
-![reserved IP range](https://assets.ubuntu.com/v1/be85b7d6-installconfig-network-ipranges__2.4_add-reserved-iprange.png)
+![reserved IP range](images/be85b7d6-installconfig-network-ipranges__2.4_add-reserved-iprange.png)
  vanilla -->
 
 <!-- ui
-![reserved IP range](https://assets.ubuntu.com/v1/be85b7d6-installconfig-network-ipranges__2.4_add-reserved-iprange.png)
+![reserved IP range](images/be85b7d6-installconfig-network-ipranges__2.4_add-reserved-iprange.png)
  ui -->
 
 <!-- cli

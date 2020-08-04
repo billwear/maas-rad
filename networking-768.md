@@ -5,11 +5,11 @@ You can use the Web UI to manage the networking elements of MAAS, including subn
 To access the main networking view visit the 'Subnets' page:
 
 <!-- vanilla
-![subnets page](https://assets.ubuntu.com/v1/657bb332-installconfig-networking__2.4_subnets.png)
+![subnets page](images/657bb332-installconfig-networking__2.4_subnets.png)
  vanilla -->
 
 <!-- ui
-![subnets page](https://assets.ubuntu.com/v1/657bb332-installconfig-networking__2.4_subnets.png)
+![subnets page](images/657bb332-installconfig-networking__2.4_subnets.png)
  ui -->
 
 <!-- cli
@@ -31,11 +31,11 @@ Clicking a subnet (here `192.168.100.0/24`) will display its detail screen, whic
 The **Subnet summary** section is the largest and most complex of the subnet configuration screens:
 
 <!-- vanilla
-![networking subnets page summary](https://assets.ubuntu.com/v1/17617b35-installconfig-networking__2.4_subnets-summary.png)
+![networking subnets page summary](images/17617b35-installconfig-networking__2.4_subnets-summary.png)
  vanilla -->
 
 <!-- ui
-![networking subnets page summary](https://assets.ubuntu.com/v1/17617b35-installconfig-networking__2.4_subnets-summary.png)
+![networking subnets page summary](images/17617b35-installconfig-networking__2.4_subnets-summary.png)
  ui -->
 
 <!-- cli
@@ -73,11 +73,11 @@ This screen presents the following configurable options:
 This section of the subnet page presents metrics regarding address usage by this subnet.
 
 <!-- vanilla
-![networking subnets utilisation](https://assets.ubuntu.com/v1/3d3e4b61-installconfig-networking__2.4_subnets-utilisation.png)
+![networking subnets utilisation](images/3d3e4b61-installconfig-networking__2.4_subnets-utilisation.png)
  vanilla -->
 
 <!-- ui
-![networking subnets utilisation](https://assets.ubuntu.com/v1/3d3e4b61-installconfig-networking__2.4_subnets-utilisation.png)
+![networking subnets utilisation](images/3d3e4b61-installconfig-networking__2.4_subnets-utilisation.png)
  ui -->
 
 <!-- cli
@@ -93,11 +93,11 @@ This section can be used to define a static route between two subnets. A route i
 To create a static route, click the 'Add static route' button to reveal the edit pane. Enter a Gateway IP address, select a destination subnet from the 'Destination' drop-down list, and edit the routing metric value if needed. Clicking 'Add' will activate the route. Routes can be edited and removed using the icons to the right of each entry.
 
 <!-- vanilla
-![networking static routes configuration](https://assets.ubuntu.com/v1/49f5e240-installconfig-networking__2.4_subnets-routes.png)
+![networking static routes configuration](images/49f5e240-installconfig-networking__2.4_subnets-routes.png)
  vanilla -->
 
 <!-- ui
-![networking static routes configuration](https://assets.ubuntu.com/v1/49f5e240-installconfig-networking__2.4_subnets-routes.png)
+![networking static routes configuration](images/49f5e240-installconfig-networking__2.4_subnets-routes.png)
  ui -->
 
 <!-- cli
@@ -109,11 +109,11 @@ To create a static route, click the 'Add static route' button to reveal the edit
 The reserved ranges section of the subnet screen looks like this:
 
 <!-- vanilla
-![networking subnets reserved](https://assets.ubuntu.com/v1/5f9f50f9-installconfig-networking__2.4_subnets-reserved.png)
+![networking subnets reserved](images/5f9f50f9-installconfig-networking__2.4_subnets-reserved.png)
  vanilla -->
 
 <!-- ui
-![networking subnets reserved](https://assets.ubuntu.com/v1/5f9f50f9-installconfig-networking__2.4_subnets-reserved.png)
+![networking subnets reserved](images/5f9f50f9-installconfig-networking__2.4_subnets-reserved.png)
  ui -->
 
 <!-- cli
@@ -127,11 +127,11 @@ This subject is treated separately in [IP ranges](/t/ip-ranges/760).
 This section displays hosts (including controllers) associated with the used addresses along with related bits of host information.
 
 <!-- vanilla
-![networking subnets used](https://assets.ubuntu.com/v1/b9e69b0b-installconfig-networking__2.4_subnets-used.png)
+![networking subnets used](images/b9e69b0b-installconfig-networking__2.4_subnets-used.png)
  vanilla -->
 
 <!-- ui
-![networking subnets used](https://assets.ubuntu.com/v1/b9e69b0b-installconfig-networking__2.4_subnets-used.png)
+![networking subnets used](images/b9e69b0b-installconfig-networking__2.4_subnets-used.png)
  ui -->
 
 <!-- cli

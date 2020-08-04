@@ -29,11 +29,11 @@ To enable MAAS-managed DHCP, under the 'Subnets' page select the desired VLAN an
 4.  Apply your changes with the 'Provide DHCP' button.
 
 <!-- vanilla
-![Enable DHCP](https://discourse.maas.io/uploads/default/optimized/1X/6727ac9a78a11e0ec602a5cb646a5776eff67677_2_690x431.png)
+![Enable DHCP](images/6727ac9a78a11e0ec602a5cb646a5776eff67677_2_690x431.png)
  vanilla -->
 
 <!-- ui
-![Enable DHCP](https://discourse.maas.io/uploads/default/optimized/1X/6727ac9a78a11e0ec602a5cb646a5776eff67677_2_690x431.png)
+![Enable DHCP](images/6727ac9a78a11e0ec602a5cb646a5776eff67677_2_690x431.png)
  ui -->
 
 <!-- cli
@@ -98,7 +98,7 @@ To manage snippets, as an admin, open the 'Settings' page and click on the 'DHCP
 
 For example, to create a new snippet press 'Add custom snippet'. In the resulting window, choose a name and type for it and enter its associated DHCP configuration. Click 'Save snippet' to apply the change, and make sure to activate the checkbox in the 'Enabled' column of the snippets list.
 
-![Manage DHCP snippets](https://discourse.maas.io/uploads/default/optimized/1X/a3247c726ed9e3e5d7a99becd89920e81aaa86f7_2_690x259.png)
+![Manage DHCP snippets](images/a3247c726ed9e3e5d7a99becd89920e81aaa86f7_2_690x259.png)
 
 bring in text from [MAAS CLI](/t/cli-dhcp-snippet-management/796) for doing this with the CLI.
 
@@ -109,7 +109,7 @@ To manage snippets, as an admin, open the 'Settings' page and click on the 'DHCP
 
 For example, to create a new snippet press 'Add custom snippet'. In the resulting window, choose a name and type for it and enter its associated DHCP configuration. Click 'Save snippet' to apply the change, and make sure to activate the checkbox in the 'Enabled' column of the snippets list.
 
-![Manage DHCP snippets](https://discourse.maas.io/uploads/default/optimized/1X/a3247c726ed9e3e5d7a99becd89920e81aaa86f7_2_690x259.png)
+![Manage DHCP snippets](images/a3247c726ed9e3e5d7a99becd89920e81aaa86f7_2_690x259.png)
  ui -->
 
 <!-- cli

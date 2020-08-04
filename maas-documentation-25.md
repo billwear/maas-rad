@@ -9,11 +9,11 @@ MAAS is **Metal As A Service**, a service that lets you treat physical servers l
 * [Can I just install it and try it for myself?](/t/explore-maas/787)
 
 <!-- vanilla
-![splash-screen|690x406](https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg)
+![splash-screen|690x406](images/18456dbd3fbfec14eddd044816fd0719692282da.jpeg)
  vanilla -->
 
 <!-- ui
-![splash-screen|690x406](https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg)
+![splash-screen|690x406](images/18456dbd3fbfec14eddd044816fd0719692282da.jpeg)
  ui -->
 
 <!-- cli

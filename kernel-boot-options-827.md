@@ -10,11 +10,11 @@ MAAS can specify kernel boot options to machines on both a global basis and a pe
 To set kernel boot options globally, as an admin, open the 'Settings' page and on the 'General' tab scroll down to the 'Global Kernel Parameters' section:
 
 <!-- vanilla
-![global kernel options](https://assets.ubuntu.com/v1/8b793b6d-nodes-kernel-options__2.2_global.png)
+![global kernel options](images/8b793b6d-nodes-kernel-options__2.2_global.png)
  vanilla -->
 
 <!-- ui
-![global kernel options](https://assets.ubuntu.com/v1/8b793b6d-nodes-kernel-options__2.2_global.png)
+![global kernel options](images/8b793b6d-nodes-kernel-options__2.2_global.png)
  ui -->
 
 <!-- cli

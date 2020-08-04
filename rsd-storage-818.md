@@ -4,11 +4,11 @@
 MAAS auto-detects configured local and remote (iSCSI) RSD storage when you [add an RSD host](/t/add-an-rsd-host/815) and shows available storage, similar to what is shown below:
 
 <!-- vanilla
-![rsdresources](https://assets.ubuntu.com/v1/46e17163-manage-rsd-storage__2.5__intel-rsd-storage.png)
+![rsdresources](images/46e17163-manage-rsd-storage__2.5__intel-rsd-storage.png)
  vanilla -->
 
 <!-- ui
-![rsdresources](https://assets.ubuntu.com/v1/46e17163-manage-rsd-storage__2.5__intel-rsd-storage.png)
+![rsdresources](images/46e17163-manage-rsd-storage__2.5__intel-rsd-storage.png)
  ui -->
 
 <!-- cli

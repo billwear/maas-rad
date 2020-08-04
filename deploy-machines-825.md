@@ -49,11 +49,11 @@ Before deploying, you should:
 To deploy directly from MAAS, select one or more machine(s) and press the 'Deploy' button.
 
 <!-- vanilla
-![deploy](https://assets.ubuntu.com/v1/56958753-nodes-deploy__2.4_deploy.png)
+![deploy](images/56958753-nodes-deploy__2.4_deploy.png)
  vanilla -->
 
 <!-- ui
-![deploy](https://assets.ubuntu.com/v1/56958753-nodes-deploy__2.4_deploy.png)
+![deploy](images/56958753-nodes-deploy__2.4_deploy.png)
  ui -->
 
 <!-- cli
@@ -63,11 +63,11 @@ To deploy directly from MAAS, select one or more machine(s) and press the 'Deplo
 You then have the option of deviating from the default OS, release, and kernel. When ready, press 'Deploy X machine(s)' (where 'X' is the number of machines selected).
 
 <!-- vanilla
-![confirm deploy](https://assets.ubuntu.com/v1/d65b9884-nodes-deploy__2.6-deploy-confirm.png)
+![confirm deploy](images/d65b9884-nodes-deploy__2.6-deploy-confirm.png)
  vanilla -->
 
 <!-- ui
-![confirm deploy](https://assets.ubuntu.com/v1/d65b9884-nodes-deploy__2.6-deploy-confirm.png)
+![confirm deploy](images/d65b9884-nodes-deploy__2.6-deploy-confirm.png)
  ui -->
 
 <!-- cli
