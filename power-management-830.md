@@ -11,11 +11,11 @@ To manage a machine, MAAS must be able to power cycle it, usually through the ma
 To configure a machine's power type, click on the machine from the 'Machines' page of the web UI, then select its 'Configuration' tab. Scroll down until you find the Power configuration. If the power type is undefined, the following will be displayed:
 
 <!-- vanilla
-![power types undefined](../images/4fae5977-nodes-power-types__2.4_undefined.png)
+![power types undefined|690x46](../images/4fae5977-nodes-power-types__2.4_undefined.png)
  vanilla -->
 
 <!-- ui
-![power types undefined](../images/4fae5977-nodes-power-types__2.4_undefined.png)
+![power types undefined|690x46](../images/4fae5977-nodes-power-types__2.4_undefined.png)
  ui -->
 
 <!-- cli
@@ -41,11 +41,11 @@ Fill in the resulting form; the information required will depends on the power t
 Click 'Save changes' to finish. Once that's done, MAAS performs a power check on the machine. A successful power check is a good indication that MAAS can properly communicate with the machine, that is, it should quickly result in a power status of "Power off". A failed attempt will show:
 
 <!-- vanilla
-![power types power error](../images/3bd5e93b-nodes-power-types__2.4_power-error.png)
+![power types power error|690x108](../images/3bd5e93b-nodes-power-types__2.4_power-error.png)
  vanilla -->
 
 <!-- ui
-![power types power error](../images/3bd5e93b-nodes-power-types__2.4_power-error.png)
+![power types power error|690x108](../images/3bd5e93b-nodes-power-types__2.4_power-error.png)
  ui -->
 
 <!-- cli

@@ -1,173 +1,250 @@
-MAAS is an open-source tool that lets you build a data centre from bare-metal servers. You can discover, commission, deploy, and dynamically reconfigure a large network of individual units.  MAAS converts your hardware investment into a cohesive, flexible, distributed data centre, with a minimum of time and effort.
+To manage a machine, MAAS must be able to power cycle it, usually through the machine's [BMC](https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface#Baseboard_management_controller) card.  Until you configure the power type, a newly-added machine can't be enlisted and used by MAAS.
 
-#### Quick questions you might have:
+#### Quick questions you may have:
 
-* [What is MAAS?](#heading--about-maas)
-* [What does MAAS offer me?](/t/about-maas/840#heading--what-maas-offers)
-* [Can MAAS colocate key components to conserve my resources?](/t/about-maas/840#heading--colocation-of-key-components)
-* [How does MAAS work?](/t/about-maas/840#heading--how-maas-works)
+* [How do I configure a machine's power type?](/t/power-management/830#heading--config-power-type)
+* [Can you give me an example of the virsh power type?](/t/power-management/830#heading--example-virsh-kvm-power-type)
+* [Which BMC drivers are supported?](/t/power-management/830#heading--bmc-driver-support)
 
-<h2 id="heading--about-maas">What is MAAS?</h2>
+<h2 id="heading--config-power-type">Configure a machine's power type</h2>
 
-MAAS expands to "Metal As A Service". It converts bare-metal servers into cloud instances of virtual machines. There is no need to manage individual units. You can quickly provision or destroy machines, as if they were instances hosted in a public cloud like Amazon AWS, Google GCE, or Microsoft Azure.
-
-MAAS can act as a standalone PXE/preseed service or integrate with other technologies. It works exceptionally well with [Juju](https://jaas.ai/docs/maas-cloud), the service and model management tool. MAAS manages the machines and Juju manages the services running on those machines -- a perfect arrangement.  Virtual machines (VMs) can even act as MAAS machines if they boot from the network via PXE.
+To configure a machine's power type, click on the machine from the 'Machines' page of the web UI, then select its 'Configuration' tab. Scroll down until you find the Power configuration. If the power type is undefined, the following will be displayed:
 
 <!-- vanilla
-![deploying|690x385](../images/d19eff9ef45c554d085ee1d657e4ddd810eac6df.jpeg)  
+![power types undefined|690x46](../images/4fae5977-nodes-power-types__2.4_undefined.png)
  vanilla -->
 
 <!-- ui
-![deploying|690x385](../images/d19eff9ef45c554d085ee1d657e4ddd810eac6df.jpeg)  
+![power types undefined|690x46](../images/4fae5977-nodes-power-types__2.4_undefined.png)
  ui -->
 
 <!-- cli
 ### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
  cli -->
 
-zorkDzorkSTell me about PXE bootingzorkSC
-
-PXE stands for "Preboot Execution Environment," usually pronounced "pixie."  The term refers to a way of booting an OS image (or other software assembly) downloaded to a client via a NIC.  The NIC must be PXE-capable for this to work.  Many NICs can be configured to support PXE boot with a software switch.
-
-zorkDC
-
-<h2 id="heading--what-maas-offers">What MAAS offers</h2>
-
-MAAS can manage a large number of physical machines by merging them into user-defined resource pools. MAAS automatically provisions participating machines and makes them available for use. You can return unused machines to the assigned pool at any time. 
+Choose a type in the dropdown menu that corresponds to the machine's underlying machine's BMC card.
 
 <!-- vanilla
-MAAS integrates all the tools you need into a smooth system-management experience.
- In addition to full API/CLI support, and a web UI that is optimised for mobile devices, it includes:
+![power types selection](../images/b53c6613-nodes-power-types__2.4_selection.png)
  vanilla -->
 
 <!-- ui
-MAAS integrates all the tools you need into a smooth system-management experience.
- In addition to a web UI that is optimised for mobile devices, it includes:
- ui -->
-
-<!-- cli
-MAAS integrates all the tools you need into a smooth system-management experience.
- In addtion to full API/CLI support, it includes:
- cli -->
-
-
-- Ubuntu, CentOS, Windows, and RHEL installation support
-- open-source IP address management (IPAM)
-- high availability (optional)
-- IPv6 support
-- inventory of components
-- DHCP and DNS for other devices on the network
-- DHCP relay integration
-- VLAN and fabric support
-- NTP for the entire infrastructure
-- hardware testing
-- composable hardware support
-
-<!-- vanilla
-These tools can be controlled from a responsive web UI or a [CLI](/t/maas-cli/802) driven by a REST API.  You can easily (re)configure and scale your data centre with MAAS.
- vanilla -->
-
-<!-- ui
-These tools can be controlled from a responsive web UI.  You can easily (re)configure and scale your data centre with MAAS.
- ui -->
-
-<!-- cli
-These tools can be controlled from a [CLI](/t/maas-cli/802) driven by a REST API.  You can easily (re)configure and scale your data centre with MAAS.
- cli -->
-
-<!-- vanilla
-![mixed-states|690x438](../images/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg)  
- vanilla -->
-
-<!-- ui
-![mixed-states|690x438](../images/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg)  
+![power types selection](../images/b53c6613-nodes-power-types__2.4_selection.png)
  ui -->
 
 <!-- cli
 ### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
  cli -->
 
-MAAS works with any system configuration tools. Both the [Chef](https://www.chef.io/chef) and [Juju](https://jaas.ai/) teams recommend MAAS as a physical provisioning system.
+Fill in the resulting form; the information required will depends on the power type.
+
+Click 'Save changes' to finish. Once that's done, MAAS performs a power check on the machine. A successful power check is a good indication that MAAS can properly communicate with the machine, that is, it should quickly result in a power status of "Power off". A failed attempt will show:
+
+<!-- vanilla
+![power types power error|690x108](../images/3bd5e93b-nodes-power-types__2.4_power-error.png)
+ vanilla -->
+
+<!-- ui
+![power types power error|690x108](../images/3bd5e93b-nodes-power-types__2.4_power-error.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
+
+If you see this error, double-check your entered values by editing the power type, or  consider another power type altogether.
+
+Another possible cause for this error may be the networking: traffic may be getting filtered between the rack controller and the BMC card.
+
+<h2 id="heading--example-virsh-kvm-power-type">An example: the Virsh power type</h2>
+
+Consider a machine backed by VM. Below, a 'Power type' of `Virsh` has been selected, and the 'Power address' of `qemu+ssh://ubuntu@192.168.1.2/system` has been entered (replace values as appropriate).  The value of 'Power ID' is the VM domain (guest) name, here `node2`.
+
+<!-- vanilla
+![power types example: virsh](../images/c75e00a8-nodes-power-types__2.4_example-virsh.png)
+ vanilla -->
+
+<!-- ui
+![power types example: virsh](../images/c75e00a8-nodes-power-types__2.4_example-virsh.png)
+ ui -->
+
+<!-- cli
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+ cli -->
 
 [note]
-Please note that Windows and RHEL images require [Ubuntu Advantage](https://www.ubuntu.com/support) to work correctly with MAAS.
+The machine's hostname -- according to MAAS -- is a randomly chosen string (here `dear.ant`). You should change this hostname to something descriptive, that helps you remember why this machine is in your MAAS network.
 [/note]
 
-<h3 id="heading--colocation-of-key-components">Colocation of key components</h3>
+<h2 id="heading--bmc-driver-support">Which BMC drivers are supported</h2>
 
-MAAS relies on two key components: the *region controller* and the *rack controller*. The region controller handles operator requests; the rack controller provides high-bandwidth services to multiple racks. In essence, rack controllers manage racks, while the region controller manages the data centre.  See [Concepts and terms](/t/concepts-and-terms/785#heading--controllers) for a deeper understanding of these components.
+MAAS supports many types of BMC hardware, though not all the drivers have the same capabilities. See the below table for a feature comparison of the BMC drivers currently supported by MAAS.
 
-We generally recommended installing both controllers on the same system.  The default MAAS install delivers this colocated configuration automatically. This all-in-one solution also provides [DHCP](/t/managing-dhcp/759). 
+zorkDzorkSTell me about BMCzorkSC
 
-In special cases, such as [high availability or load balancing](/t/high-availability/804), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp/759) will cause problems.
+BMC, or "Baseboard Management Controller," is an extra microcontroller on the motherboard of a server which forms the interface between system-management software and the device's hardware.  The BMC can collect data from attached sensors, alert administrators to issues, and respond to remote-control commands to control system operation or power state, independent of the system's CPU.
 
-<!-- vanilla
-![intro-arch-overview|690x406](../images/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png)
- vanilla -->
-
-<!-- ui
-![intro-arch-overview|690x406](../images/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png)
- ui -->
-
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
-
-<h2 id="heading--how-maas-works">How MAAS works</h2>
-
-When you [add a new machine](/t/add-machines/821#heading--add-a-node-manually) to MAAS, or elect to add a machine that MAAS has [enlisted](/t/add-machines/821#heading--enlistment), MAAS [commissions](/t/commission-machines/822) it for service and adds it to the pool.  At that point, the machine is ready for use. MAAS keeps things simple, marking machines as "New," "Commissioning," "Ready," and so on.
-
-zorkDzorkSTell me, quickly, about enlistment and commissioning.zorkSC
-
-There are two ways to add a machine to MAAS.  Assuming it's on the network and capable of PXE-booting, you can add it explicitly -- or MAAS can simply discover it when you turn it on.
-
-Enlistment just means that MAAS discovers a machine when you turn it on, and presents it to the MAAS administrator, so that they can choose whether or not to commission it.  Machines that have only been enlisted will show up in the machine list as "New."
-
-Commissioning means that MAAS has successfully booted the machine, scanned and recorded its resources, and prepared it for eventual deployment.  Machines that you explicitly add are automatically commissioned.  MAAS marks a successfully-commissioned machine as "Ready" in the machine list.
+In the context of MAAS, the BMC is generally controlled by SNMP commands.  Any given BMC will function in the context of one or more "power types," which are physical interfaces that permit use of the IPMI ("Intelligent Platform Management Interface") protocol.  Each power type has a different set of expected parameters required to access and command the BMC.
 
 zorkDC
 
-<!-- vanilla
-![commissioning|606x400](../images/605019de31078dd70df72ff199d812de13a30d00.jpeg) 
- vanilla -->
+<table>
+<colgroup>
+<col width="35%" />
+<col width="12%" />
+<col width="10%" />
+<col width="14%" />
+<col width="15%" />
+<col width="11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Power Driver (<em>X=supported</em>)</th>
+<th>PXE Next Boot</th>
+<th>Power Querying</th>
+<th>Chassis/Pod Configuration</th>
+<th>Enhanced UI Error Reporting</th>
+<th>BMC Enlistment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">American Power Conversion (APC) - PDU</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td align="left">Cisco UCS Manager</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td align="left">Digital Loggers, Inc. - PDU</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td align="left">Facebook's Wedge <code>*</code></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td align="left">HP Moonshot - iLO Chassis Manager</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td align="left">HP Moonshot - iLO4 (IPMI)</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+</tr>
+<tr class="odd">
+<td align="left">IBM Hardware Management Console (HMC)</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td align="left">IPMI</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr class="odd">
+<td align="left">Intel AMT</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+</tr>
+<tr class="even">
+<td align="left">Manual</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td align="left">Microsoft OCS - Chassis Manager</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td align="left">OpenStack Nova</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td align="left">Rack Scale Design</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td align="left">SeaMicro 15000</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td align="left">Sentry Switch CDU - PDU</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td align="left">VMWare</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td align="left">Virsh (virtual systems)</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
-<!-- ui
-![commissioning|606x400](../images/605019de31078dd70df72ff199d812de13a30d00.jpeg) 
- ui -->
-
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
-
-MAAS controls machines through IPMI (or another BMC). It can also manage machines through a converged chassis controller, such as Cisco UCS.  You can choose how you want to control power on your machines based on what is available.  MAAS overwrites the machine's disk space with your chosen, pre-cached OS images.
-
-[note type="negative" status="Warning"]
-*The above comment about disk space bears repeating: MAAS will overwrite the disk space of all machines it enlists. All pool machines are under the control of MAAS; you should provision them using other methods.*
-[/note]
-
-MAAS users allocate ("acquire") machines for use when needed. The web UI also allows you to acquire machines manually, such as when you are reserving specific hardware for certain users. You can remotely access and customise the installed operating system via SSH.
-
-<!-- vanilla
-![acquire|690x363](../images/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg) 
- vanilla -->
-
-<!-- ui
-![acquire|690x363](../images/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg) 
- ui -->
-
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
-
-<!-- cli
-When acquiring machines from the API/CLI, you can specify requirements ("constraints"). Common constraints are memory, CPU cores, connected networks, and assigned physical zone.
- cli -->
-
-<!-- vanilla
-When acquiring machines from the API/CLI, you can specify requirements ("constraints"). Common constraints are memory, CPU cores, connected networks, and assigned physical zone.
- vanilla -->
-
-An acquired MAAS machine is more flexible than a virtual instance in a cloud. You have complete control, including hardware drivers and root access. If you want to upgrade the BIOS, for example, you can allocate a machine to yourself and complete the upgrade.  Once you have completed the upgrade, you can send the machine back to the pool.
-
-Note that [Juju](https://jaas.ai/docs/maas-cloud) is designed to work with MAAS. MAAS
-becomes a backend Juju resource pool with all functionality fully available. For instance, if Juju removes a machine, then MAAS will release that machine to the pool.  With Juju, MAAS can become an integral part of your data centre strategy and operations.
+`*` The 'Facebook's Wedge' OpenBMC power driver is considered experimental at this time.

@@ -54,7 +54,7 @@ Enlistment can be done manually if the hardware specifications of the underlying
 
 Fill in the form and hit 'Save machine'. In this example, you are adding an IPMI machine:
 
-![add node manually](../images/20aa36b2-nodes-add__2.5_add-node-manually.png)
+![add node manually|690x460](../images/20aa36b2-nodes-add__2.5_add-node-manually.png)
 
 The fields on the "Add machine" screen are as follows:
 
@@ -86,7 +86,7 @@ Enlistment can be done manually if the hardware specifications of the underlying
 
 Fill in the form and hit 'Save machine'. In this example, you are adding an IPMI machine:
 
-![add node manually](../images/20aa36b2-nodes-add__2.5_add-node-manually.png)
+![add node manually|690x460](../images/20aa36b2-nodes-add__2.5_add-node-manually.png)
 
 The fields on the "Add machine" screen are as follows:
 
@@ -138,7 +138,7 @@ For non-IPMI machines, you must specify a non-PXE MAC address. MAAS automaticall
 <!-- vanilla
 Use the chassis feature to add multiple machines at once. To do this, instead of selecting 'Machine' as above, choose 'Chassis' from the drop-down menu. In the following example, MAAS will add all available VMs from the given  virsh address:
 
-![add node via chassis](../images/d5314a8a-nodes-add__2.4_add-node-chassis.png)
+![add node via chassis|690x460](../images/d5314a8a-nodes-add__2.4_add-node-chassis.png)
 
 The required fields will change based on the type of chassis you choose.
  vanilla -->
@@ -146,7 +146,7 @@ The required fields will change based on the type of chassis you choose.
 <!-- ui
 Use the chassis feature to add multiple machines at once. To do this, instead of selecting 'Machine' as above, choose 'Chassis' from the drop-down menu. In the following example, MAAS will add all available VMs from the given  virsh address:
 
-![add node via chassis](../images/d5314a8a-nodes-add__2.4_add-node-chassis.png)
+![add node via chassis|690x460](../images/d5314a8a-nodes-add__2.4_add-node-chassis.png)
 
 The required fields will change based on the type of chassis you choose.
  ui -->
