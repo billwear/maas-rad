@@ -17,11 +17,11 @@ Installing a rack controller consists of installing the rack controller software
 Once registered, this extra rack controller will appear immediately alongside the primary controller in the web UI and begin to sync with it:
 
 <!-- vanilla
-![4_install-rackd|690x251](../images/0a5f1d374a3e53235a83eb157163be49016e63b5_2_690x251.png) 
+![4_install-rackd|690x251](images/0a5f1d374a3e53235a83eb157163be49016e63b5_2_690x251.png) 
  vanilla -->
 
 <!-- ui
-![4_install-rackd|690x251](../images/0a5f1d374a3e53235a83eb157163be49016e63b5_2_690x251.png) 
+![4_install-rackd|690x251](images/0a5f1d374a3e53235a83eb157163be49016e63b5_2_690x251.png) 
  ui -->
 
 <!-- vanilla

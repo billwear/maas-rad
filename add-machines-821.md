@@ -27,15 +27,15 @@ Once MAAS is working to the point of adding machines, you'll probably want to un
 
 When MAAS enlists a machine, it first contacts the DHCP server, so that the machine can be assigned an IP address.  An IP address is necessary to download a kernel and initrd via TFTP, since these functions can't accept domain names.  Once the machine has a bootable kernel, MAAS boots it:
 
-![tftp-download-boot|618x500](../images/76f7113545e6950fec60bdeac06cfaf79b14b3ff_2_618x500.jpeg) 
+![tftp-download-boot|618x500](images/76f7113545e6950fec60bdeac06cfaf79b14b3ff_2_618x500.jpeg) 
 
 Next, initrd mounts a Squashfs image, ephemerally via HTTP, so that cloud-init can execute:
 
-![squashfs|623x500](../images/500f9bd2d070790a4007085705035366bee88a4a_2_623x500.jpeg) 
+![squashfs|623x500](images/500f9bd2d070790a4007085705035366bee88a4a_2_623x500.jpeg) 
 
 Finally, cloud-init runs enlistment and setup scripts:
 
-![cloud-init|613x500](../images/bd87f78c8ee668a22640bf15607c9e3e532d46bb_2_613x500.jpeg) 
+![cloud-init|613x500](images/bd87f78c8ee668a22640bf15607c9e3e532d46bb_2_613x500.jpeg) 
 
 The enlistment scripts send information about the machine to the region API server, including the architecture, MAC address and other details.  The API server, in turn, stores these details in the database. This information-gathering process is known as [automatic discovery or network discovery](/t/network-discovery/758).
 
@@ -54,7 +54,7 @@ Enlistment can be done manually if the hardware specifications of the underlying
 
 Fill in the form and hit 'Save machine'. In this example, you are adding an IPMI machine:
 
-![add node manually](../images/20aa36b2-nodes-add__2.5_add-node-manually.png)
+![add node manually](images/20aa36b2-nodes-add__2.5_add-node-manually.png)
 
 The fields on the "Add machine" screen are as follows:
 
@@ -86,7 +86,7 @@ Enlistment can be done manually if the hardware specifications of the underlying
 
 Fill in the form and hit 'Save machine'. In this example, you are adding an IPMI machine:
 
-![add node manually](../images/20aa36b2-nodes-add__2.5_add-node-manually.png)
+![add node manually](images/20aa36b2-nodes-add__2.5_add-node-manually.png)
 
 The fields on the "Add machine" screen are as follows:
 
@@ -138,7 +138,7 @@ For non-IPMI machines, you must specify a non-PXE MAC address. MAAS automaticall
 <!-- vanilla
 Use the chassis feature to add multiple machines at once. To do this, instead of selecting 'Machine' as above, choose 'Chassis' from the drop-down menu. In the following example, MAAS will add all available VMs from the given  virsh address:
 
-![add node via chassis](../images/d5314a8a-nodes-add__2.4_add-node-chassis.png)
+![add node via chassis](images/d5314a8a-nodes-add__2.4_add-node-chassis.png)
 
 The required fields will change based on the type of chassis you choose.
  vanilla -->
@@ -146,7 +146,7 @@ The required fields will change based on the type of chassis you choose.
 <!-- ui
 Use the chassis feature to add multiple machines at once. To do this, instead of selecting 'Machine' as above, choose 'Chassis' from the drop-down menu. In the following example, MAAS will add all available VMs from the given  virsh address:
 
-![add node via chassis](../images/d5314a8a-nodes-add__2.4_add-node-chassis.png)
+![add node via chassis](images/d5314a8a-nodes-add__2.4_add-node-chassis.png)
 
 The required fields will change based on the type of chassis you choose.
  ui -->

@@ -17,11 +17,11 @@ Machines are the heart of MAAS. They are the backbone of your data centre applic
 For example, in the illustration below, you see a typical small hospital data centre, including servers ready and allocated for functions like Pharmacy, Orders, Charts, and so on:
 
 <!-- vanilla
-![machine-list-general|690x416](../images/30df04b0bcec5fcf6538590ed795cb0514a64675_2_690x416.jpeg) 
+![machine-list-general|690x416](images/30df04b0bcec5fcf6538590ed795cb0514a64675_2_690x416.jpeg) 
  vanilla -->
 
 <!-- ui
-![machine-list-general|690x416](../images/30df04b0bcec5fcf6538590ed795cb0514a64675_2_690x416.jpeg) 
+![machine-list-general|690x416](images/30df04b0bcec5fcf6538590ed795cb0514a64675_2_690x416.jpeg) 
  ui -->
 
 <!-- cli
@@ -33,11 +33,11 @@ These example machines would typically be duplicated in several different geogra
 Looking back at the example above, you can see that there are several columns in the machine list:
 
 <!-- vanilla
-![machine-list-columns|690x105](../images/e6339dd1439b3b54be7a75f7239d1981754a07f6_2_690x105.jpeg) 
+![machine-list-columns|690x105](images/e6339dd1439b3b54be7a75f7239d1981754a07f6_2_690x105.jpeg) 
  vanilla -->
 
 <!-- ui
-![machine-list-columns|690x105](../images/e6339dd1439b3b54be7a75f7239d1981754a07f6_2_690x105.jpeg) 
+![machine-list-columns|690x105](images/e6339dd1439b3b54be7a75f7239d1981754a07f6_2_690x105.jpeg) 
  ui -->
 
 <!-- cli
@@ -110,11 +110,11 @@ When a machine is in the state listed in a column, it is possible to take the ro
 Incidentally, you can get to this list of machines from the choice "Machines" on the top menu of the MAAS web UI.  This action will display a table like the one above, listing all the machines that are currently visible to your MAAS installation.  During commissioning and deployment, MAAS updates the table to reflect the changing state of each machine. These values are augmented with green, amber and red icons to represent successful, in-progress and failed transitions, respectively. The MAAS web UI employs similar icons and colours throughout the interface to reflect a machine's status. 
 
 <!-- vanilla
-![machine-list-christmas-tree|663x500](../images/19e038dbc6e669bfffc0ea5a9946432a75142bfb_2_663x500.jpeg) 
+![machine-list-christmas-tree|663x500](images/19e038dbc6e669bfffc0ea5a9946432a75142bfb_2_663x500.jpeg) 
  vanilla -->
 
 <!-- ui
-![machine-list-christmas-tree|663x500](../images/19e038dbc6e669bfffc0ea5a9946432a75142bfb_2_663x500.jpeg) 
+![machine-list-christmas-tree|663x500](images/19e038dbc6e669bfffc0ea5a9946432a75142bfb_2_663x500.jpeg) 
  ui -->
 
 <!-- cli
@@ -124,11 +124,11 @@ Incidentally, you can get to this list of machines from the choice "Machines" on
 Rolling the cursor over status icons often reveals more details. For example, a failed hardware test script will place a warning icon alongside the hardware type tested by the script. Rolling the cursor over this will reveal which test failed.  Likewise, you can find some immediate options by rolling over the column data items in the machines table.
 
 <!-- vanilla
-![rollover-icons|690x222](../images/8f78a8877a029e7a44bcd4cf3d138499637fe790_2_690x222.jpeg) 
+![rollover-icons|690x222](images/8f78a8877a029e7a44bcd4cf3d138499637fe790_2_690x222.jpeg) 
  vanilla -->
 
 <!-- ui
-![rollover-icons|690x222](../images/8f78a8877a029e7a44bcd4cf3d138499637fe790_2_690x222.jpeg) 
+![rollover-icons|690x222](images/8f78a8877a029e7a44bcd4cf3d138499637fe790_2_690x222.jpeg) 
  ui -->
 
 <!-- cli
@@ -138,11 +138,11 @@ Rolling the cursor over status icons often reveals more details. For example, a 
 The 'Add hardware' drop-down menu is used to add either new machines or a new chassis. This menu changes context when one or more machines are selected from the table, using either the individual checkboxes in the first column or the column title checkbox to select all.
 
 <!-- vanilla
-![machine-add-hardware-menu|690x235](../images/9a0747649e6aff999d3c04335eb752accedaf3de_2_690x235.jpeg) 
+![machine-add-hardware-menu|690x235](images/9a0747649e6aff999d3c04335eb752accedaf3de_2_690x235.jpeg) 
  vanilla -->
 
 <!-- ui
-![machine-add-hardware-menu|690x235](../images/9a0747649e6aff999d3c04335eb752accedaf3de_2_690x235.jpeg) 
+![machine-add-hardware-menu|690x235](images/9a0747649e6aff999d3c04335eb752accedaf3de_2_690x235.jpeg) 
  ui -->
 
 <!-- cli
@@ -152,11 +152,11 @@ The 'Add hardware' drop-down menu is used to add either new machines or a new ch
 With one or more machines selected, the 'Add hardware' drop-down menu moves to the left, and is joined by the 'Take action' menu.  This menu provides access to the various [machine actions](/t/concepts-and-terms/785#node-actions) that can be applied to the selected machine(s):
 
 <!-- vanilla
-![machine-take-action-menu-dropped|690x364](../images/e03d5ac8de9ea4f4827ed057bb2dd83e241aac3b_2_690x364.jpeg) 
+![machine-take-action-menu-dropped|690x364](images/e03d5ac8de9ea4f4827ed057bb2dd83e241aac3b_2_690x364.jpeg) 
  vanilla -->
 
 <!-- ui
-![machine-take-action-menu-dropped|690x364](../images/e03d5ac8de9ea4f4827ed057bb2dd83e241aac3b_2_690x364.jpeg) 
+![machine-take-action-menu-dropped|690x364](images/e03d5ac8de9ea4f4827ed057bb2dd83e241aac3b_2_690x364.jpeg) 
  ui -->
 
 <!-- cli
@@ -172,11 +172,11 @@ The 'Filter by' section limits the machines listed in the table to selected keyw
 Click a machine's FQDN or MAC address to open a detailed view of a machine's status and configuration.
 
 <!-- vanilla
-![machine-details|690x439](../images/c9684bf883d01d3fe610ec27e95618075c44b324_2_690x439.jpeg)
+![machine-details|690x439](images/c9684bf883d01d3fe610ec27e95618075c44b324_2_690x439.jpeg)
  vanilla -->
 
 <!-- ui
-![machine-details|690x439](../images/c9684bf883d01d3fe610ec27e95618075c44b324_2_690x439.jpeg)
+![machine-details|690x439](images/c9684bf883d01d3fe610ec27e95618075c44b324_2_690x439.jpeg)
  ui -->
 
 <!-- cli
@@ -184,7 +184,7 @@ Click a machine's FQDN or MAC address to open a detailed view of a machine's sta
  cli -->
 
 The default view is 'Machine summary', presented as a series of cards detailing the CPU, memory, storage and tag characteristics of the machine, as well as an overview of its current status. When relevant, 'Edit' links take you directly to the settings pane for the configuration referenced within the card.  The machine menu bar within the web UI also includes links to logs, events, and configuration options:
- ![machine-event-output|690x370](../images/2efac92fca2c90f53ac86bd98485d8e98a1f91d4_2_690x370.jpeg) 
+ ![machine-event-output|690x370](images/2efac92fca2c90f53ac86bd98485d8e98a1f91d4_2_690x370.jpeg) 
 
 The menu includes links to a number of additional forms and controls, as described in the following sections.
 
@@ -193,11 +193,11 @@ The menu includes links to a number of additional forms and controls, as describ
 As shown above, the Machine summary presents an overview of CPU, memory, storage, tags, and general settings:
 
 <!-- vanilla
-![machine-details|690x439](../images/c9684bf883d01d3fe610ec27e95618075c44b324_2_690x439.jpeg)
+![machine-details|690x439](images/c9684bf883d01d3fe610ec27e95618075c44b324_2_690x439.jpeg)
  vanilla -->
 
 <!-- ui
-![machine-details|690x439](../images/c9684bf883d01d3fe610ec27e95618075c44b324_2_690x439.jpeg)
+![machine-details|690x439](images/c9684bf883d01d3fe610ec27e95618075c44b324_2_690x439.jpeg)
  ui -->
 
 <!-- cli
@@ -207,11 +207,11 @@ As shown above, the Machine summary presents an overview of CPU, memory, storage
 The first card presents some basics of the machine resources and configuration:
 
 <!-- vanilla
-![machine-summary-overview-card|690x119](../images/3e50fb21f4985db0a85519e2e933e24658770b9e_2_690x119.jpeg) 
+![machine-summary-overview-card|690x119](images/3e50fb21f4985db0a85519e2e933e24658770b9e_2_690x119.jpeg) 
  vanilla -->
 
 <!-- ui
-![machine-summary-overview-card|690x119](../images/3e50fb21f4985db0a85519e2e933e24658770b9e_2_690x119.jpeg) 
+![machine-summary-overview-card|690x119](images/3e50fb21f4985db0a85519e2e933e24658770b9e_2_690x119.jpeg) 
  ui -->
 
 <!-- cli
@@ -233,11 +233,11 @@ Here are some details on what this card presents, with details on in-card links 
 Note that clicking any of the links in this card will either present a pop-up form or take you to another item in the machine menu -- so using the browser "back" button will take you completely away from this machine's page.  For example, you can choose the "Test CPU" option, which brings up this overlay:
 
 <!-- vanilla
-![cpu-test|690x215](../images/4fe98db93dd34f3b167b56286b06ec6d244d5848_2_690x215.jpeg) 
+![cpu-test|690x215](images/4fe98db93dd34f3b167b56286b06ec6d244d5848_2_690x215.jpeg) 
  vanilla -->
 
 <!-- ui
-![cpu-test|690x215](../images/4fe98db93dd34f3b167b56286b06ec6d244d5848_2_690x215.jpeg) 
+![cpu-test|690x215](images/4fe98db93dd34f3b167b56286b06ec6d244d5848_2_690x215.jpeg) 
  ui -->
 
 <!-- cli
@@ -247,11 +247,11 @@ Note that clicking any of the links in this card will either present a pop-up fo
 From this screen, you can choose test scripts and run the tests (in the background) as the interface returns to the Machine summary.  A linked note in the CPU block lets you know that the tests are in progress:
 
 <!-- vanilla
-![cpu-testing-in-progress|690x231](../images/3d6996b32a5193dab76b112c864a216c845aa985.jpeg) 
+![cpu-testing-in-progress|690x231](images/3d6996b32a5193dab76b112c864a216c845aa985.jpeg) 
  vanilla -->
 
 <!-- ui
-![cpu-testing-in-progress|690x231](../images/3d6996b32a5193dab76b112c864a216c845aa985.jpeg) 
+![cpu-testing-in-progress|690x231](images/3d6996b32a5193dab76b112c864a216c845aa985.jpeg) 
  ui -->
 
 <!-- cli
@@ -261,11 +261,11 @@ From this screen, you can choose test scripts and run the tests (in the backgrou
 And you can watch the results under the "Tests" option in the Machine menu:
 
 <!-- vanilla
-![cpu-tests-log|690x185](../images/89d287347928d6adb039ca582d4a94c3b54588e1_2_690x185.jpeg) 
+![cpu-tests-log|690x185](images/89d287347928d6adb039ca582d4a94c3b54588e1_2_690x185.jpeg) 
  vanilla -->
 
 <!-- ui
-![cpu-tests-log|690x185](../images/89d287347928d6adb039ca582d4a94c3b54588e1_2_690x185.jpeg) 
+![cpu-tests-log|690x185](images/89d287347928d6adb039ca582d4a94c3b54588e1_2_690x185.jpeg) 
  ui -->
 
 <!-- cli
@@ -279,11 +279,11 @@ The rest of the cards on the Machine summary are either self-explanatory, or the
 The Network "tab" provides you with a way to view/edit the network and interface configuration for a machine: 
 
 <!-- vanilla
-![machine-network-tab|690x206](../images/7a7b22ee7202b50df09c7bef598250db0eb1cc15_2_690x206.jpeg) 
+![machine-network-tab|690x206](images/7a7b22ee7202b50df09c7bef598250db0eb1cc15_2_690x206.jpeg) 
  vanilla -->
 
 <!-- ui
-![machine-network-tab|690x206](../images/7a7b22ee7202b50df09c7bef598250db0eb1cc15_2_690x206.jpeg) 
+![machine-network-tab|690x206](images/7a7b22ee7202b50df09c7bef598250db0eb1cc15_2_690x206.jpeg) 
  ui -->
 
 <!-- cli
@@ -293,11 +293,11 @@ The Network "tab" provides you with a way to view/edit the network and interface
 In the case of this deployed machine, there are not many editing options.  If the machine is in a 'Ready' state, though, altering the network configuration is possible:
 
 <!-- vanilla
-![machine-network-tab-undeployed-machine|690x176](../images/01d53759105647d71786154e99ff210f8c71d2e7_2_690x176.jpeg) 
+![machine-network-tab-undeployed-machine|690x176](images/01d53759105647d71786154e99ff210f8c71d2e7_2_690x176.jpeg) 
  vanilla -->
 
 <!-- ui
-![machine-network-tab-undeployed-machine|690x176](../images/01d53759105647d71786154e99ff210f8c71d2e7_2_690x176.jpeg) 
+![machine-network-tab-undeployed-machine|690x176](images/01d53759105647d71786154e99ff210f8c71d2e7_2_690x176.jpeg) 
  ui -->
 
 <!-- cli
@@ -311,11 +311,11 @@ Options on this tab are described in the introduction to [Networking](https://ma
 The Storage tab on the machine list brings up a form that allows you to view/edit the file system, partitioning and storage parameters for the selected machine:
 
 <!-- vanilla
-![machine-storage-tab|690x431](../images/9dc30aedf5ed173bb7b474910fa9939f7f066c95_2_690x431.jpeg) 
+![machine-storage-tab|690x431](images/9dc30aedf5ed173bb7b474910fa9939f7f066c95_2_690x431.jpeg) 
  vanilla -->
 
 <!-- ui
-![machine-storage-tab|690x431](../images/9dc30aedf5ed173bb7b474910fa9939f7f066c95_2_690x431.jpeg) 
+![machine-storage-tab|690x431](images/9dc30aedf5ed173bb7b474910fa9939f7f066c95_2_690x431.jpeg) 
  ui -->
 
 <!-- cli
@@ -329,11 +329,11 @@ This tab describes the filesystem(s) in use, as well as the available and used p
 The "Commissioning" tab brings up a summary log of commissioning events:
 
 <!-- vanilla
-![comm-logging-summary|690x279](../images/b3d6248013fb5186d3ea61931816fe688b94a6a2_2_690x279.jpeg) 
+![comm-logging-summary|690x279](images/b3d6248013fb5186d3ea61931816fe688b94a6a2_2_690x279.jpeg) 
  vanilla -->
 
 <!-- ui
-![comm-logging-summary|690x279](../images/b3d6248013fb5186d3ea61931816fe688b94a6a2_2_690x279.jpeg) 
+![comm-logging-summary|690x279](images/b3d6248013fb5186d3ea61931816fe688b94a6a2_2_690x279.jpeg) 
  ui -->
 
 <!-- cli
@@ -343,11 +343,11 @@ The "Commissioning" tab brings up a summary log of commissioning events:
 Clicking on any of the "View log" links will take you to specific, detailed logs for that particular event or milestone:
 
 <!-- vanilla
-![comm-logs-details|690x379](../images/13fce404b9bb304e08a7c5de5a395c514e98b9b0_2_690x379.jpeg) 
+![comm-logs-details|690x379](images/13fce404b9bb304e08a7c5de5a395c514e98b9b0_2_690x379.jpeg) 
  vanilla -->
 
 <!-- ui
-![comm-logs-details|690x379](../images/13fce404b9bb304e08a7c5de5a395c514e98b9b0_2_690x379.jpeg) 
+![comm-logs-details|690x379](images/13fce404b9bb304e08a7c5de5a395c514e98b9b0_2_690x379.jpeg) 
  ui -->
 
 <!-- cli
@@ -361,11 +361,11 @@ These logs present an extremely detailed, timestamped record of completion and s
 This tab presents a summary of tests run against this particular machine:  
 
 <!-- vanilla
-![machine-menu-test-summary|690x189](../images/b6a6ff3c8fae4a638c18a18bf65c4aa51f29e984_2_690x189.jpeg) 
+![machine-menu-test-summary|690x189](images/b6a6ff3c8fae4a638c18a18bf65c4aa51f29e984_2_690x189.jpeg) 
  vanilla -->
 
 <!-- ui
-![machine-menu-test-summary|690x189](../images/b6a6ff3c8fae4a638c18a18bf65c4aa51f29e984_2_690x189.jpeg) 
+![machine-menu-test-summary|690x189](images/b6a6ff3c8fae4a638c18a18bf65c4aa51f29e984_2_690x189.jpeg) 
  ui -->
 
 <!-- cli
@@ -375,11 +375,11 @@ This tab presents a summary of tests run against this particular machine:
 You can view the summary report, or click on a "View log" link to get details on any particular tests:
 
 <!-- vanilla
-![machine-test-tab-details|690x431](../images/8113eba28a3f08279ff2b5f7593e30db05d00824_2_690x431.jpeg) 
+![machine-test-tab-details|690x431](images/8113eba28a3f08279ff2b5f7593e30db05d00824_2_690x431.jpeg) 
  vanilla -->
 
 <!-- ui
-![machine-test-tab-details|690x431](../images/8113eba28a3f08279ff2b5f7593e30db05d00824_2_690x431.jpeg) 
+![machine-test-tab-details|690x431](images/8113eba28a3f08279ff2b5f7593e30db05d00824_2_690x431.jpeg) 
  ui -->
 
 <!-- cli
@@ -393,11 +393,11 @@ The format of these screens is very similar to the Configuration logs shown abov
 The "Logs" tab shows raw log output, switchable between YAML and XML formats:
 
 <!-- vanilla
-![machine-logs-tab|690x439](../images/02b4bc35c8985fe0b954d8deb0afba18866cfe66_2_690x439.jpeg) 
+![machine-logs-tab|690x439](images/02b4bc35c8985fe0b954d8deb0afba18866cfe66_2_690x439.jpeg) 
  vanilla -->
 
 <!-- ui
-![machine-logs-tab|690x439](../images/02b4bc35c8985fe0b954d8deb0afba18866cfe66_2_690x439.jpeg) 
+![machine-logs-tab|690x439](images/02b4bc35c8985fe0b954d8deb0afba18866cfe66_2_690x439.jpeg) 
  ui -->
 
 <!-- cli
@@ -411,11 +411,11 @@ Help interpreting these logs can be found under the [Logging](https://maas.io/do
 The "Event" tab displays a list ot timestamped status updates for events and actions performed on the machine:
 
 <!-- vanilla
-![machine-list-event-tab-log|690x305](../images/114ada7188f8ebf12883a54c0976ad8abda1d211_2_690x305.jpeg) 
+![machine-list-event-tab-log|690x305](images/114ada7188f8ebf12883a54c0976ad8abda1d211_2_690x305.jpeg) 
  vanilla -->
 
 <!-- ui
-![machine-list-event-tab-log|690x305](../images/114ada7188f8ebf12883a54c0976ad8abda1d211_2_690x305.jpeg) 
+![machine-list-event-tab-log|690x305](images/114ada7188f8ebf12883a54c0976ad8abda1d211_2_690x305.jpeg) 
  ui -->
 
 <!-- cli
@@ -429,11 +429,11 @@ There is a button that allows you to see the next 10 events, and a link to show 
 The final tab from the Machine menu allows you to update machine and power configuration options: 
 
 <!-- vanilla
-![machine-config-tab-failed-testing|690x412](../images/13bb1352103c759365fc6b923672f021982a10c3_2_690x412.jpeg) 
+![machine-config-tab-failed-testing|690x412](images/13bb1352103c759365fc6b923672f021982a10c3_2_690x412.jpeg) 
  vanilla -->
 
 <!-- ui
-![machine-config-tab-failed-testing|690x412](../images/13bb1352103c759365fc6b923672f021982a10c3_2_690x412.jpeg) 
+![machine-config-tab-failed-testing|690x412](images/13bb1352103c759365fc6b923672f021982a10c3_2_690x412.jpeg) 
  ui -->
 
 <!-- cli
@@ -443,16 +443,16 @@ The final tab from the Machine menu allows you to update machine and power confi
 There are two sections to this tab.  The "Machine configuration" section offers some general parameters, mostly related to how this machine is grouped and categorised.  More information on these options are found in the relevant sections of the documentation (e.g., tags, resource pools, and so forth). 
 
 The "Power configuration" supplies the parameters necessary for MAAS to access the machine to PXE-boot it. Note that this machine failed testing.  Editing the "Power configuration" section gives us a clue as to what might be wrong:
- ![power-config-failed-login|690x192](../images/8f4c4ae8ec07f42551bad654375f513debc53ef1_2_690x192.jpeg) 
+ ![power-config-failed-login|690x192](images/8f4c4ae8ec07f42551bad654375f513debc53ef1_2_690x192.jpeg) 
 
 After entering the correct password and recycling things, the problem goes away:
 
 <!-- vanilla
-![machine-config-no-error|690x388](../images/635e27e87bcac0c3cb3ce3085bd2fa55f60ff137_2_690x388.jpeg) 
+![machine-config-no-error|690x388](images/635e27e87bcac0c3cb3ce3085bd2fa55f60ff137_2_690x388.jpeg) 
  vanilla -->
 
 <!-- ui
-![machine-config-no-error|690x388](../images/635e27e87bcac0c3cb3ce3085bd2fa55f60ff137_2_690x388.jpeg) 
+![machine-config-no-error|690x388](images/635e27e87bcac0c3cb3ce3085bd2fa55f60ff137_2_690x388.jpeg) 
  ui -->
 
 <!-- cli

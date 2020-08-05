@@ -179,11 +179,11 @@ In terms of linking, they are managed very similarly to hyperlinks. However, the
 
 ````
 <!-- vanilla
-![web UI showing node view](../images/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png)
+![web UI showing node view](images/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png)
  vanilla -->
 
 <!-- ui
-![web UI showing node view](../images/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png)
+![web UI showing node view](images/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png)
  ui -->
 
 <!-- cli
@@ -193,11 +193,11 @@ In terms of linking, they are managed very similarly to hyperlinks. However, the
 This image would appear in this way:
 
 <!-- vanilla
-![web UI showing node view](../images/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png)
+![web UI showing node view](images/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png)
  vanilla -->
 
 <!-- ui
-![web UI showing node view](../images/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png)
+![web UI showing node view](images/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png)
  ui -->
 
 <!-- cli

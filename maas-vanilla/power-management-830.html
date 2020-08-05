@@ -369,9 +369,9 @@
 <h2 id="heading--config-power-type">Configure a machine's power type</h2>
 
 <p>To configure a machine&rsquo;s power type, click on the machine from the &lsquo;Machines&rsquo; page of the web UI, then select its &lsquo;Configuration&rsquo; tab. Scroll down until you find the Power configuration. If the power type is undefined, the following will be displayed:</p>
-<p><img alt="power types undefined" src="../images/4fae5977-nodes-power-types__2.4_undefined.png"></p>
+<p><img alt="power types undefined" width="690" height="46" src="../images/4fae5977-nodes-power-types__2.4_undefined.png"></p>
 <!-- ui
-![power types undefined](../images/4fae5977-nodes-power-types__2.4_undefined.png)
+![power types undefined|690x46](../images/4fae5977-nodes-power-types__2.4_undefined.png)
  ui -->
 
 <!-- cli
@@ -379,9 +379,9 @@
  cli -->
 
 <p>Choose a type in the dropdown menu that corresponds to the machine&rsquo;s underlying machine&rsquo;s BMC card.</p>
-<p><img alt="power types selection" src="../images/b53c6613-nodes-power-types__2.4_selection.png"></p>
+<p><img alt="power types selection" width="690" height="399" src="../images/b53c6613-nodes-power-types__2.4_selection.png"></p>
 <!-- ui
-![power types selection](../images/b53c6613-nodes-power-types__2.4_selection.png)
+![power types selection|690x399](../images/b53c6613-nodes-power-types__2.4_selection.png)
  ui -->
 
 <!-- cli
@@ -390,9 +390,9 @@
 
 <p>Fill in the resulting form; the information required will depends on the power type.</p>
 <p>Click &lsquo;Save changes&rsquo; to finish. Once that&rsquo;s done, MAAS performs a power check on the machine. A successful power check is a good indication that MAAS can properly communicate with the machine, that is, it should quickly result in a power status of &ldquo;Power off&rdquo;. A failed attempt will show:</p>
-<p><img alt="power types power error" src="../images/3bd5e93b-nodes-power-types__2.4_power-error.png"></p>
+<p><img alt="power types power error" width="690" height="108" src="../images/3bd5e93b-nodes-power-types__2.4_power-error.png"></p>
 <!-- ui
-![power types power error](../images/3bd5e93b-nodes-power-types__2.4_power-error.png)
+![power types power error|690x108](../images/3bd5e93b-nodes-power-types__2.4_power-error.png)
  ui -->
 
 <!-- cli
@@ -404,18 +404,18 @@
 <h2 id="heading--example-virsh-kvm-power-type">An example: the Virsh power type</h2>
 
 <p>Consider a machine backed by VM. Below, a &lsquo;Power type&rsquo; of <code>Virsh</code> has been selected, and the &lsquo;Power address&rsquo; of <code>qemu+ssh://ubuntu@192.168.1.2/system</code> has been entered (replace values as appropriate).  The value of &lsquo;Power ID&rsquo; is the VM domain (guest) name, here <code>node2</code>.</p>
-<p><img alt="power types example: virsh" src="../images/c75e00a8-nodes-power-types__2.4_example-virsh.png"></p>
+<p><img alt="power types example: virsh" width="690" height="344" src="../images/c75e00a8-nodes-power-types__2.4_example-virsh.png"></p>
 <!-- ui
-![power types example: virsh](../images/c75e00a8-nodes-power-types__2.4_example-virsh.png)
+![power types example: virsh|690x344](../images/c75e00a8-nodes-power-types__2.4_example-virsh.png)
  ui -->
 
 <!-- cli
 ### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
  cli -->
 
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 The machine&rsquo;s hostname &ndash; according to MAAS &ndash; is a randomly chosen string (here <code>dear.ant</code>). You should change this hostname to something descriptive, that helps you remember why this machine is in your MAAS network.
-</blockquote></p>
+[/note]</p>
 <h2 id="heading--bmc-driver-support">Which BMC drivers are supported</h2>
 
 <p>MAAS supports many types of BMC hardware, though not all the drivers have the same capabilities. See the below table for a feature comparison of the BMC drivers currently supported by MAAS.</p>

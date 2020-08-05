@@ -623,9 +623,9 @@ fi
 <h3 id="heading--commissioning-script-update-firmware">Commissioning script: Update firmware</h3>
 
 <p>Below is a sample script to update the mainboard firmware on an ASUS P8P67 Pro using a vendor-provided tool. The tool will is automatically downloaded and extracted by MAAS. The script reboots the system to complete the update. The system will boot back into the MAAS ephemeral environment to finish commissioning and optionally testing.</p>
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 Vendor tools which use UEFI boot capsules or need to store resource files on disk while rebooting are not currently supported.
-</blockquote></p>
+[/note]</p>
 <pre><code class="bash">#!/bin/bash -ex
 # --- Start MAAS 1.0 script metadata ---
 # name: update_asus_p8p67_firmware
@@ -680,13 +680,13 @@ Similarly, scripts selected by tag on the [command line](cli-commissioning-and-h
 
 <p>Scripts can be uploaded to MAAS using the web UI. Select the &lsquo;User scripts&rsquo; tab of the &lsquo;Settings&rsquo; page - the &lsquo;Commissioning scripts&rsquo; section is near the top. Within the Commissioning scripts section, click the Upload script button followed by &lsquo;Choose file&rsquo; to open a requester, locate the script, and select Upload to upload it to MAAS.</p>
 <p>A status message of Commissioning script created will appear.  You&rsquo;ll then be able to select your script after selecting <a href="hardware-testing-826.html">Test hardware</a> from a machine&rsquo;s &lsquo;Take action&rsquo; menu.</p>
-<p><img alt="select custom script" src="../images/50e08fdf-nodes-hw-scripts__2.4_select.png"></p>
+<p><img alt="select custom script" width="690" height="408" src="../images/50e08fdf-nodes-hw-scripts__2.4_select.png"></p>
 <!-- ui
 Scripts can be uploaded to MAAS using the web UI. Select the 'User scripts' tab of the 'Settings' page - the 'Commissioning scripts' section is near the top. Within the Commissioning scripts section, click the Upload script button followed by 'Choose file' to open a requester, locate the script, and select Upload to upload it to MAAS.
 
 A status message of Commissioning script created will appear.  You'll then be able to select your script after selecting [Test hardware](hardware-testing-826.html) from a machine's 'Take action' menu.
 
-![select custom script](../images/50e08fdf-nodes-hw-scripts__2.4_select.png)
+![select custom script|690x408](../images/50e08fdf-nodes-hw-scripts__2.4_select.png)
  ui -->
 
 <!-- cli
@@ -694,9 +694,9 @@ A status message of Commissioning script created will appear.  You'll then be ab
  cli -->
 
 <h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 MAAS executes scripts in lexicographical order. This order allows you to control when your scripts execute, and whether they run before or after the standard MAAS scripts.
-</blockquote></p>
+[/note]</p>
 <h2 id="heading--debugging">Debugging</h2>
 
 <p>Clicking on the title of a completed or failed script will reveal the output from that specific script.</p>

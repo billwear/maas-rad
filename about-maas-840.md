@@ -2,23 +2,23 @@ MAAS is an open-source tool that lets you build a data centre from bare-metal se
 
 #### Quick questions you might have:
 
-* [What is MAAS?](#heading--about-maas)
+* [What is MAAS?](#heading--what-is-maas)
 * [What does MAAS offer me?](/t/about-maas/840#heading--what-maas-offers)
 * [Can MAAS colocate key components to conserve my resources?](/t/about-maas/840#heading--colocation-of-key-components)
 * [How does MAAS work?](/t/about-maas/840#heading--how-maas-works)
 
-<h2 id="heading--about-maas">What is MAAS?</h2>
+<h2 id="heading--what-is-maas">What is MAAS?</h2>
 
 MAAS expands to "Metal As A Service". It converts bare-metal servers into cloud instances of virtual machines. There is no need to manage individual units. You can quickly provision or destroy machines, as if they were instances hosted in a public cloud like Amazon AWS, Google GCE, or Microsoft Azure.
 
 MAAS can act as a standalone PXE/preseed service or integrate with other technologies. It works exceptionally well with [Juju](https://jaas.ai/docs/maas-cloud), the service and model management tool. MAAS manages the machines and Juju manages the services running on those machines -- a perfect arrangement.  Virtual machines (VMs) can even act as MAAS machines if they boot from the network via PXE.
 
 <!-- vanilla
-![deploying|690x385](../images/d19eff9ef45c554d085ee1d657e4ddd810eac6df.jpeg)  
+![deploying|690x385](images/d19eff9ef45c554d085ee1d657e4ddd810eac6df.jpeg)  
  vanilla -->
 
 <!-- ui
-![deploying|690x385](../images/d19eff9ef45c554d085ee1d657e4ddd810eac6df.jpeg)  
+![deploying|690x385](images/d19eff9ef45c554d085ee1d657e4ddd810eac6df.jpeg)  
  ui -->
 
 <!-- cli
@@ -76,11 +76,11 @@ These tools can be controlled from a [CLI](/t/maas-cli/802) driven by a REST API
  cli -->
 
 <!-- vanilla
-![mixed-states|690x438](../images/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg)  
+![mixed-states|690x438](images/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg)  
  vanilla -->
 
 <!-- ui
-![mixed-states|690x438](../images/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg)  
+![mixed-states|690x438](images/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg)  
  ui -->
 
 <!-- cli
@@ -102,11 +102,11 @@ We generally recommended installing both controllers on the same system.  The de
 In special cases, such as [high availability or load balancing](/t/high-availability/804), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp/759) will cause problems.
 
 <!-- vanilla
-![intro-arch-overview](../images/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png)
+![intro-arch-overview](images/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png)
  vanilla -->
 
 <!-- ui
-![intro-arch-overview](../images/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png)
+![intro-arch-overview](images/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png)
  ui -->
 
 <!-- cli
@@ -128,11 +128,11 @@ Commissioning means that MAAS has successfully booted the machine, scanned and r
 </details>
 
 <!-- vanilla
-![commissioning|606x400](../images/605019de31078dd70df72ff199d812de13a30d00.jpeg) 
+![commissioning|606x400](images/605019de31078dd70df72ff199d812de13a30d00.jpeg) 
  vanilla -->
 
 <!-- ui
-![commissioning|606x400](../images/605019de31078dd70df72ff199d812de13a30d00.jpeg) 
+![commissioning|606x400](images/605019de31078dd70df72ff199d812de13a30d00.jpeg) 
  ui -->
 
 <!-- cli
@@ -148,11 +148,11 @@ MAAS controls machines through IPMI (or another BMC). It can also manage machine
 MAAS users allocate ("acquire") machines for use when needed. The web UI also allows you to acquire machines manually, such as when you are reserving specific hardware for certain users. You can remotely access and customise the installed operating system via SSH.
 
 <!-- vanilla
-![acquire|690x363](../images/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg) 
+![acquire|690x363](images/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg) 
  vanilla -->
 
 <!-- ui
-![acquire|690x363](../images/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg) 
+![acquire|690x363](images/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg) 
  ui -->
 
 <!-- cli

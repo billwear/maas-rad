@@ -16,11 +16,11 @@ An Ubuntu package repository is a repository that makes available Ubuntu package
 MAAS comes equipped with the official Ubuntu repository `archive.ubuntu.com` as well as the equivalent for architectures other than i386 and amd64: `ports.ubuntu.com` as is evident in the default configuration below:
 
 <!-- vanilla
-![default repositories config](../images/77b93794-manage-repositories__2.4_default-repo-config.png)
+![default repositories config](images/77b93794-manage-repositories__2.4_default-repo-config.png)
  vanilla -->
 
 <!-- ui
-![default repositories config](../images/77b93794-manage-repositories__2.4_default-repo-config.png)
+![default repositories config](images/77b93794-manage-repositories__2.4_default-repo-config.png)
  ui -->
 
 <!-- cli
@@ -44,11 +44,11 @@ To add this repository, then, hit the 'Add repository' button and fill in the fi
 Before saving, the form should look very similar to this:
 
 <!-- vanilla
-![add repository](../images/1aa1c512-manage-repositories__2.4_add-repo.png)
+![add repository](images/1aa1c512-manage-repositories__2.4_add-repo.png)
  vanilla -->
 
 <!-- ui
-![add repository](../images/1aa1c512-manage-repositories__2.4_add-repo.png)
+![add repository](images/1aa1c512-manage-repositories__2.4_add-repo.png)
  ui -->
 
 <!-- cli
@@ -72,11 +72,11 @@ Like before, a public GPG key will be needed. Also get this from the PPA's Launc
 To add this PPA, then, hit the 'Add repository' button and fill in the fields. Before saving, the form should look something like this:
 
 <!-- vanilla
-![add PPA](../images/a0962e17-manage-repositories__2.4_add-ppa.png)
+![add PPA](images/a0962e17-manage-repositories__2.4_add-ppa.png)
  vanilla -->
 
 <!-- ui
-![add PPA](../images/a0962e17-manage-repositories__2.4_add-ppa.png)
+![add PPA](images/a0962e17-manage-repositories__2.4_add-ppa.png)
  ui -->
 
 <!-- cli

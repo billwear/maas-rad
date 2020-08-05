@@ -425,9 +425,9 @@
 {&quot;hostname&quot;:&quot;machine3&quot;,&quot;system_id&quot;:&quot;qwkmar&quot;,&quot;status&quot;:4}
 </code></pre>
 
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 You can only edit an interface when the corresponding machine has a status of &lsquo;Ready&rsquo;. This state is numerically denoted by the integer &lsquo;4&rsquo;.
-</blockquote></p>
+[/note]</p>
 <p>List some information for all interfaces on the machine in question (identified by its system id &lsquo;dfgnnd&rsquo;):</p>
 <pre><code class="bash">maas $PROFILE interfaces read dfgnnd | jq &quot;.[] | \
     {id:.id, name:.name, mac:.mac_address, vid:.vlan.vid, fabric:.vlan.fabric}&quot; --compact-output
@@ -492,9 +492,9 @@ maas $PROFILE interface link-subnet exqn37 58 mode=dhcp subnet=192.168.1.0/24
 sudo maas-rack register
 </code></pre>
 
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 The register command is not required when you are adding a rack controller to a system that already houses an API server.
-</blockquote></p>
+[/note]</p>
 <p>MAAS will ask for the URL of the region API server. If you provide a hostname, ensure it is resolvable. Next, MAAS will prompt you for the secret key, stored in file <code>/var/lib/maas/secret</code> on the API server.</p>
 <p>You can get the above information from the web UI by visiting the &lsquo;Controllers&rsquo; page and clicking the button &lsquo;Add rack controller&rsquo;. Here is an example of what you may see:</p>
 <!-- vanilla
@@ -530,7 +530,7 @@ The register command is not required when you are adding a rack controller to a 
 
 <p>[note type=&rdquo;caution&rdquo; status=&rdquo;Important&rdquo;]
 The new default will only apply to newly-commissioned machines.
-</blockquote></p>
+[/note]</p>
 <p>See <a href="storage-775.html">Storage</a> for more details on MAAS storage features.</p>
 <h2 id="heading--set-a-storage-layout">Set a storage layout</h2>
 
@@ -545,7 +545,7 @@ The new default will only apply to newly-commissioned machines.
 <p>You must specify all storage sizes in bytes.</p>
 <p>[note type=&rdquo;caution&rdquo;]
 This action will remove the configuration that may exist on any block device.
-</blockquote></p>
+[/note]</p>
 <h2 id="heading--create-an-a-or-aaaa-record-in-dns">Create an A or AAAA record in DNS</h2>
 
 <p>An administrator can create an A record when creating a DNS resource with an IPv4 address.</p>

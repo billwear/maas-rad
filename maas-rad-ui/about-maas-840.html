@@ -311,7 +311,7 @@
 ![deploying|690x385](../images/d19eff9ef45c554d085ee1d657e4ddd810eac6df.jpeg)  
  vanilla -->
 
-<p><img alt="deploying|690x385" src="../images/d19eff9ef45c554d085ee1d657e4ddd810eac6df.jpeg">  </p>
+<p><img alt="deploying" width="690" height="385" src="../images/d19eff9ef45c554d085ee1d657e4ddd810eac6df.jpeg">  </p>
 <!-- cli
 ### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
  cli -->
@@ -360,25 +360,25 @@ These tools can be controlled from a [CLI](maas-cli-802.html) driven by a REST A
 ![mixed-states|690x438](../images/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg)  
  vanilla -->
 
-<p><img alt="mixed-states|690x438" src="../images/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg">  </p>
+<p><img alt="mixed-states" width="690" height="438" src="../images/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg">  </p>
 <!-- cli
 ### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
  cli -->
 
 <p>MAAS works with any system configuration tools. Both the <a href="https://www.chef.io/chef">Chef</a> and <a href="https://jaas.ai/">Juju</a> teams recommend MAAS as a physical provisioning system.</p>
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 Please note that Windows and RHEL images require <a href="https://www.ubuntu.com/support">Ubuntu Advantage</a> to work correctly with MAAS.
-</blockquote></p>
+[/note]</p>
 <h3 id="heading--colocation-of-key-components">Colocation of key components</h3>
 
 <p>MAAS relies on two key components: the <em>region controller</em> and the <em>rack controller</em>. The region controller handles operator requests; the rack controller provides high-bandwidth services to multiple racks. In essence, rack controllers manage racks, while the region controller manages the data centre.  See <a href="concepts-and-terms-785.html#heading--controllers">Concepts and terms</a> for a deeper understanding of these components.</p>
 <p>We generally recommended installing both controllers on the same system.  The default MAAS install delivers this colocated configuration automatically. This all-in-one solution also provides <a href="managing-dhcp-759.html">DHCP</a>. </p>
 <p>In special cases, such as <a href="high-availability-804.html">high availability or load balancing</a>, you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether <a href="managing-dhcp-759.html">MAAS-managed DHCP</a> will cause problems.</p>
 <!-- vanilla
-![intro-arch-overview](../images/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png)
+![intro-arch-overview|690x406](../images/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png)
  vanilla -->
 
-<p><img alt="intro-arch-overview" src="../images/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png"></p>
+<p><img alt="intro-arch-overview" width="690" height="406" src="../images/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png"></p>
 <!-- cli
 ### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
  cli -->
@@ -395,7 +395,7 @@ Please note that Windows and RHEL images require <a href="https://www.ubuntu.com
 ![commissioning|606x400](../images/605019de31078dd70df72ff199d812de13a30d00.jpeg) 
  vanilla -->
 
-<p><img alt="commissioning|606x400" src="../images/605019de31078dd70df72ff199d812de13a30d00.jpeg"> </p>
+<p><img alt="commissioning" width="606" height="400" src="../images/605019de31078dd70df72ff199d812de13a30d00.jpeg"> </p>
 <!-- cli
 ### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
  cli -->
@@ -403,13 +403,13 @@ Please note that Windows and RHEL images require <a href="https://www.ubuntu.com
 <p>MAAS controls machines through IPMI (or another BMC). It can also manage machines through a converged chassis controller, such as Cisco UCS.  You can choose how you want to control power on your machines based on what is available.  MAAS overwrites the machine&rsquo;s disk space with your chosen, pre-cached OS images.</p>
 <p>[note type=&rdquo;negative&rdquo; status=&rdquo;Warning&rdquo;]
 <em>The above comment about disk space bears repeating: MAAS will overwrite the disk space of all machines it enlists. All pool machines are under the control of MAAS; you should provision them using other methods.</em>
-</blockquote></p>
+[/note]</p>
 <p>MAAS users allocate (&ldquo;acquire&rdquo;) machines for use when needed. The web UI also allows you to acquire machines manually, such as when you are reserving specific hardware for certain users. You can remotely access and customise the installed operating system via SSH.</p>
 <!-- vanilla
 ![acquire|690x363](../images/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg) 
  vanilla -->
 
-<p><img alt="acquire|690x363" src="../images/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg"> </p>
+<p><img alt="acquire" width="690" height="363" src="../images/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg"> </p>
 <!-- cli
 ### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
  cli -->

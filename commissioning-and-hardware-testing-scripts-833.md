@@ -343,7 +343,7 @@ Scripts can be uploaded to MAAS using the web UI. Select the 'User scripts' tab 
 
 A status message of Commissioning script created will appear.  You'll then be able to select your script after selecting [Test hardware](/t/hardware-testing/826) from a machine's 'Take action' menu.
 
-![select custom script](../images/50e08fdf-nodes-hw-scripts__2.4_select.png)
+![select custom script](images/50e08fdf-nodes-hw-scripts__2.4_select.png)
  vanilla -->
 
 <!-- ui
@@ -351,7 +351,7 @@ Scripts can be uploaded to MAAS using the web UI. Select the 'User scripts' tab 
 
 A status message of Commissioning script created will appear.  You'll then be able to select your script after selecting [Test hardware](/t/hardware-testing/826) from a machine's 'Take action' menu.
 
-![select custom script](../images/50e08fdf-nodes-hw-scripts__2.4_select.png)
+![select custom script](images/50e08fdf-nodes-hw-scripts__2.4_select.png)
  ui -->
 
 <!-- cli
@@ -371,11 +371,11 @@ MAAS executes scripts in lexicographical order. This order allows you to control
 Clicking on the title of a completed or failed script will reveal the output from that specific script.
 
 <!-- vanilla
-![failed script output](../images/855015e5-nodes-hw-scripts__2.2_fail.png)
+![failed script output](images/855015e5-nodes-hw-scripts__2.2_fail.png)
  vanilla -->
 
 <!-- ui
-![failed script output](../images/855015e5-nodes-hw-scripts__2.2_fail.png)
+![failed script output](images/855015e5-nodes-hw-scripts__2.2_fail.png)
  ui -->
 
 <!-- cli
@@ -387,11 +387,11 @@ If you need further details, especially when writing and running your own script
 To do this, enable Allow SSH access and prevent the machine from powering off when selecting 'Test hardware' from the machine 'Take action' menu.
 
 <!-- vanilla
-![enable SSH within Test Hardware](../images/da793c67-nodes-hw-scripts__2.4_ssh.png)
+![enable SSH within Test Hardware](images/da793c67-nodes-hw-scripts__2.4_ssh.png)
  vanilla -->
 
 <!-- ui
-![enable SSH within Test Hardware](../images/da793c67-nodes-hw-scripts__2.4_ssh.png)
+![enable SSH within Test Hardware](images/da793c67-nodes-hw-scripts__2.4_ssh.png)
  ui -->
 
 <!-- cli

@@ -37,11 +37,11 @@ You **must** [configure your network](/t/vm-host-networking/1526) to support a V
 
 After installing MAAS, the 'KVM' page is typically empty:
 
-![kvm-open-screen|638x321](../images/fa0cc573f34cb23ca0ac026e97ef5b618ff1fed3.jpeg) 
+![kvm-open-screen|638x321](images/fa0cc573f34cb23ca0ac026e97ef5b618ff1fed3.jpeg) 
 
 If you want to add a [libvirt](https://ubuntu.com/server/docs/virtualization-libvirt) or LXD VM host to a machine which is already installed, you can do so with the 'Add KVM' button:
 
-![new-kvm-add|690x348](../images/197ae57b89b32546cf054fff49452f9025354af8_2_690x348.jpeg) 
+![new-kvm-add|690x348](images/197ae57b89b32546cf054fff49452f9025354af8_2_690x348.jpeg) 
 
 Here, 'Virsh address' typically looks like the following for libvirt:
 
@@ -61,11 +61,11 @@ MAAS will automatically discover and store the resources your VM host contains. 
 
 After installing MAAS, the 'KVM' page is typically empty:
 
-![kvm-open-screen|638x321](../images/fa0cc573f34cb23ca0ac026e97ef5b618ff1fed3.jpeg) 
+![kvm-open-screen|638x321](images/fa0cc573f34cb23ca0ac026e97ef5b618ff1fed3.jpeg) 
 
 If you want to add a [libvirt](https://ubuntu.com/server/docs/virtualization-libvirt) or LXD VM host to a machine which is already installed, you can do so with the 'Add KVM' button:
 
-![new-kvm-add|690x348](../images/197ae57b89b32546cf054fff49452f9025354af8_2_690x348.jpeg) 
+![new-kvm-add|690x348](images/197ae57b89b32546cf054fff49452f9025354af8_2_690x348.jpeg) 
 
 Here, 'Virsh address' typically looks like the following for libvirt:
 
@@ -101,13 +101,13 @@ If you wish to install and configure a VM host from the command line using libvi
 <!-- vanilla
 VM hosts have several configuration options. Modify these by selecting the 'Configuration' tab and clicking 'Edit'. Options include a VM host's location, password, network zone, and default resource pool.
 
-![pod configuration](../images/e6f9b3effcc9e4f44a09836cf6185449410bae7f.png)
+![pod configuration](images/e6f9b3effcc9e4f44a09836cf6185449410bae7f.png)
  vanilla -->
 
 <!-- ui
 VM hosts have several configuration options. Modify these by selecting the 'Configuration' tab and clicking 'Edit'. Options include a VM host's location, password, network zone, and default resource pool.
 
-![pod configuration](../images/e6f9b3effcc9e4f44a09836cf6185449410bae7f.png)
+![pod configuration](images/e6f9b3effcc9e4f44a09836cf6185449410bae7f.png)
  ui -->
 
 <!-- cli
@@ -136,11 +136,11 @@ The following shows theoretical examples of these ratios and how they affect phy
 -   `128GB physical memory  * 5.5 multiplier  = 704G virtual Memory`
 
 <!-- vanilla
-![kvm-overcommit|690x269](../images/27a8f21392af3d29a500e33f99e1f79c578cf29c_2_690x269.jpeg) 
+![kvm-overcommit|690x269](images/27a8f21392af3d29a500e33f99e1f79c578cf29c_2_690x269.jpeg) 
  vanilla -->
 
 <!-- ui
-![kvm-overcommit|690x269](../images/27a8f21392af3d29a500e33f99e1f79c578cf29c_2_690x269.jpeg) 
+![kvm-overcommit|690x269](images/27a8f21392af3d29a500e33f99e1f79c578cf29c_2_690x269.jpeg) 
  ui -->
 
 <!-- cli

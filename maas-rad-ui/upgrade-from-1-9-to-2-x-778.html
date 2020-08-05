@@ -326,9 +326,9 @@ Reserved range (3): 192.168.0.200 -&gt; 192.168.0.254
 </code></pre>
 
 <p>The above example shows a static range replaced by three reserved ranges to create an equivalent configuration.</p>
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 With MAAS 2.1+, <a href="network-discovery-758.html">network devices discovery</a> uses the ARP protocol to determine which addresses are being used, allowing MAAS to automatically avoid assigning recently used IP addresses.
-</blockquote></p>
+[/note]</p>
 <h2 id="heading--troubleshooting">Troubleshooting</h2>
 
 <p>The upgrade process can be complex, and depending on your installation, may require manual intervention. You may be asked whether you want to overwrite some files, PostgreSQL files in particular, especially if you&rsquo;ve implemented high availability in PostgreSQL (see <a href="postgresql-ha-hot-standby-803.html">PostgreSQL HA</a>). If you&rsquo;ve made no modifications to these files, you can instruct the upgrade process to overwrite them. Otherwise, you&rsquo;ll need to merge the new changes into the files manually.</p>

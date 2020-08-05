@@ -24,11 +24,11 @@ You can use the MAAS UI to configure a bridge to connect a VM host to MAAS:
 3. Select the network where you want to create the bridge and click "Create bridge:"
 
 <!-- vanilla
-![select_interface_for_bridge|690x391](../images/29624d737106c5bad777aee9d2c8cad9c3de7151_2_690x391.jpeg) 
+![select_interface_for_bridge|690x391](images/29624d737106c5bad777aee9d2c8cad9c3de7151_2_690x391.jpeg) 
  vanilla -->
 
 <!-- ui
-![select_interface_for_bridge|690x391](../images/29624d737106c5bad777aee9d2c8cad9c3de7151_2_690x391.jpeg) 
+![select_interface_for_bridge|690x391](images/29624d737106c5bad777aee9d2c8cad9c3de7151_2_690x391.jpeg) 
  ui -->
 
 <!-- cli
@@ -38,11 +38,11 @@ You can use the MAAS UI to configure a bridge to connect a VM host to MAAS:
 4. Configure the bridge on a subnet MAAS controls.  You may use any IP mode for the bridge:
 
 <!-- vanilla
-![save_bridge|690x393](../images/dd8567ff1cd76606c5ce1751e606fcfab2bc7ce2_2_690x393.jpeg) 
+![save_bridge|690x393](images/dd8567ff1cd76606c5ce1751e606fcfab2bc7ce2_2_690x393.jpeg) 
  vanilla -->
 
 <!-- ui
-![save_bridge|690x393](../images/dd8567ff1cd76606c5ce1751e606fcfab2bc7ce2_2_690x393.jpeg) 
+![save_bridge|690x393](images/dd8567ff1cd76606c5ce1751e606fcfab2bc7ce2_2_690x393.jpeg) 
  ui -->
 
 <!-- cli
@@ -52,11 +52,11 @@ You can use the MAAS UI to configure a bridge to connect a VM host to MAAS:
 When you're done, it should look something like this:
 
 <!-- vanilla
-![configured_bridge|690x391](../images/e392d638f0acecb9d54c81bbca4ee17cbcd05445_2_690x391.jpeg) 
+![configured_bridge|690x391](images/e392d638f0acecb9d54c81bbca4ee17cbcd05445_2_690x391.jpeg) 
  vanilla -->
 
 <!-- ui
-![configured_bridge|690x391](../images/e392d638f0acecb9d54c81bbca4ee17cbcd05445_2_690x391.jpeg) 
+![configured_bridge|690x391](images/e392d638f0acecb9d54c81bbca4ee17cbcd05445_2_690x391.jpeg) 
  ui -->
 
 <!-- cli
