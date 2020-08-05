@@ -27,11 +27,11 @@ Same as Standard erase but only targets the first 1 MB and the last 1 MB of each
 A default erasure configuration can be set on the 'Settings' page by selecting the 'Storage' tab.
 
 <!-- vanilla
-![disk erasure default settings](../images/4e90c4c7-installconfig-storage-erasure__defaults.png)
+![disk erasure default settings](images/4e90c4c7-installconfig-storage-erasure__defaults.png)
  vanilla -->
 
 <!-- ui
-![disk erasure default settings](../images/4e90c4c7-installconfig-storage-erasure__defaults.png)
+![disk erasure default settings](images/4e90c4c7-installconfig-storage-erasure__defaults.png)
  ui -->
 
 <!-- cli
@@ -43,11 +43,11 @@ If option 'Erase machines' disks prior to releasing' is chosen then users will b
 With the above defaults, the machine's view will look like this when the Release action is chosen:
 
 <!-- vanilla
-![disk erasure default node view](../images/66e1dcc2-installconfig-storage-erasure__defaults-node.png)
+![disk erasure default node view](images/66e1dcc2-installconfig-storage-erasure__defaults-node.png)
  vanilla -->
 
 <!-- ui
-![disk erasure default node view](../images/66e1dcc2-installconfig-storage-erasure__defaults-node.png)
+![disk erasure default node view](images/66e1dcc2-installconfig-storage-erasure__defaults-node.png)
  ui -->
 
 <!-- cli

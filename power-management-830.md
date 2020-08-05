@@ -11,11 +11,11 @@ To manage a machine, MAAS must be able to power cycle it, usually through the ma
 To configure a machine's power type, click on the machine from the 'Machines' page of the web UI, then select its 'Configuration' tab. Scroll down until you find the Power configuration. If the power type is undefined, the following will be displayed:
 
 <!-- vanilla
-![power types undefined|690x46](../images/4fae5977-nodes-power-types__2.4_undefined.png)
+![power types undefined](images/4fae5977-nodes-power-types__2.4_undefined.png)
  vanilla -->
 
 <!-- ui
-![power types undefined|690x46](../images/4fae5977-nodes-power-types__2.4_undefined.png)
+![power types undefined](images/4fae5977-nodes-power-types__2.4_undefined.png)
  ui -->
 
 <!-- cli
@@ -25,11 +25,11 @@ To configure a machine's power type, click on the machine from the 'Machines' pa
 Choose a type in the dropdown menu that corresponds to the machine's underlying machine's BMC card.
 
 <!-- vanilla
-![power types selection|690x399](../images/b53c6613-nodes-power-types__2.4_selection.png)
+![power types selection](images/b53c6613-nodes-power-types__2.4_selection.png)
  vanilla -->
 
 <!-- ui
-![power types selection|690x399](../images/b53c6613-nodes-power-types__2.4_selection.png)
+![power types selection](images/b53c6613-nodes-power-types__2.4_selection.png)
  ui -->
 
 <!-- cli
@@ -41,11 +41,11 @@ Fill in the resulting form; the information required will depends on the power t
 Click 'Save changes' to finish. Once that's done, MAAS performs a power check on the machine. A successful power check is a good indication that MAAS can properly communicate with the machine, that is, it should quickly result in a power status of "Power off". A failed attempt will show:
 
 <!-- vanilla
-![power types power error|690x108](../images/3bd5e93b-nodes-power-types__2.4_power-error.png)
+![power types power error](images/3bd5e93b-nodes-power-types__2.4_power-error.png)
  vanilla -->
 
 <!-- ui
-![power types power error|690x108](../images/3bd5e93b-nodes-power-types__2.4_power-error.png)
+![power types power error](images/3bd5e93b-nodes-power-types__2.4_power-error.png)
  ui -->
 
 <!-- cli
@@ -61,11 +61,11 @@ Another possible cause for this error may be the networking: traffic may be gett
 Consider a machine backed by VM. Below, a 'Power type' of `Virsh` has been selected, and the 'Power address' of `qemu+ssh://ubuntu@192.168.1.2/system` has been entered (replace values as appropriate).  The value of 'Power ID' is the VM domain (guest) name, here `node2`.
 
 <!-- vanilla
-![power types example: virsh|690x344](../images/c75e00a8-nodes-power-types__2.4_example-virsh.png)
+![power types example: virsh](images/c75e00a8-nodes-power-types__2.4_example-virsh.png)
  vanilla -->
 
 <!-- ui
-![power types example: virsh|690x344](../images/c75e00a8-nodes-power-types__2.4_example-virsh.png)
+![power types example: virsh](images/c75e00a8-nodes-power-types__2.4_example-virsh.png)
  ui -->
 
 <!-- cli
