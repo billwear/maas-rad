@@ -1,242 +1,138 @@
-To manage a machine, MAAS must be able to power cycle it, usually through the machine's [BMC](https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface#Baseboard_management_controller) card.  Until you configure the power type, a newly-added machine can't be enlisted and used by MAAS.
-
-#### Quick questions you may have:
-
-* [How do I configure a machine's power type?](/t/power-management/830#heading--config-power-type)
-* [Can you give me an example of the virsh power type?](/t/power-management/830#heading--example-virsh-kvm-power-type)
-* [Which BMC drivers are supported?](/t/power-management/830#heading--bmc-driver-support)
-
-<h2 id="heading--config-power-type">Configure a machine's power type</h2>
-
-To configure a machine's power type, click on the machine from the 'Machines' page of the web UI, then select its 'Configuration' tab. Scroll down until you find the Power configuration. If the power type is undefined, the following will be displayed:
-
-<!-- vanilla
-![power types undefined|690x46](../images/4fae5977-nodes-power-types__2.4_undefined.png)
- vanilla -->
-
-<!-- ui
-![power types undefined|690x46](../images/4fae5977-nodes-power-types__2.4_undefined.png)
- ui -->
-
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
-
-Choose a type in the dropdown menu that corresponds to the machine's underlying machine's BMC card.
-
-<!-- vanilla
-![power types selection|690x399](../images/b53c6613-nodes-power-types__2.4_selection.png)
- vanilla -->
-
-<!-- ui
-![power types selection|690x399](../images/b53c6613-nodes-power-types__2.4_selection.png)
- ui -->
-
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
-
-Fill in the resulting form; the information required will depends on the power type.
-
-Click 'Save changes' to finish. Once that's done, MAAS performs a power check on the machine. A successful power check is a good indication that MAAS can properly communicate with the machine, that is, it should quickly result in a power status of "Power off". A failed attempt will show:
-
-<!-- vanilla
-![power types power error|690x108](../images/3bd5e93b-nodes-power-types__2.4_power-error.png)
- vanilla -->
-
-<!-- ui
-![power types power error|690x108](../images/3bd5e93b-nodes-power-types__2.4_power-error.png)
- ui -->
-
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
-
-If you see this error, double-check your entered values by editing the power type, or  consider another power type altogether.
-
-Another possible cause for this error may be the networking: traffic may be getting filtered between the rack controller and the BMC card.
-
-<h2 id="heading--example-virsh-kvm-power-type">An example: the Virsh power type</h2>
-
-Consider a machine backed by VM. Below, a 'Power type' of `Virsh` has been selected, and the 'Power address' of `qemu+ssh://ubuntu@192.168.1.2/system` has been entered (replace values as appropriate).  The value of 'Power ID' is the VM domain (guest) name, here `node2`.
-
-<!-- vanilla
-![power types example: virsh|690x344](../images/c75e00a8-nodes-power-types__2.4_example-virsh.png)
- vanilla -->
-
-<!-- ui
-![power types example: virsh|690x344](../images/c75e00a8-nodes-power-types__2.4_example-virsh.png)
- ui -->
-
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+If you wish, you can tell MAAS to test machine hardware using well-known Linux utilities.  MAAS can test machines that have  a status of **Ready**, **Broken**, or **Deployed**.  You can include testing as part of the commissioning process. When you choose the 'Commission' action, MAAS will display the dialog described below.  Be aware, though, that if the hardware tests fail, the machine will become unavailable for Deployment.
 
 [note]
-The machine's hostname -- according to MAAS -- is a randomly chosen string (here `dear.ant`). You should change this hostname to something descriptive, that helps you remember why this machine is in your MAAS network.
+The majority of testing scripts only work with machines that are backed by physical hardware (e.g. they may be incompatible with VM-based machines).
 [/note]
 
-<h2 id="heading--bmc-driver-support">Which BMC drivers are supported</h2>
+#### Questions you may have: 
 
-MAAS supports many types of BMC hardware, though not all the drivers have the same capabilities. See the below table for a feature comparison of the BMC drivers currently supported by MAAS.
+* [How do I apply a hardware test?](/t/hardware-testing/826#heading--apply-a-hardware-test)
+* [What scripts are available for testing?](/t/hardware-testing/826#heading--included-scripts)
 
-zorkDzorkSTell me about BMCzorkSC
+<h2 id="heading--apply-a-hardware-test">Apply a hardware test</h2>
 
-BMC, or "Baseboard Management Controller," is an extra microcontroller on the motherboard of a server which forms the interface between system-management software and the device's hardware.  The BMC can collect data from attached sensors, alert administrators to issues, and respond to remote-control commands to control system operation or power state, independent of the system's CPU.
+To launch a test, select the target machine from the 'Machines' page and use the 'Take action' drop-down menu to select 'Test hardware'. When ready, hit the 'Test machine' button. Here, a test is applied to a deployed machine:
 
-In the context of MAAS, the BMC is generally controlled by SNMP commands.  Any given BMC will function in the context of one or more "power types," which are physical interfaces that permit use of the IPMI ("Intelligent Platform Management Interface") protocol.  Each power type has a different set of expected parameters required to access and command the BMC.
+<!-- vanilla
+![hw test deployed node|690x345](../images/8e876889-nodes-hw-testing__2.4_deployed.png)
+ vanilla -->
 
-zorkDC
+<!-- ui
+![hw test deployed node|690x345](../images/8e876889-nodes-hw-testing__2.4_deployed.png)
+ ui -->
 
-<table>
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+
+There is the option of not powering off the machine and to allow SSH access.
+
+A default test will be selected (`smartctl-validate`, a hard drive test) but you can choose others by clicking the 'Select scripts' label. Doing so will reveal the following choices:
+
+<!-- vanilla
+![hw test deployed node choices|690x379](../images/ccfefe25-nodes-hw-testing__2.4_deployed-choices.png)
+ vanilla -->
+
+<!-- ui
+![hw test deployed node choices|690x379](../images/ccfefe25-nodes-hw-testing__2.4_deployed-choices.png)
+ ui -->
+
+### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
+
+<h2 id="heading--included-scripts">Scripts available for testing</h2>
+
+The following hardware testing scripts can be selected from the web UI:
+
+<table style="width:17%;">
 <colgroup>
-<col width="35%" />
-<col width="12%" />
-<col width="10%" />
-<col width="14%" />
-<col width="15%" />
-<col width="11%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Power Driver (<em>X=supported</em>)</th>
-<th>PXE Next Boot</th>
-<th>Power Querying</th>
-<th>Chassis/Pod Configuration</th>
-<th>Enhanced UI Error Reporting</th>
-<th>BMC Enlistment</th>
+<th align="center">Name</th>
+<th align="center">Category Tags</th>
+<th align="center">Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">American Power Conversion (APC) - PDU</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td align="center"><strong>smartctl-short</strong></td>
+<td align="center">storage</td>
+<td align="center">Run the short SMART self-test and validate SMART health on all drives in parallel</td>
 </tr>
 <tr class="even">
-<td align="left">Cisco UCS Manager</td>
-<td>X</td>
-<td>X</td>
-<td>X</td>
-<td></td>
-<td></td>
+<td align="center"><strong>smartctl-long</strong></td>
+<td align="center">storage</td>
+<td align="center">Run the long SMART self-test and validate SMART health on all drives in parallel</td>
 </tr>
 <tr class="odd">
-<td align="left">Digital Loggers, Inc. - PDU</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td align="center"><strong>smartctl-conveyance</strong></td>
+<td align="center">storage</td>
+<td align="center">Run the conveyance SMART self-test and validate SMART health on all drives in parallel</td>
 </tr>
 <tr class="even">
-<td align="left">Facebook's Wedge <code>*</code></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td align="center"><strong>memtester</strong></td>
+<td align="center">memory</td>
+<td align="center">Run memtester against all available userspace memory.</td>
 </tr>
 <tr class="odd">
-<td align="left">HP Moonshot - iLO Chassis Manager</td>
-<td>X</td>
-<td>X</td>
-<td>X</td>
-<td></td>
-<td></td>
+<td align="center"><strong>internet-connectivity</strong></td>
+<td align="center">network, internet, node</td>
+<td align="center">Check if the system has access to the internet.</td>
 </tr>
 <tr class="even">
-<td align="left">HP Moonshot - iLO4 (IPMI)</td>
-<td>X</td>
-<td>X</td>
-<td></td>
-<td></td>
-<td>X</td>
+<td align="center"><strong>stress-ng-cpu-long</strong></td>
+<td align="center">cpu</td>
+<td align="center">Run stress-ng memory tests for 12 hours.</td>
 </tr>
 <tr class="odd">
-<td align="left">IBM Hardware Management Console (HMC)</td>
-<td>X</td>
-<td>X</td>
-<td></td>
-<td></td>
-<td></td>
+<td align="center"><strong>stress-ng-cpu-short</strong></td>
+<td align="center">cpu</td>
+<td align="center">Run stress-ng memory tests for 5 minutes.</td>
 </tr>
 <tr class="even">
-<td align="left">IPMI</td>
-<td>X</td>
-<td>X</td>
-<td></td>
-<td>X</td>
-<td>X</td>
+<td align="center"><strong>stress-ng-memory-long</strong></td>
+<td align="center">memory</td>
+<td align="center">Run stress-ng memory tests for 12 hours.</td>
 </tr>
 <tr class="odd">
-<td align="left">Intel AMT</td>
-<td>X</td>
-<td>X</td>
-<td></td>
-<td>X</td>
-<td></td>
+<td align="center"><strong>stress-ng-memory-short</strong></td>
+<td align="center">memory</td>
+<td align="center">Run stress-ng memory tests for 5 minutes.</td>
 </tr>
 <tr class="even">
-<td align="left">Manual</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td align="center"><strong>ntp</strong></td>
+<td align="center">network, ntp, node</td>
+<td align="center">Run ntp clock set to verify NTP connectivity.</td>
 </tr>
 <tr class="odd">
-<td align="left">Microsoft OCS - Chassis Manager</td>
-<td>X</td>
-<td>X</td>
-<td>X</td>
-<td></td>
-<td></td>
+<td align="center"><strong>badblocks</strong></td>
+<td align="center">storage</td>
+<td align="center">Run badblocks on disk in read-only mode.</td>
 </tr>
 <tr class="even">
-<td align="left">OpenStack Nova</td>
-<td></td>
-<td>X</td>
-<td></td>
-<td></td>
-<td></td>
+<td align="center"><strong>badblocks-destructive</strong></td>
+<td align="center">destructive, storage</td>
+<td align="center">Run badblocks on a disk in read/write destructive mode.</td>
 </tr>
 <tr class="odd">
-<td align="left">Rack Scale Design</td>
-<td>X</td>
-<td>X</td>
-<td>X</td>
-<td></td>
-<td></td>
+<td align="center"><strong>7z</strong></td>
+<td align="center">cpu</td>
+<td align="center">Run <em>7zip</em> CPU benchmarking.</td>
 </tr>
 <tr class="even">
-<td align="left">SeaMicro 15000</td>
-<td>X</td>
-<td>X</td>
-<td>X</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td align="left">Sentry Switch CDU - PDU</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td align="left">VMWare</td>
-<td>X</td>
-<td>X</td>
-<td>X</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td align="left">Virsh (virtual systems)</td>
-<td>X</td>
-<td>X</td>
-<td>X</td>
-<td></td>
-<td></td>
+<td align="center"><strong>fio</strong></td>
+<td align="center">storage, destructive</td>
+<td align="center">Run Fio benchmarking against selected storage devices.</td>
 </tr>
 </tbody>
 </table>
 
-`*` The 'Facebook's Wedge' OpenBMC power driver is considered experimental at this time.
+After either commissioning, testing, or installation has started, MAAS reports in real-time which script is running.
+
+You can access the verbatim output from any test by selecting a machine, selecting the 'Hardware tests' page and clicking on the 'Log view' link in the 'Results' column for the specific test.
+
+See [Commissioning and Hardware Testing Scripts](/t/commissioning-and-hardware-testing-scripts/833) for more details on how these scripts work and how you can write your own.
+
+<!-- LINKS -->
+<!-- IMAGES -->

@@ -343,7 +343,7 @@ Scripts can be uploaded to MAAS using the web UI. Select the 'User scripts' tab 
 
 A status message of Commissioning script created will appear.  You'll then be able to select your script after selecting [Test hardware](/t/hardware-testing/826) from a machine's 'Take action' menu.
 
-![select custom script](../images/50e08fdf-nodes-hw-scripts__2.4_select.png)
+![select custom script|690x408](../images/50e08fdf-nodes-hw-scripts__2.4_select.png)
  vanilla -->
 
 <!-- ui
@@ -351,7 +351,7 @@ Scripts can be uploaded to MAAS using the web UI. Select the 'User scripts' tab 
 
 A status message of Commissioning script created will appear.  You'll then be able to select your script after selecting [Test hardware](/t/hardware-testing/826) from a machine's 'Take action' menu.
 
-![select custom script](../images/50e08fdf-nodes-hw-scripts__2.4_select.png)
+![select custom script|690x408](../images/50e08fdf-nodes-hw-scripts__2.4_select.png)
  ui -->
 
 <!-- cli
