@@ -18,11 +18,11 @@ MAAS 2.8 adds the beta capability to use LXD-based VM hosts and virtual machines
 Within MAAS 2.8, we have made a number of performance improvements to everything related to the machine listing.  Some of the most visible changes involve the way that long lists are presented within categories (see the example below), but there are a number of other changes that make the list easier and more efficient to use.
 
 <!-- vanilla
-![new-machine-list|690x357](images/b4ec4124225f052fb8646f754c22d287fffcc850.jpeg) 
+![new-machine-list|690x357](../images/b4ec4124225f052fb8646f754c22d287fffcc850.jpeg) 
  vanilla -->
 
 <!-- ui
-![new-machine-list|690x357](images/b4ec4124225f052fb8646f754c22d287fffcc850.jpeg) 
+![new-machine-list|690x357](../images/b4ec4124225f052fb8646f754c22d287fffcc850.jpeg) 
  ui -->
 
 <!-- cli

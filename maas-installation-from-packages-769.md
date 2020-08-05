@@ -21,18 +21,18 @@ apt-cache search maas
 As an example, running this command might produce output that looks like this:
 
 <!-- vanilla
-![apt-cache-maas-output|690x339](imagesgiaZfenWDEkils5KCgA6BlgC6L.jpeg) 
+![apt-cache-maas-output|690x339](../imagesgiaZfenWDEkils5KCgA6BlgC6L.jpeg) 
  vanilla -->
 
 <!-- ui
-![apt-cache-maas-output|690x339](imagesgiaZfenWDEkils5KCgA6BlgC6L.jpeg) 
+![apt-cache-maas-output|690x339](../imagesgiaZfenWDEkils5KCgA6BlgC6L.jpeg) 
  ui -->
 
 <!-- cli
 ### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
  cli -->
 
-The 'maas' metapackage is the recommended way to install MAAS. See the [Introduction](/t/what-is-maas/840#heading--key-components-and-colocation-of-all-services) for more detail on colocating all services on a single host.  Note that high availability with MAAS involves installing multiple region/rack controllers. See [MAAS HA](/t/high-availability/804) for more information on this topic.
+The 'maas' metapackage is the recommended way to install MAAS. See the [Introduction](/t/about-maas/840#heading--key-components-and-colocation-of-all-services) for more detail on colocating all services on a single host.  Note that high availability with MAAS involves installing multiple region/rack controllers. See [MAAS HA](/t/high-availability/804) for more information on this topic.
 
 <h2 id="heading--package-repositories">Package repositories</h2>
 
@@ -45,11 +45,11 @@ apt-cache madison maas
 which produces output similar to this:
 
 <!-- vanilla
-![apt-cache-madison-output|690x100](imagesvbYbb4hTxUaiufHj4aErENwkVAh.jpeg) 
+![apt-cache-madison-output|690x100](../imagesvbYbb4hTxUaiufHj4aErENwkVAh.jpeg) 
  vanilla -->
 
 <!-- ui
-![apt-cache-madison-output|690x100](imagesvbYbb4hTxUaiufHj4aErENwkVAh.jpeg) 
+![apt-cache-madison-output|690x100](../imagesvbYbb4hTxUaiufHj4aErENwkVAh.jpeg) 
  ui -->
 
 <!-- cli
@@ -70,11 +70,11 @@ sudo apt-add-repository -yu ppa:maas/2.7
 which produces output similar to:
 
 <!-- vanilla
-![add-maas-2-7-ppa|690x494](imagesp65sJ6uRq2w22SFfxvLze2dEjsP.jpeg) 
+![add-maas-2-7-ppa|690x494](../imagesp65sJ6uRq2w22SFfxvLze2dEjsP.jpeg) 
  vanilla -->
 
 <!-- ui
-![add-maas-2-7-ppa|690x494](imagesp65sJ6uRq2w22SFfxvLze2dEjsP.jpeg) 
+![add-maas-2-7-ppa|690x494](../imagesp65sJ6uRq2w22SFfxvLze2dEjsP.jpeg) 
  ui -->
 
 <!-- cli
@@ -84,11 +84,11 @@ which produces output similar to:
 If you check available versions again, you will see that the new repository is now available:
 
 <!-- vanilla
-![apt-cache-madison-2-7|690x126](images1ukIlIJPuPTYDZa2STEcNGJF1hv.jpeg) 
+![apt-cache-madison-2-7|690x126](../images1ukIlIJPuPTYDZa2STEcNGJF1hv.jpeg) 
  vanilla -->
 
 <!-- ui
-![apt-cache-madison-2-7|690x126](images1ukIlIJPuPTYDZa2STEcNGJF1hv.jpeg) 
+![apt-cache-madison-2-7|690x126](../images1ukIlIJPuPTYDZa2STEcNGJF1hv.jpeg) 
  ui -->
 
 <!-- cli
@@ -106,11 +106,11 @@ sudo apt install maas
 Executing this command leads you to a list of dependent packages to be installed, and a summary prompt that lets you choose whether to continue with the install:
 
 <!-- vanilla
-![apt-install-maas-y-n|522x499](images26gNdi5vdnCMEDqgO9bp2xXz68R.jpeg) 
+![apt-install-maas-y-n|522x499](../images26gNdi5vdnCMEDqgO9bp2xXz68R.jpeg) 
  vanilla -->
 
 <!-- ui
-![apt-install-maas-y-n|522x499](images26gNdi5vdnCMEDqgO9bp2xXz68R.jpeg) 
+![apt-install-maas-y-n|522x499](../images26gNdi5vdnCMEDqgO9bp2xXz68R.jpeg) 
  ui -->
 
 <!-- cli
@@ -147,11 +147,11 @@ sudo maas createadmin --username=$PROFILE --email=$EMAIL_ADDRESS
 <p>For example, the process might go like this:</p>
 
 <!-- vanilla
-![apt-create-admin-sequence|690x67](images72BsWNvix7Wfm45vFLbMIjV6WBX.jpeg) 
+![apt-create-admin-sequence|690x67](../images72BsWNvix7Wfm45vFLbMIjV6WBX.jpeg) 
  vanilla -->
 
 <!-- ui
-![apt-create-admin-sequence|690x67](images72BsWNvix7Wfm45vFLbMIjV6WBX.jpeg) 
+![apt-create-admin-sequence|690x67](../images72BsWNvix7Wfm45vFLbMIjV6WBX.jpeg) 
  ui -->
 
 <!-- cli
@@ -165,11 +165,11 @@ sudo maas createadmin --username=$PROFILE --email=$EMAIL_ADDRESS
 Finally, the <code>createadmin</code> option asks for an SSH key:
 
 <!-- vanilla
-![create-admin-ssh-key-prompt|475x26](imagesa9E7n9qKDwZCeuDvLKwyv3imTXE.jpeg) 
+![create-admin-ssh-key-prompt|475x26](../imagesa9E7n9qKDwZCeuDvLKwyv3imTXE.jpeg) 
  vanilla -->
 
 <!-- ui
-![create-admin-ssh-key-prompt|475x26](imagesa9E7n9qKDwZCeuDvLKwyv3imTXE.jpeg) 
+![create-admin-ssh-key-prompt|475x26](../imagesa9E7n9qKDwZCeuDvLKwyv3imTXE.jpeg) 
  ui -->
 
 <!-- cli

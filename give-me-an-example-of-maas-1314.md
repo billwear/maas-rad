@@ -1,11 +1,11 @@
 An evolving example may be useful to introduce you to MAAS, and it doesn't have to be comprehensive --  just coherent and plausible.  This example will continue to expand and update over time.
 
 <!-- vanilla
-![splash-screen|690x406](images/18456dbd3fbfec14eddd044816fd0719692282da_2_690x406.jpeg) 
+![splash-screen|690x406](../images/18456dbd3fbfec14eddd044816fd0719692282da_2_690x406.jpeg) 
  vanilla -->
 
 <!-- ui
-![splash-screen|690x406](images/18456dbd3fbfec14eddd044816fd0719692282da_2_690x406.jpeg) 
+![splash-screen|690x406](../images/18456dbd3fbfec14eddd044816fd0719692282da_2_690x406.jpeg) 
  ui -->
 
 <!-- cli
@@ -40,11 +40,11 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 1. Open the Virtual Machine Manager application.  You'll see a screen that looks something like this:
 
 <!-- vanilla
-![vmm|690x330](images/f66940a21313a27734bcaef6c539d36a720a6834_2_690x330.jpeg) 
+![vmm|690x330](../images/f66940a21313a27734bcaef6c539d36a720a6834_2_690x330.jpeg) 
  vanilla -->
 
 <!-- ui
-![vmm|690x330](images/f66940a21313a27734bcaef6c539d36a720a6834_2_690x330.jpeg) 
+![vmm|690x330](../images/f66940a21313a27734bcaef6c539d36a720a6834_2_690x330.jpeg) 
  ui -->
 
 <!-- cli
@@ -54,11 +54,11 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 2. Choose File --> New Virtual Machine, which brings you to a corresponding dialog:
 
 <!-- vanilla
-![kvm-1|465x500](images/0702d9f2ab4c3659d13be553449093548a9e2f10.jpeg) 
+![kvm-1|465x500](../images/0702d9f2ab4c3659d13be553449093548a9e2f10.jpeg) 
  vanilla -->
 
 <!-- ui
-![kvm-1|465x500](images/0702d9f2ab4c3659d13be553449093548a9e2f10.jpeg) 
+![kvm-1|465x500](../images/0702d9f2ab4c3659d13be553449093548a9e2f10.jpeg) 
  ui -->
 
 <!-- cli
@@ -68,11 +68,11 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 3. Select the "Network Boot (PXE)" option and click the "Forward" button:
 
 <!-- vanilla
-![kvm-2|465x500](images/0000fb5f072f2b3668465753ae6a713859d8a444.jpeg)
+![kvm-2|465x500](../images/0000fb5f072f2b3668465753ae6a713859d8a444.jpeg)
  vanilla -->
 
 <!-- ui
-![kvm-2|465x500](images/0000fb5f072f2b3668465753ae6a713859d8a444.jpeg)
+![kvm-2|465x500](../images/0000fb5f072f2b3668465753ae6a713859d8a444.jpeg)
  ui -->
 
 <!-- cli
@@ -82,11 +82,11 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 4.  Choose the "Generic..." operating system by typing the first letters of "Generic" in the text box and selecting the relevant choice when it becomes available, then go Forward:
 
 <!-- vanilla
-![kvm-3|465x500](images/041914a0718633fce685ac7919e2478da0e62c1b.jpeg) 
+![kvm-3|465x500](../images/041914a0718633fce685ac7919e2478da0e62c1b.jpeg) 
  vanilla -->
 
 <!-- ui
-![kvm-3|465x500](images/041914a0718633fce685ac7919e2478da0e62c1b.jpeg) 
+![kvm-3|465x500](../images/041914a0718633fce685ac7919e2478da0e62c1b.jpeg) 
  ui -->
 
 <!-- cli
@@ -96,11 +96,11 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 5. For CPU and memory, you can usually accept the defaults:
 
 <!-- vanilla
-![kvm-4|465x500](images/5a46262e3573aae7252951b3331ac9e3f3ef69c4.jpeg) 
+![kvm-4|465x500](../images/5a46262e3573aae7252951b3331ac9e3f3ef69c4.jpeg) 
  vanilla -->
 
 <!-- ui
-![kvm-4|465x500](images/5a46262e3573aae7252951b3331ac9e3f3ef69c4.jpeg) 
+![kvm-4|465x500](../images/5a46262e3573aae7252951b3331ac9e3f3ef69c4.jpeg) 
  ui -->
 
 <!-- cli
@@ -110,11 +110,11 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 6. whereas the storage values have a noticeable effect on local disk usage, so note that, generally, a VM only requires about 5.0 GiB, given an example exercise like this:
 
 <!-- vanilla
-![kvm-5|465x500](images/15f5e344c03bd1469c00333d466027e403c00ee8.jpeg) 
+![kvm-5|465x500](../images/15f5e344c03bd1469c00333d466027e403c00ee8.jpeg) 
  vanilla -->
 
 <!-- ui
-![kvm-5|465x500](images/15f5e344c03bd1469c00333d466027e403c00ee8.jpeg) 
+![kvm-5|465x500](../images/15f5e344c03bd1469c00333d466027e403c00ee8.jpeg) 
  ui -->
 
 <!-- cli
@@ -124,11 +124,11 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 7. In the next screen, you'll have the chance to set a name; here, we've used a pseudo-MAC address, although you can name the machine whatever you want (and then return later to set the name to match the MAC address, if desired):
 
 <!-- vanilla
-![kvm-6|465x500](images/d4191b100d963032d47fed1f198aea76e8de273e.jpeg) 
+![kvm-6|465x500](../images/d4191b100d963032d47fed1f198aea76e8de273e.jpeg) 
  vanilla -->
 
 <!-- ui
-![kvm-6|465x500](images/d4191b100d963032d47fed1f198aea76e8de273e.jpeg) 
+![kvm-6|465x500](../images/d4191b100d963032d47fed1f198aea76e8de273e.jpeg) 
  ui -->
 
 <!-- cli
@@ -138,11 +138,11 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 8. Selecting "Finish" will create the virtual machine and attempt to boot it -- which will fail, since no device currently knows about this VM (and hence can't boot it).  Not to worry; you're not done yet:
 
 <!-- vanilla
-![kvm-7|625x500](images/09b4e50049c2a251d100113e50a241d0c4a06f51.jpeg) 
+![kvm-7|625x500](../images/09b4e50049c2a251d100113e50a241d0c4a06f51.jpeg) 
  vanilla -->
 
 <!-- ui
-![kvm-7|625x500](images/09b4e50049c2a251d100113e50a241d0c4a06f51.jpeg) 
+![kvm-7|625x500](../images/09b4e50049c2a251d100113e50a241d0c4a06f51.jpeg) 
  ui -->
 
 <!-- cli
@@ -152,11 +152,11 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 9. Select the "information" button (blue circle, white lowercase "i") to switch to the VM configuration screens, then select the "Boot Options" choice from the left-hand menu:
 
 <!-- vanilla
-![kvm-9|619x500](images/7b6cd37f7663db53571845da0159977092898fa4.jpeg) 
+![kvm-9|619x500](../images/7b6cd37f7663db53571845da0159977092898fa4.jpeg) 
  vanilla -->
 
 <!-- ui
-![kvm-9|619x500](images/7b6cd37f7663db53571845da0159977092898fa4.jpeg) 
+![kvm-9|619x500](../images/7b6cd37f7663db53571845da0159977092898fa4.jpeg) 
  ui -->
 
 <!-- cli
@@ -166,11 +166,11 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 10. Turn off the "IDE" item under "Boot device order:"
 
 <!-- vanilla
-![kvm-10|619x500](images/54a8d6a77d9660e13aa1c0e278048ed1c751d65e.jpeg) 
+![kvm-10|619x500](../images/54a8d6a77d9660e13aa1c0e278048ed1c751d65e.jpeg) 
  vanilla -->
 
 <!-- ui
-![kvm-10|619x500](images/54a8d6a77d9660e13aa1c0e278048ed1c751d65e.jpeg) 
+![kvm-10|619x500](../images/54a8d6a77d9660e13aa1c0e278048ed1c751d65e.jpeg) 
  ui -->
 
 <!-- cli
@@ -180,11 +180,11 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 11. When you select "Apply," a dialog will pop up to remind you that you need to restart this VM for changes to take effect:
 
 <!-- vanilla
-![kvm-11|480x183](images/6f4ab26216cc2951a202851869f7c7efc5691129.jpeg) 
+![kvm-11|480x183](../images/6f4ab26216cc2951a202851869f7c7efc5691129.jpeg) 
  vanilla -->
 
 <!-- ui
-![kvm-11|480x183](images/6f4ab26216cc2951a202851869f7c7efc5691129.jpeg) 
+![kvm-11|480x183](../images/6f4ab26216cc2951a202851869f7c7efc5691129.jpeg) 
  ui -->
 
 <!-- cli
@@ -194,11 +194,11 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 12. Switch to the "NIC..." option and set the "Network source" and "Device model" as shown, then select "Apply" and respond to the dialog:
 
 <!-- vanilla
-![kvm-12|619x500](images/26fe981020c03e46c81e2bceed840bea7b2f14d6.jpeg) 
+![kvm-12|619x500](../images/26fe981020c03e46c81e2bceed840bea7b2f14d6.jpeg) 
  vanilla -->
 
 <!-- ui
-![kvm-12|619x500](images/26fe981020c03e46c81e2bceed840bea7b2f14d6.jpeg) 
+![kvm-12|619x500](../images/26fe981020c03e46c81e2bceed840bea7b2f14d6.jpeg) 
  ui -->
 
 <!-- cli
@@ -208,11 +208,11 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 13. You'll next select the dropdown arrow next to the "on/off" menu bar option and select "Force reset," then answer the prompt in the affirmative:
 
 <!-- vanilla
-![kvm-13|502x245](images/537a485f0ff014aeb82afc71bc09b2988bf5cb56.jpeg) 
+![kvm-13|502x245](../images/537a485f0ff014aeb82afc71bc09b2988bf5cb56.jpeg) 
  vanilla -->
 
 <!-- ui
-![kvm-13|502x245](images/537a485f0ff014aeb82afc71bc09b2988bf5cb56.jpeg) 
+![kvm-13|502x245](../images/537a485f0ff014aeb82afc71bc09b2988bf5cb56.jpeg) 
  ui -->
 
 <!-- cli
@@ -224,11 +224,11 @@ You now have a VM that you can add to MAAS.  If you want more than one, you can 
 [Note] **Pro Tip**: Cloned VMs tend to use considerably less host disk space than newly-created ones. [/Note]
 
 <!-- vanilla
-![kvm-14|456x468](images/2348efd7dbf17ba445e3c4e6b3926fdc8cfbc888.jpeg) 
+![kvm-14|456x468](../images/2348efd7dbf17ba445e3c4e6b3926fdc8cfbc888.jpeg) 
  vanilla -->
 
 <!-- ui
-![kvm-14|456x468](images/2348efd7dbf17ba445e3c4e6b3926fdc8cfbc888.jpeg) 
+![kvm-14|456x468](../images/2348efd7dbf17ba445e3c4e6b3926fdc8cfbc888.jpeg) 
  ui -->
 
 <!-- cli
@@ -238,11 +238,11 @@ You now have a VM that you can add to MAAS.  If you want more than one, you can 
 Another VM will instantiate, using the name of the cloned VM with an added "-clone" suffix:
 
 <!-- vanilla
-![kvm-15|690x224](images/a14b17602c2ad2465197a77c302080ca2eb59fc8.jpeg) 
+![kvm-15|690x224](../images/a14b17602c2ad2465197a77c302080ca2eb59fc8.jpeg) 
  vanilla -->
 
 <!-- ui
-![kvm-15|690x224](images/a14b17602c2ad2465197a77c302080ca2eb59fc8.jpeg) 
+![kvm-15|690x224](../images/a14b17602c2ad2465197a77c302080ca2eb59fc8.jpeg) 
  ui -->
 
 <!-- cli
@@ -256,11 +256,11 @@ You can create VMs as desired, remembering to mind your overall disk usage on yo
 Let's assume that once you're done adding VMs, you have around 20 up and ready, all named after their assigned MAC address:
 
 <!-- vanilla
-![kvms|517x500](images/f9f302d8de9344908758a433dae9abfada0b0db3_2_517x500.jpeg) 
+![kvms|517x500](../images/f9f302d8de9344908758a433dae9abfada0b0db3_2_517x500.jpeg) 
  vanilla -->
 
 <!-- ui
-![kvms|517x500](images/f9f302d8de9344908758a433dae9abfada0b0db3_2_517x500.jpeg) 
+![kvms|517x500](../images/f9f302d8de9344908758a433dae9abfada0b0db3_2_517x500.jpeg) 
  ui -->
 
 <!-- cli
@@ -274,11 +274,11 @@ No need to create a lot of VMs for this example (unless you just want to do so).
 Once you've created the necessary VMs, you'll want to [manually add machines](/t/add-machines/821#heading--add-a-node-manually) to MAAS that correspond to your VMs.
 
 <!-- vanilla
-![blank-machines|690x440](images/91679cd615868eda4654541a68e59de57328ddfa.jpeg) 
+![blank-machines|690x440](../images/91679cd615868eda4654541a68e59de57328ddfa.jpeg) 
  vanilla -->
 
 <!-- ui
-![blank-machines|690x440](images/91679cd615868eda4654541a68e59de57328ddfa.jpeg) 
+![blank-machines|690x440](../images/91679cd615868eda4654541a68e59de57328ddfa.jpeg) 
  ui -->
 
 <!-- cli
@@ -291,11 +291,11 @@ Once you've created the necessary VMs, you'll want to [manually add machines](/t
 Creating a machine from a VM requires about a dozen pieces of information, most of which you can gather from the VM itself:
 
 <!-- vanilla
-![add-machine-screen|690x270](images/bc6c18c0fd31367bd4a9909fb7d954dc06f15c40_2_690x270.jpeg) 
+![add-machine-screen|690x270](../images/bc6c18c0fd31367bd4a9909fb7d954dc06f15c40_2_690x270.jpeg) 
  vanilla -->
 
 <!-- ui
-![add-machine-screen|690x270](images/bc6c18c0fd31367bd4a9909fb7d954dc06f15c40_2_690x270.jpeg) 
+![add-machine-screen|690x270](../images/bc6c18c0fd31367bd4a9909fb7d954dc06f15c40_2_690x270.jpeg) 
  ui -->
 
 <!-- cli
@@ -305,11 +305,11 @@ Creating a machine from a VM requires about a dozen pieces of information, most 
 In the left column, you're only required to enter a machine name and the machine's MAC address:  
 
 <!-- vanilla
-![left-column|690x481](images/1de8d7afae996292d71e9787641bf0317b2327c9.jpeg) 
+![left-column|690x481](../images/1de8d7afae996292d71e9787641bf0317b2327c9.jpeg) 
  vanilla -->
 
 <!-- ui
-![left-column|690x481](images/1de8d7afae996292d71e9787641bf0317b2327c9.jpeg) 
+![left-column|690x481](../images/1de8d7afae996292d71e9787641bf0317b2327c9.jpeg) 
  ui -->
 
 <!-- cli
@@ -319,11 +319,11 @@ In the left column, you're only required to enter a machine name and the machine
 Here, we've assigned a variant of the MAC address as the machine name.  Note that the machine name cannot include colons (":"), we've substituted dashes.  In the right column, it's necessary to choose the power type.  When enlisting VMs, the correct power type is "Virsh," as shown below:
 
 <!-- vanilla
-![right-column|690x271](images/aa076ee437ce481808bb5f41320a45e60f3676de.jpeg) 
+![right-column|690x271](../images/aa076ee437ce481808bb5f41320a45e60f3676de.jpeg) 
  vanilla -->
 
 <!-- ui
-![right-column|690x271](images/aa076ee437ce481808bb5f41320a45e60f3676de.jpeg) 
+![right-column|690x271](../images/aa076ee437ce481808bb5f41320a45e60f3676de.jpeg) 
  ui -->
 
 <!-- cli
@@ -333,11 +333,11 @@ Here, we've assigned a variant of the MAC address as the machine name.  Note tha
 For default configurations, the Virsh Address is "qemu+ssh://[your-login-id]@192.168.122.1/system;" replace "[your-login-id]" with your username or login ID on the machine where you're hosting MAAS and the Virtual Machine Manager.  Likewise, the password is your normal login password for the same host.  Finally, you can retrieve the Virsh VM ID from the "Overview" screen of the VM itself:
 
 <!-- vanilla
-![kvm-16|619x500](images/79e135e48576bb6f455dd42fd7a09a2c7448d221.jpeg) 
+![kvm-16|619x500](../images/79e135e48576bb6f455dd42fd7a09a2c7448d221.jpeg) 
  vanilla -->
 
 <!-- ui
-![kvm-16|619x500](images/79e135e48576bb6f455dd42fd7a09a2c7448d221.jpeg) 
+![kvm-16|619x500](../images/79e135e48576bb6f455dd42fd7a09a2c7448d221.jpeg) 
  ui -->
 
 <!-- cli
@@ -348,11 +348,11 @@ For default configurations, the Virsh Address is "qemu+ssh://[your-login-id]@192
 As you add machines, they automatically commission:
 
 <!-- vanilla
-![auto-commission|639x407](images/37f1df9e4072b29c7183d4ae8ec1768504c4f66f.jpeg) 
+![auto-commission|639x407](../images/37f1df9e4072b29c7183d4ae8ec1768504c4f66f.jpeg) 
  vanilla -->
 
 <!-- ui
-![auto-commission|639x407](images/37f1df9e4072b29c7183d4ae8ec1768504c4f66f.jpeg) 
+![auto-commission|639x407](../images/37f1df9e4072b29c7183d4ae8ec1768504c4f66f.jpeg) 
  ui -->
 
 <!-- cli
@@ -366,11 +366,11 @@ When finished, the commissioned machines with be at the "Ready" state.
 Assigning machines to specific functions is something you can do after you [commission](/t/commission-machines/822) and [deploy](/t/deploy-machines/825) them.  (Later on, we'll discuss ways to load user apps and data onto the machines using the MAAS API.) Once you've got machines running apps, you want to keep up-to-date about which machine is doing what, when you're looking at the machine list.  You'll want to assign [tags](/t/maas-tags/834) to machines.  
 
 <!-- vanilla
-![tags|690x422](images/2ea0827b9ef327b59ad722215d556969218cc22f.jpeg) 
+![tags|690x422](../images/2ea0827b9ef327b59ad722215d556969218cc22f.jpeg) 
  vanilla -->
 
 <!-- ui
-![tags|690x422](images/2ea0827b9ef327b59ad722215d556969218cc22f.jpeg) 
+![tags|690x422](../images/2ea0827b9ef327b59ad722215d556969218cc22f.jpeg) 
  ui -->
 
 <!-- cli
@@ -382,11 +382,11 @@ Assigning machines to specific functions is something you can do after you [comm
 Adding a tag to a machine is simple.  Just decide which machine you want to tag:
 
 <!-- vanilla
-![tags-2|690x204](images/4f32fb8105ecee30afd0f3ca226b265dffe6e11b_2_690x204.jpeg) 
+![tags-2|690x204](../images/4f32fb8105ecee30afd0f3ca226b265dffe6e11b_2_690x204.jpeg) 
  vanilla -->
 
 <!-- ui
-![tags-2|690x204](images/4f32fb8105ecee30afd0f3ca226b265dffe6e11b_2_690x204.jpeg) 
+![tags-2|690x204](../images/4f32fb8105ecee30afd0f3ca226b265dffe6e11b_2_690x204.jpeg) 
  ui -->
 
 <!-- cli
@@ -396,11 +396,11 @@ Adding a tag to a machine is simple.  Just decide which machine you want to tag:
 You'll want to click on the machine name (in this case, the MAC address), and then choose "Configuration" on the next screen that comes up.  This will bring you to a screen from which you can edit some parameters about the machine:
 
 <!-- vanilla
-![tags-3|690x256](images/c31a50cebf68c8c5fbfbbe0115bb5c1daeb84ae8_2_690x256.jpeg) 
+![tags-3|690x256](../images/c31a50cebf68c8c5fbfbbe0115bb5c1daeb84ae8_2_690x256.jpeg) 
  vanilla -->
 
 <!-- ui
-![tags-3|690x256](images/c31a50cebf68c8c5fbfbbe0115bb5c1daeb84ae8_2_690x256.jpeg) 
+![tags-3|690x256](../images/c31a50cebf68c8c5fbfbbe0115bb5c1daeb84ae8_2_690x256.jpeg) 
  ui -->
 
 <!-- cli
@@ -410,11 +410,11 @@ You'll want to click on the machine name (in this case, the MAC address), and th
 Click on "Edit," and then add a tag name to the "Tags" field.  Tags are automatically remembered by MAAS, so the next time you want to enter the same tag, an autocomplete field will appear, as shown below:
 
 <!-- vanilla
-![tags-4|690x256](images/39a0e2f01ba7f3dc141bcf57c09b4e62f737525d_2_690x256.jpeg) 
+![tags-4|690x256](../images/39a0e2f01ba7f3dc141bcf57c09b4e62f737525d_2_690x256.jpeg) 
  vanilla -->
 
 <!-- ui
-![tags-4|690x256](images/39a0e2f01ba7f3dc141bcf57c09b4e62f737525d_2_690x256.jpeg) 
+![tags-4|690x256](../images/39a0e2f01ba7f3dc141bcf57c09b4e62f737525d_2_690x256.jpeg) 
  ui -->
 
 <!-- cli
@@ -424,11 +424,11 @@ Click on "Edit," and then add a tag name to the "Tags" field.  Tags are automati
 Select "Save changes" to add the tag(s) to the machine.  When you return to the machine list, you'll note that the tag is now associated with that machine:
 
 <!-- vanilla
-![tags-5|690x222](images/8a21ca291aa800440d9074270ab9d9108cff9be1_2_690x222.jpeg) 
+![tags-5|690x222](../images/8a21ca291aa800440d9074270ab9d9108cff9be1_2_690x222.jpeg) 
  vanilla -->
 
 <!-- ui
-![tags-5|690x222](images/8a21ca291aa800440d9074270ab9d9108cff9be1_2_690x222.jpeg) 
+![tags-5|690x222](../images/8a21ca291aa800440d9074270ab9d9108cff9be1_2_690x222.jpeg) 
  ui -->
 
 <!-- cli
@@ -474,11 +474,11 @@ You're aware that the number of machines you'll need use for each of the individ
 Notice at the top of the machine list, there is a tab labeled, "Resource pools:"
 
 <!-- vanilla
-![pools-1|690x447](images/f7d4c52a176f53f29a0c1ac3190e7abb563dc993.jpeg) 
+![pools-1|690x447](../images/f7d4c52a176f53f29a0c1ac3190e7abb563dc993.jpeg) 
  vanilla -->
 
 <!-- ui
-![pools-1|690x447](images/f7d4c52a176f53f29a0c1ac3190e7abb563dc993.jpeg) 
+![pools-1|690x447](../images/f7d4c52a176f53f29a0c1ac3190e7abb563dc993.jpeg) 
  ui -->
 
 <!-- cli
@@ -488,11 +488,11 @@ Notice at the top of the machine list, there is a tab labeled, "Resource pools:"
 In this example, there are already some resource pools defined to match the different functions above, except for one: Provider services.  Click the "Resource pools" tab to go there:
 
 <!-- vanilla
-![pools-2|690x239](images/c05804c1f1bba45439d8894698b4dcefd64e7a5a_2_690x239.jpeg) 
+![pools-2|690x239](../images/c05804c1f1bba45439d8894698b4dcefd64e7a5a_2_690x239.jpeg) 
  vanilla -->
 
 <!-- ui
-![pools-2|690x239](images/c05804c1f1bba45439d8894698b4dcefd64e7a5a_2_690x239.jpeg) 
+![pools-2|690x239](../images/c05804c1f1bba45439d8894698b4dcefd64e7a5a_2_690x239.jpeg) 
  ui -->
 
 <!-- cli
@@ -502,11 +502,11 @@ In this example, there are already some resource pools defined to match the diff
 To add the "Provider services" (ProServ) pool, click on "Add pool:"
 
 <!-- vanilla
-![pools-3|690x160](images/bebf192974683dde6cb21407f6db299f1e407925_2_690x160.jpeg) 
+![pools-3|690x160](../images/bebf192974683dde6cb21407f6db299f1e407925_2_690x160.jpeg) 
  vanilla -->
 
 <!-- ui
-![pools-3|690x160](images/bebf192974683dde6cb21407f6db299f1e407925_2_690x160.jpeg) 
+![pools-3|690x160](../images/bebf192974683dde6cb21407f6db299f1e407925_2_690x160.jpeg) 
  ui -->
 
 <!-- cli
@@ -516,11 +516,11 @@ To add the "Provider services" (ProServ) pool, click on "Add pool:"
 Fill in the fields for "Name" (which is a required field, with no spaces), and for "Description."  In this case, we've filled them in with "ProServ" and "Provider services:"
 
 <!-- vanilla
-![pools-4|690x164](imagesmutNbxfTQOVU5JwXBvESQ84iNuN.jpeg) 
+![pools-4|690x164](../images/mutNbxfTQOVU5JwXBvESQ84iNuN.jpeg) 
  vanilla -->
 
 <!-- ui
-![pools-4|690x164](imagesmutNbxfTQOVU5JwXBvESQ84iNuN.jpeg) 
+![pools-4|690x164](../images/mutNbxfTQOVU5JwXBvESQ84iNuN.jpeg) 
  ui -->
 
 <!-- cli
@@ -530,11 +530,11 @@ Fill in the fields for "Name" (which is a required field, with no spaces), and f
 Click on "Add pool" to add this resource pool to the list, then click on "Machines" to return to the machine list.  Once there, it's simple to add machines to a particular pool.   In the column marked "POOL/NOTE," you'll see that your machines are in the "default" pool when created.  If you click on "default" there, you'll bring up a dropdown of already-created resource pools:
 
 <!-- vanilla
-![pools-5|690x333](images/f373606dcd50c96a35af932379830f101d4a77e0.jpeg) 
+![pools-5|690x333](../images/f373606dcd50c96a35af932379830f101d4a77e0.jpeg) 
  vanilla -->
 
 <!-- ui
-![pools-5|690x333](images/f373606dcd50c96a35af932379830f101d4a77e0.jpeg) 
+![pools-5|690x333](../images/f373606dcd50c96a35af932379830f101d4a77e0.jpeg) 
  ui -->
 
 <!-- cli
@@ -544,11 +544,11 @@ Click on "Add pool" to add this resource pool to the list, then click on "Machin
 Just choose the one you want for this machine (in our example, ProServ) and you're done:
 
 <!-- vanilla
-![pools-6|690x215](images/0cff1cf26f28236dbabc89b14a92c69435934933.jpeg) 
+![pools-6|690x215](../images/0cff1cf26f28236dbabc89b14a92c69435934933.jpeg) 
  vanilla -->
 
 <!-- ui
-![pools-6|690x215](images/0cff1cf26f28236dbabc89b14a92c69435934933.jpeg) 
+![pools-6|690x215](../images/0cff1cf26f28236dbabc89b14a92c69435934933.jpeg) 
  ui -->
 
 <!-- cli
@@ -560,11 +560,11 @@ Just choose the one you want for this machine (in our example, ProServ) and you'
 Here's a snippet of the updated machine list, with all machines added to the appropriate resource pool:
 
 <!-- vanilla
-![pools-7|681x500](images/704b6d1603f6f90fca42891d98c3bb418458b94a.jpeg) 
+![pools-7|681x500](../images/704b6d1603f6f90fca42891d98c3bb418458b94a.jpeg) 
  vanilla -->
 
 <!-- ui
-![pools-7|681x500](images/704b6d1603f6f90fca42891d98c3bb418458b94a.jpeg) 
+![pools-7|681x500](../images/704b6d1603f6f90fca42891d98c3bb418458b94a.jpeg) 
  ui -->
 
 <!-- cli
@@ -578,11 +578,11 @@ Resource pools are mostly for your use, helping you to budget servers within a g
 Another optional identifier for machines is the "Note" field.  While it can be long, a portion of it shows up on the machine list, which makes it useful for adding special identifiers or groupings.  In this example, we've added a vague identifier which might help an IT admin remember server locations or access rights.
 
 <!-- vanilla
-![notes-1|690x87](images/8724395dfe9fc4d3f4a10a05687c33c6a3dded07_2_690x87.jpeg) 
+![notes-1|690x87](../images/8724395dfe9fc4d3f4a10a05687c33c6a3dded07_2_690x87.jpeg) 
  vanilla -->
 
 <!-- ui
-![notes-1|690x87](images/8724395dfe9fc4d3f4a10a05687c33c6a3dded07_2_690x87.jpeg) 
+![notes-1|690x87](../images/8724395dfe9fc4d3f4a10a05687c33c6a3dded07_2_690x87.jpeg) 
  ui -->
 
 <!-- cli
@@ -595,11 +595,11 @@ Another optional identifier for machines is the "Note" field.  While it can be l
 You can edit notes by clicking on a machine name in the machine list, switching to the "Configuration" tab, and selecting the "Edit" button.  These choices will bring you to a screen like this one:
 
 <!-- vanilla
-![notes-2|690x348](images/a9d61f28a4ada7d97ff6f896d2f1e8e719ad680b.jpeg) 
+![notes-2|690x348](../images/a9d61f28a4ada7d97ff6f896d2f1e8e719ad680b.jpeg) 
  vanilla -->
 
 <!-- ui
-![notes-2|690x348](images/a9d61f28a4ada7d97ff6f896d2f1e8e719ad680b.jpeg) 
+![notes-2|690x348](../images/a9d61f28a4ada7d97ff6f896d2f1e8e719ad680b.jpeg) 
  ui -->
 
 <!-- cli
@@ -609,11 +609,11 @@ You can edit notes by clicking on a machine name in the machine list, switching 
 From here, you can add freeform text into the "Note" field:
 
 <!-- vanilla
-![notes-3|690x330](images/f8d647daffa9b3210fb99d440107a58e539a6c35.jpeg) 
+![notes-3|690x330](../images/f8d647daffa9b3210fb99d440107a58e539a6c35.jpeg) 
  vanilla -->
 
 <!-- ui
-![notes-3|690x330](images/f8d647daffa9b3210fb99d440107a58e539a6c35.jpeg) 
+![notes-3|690x330](../images/f8d647daffa9b3210fb99d440107a58e539a6c35.jpeg) 
  ui -->
 
 <!-- cli
@@ -623,11 +623,11 @@ From here, you can add freeform text into the "Note" field:
 When you save the changes and return to the machine list, you'll notice that the NOTE field for that machine now contains your changes: 
 
 <!-- vanilla
-![notes-4|690x93](images/46cf42808ef44829f1c610e479d6dfb62af2d898.jpeg) 
+![notes-4|690x93](../images/46cf42808ef44829f1c610e479d6dfb62af2d898.jpeg) 
  vanilla -->
 
 <!-- ui
-![notes-4|690x93](images/46cf42808ef44829f1c610e479d6dfb62af2d898.jpeg) 
+![notes-4|690x93](../images/46cf42808ef44829f1c610e479d6dfb62af2d898.jpeg) 
  ui -->
 
 <!-- cli
@@ -658,11 +658,11 @@ Looking over your design, you notice that some of these resource pools must have
 Each of these higher-level groupings is ideal for a VLAN, so you create six of them, one for each division:
 
 <!-- vanilla
-![vlans-1|690x365](images/7245ed378ce0b9000aaf6f15b16ea16dbde2fccf.jpeg) 
+![vlans-1|690x365](../images/7245ed378ce0b9000aaf6f15b16ea16dbde2fccf.jpeg) 
  vanilla -->
 
 <!-- ui
-![vlans-1|690x365](images/7245ed378ce0b9000aaf6f15b16ea16dbde2fccf.jpeg) 
+![vlans-1|690x365](../images/7245ed378ce0b9000aaf6f15b16ea16dbde2fccf.jpeg) 
  ui -->
 
 <!-- cli
@@ -677,11 +677,11 @@ Adding a functional VLAN requires some additional (common) networking aspects, w
 From anywhere on the MAAS page, select "Subnets" from the top menubar, which brings you to this screen:
 
 <!-- vanilla
-![vlans-2|690x281](images/befd3a3eb5987d412477d0a076d16a50e81dae30_2_690x281.jpeg) 
+![vlans-2|690x281](../images/befd3a3eb5987d412477d0a076d16a50e81dae30_2_690x281.jpeg) 
  vanilla -->
 
 <!-- ui
-![vlans-2|690x281](images/befd3a3eb5987d412477d0a076d16a50e81dae30_2_690x281.jpeg) 
+![vlans-2|690x281](../images/befd3a3eb5987d412477d0a076d16a50e81dae30_2_690x281.jpeg) 
  ui -->
 
 <!-- cli
@@ -691,11 +691,11 @@ From anywhere on the MAAS page, select "Subnets" from the top menubar, which bri
 Using the "Add" dropdown, select "VLAN:"
 
 <!-- vanilla
-![vlans-3|690x275](images/dbdea7bec608d14e89da82cfdea87df3f93855dd_2_690x275.jpeg) 
+![vlans-3|690x275](../images/dbdea7bec608d14e89da82cfdea87df3f93855dd_2_690x275.jpeg) 
  vanilla -->
 
 <!-- ui
-![vlans-3|690x275](images/dbdea7bec608d14e89da82cfdea87df3f93855dd_2_690x275.jpeg) 
+![vlans-3|690x275](../images/dbdea7bec608d14e89da82cfdea87df3f93855dd_2_690x275.jpeg) 
  ui -->
 
 <!-- cli
@@ -705,11 +705,11 @@ Using the "Add" dropdown, select "VLAN:"
 You'll arrive at this screen, which allows you to specify the VLAN:
 
 <!-- vanilla
-![vlans-4|690x141](images/e371011171ba18839f96788fefa40a04af3e79bb_2_690x141.jpeg) 
+![vlans-4|690x141](../images/e371011171ba18839f96788fefa40a04af3e79bb_2_690x141.jpeg) 
  vanilla -->
 
 <!-- ui
-![vlans-4|690x141](images/e371011171ba18839f96788fefa40a04af3e79bb_2_690x141.jpeg) 
+![vlans-4|690x141](../images/e371011171ba18839f96788fefa40a04af3e79bb_2_690x141.jpeg) 
  ui -->
 
 <!-- cli
@@ -719,11 +719,11 @@ You'll arrive at this screen, which allows you to specify the VLAN:
 Enter the Name and ID of the VLAN, and select the fabric to enclose it (in this case, the "default" fabric):
 
 <!-- vanilla
-![vlans-5|690x135](images/961d5cae7119db1c3fb7e8d6ae6ce7015d9263d1_2_690x135.jpeg) 
+![vlans-5|690x135](../images/961d5cae7119db1c3fb7e8d6ae6ce7015d9263d1_2_690x135.jpeg) 
  vanilla -->
 
 <!-- ui
-![vlans-5|690x135](images/961d5cae7119db1c3fb7e8d6ae6ce7015d9263d1_2_690x135.jpeg) 
+![vlans-5|690x135](../images/961d5cae7119db1c3fb7e8d6ae6ce7015d9263d1_2_690x135.jpeg) 
  ui -->
 
 <!-- cli
@@ -757,11 +757,11 @@ You want to incorporate these highest-level groupings into your network, but how
 You can add a fabric by selecting the "Subnets" tab, clicking on the "Add" dropdown, and choosing "Fabric:"
 
 <!-- vanilla
-![fabrics-1|690x329](images/509e9696919e69cfc57602a6228425a472b3ac1d_2_690x329.jpeg) 
+![fabrics-1|690x329](../images/509e9696919e69cfc57602a6228425a472b3ac1d_2_690x329.jpeg) 
  vanilla -->
 
 <!-- ui
-![fabrics-1|690x329](images/509e9696919e69cfc57602a6228425a472b3ac1d_2_690x329.jpeg) 
+![fabrics-1|690x329](../images/509e9696919e69cfc57602a6228425a472b3ac1d_2_690x329.jpeg) 
  ui -->
 
 <!-- cli
@@ -771,11 +771,11 @@ You can add a fabric by selecting the "Subnets" tab, clicking on the "Add" dropd
 You'll see the "Add fabric" dialog appear.  Enter the desired fabric name and click "Add fabric:"
 
 <!-- vanilla
-![fabrics-2|690x108](images/7873e6a97212673ab08c8c3c33f9d63d7069b8e8_2_690x108.jpeg) 
+![fabrics-2|690x108](../images/7873e6a97212673ab08c8c3c33f9d63d7069b8e8_2_690x108.jpeg) 
  vanilla -->
 
 <!-- ui
-![fabrics-2|690x108](images/7873e6a97212673ab08c8c3c33f9d63d7069b8e8_2_690x108.jpeg) 
+![fabrics-2|690x108](../images/7873e6a97212673ab08c8c3c33f9d63d7069b8e8_2_690x108.jpeg) 
  ui -->
 
 <!-- cli
@@ -785,11 +785,11 @@ You'll see the "Add fabric" dialog appear.  Enter the desired fabric name and cl
 Here you'll notice three new fabrics, one for each of the top-level groupings in your example network design:
 
 <!-- vanilla
-![fabrics-3|690x304](images/4f787bc5d57c7f811641e32b42c96bb2a2792356_2_690x304.jpeg) 
+![fabrics-3|690x304](../images/4f787bc5d57c7f811641e32b42c96bb2a2792356_2_690x304.jpeg) 
  vanilla -->
 
 <!-- ui
-![fabrics-3|690x304](images/4f787bc5d57c7f811641e32b42c96bb2a2792356_2_690x304.jpeg) 
+![fabrics-3|690x304](../images/4f787bc5d57c7f811641e32b42c96bb2a2792356_2_690x304.jpeg) 
  ui -->
 
 <!-- cli
@@ -799,11 +799,11 @@ Here you'll notice three new fabrics, one for each of the top-level groupings in
 Next, you'll want to assign your VLANs to this fabric.  Begin by clicking on any VLAN you want to move, which will bring you to a summary screen for that VLAN:
 
 <!-- vanilla
-![fabrics-4|690x234](images/ecca590663b90106b144c003851732a16acd5220_2_690x234.jpeg) 
+![fabrics-4|690x234](../images/ecca590663b90106b144c003851732a16acd5220_2_690x234.jpeg) 
  vanilla -->
 
 <!-- ui
-![fabrics-4|690x234](images/ecca590663b90106b144c003851732a16acd5220_2_690x234.jpeg) 
+![fabrics-4|690x234](../images/ecca590663b90106b144c003851732a16acd5220_2_690x234.jpeg) 
  ui -->
 
 <!-- cli
@@ -813,11 +813,11 @@ Next, you'll want to assign your VLANs to this fabric.  Begin by clicking on any
 You can click "Edit" and choose the desired fabric from the dropdown list:
 
 <!-- vanilla
-![fabrics-5|690x293](images/6f6e2bff0d67dc02d33800e5cc1d60db24fb398a_2_690x293.jpeg) 
+![fabrics-5|690x293](../images/6f6e2bff0d67dc02d33800e5cc1d60db24fb398a_2_690x293.jpeg) 
  vanilla -->
 
 <!-- ui
-![fabrics-5|690x293](images/6f6e2bff0d67dc02d33800e5cc1d60db24fb398a_2_690x293.jpeg) 
+![fabrics-5|690x293](../images/6f6e2bff0d67dc02d33800e5cc1d60db24fb398a_2_690x293.jpeg) 
  ui -->
 
 <!-- cli
@@ -829,11 +829,11 @@ Finally, click "Save summary" to move this VLAN to the desired fabric.  The end 
 </details>
 
 <!-- vanilla
-![fabrics-6|690x499](images/23c214cd6836dd783347f050f2cdba04da7bcaa1.jpeg)
+![fabrics-6|690x499](../images/23c214cd6836dd783347f050f2cdba04da7bcaa1.jpeg)
  vanilla -->
 
 <!-- ui
-![fabrics-6|690x499](images/23c214cd6836dd783347f050f2cdba04da7bcaa1.jpeg)
+![fabrics-6|690x499](../images/23c214cd6836dd783347f050f2cdba04da7bcaa1.jpeg)
  ui -->
 
 <!-- cli

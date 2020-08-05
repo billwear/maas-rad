@@ -14,11 +14,11 @@ The majority of testing scripts only work with machines that are backed by physi
 To launch a test, select the target machine from the 'Machines' page and use the 'Take action' drop-down menu to select 'Test hardware'. When ready, hit the 'Test machine' button. Here, a test is applied to a deployed machine:
 
 <!-- vanilla
-![hw test deployed node](images/8e876889-nodes-hw-testing__2.4_deployed.png)
+![hw test deployed node|690x345](../images/8e876889-nodes-hw-testing__2.4_deployed.png)
  vanilla -->
 
 <!-- ui
-![hw test deployed node](images/8e876889-nodes-hw-testing__2.4_deployed.png)
+![hw test deployed node|690x345](../images/8e876889-nodes-hw-testing__2.4_deployed.png)
  ui -->
 
 <!-- cli
@@ -30,11 +30,11 @@ There is the option of not powering off the machine and to allow SSH access.
 A default test will be selected (`smartctl-validate`, a hard drive test) but you can choose others by clicking the 'Select scripts' label. Doing so will reveal the following choices:
 
 <!-- vanilla
-![hw test deployed node choices](images/ccfefe25-nodes-hw-testing__2.4_deployed-choices.png)
+![hw test deployed node choices|690x379](../images/ccfefe25-nodes-hw-testing__2.4_deployed-choices.png)
  vanilla -->
 
 <!-- ui
-![hw test deployed node choices](images/ccfefe25-nodes-hw-testing__2.4_deployed-choices.png)
+![hw test deployed node choices|690x379](../images/ccfefe25-nodes-hw-testing__2.4_deployed-choices.png)
  ui -->
 
 <!-- cli

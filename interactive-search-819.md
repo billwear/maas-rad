@@ -20,11 +20,11 @@ Quick questions you may have:
 To begin searching, enter your search text. As you type, MAAS will update search results in real time. You can search across virtually every parameter, including domain, name, tag, power type, IP, status, zone, and so on.
 
 <!-- vanilla
-![searchbar](images/ccb90c91-manage-search__2.5_searchbar.png)
+![searchbar](../images/ccb90c91-manage-search__2.5_searchbar.png)
  vanilla -->
 
 <!-- ui
-![searchbar](images/ccb90c91-manage-search__2.5_searchbar.png)
+![searchbar](../images/ccb90c91-manage-search__2.5_searchbar.png)
  ui -->
 
 <!-- cli
@@ -36,11 +36,11 @@ To begin searching, enter your search text. As you type, MAAS will update search
 Filter your searches to major categories by selecting one from the Filters dropdown menu next to the search bar.
 
 <!-- vanilla
-![filters](images/6ac5b4ec-manage-search__2.5_filters.png)
+![filters](../images/6ac5b4ec-manage-search__2.5_filters.png)
  vanilla -->
 
 <!-- ui
-![filters](images/6ac5b4ec-manage-search__2.5_filters.png)
+![filters](../images/6ac5b4ec-manage-search__2.5_filters.png)
  ui -->
 
 <!-- cli
@@ -50,11 +50,11 @@ Filter your searches to major categories by selecting one from the Filters dropd
 For example, to find all "New" machines containing the name or tag 'quail', select Status/New from the dropdown Filters menu, and then type the word 'quail' next to it:
 
 <!-- vanilla
-![filterresult](images/7b5d8e86-manage-search__2.5_filtered-search.png)
+![filterresult](../images/7b5d8e86-manage-search__2.5_filtered-search.png)
  vanilla -->
 
 <!-- ui
-![filterresult](images/7b5d8e86-manage-search__2.5_filtered-search.png)
+![filterresult](../images/7b5d8e86-manage-search__2.5_filtered-search.png)
  ui -->
 
 <!-- cli

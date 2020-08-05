@@ -27,11 +27,11 @@ By default, MAAS manages subnets in your configuration, but it is easy to change
 To disable (or re-enable) subnet management navigate to the 'Subnets' page and select the subnet. Press the 'Edit' button to allow changes. The 'Managed allocation' field will become a slide switch. Click the label (or the switch icon itself) to toggle between enabled (dark blue) and disabled (grey) and click 'Save summary'.
 
 <!-- vanilla
-![subnet management toggle](images/e5d80c8c-installconfig-network-subnet-management__2.6-management-toggle.png)
+![subnet management toggle](../images/e5d80c8c-installconfig-network-subnet-management__2.6-management-toggle.png)
  vanilla -->
 
 <!-- ui
-![subnet management toggle](images/e5d80c8c-installconfig-network-subnet-management__2.6-management-toggle.png)
+![subnet management toggle](../images/e5d80c8c-installconfig-network-subnet-management__2.6-management-toggle.png)
  ui -->
 
 <!-- cli

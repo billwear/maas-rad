@@ -29,11 +29,11 @@ If you are enabling DHCP for the first time after adding a second rack controlle
 Access the appropriate VLAN (via the 'Subnets' page) and choose action 'Reconfigure DHCP'. There, you will see the second rack controller in the 'Secondary controller' field. All you should have to do is press the 'Reconfigure DHCP' button:
 
 <!-- vanilla
-![reconfigure DHCP](images/c3d1e0c1-manage-ha__2.6-ha-dhcp.png)
+![reconfigure DHCP|690x460](../images/c3d1e0c1-manage-ha__2.6-ha-dhcp.png)
  vanilla -->
 
 <!-- ui
-![reconfigure DHCP](images/c3d1e0c1-manage-ha__2.6-ha-dhcp.png)
+![reconfigure DHCP|690x460](../images/c3d1e0c1-manage-ha__2.6-ha-dhcp.png)
  ui -->
 
 <!-- cli
