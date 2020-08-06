@@ -60,7 +60,6 @@ TARGET_DEPS += maas-installation-from-packages-769.html
 TARGET_DEPS += maas-logging-1468.html
 TARGET_DEPS += maas-requirements-789.html
 TARGET_DEPS += maas-tags-834.html
-TARGET_DEPS += manage-composable-machines-812.html
 TARGET_DEPS += managing-dhcp-759.html
 TARGET_DEPS += managing-stp-765.html
 TARGET_DEPS += network-discovery-758.html
@@ -103,7 +102,8 @@ TARGET_DEPS += zone-examples-784.html
 %.html: %.md
 	cp templates/vanilla-template.html ./template.html
 	xpub convert dc2html -t vanilla $<
-	mv $@ maas-vanilla
+	cp $@ maas-vanilla
+	mv $@ maas-offline
 	cp templates/ui-only-template.html ./template.html
 	xpub convert dc2html -t ui $<
 	mv $@ maas-rad-ui
@@ -113,6 +113,11 @@ TARGET_DEPS += zone-examples-784.html
 
 finale: $(TARGET_DEPS)
 	xpub push github
+
+pull:
+	xpub pull discourse -c 5 -b not-rad 1 1900
+	sed -i '/^## Navigation/,$d' maas-documentation-25.md
+	sed -i "s/\(^\!\[.*\)/<!-- vanilla\n\1\n vanilla -->\n\n<!-- ui\n\1\n ui -->\n\n<!-- cli\n### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###\n cli -->/g" *.md
 
 
 
