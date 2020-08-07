@@ -74,7 +74,7 @@ TARGET_DEPS += commissioning-and-hardware-testing-scripts-833.html
 TARGET_DEPS += maas-tags-834.html
 TARGET_DEPS += historical-release-notes-835.html
 TARGET_DEPS += maas-2-6-release-notes-836.html
-TARGET_DEPS += troubleshooting-837.html
+nTARGET_DEPS += troubleshooting-837.html
 TARGET_DEPS += getting-help-838.html
 TARGET_DEPS += about-maas-840.html
 TARGET_DEPS += maas-image-builder-1112.html
@@ -97,18 +97,20 @@ TARGET_DEPS += whats-new-in-maas-2-8-1655.html
 	cp templates/vanilla-template.html ./template.html
 	xpub convert dc2html -t vanilla $<
 	cp $@ maas-vanilla
-	mv $@ maas-offline
+	cp $@ /var/www/html/maas-rad/maas-vanilla
+	mv $@ /var/www/html/maas-offline
 	cp templates/ui-only-template.html ./template.html
 	xpub convert dc2html -t ui $<
+	cp $@ /var/www/html/maas-rad/maas-rad-ui
 	mv $@ maas-rad-ui
 	cp templates/cli-only-template.html ./template.html
 	xpub convert dc2html -t cli $<
 	cp $@  maas-rad-cli
+	cp $@ /var/www/html/maas-rad/maas-rad-cli
 
 finale: $(TARGET_DEPS)
 	xpub push github
-	cd /var/www/html/maas-rad
-	xpub pull github
+	cp images/* /var/www/html/maas-rad/images
 
 pull:
 	xpub pull discourse -c 5 -b not-rad 25 25
