@@ -97,20 +97,20 @@ TARGET_DEPS += whats-new-in-maas-2-8-1655.html
 	cp templates/vanilla-template.html ./template.html
 	xpub convert dc2html -t vanilla $<
 	cp $@ maas-vanilla
-	cp $@ /var/www/html/maas-rad/maas-vanilla
+	cp $@ /var/www/html/maas-vanilla
 	mv $@ /var/www/html/maas-offline
 	cp templates/ui-only-template.html ./template.html
 	xpub convert dc2html -t ui $<
-	cp $@ /var/www/html/maas-rad/maas-rad-ui
+	cp $@ /var/www/html/maas-rad-ui
 	mv $@ maas-rad-ui
 	cp templates/cli-only-template.html ./template.html
 	xpub convert dc2html -t cli $<
 	cp $@  maas-rad-cli
-	cp $@ /var/www/html/maas-rad/maas-rad-cli
+	cp $@ /var/www/html/maas-rad-cli
 
 finale: $(TARGET_DEPS)
 	xpub push github
-	cp images/* /var/www/html/maas-rad/images
+	cp images/* /var/www/html/images
 
 pull:
 	xpub pull discourse -c 5 -b not-rad 25 25

@@ -362,9 +362,9 @@
     <center>
       <strong>Vanilla</strong>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="http://stormrider.io/maas-rad/maas-rad-ui/maas-documentation-25.html">UI-only</a>
+      <a href="http://stormrider.io/maas-rad-ui/maas-documentation-25.html">UI-only</a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="http://stormrider.io/maas-rad/maas-rad-cli/maas-documentation-25.html">CLI-only</a>
+      <a href="http://stormrider.io/maas-rad-cli/maas-documentation-25.html">CLI-only</a>
     </center>
 <h1>Commission machines</h1><p>MAAS is built to manage machines, including the operating systems on those machines. Enlistment and commissioning are features that make it easier to start managing a machine – as long as that machine has been configured to netboot. Enlistment enables users to simply connect a machine, configure the firmware properly, and power it on so that MAAS can find it and add it.</p>
 <p>Enlistment happens when MAAS starts; it reaches out on connected subnets to locate any nodes – that is, devices and machines – that reside on those subnets. MAAS finds a machine that’s configured to netboot (e.g., via PXE), boots that machine into Ubuntu, and then sends cloud-init user data which runs standard (i.e., built-in) commissioning scripts. The machine actually adds itself over the MAAS API, and then requests permission to send commissioning data.</p>
