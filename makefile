@@ -74,7 +74,7 @@ TARGET_DEPS += commissioning-and-hardware-testing-scripts-833.html
 TARGET_DEPS += maas-tags-834.html
 TARGET_DEPS += historical-release-notes-835.html
 TARGET_DEPS += maas-2-6-release-notes-836.html
-nTARGET_DEPS += troubleshooting-837.html
+TARGET_DEPS += troubleshooting-837.html
 TARGET_DEPS += getting-help-838.html
 TARGET_DEPS += about-maas-840.html
 TARGET_DEPS += maas-image-builder-1112.html
@@ -94,11 +94,14 @@ TARGET_DEPS += creating-a-custom-ubuntu-image-1652.html
 TARGET_DEPS += whats-new-in-maas-2-8-1655.html
 
 %.html: %.md
+	cp templates/offline-template.html ./template.html
+	xpub convert dc2html - vanilla $<
+	cp $@ maas-offline
+	mv $@ /var/www/html/maas-offline
 	cp templates/vanilla-template.html ./template.html
 	xpub convert dc2html -t vanilla $<
 	cp $@ maas-vanilla
 	cp $@ /var/www/html/maas-vanilla
-	mv $@ /var/www/html/maas-offline
 	cp templates/ui-only-template.html ./template.html
 	xpub convert dc2html -t ui $<
 	cp $@ /var/www/html/maas-rad-ui
