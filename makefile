@@ -107,6 +107,8 @@ TARGET_DEPS += whats-new-in-maas-2-8-1655.html
 
 finale: $(TARGET_DEPS)
 	xpub push github
+	cd /var/www/html/maas-rad
+	xpub pull github
 
 pull:
 	xpub pull discourse -c 5 -b not-rad 25 25
