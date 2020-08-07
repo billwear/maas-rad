@@ -368,21 +368,6 @@
 <li><a href="vmware-images-753.html">How do I use and manage VMWare images?</a></li>
 <li><a href="cli-image-management-797.html">How do I manage images with the CLI?</a></li>
 </ul>
-<!-- ui
-* [What are boot sources, and why do they matter?](images-754.html#heading--boot-sources)
-* [How do I select and import an image?](select-and-import-images-751.html)
-* [How do I set up and use a local image mirror?](local-image-mirror-752.html)
-* [How do I use and manage VMWare images?](vmware-images-753.html)
- ui -->
-
-<!-- cli
-* [What are boot sources, and why do they matter?](images-754.html#heading--boot-sources)
-* [How do I select and import an image?](select-and-import-images-751.html)
-* [How do I set up and use a local image mirror?](local-image-mirror-752.html)
-* [How do I use and manage VMWare images?](vmware-images-753.html)
-* [How do I manage images with the CLI?](cli-image-management-797.html)
- cli -->
-
 <p>MAAS stores images in the region controller&rsquo;s database, from where the rack controller proxies them to the individual machines.  It&rsquo;s important to note that for ESXi images, network configuration includes only:</p>
 <ul>
 <li>DHCP</li>
@@ -396,13 +381,7 @@
 </ul>
 </li>
 </ul>
-<h3>BRING IN TEXT FROM HERE</h3>
-<p><a href="cli-image-management-797.html">CLI Image Management</a> for information on advanced image management.</p>
-<!-- cli
-### BRING IN TEXT FROM HERE
-[CLI Image Management](cli-image-management-797.html) for information on advanced image management.
- cli -->
-
+<p>See <a href="cli-image-management-797.html">CLI Image Management</a> for information on advanced image management.</p>
 <h2 id="heading--boot-sources">Boot sources</h2>
 
 <p>The place from where a region controller downloads its images is known as a boot source. The main characteristics of a boot source are its location (URL) and its associated GPG public keyring.</p>
@@ -413,6 +392,7 @@ A boot resource is another name for an image. So boot resources are found within
 <p><a href="https://images.maas.io/ephemeral-v3/daily/"><code>https://images.maas.io/ephemeral-v3/daily/</code></a></p>
 <p>The above URL points to the &lsquo;daily&rsquo; stream (for the v3 format). See <a href="local-image-mirror-752.html">Local image mirror</a> for some explanation regarding the availability of other streams.</p>
 <p>Although the backend supports multiple boot sources, MAAS itself uses a single source. If multiple sources are detected, the web UI will print a warning and will be unable to manage images.</p>
+<!-- LINKS -->
 </div>
 </body>
 </html>

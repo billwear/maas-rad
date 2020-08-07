@@ -311,27 +311,11 @@
 <h2 id="heading--add-vm-from-ui">Adding a VM from the Web UI</h2>
 
 <p>While on VM host&rsquo;s details view, select &lsquo;Compose&rsquo; from the &lsquo;Take action&rsquo; drop-down menu to compose a machine.</p>
-<!-- vanilla
-![compose-machine|690x276](../images/937726bb839eefb28e9297e8f97bd48556c1014c_2_690x276.jpeg) 
- vanilla -->
-
-<p><img alt="compose-machine" width="690" height="276" src="../images/937726bb839eefb28e9297e8f97bd48556c1014c_2_690x276.jpeg"> </p>
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
-
+<p><img alt=compose-machine" width="870" src="https://discourse.maas.io/uploads/default/optimized/1X/937726bb839eefb28e9297e8f97bd48556c1014c_2_690x276.jpeg">) </p>
 <p>You can choose which storage pool to use from a drop-down list. </p>
 <p>Click the &lsquo;Compose machine&rsquo; button when you&rsquo;re finished. MAAS will present the VM host detail view. In a few moments, your new machine will be auto-commissioned. The &lsquo;Machines&rsquo; page will reflect this as well.</p>
 <p>MAAS will deduct the new machine&rsquo;s resources from the VM host&rsquo;s resources:</p>
-<!-- vanilla
-![deduct-storage|690x359](../images/3b621ab0e7b4f6a86963d2b7c50b677b815956ab_2_690x359.jpeg) 
- vanilla -->
-
-<p><img alt="deduct-storage" width="690" height="359" src="../images/3b621ab0e7b4f6a86963d2b7c50b677b815956ab_2_690x359.jpeg"> </p>
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
-
+<p><img alt=deduct-storage" width="870" src="https://discourse.maas.io/uploads/default/optimized/1X/3b621ab0e7b4f6a86963d2b7c50b677b815956ab_2_690x359.jpeg">) </p>
 <h2 id="heading--adding-a-vm-from-the-cli">Adding a VM from the CLI</h2>
 
 <p>To compose a basic VM:</p>
@@ -439,33 +423,15 @@ maas admin partition mount $SYSTEM_ID $DISK2_ID $HOME_PARTITION_ID "mount_point=
 <pre><code>"MyVMHost"
 1
 </code></pre>
-<!-- vanilla
-<h2 id="heading--delete-a-machine">Deleting a VM from the Web UI</h2>
-
-To delete a VM, delete it as you would any other MAAS machine. Select the desired machine from the list of machines and select 'Delete' from the 'Take Action' menu.
-
-![delete-vm|690x400](../images/34d3f5fcd8a86bfa827bab5383209ea9ca117f50_2_690x400.jpeg) 
- vanilla -->
-
 <h2 id="heading--delete-a-machine">Deleting a VM from the Web UI</h2>
 
 <p>To delete a VM, delete it as you would any other MAAS machine. Select the desired machine from the list of machines and select &lsquo;Delete&rsquo; from the &lsquo;Take Action&rsquo; menu.</p>
-<p><img alt="delete-vm" width="690" height="400" src="../images/34d3f5fcd8a86bfa827bab5383209ea9ca117f50_2_690x400.jpeg"> </p>
-<!-- vanilla
+<p><img alt=delete-vm" width="870" src="https://discourse.maas.io/uploads/default/optimized/1X/34d3f5fcd8a86bfa827bab5383209ea9ca117f50_2_690x400.jpeg">) </p>
 <h2 id="heading--delete-a-vm">Deleting a VM with the CLI</h2>
 
-    maas $PROFILE machine delete $SYSTEM_ID
-
-After you delete a machine, its resources will be available for other VMs.
- vanilla -->
-
-<!-- cli
-<h2 id="heading--delete-a-vm">Deleting a VM with the CLI</h2>
-
-    maas $PROFILE machine delete $SYSTEM_ID
-
-After you delete a machine, its resources will be available for other VMs.
- cli -->
+<pre><code>maas $PROFILE machine delete $SYSTEM_ID
+</code></pre>
+<p>After you delete a machine, its resources will be available for other VMs.</p>
 </div>
 </body>
 </html>
