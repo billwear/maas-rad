@@ -93,30 +93,40 @@ TARGET_DEPS += adding-a-vm-host-1549.html
 TARGET_DEPS += creating-a-custom-ubuntu-image-1652.html
 TARGET_DEPS += whats-new-in-maas-2-8-1655.html
 
+# default target - convert md files to html and distribute them
 %.html: %.md
-	cp templates/offline-template.html ./template.html
-	xpub convert dc2html - vanilla $<
-	cp $@ maas-offline
-	mv $@ /var/www/html/maas-offline
+# 1. offline docs
+#    a. create dir struct, if not present
+	mkdir -p /var/www/html/maas-offline/maas-offline-vanilla/images
+	mkdir -p /var/www/html/maas-offline/maas-offline-ui-only/images
+	mkdir -p /var/www/html/maas-offline/maas-offline-cli-only/images
+	mkdir -p /var/www/html/maas-vanilla/images
+	mkdir -p /var/www/html/maas-ui-only/images
+	mkdir -p /var/www/html/maas-cli-only/images
+#    b. maas vanilla versions
 	cp templates/vanilla-template.html ./template.html
-	xpub convert dc2html -t vanilla $<
-	cp $@ maas-vanilla
+	xpub convert dc2html - vanilla $<
 	cp $@ /var/www/html/maas-vanilla
+	mv $@ /var/www/html/maas-offline/maas-offline-vanilla
+#    c. maas ui-only versions
 	cp templates/ui-only-template.html ./template.html
 	xpub convert dc2html -t ui $<
-	cp $@ /var/www/html/maas-rad-ui
-	mv $@ maas-rad-ui
+	cp $@ /var/www/html/maas-ui-only
+	mv $@ /var/www/html/maas-offline/maas-offline-ui-only
+#    d. maas cli-only versions
 	cp templates/cli-only-template.html ./template.html
 	xpub convert dc2html -t cli $<
-	cp $@  maas-rad-cli
-	cp $@ /var/www/html/maas-rad-cli
+	cp $@ /var/www/html/maas-cli-only
+	cp $@ /var/www/html/maas-offline/maas-offline-cli-only
 
 finale: $(TARGET_DEPS)
 	xpub push github
-	cp -R images /var/www/html/maas-offline
-	cp -R images /var/www/html/maas-vanilla
-	cp -R images /var/www/html/maas-rad-ui
-	cp -R images /var/www/html/maas-rad-cli
+	cp images/* /var/www/html/maas-offline/maas-offline-vanilla/images
+	cp images/* /var/www/html/maas-offline/maas-offline-ui-only/images
+	cp images/* /var/www/html/maas-offline/maas-offline-cli-only/images
+	cp images/* /var/www/html/maas-vanilla/images
+	cp images/* /var/www/html/maas-ui-only/images
+	cp images/* /var/www/html/maas-cli-only/images
 
 pull:
 	xpub pull discourse -c 5 -b not-rad 25 25
