@@ -113,7 +113,10 @@ TARGET_DEPS += whats-new-in-maas-2-8-1655.html
 
 finale: $(TARGET_DEPS)
 	xpub push github
-	cp images/* /var/www/html/images
+	cp -R images /var/www/html/maas-offline
+	cp -R images /var/www/html/maas-vanilla
+	cp -R images /var/www/html/maas-rad-ui
+	cp -R images /var/www/html/maas-rad-cli
 
 pull:
 	xpub pull discourse -c 5 -b not-rad 25 25
