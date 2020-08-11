@@ -19,7 +19,7 @@ post-build:
 	cp images/* /var/www/html/maas-ui-only/images
 	cp images/* /var/www/html/maas-cli-only/images
 
-%.html: %.md
+target: %.html
 	cp templates/vanilla-template.html ./template.html
 	xpub convert dc2html - vanilla $<
 	cp $@ /var/www/html/maas-vanilla
@@ -34,7 +34,7 @@ post-build:
 	cp $@ /var/www/html/maas-offline/maas-cli-only
 	@$(MAKE) --no-print-directory post-build
 
-main-build: %.html
+main-build: target
 
 pull:
 	xpub pull discourse -c 5 -b not-rad 25 25
