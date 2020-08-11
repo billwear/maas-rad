@@ -134,6 +134,12 @@ finale: $(TARGET_DEPS)
 	mkdir -p $(RCLI)/images && cp images/* $(RCLI)/images
 	mkdir -p $(OUI)/images && cp images/* $(OUI)/images
 	mkdir -p $(RUI)/images && cp images/* $(RUI)/images
+	mkdir -p $(OVAN)/css && cp css/* $(OVAN)/css
+	mkdir -p $(RVAN)/css && cp css/* $(RVAN)/css
+	mkdir -p $(OCLI)/css && cp css/* $(OCLI)/css
+	mkdir -p $(RCLI)/css && cp css/* $(RCLI)/css
+	mkdir -p $(OUI)/css && cp css/* $(OUI)/css
+	mkdir -p $(RUI)/css && cp css/* $(RUI)/css
 
 
 
