@@ -39,15 +39,7 @@ Before MAAS 2.1 on Xenial, HWE kernels are referred to by the notation `hwe-<rel
 
 In MAAS 2.1, starting with Xenial kernels, the notation has changed. The following is used to refer to the latest HWE kernel available for Xenial: `hwe-16.04`.
 
-<!-- cli
-### BRING IN THESE INSTRUCTIONS TO THIS SECITON
 See [MAAS CLI](/t/cli-image-management/797#heading--hardware-enablement-hwe) for how to target specific HWE kernels when selecting install images.
- cli -->
-
-<!-- vanilla
-### BRING IN THESE INSTRUCTIONS TO THIS SECITON
-See [MAAS CLI](/t/cli-image-management/797#heading--hardware-enablement-hwe) for how to target specific HWE kernels when selecting install images.
- vanilla -->
 
 See [LTS Enablement Stack](https://wiki.ubuntu.com/Kernel/LTSEnablementStack) (Ubuntu wiki) for the latest information on HWE.
 
@@ -85,49 +77,19 @@ You can also use the [MAAS CLI](/t/cli-kernel-management/799#heading--set-a-defa
 
 To set the default minimum enlistment and commissioning kernel (based on Ubuntu release: GA kernel) for all machines visit the 'General' tab of the 'Settings' page and select a kernel in the 'Default Minimum Kernel Version' field of the *Commissioning* section. Don't forget to click 'Save'.
 
-<!-- vanilla
-![default minimum kernel](images/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png)
- vanilla -->
-
-<!-- ui
-![default minimum kernel](images/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png)
- ui -->
-
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
+![default minimum kernel](https://assets.ubuntu.com/v1/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png)
 
 <h3 id="heading--machine-minimum-kernel">Machine minimum kernel</h3>
 
 To set the minimum deploy kernel on a machine basis, click on a machine from the 'Machines' page of the web UI and switch to its 'Configuration' page. Click 'Edit' in the 'Machine configuration' section, select a kernel in the 'Minimum Kernel' field followed by 'Save changes'.
 
-<!-- vanilla
-![machine minimum kernel](images/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png)
- vanilla -->
-
-<!-- ui
-![machine minimum kernel](images/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png)
- ui -->
-
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
+![machine minimum kernel](https://assets.ubuntu.com/v1/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png)
 
 <h3 id="heading--machine-kernel-during-deployment">Machine kernel during deployment</h3>
 
 To set a specific kernel during deployment, select a machine from the 'Machines' page and choose 'Deploy' under 'Take action'. Then choose a kernel from the (third) kernel field. Hit 'Deploy machine' to initiate the deployment.
 
-<!-- vanilla
-![machine during deploy kernel](images/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png)
- vanilla -->
-
-<!-- ui
-![machine during deploy kernel](images/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png)
- ui -->
-
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
+![machine during deploy kernel](https://assets.ubuntu.com/v1/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png)
 
 MAAS verifies that the specified kernel is available for the given Ubuntu release (series) before deploying the machine.
 

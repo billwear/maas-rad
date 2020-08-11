@@ -6,7 +6,7 @@
   </head>
 <body>
   <div style="float:left; width:20%;">
-    <a href="http://stormrider.io/maas-rad.html">RAD index</a>
+    <a href="http://stormrider.io">Home</a>
 <h3>
 <a href="maas-documentation-25.html">Introduction
 </a>
@@ -358,8 +358,15 @@
   </a>
 </h3>
     </div>
-<div class="container" style="float:right; width:75%;">
-<h1>Proxy</h1><p>MAAS provides a way for its managed machines to use a proxy server when they need to access HTTP/HTTPS-based resources, such as the Ubuntu package archive.</p>
+  <div class="container" style="float:right; width:75%;">
+    <center>
+      <a href="http://stormrider.io/maas-vanilla/maas-documentation-25.html">Vanilla</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://stormrider.io/maas-rad-ui/maas-documentation-25.html">UI-only</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <strong>CLI-only</strong>
+    </center>
+    <h1>Proxy</h1><p>MAAS provides a way for its managed machines to use a proxy server when they need to access HTTP/HTTPS-based resources, such as the Ubuntu package archive.</p>
 <p>There are three possible options:</p>
 <ul>
 <li>internal proxy (default)</li>
@@ -382,15 +389,7 @@
 
 <p>See the <a href="common-cli-tasks-794.html#heading--configure-proxying">MAAS CLI</a> for how to configure proxying with the CLI. Note that you can only configure per-subnet proxies via the CLI.</p>
 <p>In the web UI, visit the &lsquo;Settings&rsquo; page and select the &lsquo;Network services&rsquo; tab. The &lsquo;Proxy&rsquo; section is at the top. You can apply your changes by pressing the &lsquo;Save&rsquo; button.</p>
-<!-- vanilla
-![Configure proxy](../images/55800a33-installconfig-network-proxy__2.4_configure-proxy.png)
- vanilla -->
-
-<!-- ui
-![Configure proxy](../images/55800a33-installconfig-network-proxy__2.4_configure-proxy.png)
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=Configure proxy" width="690" src="images/55800a33-installconfig-network-proxy__2.4_configure-proxy.png"></p>
 <p>To enable the internal proxy, ensure that the checkbox adjacent to &lsquo;MAAS Built-in&rsquo; is selected. This internal proxy is the default configuration.</p>
 <p>To enable an external proxy, activate the &lsquo;External&rsquo; checkbox and use the new field that is displayed to define the proxy&rsquo;s URL (and port if necessary).</p>
 <p>An upstream cache peer can be defined by enabling the &lsquo;Peer&rsquo; checkbox and entering the external proxy URL into the field. With this enabled, machines will be configured to use the MAAS built-in proxy to download cached APT packages.</p>

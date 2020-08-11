@@ -6,7 +6,7 @@
   </head>
 <body>
   <div style="float:left; width:20%;">
-    <a href="http://stormrider.io/maas-rad.html">RAD index</a>
+    <a href="http://stormrider.io">Home</a>
 <h3>
 <a href="maas-documentation-25.html">Introduction
 </a>
@@ -358,8 +358,15 @@
   </a>
 </h3>
     </div>
-<div class="container" style="float:right; width:75%;">
-<h1>Ip ranges</h1><p>In MAAS-managed networks, you can further manage your subnets with a reserved range of IP addresses.  You can reserve IP addresses by adding one or more reserved ranges to a subnet configuration. You can define two types of ranges: reserved ranges and reserved dynamic ranges.  </p>
+  <div class="container" style="float:right; width:75%;">
+    <center>
+      <a href="http://stormrider.io/maas-rad/maas-vanilla/maas-documentation-25.html">Vanilla</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://stormrider.io/maas-rad/maas-ui-only/maas-documentation-25.html">UI-only</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <strong>CLI-only</strong>
+    </center>
+    <h1>Ip ranges</h1><p>In MAAS-managed networks, you can further manage your subnets with a reserved range of IP addresses.  You can reserve IP addresses by adding one or more reserved ranges to a subnet configuration. You can define two types of ranges: reserved ranges and reserved dynamic ranges.  </p>
 <p>A reserved range operates differently depending on whether the subnet is managed or unmanaged.  For a managed (subnet), MAAS will never assign IP addresses inside this range.  You can use this range for anything, such as infrastructure systems, network hardware, external DHCP, or an OpenStack namespace.  For an unmanaged (subnet), MAAS will only assign IP addresses inside this range &ndash; but MAAS can assign any IP within this range.</p>
 <p>A reserved dynamic range is used by MAAS for enlisting, commissioning and, if enabled, MAAS-managed DHCP on the machine&rsquo;s VLAN during commissioning and deployment. If created with the Web UI, an initial range is created as part of the DHCP enablement process. MAAS never uses IP addresses from this range for an unmanaged subnet.</p>
 <p>This article gives specific instructions about creating and managing IP ranges.</p>
@@ -374,15 +381,7 @@
 <p>Choose &lsquo;Reserve range&rsquo; or &lsquo;Reserve dynamic range&rsquo;. If you choose the latter, MAAS will automatically provide DHCP for enlistment and commissioning provided that the associated VLAN has DHCP enabled. Read the <a href="managing-dhcp-759.html">DHCP page</a>.</p>
 <p>When you choose either of those two options, a window will appear allowing you to enter start and end addresses for the range as well as a comment.</p>
 <p>Below is an example window when creating a &lsquo;reserved range&rsquo; (the windows are identical):</p>
-<!-- vanilla
-![reserved IP range](../images/be85b7d6-installconfig-network-ipranges__2.4_add-reserved-iprange.png)
- vanilla -->
-
-<!-- ui
-![reserved IP range](../images/be85b7d6-installconfig-network-ipranges__2.4_add-reserved-iprange.png)
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=reserved IP range" width="690" src="images/be85b7d6-installconfig-network-ipranges__2.4_add-reserved-iprange.png"></p>
 <p>Click the &lsquo;Reserve&rsquo; button when done.</p>
 <p>See <a href="common-cli-tasks-794.html#heading--create-a-reserved-ip-range">MAAS CLI</a> for doing this with the CLI.</p>
 <h2 id="heading--edit-a-range">Edit a range</h2>

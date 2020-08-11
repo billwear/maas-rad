@@ -6,7 +6,7 @@
   </head>
 <body>
   <div style="float:left; width:20%;">
-    <a href="http://stormrider.io/maas-rad.html">RAD index</a>
+    <a href="http://stormrider.io">Home</a>
 <h3>
 <a href="maas-documentation-25.html">Introduction
 </a>
@@ -358,8 +358,15 @@
   </a>
 </h3>
     </div>
-<div class="container" style="float:right; width:75%;">
-<h1>Disk erasure</h1><p>Disk erasure pertains to the erasing of data on each of a machine&rsquo;s disks when the machine has been released (see <a href="concepts-and-terms-785.html#heading--release">Release action</a>) back into the pool of available machines. The user can choose from among three erasure types before confirming the Release action. A default erasure configuration can also be set.</p>
+  <div class="container" style="float:right; width:75%;">
+    <center>
+      <a href="http://stormrider.io/maas-vanilla/maas-documentation-25.html">Vanilla</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://stormrider.io/maas-rad-ui/maas-documentation-25.html">UI-only</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <strong>CLI-only</strong>
+    </center>
+    <h1>Disk erasure</h1><p>Disk erasure pertains to the erasing of data on each of a machine&rsquo;s disks when the machine has been released (see <a href="concepts-and-terms-785.html#heading--release">Release action</a>) back into the pool of available machines. The user can choose from among three erasure types before confirming the Release action. A default erasure configuration can also be set.</p>
 <h2 id="heading--erasure-types">Erasure types</h2>
 
 <p>The three types of erasure types are:</p>
@@ -381,26 +388,10 @@
 <h2 id="heading--default-configuration">Default configuration</h2>
 
 <p>A default erasure configuration can be set on the &lsquo;Settings&rsquo; page by selecting the &lsquo;Storage&rsquo; tab.</p>
-<!-- vanilla
-![disk erasure default settings](../images/4e90c4c7-installconfig-storage-erasure__defaults.png)
- vanilla -->
-
-<!-- ui
-![disk erasure default settings](../images/4e90c4c7-installconfig-storage-erasure__defaults.png)
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=disk erasure default settings" width="690" src="images/4e90c4c7-installconfig-storage-erasure__defaults.png"></p>
 <p>If option &lsquo;Erase machines&rsquo; disks prior to releasing&rsquo; is chosen then users will be compelled to use disk erasure. That option will be pre-filled in the machine&rsquo;s view and the user will be unable to remove the option.</p>
 <p>With the above defaults, the machine&rsquo;s view will look like this when the Release action is chosen:</p>
-<!-- vanilla
-![disk erasure default node view](../images/66e1dcc2-installconfig-storage-erasure__defaults-node.png)
- vanilla -->
-
-<!-- ui
-![disk erasure default node view](../images/66e1dcc2-installconfig-storage-erasure__defaults-node.png)
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=disk erasure default node view" width="690" src="images/66e1dcc2-installconfig-storage-erasure__defaults-node.png"></p>
 <p>Where &lsquo;secure erase&rsquo; and &lsquo;quick erase&rsquo; can then be configured by the user.</p>
 <h2 id="heading--order-of-preference">Order of preference</h2>
 

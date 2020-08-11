@@ -6,7 +6,7 @@
   </head>
 <body>
   <div style="float:left; width:20%;">
-    <a href="http://stormrider.io/maas-rad.html">RAD index</a>
+    <a href="http://stormrider.io">Home</a>
 <h3>
 <a href="maas-documentation-25.html">Introduction
 </a>
@@ -358,8 +358,15 @@
   </a>
 </h3>
     </div>
-<div class="container" style="float:right; width:75%;">
-<h1>Hardware testing</h1><p>If you wish, you can tell MAAS to test machine hardware using well-known Linux utilities.  MAAS can test machines that have  a status of <strong>Ready</strong>, <strong>Broken</strong>, or <strong>Deployed</strong>.  You can include testing as part of the commissioning process. When you choose the &lsquo;Commission&rsquo; action, MAAS will display the dialog described below.  Be aware, though, that if the hardware tests fail, the machine will become unavailable for Deployment.</p>
+  <div class="container" style="float:right; width:75%;">
+    <center>
+      <a href="http://stormrider.io/maas-vanilla/maas-documentation-25.html">Vanilla</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://stormrider.io/maas-rad-ui/maas-documentation-25.html">UI-only</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <strong>CLI-only</strong>
+    </center>
+    <h1>Hardware testing</h1><p>If you wish, you can tell MAAS to test machine hardware using well-known Linux utilities.  MAAS can test machines that have  a status of <strong>Ready</strong>, <strong>Broken</strong>, or <strong>Deployed</strong>.  You can include testing as part of the commissioning process. When you choose the &lsquo;Commission&rsquo; action, MAAS will display the dialog described below.  Be aware, though, that if the hardware tests fail, the machine will become unavailable for Deployment.</p>
 <p>[note]
 The majority of testing scripts only work with machines that are backed by physical hardware (e.g. they may be incompatible with VM-based machines).
 [/note]</p>
@@ -371,26 +378,10 @@ The majority of testing scripts only work with machines that are backed by physi
 <h2 id="heading--apply-a-hardware-test">Apply a hardware test</h2>
 
 <p>To launch a test, select the target machine from the &lsquo;Machines&rsquo; page and use the &lsquo;Take action&rsquo; drop-down menu to select &lsquo;Test hardware&rsquo;. When ready, hit the &lsquo;Test machine&rsquo; button. Here, a test is applied to a deployed machine:</p>
-<!-- vanilla
-![hw test deployed node|690x345](../images/8e876889-nodes-hw-testing__2.4_deployed.png)
- vanilla -->
-
-<!-- ui
-![hw test deployed node|690x345](../images/8e876889-nodes-hw-testing__2.4_deployed.png)
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=hw test deployed node" width="690" src="images/8e876889-nodes-hw-testing__2.4_deployed.png"></p>
 <p>There is the option of not powering off the machine and to allow SSH access.</p>
 <p>A default test will be selected (<code>smartctl-validate</code>, a hard drive test) but you can choose others by clicking the &lsquo;Select scripts&rsquo; label. Doing so will reveal the following choices:</p>
-<!-- vanilla
-![hw test deployed node choices|690x379](../images/ccfefe25-nodes-hw-testing__2.4_deployed-choices.png)
- vanilla -->
-
-<!-- ui
-![hw test deployed node choices|690x379](../images/ccfefe25-nodes-hw-testing__2.4_deployed-choices.png)
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=hw test deployed node choices" width="690" src="images/ccfefe25-nodes-hw-testing__2.4_deployed-choices.png"></p>
 <h2 id="heading--included-scripts">Scripts available for testing</h2>
 
 <p>The following hardware testing scripts can be selected from the web UI:</p>

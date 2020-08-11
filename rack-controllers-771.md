@@ -9,34 +9,13 @@ A rack controller can connect to multiple VLANs, each from a different network i
 
 <h2 id="heading--install-a-rack-controller">Install a rack controller</h2>
 
-Installing a rack controller consists of installing the rack controller software and then registering the rack controller with the region API server.  When MAAS installs a rack controller on the same host as the region API server, registration occurs automatically.
-
-<!-- vanilla
- vanilla -->
+Installing a rack controller consists of installing the rack controller software and then registering the rack controller with the region API server.  When MAAS installs a rack controller on the same host as the region API server, registration occurs automatically.  Rack controllers can also be [added and registered manually](/t/cli-advanced-tasks/793#heading--install-a-rack-controller).
 
 Once registered, this extra rack controller will appear immediately alongside the primary controller in the web UI and begin to sync with it:
 
-<!-- vanilla
-![4_install-rackd|690x251](images/0a5f1d374a3e53235a83eb157163be49016e63b5_2_690x251.png) 
- vanilla -->
+![4_install-rackd|690x251](https://discourse.maas.io/uploads/default/optimized/1X/0a5f1d374a3e53235a83eb157163be49016e63b5_2_690x251.png) 
 
-<!-- ui
-![4_install-rackd|690x251](images/0a5f1d374a3e53235a83eb157163be49016e63b5_2_690x251.png) 
- ui -->
-
-<!-- vanilla
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
-Add material from[added and registered manually](/t/cli-advanced-tasks/793#heading--install-a-rack-controller).
-You can also [list and confirm](/t/cli-advanced-tasks/793#heading--list-rack-controllers) all registered rack controllers via the CLI.
-vanilla  -->
-
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
-Add material from[added and registered manually](/t/cli-advanced-tasks/793#heading--install-a-rack-controller).
-You can also [list and confirm](/t/cli-advanced-tasks/793#heading--list-rack-controllers) all registered rack controllers via the CLI.
-cli -->
-
- Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/804) configurations.
+You can also [list and confirm](/t/cli-advanced-tasks/793#heading--list-rack-controllers) all registered rack controllers via the CLI.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/804) configurations.
 
 <div class="p-notification">
 <p class="p-notification__response">If you are using VM nodes, you must ensure that the new rack controller can communicate with the VM host.</p>

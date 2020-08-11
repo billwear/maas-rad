@@ -6,7 +6,7 @@
   </head>
 <body>
   <div style="float:left; width:20%;">
-    <a href="http://stormrider.io/maas-rad.html">RAD index</a>
+    <a href="http://stormrider.io">Home</a>
 <h3>
 <a href="maas-documentation-25.html">Introduction
 </a>
@@ -358,8 +358,15 @@
   </a>
 </h3>
     </div>
-<div class="container" style="float:right; width:75%;">
-<h1>Subnet management</h1><p>The topic of subnet management pertains to whether MAAS is in full control of a subnet or not. When a subnet is managed, MAAS handles all aspects of IP address allocation. This process includes DHCP leases and assigned static addresses. Typically MAAS would have one managed subnet, but any additional subnets can be unmanaged. This arrangement allows for more control over which subnet gets used for DHCP and which ones do not. Additionally, as detailed below, an unmanaged subnet treats reserved IP ranges differently, and in a way that some administrators find more intuitive.</p>
+  <div class="container" style="float:right; width:75%;">
+    <center>
+      <a href="http://stormrider.io/maas-rad/maas-vanilla/maas-documentation-25.html">Vanilla</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://stormrider.io/maas-rad/maas-ui-only/maas-documentation-25.html">UI-only</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <strong>CLI-only</strong>
+    </center>
+    <h1>Subnet management</h1><p>The topic of subnet management pertains to whether MAAS is in full control of a subnet or not. When a subnet is managed, MAAS handles all aspects of IP address allocation. This process includes DHCP leases and assigned static addresses. Typically MAAS would have one managed subnet, but any additional subnets can be unmanaged. This arrangement allows for more control over which subnet gets used for DHCP and which ones do not. Additionally, as detailed below, an unmanaged subnet treats reserved IP ranges differently, and in a way that some administrators find more intuitive.</p>
 <h4>Quick questions you may have:</h4>
 <ul>
 <li><a href="subnet-management-766.html#heading--managed-subnets">What are managed subnets?</a></li>
@@ -382,15 +389,7 @@
 
 <p>By default, MAAS manages subnets in your configuration, but it is easy to change this.</p>
 <p>To disable (or re-enable) subnet management navigate to the &lsquo;Subnets&rsquo; page and select the subnet. Press the &lsquo;Edit&rsquo; button to allow changes. The &lsquo;Managed allocation&rsquo; field will become a slide switch. Click the label (or the switch icon itself) to toggle between enabled (dark blue) and disabled (grey) and click &lsquo;Save summary&rsquo;.</p>
-<!-- vanilla
-![subnet management toggle](../images/e5d80c8c-installconfig-network-subnet-management__2.6-management-toggle.png)
- vanilla -->
-
-<!-- ui
-![subnet management toggle](../images/e5d80c8c-installconfig-network-subnet-management__2.6-management-toggle.png)
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=subnet management toggle" width="690" src="images/e5d80c8c-installconfig-network-subnet-management__2.6-management-toggle.png"></p>
 <p>See <a href="common-cli-tasks-794.html#heading--control-subnet-management">MAAS CLI</a> for how to do this with the CLI.</p>
 <h2 id="heading--ip-address-tracking">IP address tracking</h2>
 

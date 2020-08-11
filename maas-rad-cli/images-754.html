@@ -6,7 +6,7 @@
   </head>
 <body>
   <div style="float:left; width:20%;">
-    <a href="http://stormrider.io/maas-rad.html">RAD index</a>
+    <a href="http://stormrider.io">Home</a>
 <h3>
 <a href="maas-documentation-25.html">Introduction
 </a>
@@ -358,24 +358,16 @@
   </a>
 </h3>
     </div>
-<div class="container" style="float:right; width:75%;">
-<h1>Images</h1><p>MAAS provides supported images for stable Ubuntu releases, and for CentOS 6.6, CentOS 7, and CentOS 8.0 releases.  <a href="https://www.ubuntu.com/support">Ubuntu Advantage</a> is needed to build customer Windows, RHEL and ESXi images.</p>
+  <div class="container" style="float:right; width:75%;">
+    <center>
+      <a href="http://stormrider.io/maas-vanilla/maas-documentation-25.html">Vanilla</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://stormrider.io/maas-rad-ui/maas-documentation-25.html">UI-only</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <strong>CLI-only</strong>
+    </center>
+    <h1>Images</h1><p>MAAS provides supported images for stable Ubuntu releases, and for CentOS 6.6, CentOS 7, and CentOS 8.0 releases.  <a href="https://www.ubuntu.com/support">Ubuntu Advantage</a> is needed to build customer Windows, RHEL and ESXi images.</p>
 <h4>Quick questions you may have:</h4>
-<!-- vanilla
-* [What are boot sources, and why do they matter?](images-754.html#heading--boot-sources)
-* [How do I select and import an image?](select-and-import-images-751.html)
-* [How do I set up and use a local image mirror?](local-image-mirror-752.html)
-* [How do I use and manage VMWare images?](vmware-images-753.html)
-* [How do I manage images with the CLI?](cli-image-management-797.html)
- vanilla -->
-
-<!-- ui
-* [What are boot sources, and why do they matter?](images-754.html#heading--boot-sources)
-* [How do I select and import an image?](select-and-import-images-751.html)
-* [How do I set up and use a local image mirror?](local-image-mirror-752.html)
-* [How do I use and manage VMWare images?](vmware-images-753.html)
- ui -->
-
 <ul>
 <li><a href="images-754.html#heading--boot-sources">What are boot sources, and why do they matter?</a></li>
 <li><a href="select-and-import-images-751.html">How do I select and import an image?</a></li>
@@ -396,13 +388,7 @@
 </ul>
 </li>
 </ul>
-<!-- vanilla
-### BRING IN TEXT FROM HERE
-[CLI Image Management](cli-image-management-797.html) for information on advanced image management.
- vanilla -->
-
-<h3>BRING IN TEXT FROM HERE</h3>
-<p><a href="cli-image-management-797.html">CLI Image Management</a> for information on advanced image management.</p>
+<p>See <a href="cli-image-management-797.html">CLI Image Management</a> for information on advanced image management.</p>
 <h2 id="heading--boot-sources">Boot sources</h2>
 
 <p>The place from where a region controller downloads its images is known as a boot source. The main characteristics of a boot source are its location (URL) and its associated GPG public keyring.</p>
@@ -413,6 +399,7 @@ A boot resource is another name for an image. So boot resources are found within
 <p><a href="https://images.maas.io/ephemeral-v3/daily/"><code>https://images.maas.io/ephemeral-v3/daily/</code></a></p>
 <p>The above URL points to the &lsquo;daily&rsquo; stream (for the v3 format). See <a href="local-image-mirror-752.html">Local image mirror</a> for some explanation regarding the availability of other streams.</p>
 <p>Although the backend supports multiple boot sources, MAAS itself uses a single source. If multiple sources are detected, the web UI will print a warning and will be unable to manage images.</p>
+<!-- LINKS -->
 </div>
 </body>
 </html>

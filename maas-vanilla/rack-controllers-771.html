@@ -6,7 +6,7 @@
   </head>
 <body>
 <div style="float:left; width:20%;">
-    <a href="http://stormrider.io/maas-rad.html">RAD index</a>
+    <a href="http://stormrider.io">Home</a>
 <h3>
 <a href="maas-documentation-25.html">Introduction
 </a>
@@ -359,6 +359,13 @@
 </h3>
     </div>
 <div class="container" style="float:right; width:75%;">
+    <center>
+      <strong>Vanilla</strong>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://stormrider.io/maas-rad-ui/maas-documentation-25.html">UI-only</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://stormrider.io/maas-rad-cli/maas-documentation-25.html">CLI-only</a>
+    </center>
 <h1>Rack controllers</h1><p>A rack controller can connect to multiple VLANs, each from a different network interface. This configuration provides a scaling factor that can help as a network architecture grows in size.</p>
 <h4>Quick questions you may have:</h4>
 <ul>
@@ -369,23 +376,10 @@
 </ul>
 <h2 id="heading--install-a-rack-controller">Install a rack controller</h2>
 
-<p>Installing a rack controller consists of installing the rack controller software and then registering the rack controller with the region API server.  When MAAS installs a rack controller on the same host as the region API server, registration occurs automatically.</p>
+<p>Installing a rack controller consists of installing the rack controller software and then registering the rack controller with the region API server.  When MAAS installs a rack controller on the same host as the region API server, registration occurs automatically.  Rack controllers can also be <a href="cli-advanced-tasks-793.html#heading--install-a-rack-controller">added and registered manually</a>.</p>
 <p>Once registered, this extra rack controller will appear immediately alongside the primary controller in the web UI and begin to sync with it:</p>
-<p><img alt="4_install-rackd" width="690" height="251" src="../images/0a5f1d374a3e53235a83eb157163be49016e63b5_2_690x251.png"> </p>
-<!-- ui
-![4_install-rackd|690x251](../images/0a5f1d374a3e53235a83eb157163be49016e63b5_2_690x251.png) 
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
-<p>Add material from<a href="cli-advanced-tasks-793.html#heading--install-a-rack-controller">added and registered manually</a>.
-You can also <a href="cli-advanced-tasks-793.html#heading--list-rack-controllers">list and confirm</a> all registered rack controllers via the CLI.</p>
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
-Add material from[added and registered manually](cli-advanced-tasks-793.html#heading--install-a-rack-controller).
-You can also [list and confirm](cli-advanced-tasks-793.html#heading--list-rack-controllers) all registered rack controllers via the CLI.
-cli -->
-
-<p>Note that you will need multiple rack controllers to achieve specific <a href="high-availability-804.html">high availability</a> configurations.</p>
+<p><img alt=4_install-rackd" width="690" src="images/0a5f1d374a3e53235a83eb157163be49016e63b5_2_690x251.png"> </p>
+<p>You can also <a href="cli-advanced-tasks-793.html#heading--list-rack-controllers">list and confirm</a> all registered rack controllers via the CLI.  Note that you will need multiple rack controllers to achieve specific <a href="high-availability-804.html">high availability</a> configurations.</p>
 <div class="p-notification">
 <p class="p-notification__response">If you are using VM nodes, you must ensure that the new rack controller can communicate with the VM host.</p>
 </div>

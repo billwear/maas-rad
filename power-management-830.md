@@ -10,47 +10,17 @@ To manage a machine, MAAS must be able to power cycle it, usually through the ma
 
 To configure a machine's power type, click on the machine from the 'Machines' page of the web UI, then select its 'Configuration' tab. Scroll down until you find the Power configuration. If the power type is undefined, the following will be displayed:
 
-<!-- vanilla
-![power types undefined](images/4fae5977-nodes-power-types__2.4_undefined.png)
- vanilla -->
-
-<!-- ui
-![power types undefined](images/4fae5977-nodes-power-types__2.4_undefined.png)
- ui -->
-
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
+![power types undefined](https://assets.ubuntu.com/v1/4fae5977-nodes-power-types__2.4_undefined.png)
 
 Choose a type in the dropdown menu that corresponds to the machine's underlying machine's BMC card.
 
-<!-- vanilla
-![power types selection](images/b53c6613-nodes-power-types__2.4_selection.png)
- vanilla -->
-
-<!-- ui
-![power types selection](images/b53c6613-nodes-power-types__2.4_selection.png)
- ui -->
-
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
+![power types selection](https://assets.ubuntu.com/v1/b53c6613-nodes-power-types__2.4_selection.png)
 
 Fill in the resulting form; the information required will depends on the power type.
 
 Click 'Save changes' to finish. Once that's done, MAAS performs a power check on the machine. A successful power check is a good indication that MAAS can properly communicate with the machine, that is, it should quickly result in a power status of "Power off". A failed attempt will show:
 
-<!-- vanilla
-![power types power error](images/3bd5e93b-nodes-power-types__2.4_power-error.png)
- vanilla -->
-
-<!-- ui
-![power types power error](images/3bd5e93b-nodes-power-types__2.4_power-error.png)
- ui -->
-
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
+![power types power error](https://assets.ubuntu.com/v1/3bd5e93b-nodes-power-types__2.4_power-error.png)
 
 If you see this error, double-check your entered values by editing the power type, or  consider another power type altogether.
 
@@ -60,17 +30,7 @@ Another possible cause for this error may be the networking: traffic may be gett
 
 Consider a machine backed by VM. Below, a 'Power type' of `Virsh` has been selected, and the 'Power address' of `qemu+ssh://ubuntu@192.168.1.2/system` has been entered (replace values as appropriate).  The value of 'Power ID' is the VM domain (guest) name, here `node2`.
 
-<!-- vanilla
-![power types example: virsh](images/c75e00a8-nodes-power-types__2.4_example-virsh.png)
- vanilla -->
-
-<!-- ui
-![power types example: virsh](images/c75e00a8-nodes-power-types__2.4_example-virsh.png)
- ui -->
-
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
+![power types example: virsh](https://assets.ubuntu.com/v1/c75e00a8-nodes-power-types__2.4_example-virsh.png)
 
 [note]
 The machine's hostname -- according to MAAS -- is a randomly chosen string (here `dear.ant`). You should change this hostname to something descriptive, that helps you remember why this machine is in your MAAS network.

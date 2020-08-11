@@ -6,7 +6,7 @@
   </head>
 <body>
   <div style="float:left; width:20%;">
-    <a href="http://stormrider.io/maas-rad.html">RAD index</a>
+    <a href="http://stormrider.io">Home</a>
 <h3>
 <a href="maas-documentation-25.html">Introduction
 </a>
@@ -358,8 +358,15 @@
   </a>
 </h3>
     </div>
-<div class="container" style="float:right; width:75%;">
-<h1>VM host networking</h1><p>In order to  deploy a VM host in your MAAS network, you first need to set up a bridge to connect between your VM host and MAAS itself.  This section explains several ways of accomplishing this.</p>
+  <div class="container" style="float:right; width:75%;">
+    <center>
+      <a href="http://stormrider.io/maas-vanilla/maas-documentation-25.html">Vanilla</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://stormrider.io/maas-rad-ui/maas-documentation-25.html">UI-only</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <strong>CLI-only</strong>
+    </center>
+    <h1>VM host networking</h1><p>In order to  deploy a VM host in your MAAS network, you first need to set up a bridge to connect between your VM host and MAAS itself.  This section explains several ways of accomplishing this.</p>
 <h4>Quick questions you may have:</h4>
 <ul>
 <li><a href="vm-host-networking-1526.html#heading--maas-bridge-web-ui">How do I set up a VM host bridge with the MAAS UI?</a></li>
@@ -381,37 +388,13 @@ It&rsquo;s essential to enforce usage of IP addresses to avoid domain name confl
 <li>Switch to the &ldquo;Network&rdquo; tab.</li>
 <li>Select the network where you want to create the bridge and click &ldquo;Create bridge:&rdquo;</li>
 </ol>
-<!-- vanilla
-![select_interface_for_bridge|690x391](../images/29624d737106c5bad777aee9d2c8cad9c3de7151_2_690x391.jpeg) 
- vanilla -->
-
-<!-- ui
-![select_interface_for_bridge|690x391](../images/29624d737106c5bad777aee9d2c8cad9c3de7151_2_690x391.jpeg) 
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=select_interface_for_bridge" width="690" src="images/29624d737106c5bad777aee9d2c8cad9c3de7151_2_690x391.jpeg"> </p>
 <ol>
 <li>Configure the bridge on a subnet MAAS controls.  You may use any IP mode for the bridge:</li>
 </ol>
-<!-- vanilla
-![save_bridge|690x393](../images/dd8567ff1cd76606c5ce1751e606fcfab2bc7ce2_2_690x393.jpeg) 
- vanilla -->
-
-<!-- ui
-![save_bridge|690x393](../images/dd8567ff1cd76606c5ce1751e606fcfab2bc7ce2_2_690x393.jpeg) 
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=save_bridge" width="690" src="images/dd8567ff1cd76606c5ce1751e606fcfab2bc7ce2_2_690x393.jpeg"> </p>
 <p>When you&rsquo;re done, it should look something like this:</p>
-<!-- vanilla
-![configured_bridge|690x391](../images/e392d638f0acecb9d54c81bbca4ee17cbcd05445_2_690x391.jpeg) 
- vanilla -->
-
-<!-- ui
-![configured_bridge|690x391](../images/e392d638f0acecb9d54c81bbca4ee17cbcd05445_2_690x391.jpeg) 
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=configured_bridge" width="690" src="images/e392d638f0acecb9d54c81bbca4ee17cbcd05445_2_690x391.jpeg"> </p>
 <ol>
 <li>Deploy Ubuntu</li>
 </ol>

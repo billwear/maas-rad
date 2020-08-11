@@ -6,7 +6,7 @@
   </head>
 <body>
   <div style="float:left; width:20%;">
-    <a href="http://stormrider.io/maas-rad.html">RAD index</a>
+    <a href="http://stormrider.io">Home</a>
 <h3>
 <a href="maas-documentation-25.html">Introduction
 </a>
@@ -358,8 +358,15 @@
   </a>
 </h3>
     </div>
-<div class="container" style="float:right; width:75%;">
-<h1>Troubleshooting</h1><!--
+  <div class="container" style="float:right; width:75%;">
+    <center>
+      <a href="http://stormrider.io/maas-vanilla/maas-documentation-25.html">Vanilla</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://stormrider.io/maas-rad-ui/maas-documentation-25.html">UI-only</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <strong>CLI-only</strong>
+    </center>
+    <h1>Troubleshooting</h1><!--
 Todo:
 - critical: review needed
 -->
@@ -438,15 +445,7 @@ Stderr: 'gpg: no valid OpenPGP data found.\n'
 <h3 id="heading--extract-the-cloud-image">Extract the cloud image</h3>
 
 <p>First, download the cloud image that corresponds to the architecture of your node. The <em>Images</em> page of the web UI lists the images currently being cached by MAAS:</p>
-<!-- vanilla
-![web UI image list](../images/130aa580-troulbeshoot-faq__2.3_images.png)
- vanilla -->
-
-<!-- ui
-![web UI image list](../images/130aa580-troulbeshoot-faq__2.3_images.png)
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=web UI image list" width="690" src="images/130aa580-troulbeshoot-faq__2.3_images.png"></p>
 <p>Images can be downloaded from <a href="https://cloud-images.ubuntu.com/daily/server/">https://cloud-images.ubuntu.com/daily/server</a>.</p>
 <p>For example:</p>
 <pre><code class="bash">wget https://cloud-images.ubuntu.com/daily/server/xenial/current/xenial-server-cloudimg-amd64-root.tar.gz
@@ -502,15 +501,7 @@ chown maas:maas squashfs
 </code></pre>
 
 <p>You can now use this image to commission or deploy a node and access the root account with the backdoor password, such as by deploying the same specific image from the web UI to the node you wish to troubleshoot.</p>
-<!-- vanilla
-![web UI deploy image](../images/f622d104-troulbeshoot-faq__2.3_deploy.png)
- vanilla -->
-
-<!-- ui
-![web UI deploy image](../images/f622d104-troulbeshoot-faq__2.3_deploy.png)
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=web UI deploy image" width="690" src="images/f622d104-troulbeshoot-faq__2.3_deploy.png"></p>
 <!-- IMAGES -->
 
 <!-- LINKS -->

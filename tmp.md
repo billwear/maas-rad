@@ -1,27 +1,37 @@
-This page provides several useful examples of MAAS zone usage.
+MAAS is **Metal As A Service**, a service that lets you treat physical servers like virtual machines -- instances -- in the cloud.  No need to manage servers individually: MAAS turns your bare metal into an elastic, cloud-like resource.
 
-See [Concepts and terms](/t/concepts-and-terms/785#heading--zones) to understand more about zones and [Zones](/t/availability-zones/820) for how to work with them.
+#### Quick questions you might have:
 
-<h2 id="heading--fault-tolerance">Fault tolerance</h2>
+* [What is MAAS -- and what does it really do for me?](/t/what-is-maas/840)
+* [Can you show me an example datacentre using MAAS?](/t/give-me-an-example-of-maas/1314)
+* [How does MAAS work, in detail?](/t/what-is-maas/840#heading--how-maas-works)
+* [What concepts might I need to understand before starting?](/t/concepts-and-terms/785)
+* [Can I just install it and try it for myself?](/t/explore-maas/787)
 
-Fault tolerance is "the property that enables a system to continue operating properly in the event of the failure of (or one or more faults within) some of its components". To help create better fault tolerance, multiple MAAS zones can be employed.
+![splash-screen|690x406](https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg)
 
-For this, a zone can be defined in different ways. It can be based on power supply for instance, or it can represent a portion of your network or an entire data centre location.
+*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre.*
 
-Machines that work in tandem in order to provide an instance of a service should be allocated in the same zone. The entire service should be replicated in another zone.
+---
 
-<h2 id="heading--service-performance">Service performance</h2>
+<h2 id="heading--whats-new">New version of MAAS</h2>
 
-Service performance is the ability of your service to operate in the most efficient manner possible where the typical criteria used is speed. Multiple MAAS zones can be used to help.
+- [What's new in 2.8 ›](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
 
-Nodes should be allocated in the zone closest to the performance-critical resources they need.
+---
 
-For example, for applications that are highly sensitive to network latency, it may make sense to design a network topology consisting of several smaller networks, and have each of those represented as a zone. The zones can then be used to allocate nodes that have the best performance depending on the service offered.
+<h2 id="heading--getting-support">Getting support</h2>
 
-<h2 id="heading--power-management">Power management</h2>
+- [Professional support](https://maas.io/contact-us)
+- [Ask a question](http://askubuntu.com/questions/tagged/maas)
+- [IRC](http://webchat.freenode.net/?channels=maas)
+- [MAAS 2.5 (and earlier) documentation](https://old-docs.maas.io/2.5/en/)
 
-Power management is concerned with power usage density and cooling. This topic can be addressed with the use of several MAAS zones.
+---
 
-Nodes can be distributed in such a way that power-hungry and/or "hot" systems are located in different zones. This can help mitigate power consumption and heat problems.
+<h2 id="heading--contribute">Contribute</h2>
 
-<!-- LINKS -->
+- [Guide to contributing](/t/writing-guide/747)
+- [Push some code](https://launchpad.net/maas)
+- [File an issue](https://bugs.launchpad.net/maas/+filebug)
+

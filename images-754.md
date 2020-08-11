@@ -2,28 +2,11 @@ MAAS provides supported images for stable Ubuntu releases, and for CentOS 6.6, C
 
 #### Quick questions you may have:
 
-<!-- vanilla
 * [What are boot sources, and why do they matter?](/t/images/754#heading--boot-sources)
 * [How do I select and import an image?](/t/select-and-import-images/751)
 * [How do I set up and use a local image mirror?](/t/local-image-mirror/752)
 * [How do I use and manage VMWare images?](/t/vmware-images/753)
 * [How do I manage images with the CLI?](/t/cli-image-management/797)
- vanilla -->
-
-<!-- ui
-* [What are boot sources, and why do they matter?](/t/images/754#heading--boot-sources)
-* [How do I select and import an image?](/t/select-and-import-images/751)
-* [How do I set up and use a local image mirror?](/t/local-image-mirror/752)
-* [How do I use and manage VMWare images?](/t/vmware-images/753)
- ui -->
-
-<!-- cli
-* [What are boot sources, and why do they matter?](/t/images/754#heading--boot-sources)
-* [How do I select and import an image?](/t/select-and-import-images/751)
-* [How do I set up and use a local image mirror?](/t/local-image-mirror/752)
-* [How do I use and manage VMWare images?](/t/vmware-images/753)
-* [How do I manage images with the CLI?](/t/cli-image-management/797)
- cli -->
 
 MAAS stores images in the region controller's database, from where the rack controller proxies them to the individual machines.  It's important to note that for ESXi images, network configuration includes only:
 
@@ -36,15 +19,7 @@ MAAS stores images in the region controller's database, from where the rack cont
     -   active-backup -- explicit
     -   802.3ad -- iphash, LACP rate and XMIT hash policy settings ignored
 
-<!-- vanilla
-### BRING IN TEXT FROM HERE
-[CLI Image Management](/t/cli-image-management/797) for information on advanced image management.
- vanilla -->
-
-<!-- cli
-### BRING IN TEXT FROM HERE
-[CLI Image Management](/t/cli-image-management/797) for information on advanced image management.
- cli -->
+See [CLI Image Management](/t/cli-image-management/797) for information on advanced image management.
 
 <h2 id="heading--boot-sources">Boot sources</h2>
 
@@ -62,3 +37,4 @@ The above URL points to the 'daily' stream (for the v3 format). See [Local image
 
 Although the backend supports multiple boot sources, MAAS itself uses a single source. If multiple sources are detected, the web UI will print a warning and will be unable to manage images.
 
+<!-- LINKS -->

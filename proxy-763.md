@@ -29,17 +29,7 @@ See the [MAAS CLI](/t/common-cli-tasks/794#heading--configure-proxying) for how 
 
 In the web UI, visit the 'Settings' page and select the 'Network services' tab. The 'Proxy' section is at the top. You can apply your changes by pressing the 'Save' button.
 
-<!-- vanilla
-![Configure proxy](images/55800a33-installconfig-network-proxy__2.4_configure-proxy.png)
- vanilla -->
-
-<!-- ui
-![Configure proxy](images/55800a33-installconfig-network-proxy__2.4_configure-proxy.png)
- ui -->
-
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
+![Configure proxy](https://assets.ubuntu.com/v1/55800a33-installconfig-network-proxy__2.4_configure-proxy.png)
 
 To enable the internal proxy, ensure that the checkbox adjacent to 'MAAS Built-in' is selected. This internal proxy is the default configuration.
 

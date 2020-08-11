@@ -6,7 +6,7 @@
   </head>
 <body>
   <div style="float:left; width:20%;">
-    <a href="http://stormrider.io/maas-rad.html">RAD index</a>
+    <a href="http://stormrider.io">Home</a>
 <h3>
 <a href="maas-documentation-25.html">Introduction
 </a>
@@ -358,8 +358,15 @@
   </a>
 </h3>
     </div>
-<div class="container" style="float:right; width:75%;">
-<h1>MAAS tags</h1><p>Tags are a convenient way to assign descriptive words to machines, interfaces, and storage devices. Using MAAS tags, you can easily select machines that meet certain criteria, helping you to remember that you&rsquo;ve defined or reserved certain machines for certain functions. </p>
+  <div class="container" style="float:right; width:75%;">
+    <center>
+      <a href="http://stormrider.io/maas-rad/maas-vanilla/maas-documentation-25.html">Vanilla</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://stormrider.io/maas-rad/maas-ui-only/maas-documentation-25.html">UI-only</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <strong>CLI-only</strong>
+    </center>
+    <h1>MAAS tags</h1><p>Tags are a convenient way to assign descriptive words to machines, interfaces, and storage devices. Using MAAS tags, you can easily select machines that meet certain criteria, helping you to remember that you&rsquo;ve defined or reserved certain machines for certain functions. </p>
 <p>[note]
  Tag names can include any combination of letters, numbers, dashes (-) and underscores (_), and be a maximum of 256 characters in length.
 [/note]</p>
@@ -415,15 +422,7 @@
 <p>To list all tags, visit the &lsquo;Machines&rsquo; tab and expand the &lsquo;Tags&rsquo; subsection in the left pane.</p>
 <p>In this view, you can use tags as machine search filters. Select one or several tags. The machines that satisfy all selected tags will display on the right pane. Notice there is a search field at the top of the right pane. You can type a search expression into this field.</p>
 <p>Below, tag &lsquo;virtual&rsquo; has been selected (with the mouse), and the search field automatically reflects this. Five machines satisfy this search filter.</p>
-<!-- vanilla
-![tags: search](../images/69aa9997-nodes-tags__2.6-tags-filter.png)
- vanilla -->
-
-<!-- ui
-![tags: search](../images/69aa9997-nodes-tags__2.6-tags-filter.png)
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=tags: search" width="690" src="images/69aa9997-nodes-tags__2.6-tags-filter.png"></p>
 <p>Remove a tag from the search filter by either hitting the &lsquo;x&rsquo; character alongside a tag or editing the search expression.</p>
 <h2 id="heading--tag-assignment">Tag assignment</h2>
 
@@ -434,15 +433,7 @@
 <li>To create a basic tag, type the name of the new tag in the &lsquo;Add a tag&rsquo; field and hit Enter. The tag will be created and automatically assigned to the machine. Repeat if desired.</li>
 <li>To assign an existing tag, type at least three characters to trigger a real-time search. Any resulting tags will show up in a drop-down menu. Select as desired.</li>
 </ul>
-<!-- vanilla
-![tags: add & remove](../images/250050ee-nodes-tags__2.6-tags-add-remove.png)
- vanilla -->
-
-<!-- ui
-![tags: add & remove](../images/250050ee-nodes-tags__2.6-tags-add-remove.png)
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=tags: add & remove" width="690" src="images/250050ee-nodes-tags__2.6-tags-add-remove.png"></p>
 <p>You can apply changes by pressing the &lsquo;Save changes&rsquo; button.</p>
 <p>[note]
 New tags become available as a filter in the &lsquo;Machines&rsquo; page in the web UI immediately after you add them.
@@ -452,44 +443,20 @@ New tags become available as a filter in the &lsquo;Machines&rsquo; page in the 
 <p>It&rsquo;s also possible to assign tags to specific network interfaces. You can use these tags when searching for machines within the web UI and when allocating machines from the API.</p>
 <p>Network interface tags can only be assigned when a machine is in either a &lsquo;Ready&rsquo; or a &lsquo;Broken&rsquo; state.</p>
 <p>With the machine selected from the &lsquo;Machines&rsquo; page, on the &lsquo;Interfaces&rsquo; tab use the &lsquo;Edit Physical&rsquo; button from the &lsquo;Actions&rsquo; menu icon to the right of an interface:</p>
-<!-- vanilla
-![tags: net interface](../images/dd9cf996-nodes-tags__2.6-tag-net-interfaces.png)
- vanilla -->
-
-<!-- ui
-![tags: net interface](../images/dd9cf996-nodes-tags__2.6-tag-net-interfaces.png)
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=tags: net interface" width="690" src="images/dd9cf996-nodes-tags__2.6-tag-net-interfaces.png"></p>
 <p>To add a tag, type its name into the &lsquo;Tags&rsquo; field and press Enter. Repeat as desired. Use the small &lsquo;x&rsquo; next to a tag to unassign the tag.</p>
 <p>You can apply changes by pressing the &lsquo;Save&rsquo; button.</p>
 <h3 id="heading--tags-for-storage-configuration">Tags for storage configuration</h3>
 
 <p>Alongside tags for an entire machine and network interfaces, you can also define tags for storage devices. You can use these tags like any other, when searching for machines within the web UI, where they appear beneath the &lsquo;Storage tag&rsquo; filter, and when allocating machines from the API.</p>
 <p>To add a tag to a storage device, click on the machine with the storage you wish to tag on the &lsquo;Machines&rsquo; page of the web UI and open the &lsquo;Storage&rsquo; tab. Use the menu in the &lsquo;Actions&rsquo; column beneath &lsquo;Available disks and partitions&rsquo; to select &lsquo;Edit disk&rsquo; for your chosen device:</p>
-<!-- vanilla
-![tags: storage](../images/43dd9f9d-nodes-tags__2.6-tag-storage.png)
- vanilla -->
-
-<!-- ui
-![tags: storage](../images/43dd9f9d-nodes-tags__2.6-tag-storage.png)
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=tags: storage" width="690" src="images/43dd9f9d-nodes-tags__2.6-tag-storage.png"></p>
 <p>To add a tag, type its name into the &lsquo;Tags&rsquo; field and press Enter. Repeat as desired. Use the small &lsquo;x&rsquo; next to a tag to unassign the tag.</p>
 <p>You can apply changes by pressing the &lsquo;Save&rsquo; button.</p>
 <h2 id="heading--tag-management">Tag management</h2>
 
 <p>At this time, other than simple tag assignments as demonstrated above, the best way to manage MAAS tags is by using the CLI (see <a href="cli-tag-management-801.html">CLI Tag management</a>). Juju integration is also covered there.</p>
-<!-- vanilla
-![tags: multiple](../images/fff81a99-nodes-tags__2.6-tag-multiple.png)
- vanilla -->
-
-<!-- ui
-![tags: multiple](../images/fff81a99-nodes-tags__2.6-tag-multiple.png)
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=tags: multiple" width="690" src="images/fff81a99-nodes-tags__2.6-tag-multiple.png"></p>
 <!-- LINKS -->
 </div>
 </body>

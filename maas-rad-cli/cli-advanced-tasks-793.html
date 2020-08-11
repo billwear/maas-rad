@@ -6,7 +6,7 @@
   </head>
 <body>
   <div style="float:left; width:20%;">
-    <a href="http://stormrider.io/maas-rad.html">RAD index</a>
+    <a href="http://stormrider.io">Home</a>
 <h3>
 <a href="maas-documentation-25.html">Introduction
 </a>
@@ -358,8 +358,15 @@
   </a>
 </h3>
     </div>
-<div class="container" style="float:right; width:75%;">
-<h1>CLI advanced tasks</h1><p>This article is a list of advanced tasks you can perform with the MAAS CLI.</p>
+  <div class="container" style="float:right; width:75%;">
+    <center>
+      <a href="http://stormrider.io/maas-vanilla/maas-documentation-25.html">Vanilla</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://stormrider.io/maas-rad-ui/maas-documentation-25.html">UI-only</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <strong>CLI-only</strong>
+    </center>
+    <h1>CLI advanced tasks</h1><p>This article is a list of advanced tasks you can perform with the MAAS CLI.</p>
 <h4>Quick questions you may have:</h4>
 <ul>
 <li><a href="maas-cli-802.html">How do I get started with the MAAS CLI?</a></li>
@@ -497,15 +504,7 @@ The register command is not required when you are adding a rack controller to a 
 [/note]</p>
 <p>MAAS will ask for the URL of the region API server. If you provide a hostname, ensure it is resolvable. Next, MAAS will prompt you for the secret key, stored in file <code>/var/lib/maas/secret</code> on the API server.</p>
 <p>You can get the above information from the web UI by visiting the &lsquo;Controllers&rsquo; page and clicking the button &lsquo;Add rack controller&rsquo;. Here is an example of what you may see:</p>
-<!-- vanilla
-![cli-install-rackd](../images/61fa1b99-manage-maas-cli-advanced__2.2_install-rackd.png)
- vanilla -->
-
-<!-- ui
-![cli-install-rackd](../images/61fa1b99-manage-maas-cli-advanced__2.2_install-rackd.png)
- ui -->
-
-<h3>ADD SUITABLE CLI EXAMPLE OR PRINTOUT</h3>
+<p><img alt=cli-install-rackd" width="690" src="images/61fa1b99-manage-maas-cli-advanced__2.2_install-rackd.png"></p>
 <p>Based on the above, then, we could have also entered:</p>
 <pre><code class="bash">sudo maas-rack register --url http://10.5.1.5:5240/MAAS \
     --secret fa847000e7cb681101d26e3477e6e39e

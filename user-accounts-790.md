@@ -12,17 +12,7 @@ Additionally, in order for a user to log into a MAAS-deployed machine that user 
 
 You can manage user accounts from the 'Users' tab of the 'Settings' page.
 
-<!-- vanilla
-![current users](images/76402e4b-manage-user-accounts__2.4_current-users.png)
- vanilla -->
-
-<!-- ui
-![current users](images/76402e4b-manage-user-accounts__2.4_current-users.png)
- ui -->
-
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
+![current users](https://assets.ubuntu.com/v1/76402e4b-manage-user-accounts__2.4_current-users.png)
 
 [note]
 A currently logged in user cannot delete themselves from the web UI.
@@ -32,17 +22,7 @@ A currently logged in user cannot delete themselves from the web UI.
 
 Clicking the 'Add user' button will result in a form to be displayed:
 
-<!-- vanilla
-![add user](images/1c59c2c5-manage-user-accounts__2.4_add-user.png)
- vanilla -->
-
-<!-- ui
-![add user](images/1c59c2c5-manage-user-accounts__2.4_add-user.png)
- ui -->
-
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
+![add user](https://assets.ubuntu.com/v1/1c59c2c5-manage-user-accounts__2.4_add-user.png)
 
 Fill in the fields and hit 'Add user' when done.
 
@@ -63,17 +43,7 @@ To add a locally-generated public key, select 'Upload' from the 'Source' menu an
 
 Public keys residing on either [Launchpad](https://help.launchpad.net/YourAccount) or [GitHub](https://help.github.com/articles/connecting-to-github-with-ssh/) can also be added. Select either from the 'Source' menu and specify the user ID associated with the key(s). Press the 'Import' button to add any keys MAAS discovers to the current user's MAAS account.
 
-<!-- vanilla
-![add user SSH key](images/fc95765e-manage-user-accounts__2.4_add-user-ssh-key.png)
- vanilla -->
-
-<!-- ui
-![add user SSH key](images/fc95765e-manage-user-accounts__2.4_add-user-ssh-key.png)
- ui -->
-
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
+![add user SSH key](https://assets.ubuntu.com/v1/fc95765e-manage-user-accounts__2.4_add-user-ssh-key.png)
 
 <h3 id="heading--api-key">API key</h3>
 
@@ -83,17 +53,7 @@ The user preferences page includes an API key for the currently active user. Thi
 
 The current user can change their password at the bottom of the page by entering the old password and entering the new password twice. Click 'Save password' to finish.
 
-<!-- vanilla
-![change user password](images/289ef578-manage-user-accounts__2.4_change-user-password.png)
- vanilla -->
-
-<!-- ui
-![change user password](images/289ef578-manage-user-accounts__2.4_change-user-password.png)
- ui -->
-
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
+![change user password](https://assets.ubuntu.com/v1/289ef578-manage-user-accounts__2.4_change-user-password.png)
 
 [note]
 An administrator can change any user's password from within the 'Users' tab of the 'Settings' page.

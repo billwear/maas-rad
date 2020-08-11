@@ -6,7 +6,7 @@
   </head>
 <body>
 <div style="float:left; width:20%;">
-    <a href="http://stormrider.io/maas-rad.html">RAD index</a>
+    <a href="http://stormrider.io">Home</a>
 <h3>
 <a href="maas-documentation-25.html">Introduction
 </a>
@@ -359,6 +359,13 @@
 </h3>
     </div>
 <div class="container" style="float:right; width:75%;">
+    <center>
+      <strong>Vanilla</strong>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://stormrider.io/maas-rad-ui/maas-documentation-25.html">UI-only</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://stormrider.io/maas-rad-cli/maas-documentation-25.html">CLI-only</a>
+    </center>
 <h1>Block devices</h1><p>Once the initial storage layout has been configured on a machine, you can perform many operations to view and adjust the entire storage layout for the machine. In MAAS there are two different types of block devices.</p>
 <p><strong>Physical</strong></p>
 <p>A physical block device is a physically attached block device such as a 100GB hard drive connected to a server.</p>
@@ -442,95 +449,6 @@ Machine-readable output follows:
     }
 ]
 </code></pre>
-
-<h3>CREATE A GOOD UI EXPLANATION FROM THE STORAGE TAB</h3>
-<!-- ui
-### CREATE A GOOD UI EXPLANATION FROM THE STORAGE TAB
--->
-
-<!-- cli
-To view all block devices on a machine use the read operation. This list both physical and virtual block devices, as you can see in the output from the following command:
-
-<pre><code class="bash">maas admin block-devices read &lt;node-id&gt;
-</code></pre>
-
-
-Output:
-
-
-<pre><code class="nohighlight">Success.
-Machine-readable output follows:
-[
-    {
-        &quot;id&quot;: 10,
-        &quot;path&quot;: &quot;/dev/disk/by-dname/vda&quot;,
-        &quot;serial&quot;: &quot;&quot;,
-        &quot;block_size&quot;: 4096,
-        &quot;available_size&quot;: 0,
-        &quot;resource_uri&quot;: &quot;/MAAS/api/2.0/nodes/4y3h8a/blockdevices/10/&quot;,
-        &quot;filesystem&quot;: null,
-        &quot;id_path&quot;: &quot;/dev/vda&quot;,
-        &quot;size&quot;: 5368709120,
-        &quot;partition_table_type&quot;: &quot;MBR&quot;,
-        &quot;model&quot;: &quot;&quot;,
-        &quot;type&quot;: &quot;physical&quot;,
-        &quot;uuid&quot;: null,
-        &quot;used_size&quot;: 5365563392,
-        &quot;used_for&quot;: &quot;MBR partitioned with 1 partition&quot;,
-        &quot;partitions&quot;: [
-            {
-                &quot;bootable&quot;: false,
-                &quot;id&quot;: 9,
-                &quot;resource_uri&quot;:&quot;/MAAS/api/2.0/nodes/4y3h8a/blockdevices/10/partition/9&quot;,
-                &quot;path&quot;: &quot;/dev/disk/by-dname/vda-part1&quot;,
-                &quot;uuid&quot;: &quot;aae082cd-8be0-4a64-ab49-e998abd6ea43&quot;,
-                &quot;used_for&quot;: &quot;LVM volume for vgroot&quot;,
-                &quot;size&quot;: 5360320512,
-                &quot;type&quot;: &quot;partition&quot;,
-                &quot;filesystem&quot;: {
-                    &quot;uuid&quot;: &quot;a56ebfa6-8ef4-48b5-b6bc-9f9d27065d24&quot;,
-                    &quot;mount_options&quot;: null,
-                    &quot;label&quot;: null,
-                    &quot;fstype&quot;: &quot;lvm-pv&quot;,
-                    &quot;mount_point&quot;: null
-                }
-            }
-        ],
-        &quot;tags&quot;: [
-            &quot;rotary&quot;
-        ],
-        &quot;name&quot;: &quot;vda&quot;
-    },
-    {
-        &quot;id&quot;: 11,
-        &quot;path&quot;: &quot;/dev/disk/by-dname/lvroot&quot;,
-        &quot;serial&quot;: null,
-        &quot;block_size&quot;: 4096,
-        &quot;available_size&quot;: 0,
-        &quot;resource_uri&quot;: &quot;/MAAS/api/2.0/nodes/4y3h8a/blockdevices/11/&quot;,
-        &quot;filesystem&quot;: {
-            &quot;uuid&quot;: &quot;7181a0c0-9e16-4276-8a55-c77364d137ca&quot;,
-            &quot;mount_options&quot;: null,
-            &quot;label&quot;: &quot;root&quot;,
-            &quot;fstype&quot;: &quot;ext4&quot;,
-            &quot;mount_point&quot;: &quot;/&quot;
-        },
-        &quot;id_path&quot;: null,
-        &quot;size&quot;: 3221225472,
-        &quot;partition_table_type&quot;: null,
-        &quot;model&quot;: null,
-        &quot;type&quot;: &quot;virtual&quot;,
-        &quot;uuid&quot;: &quot;fc8ba89e-9149-412c-bcea-e596eb7c0d14&quot;,
-        &quot;used_size&quot;: 3221225472,
-        &quot;used_for&quot;: &quot;ext4 formatted filesystem mounted at /&quot;,
-        &quot;partitions&quot;: [],
-        &quot;tags&quot;: [],
-        &quot;name&quot;: &quot;vgroot-lvroot&quot;
-    }
-]
-</code></pre>
-
- cli -->
 
 <h3 id="heading--read-block-device">Read Block Device</h3>
 

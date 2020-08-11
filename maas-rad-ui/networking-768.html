@@ -6,7 +6,7 @@
   </head>
 <body>
 <div style="float:left; width:20%;">
-    <a href="http://stormrider.io/maas-rad.html">RAD index</a>
+    <a href="http://stormrider.i">Home</a>
 <h3>
 <a href="maas-documentation-25.html">Introduction
 </a>
@@ -295,19 +295,18 @@
 </h3>
     </div>
 <div class="container" style="float:right; width:75%;">
+    <center>
+      <a href="http://stormrider.io/maas-vanilla/maas-documentation-25.html">Vanilla</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <strong>UI-only</strong>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://stormrider.io/maas-rad-cli/maas-documentation-25.html">CLI-only</a>
+    </center>
 <h1>Networking</h1><p>You can use the Web UI to manage the networking elements of MAAS, including subnets, fabrics, VLANs, and spaces.  This page shows how to access and edit these elements. See <a href="concepts-and-terms-785.html">Concepts and terms</a> for the definitions of networking objects, along with a basic networking tutorial (if needed).</p>
 <h2 id="heading--main-view">Main view</h2>
 
 <p>To access the main networking view visit the &lsquo;Subnets&rsquo; page:</p>
-<!-- vanilla
-![subnets page](../images/657bb332-installconfig-networking__2.4_subnets.png)
- vanilla -->
-
-<p><img alt="subnets page" src="../images/657bb332-installconfig-networking__2.4_subnets.png"></p>
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
-
+<p><img alt=subnets page" width="690" src="images/657bb332-installconfig-networking__2.4_subnets.png"></p>
 <p>Due to the nature of this example, we re-use elements like fabrics, VLANs, subnets, and spaces.  MAAS can automatically detect these elements &ndash; here there are two fabrics, one VLAN, five subnets, and two spaces &ndash; but if MAAS doesn&rsquo;t find them, they can be added manually using the &lsquo;Add&rsquo; button.</p>
 <p>This main view can also be filtered either by fabrics or by spaces through the use of the &lsquo;Group by&rsquo; dropdown.</p>
 <p>Fabrics, VLANs, and spaces do not require much configuration beyond names and descriptions. You can change the MTU for a VLAN, as well as <a href="managing-dhcp-759.html#heading--enabling-dhcp">enable DHCP</a> (see &lsquo;Take action&rsquo; button).  None of these options requires detailed instruction. A subnet, on the other hand, provides a number of configuration options relevant to the day-to-day operation of MAAS.</p>
@@ -317,15 +316,7 @@
 <h4>Subnet summary</h4>
 
 <p>The <strong>Subnet summary</strong> section is the largest and most complex of the subnet configuration screens:</p>
-<!-- vanilla
-![networking subnets page summary](../images/17617b35-installconfig-networking__2.4_subnets-summary.png)
- vanilla -->
-
-<p><img alt="networking subnets page summary" src="../images/17617b35-installconfig-networking__2.4_subnets-summary.png"></p>
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
-
+<p><img alt=networking subnets page summary" width="690" src="images/17617b35-installconfig-networking__2.4_subnets-summary.png"></p>
 <p>This screen presents the following configurable options:</p>
 <ul>
 <li>
@@ -368,54 +359,22 @@
 <h4>Utilisation</h4>
 
 <p>This section of the subnet page presents metrics regarding address usage by this subnet.</p>
-<!-- vanilla
-![networking subnets utilisation](../images/3d3e4b61-installconfig-networking__2.4_subnets-utilisation.png)
- vanilla -->
-
-<p><img alt="networking subnets utilisation" src="../images/3d3e4b61-installconfig-networking__2.4_subnets-utilisation.png"></p>
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
-
+<p><img alt=networking subnets utilisation" width="690" src="images/3d3e4b61-installconfig-networking__2.4_subnets-utilisation.png"></p>
 <p>&lsquo;Subnet addresses&rsquo; shows the total number of addresses associated with the subnet, here 254. &lsquo;Availability&rsquo; shows how many of those addresses are unused, and therefore &ldquo;available&rdquo;, here 189, which corresponds to a percentage of roughly 74% of the total. Finally, &lsquo;Used&rsquo; shows the percentage that is used, here roughly 26%.</p>
 <h4>Static Routes</h4>
 
 <p>This section can be used to define a static route between two subnets. A route is defined on a per-subnet basis to use a particular gateway, using a configured destination and metric.</p>
 <p>To create a static route, click the &lsquo;Add static route&rsquo; button to reveal the edit pane. Enter a Gateway IP address, select a destination subnet from the &lsquo;Destination&rsquo; drop-down list, and edit the routing metric value if needed. Clicking &lsquo;Add&rsquo; will activate the route. Routes can be edited and removed using the icons to the right of each entry.</p>
-<!-- vanilla
-![networking static routes configuration](../images/49f5e240-installconfig-networking__2.4_subnets-routes.png)
- vanilla -->
-
-<p><img alt="networking static routes configuration" src="../images/49f5e240-installconfig-networking__2.4_subnets-routes.png"></p>
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
-
+<p><img alt=networking static routes configuration" width="690" src="images/49f5e240-installconfig-networking__2.4_subnets-routes.png"></p>
 <h4>Reserved ranges</h4>
 
 <p>The reserved ranges section of the subnet screen looks like this:</p>
-<!-- vanilla
-![networking subnets reserved](../images/5f9f50f9-installconfig-networking__2.4_subnets-reserved.png)
- vanilla -->
-
-<p><img alt="networking subnets reserved" src="../images/5f9f50f9-installconfig-networking__2.4_subnets-reserved.png"></p>
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
-
+<p><img alt=networking subnets reserved" width="690" src="images/5f9f50f9-installconfig-networking__2.4_subnets-reserved.png"></p>
 <p>This subject is treated separately in <a href="ip-ranges-760.html">IP ranges</a>.</p>
 <h4>Used</h4>
 
 <p>This section displays hosts (including controllers) associated with the used addresses along with related bits of host information.</p>
-<!-- vanilla
-![networking subnets used](../images/b9e69b0b-installconfig-networking__2.4_subnets-used.png)
- vanilla -->
-
-<p><img alt="networking subnets used" src="../images/b9e69b0b-installconfig-networking__2.4_subnets-used.png"></p>
-<!-- cli
-### ADD SUITABLE CLI EXAMPLE OR PRINTOUT ###
- cli -->
-
+<p><img alt=networking subnets used" width="690" src="images/b9e69b0b-installconfig-networking__2.4_subnets-used.png"></p>
 <!-- LINKS -->
 </div>
 </body>
