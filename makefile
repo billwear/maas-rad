@@ -101,17 +101,29 @@ RCLI = /var/www/html/maas-rad/maas-cli-only
 RUI  = /var/www/html/maas-rad/maas-ui-only
 
 %.html: %.md
-	cp templates/vanilla-template.html ./template.html
+# offline vanilla version
+	cp templates/offline-vanilla-template.html ./template.html
 	xpub convert dc2html -t vanilla $<
 	mkdir -p $(OVAN) && cp $@ $(OVAN)
+# rad vanilla version
+	cp templates/vanilla-template.html ./template.html
+	xpub convert dc2html -t vanilla $<
 	mkdir -p $(RVAN) && cp $@ $(RVAN)
-	cp templates/ui-only-template.html ./template.html
+# offline ui-only version
+	cp templates/offline-ui-only-template.html ./template.html
 	xpub convert dc2html -t ui $<
 	mkdir -p $(OUI) && cp $@ $(OUI)	
+# rad ui-only version
+	cp templates/ui-only-template.html ./template.html
+	xpub convert dc2html -t ui $<
 	mkdir -p $(RUI) && cp $@ $(RUI)	
-	cp templates/cli-only-template.html ./template.html
+# offline cli-only version
+	cp templates/offline-cli-only-template.html ./template.html
 	xpub convert dc2html -t cli $<
 	mkdir -p $(OCLI) && cp $@ $(OCLI)	
+# rad cli-only version
+	cp templates/cli-only-template.html ./template.html
+	xpub convert dc2html -t cli $<
 	mkdir -p $(RCLI) && cp $@ $(RCLI)	
 
 finale: $(TARGET_DEPS)
