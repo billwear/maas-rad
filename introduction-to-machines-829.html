@@ -664,43 +664,43 @@ The &lsquo;Filter by&rsquo; section limits the machines listed in the table to s
 <p><img alt=cpu-testing-in-progress" width="690" src="images/3d6996b32a5193dab76b112c864a216c845aa985.jpeg"> </p>
 <p>And you can watch the results under the &ldquo;Tests&rdquo; option in the Machine menu:</p>
 <p><img alt=cpu-tests-log" width="690" src="images/89d287347928d6adb039ca582d4a94c3b54588e1_2_690x185.jpeg"> </p>
-<p>The rest of the cards on the Machine summary are either self-explanatory, or they&rsquo;re covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu&rsquo;s &ldquo;Machines&rdquo; option.  Incidentally, you can learn more about testing by visiting the <a href="https://maas.io/docs/hardware-testing">Hardware testing</a> page.</p>
+<p>The rest of the cards on the Machine summary are either self-explanatory, or they&rsquo;re covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu&rsquo;s &ldquo;Machines&rdquo; option.  Incidentally, you can learn more about testing by visiting the <a href="hardware-testing-826.html">Hardware testing</a> page.</p>
 <h3 id="heading--machine-interfaces-h3">Find network info for a machine</h3>
 
 <p>The Network &ldquo;tab&rdquo; provides you with a way to view/edit the network and interface configuration for a machine: </p>
 <p><img alt=machine-network-tab" width="690" src="images/7a7b22ee7202b50df09c7bef598250db0eb1cc15_2_690x206.jpeg"> </p>
 <p>In the case of this deployed machine, there are not many editing options.  If the machine is in a &lsquo;Ready&rsquo; state, though, altering the network configuration is possible:</p>
 <p><img alt=machine-network-tab-undeployed-machine" width="690" src="images/01d53759105647d71786154e99ff210f8c71d2e7_2_690x176.jpeg"> </p>
-<p>Options on this tab are described in the introduction to <a href="https://maas.io/docs/networking">Networking</a> article in this documentation set.</p>
+<p>Options on this tab are described in the introduction to <a href="networking-768.html">Networking</a> article in this documentation set.</p>
 <h3 id="heading--machine-storage-h3">Find storage info for a machine</h3>
 
 <p>The Storage tab on the machine list brings up a form that allows you to view/edit the file system, partitioning and storage parameters for the selected machine:</p>
 <p><img alt=machine-storage-tab" width="690" src="images/9dc30aedf5ed173bb7b474910fa9939f7f066c95_2_690x431.jpeg"> </p>
-<p>This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article <a href="https://maas.io/docs/storage">Storage</a> for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.</p>
+<p>This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article <a href="storage-775.html">Storage</a> for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.</p>
 <h3 id="heading--commissioning-log-h3">Find the commissioning log for you</h3>
 
 <p>The &ldquo;Commissioning&rdquo; tab brings up a summary log of commissioning events:</p>
 <p><img alt=comm-logging-summary" width="690" src="images/b3d6248013fb5186d3ea61931816fe688b94a6a2_2_690x279.jpeg"> </p>
 <p>Clicking on any of the &ldquo;View log&rdquo; links will take you to specific, detailed logs for that particular event or milestone:</p>
 <p><img alt=comm-logs-details" width="690" src="images/13fce404b9bb304e08a7c5de5a395c514e98b9b0_2_690x379.jpeg"> </p>
-<p>These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on <a href="https://maas.io/docs/logging">Logging</a> for more details on how to read and interpret these logs.</p>
+<p>These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on <a href="maas-logging-1468.html">Logging</a> for more details on how to read and interpret these logs.</p>
 <h3 id="heading--hardware-tests-h3">Find machine hardware & test logs</h3>
 
 <p>This tab presents a summary of tests run against this particular machine:  </p>
 <p><img alt=machine-menu-test-summary" width="690" src="images/b6a6ff3c8fae4a638c18a18bf65c4aa51f29e984_2_690x189.jpeg"> </p>
 <p>You can view the summary report, or click on a &ldquo;View log&rdquo; link to get details on any particular tests:</p>
 <p><img alt=machine-test-tab-details" width="690" src="images/8113eba28a3f08279ff2b5f7593e30db05d00824_2_690x431.jpeg"> </p>
-<p>The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on <a href="https://maas.io/docs/hardware-testing">Hardware testing</a>.</p>
+<p>The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on <a href="hardware-testing-826.html">Hardware testing</a>.</p>
 <h3 id="heading--raw-log-output-h3">Find raw log output for a machine</h3>
 
 <p>The &ldquo;Logs&rdquo; tab shows raw log output, switchable between YAML and XML formats:</p>
 <p><img alt=machine-logs-tab" width="690" src="images/02b4bc35c8985fe0b954d8deb0afba18866cfe66_2_690x439.jpeg"> </p>
-<p>Help interpreting these logs can be found under the <a href="https://maas.io/docs/logging">Logging</a> section of this documentation.</p>
+<p>Help interpreting these logs can be found under the <a href="maas-logging-1468.html">Logging</a> section of this documentation.</p>
 <h3 id="heading--event-logs-h3">Find a machine's event logs</h3>
 
 <p>The &ldquo;Event&rdquo; tab displays a list ot timestamped status updates for events and actions performed on the machine:</p>
 <p><img alt=machine-list-event-tab-log" width="690" src="images/114ada7188f8ebf12883a54c0976ad8abda1d211_2_690x305.jpeg"> </p>
-<p>There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the <a href="https://maas.io/docs/logging">Logging</a> section of this documentation.</p>
+<p>There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the <a href="maas-logging-1468.html">Logging</a> section of this documentation.</p>
 <h3 id="heading--machine-config-h3">Find machine configuration info</h3>
 
 <p>The final tab from the Machine menu allows you to update machine and power configuration options: </p>
@@ -710,7 +710,7 @@ The &lsquo;Filter by&rsquo; section limits the machines listed in the table to s
 <img alt=power-config-failed-login" width="690" src="images/8f4c4ae8ec07f42551bad654375f513debc53ef1_2_690x192.jpeg"> </p>
 <p>After entering the correct password and recycling things, the problem goes away:</p>
 <p><img alt=machine-config-no-error" width="690" src="images/635e27e87bcac0c3cb3ce3085bd2fa55f60ff137_2_690x388.jpeg"> </p>
-<p>More information on Power configuration will be found in the <a href="https://maas.io/docs/bmc-power-types">Power management</a> section of this documentation.</p>
+<p>More information on Power configuration will be found in the <a href="power-management-830.html">Power management</a> section of this documentation.</p>
 <h2>Summary</h2>
 
 <p>This article has offered you a cursory glimpse into machines and how they are configured and managed in MAAS.  Read on through this section of the documentation to learn more.</p>
