@@ -465,7 +465,56 @@
       </strong>
     </div>
     <div class="container" style="float:right; width:65%; margin-top:40px; margin-right:30px">
-      {{content}}
+      <h1>CLI resource pool management</h1><p>This document explains resource-pool management tasks you can perform with the MAAS CLI.</p>
+<h4>Quick questions you may have:</h4>
+<ul>
+<li><a href="cli-resource-pool-management-800.html#heading--creating-a-resource-pool">How can I create a resource pool?</a></li>
+<li><a href="cli-resource-pool-management-800.html#heading--list-available-resource-pools">How can I list available resource pools?</a></li>
+<li><a href="cli-resource-pool-management-800.html#heading--list-a-single-resource-pool">How can I list a single resource pool?</a></li>
+<li><a href="cli-resource-pool-management-800.html#heading--update-a-resource-pool">How can I update a resource pool?</a></li>
+<li><a href="cli-resource-pool-management-800.html#heading--delete-a-resource-pool">How can I delete a resource pool?</a></li>
+<li><a href="cli-resource-pool-management-800.html#heading--add-a-machine-to-a-resource-pool">How can I add a machine to a resource pool?</a></li>
+<li><a href="maas-cli-802.html">How can I get started with MAAS CLI?</a></li>
+<li><a href="resource-pools-831.html">What do I need to know about resource pools?</a></li>
+</ul>
+<h2 id="heading--creating-a-resource-pool">Creating a resource pool</h2>
+
+<p>Here&rsquo;s an example that demonstrates how to create a new resource pool named <code>myresource</code>.</p>
+<pre><code class="bash">maas $PROFILE resource-pools create name=myresource description=&quot;A new resource pool.&quot;
+</code></pre>
+
+<p><blockquote style="background:lightgrey;">
+The <code>description</code> field is optional.
+</blockquote></p>
+<h2 id="heading--list-available-resource-pools">List available resource pools</h2>
+
+<pre><code class="bash">maas $PROFILE resource-pools read
+</code></pre>
+
+<h2 id="heading--list-a-single-resource-pool">List a single resource pool</h2>
+
+<pre><code class="bash">maas $PROFILE resource-pool read $RESOURCE_POOL_ID
+</code></pre>
+
+<h2 id="heading--update-a-resource-pool">Update a resource pool</h2>
+
+<pre><code class="bash">maas $PROFILE resource-pool update $RESOURCE_POOL_ID name=newname description=&quot;A new description.&quot;
+</code></pre>
+
+<p><blockquote style="background:lightgrey;">
+The <code>name</code> and <code>description</code> fields are optional.
+</blockquote></p>
+<h2 id="heading--delete-a-resource-pool">Delete a resource pool</h2>
+
+<pre><code class="bash">maas $PROFILE resource-pool delete $RESOURCE_POOL_ID
+</code></pre>
+
+<h2 id="heading--add-a-machine-to-a-resource-pool">Add a machine to a resource pool</h2>
+
+<pre><code class="bash">maas $PROFILE machine update $SYSTEM_ID pool=$POOL_NAME
+</code></pre>
+
+<!-- LINKS -->
     </div>
   </body>
 </html>
