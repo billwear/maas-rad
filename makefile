@@ -102,19 +102,31 @@ RUI  = ~/var/www/html/maas-rad/maas-ui-only
 
 %.html: %.md
 # vanilla version
-	cp templates/vanilla-template.html ./template.html
+	cp templates/offline-vanilla-template.html ./template.html
+	sed -i 's/zork/$@/g' ./template.html
 	xpub convert dc2html -t vanilla $<
 	mkdir -p $(OVAN) && cp $@ $(OVAN)
+	cp templates/rad-vanilla-template.html ./template.html
+	sed -i 's/zork/$@/g' ./template.html
+	xpub convert dc2html -t vanilla $<
 	mkdir -p $(RVAN) && cp $@ $(RVAN)
 # ui-only version
-	cp templates/ui-only-template.html ./template.html
+	cp templates/offline-ui-only-template.html ./template.html
+	sed -i 's/zork/$@/g' ./template.html
 	xpub convert dc2html -t ui $<
 	mkdir -p $(OUI) && cp $@ $(OUI)	
+	cp templates/rad-ui-only-template.html ./template.html
+	sed -i 's/zork/$@/g' ./template.html
+	xpub convert dc2html -t ui $<
 	mkdir -p $(RUI) && cp $@ $(RUI)	
 # cli-only version
-	cp templates/cli-only-template.html ./template.html
+	cp templates/offline-cli-only-template.html ./template.html
+	sed -i 's/zork/$@/g' ./template.html
 	xpub convert dc2html -t cli $<
 	mkdir -p $(OCLI) && cp $@ $(OCLI)	
+	cp templates/rad-cli-only-template.html ./template.html
+	sed -i 's/zork/$@/g' ./template.html
+	xpub convert dc2html -t cli $<
 	mkdir -p $(RCLI) && cp $@ $(RCLI)	
 
 finale: $(TARGET_DEPS)
