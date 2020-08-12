@@ -152,7 +152,7 @@ And you can watch the results under the "Tests" option in the Machine menu:
 
 ![cpu-tests-log|690x185](https://discourse.maas.io/uploads/default/optimized/1X/89d287347928d6adb039ca582d4a94c3b54588e1_2_690x185.jpeg) 
 
-The rest of the cards on the Machine summary are either self-explanatory, or they're covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu's "Machines" option.  Incidentally, you can learn more about testing by visiting the [Hardware testing](https://maas.io/docs/hardware-testing) page.
+The rest of the cards on the Machine summary are either self-explanatory, or they're covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu's "Machines" option.  Incidentally, you can learn more about testing by visiting the [Hardware testing](/t/hardware-testing/826) page.
 
 <h3 id="heading--machine-interfaces-h3">Find network info for a machine</h3>
 
@@ -164,7 +164,7 @@ In the case of this deployed machine, there are not many editing options.  If th
 
 ![machine-network-tab-undeployed-machine|690x176](https://discourse.maas.io/uploads/default/optimized/1X/01d53759105647d71786154e99ff210f8c71d2e7_2_690x176.jpeg) 
 
-Options on this tab are described in the introduction to [Networking](https://maas.io/docs/networking) article in this documentation set.
+Options on this tab are described in the introduction to [Networking](/t/networking/768) article in this documentation set.
 
 <h3 id="heading--machine-storage-h3">Find storage info for a machine</h3>
 
@@ -172,7 +172,7 @@ The Storage tab on the machine list brings up a form that allows you to view/edi
 
 ![machine-storage-tab|690x431](https://discourse.maas.io/uploads/default/optimized/1X/9dc30aedf5ed173bb7b474910fa9939f7f066c95_2_690x431.jpeg) 
 
-This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article [Storage](https://maas.io/docs/storage) for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.
+This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article [Storage](/t/storage/775) for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.
 
 <h3 id="heading--commissioning-log-h3">Find the commissioning log for you</h3>
 
@@ -184,7 +184,7 @@ Clicking on any of the "View log" links will take you to specific, detailed logs
 
 ![comm-logs-details|690x379](https://discourse.maas.io/uploads/default/optimized/1X/13fce404b9bb304e08a7c5de5a395c514e98b9b0_2_690x379.jpeg) 
 
-These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on [Logging](https://maas.io/docs/logging) for more details on how to read and interpret these logs.
+These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on [Logging](/t/maas-logging/1468) for more details on how to read and interpret these logs.
 
 <h3 id="heading--hardware-tests-h3">Find machine hardware & test logs</h3>
 
@@ -196,7 +196,7 @@ You can view the summary report, or click on a "View log" link to get details on
 
 ![machine-test-tab-details|690x431](https://discourse.maas.io/uploads/default/optimized/1X/8113eba28a3f08279ff2b5f7593e30db05d00824_2_690x431.jpeg) 
 
-The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on [Hardware testing](https://maas.io/docs/hardware-testing).
+The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on [Hardware testing](/t/hardware-testing/826).
 
 <h3 id="heading--raw-log-output-h3">Find raw log output for a machine</h3>
 
@@ -204,7 +204,7 @@ The "Logs" tab shows raw log output, switchable between YAML and XML formats:
 
 ![machine-logs-tab|690x439](https://discourse.maas.io/uploads/default/optimized/1X/02b4bc35c8985fe0b954d8deb0afba18866cfe66_2_690x439.jpeg) 
 
-Help interpreting these logs can be found under the [Logging](https://maas.io/docs/logging) section of this documentation.
+Help interpreting these logs can be found under the [Logging](/t/maas-logging/1468) section of this documentation.
 
 <h3 id="heading--event-logs-h3">Find a machine's event logs</h3>
 
@@ -212,7 +212,7 @@ The "Event" tab displays a list ot timestamped status updates for events and act
 
 ![machine-list-event-tab-log|690x305](https://discourse.maas.io/uploads/default/optimized/1X/114ada7188f8ebf12883a54c0976ad8abda1d211_2_690x305.jpeg) 
 
-There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the [Logging](https://maas.io/docs/logging) section of this documentation.
+There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the [Logging](/t/maas-logging/1468) section of this documentation.
 
 <h3 id="heading--machine-config-h3">Find machine configuration info</h3>
 
@@ -229,7 +229,7 @@ After entering the correct password and recycling things, the problem goes away:
 
 ![machine-config-no-error|690x388](https://discourse.maas.io/uploads/default/optimized/1X/635e27e87bcac0c3cb3ce3085bd2fa55f60ff137_2_690x388.jpeg) 
 
-More information on Power configuration will be found in the [Power management](https://maas.io/docs/bmc-power-types) section of this documentation.
+More information on Power configuration will be found in the [Power management](/t/power-management/830) section of this documentation.
 
 <h2>Summary</h2>
 

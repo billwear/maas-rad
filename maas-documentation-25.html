@@ -4,8 +4,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
   </head>
-<body>
-  <div style="float:left; width:20%;">
+  <body>
+    <div style="top:0; position:fixed;">
+      <center>
+	<strong>Vanilla</strong>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="http://stormrider.io/maas-offline/maas-ui-only/maas-documentation-25.html">UI-only</a>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="http://stormrider.io/maas-offline/maas-cli-only/maas-documentation-25.html">CLI-only</a>
+      </center>
+    </div>
+<div style="float:left; width:20%;">
     <a href="http://stormrider.io">Home</a>
 <h3>
 <a href="maas-documentation-25.html">Introduction
@@ -358,49 +367,41 @@
   </a>
 </h3>
     </div>
-  <div class="container" style="float:right; width:75%;">
-    <center>
-      <a href="http://stormrider.io/maas-rad/maas-vanilla/maas-documentation-25.html">Vanilla</a>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="http://stormrider.io/maas-rad/maas-ui-only/maas-documentation-25.html">UI-only</a>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <strong>CLI-only</strong>
-    </center>
-    <h1>Disk erasure</h1><p>Disk erasure pertains to the erasing of data on each of a machine&rsquo;s disks when the machine has been released (see <a href="concepts-and-terms-785.html#heading--release">Release action</a>) back into the pool of available machines. The user can choose from among three erasure types before confirming the Release action. A default erasure configuration can also be set.</p>
-<h2 id="heading--erasure-types">Erasure types</h2>
-
-<p>The three types of erasure types are:</p>
+<div class="container" style="float:right; width:75%;">
+<h1>MAAS documentation</h1><p>MAAS is <strong>Metal As A Service</strong>, a service that lets you treat physical servers like virtual machines &ndash; instances &ndash; in the cloud.  No need to manage servers individually: MAAS turns your bare metal into an elastic, cloud-like resource.</p>
+<h4>Quick questions you might have:</h4>
 <ul>
-<li>Standard erase</li>
-<li>Secure erase</li>
-<li>Quick erase</li>
+<li><a href="what-is-maas-840.html">What is MAAS &ndash; and what does it really do for me?</a></li>
+<li><a href="give-me-an-example-of-maas-1314.html">Can you show me an example datacentre using MAAS?</a></li>
+<li><a href="what-is-maas-840.html#heading--how-maas-works">How does MAAS work, in detail?</a></li>
+<li><a href="concepts-and-terms-785.html">What concepts might I need to understand before starting?</a></li>
+<li><a href="explore-maas-787.html">Can I just install it and try it for myself?</a></li>
 </ul>
-<p>Each of these are explained below.</p>
-<h3 id="heading--standard-erase">Standard erase</h3>
+<p><img alt="splash-screen|690x406" src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></p>
+<p><em>Part of the machine list from <a href="give-me-an-example-of-maas-1314.html">Metaphorical General Hospital</a>, our example datacentre.</em></p>
+<hr>
+<h2 id="heading--whats-new">New version of MAAS</h2>
 
-<p>Overwrites all data with zeros.</p>
-<h3 id="heading--secure-erase">Secure erase</h3>
+<ul>
+<li><a href="whats-new-in-maas-2-8-1655.html">What&rsquo;s new in 2.8</a></li>
+</ul>
+<hr>
+<h2 id="heading--getting-support">Getting support</h2>
 
-<p>Although effectively equivalent to Standard erase, Secure erase is much faster because the disk&rsquo;s firmware performs the operation. Because of this, however, some disks may not be able to perform this erasure type (SCSI, SAS, and FC disks in particular).</p>
-<h3 id="heading--quick-erase">Quick erase</h3>
+<ul>
+<li><a href="https://maas.io/contact-us">Professional support</a></li>
+<li><a href="http://askubuntu.com/questions/tagged/maas">Ask a question</a></li>
+<li><a href="http://webchat.freenode.net/?channels=maas">IRC</a></li>
+<li><a href="https://old-docs.maas.io/2.5/en/">MAAS 2.5 (and earlier) documentation</a></li>
+</ul>
+<hr>
+<h2 id="heading--contribute">Contribute</h2>
 
-<p>Same as Standard erase but only targets the first 1 MB and the last 1 MB of each disk. This removes the partition tables and/or superblock from the disk, making data recovery difficult but not impossible.</p>
-<h2 id="heading--default-configuration">Default configuration</h2>
-
-<p>A default erasure configuration can be set on the &lsquo;Settings&rsquo; page by selecting the &lsquo;Storage&rsquo; tab.</p>
-<p><img alt=disk erasure default settings" width="690" src="images/4e90c4c7-installconfig-storage-erasure__defaults.png"></p>
-<p>If option &lsquo;Erase machines&rsquo; disks prior to releasing&rsquo; is chosen then users will be compelled to use disk erasure. That option will be pre-filled in the machine&rsquo;s view and the user will be unable to remove the option.</p>
-<p>With the above defaults, the machine&rsquo;s view will look like this when the Release action is chosen:</p>
-<p><img alt=disk erasure default node view" width="690" src="images/66e1dcc2-installconfig-storage-erasure__defaults-node.png"></p>
-<p>Where &lsquo;secure erase&rsquo; and &lsquo;quick erase&rsquo; can then be configured by the user.</p>
-<h2 id="heading--order-of-preference">Order of preference</h2>
-
-<p>If all three options are checked when the machine is released the following order of preference is applied:</p>
-<ol>
-<li>Use &lsquo;secure erase&rsquo; if the disk supports it</li>
-<li>If it does not then use &lsquo;quick erase&rsquo;</li>
-</ol>
-<!-- LINKS -->
+<ul>
+<li><a href="writing-guide-747.html">Guide to contributing</a></li>
+<li><a href="https://launchpad.net/maas">Push some code</a></li>
+<li><a href="https://bugs.launchpad.net/maas/+filebug">File an issue</a></li>
+</ul>
 </div>
 </body>
 </html>

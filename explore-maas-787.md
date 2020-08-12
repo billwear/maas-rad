@@ -87,4 +87,4 @@ At this point, MAAS is basically set up and running.  You can confirm this with 
 
 <h3>Next steps</h3>
 
-Once you have completed this process, you can access the web UI from the default URL (above) and begin your [configuration journey](https://maas.io/docs/configuration-journey).
+Once you have completed this process, you can access the web UI from the default URL (above) and begin your [configuration journey](/t/configuration-journey/781).

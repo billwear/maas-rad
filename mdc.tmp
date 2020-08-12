@@ -16,7 +16,7 @@ MAAS is **Metal As A Service**, a service that lets you treat physical servers l
 
 <h2 id="heading--whats-new">New version of MAAS</h2>
 
-- [What's new in 2.8 ›](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
+- [What's new in 2.8](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
 
 ---
 

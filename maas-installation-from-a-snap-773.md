@@ -181,7 +181,7 @@ Typically, the output looks something like this:
     regiond:regiond-3                RUNNING   pid 8015, uptime 0:09:17
     tgt                              RUNNING   pid 8040, uptime 0:09:15
 
-With MAAS installed and initialised, you can now open the web UI in your browser and begin your [Configuration journey](https://maas.io/docs/configuration-journey).
+With MAAS installed and initialised, you can now open the web UI in your browser and begin your [Configuration journey](/t/configuration-journey/781).
 
 <h2 id="heading--example">Example of MAAS initialisation</h2>
 
