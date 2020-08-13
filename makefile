@@ -93,12 +93,12 @@ TARGET_DEPS += adding-a-vm-host-1549.html
 TARGET_DEPS += creating-a-custom-ubuntu-image-1652.html
 TARGET_DEPS += whats-new-in-maas-2-8-1655.html
 
-OVAN = ~/var/www/html/maas-offline/maas-vanilla
-OCLI = ~/var/www/html/maas-offline/maas-cli-only
-OUI  = ~/var/www/html/maas-offline/maas-ui-only
-RVAN = ~/var/www/html/maas-rad/maas-vanilla
-RCLI = ~/var/www/html/maas-rad/maas-cli-only
-RUI  = ~/var/www/html/maas-rad/maas-ui-only
+OVAN = /var/www/html/maas-offline/maas-vanilla
+OCLI = /var/www/html/maas-offline/maas-cli-only
+OUI  = /var/www/html/maas-offline/maas-ui-only
+RVAN = /var/www/html/maas-rad/maas-vanilla
+RCLI = /var/www/html/maas-rad/maas-cli-only
+RUI  = /var/www/html/maas-rad/maas-ui-only
 
 %.html: %.md
 # vanilla version
