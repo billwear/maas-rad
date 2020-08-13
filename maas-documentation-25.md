@@ -23,15 +23,15 @@ MAAS is **Metal As A Service**, a service that lets you treat physical servers l
 <h2 id="heading--getting-support">Getting support</h2>
 
 - [Professional support](https://maas.io/contact-us)
-- [Ask a question](http://askubuntu.com/questions/tagged/maas)
-- [IRC](http://webchat.freenode.net/?channels=maas)
-- [MAAS 2.5 (and earlier) documentation](https://old-docs.maas.io/2.5/en/)
+- [Ask a question (external link)](http://askubuntu.com/questions/tagged/maas)
+- [IRC (external link)](http://webchat.freenode.net/?channels=maas)
+- [MAAS 2.5 (and earlier) documentation (external link)](https://old-docs.maas.io/2.5/en/)
 
 ---
 
 <h2 id="heading--contribute">Contribute</h2>
 
 - [Guide to contributing](/t/writing-guide/747)
-- [Push some code](https://launchpad.net/maas)
-- [File an issue](https://bugs.launchpad.net/maas/+filebug)
+- [Push some code (external link)](https://launchpad.net/maas)
+- [File an issue (external link)](https://bugs.launchpad.net/maas/+filebug)
 
