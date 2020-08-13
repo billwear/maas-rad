@@ -537,9 +537,9 @@
 sudo cp -prf etc/maas /etc/; cp -prf var/lib/maas /var/lib/
 </code></pre>
 
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 Take care to preserve the correct permissions when restoring files and directories.
-</blockquote></p>
+[/note]</p>
 <p>If your restore process regenerated the <code>/var/lib/maas/secret</code> file, make sure update this secret on any additional rack controllers.</p>
 <h2 id="heading--recreatingupdating-the-db">Recreating/updating the DB</h2>
 
@@ -549,9 +549,9 @@ Take care to preserve the correct permissions when restoring files and directori
 <pre><code class="bash">sudo maas-region dbupgrade
 </code></pre>
 
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 Please note to run this command on one of the Region Controllers (if this is a multi-region MAAS cluster).
-</blockquote></p>
+[/note]</p>
 <p>Now either restart your system(s) or the stopped services. You&rsquo;ll find your MAAS deployment fully restored.</p>
     </div>
   </body>

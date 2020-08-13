@@ -535,10 +535,10 @@ maas command do something else
 </code></pre>
 <h2 id="heading--notes">Admonishments</h2>
 
-<p>An admonishment distinguishes information from the rest of the text. The syntax begins with the markup tag <code><blockquote style="background:lightgrey;"></code> and ends with the corresponding closure <code></blockquote></code>:</p>
+<p>An admonishment distinguishes information from the rest of the text. The syntax begins with the markup tag <code>[note]</code> and ends with the corresponding closure <code>[/note]</code>:</p>
 <pre><code>[note type="admonishment-type" status="Admonishment title"]
 Admonishment text.
-</blockquote>
+[/note]
 </code></pre>
 <p>Where:</p>
 <ul>
@@ -554,46 +554,46 @@ Admonishment text.
 If KVM-backed nodes are used, ensure that the 'maas' user on the rack
 controller can connect to the KVM host using a passphraseless private SSH
 key.
-</blockquote>
+[/note]
 </code></pre>
 
 <p>And it will appear as:
 [note status=&rdquo;Note&rdquo;]
 If KVM-backed nodes are used, ensure that the &lsquo;maas&rsquo; user on the rack controller can connect to the KVM host using a passphraseless private SSH key.
-</blockquote></p>
+[/note]</p>
 <p><strong><em>Warning Admonishment</em></strong></p>
 <p>Mark up a standard &lsquo;Warning&rsquo; type admonishment this way:</p>
 <pre><code class="no-highlight">[note type=&quot;caution&quot; status=&quot;Warning&quot;]
 Data will be lost unless you do the right thing.
-</blockquote>
+[/note]
 </code></pre>
 
 <p>And it will appear like this:</p>
 <p>[note type=&rdquo;caution&rdquo; status=&rdquo;Warning&rdquo;]
 Data will be lost unless you do the right thing.
-</blockquote></p>
+[/note]</p>
 <p><strong><em>Positive Admonishment</em></strong></p>
 <p>A &lsquo;Positive&rsquo; type admonishment should be entered as follows:</p>
 <pre><code>[note type=&quot;positive&quot; status=&quot;High score&quot;]
 A positive note that should include a title.
-</blockquote>
+[/note]
 </code></pre>
 
 <p>It will show up in the document like this:</p>
 <p>[note type=&rdquo;positive&rdquo; status=&rdquo;High score&rdquo;]
 A positive note that should include a title.
-</blockquote></p>
+[/note]</p>
 <p><strong><em>Negative Admonishment</em></strong></p>
 <p>Finally, a &lsquo;Negative&rsquo; type admonishment, with its title, could be marked up like this:</p>
 <pre><code>[note type=&quot;negative&quot; status=&quot;Game over&quot;]
 A negative note that should include a title.
-</blockquote>
+[/note]
 </code></pre>
 
 <p>And will look this way to the reader:</p>
 <p>[note type=&rdquo;negative&rdquo; status=&rdquo;Game over&rdquo;]
 A negative note that should include a title.
-</blockquote></p>
+[/note]</p>
 <h2 id="heading--comments">Comments</h2>
 
 <p>Occasionally it may be appropriate to include a comment to explain or organize some text. This ends up as an HTML comment &ndash; which can be read online, even if only in the browser inspection window &ndash; so take it seriously:</p>
@@ -616,11 +616,11 @@ The below text may be removed soon.
 
 <p>An image should not be overly cropped - allow for context. When ready, place the image file in the <code>uploads</code> directory.</p>
 <p>In terms of linking, they are managed very similarly to hyperlinks. However, they are placed on their own line; are preceded by an exclamation point; and both the label and destination have a specific naming convention:</p>
-<pre><code>![web UI showing node view](https://discourse.maas.io/uploads/default/original/1X/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png)
+<pre><code>&lt;a href=&quot;images/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png&quot; target = &quot;_blank&quot;&gt;&lt;img alt=web UI showing node view&quot; src=&quot;images/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png&quot;&gt;&lt;/a&gt;
 </code></pre>
 
 <p>This image would appear in this way:</p>
-<p><img alt="web UI showing node view" src="https://discourse.maas.io/uploads/default/original/1X/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png"></p>
+<p><a href="images/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png" target = "_blank"><img alt=web UI showing node view" src="images/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png"></a></p>
 <h2 id="heading--tiered-sections">Tiered sections</h2>
 
 <p>You can create optional detail sections (something like and &ldquo;in-line sidebar&rdquo;) by using these constructions:</p>

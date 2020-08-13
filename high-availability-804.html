@@ -489,7 +489,7 @@
 <p>DHCP HA affects the way MAAS manages node, including enlistment, commissioning and deployment. It enables primary and secondary DHCP instances to serve the same VLAN. This VLAN replicates all lease information is between rack controllers. MAAS-managed DHCP is a requirement for DHCP HA.</p>
 <p>If you are enabling DHCP for the first time after adding a second rack controller, please read <a href="managing-dhcp-759.html#heading--enabling-dhcp">Enabling DHCP</a>.  On the other hand, if you have already enabled DHCP on your initial rack controller, you&rsquo;ll need to reconfigure DHCP.</p>
 <p>Access the appropriate VLAN (via the &lsquo;Subnets&rsquo; page) and choose action &lsquo;Reconfigure DHCP&rsquo;. There, you will see the second rack controller in the &lsquo;Secondary controller&rsquo; field. All you should have to do is press the &lsquo;Reconfigure DHCP&rsquo; button:</p>
-<p><img alt="reconfigure DHCP" src="https://assets.ubuntu.com/v1/c3d1e0c1-manage-ha__2.6-ha-dhcp.png"></p>
+<p><a href="images/c3d1e0c1-manage-ha__2.6-ha-dhcp.png" target = "_blank"><img alt=reconfigure DHCP" src="images/c3d1e0c1-manage-ha__2.6-ha-dhcp.png"></a></p>
 <h3 id="heading--multiple-region-endpoints">Configure multiple region endpoints</h3>
 
 <p>MAAS will automatically discover and track all reachable region controllers in a single cluster of rack controllers  It will also attempt to automatically connect to them if the one in use becomes inaccessible.  Administrators can alternatively specify multiple region-controller endpoints for a single rack controller by adding entries to <code>/etc/maas/rackd.conf</code>.  For example:</p>
@@ -523,9 +523,9 @@ maas_url:
 <h3 id="heading--load-balancing-with-haproxy-optional">Load balancing with HAProxy (optional)</h3>
 
 <p>You can add load balancing with <a href="http://www.haproxy.org/">HAProxy</a> load-balancing software to support multiple API servers. In this setup, HAProxy provides access to the MAAS web UI and API.</p>
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 If you happen to have Apache running on the same server where you intend to install HAProxy, you will need to stop and disable <code>apache2</code>, because HAProxy binds to port 80.
-</blockquote></p>
+[/note]</p>
 <h4 id="heading--install">Install</h4>
 
 <pre><code class="bash">sudo apt install haproxy

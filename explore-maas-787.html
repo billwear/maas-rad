@@ -469,9 +469,9 @@
 <h2 id="heading--installation">Installation</a></h2>
 
 <p>We recommend testing MAAS with <a href="https://ubuntu.com/server/docs/virtualization-libvirt">libvirt</a> and its VM/QEMU hypervisor driver. The majority of Linux distributions, including Ubuntu, support this tool. It is easy to install</a>, and MAAS natively supports power management of VMs created in libvirt. We also recommend that you install the GUI-based <code>virt-manager</code> to ease configuration, but you can use <code>libvirt</code> from the command line.</p>
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 MAAS also works in a Linux virtual machine running from Oracle’s <a href="https://www.virtualbox.org">VirtualBox</a>.  VirtualBox may be useful if you want to test MAAS from a Microsoft Windows or macOS environment.
-</blockquote></p>
+[/note]</p>
 <p><a href="https://snapcraft.io/docs">Snaps</a> are containerised software packages. To install MAAS from a snap simply enter the following:</p>
 <pre><code>$ sudo snap install maas --channel=2.8
 </code></pre>

@@ -490,9 +490,9 @@
 
 <p>New hardware gets released all the time. If an Ubuntu host runs an older kernel, it&rsquo;s unlikely that MAAS can support the hardware. Canonical does make every effort to backport more recent kernels enabling more hardware. The acronym HWE stands for &ldquo;HardWare Enablement.&rdquo;</p>
 <p>You also gain kernel improvements and new features when installing an HWE kernel.</p>
-<p><blockquote style="background:lightgrey;">
+<p>[note]
 There is the notion of an HWE <em>stack</em>, which refers to the window manager and kernel when the Ubuntu host is running a desktop environment. HWE stacks do not apply to MAAS since machines are provisioned strictly as non-graphical servers.
-</blockquote></p>
+[/note]</p>
 <p>Note that these backported/HWE kernels are only available for LTS releases (e.g. Trusty, Xenial, etc.). For example, the first available HWE kernel for Ubuntu 16.04 LTS (Xenial) will be the GA kernel from Ubuntu 16.10 (Yakkety).</p>
 <p>Before MAAS 2.1 on Xenial, HWE kernels are referred to by the notation <code>hwe-&lt;release letter&gt;</code>. So, to install the Yakkety HWE kernel on Xenial, the <code>hwe-y</code> kernel is used. By default, when using the web UI, MAAS imports all available HWE kernels along with its generic boot images. So if you are importinTrusty images are imported then the following HWE kernels are included: <code>hwe-u</code>, <code>hwe-v</code>, <code>hwe-w</code>, <code>hwe-x</code> (presuming the Xenial HWE kernel is available).</p>
 <p>In MAAS 2.1, starting with Xenial kernels, the notation has changed. The following is used to refer to the latest HWE kernel available for Xenial: <code>hwe-16.04</code>.</p>
@@ -525,15 +525,15 @@ There is the notion of an HWE <em>stack</em>, which refers to the window manager
 <h3 id="heading--default-minimum-kernel">Default minimum kernel</h3>
 
 <p>To set the default minimum enlistment and commissioning kernel (based on Ubuntu release: GA kernel) for all machines visit the &lsquo;General&rsquo; tab of the &lsquo;Settings&rsquo; page and select a kernel in the &lsquo;Default Minimum Kernel Version&rsquo; field of the <em>Commissioning</em> section. Don&rsquo;t forget to click &lsquo;Save&rsquo;.</p>
-<p><img alt="default minimum kernel" src="https://assets.ubuntu.com/v1/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png"></p>
+<p><a href="images/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png" target = "_blank"><img alt=default minimum kernel" src="images/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png"></a></p>
 <h3 id="heading--machine-minimum-kernel">Machine minimum kernel</h3>
 
 <p>To set the minimum deploy kernel on a machine basis, click on a machine from the &lsquo;Machines&rsquo; page of the web UI and switch to its &lsquo;Configuration&rsquo; page. Click &lsquo;Edit&rsquo; in the &lsquo;Machine configuration&rsquo; section, select a kernel in the &lsquo;Minimum Kernel&rsquo; field followed by &lsquo;Save changes&rsquo;.</p>
-<p><img alt="machine minimum kernel" src="https://assets.ubuntu.com/v1/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png"></p>
+<p><a href="images/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png" target = "_blank"><img alt=machine minimum kernel" src="images/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png"></a></p>
 <h3 id="heading--machine-kernel-during-deployment">Machine kernel during deployment</h3>
 
 <p>To set a specific kernel during deployment, select a machine from the &lsquo;Machines&rsquo; page and choose &lsquo;Deploy&rsquo; under &lsquo;Take action&rsquo;. Then choose a kernel from the (third) kernel field. Hit &lsquo;Deploy machine&rsquo; to initiate the deployment.</p>
-<p><img alt="machine during deploy kernel" src="https://assets.ubuntu.com/v1/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png"></p>
+<p><a href="images/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png" target = "_blank"><img alt=machine during deploy kernel" src="images/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png"></a></p>
 <p>MAAS verifies that the specified kernel is available for the given Ubuntu release (series) before deploying the machine.</p>
 <!-- LINKS -->
     </div>
