@@ -1,3 +1,19 @@
+<div id="selector" style="top:0; position:fixed; background-color:#d9d9d9; text-align:center; width:100%;border-bottom:1px solid black;">
+<strong>
+<a href="../maas-vanilla/zork" style="background-color:white;border-top:1px solid black; border-left:1px solid black; border-right:1px solid black; border-bottom:5px solid white;">
+ &nbsp;Full&nbsp;
+</a>
+</strong>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="../maas-ui-only/zork" style="border-top:1px solid black; border-left:1px solid black; border-right:1px solid black;">
+UI-only
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="../maas-cli-only/zork" style="border-top:1px solid black; border-left:1px solid black; border-right:1px solid black;">
+CLI-only
+</a>
+</div>
+
 This page contains detailed information on how to become a successful MAAS documentation writer. Welcome to the club.
 
 <h2 id="heading--contribution-overview">Contribution overview</h2>
