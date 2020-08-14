@@ -17,13 +17,13 @@ Use the Add pool button to add a new resource pool.
 
 After giving your new pool a name and description, click the Add pool button:
 
-![add resource pool](https://assets.ubuntu.com/v1/2f010325-nodes-resource-pools__2.5_add-pool.png)
+<a href="https://assets.ubuntu.com/v1/2f010325-nodes-resource-pools__2.5_add-pool.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/2f010325-nodes-resource-pools__2.5_add-pool.png"></a>
 
 <h2 id="heading--deleting-a-resource-pool">Deleting a resource pool</h2>
 
 To delete a resource pool, click the trashcan icon next to the pool.
 
-![add resource pool](https://assets.ubuntu.com/v1/630ed938-nodes-resource-pools__2.5_delete-pool.png)
+<a href="https://assets.ubuntu.com/v1/630ed938-nodes-resource-pools__2.5_delete-pool.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/630ed938-nodes-resource-pools__2.5_delete-pool.png"></a>
 
 [note]
 If you delete a resource pool, all machines that belong to that resource pool will return to the default pool.
@@ -33,7 +33,7 @@ If you delete a resource pool, all machines that belong to that resource pool wi
 
 To add a machine to a resource pool, on the Machines page, select the machine you want to add to the resource pool. Next, select the Configuration tab. Now select the resource pool and click the Save changes button.
 
-![add resource pool](https://assets.ubuntu.com/v1/648e7a8e-nodes-resource-pools__2.5_add-machine.png)
+<a href="https://assets.ubuntu.com/v1/648e7a8e-nodes-resource-pools__2.5_add-machine.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/648e7a8e-nodes-resource-pools__2.5_add-machine.png"></a>
 
 <h2 id="heading--removing-a-node-from-a-resource-pool">Removing a machine from a resource pool</h2>
 
@@ -43,7 +43,7 @@ To remove a machine from a resource pool, follow the same procedure you would us
 
 You can add a VM host to a resource pool when you create a new VM host, or you can edit a VM host's configuration:
 
-![add_pod_to_pool](https://assets.ubuntu.com/v1/84a89952-nodes-resource-pools__2.5_pod_to_pool.png)
+<a href="https://assets.ubuntu.com/v1/84a89952-nodes-resource-pools__2.5_pod_to_pool.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/84a89952-nodes-resource-pools__2.5_pod_to_pool.png"></a>
 
 <h2 id="heading--removing-a-vm-host-from-a-resource-pool">Removing a VM host from a resource pool</h2>
 

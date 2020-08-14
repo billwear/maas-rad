@@ -85,7 +85,7 @@ MAAS has switched hardware information gathering from lshw/lsblk to lxd output d
 
 ## Bug fixes
 
-A number of bug fixes (see the [list in Launchpad](https://bugs.launchpad.net/maas/+bugs?field.milestone%3Alist=87757&field.milestone%3Alist=89662&field.milestone%3Alist=89714&field.milestone%3Alist=89840&field.milestone%3Alist=89954&field.milestone%3Alist=89682&field.status%3Alist=FIXRELEASED)).
+A number of bug fixes (see the [list in Launchpad (external link)](https://bugs.launchpad.net/maas/+bugs?field.milestone%3Alist=87757&field.milestone%3Alist=89662&field.milestone%3Alist=89714&field.milestone%3Alist=89840&field.milestone%3Alist=89954&field.milestone%3Alist=89682&field.status%3Alist=FIXRELEASED)).
 
 <h2 id="heading--270">2.6</h2>
 
@@ -113,7 +113,7 @@ To streamline the installation and make it easier for users to install MAAS with
 
 <h4 id="heading--ntp-services-provided-by-chrony">NTP services provided by Chrony</h4>
 
-In common with changes made to Ubuntu Server, *ntpd* has been replaced with [Chrony](https://chrony.tuxfamily.org/) for the NTP protocol. MAAS will handle the upgrade process automatically and resume NTP service operation.
+In common with changes made to Ubuntu Server, *ntpd* has been replaced with [Chrony (external link)](https://chrony.tuxfamily.org/) for the NTP protocol. MAAS will handle the upgrade process automatically and resume NTP service operation.
 
 <h3 id="heading--new-features--improvements">New Features & Improvements</h3>
 
@@ -240,7 +240,7 @@ This release adds the ability to manage not only DNS domains but also the follow
 
 **YUI finally dropped in favour of AngularJS**
 
--   MAAS has now fully dropped the use of [YUI](https://en.wikipedia.org/wiki/YUI_Library) for the web UI. The final sections using this were the Settings and login pages. Both have now been transitioned to use AngularJS instead.
+-   MAAS has now fully dropped the use of [YUI (external link)](https://en.wikipedia.org/wiki/YUI_Library) for the web UI. The final sections using this were the Settings and login pages. Both have now been transitioned to use AngularJS instead.
 
 **Vanilla framework upgrade**
 
@@ -281,7 +281,7 @@ A default DNS domain can now be defined from the API.
 
 <h3 id="heading--bug-fixes">Bug fixes</h3>
 
-For all bug fixes in this release, please refer to all of these milestones.
+For all bug fixes in this release, please refer to all of these milestones (all external links):
 
 -   <https://launchpad.net/maas/+milestone/2.4.0alpha1>
 -   <https://launchpad.net/maas/+milestone/2.4.0alpha2>
@@ -293,7 +293,7 @@ For all bug fixes in this release, please refer to all of these milestones.
 
 <h2 id="heading--maas-client-library-python-libmaas">MAAS Client Library (python-libmaas)</h2>
 
-The official Python client library for MAAS is available in the Ubuntu 18.04 LTS package archive or you can download the source from:
+The official Python client library for MAAS is available in the Ubuntu 18.04 LTS package archive or you can download the source from this external link:
 
 <https://github.com/maas/python-libmaas/releases>
 
@@ -309,8 +309,8 @@ Recent updates have added the following features:
 
 We'd love to hear about how you're using MAAS, whether it's at the smallest of scales or the largest. Our team is always approachable and can usually be found in the following locations:
 
--   Join us on IRC. We can be found on the [maas](http://webchat.freenode.net/?channels=maas) channel on [freenode](https://freenode.net/).
--   Subscribe to the [maas-devel](https://lists.ubuntu.com/mailman/listinfo/Maas-devel) mailing list, a great place to ask questions.
+-   Join us on IRC. We can be found on the [maas (external link)](http://webchat.freenode.net/?channels=maas) channel on [freenode (external link)](https://freenode.net/).
+-   Subscribe to the [maas-devel (external link)](https://lists.ubuntu.com/mailman/listinfo/Maas-devel) mailing list, a great place to ask questions.
 
 # 2.3
 
@@ -379,7 +379,7 @@ Hardware testing improvements include the following web UI changes:
     -   The *Hardware Tests /Commission tab* now displays an improved view of the latest test run, its run time as well as an improved view of previous results. It also adds more detailed information about specific tests, such as status, exit code, tags, runtime and logs/output (such as stdout and stderr).
     -   The *Storage tab* now displays the status of specific disks, including whether a test is OK or failed after running hardware tests.
 
-For more information, please refer to <https://docs.ubuntu.com/maas/2.3/en/nodes-hw-testing>
+For more information, please refer to this external link:  <https://docs.ubuntu.com/maas/2.3/en/nodes-hw-testing>
 
 <h3 id="heading--network-discovery-and-beaconing">Network discovery and beaconing</h3>
 
@@ -473,11 +473,11 @@ MAAS 2.3 now supports the latest Django LTS version, Django 1.11. This allows MA
 
 <h3 id="heading--issues-fixed-with-this-release">Issues fixed with this release</h3>
 
-For issues fixed in MAAS 2.3, please refer to the following milestone:
+For issues fixed in MAAS 2.3, please refer to the following milestone (external link):
 
 -   <https://launchpad.net/maas/+milestone/2.3.0>
 
-For more information on previous bug fixes across 2.3, please refer to the following milestones:
+For more information on previous bug fixes across 2.3, please refer to the following milestones, all external links:
 
 -   <https://launchpad.net/maas/+milestone/2.3.0rc2>
 -   <https://launchpad.net/maas/+milestone/2.3.0rc1>
@@ -679,17 +679,17 @@ The library currently has the following endpoints:
 **Documentation**
 If you would like to know more about python-libmaas, please refer to the below resources:
 
-For installation and initial steps: http://maas.github.io/python-libmaas/index.html
+For installation and initial steps (external link): http://maas.github.io/python-libmaas/index.html
 
-For a few examples:
+For a few examples, see these external links:
 
 -   http://maas.github.io/python-libmaas/client/index.html
 -   http://maas.github.io/python-libmaas/client/nodes/index.html
 
-For pypi information: https://pypi.python.org/pypi/python-libmaas
+For pypi information, try this external link: https://pypi.python.org/pypi/python-libmaas
 
 **Contribute**
-If you would like to contribute you can find the source code in GitHub:
+If you would like to contribute you can find the source code in GitHub, at this external link:
 
 https://github.com/maas/python-libmaas
 
@@ -713,7 +713,7 @@ In order to support new kernels, MAAS has moved to a new format for image stream
 
 Users upgrading from earlier versions of MAAS who are using the default image source will be automatically migrated to the v3 format.
 
-MAAS will not migrate the URL of a non-default image source (i.e. a mirror) as it must first contain the v3 stream, which is available at `http://images.maas.io/ephemeral-v3/`.
+MAAS will not migrate the URL of a non-default image source (i.e. a mirror) as it must first contain the v3 stream, which is available at this external link: `http://images.maas.io/ephemeral-v3/`.
 
 Old images downloaded from the v2 stream will continue to work but the MAAS team only supports MAAS 2.1 users using the v3 stream. Note that the default image source may eventually drop the v2 stream.
 

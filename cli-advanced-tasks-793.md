@@ -184,7 +184,7 @@ MAAS will ask for the URL of the region API server. If you provide a hostname, e
 
 You can get the above information from the web UI by visiting the 'Controllers' page and clicking the button 'Add rack controller'. Here is an example of what you may see:
 
-![cli-install-rackd](https://assets.ubuntu.com/v1/61fa1b99-manage-maas-cli-advanced__2.2_install-rackd.png)
+<a href="https://assets.ubuntu.com/v1/61fa1b99-manage-maas-cli-advanced__2.2_install-rackd.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/61fa1b99-manage-maas-cli-advanced__2.2_install-rackd.png"></a>
 
 Based on the above, then, we could have also entered:
 

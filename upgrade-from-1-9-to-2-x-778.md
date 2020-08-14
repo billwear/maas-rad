@@ -1,3 +1,9 @@
+<table width="100%"><tr>
+<td><a href="https://maas.io/docs/upgrade-from-1-9-to-2-x#heading--ip-range-changes">IP range changes</a></td>
+<td><a href="https://maas.io/docs/upgrade-from-1-9-to-2-x#heading--troubleshooting">Troubleshooting</a></td>
+</tr></table>
+<hr>
+
 MAAS 2.4 is only supported on Ubuntu 18.04 (Bionic Beaver). This is because changes in the base dependencies of Ubuntu 18.04 LTS mean that newer versions of MAAS will not be back-portable, and consequently, to upgrade to MAAS 2.4 and all future versions, you will need to first upgrade to 2.3. This is covered below.
 
 See [Upgrade 2.3 to 2.4 from Ubuntu 16.04](/t/upgrade-2-3-to-2-4-from-ubuntu-16-04/777) for further details on upgrading from 2.3 to 2.4

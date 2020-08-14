@@ -24,17 +24,17 @@ See the below resources to better understand the above terms and how they are us
 
 <h2 id="heading--installation-and-usage-of-python-libmaas">Installation and usage of python-libmaas</h2>
 
-For installation and initial steps, see:
+For installation and initial steps, see these external links:
 
 -   `https://github.com/maas/python-libmaas`
 -   `http://maas.github.io/python-libmaas/index.html`
 
-For examples:
+For examples, see these external links:
 
 -   `http://maas.github.io/python-libmaas/client/index.html`
 -   `http://maas.github.io/python-libmaas/client/nodes/index.html`
 
-For pypi information:
+For pypi information, see this external link:
 
 `https://pypi.python.org/pypi/python-libmaas`
 

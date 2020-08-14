@@ -20,7 +20,7 @@ When you choose either of those two options, a window will appear allowing you t
 
 Below is an example window when creating a 'reserved range' (the windows are identical):
 
-![reserved IP range](https://assets.ubuntu.com/v1/be85b7d6-installconfig-network-ipranges__2.4_add-reserved-iprange.png)
+<a href="https://assets.ubuntu.com/v1/be85b7d6-installconfig-network-ipranges__2.4_add-reserved-iprange.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/be85b7d6-installconfig-network-ipranges__2.4_add-reserved-iprange.png"></a>
 
 Click the 'Reserve' button when done.
 
