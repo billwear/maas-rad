@@ -4,4 +4,4 @@ Using the Dashboard, an unknown discovered device can be added to MAAS as a devi
 
 Network discovery can be disabled or re-enabled using the switch on the Network discovery dashboard.
 
-![network discovery page](https://assets.ubuntu.com/v1/1782e4aa-installconfig-networking__2.4_discovery.png)
+<a href="https://assets.ubuntu.com/v1/1782e4aa-installconfig-networking__2.4_discovery.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/1782e4aa-installconfig-networking__2.4_discovery.png"></a>

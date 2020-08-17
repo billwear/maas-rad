@@ -1,3 +1,11 @@
+<table width="100%"><tr style="padding-bottom:0px;"><td><strong>Standard</strong></td><td>CLI-only</td><td>UI-only</td></tr></table>
+<!-- ui
+<table width="100%"><tr><td>Standard</td><td><strong>CLI-only</strong></td><td>UI-only</td></tr></table>
+ ui -->
+<!-- cli
+<table width="100%"><tr><td>Standard</td><td>CLI-only</td><td><strong>UI-only</strong></td></tr></table>
+ cli -->
+
 This page provides several useful examples of MAAS zone usage.
 
 See [Concepts and terms](/t/concepts-and-terms/785#heading--zones) to understand more about zones and [Zones](/t/availability-zones/820) for how to work with them.

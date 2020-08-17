@@ -14,7 +14,7 @@ Customisation in MAAS happens in two ways:
 
 <h3 id="heading--templates">Templates</h3>
 
-The [Tempita](https://raw.githubusercontent.com/ravenac95/tempita/master/docs/index.txt) template files are found within the `/etc/maas/preseeds/` directory on the region controller. Each template uses a filename prefix that corresponds to a particular phase of MAAS machine deployment:
+The [Tempita](https://raw.githubusercontent.com/ravenac95/tempita/master/docs/index.txt) template files are found within the `/var/snap/maas/current/preseeds/` for the snap and `/etc/maas/preseeds/` directory for the debian package on the region controller. Each template uses a filename prefix that corresponds to a particular phase of MAAS machine deployment:
 
 |       Phase       |                 Filename prefix                 |
 |:-----------------:|:-----------------------------------------------:|
@@ -129,11 +129,11 @@ Base-64 encoding is required because the MAAS command-line interacts with the MA
 
 Use the `base64` command to output a base-64 encoded version of your script:
 
-    base64 ./import_key.sh
+    base64 -w0 ./import_key.sh
 
 Putting it together:
 
-    maas $PROFILE machine deploy $SYSTEM_ID user_data=$(base64 ./import_key.sh)
+    maas $PROFILE machine deploy $SYSTEM_ID user_data=$(base64 -w0 ./import_key.sh)
 
 After MAAS deploys the machine, you'll find `/ssh-key-import.log` on the machine you deployed.
 

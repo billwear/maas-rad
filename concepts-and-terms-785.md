@@ -140,7 +140,7 @@ You could describe a fabric as a VLAN namespace. It's a switch or a combination 
 
 The following conceptual diagram shows two fabrics in the same data centre or region, each using distinct VLAN ranges and their associated subnets:
 
-![fabrics and spaces](https://discourse.maas.io/uploads/default/original/1X/46177305128bf7f3190f8a7bbd037c33e96f6a9e.png)
+<a href="https://discourse.maas.io/uploads/default/original/1X/46177305128bf7f3190f8a7bbd037c33e96f6a9e.png" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/46177305128bf7f3190f8a7bbd037c33e96f6a9e.png"></a>
 
 
 <h2 id="heading--spaces">Spaces</h2>
@@ -275,7 +275,7 @@ This action marks a machine as locked, preventing the user from performing actio
 
 A locked machine has a padlock symbol next to its name.
 
-![machine locked state](https://discourse.maas.io/uploads/default/original/1X/7d1f0928fb599d465916e43e731535dfee60e65a.png)
+<a href="https://discourse.maas.io/uploads/default/original/1X/7d1f0928fb599d465916e43e731535dfee60e65a.png" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/7d1f0928fb599d465916e43e731535dfee60e65a.png"></a>
 
 <h3 id="heading--override-failed">Override failed</h3>
 
@@ -399,7 +399,7 @@ An Ubuntu package repository is a repository that makes available Ubuntu package
 
 MAAS comes equipped with the official Ubuntu repository `archive.ubuntu.com` as well as the equivalent for architectures other than i386 and amd64: `ports.ubuntu.com` as is evident in the default configuration below:
 
-![default repositories config](https://assets.ubuntu.com/v1/77b93794-manage-repositories__2.4_default-repo-config.png)
+<a href="https://assets.ubuntu.com/v1/77b93794-manage-repositories__2.4_default-repo-config.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/77b93794-manage-repositories__2.4_default-repo-config.png"></a>
 
 Adding a third-party repository is elementary. Begin by basing the configuration on a line you would typically place in a system's `/etc/apt/sources.list` file. For instance, for the Google Chrome repository, the line would look like:
 
@@ -417,7 +417,7 @@ To add this repository, then, hit the 'Add repository' button and fill in the fi
 
 Before saving, the form should look very similar to this:
 
-![add repository](https://assets.ubuntu.com/v1/1aa1c512-manage-repositories__2.4_add-repo.png)
+<a href="https://assets.ubuntu.com/v1/1aa1c512-manage-repositories__2.4_add-repo.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/1aa1c512-manage-repositories__2.4_add-repo.png"></a>
 
 Click 'Add repository' to save the configuration.
 
@@ -435,7 +435,7 @@ Like before, a public GPG key will be needed. Also get this from the PPA's Launc
 
 To add this PPA, then, hit the 'Add repository' button and fill in the fields. Before saving, the form should look something like this:
 
-![add PPA](https://assets.ubuntu.com/v1/a0962e17-manage-repositories__2.4_add-ppa.png)
+<a href="https://assets.ubuntu.com/v1/a0962e17-manage-repositories__2.4_add-ppa.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/a0962e17-manage-repositories__2.4_add-ppa.png"></a>
 
 Click 'Add repository' to save the configuration.
 

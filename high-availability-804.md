@@ -28,7 +28,7 @@ If you are enabling DHCP for the first time after adding a second rack controlle
 
 Access the appropriate VLAN (via the 'Subnets' page) and choose action 'Reconfigure DHCP'. There, you will see the second rack controller in the 'Secondary controller' field. All you should have to do is press the 'Reconfigure DHCP' button:
 
-![reconfigure DHCP](https://assets.ubuntu.com/v1/c3d1e0c1-manage-ha__2.6-ha-dhcp.png)
+<a href="external link" target = "_blank"><img src="external link"></a>
 
 <h3 id="heading--multiple-region-endpoints">Configure multiple region endpoints</h3>
 
@@ -57,7 +57,7 @@ Load balancing is optional, but is highly recommended.
 
 <h3 id="heading--postgresql-ha">Enable highly-available PostgreSQL</h3>
 
-MAAS stores all state information in the PostgreSQL database. It is therefore recommended to run it in HA mode. Configuring HA for PostgreSQL is external to MAAS. You will, therefore, need to study the [PostgreSQL documentation](https://www.postgresql.org/docs/9.5/static/high-availability.html) and implement the variant of HA that makes you feel most comfortable.
+MAAS stores all state information in the PostgreSQL database. It is therefore recommended to run it in HA mode. Configuring HA for PostgreSQL is external to MAAS. You will, therefore, need to study the [PostgreSQL documentation (external link)](https://www.postgresql.org/docs/9.5/static/high-availability.html) and implement the variant of HA that makes you feel most comfortable.
 
 A quick treatment of [PostgreSQL HA: hot standby](/t/postgresql-ha-hot-standby/803) is provided here for convenience only. This summary will give you an idea of the command line implementation of HA with PostgreSQL.
 
@@ -69,7 +69,7 @@ Please see [Region controllers](/t/region-controllers/772) and [Multiple region 
 
 <h3 id="heading--load-balancing-with-haproxy-optional">Load balancing with HAProxy (optional)</h3>
 
-You can add load balancing with [HAProxy](http://www.haproxy.org/) load-balancing software to support multiple API servers. In this setup, HAProxy provides access to the MAAS web UI and API.
+You can add load balancing with [HAProxy (external link)](http://www.haproxy.org/) load-balancing software to support multiple API servers. In this setup, HAProxy provides access to the MAAS web UI and API.
 
 [note]
 If you happen to have Apache running on the same server where you intend to install HAProxy, you will need to stop and disable `apache2`, because HAProxy binds to port 80.
@@ -83,7 +83,7 @@ sudo apt install haproxy
 
 <h4 id="heading--configure">Configure</h4>
 
-Configure each API server's load balancer by copying the following into `/etc/haproxy/haproxy.cfg` (see the [upstream configuration manual](http://cbonte.github.io/haproxy-dconv/1.6/configuration.html) as a reference). Replace $PRIMARY_API_SERVER_IP and $SECONDARY_API_SERVER_IP with their respective IP addresses:
+Configure each API server's load balancer by copying the following into `/etc/haproxy/haproxy.cfg` (see the [upstream configuration manual (external link)](http://cbonte.github.io/haproxy-dconv/1.6/configuration.html) as a reference). Replace $PRIMARY_API_SERVER_IP and $SECONDARY_API_SERVER_IP with their respective IP addresses:
 
 ``` yaml
 frontend maas

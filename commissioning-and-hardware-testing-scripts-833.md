@@ -209,7 +209,7 @@ The source code to all built-in scripts is available on [launchpad](https://git.
 
 Below is a sample script to configure an Intel C610/X99 HPA controller on an HP system. The script will only run on systems with an Intel C610/X99 controller identified by the PCI ID 8086:8d06.
 
-Before the script runs, MAAS will download and install the [HP RESTful Interface Tool](https://downloads.linux.hpe.com/SDR/project/hprest/) package from HP. After the script completes, the built-in commissioning scripts will be re-run to capture the new configuration.
+Before the scrixpt runs, MAAS will download and install the [HP RESTful Interface Tool (external link)](https://downloads.linux.hpe.com/SDR/project/hprest/) package from HP. After the script completes, the built-in commissioning scripts will be re-run to capture the new configuration.
 
 ``` bash
 #!/bin/bash -ex
@@ -294,7 +294,7 @@ Scripts can be uploaded to MAAS using the web UI. Select the 'User scripts' tab 
 
 A status message of Commissioning script created will appear.  You'll then be able to select your script after selecting [Test hardware](/t/hardware-testing/826) from a machine's 'Take action' menu.
 
-![select custom script](https://assets.ubuntu.com/v1/50e08fdf-nodes-hw-scripts__2.4_select.png)
+<a href="https://assets.ubuntu.com/v1/50e08fdf-nodes-hw-scripts__2.4_select.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/50e08fdf-nodes-hw-scripts__2.4_select.png"></a>
 
 [note]
 MAAS executes scripts in lexicographical order. This order allows you to control when your scripts execute, and whether they run before or after the standard MAAS scripts.
@@ -304,13 +304,13 @@ MAAS executes scripts in lexicographical order. This order allows you to control
 
 Clicking on the title of a completed or failed script will reveal the output from that specific script.
 
-![failed script output](https://assets.ubuntu.com/v1/855015e5-nodes-hw-scripts__2.2_fail.png)
+<a href="https://assets.ubuntu.com/v1/855015e5-nodes-hw-scripts__2.2_fail.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/855015e5-nodes-hw-scripts__2.2_fail.png"></a>
 
 If you need further details, especially when writing and running your own scripts, you can connect to a machine and examine its logs and environment.
 
 To do this, enable Allow SSH access and prevent the machine from powering off when selecting 'Test hardware' from the machine 'Take action' menu.
 
-![enable SSH within Test Hardware](https://assets.ubuntu.com/v1/da793c67-nodes-hw-scripts__2.4_ssh.png)
+<a href="https://assets.ubuntu.com/v1/da793c67-nodes-hw-scripts__2.4_ssh.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/da793c67-nodes-hw-scripts__2.4_ssh.png"></a>
 
 Because scripts operate within an ephemeral version of Ubuntu, enabling this option stops the machine from shutting down, allowing you to connect and probe a script's status.
 

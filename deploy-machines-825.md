@@ -48,11 +48,11 @@ Before deploying, you should:
 
 To deploy directly from MAAS, select one or more machine(s) and press the 'Deploy' button.
 
-![deploy](https://assets.ubuntu.com/v1/56958753-nodes-deploy__2.4_deploy.png)
+<a href="https://assets.ubuntu.com/v1/56958753-nodes-deploy__2.4_deploy.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/56958753-nodes-deploy__2.4_deploy.png"></a>
 
 You then have the option of deviating from the default OS, release, and kernel. When ready, press 'Deploy X machine(s)' (where 'X' is the number of machines selected).
 
-![confirm deploy](https://assets.ubuntu.com/v1/d65b9884-nodes-deploy__2.6-deploy-confirm.png)
+<a href="https://assets.ubuntu.com/v1/d65b9884-nodes-deploy__2.6-deploy-confirm.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/d65b9884-nodes-deploy__2.6-deploy-confirm.png"></a>
 
 See [MAAS CLI](/t/common-cli-tasks/794#heading--deploy-a-node) for how to deploy a machine with the CLI. If doing so, you will first need to acquire the machine explicitly, either via the web UI or the CLI.
 
