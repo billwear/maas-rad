@@ -10,6 +10,17 @@ MAAS is **Metal As A Service**, a service that lets you treat physical servers l
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a>
 
+<!-- ui
+<a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a>
+ ui -->
+
+<!-- cli
+<a
+href="https://discourse.maas.io/uploads/default/original/1X/2e07a80fd7f1b8a7824e818edd1a7de0d5776aa7.jpeg" target = "_blank"><img 
+src="https://discourse.maas.io/uploads/default/original/1X/2e07a80fd7f1b8a7824e818edd1a7de0d5776aa7.jpeg">
+</a>
+ cli -->
+
 *Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre.*
 
 ---
