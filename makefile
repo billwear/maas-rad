@@ -116,17 +116,11 @@ RUI  = ~/var/www/html/maas-rad/maas-ui-only
 
 finale: $(TARGET_DEPS)
 	xpub push github
-	mkdir -p $(OVAN)/images && cp images/* $(OVAN)/images
 	mkdir -p $(RVAN)/images && cp images/* $(RVAN)/images
-	mkdir -p $(OCLI)/images && cp images/* $(OCLI)/images
 	mkdir -p $(RCLI)/images && cp images/* $(RCLI)/images
-	mkdir -p $(OUI)/images && cp images/* $(OUI)/images
 	mkdir -p $(RUI)/images && cp images/* $(RUI)/images
-	mkdir -p $(OVAN)/css && cp -r css/* $(OVAN)/css
 	mkdir -p $(RVAN)/css && cp -r css/* $(RVAN)/css
-	mkdir -p $(OCLI)/css && cp -r css/* $(OCLI)/css
 	mkdir -p $(RCLI)/css && cp -r css/* $(RCLI)/css
-	mkdir -p $(OUI)/css && cp -r css/* $(OUI)/css
 	mkdir -p $(RUI)/css && cp -r css/* $(RUI)/css
 
 
