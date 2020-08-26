@@ -1,3 +1,16 @@
+<table width="100%"><tr>
+<tr><td>Snap >>> </td>
+<td>UI/2.7</td>
+<td>UI/2.8</td>
+<td>CLI/2.7</td>
+<td>CLI/2.8</td><tr>
+<tr><td>Packages >>> </td>
+<td>UI/2.7</td>
+<td>UI/2.8</td>
+<td>CLI/2.7</td>
+<td>CLI/2.8</td><tr>
+</table>
+
 This is a guide that you can use to achieve a working MAAS environment. Once you perform a step come back here (using the menu in the left pane) to continue on to the next one.
 
 <h2 id="heading--software-installation">Software installation</h2>

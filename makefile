@@ -1,4 +1,10 @@
 TARGET_DEPS := originals/maas-documentation-25.md
+TARGET_DEPS += originals/api-authentication-742.md
+TARGET_DEPS += originals/contact-us-743.md
+TARGET_DEPS += originals/language-details-contributing-to-maas-docs-745.md
+TARGET_DEPS += originals/writing-guide-747.md
+TARGET_DEPS += originals/installing-maas-2-7-via-snap-and-ui-2171.md
+
 
 all: $(TARGET_DEPS)
 .PHONY: all
@@ -74,13 +80,37 @@ originals/writing-guide-747.md: writing-guide.md
 	# rm block-devices-749.md
 	# chmod 444 originals/*
 
+originals/installing-maas-2-7-via-snap-and-ui-2171.md: setup-checklist.md
+	chmod 644 originals/*
+	cp setup-checklist.md installing-maas-2-7-via-snap-and-cli-2173.md
+	cp setup-checklist.md installing-maas-2-7-via-snap-and-ui-2171.md
+	cp setup-checklist.md installing-maas-2-7-with-packages-ui-2175.md
+	cp setup-checklist.md installing-maas-2-7-with-packages-using-the-cli-2177.md
+	cp setup-checklist.md installing-maas-2-8-via-snap-and-cli-2174.md
+	cp setup-checklist.md installing-maas-2-8-via-snap-and-ui-2172.md
+	cp setup-checklist.md installing-maas-2-8-with-packages-ui-2176.md
+	cp setup-checklist.md installing-maas-2-8-with-packages-using-the-cli-2178.md
+	xpub push discourse -t snap-cli-2-7 installing-maas-2-7-via-snap-and-cli-2173.md
+	xpub push discourse -t snap-ui-2-7 installing-maas-2-7-via-snap-and-ui-2171.md
+	xpub push discourse -t deb-ui-2-7 installing-maas-2-7-with-packages-ui-2175.md
+	xpub push discourse -t deb-cli-2-7 installing-maas-2-7-with-packages-using-the-cli-2177.md
+	xpub push discourse -t snap-cli-2-8 installing-maas-2-8-via-snap-and-cli-2174.md
+	xpub push discourse -t snap-ui-2-8 installing-maas-2-8-via-snap-and-ui-2172.md
+	xpub push discourse -t deb-ui-2-8 installing-maas-2-8-with-packages-ui-2176.md
+	xpub push discourse -t deb-cli-2-8 installing-maas-2-8-with-packages-using-the-cli-2178.md
+	xpub pull discourse 2171 2178
+	cp -p *-217[1-8].md originals
+	rm *-217[1-8].md
+	chmod 444 originals/*
+
 pull:
 	chmod 644 originals/*.md
 	xpub pull discourse 25 25
 	xpub pull discourse 742 743
 	xpub pull discourse 745 745
 	xpub pull discourse 747 747
-	cp -p *.md originals
+	xpub pull discourse 2171 2178
+	cp -p *-[0-9]*.md originals
 	chmod 444 originals/*.md
 # 	xpub pull discourse 742 743
 # 	xpub pull discourse 745 745

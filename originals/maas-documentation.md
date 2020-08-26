@@ -43,7 +43,7 @@
 </tr></table>
  2.7 -->
 
-MAAS is **Metal As A Service**, a service that lets you treat physical servers like virtual machines -- instances -- in the cloud.  No need for you to manage servers individually: MAAS turns your bare metal into an elastic, cloud-like resource.
+MAAS is **Metal As A Service**, a service that lets you treat physical servers like virtual machines -- instances -- in the cloud.  No need to manage servers individually: MAAS turns your bare metal into an elastic, cloud-like resource.
 
 #### Quick questions you might have:
 
@@ -130,9 +130,7 @@ cli -->
 - [Requirements](/t/what-is-maas/789)
 - [Installation](https://maas.io/docs/install-from-a-snap)
 - [Configuration journey](https://maas.io/docs/configuration-journey)
-<!--
-- [Setup checklist](/t/installing-maas-2-8-via-snap-and-ui/2172)
--->
+- [Setup checklist](/t/setup-checklist/750)
 
 ### [Controllers](/t/introduction-to-controllers/786)
 
@@ -254,14 +252,7 @@ cli -->
 | https://discourse.maas.io/t/tips-tricks-and-traps/1506 | /docs/tips-tricks-and-traps |
 | https://discourse.maas.io/t/writing-guide/747/ | /docs/writing-guide |
 | https://discourse.maas.io/t/block-devices/749/ | /docs/block-devices |
-| https://discourse.maas.io/t/installing-maas-2-7-via-snap-and-ui/2171 | /docs/snap/ui/2.7 |
-| https://discourse.maas.io/t/installing-maas-2-8-via-snap-and-ui/2172 | /docs/snap/ui/2.8 |
-| https://discourse.maas.io/t/installing-maas-2-7-via-snap-and-cli/2173 | /docs/snap/cli/2.7 |
-| https://discourse.maas.io/t/installing-maas-2-8-via-snap-and-cli/2174 | /docs/snap/cli/2.8 |
-| https://discourse.maas.io/t/installing-maas-2-7-with-packages-ui/2175 | /docs/deb/ui/2.7 |
-| https://discourse.maas.io/t/installing-maas-2-8-with-packages-ui/2176 | /docs/deb/ui/2.8 |
-| https://discourse.maas.io/t/installing-maas-2-7-with-packages-using-the-cli/2177 | /docs/deb/cli/2.7 |
-| https://discourse.maas.io/t/installing-maas-2-8-with-packages-using-the-cli/2178 | /docs/deb/cli/2.8 |
+| https://discourse.maas.io/t/setup-checklist/750/ | /docs/setup-checklist |
 | https://discourse.maas.io/t/select-and-import-images/751/ | /docs/select-and-import-images |
 | https://discourse.maas.io/t/local-image-mirror/752/ | /docs/local-image-mirror |
 | https://discourse.maas.io/t/vmware-images/753/ | /docs/vmware-images |

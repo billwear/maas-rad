@@ -13,7 +13,6 @@
 </table>
  baseline DO NOT EDIT -->
 
-<!-- snap-ui-2-7
 <table width="100%"><tr>
 <tr><td>Snap >>> </td>
 <td><strong>UI/2.7</strong></td>
@@ -26,7 +25,6 @@
 <td><a href="https://discourse.maas.io/t/installing-maas-2-7-with-packages-using-the-cli/2177">CLI/2.7</a></td>
 <td><a href="https://discourse.maas.io/t/installing-maas-2-8-with-packages-using-the-cli/2178">CLI/2.8</a></td><tr>
 </table>
- snap-ui-2-7 -->
 
 <!-- snap-ui-2-8
 <table width="100%"><tr>
@@ -118,6 +116,7 @@
 </table>
  deb-cli-2-7 -->
 
+<!-- deb-cli-2-8
 <table width="100%"><tr>
 <tr><td>Snap >>> </td>
 <td><a href="https://discourse.maas.io/t/installing-maas-2-7-via-snap-and-ui/2171">UI/2.7</a></td>
@@ -130,6 +129,7 @@
 <td><a href="https://discourse.maas.io/t/installing-maas-2-7-with-packages-using-the-cli/2177">CLI/2.7</a></td>
 <td><strong>CLI/2.8</strong></td><tr>
 </table>
+ deb-cli-2-8 -->
 
 This page is an installation guide and compact tutorial for MAAS. The "shortcut" sections give you a quick, thumbnail sketch of each step, so that you don't have to follow the links, in most cases -- but the more detailed pages are linked, just in case you'd like a more thorough treatment.
 

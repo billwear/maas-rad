@@ -15,7 +15,7 @@ MAAS can be installed in either of two configurations:  test or production.  The
 * [Tell me about the shared secret](/t/maas-installation-from-a-snap/773#heading--shared-secret)
 
 [note]
-If you have installed `bind9` or have it running, you will need to uninstall it before installing MAAS.  You can check with `ps aux | grep named` to see if it's running. The `bind9` daemon interferes with MAAS operation and creates a number of unusual, hard-to-debug errors -- but don't worry, MAAS provides DNS and can work with existing DNS servers.r
+If you have installed `bind9` or have it running, you will need to uninstall it before installing MAAS.  You can check with `ps aux | grep named` to see if it's running. The `bind9` daemon interferes with MAAS operation and creates a number of unusual, hard-to-debug errors -- but don't worry, MAAS provides DNS and can work with existing DNS servers.
 [/note]
 
 <h2 id="heading--install-maas-snap">Installing MAAS from the snap</h2>

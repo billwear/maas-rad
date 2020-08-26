@@ -58,7 +58,6 @@
 </table>
  snap-cli-2-7 -->
 
-<!-- snap-cli-2-8
 <table width="100%"><tr>
 <tr><td>Snap >>> </td>
 <td><a href="https://discourse.maas.io/t/installing-maas-2-7-via-snap-and-ui/2171">UI/2.7</a></td>
@@ -71,7 +70,6 @@
 <td><a href="https://discourse.maas.io/t/installing-maas-2-7-with-packages-using-the-cli/2177">CLI/2.7</a></td>
 <td><a href="https://discourse.maas.io/t/installing-maas-2-8-with-packages-using-the-cli/2178">CLI/2.8</a></td><tr>
 </table>
- snap-cli-2-8 -->
 
 <!-- deb-ui-2-7
 <table width="100%"><tr>
@@ -118,6 +116,7 @@
 </table>
  deb-cli-2-7 -->
 
+<!-- deb-cli-2-8
 <table width="100%"><tr>
 <tr><td>Snap >>> </td>
 <td><a href="https://discourse.maas.io/t/installing-maas-2-7-via-snap-and-ui/2171">UI/2.7</a></td>
@@ -130,6 +129,7 @@
 <td><a href="https://discourse.maas.io/t/installing-maas-2-7-with-packages-using-the-cli/2177">CLI/2.7</a></td>
 <td><strong>CLI/2.8</strong></td><tr>
 </table>
+ deb-cli-2-8 -->
 
 This page is an installation guide and compact tutorial for MAAS. The "shortcut" sections give you a quick, thumbnail sketch of each step, so that you don't have to follow the links, in most cases -- but the more detailed pages are linked, just in case you'd like a more thorough treatment.
 
@@ -168,11 +168,8 @@ There are a few preliminary steps that will smooth out your MAAS usage:
 
 <h2 id="heading--installation-poc">Installing MAAS as a test/POC</h2>
 
-<!-- snap-ui-2-8 snap-cli-2-8
 MAAS can be installed in either of two configurations:  test or production.  The test configuration uses a small PostgreSQL database (in a separate snap), designed for use with MAAS. The full-up production configuration uses a separate PostgreSQL database for performance and scalability.
- snap-ui-2-8 snap-cli-2-8 -->
 
-<!-- snap-ui-2-8 snap-cli-2-8
 <h3 id="heading--installing-the-snap">Installing the MAAS snap</h3>
 
 [Snaps](https://snapcraft.io/docs) are containerised software packages. To install MAAS from a snap simply enter the following:
@@ -180,7 +177,6 @@ MAAS can be installed in either of two configurations:  test or production.  The
     $ sudo snap install maas --channel=2.8
 
 After entering your password, the snap will download and install from the 2.8 channel -- though MAAS needs initialising before it's ready to go.
- snap-ui-2-8 snap-cli-2-8 -->
 
 <h2 id="heading--install-production">Installing MAAS for production</h2>
 
