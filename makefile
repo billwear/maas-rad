@@ -4,6 +4,7 @@ TARGET_DEPS += originals/contact-us-743.md
 TARGET_DEPS += originals/language-details-contributing-to-maas-docs-745.md
 TARGET_DEPS += originals/writing-guide-747.md
 TARGET_DEPS += originals/installing-maas-2-7-via-snap-and-ui-2171.md
+TARGET_DEPS += originals/about-maas-840.md
 
 
 all: $(TARGET_DEPS)
@@ -34,7 +35,7 @@ originals/maas-documentation-25.md: maas-documentation.md
 	rm maas-documentation-v2-7-2168.md
 	chmod 444 originals/*
 
-originals/api-authentication-742.md: api-authentication-742.md
+originals/api-authentication-742.md: api-authentication.md
 	chmod 644 originals/*
 	cp api-authentication.md api-authentication-742.md
 	xpub push discourse api-authentication-742.md
@@ -70,6 +71,18 @@ originals/writing-guide-747.md: writing-guide.md
 	rm writing-guide-747.md
 	chmod 444 originals/*
 
+originals/about-maas-840.md: about-maas.md
+	chmod 644 originals/*
+	cp about-maas.md about-maas-840.md
+	cp about-maas.md about-maas-ui-2063.md
+	cp about-maas.md about-maas-cli-1993.md
+	xpub push discourse -t vanilla about-maas-840.md
+	xpub push discourse -t ui about-maas-ui-2063.md
+	xpub push discourse -t cli about-maas-cli-1993.md
+	cp -p about-maas-[0-9]*.md originals
+	rm about-maas-[0-9]*.md
+	chmod 444 originals/*
+
 # COMMENTED PENDING CONFIRMATION OF EQUIV UI METHODS OR NOT
 #originals/block-devices-749.md: writing-guide.md
 	# chmod 644 originals/*
@@ -80,24 +93,24 @@ originals/writing-guide-747.md: writing-guide.md
 	# rm block-devices-749.md
 	# chmod 444 originals/*
 
-originals/installing-maas-2-7-via-snap-and-ui-2171.md: setup-checklist.md
+originals/installing-maas-2-7-via-snap-and-ui-2171.md: enabling-maas.md
 	chmod 644 originals/*
-	cp setup-checklist.md installing-maas-2-7-via-snap-and-cli-2173.md
-	cp setup-checklist.md installing-maas-2-7-via-snap-and-ui-2171.md
-	cp setup-checklist.md installing-maas-2-7-with-packages-ui-2175.md
-	cp setup-checklist.md installing-maas-2-7-with-packages-using-the-cli-2177.md
-	cp setup-checklist.md installing-maas-2-8-via-snap-and-cli-2174.md
-	cp setup-checklist.md installing-maas-2-8-via-snap-and-ui-2172.md
-	cp setup-checklist.md installing-maas-2-8-with-packages-ui-2176.md
-	cp setup-checklist.md installing-maas-2-8-with-packages-using-the-cli-2178.md
-	xpub push discourse -t snap-cli-2-7 installing-maas-2-7-via-snap-and-cli-2173.md
-	xpub push discourse -t snap-ui-2-7 installing-maas-2-7-via-snap-and-ui-2171.md
-	xpub push discourse -t deb-ui-2-7 installing-maas-2-7-with-packages-ui-2175.md
-	xpub push discourse -t deb-cli-2-7 installing-maas-2-7-with-packages-using-the-cli-2177.md
-	xpub push discourse -t snap-cli-2-8 installing-maas-2-8-via-snap-and-cli-2174.md
-	xpub push discourse -t snap-ui-2-8 installing-maas-2-8-via-snap-and-ui-2172.md
-	xpub push discourse -t deb-ui-2-8 installing-maas-2-8-with-packages-ui-2176.md
-	xpub push discourse -t deb-cli-2-8 installing-maas-2-8-with-packages-using-the-cli-2178.md
+	cp enabling-maas.md enabling-maas-2-7-snap-via-cli-2173.md
+	cp enabling-maas.md enabling-maas-2-7-snap-via-ui-2171.md
+	cp enabling-maas.md enabling-maas-2-7-pkgs-via-ui-2175.md
+	cp enabling-maas.md enabling-maas-2-7-pkgs-via-cli-2177.md
+	cp enabling-maas.md enabling-maas-2-8-snap-via-cli-2174.md
+	cp enabling-maas.md enabling-maas-2-8-snap-via-ui-2172.md
+	cp enabling-maas.md enabling-maas-2-8-pkgs-via-ui-2176.md
+	cp enabling-maas.md enabling-maas-2-8-pkgs-via-cli-2178.md
+	xpub push discourse -t snap-cli-2-7 enabling-maas-2-7-snap-via-cli-2173.md
+	xpub push discourse -t snap-ui-2-7 enabling-maas-2-7-snap-via-ui-2171.md
+	xpub push discourse -t deb-ui-2-7 enabling-maas-2-7-pkgs-via-ui-2175.md
+	xpub push discourse -t deb-cli-2-7 enabling-maas-2-7-pkgs-via-cli-2177.md
+	xpub push discourse -t snap-cli-2-8 enabling-maas-2-8-snap-via-cli-2174.md
+	xpub push discourse -t snap-ui-2-8 enabling-maas-2-8-snap-via-ui-2172.md
+	xpub push discourse -t deb-ui-2-8 enabling-maas-2-8-pkgs-via-ui-2176.md
+	xpub push discourse -t deb-cli-2-8 enabling-maas-2-8-pkgs-via-cli-2178.md
 	xpub pull discourse 2171 2178
 	cp -p *-217[1-8].md originals
 	rm *-217[1-8].md
@@ -111,6 +124,7 @@ pull:
 	xpub pull discourse 747 747
 	xpub pull discourse 2171 2178
 	cp -p *-[0-9]*.md originals
+	rm *-[0-9]*.md
 	chmod 444 originals/*.md
 # 	xpub pull discourse 742 743
 # 	xpub pull discourse 745 745

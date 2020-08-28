@@ -1,3 +1,35 @@
+<!-- base set DO NOT EDIT
+<table width="100%"><tr>
+<td><a href="https://maas.io/docs/what-is-maas"><u>Standard</u></a></td>
+<td><a href="https://maas.io/docs/ui/what-is-maas">UI-only</a></td>
+<td><a href="https://maas.io/docs/cli/what-is-maas">CLI-only</a></td>
+</tr></table>
+ base set DO NOT EDIT -->
+
+<!-- vanilla
+<table width="100%"><tr>
+<td><strong>Standard</strong></td>
+<td><a href="https://maas.io/docs/ui/what-is-maas">UI-only</a></td>
+<td><a href="https://maas.io/docs/cli/what-is-maas">CLI-only</a></td>
+</tr></table>
+ vanilla -->
+
+<!-- ui
+<table width="100%"><tr>
+<td><a href="https://maas.io/docs/what-is-maas">Standard</a></td>
+<td><strong>UI-only<strong></td>
+<td><a href="https://maas.io/docs/cli/what-is-maas">CLI-only</a></td>
+</tr></table>
+ ui -->
+
+<!-- cli
+<table width="100%"><tr>
+<td><a href="https://maas.io/docs/what-is-maas">Standard</a></td>
+<td><a href="https://maas.io/docs/ui/what-is-maas">UI-only</a></td>
+<td><strong>CLI-only</strong></td>
+</tr></table>
+ cli -->
+
 MAAS is an open-source tool that lets you build a data centre from bare-metal servers. You can discover, commission, deploy, and dynamically reconfigure a large network of individual units.  MAAS converts your hardware investment into a cohesive, flexible, distributed data centre, with a minimum of time and effort.
 
 #### Quick questions you might have:
@@ -27,6 +59,7 @@ MAAS can manage a large number of physical machines by merging them into user-de
 
 MAAS integrates all the tools you need into a smooth system-management experience. It includes:
 
+<!-- vanilla 
 - web UI (optimised for mobile devices)
 - Ubuntu, CentOS, Windows, and RHEL installation support
 - open-source IP address management (IPAM)
@@ -45,6 +78,47 @@ These tools can be controlled from a responsive web UI or a [CLI](/t/maas-cli/80
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg"></a> 
 
+vanilla -->
+
+<!-- ui 
+- web UI (optimised for mobile devices)
+- Ubuntu, CentOS, Windows, and RHEL installation support
+- open-source IP address management (IPAM)
+- high availability (optional)
+- IPv6 support
+- inventory of components
+- DHCP and DNS for other devices on the network
+- DHCP relay integration
+- VLAN and fabric support
+- NTP for the entire infrastructure
+- hardware testing
+- composable hardware support
+
+These tools can be controlled from a responsive web UI.  You can easily (re)configure and scale your data centre with MAAS.
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg"></a> 
+
+ui -->
+
+<!-- cli 
+- Ubuntu, CentOS, Windows, and RHEL installation support
+- open-source IP address management (IPAM)
+- high availability (optional)
+- IPv6 support
+- inventory of components
+- DHCP and DNS for other devices on the network
+- DHCP relay integration
+- VLAN and fabric support
+- NTP for the entire infrastructure
+- hardware testing
+- composable hardware support
+
+These tools can be controlled from a [CLI](/t/maas-cli/802) driven by a REST API.  You can easily (re)configure and scale your data centre with MAAS.
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/3fd0019730330702d25c9bc73e1bd6ae442f4244.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/3fd0019730330702d25c9bc73e1bd6ae442f4244.jpeg"></a> 
+
+cli -->
+
 MAAS works with any system configuration tools. Both the [Chef](https://www.chef.io/chef) and [Juju](https://jaas.ai/) teams recommend MAAS as a physical provisioning system.
 
 [note]
@@ -59,7 +133,9 @@ We generally recommended installing both controllers on the same system.  The de
 
 In special cases, such as [high availability or load balancing](/t/high-availability/804), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp/759) will cause problems.
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/3ad2b128fbc034e9f575f21c0415a6e6c55baea3.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/3ad2b128fbc034e9f575f21c0415a6e6c55baea3.jpeg"></a> 
+<a href="https://discourse.maas.io/uploads/default/original/1X/40fdae53957095e5a830458dc5c7a62ea5d78c10.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/40fdae53957095e5a830458dc5c7a62ea5d78c10.jpeg"></a>
+
+*Listing generated with [jqmltag.sh](https://maas.io/docs/tips-tricks-and-traps#heading--jqmltag-sh) on our [Tips, Tricks, and Traps](https://maas.io/docs/tips-tricks-and-traps) page.
 
 <h2 id="heading--how-maas-works">How MAAS works</h2>
 

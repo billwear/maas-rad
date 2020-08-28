@@ -303,6 +303,8 @@ cli -->
 | https://discourse.maas.io/t/whats-new-in-2-6/788/ | /docs/whats-new-in-2-6 |
 | https://discourse.maas.io/t/maas-requirements/789/ | /docs/maas-requirements |
 | https://discourse.maas.io/t/what-is-maas/840/ | /docs/what-is-maas |
+| https://discourse.maas.io/t/about-maas-ui/2063/ | /docs/ui/what-is-maas |
+| https://discourse.maas.io/t/what-is-maas-cli/1993/ | /docs/cli/what-is-maas |
 | https://discourse.maas.io/t/user-accounts/790/ | /docs/user-accounts |
 | https://discourse.maas.io/t/audit-event-logs/791/ | /docs/audit-event-logs |
 | https://discourse.maas.io/t/backup/792/ | /docs/backup |
