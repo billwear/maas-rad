@@ -34,7 +34,7 @@ MAAS is an open-source tool that lets you build a data centre from bare-metal se
 
 * [What is MAAS?](#heading--what-is-maas)
 * [What does MAAS offer me?](/t/about-maas/840#heading--what-maas-offers)
-* [Can MAAS colocate key components to conserve my resources?](/t/about-maas/840#heading--colocation-of-key-components)
+* [Can MAAS colocate key components to conserve  resources?](/t/about-maas/840#heading--colocation-of-key-components)
 * [How does MAAS work?](/t/about-maas/840#heading--how-maas-works)
 
 <h2 id="heading--what-is-maas">What is MAAS?</h2>

@@ -5,6 +5,7 @@ TARGET_DEPS += originals/language-details-contributing-to-maas-docs-745.md
 TARGET_DEPS += originals/writing-guide-747.md
 TARGET_DEPS += originals/enabling-maas-2-8-snap-via-ui-2172.md
 TARGET_DEPS += originals/about-maas-840.md
+TARGET_DEPS += originals/add-machines-821.md
 
 
 all: $(TARGET_DEPS)
@@ -82,8 +83,26 @@ originals/about-maas-840.md: about-maas.md
 	xpub pull discourse 840 840
 	xpub pull discourse 2063 2063
 	xpub pull discourse 1993 1993
-	cp -p about-maas-[0-9]*.md originals
-	rm about-maas-[0-9]*.md
+	cp -p about-maas-*[0-9]*.md originals
+	rm about-maas-*[0-9]*.md
+	chmod 444 originals/*
+
+originals/add-machines-821.md: add-machines.md
+	chmod 644 originals/*
+	cp add-machines.md add-machines-821.md
+	cp add-machines.md add-machines-ui-2-7-2065.md
+	cp add-machines.md add-machines-ui-2-8-2187.md
+	cp add-machines.md add-machines-cli-1995.md
+	xpub push discourse -t vanilla add-machines-821.md
+	xpub push discourse -t 2-7-ui add-machines-ui-2-7-2065.md
+	xpub push discourse -t 2-8-ui add-machines-ui-2-8-2187.md
+	xpub push discourse -t cli add-machines-cli-1995.md
+	xpub pull discourse 821 821
+	xpub pull discourse 2065 2065
+	xpub pull discourse 2187 2187
+	xpub pull discourse 1995 1995
+	cp -p add-machines-*[0-9]*.md originals
+	rm add-machines-*[0-9]*.md
 	chmod 444 originals/*
 
 # COMMENTED PENDING CONFIRMATION OF EQUIV UI METHODS OR NOT

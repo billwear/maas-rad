@@ -1,179 +1,246 @@
 <!-- base set DO NOT EDIT
 <table width="100%"><tr>
-<td><a href="https://maas.io/docs/what-is-maas"><u>Standard</u></a></td>
-<td><a href="https://maas.io/docs/ui/what-is-maas">UI-only</a></td>
-<td><a href="https://maas.io/docs/cli/what-is-maas">CLI-only</a></td>
+<td><a href="https://maas.io/docs/add-machines"><u>Standard</u></a></td>
+<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
+<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
+<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
 </tr></table>
  base set DO NOT EDIT -->
 
 <!-- vanilla
 <table width="100%"><tr>
 <td><strong>Standard</strong></td>
-<td><a href="https://maas.io/docs/ui/what-is-maas">UI-only</a></td>
-<td><a href="https://maas.io/docs/cli/what-is-maas">CLI-only</a></td>
+<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
+<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
+<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
 </tr></table>
  vanilla -->
 
-<!-- ui
+<!-- 2-7-ui
 <table width="100%"><tr>
-<td><a href="https://maas.io/docs/what-is-maas">Standard</a></td>
-<td><strong>UI-only<strong></td>
-<td><a href="https://maas.io/docs/cli/what-is-maas">CLI-only</a></td>
+<td><a href="https://maas.io/docs/add-machines">Standard</a></td>
+<td><strong>UI/2.7</strong></td>
+<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
+<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
 </tr></table>
- ui -->
+ 2-7-ui -->
+
+<!-- 2-8-ui
+<table width="100%"><tr>
+<td><a href="https://maas.io/docs/add-machines">Standard</a></td>
+<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
+<td><strong>UI/2.8</strong></td>
+<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
+</tr></table>
+ 2-8-ui -->
 
 <table width="100%"><tr>
-<td><a href="https://maas.io/docs/what-is-maas">Standard</a></td>
-<td><a href="https://maas.io/docs/ui/what-is-maas">UI-only</a></td>
+<td><a href="https://maas.io/docs/add-machines">Standard</a></td>
+<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
+<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
 <td><strong>CLI-only</strong></td>
 </tr></table>
 
-MAAS is an open-source tool that lets you build a data centre from bare-metal servers. You can discover, commission, deploy, and dynamically reconfigure a large network of individual units.  MAAS converts your hardware investment into a cohesive, flexible, distributed data centre, with a minimum of time and effort.
+There are two ways to add a machine to MAAS:
 
-#### Quick questions you might have:
+1. If you place the machine on a connected network, and the machine is configured to netboot, MAAS will automatically enlist it.
+2. If you add a machine manually, MAAS will automatically commission it.
 
-* [What is MAAS?](#heading--what-is-maas)
-* [What does MAAS offer me?](/t/about-maas/840#heading--what-maas-offers)
-* [Can MAAS colocate key components to conserve my resources?](/t/about-maas/840#heading--colocation-of-key-components)
-* [How does MAAS work?](/t/about-maas/840#heading--how-maas-works)
+This article will explain more about both methods.
 
-<h2 id="heading--what-is-maas">What is MAAS?</h2>
+#### Quick questions you may have:
 
-MAAS expands to "Metal As A Service" -- it converts bare-metal servers into cloud instances of virtual machines. There is no need to manage individual units. You can quickly provision or destroy machines, as if they were instances hosted in a public cloud like Amazon AWS, Google GCE, or Microsoft Azure.
+<!-- vanilla 2-7-ui 2-8-ui
+* [How does enlistment work?](/t/add-machines/821#heading--enlistment)
+* [How do VM host nodes work?](/t/introduction-to-vm-hosting/1524)
+* [How do I add virtual machines?](https://discourse.maas.io/t/adding-a-vm-host/1549)
+* [How do I add a machine manually?](/t/add-machines/821#heading--add-a-node-manually)
+* [How do I add a machine via a chassis?](/t/add-machines/821#heading--add-nodes-via-a-chassis)
+vanilla 2-7-ui 2-8-ui -->
 
-MAAS can act as a standalone PXE/preseed service or integrate with other technologies. It works exceptionally well with [Juju](https://jaas.ai/docs/maas-cloud), the service and model management tool. MAAS manages the machines and Juju manages the services running on those machines -- a perfect arrangement.  Virtual machines (VMs) can even act as MAAS machines if they boot from the network via PXE.
+* [How does enlistment work?](/t/add-machines/821#heading--enlistment)
+* [How do VM host nodes work?](/t/introduction-to-vm-hosting/1524)
+* [How do I add virtual machines?](https://discourse.maas.io/t/adding-a-vm-host/1549)
+* [How do I add a machine manually?](/t/add-machines/821#heading--add-a-node-manually)
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/d19eff9ef45c554d085ee1d657e4ddd810eac6df.jpeg" target="_blank"><img width="690" src="https://discourse.maas.io/uploads/default/original/1X/d19eff9ef45c554d085ee1d657e4ddd810eac6df.jpeg"></a>
-
-<details><summary>Tell me about PXE booting</summary>
-
-PXE stands for "Preboot Execution Environment," usually pronounced "pixie."  The term refers to a way of booting an OS image (or other software assembly) downloaded to a client via a NIC.  The NIC must be PXE-capable for this to work.  Many NICs can be configured to support PXE boot with a software switch.
-
-</details>
-
-<h2 id="heading--what-maas-offers">What MAAS offers</h2>
-
-MAAS can manage a large number of physical machines by merging them into user-defined resource pools. MAAS automatically provisions participating machines and makes them available for use. You can return unused machines to the assigned pool at any time. 
-
-MAAS integrates all the tools you need into a smooth system-management experience. It includes:
-
-<!-- vanilla 
-- web UI (optimised for mobile devices)
-- Ubuntu, CentOS, Windows, and RHEL installation support
-- open-source IP address management (IPAM)
-- full API/CLI support
-- high availability (optional)
-- IPv6 support
-- inventory of components
-- DHCP and DNS for other devices on the network
-- DHCP relay integration
-- VLAN and fabric support
-- NTP for the entire infrastructure
-- hardware testing
-- composable hardware support
-
-These tools can be controlled from a responsive web UI or a [CLI](/t/maas-cli/802) driven by a REST API.  You can easily (re)configure and scale your data centre with MAAS.
-
-<a href="https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg"></a> 
-
-vanilla -->
-
-<!-- ui 
-- web UI (optimised for mobile devices)
-- Ubuntu, CentOS, Windows, and RHEL installation support
-- open-source IP address management (IPAM)
-- high availability (optional)
-- IPv6 support
-- inventory of components
-- DHCP and DNS for other devices on the network
-- DHCP relay integration
-- VLAN and fabric support
-- NTP for the entire infrastructure
-- hardware testing
-- composable hardware support
-
-These tools can be controlled from a responsive web UI.  You can easily (re)configure and scale your data centre with MAAS.
-
-<a href="https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg"></a> 
-
-ui -->
-
-- Ubuntu, CentOS, Windows, and RHEL installation support
-- open-source IP address management (IPAM)
-- high availability (optional)
-- IPv6 support
-- inventory of components
-- DHCP and DNS for other devices on the network
-- DHCP relay integration
-- VLAN and fabric support
-- NTP for the entire infrastructure
-- hardware testing
-- composable hardware support
-
-These tools can be controlled from a [CLI](/t/maas-cli/802) driven by a REST API.  You can easily (re)configure and scale your data centre with MAAS.
-
-<a href="https://discourse.maas.io/uploads/default/original/1X/40fdae53957095e5a830458dc5c7a62ea5d78c10.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/40fdae53957095e5a830458dc5c7a62ea5d78c10.jpeg"></a> 
-
-*Listing generated with [jqmltag.sh](https://maas.io/docs/tips-tricks-and-traps#heading--jqmltag-sh) on our [Tips, Tricks, and Traps](https://maas.io/docs/tips-tricks-and-traps) page.
-
-
-MAAS works with any system configuration tools. Both the [Chef](https://www.chef.io/chef) and [Juju](https://jaas.ai/) teams recommend MAAS as a physical provisioning system.
+MAAS typically adds a machine via a combination of DHCP, TFTP, and PXE. By now, you should have enabled MAAS to automatically add devices and machines to your environment. This unattended method of adding machines is called enlistment.
 
 [note]
-Please note that Windows and RHEL images require [Ubuntu Advantage](https://www.ubuntu.com/support) to work correctly with MAAS.
+Configuring a computer to boot over PXE is done via its BIOS, often referred to as "netboot" or "network boot".
 [/note]
 
-<h3 id="heading--colocation-of-key-components">Colocation of key components</h3>
+Regardless of how MAAS adds a machine, there are no special requirements for the underlying machine. In particular, there is no need to install an operating system on it.
 
-MAAS relies on two key components: the *region controller* and the *rack controller*. The region controller handles operator requests; the rack controller provides high-bandwidth services to multiple racks. In essence, rack controllers manage racks, while the region controller manages the data centre.  See [Concepts and terms](/t/concepts-and-terms/785#heading--controllers) for a deeper understanding of these components.
+Once MAAS is working to the point of adding machines, you'll probably want to understand statuses and actions. See [Node statuses](/t/concepts-and-terms/785#heading--node-statuses) and [Machine actions](/t/concepts-and-terms/785#heading--machine-actions) respectively.
 
-We generally recommended installing both controllers on the same system.  The default MAAS install delivers this colocated configuration automatically. This all-in-one solution also provides [DHCP](/t/managing-dhcp/759). 
+<h2 id="heading--enlistment">How enlistment works</h2>
 
-In special cases, such as [high availability or load balancing](/t/high-availability/804), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp/759) will cause problems.
+When MAAS enlists a machine, it first contacts the DHCP server, so that the machine can be assigned an IP address.  An IP address is necessary to download a kernel and initrd via TFTP, since these functions can't accept domain names.  Once the machine has a bootable kernel, MAAS boots it:
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/3ad2b128fbc034e9f575f21c0415a6e6c55baea3.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/3ad2b128fbc034e9f575f21c0415a6e6c55baea3.jpeg"></a>
+<a href="https://discourse.maas.io/uploads/default/original/1X/76f7113545e6950fec60bdeac06cfaf79b14b3ff.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/76f7113545e6950fec60bdeac06cfaf79b14b3ff.jpeg"></a> 
 
-<h2 id="heading--how-maas-works">How MAAS works</h2>
+Next, initrd mounts a Squashfs image, ephemerally via HTTP, so that cloud-init can execute:
 
-When you [add a new machine](/t/add-machines/821#heading--add-a-node-manually) to MAAS, or elect to add a machine that MAAS has [enlisted](/t/add-machines/821#heading--enlistment), MAAS [commissions](/t/commission-machines/822) it for service and adds it to the pool.  At that point, the machine is ready for use. MAAS keeps things simple, marking machines as "New," "Commissioning," "Ready," and so on.
+<a href="https://discourse.maas.io/uploads/default/original/1X/500f9bd2d070790a4007085705035366bee88a4a.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/500f9bd2d070790a4007085705035366bee88a4a.jpeg"></a> 
 
-<details><summary>Tell me, quickly, about enlistment and commissioning.</summary>
+Finally, cloud-init runs enlistment and setup scripts:
 
-There are two ways to add a machine to MAAS.  Assuming it's on the network and capable of PXE-booting, you can add it explicitly -- or MAAS can simply discover it when you turn it on.
+<a href="https://discourse.maas.io/uploads/default/original/1X/bd87f78c8ee668a22640bf15607c9e3e532d46bb.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/bd87f78c8ee668a22640bf15607c9e3e532d46bb.jpeg"></a> 
 
-Enlistment just means that MAAS discovers a machine when you turn it on, and presents it to the MAAS administrator, so that they can choose whether or not to commission it.  Machines that have only been enlisted will show up in the machine list as "New."
+The enlistment scripts send information about the machine to the region API server, including the architecture, MAC address and other details.  The API server, in turn, stores these details in the database. This information-gathering process is known as [automatic discovery or network discovery](/t/network-discovery/758).
 
-Commissioning means that MAAS has successfully booted the machine, scanned and recorded its resources, and prepared it for eventual deployment.  Machines that you explicitly add are automatically commissioned.  MAAS marks a successfully-commissioned machine as "Ready" in the machine list.
+After the enlistment process, MAAS places the machine in the 'Ready' state.  'Ready' is a holding state for machines that are enlisted (or commissioned), waiting to be deployed when needed.
 
-</details>
+Typically, the next step will be to [commission the machine](/t/commission-machines/822). As an alternative to enlistment, an administrator can add a machine manually (see [below](#heading--add-a-node-manually)). Typically this is done when enlistment doesn't work for some reason. Note that when you manually add a machine, MAAS automatically commissions the machine as soon as you've added it.
 
-<!-- vanilla
-<a href="https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg"></a>
- vanilla -->
-
-<!-- ui
-<a href="https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg"></a>
- ui -->
-
-<a href="https://discourse.maas.io/uploads/default/original/1X/6aec9b567022216d80596411e689a14e1f594674.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/6aec9b567022216d80596411e689a14e1f594674.jpeg"></a>
-
-MAAS controls machines through IPMI (or another BMC). It can also manage machines through a converged chassis controller, such as Cisco UCS.  You can choose how you want to control power on your machines based on what is available.  MAAS overwrites the machine's disk space with your chosen, pre-cached OS images.
-
-[note type="negative" status="Warning"]
-*The above comment about disk space bears repeating: MAAS will overwrite the disk space of all machines it enlists. All pool machines are under the control of MAAS; you should provision them using other methods.*
+[note]
+MAAS runs built-in commissioning scripts during the enlistment phase. When you commission a machine, any customised commissioning scripts you add will have access to data collected during enlistment. Follow the link above for more information about commissioning and commission scripts.
 [/note]
 
-MAAS users allocate ("acquire") machines for use when needed. The web UI also allows you to acquire machines manually, such as when you are reserving specific hardware for certain users. You can remotely access and customise the installed operating system via SSH.
+<h2 id="heading--add-a-node-manually">Add a machine manually</h2>
 
-<!-- vanilla ui
-<a href="https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg"></a>
- vanilla ui -->
+Enlistment can be done manually if the hardware specifications of the underlying machine are known.
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/ac3b251a916bb18a7e7e463d7fa3c57ef32628da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/ac3b251a916bb18a7e7e463d7fa3c57ef32628da.jpeg"></a>
+<!-- 2-7-ui
+On the 'Machines' page of the web UI, click the 'Add hardware' button and then select 'Machine'.
 
-When acquiring machines from the API/CLI, you can specify requirements ("constraints"). Common constraints are memory, CPU cores, connected networks, and assigned physical zone.
+Fill in the form and hit 'Save machine'. In this example, you are adding an IPMI machine:
 
-An acquired MAAS machine is more flexible than a virtual instance in a cloud. You have complete control, including hardware drivers and root access. If you want to upgrade the BIOS, for example, you can allocate a machine to yourself and complete the upgrade.  Once you have completed the upgrade, you can send the machine back to the pool.
+<a href="https://assets.ubuntu.com/v1/20aa36b2-nodes-add__2.5_add-node-manually.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/20aa36b2-nodes-add__2.5_add-node-manually.png"></a>
 
-Note that [Juju](https://jaas.ai/docs/maas-cloud) is designed to work with MAAS. MAAS becomes a backend Juju resource pool with all functionality fully available. For instance, if Juju removes a machine, then MAAS will release that machine to the pool.  With Juju, MAAS can become an integral part of your data centre strategy and operations.
-<!-- zork-out -->
+The fields on the "Add machine" screen are as follows:
+
+* **Machine name**: This field is used to identify the machine to the user.  It can be set to anything, though it is often set to the MAC address of the machine in question.  This field is optional, in that MAAS will assign a unique, nonsense name if you leave it blank.  You can change this nonsense name later, if desired.
+
+* **Domain**: This field sets the domain name of the domain managed by MAAS.  It can be set to anything; MAAS assigns the domain name "maas" by default.
+
+* **Architecture**: This field refers to the architecture of the machine being added.
+
+* **Minimum Kernal**: This field supplies a dropdown of possible kernels available for deployment on this machine.
+
+* **Zone**: This field allows you to set the availability zone, selected from AZs that you have already created (if any).
+
+* **Resource pool**: This field allows you to set the resource pool for this machine, selected from pools you have already created (if any).
+
+* **MAC Address**: You should fill in this field with the MAC address of the machine you are adding.  Note that the MAC address entered here must use a colon (":") separator, although some MAC addresses are written with dash ("-") separators.
+
+* **Power type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/830) for details on the availabile power types and the relevant parameters for each type.
+2-7-ui -->
+
+<!-- 2-8-ui vanilla
+On the 'Machines' page of the web UI, click the 'Add hardware' button and then select 'Machine'.
+
+Fill in the form and hit 'Save machine'. In this example, you are adding an IPMI machine:
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/faebe2fb37cd73252eaf9521ed1bcf31fb0e76f6.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/faebe2fb37cd73252eaf9521ed1bcf31fb0e76f6.jpeg"></a>
+
+The fields on the "Add machine" screen are as follows:
+
+* **Machine name**: This field is used to identify the machine to the user.  It can be set to anything, though it is often set to the MAC address of the machine in question.  This field is optional, in that MAAS will assign a unique, nonsense name if you leave it blank.  You can change this nonsense name later, if desired.
+
+* **Domain**: This field sets the domain name of the domain managed by MAAS.  It can be set to anything; MAAS assigns the domain name "maas" by default.
+
+* **Architecture**: This field refers to the architecture of the machine being added.
+
+* **Minimum Kernal**: This field supplies a dropdown of possible kernels available for deployment on this machine.
+
+* **Zone**: This field allows you to set the availability zone, selected from AZs that you have already created (if any).
+
+* **Resource pool**: This field allows you to set the resource pool for this machine, selected from pools you have already created (if any).
+
+* **MAC Address**: You should fill in this field with the MAC address of the machine you are adding.  Note that the MAC address entered here must use a colon (":") separator, although some MAC addresses are written with dash ("-") separators.
+
+* **Power type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/830) for details on the availabile power types and the relevant parameters for each type.
+2-8-ui vanilla -->
+
+At the command line, enter the following information:
+
+<code>
+stormrider@wintermute:~$ maas admin machines create \
+> architecture=$ARCH \
+> max_addresses=$MAC_ADDRESS \
+> power_type=$POWER_TYPE \
+> power_parameters_power_id=$POWER_ID \
+> power_parameters_power_address=$POWER_ADDRESS \
+> power_parameters_power_pass=$POWER_PASSWORD
+</code>
+
+When you enter the command (substituting the `$...` parameters for your own particulars), the screen will pause for a moment, and then return a stream of JSON relating to the added machine.
+
+Here's an example with a local laptop MAAS install, using KVMs as virtual machines:
+
+stormrider@wintermute:~$ maas admin machines create \
+> architecture=amd64 \
+> max_addresses=52:54:00:6f:b4:af \
+> power_type=virsh \
+> power_parameters_power_id=50f6cca2-5d89-43b9-941c-90c9fcd7c156 \
+> power_parameters_power_address=qemu+ssh://stormrider@192.168.123.1/system \
+> power_parameters_power_pass=xxxxxxx
+
+The variable fields in the `machines create` command (the `$...` items) are as follows, in this example: 
+> architecture=$ARCH \
+> max_addresses=$MAC_ADDRESS \
+> power_type=$POWER_TYPE \
+> power_parameters_power_id=$POWER_ID \
+> power_parameters_power_address=$POWER_ADDRESS \
+> power_parameters_power_pass=$POWER_PASSWORD
+
+* `$ARCH`: This field refers to the architecture of the machine being added, `amd64` in the local laptop example.
+
+* `$MAC_ADDRESS`: This is the MAC address of the boot-enabled NIC for the machine being added.  Note that the MAC address entered here must use a colon (":") separator, although some MAC addresses are written with dash ("-") separators.
+
+* `$POWER_ID`: This is generally the UUID of the machine being added.
+
+* `$POWER_ADDRESS/$POWER_PASSWORD`: In the case of a KVM, these are the only parameters that need to be entered.  See [Power types](https://maas.io/docs/api#power-types) in the API reference for details on the availabile power types and the relevant parameters for each type.
+
+Normally, when you add a machine manually, MAAS will immediately attempt to commission the machine. Note that you will need to configure the underlying machine to boot over the network, or commissioning will fail. MAAS cannot handle this configuration for you.  While the correct method for configuring network boot depends heavily on your server, there are a couple of common elements:
+
+* The network card on your server must be able to support PXE, i.e., your NIC -- whether independent or integrated on a motherboard -- must have a boot PROM that supports network booting.  You'll need to consult the documentation for the machine in question to determine this.
+
+* You usually have to interrupt the boot process and enter the BIOS/UEFI menu to configure the network cards's PXE stack.  Again, you may need to consult your machine's documentation to pin down this step.
+
+Additional steps will vary widely by machine type and architecture.
+
+<h3 id="heading--bmc-enlistment">BMC enlistment</h3>
+
+[note status="2.4"]
+Note that in MAAS versions before 2.5, you are required to provide the MAC address of the PXE interface when adding a new machine manually.
+[/note]
+
+##### IPMI machines
+
+For IPMI machines, you only need to provide IPMI credentials. MAAS automatically discovers the machine and runs enlistment configuration by matching the BMC address.
+
+##### Non-IPMI machines
+
+For non-IPMI machines, you must specify a non-PXE MAC address. MAAS automatically discovers the machine and runs enlistment configuration by matching the non-PXE MAC address.
+
+<!-- 2-7-ui
+<h2 id="heading--add-nodes-via-a-chassis">Add a machine via a chassis</h2>
+
+Use the chassis feature to add multiple machines at once. To do this, instead of selecting 'Machine' as above, choose 'Chassis' from the drop-down menu. In the following example, MAAS will add all available VMs from the given  virsh address:
+
+<a href="https://assets.ubuntu.com/v1/d5314a8a-nodes-add__2.4_add-node-chassis.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/d5314a8a-nodes-add__2.4_add-node-chassis.png"></a>
+
+The required fields will change based on the type of chassis you choose.
+
+[note]
+As with the manual method, the underlying machines will require netbooting.
+[/note]
+
+2-7-ui -->
+
+<!-- vanilla 2-8-ui
+<h2 id="heading--add-nodes-via-a-chassis">Add a machine via a chassis</h2>
+
+Use the chassis feature to add multiple machines at once. To do this, instead of selecting 'Machine' as above, choose 'Chassis' from the drop-down menu. In the following example, MAAS will add all available VMs from the given  virsh address:
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/e7f88bce68318cf3c6a8e97b4d31d0b6980e0f32.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/e7f88bce68318cf3c6a8e97b4d31d0b6980e0f32.jpeg"></a>
+
+The required fields will change based on the type of chassis you choose.
+
+[note]
+As with the manual method, the underlying machines will require netbooting.
+[/note]
+
+ vanilla 2-8-ui -->

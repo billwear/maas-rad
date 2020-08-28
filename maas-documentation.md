@@ -333,7 +333,10 @@ cli -->
 | https://discourse.maas.io/t/interactive-search/819/ | /docs/interactive-search |
 | https://discourse.maas.io/t/availability-zones/820/ | /docs/availability-zones |
 | https://discourse.maas.io/t/documentation-index/839/ | /docs/documentation-index |
-| https://discourse.maas.io/t/add-nodes/821/ | /docs/add-nodes |
+| https://discourse.maas.io/t/add-machines/821/ | /docs/add-machines |
+| https://discourse.maas.io/t/add-machines-cli/1995/ | /docs/cli/add-machines |
+| https://discourse.maas.io/t/add-machines-ui-2-7/2065/ | /docs/ui/2.7/add-machines |
+| https://discourse.maas.io/t/add-machines-ui-2-8/2187/ | /docs/ui/2.8/add-machines |
 | https://discourse.maas.io/t/commission-nodes/822/ | /docs/commission-nodes |
 | https://discourse.maas.io/t/custom-node-setup-preseed/824/ | /docs/custom-node-setup-preseed |
 | https://discourse.maas.io/t/deploy-nodes/825/ | /docs/deploy-nodes |
@@ -463,7 +466,8 @@ cli -->
 | /docs/manage-search | /docs/interactive-search |
 | /docs/manage-zones | /docs/availability-zones |
 | /docs/metadata.y | /docs/documentation-index |
-| /docs/nodes-add | /docs/add-nodes |
+| /docs/nodes-add | /docs/add-machines |
+| /docs/add-nodes | /docs/add-machines |
 | /docs/nodes-commission | /docs/commission-nodes |
 | /docs/nodes-comp-hw | /docs/intro-to-vm-hosting |
 | /docs/nodes-custom | /docs/custom-node-setup-preseed |

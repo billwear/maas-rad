@@ -1,3 +1,48 @@
+<!-- base set DO NOT EDIT
+<table width="100%"><tr>
+<td><a href="https://maas.io/docs/add-machines"><u>Standard</u></a></td>
+<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
+<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
+<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
+</tr></table>
+ base set DO NOT EDIT -->
+
+<!-- vanilla
+<table width="100%"><tr>
+<td><strong>Standard</strong></td>
+<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
+<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
+<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
+</tr></table>
+ vanilla -->
+
+<!-- 2-7-ui
+<table width="100%"><tr>
+<td><a href="https://maas.io/docs/add-machines">Standard</a></td>
+<td><strong>UI/2.7</strong></td>
+<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
+<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
+</tr></table>
+ 2-7-ui -->
+
+<!-- 2-8-ui
+<table width="100%"><tr>
+<td><a href="https://maas.io/docs/add-machines">Standard</a></td>
+<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
+<td><strong>UI/2.8</strong></td>
+<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
+</tr></table>
+ 2-8-ui -->
+
+<!-- cli
+<table width="100%"><tr>
+<td><a href="https://maas.io/docs/add-machines">Standard</a></td>
+<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
+<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
+<td><strong>CLI-only</strong></td>
+</tr></table>
+ cli -->
+
 There are two ways to add a machine to MAAS:
 
 1. If you place the machine on a connected network, and the machine is configured to netboot, MAAS will automatically enlist it.
@@ -7,11 +52,20 @@ This article will explain more about both methods.
 
 #### Quick questions you may have:
 
+<!-- vanilla 2-7-ui 2-8-ui
 * [How does enlistment work?](/t/add-machines/821#heading--enlistment)
 * [How do VM host nodes work?](/t/introduction-to-vm-hosting/1524)
 * [How do I add virtual machines?](https://discourse.maas.io/t/adding-a-vm-host/1549)
 * [How do I add a machine manually?](/t/add-machines/821#heading--add-a-node-manually)
 * [How do I add a machine via a chassis?](/t/add-machines/821#heading--add-nodes-via-a-chassis)
+vanilla 2-7-ui 2-8-ui -->
+
+<!-- cli
+* [How does enlistment work?](/t/add-machines/821#heading--enlistment)
+* [How do VM host nodes work?](/t/introduction-to-vm-hosting/1524)
+* [How do I add virtual machines?](https://discourse.maas.io/t/adding-a-vm-host/1549)
+* [How do I add a machine manually?](/t/add-machines/821#heading--add-a-node-manually)
+cli -->
 
 MAAS typically adds a machine via a combination of DHCP, TFTP, and PXE. By now, you should have enabled MAAS to automatically add devices and machines to your environment. This unattended method of adding machines is called enlistment.
 
@@ -41,7 +95,7 @@ The enlistment scripts send information about the machine to the region API serv
 
 After the enlistment process, MAAS places the machine in the 'Ready' state.  'Ready' is a holding state for machines that are enlisted (or commissioned), waiting to be deployed when needed.
 
-Typically, the next step will be to [commission the machine](/t/commission-machines/822). N As an alternative to enlistment, an administrator can add a machine manually (see [below](#heading--add-a-node-manually)). Typically this is done when enlistment doesn't work for some reason. Note that when you manually add a machine, MAAS automatically commissions the machine as soon as you've added it.
+Typically, the next step will be to [commission the machine](/t/commission-machines/822). As an alternative to enlistment, an administrator can add a machine manually (see [below](#heading--add-a-node-manually)). Typically this is done when enlistment doesn't work for some reason. Note that when you manually add a machine, MAAS automatically commissions the machine as soon as you've added it.
 
 [note]
 MAAS runs built-in commissioning scripts during the enlistment phase. When you commission a machine, any customised commissioning scripts you add will have access to data collected during enlistment. Follow the link above for more information about commissioning and commission scripts.
@@ -49,7 +103,10 @@ MAAS runs built-in commissioning scripts during the enlistment phase. When you c
 
 <h2 id="heading--add-a-node-manually">Add a machine manually</h2>
 
-Enlistment can be done manually if the hardware specifications of the underlying machine are known. On the 'Machines' page of the web UI, click the 'Add hardware' button and then select 'Machine'.
+Enlistment can be done manually if the hardware specifications of the underlying machine are known.
+
+<!-- 2-7-ui
+On the 'Machines' page of the web UI, click the 'Add hardware' button and then select 'Machine'.
 
 Fill in the form and hit 'Save machine'. In this example, you are adding an IPMI machine:
 
@@ -69,9 +126,78 @@ The fields on the "Add machine" screen are as follows:
 
 * **Resource pool**: This field allows you to set the resource pool for this machine, selected from pools you have already created (if any).
 
-* **MAC Address**: You should fill in this field with the MAC address of the machine you are adding.  Note that the MAC address entered here must use a colon (:) separator, although some MAC addresses are written with dash (-) separators.
+* **MAC Address**: You should fill in this field with the MAC address of the machine you are adding.  Note that the MAC address entered here must use a colon (":") separator, although some MAC addresses are written with dash ("-") separators.
 
 * **Power type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/830) for details on the availabile power types and the relevant parameters for each type.
+2-7-ui -->
+
+<!-- 2-8-ui vanilla
+On the 'Machines' page of the web UI, click the 'Add hardware' button and then select 'Machine'.
+
+Fill in the form and hit 'Save machine'. In this example, you are adding an IPMI machine:
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/faebe2fb37cd73252eaf9521ed1bcf31fb0e76f6.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/faebe2fb37cd73252eaf9521ed1bcf31fb0e76f6.jpeg"></a>
+
+The fields on the "Add machine" screen are as follows:
+
+* **Machine name**: This field is used to identify the machine to the user.  It can be set to anything, though it is often set to the MAC address of the machine in question.  This field is optional, in that MAAS will assign a unique, nonsense name if you leave it blank.  You can change this nonsense name later, if desired.
+
+* **Domain**: This field sets the domain name of the domain managed by MAAS.  It can be set to anything; MAAS assigns the domain name "maas" by default.
+
+* **Architecture**: This field refers to the architecture of the machine being added.
+
+* **Minimum Kernal**: This field supplies a dropdown of possible kernels available for deployment on this machine.
+
+* **Zone**: This field allows you to set the availability zone, selected from AZs that you have already created (if any).
+
+* **Resource pool**: This field allows you to set the resource pool for this machine, selected from pools you have already created (if any).
+
+* **MAC Address**: You should fill in this field with the MAC address of the machine you are adding.  Note that the MAC address entered here must use a colon (":") separator, although some MAC addresses are written with dash ("-") separators.
+
+* **Power type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/830) for details on the availabile power types and the relevant parameters for each type.
+2-8-ui vanilla -->
+
+<!-- cli
+At the command line, enter the following information:
+
+<code>
+stormrider@wintermute:~$ maas admin machines create \
+> architecture=$ARCH \
+> max_addresses=$MAC_ADDRESS \
+> power_type=$POWER_TYPE \
+> power_parameters_power_id=$POWER_ID \
+> power_parameters_power_address=$POWER_ADDRESS \
+> power_parameters_power_pass=$POWER_PASSWORD
+</code>
+
+When you enter the command (substituting the `$...` parameters for your own particulars), the screen will pause for a moment, and then return a stream of JSON relating to the added machine.
+
+Here's an example with a local laptop MAAS install, using KVMs as virtual machines:
+
+stormrider@wintermute:~$ maas admin machines create \
+> architecture=amd64 \
+> max_addresses=52:54:00:6f:b4:af \
+> power_type=virsh \
+> power_parameters_power_id=50f6cca2-5d89-43b9-941c-90c9fcd7c156 \
+> power_parameters_power_address=qemu+ssh://stormrider@192.168.123.1/system \
+> power_parameters_power_pass=xxxxxxx
+
+The variable fields in the `machines create` command (the `$...` items) are as follows, in this example: 
+> architecture=$ARCH \
+> max_addresses=$MAC_ADDRESS \
+> power_type=$POWER_TYPE \
+> power_parameters_power_id=$POWER_ID \
+> power_parameters_power_address=$POWER_ADDRESS \
+> power_parameters_power_pass=$POWER_PASSWORD
+
+* `$ARCH`: This field refers to the architecture of the machine being added, `amd64` in the local laptop example.
+
+* `$MAC_ADDRESS`: This is the MAC address of the boot-enabled NIC for the machine being added.  Note that the MAC address entered here must use a colon (":") separator, although some MAC addresses are written with dash ("-") separators.
+
+* `$POWER_ID`: This is generally the UUID of the machine being added.
+
+* `$POWER_ADDRESS/$POWER_PASSWORD`: In the case of a KVM, these are the only parameters that need to be entered.  See [Power types](https://maas.io/docs/api#power-types) in the API reference for details on the availabile power types and the relevant parameters for each type.
+cli -->
 
 Normally, when you add a machine manually, MAAS will immediately attempt to commission the machine. Note that you will need to configure the underlying machine to boot over the network, or commissioning will fail. MAAS cannot handle this configuration for you.  While the correct method for configuring network boot depends heavily on your server, there are a couple of common elements:
 
@@ -95,6 +221,7 @@ For IPMI machines, you only need to provide IPMI credentials. MAAS automatically
 
 For non-IPMI machines, you must specify a non-PXE MAC address. MAAS automatically discovers the machine and runs enlistment configuration by matching the non-PXE MAC address.
 
+<!-- 2-7-ui
 <h2 id="heading--add-nodes-via-a-chassis">Add a machine via a chassis</h2>
 
 Use the chassis feature to add multiple machines at once. To do this, instead of selecting 'Machine' as above, choose 'Chassis' from the drop-down menu. In the following example, MAAS will add all available VMs from the given  virsh address:
@@ -106,3 +233,20 @@ The required fields will change based on the type of chassis you choose.
 [note]
 As with the manual method, the underlying machines will require netbooting.
 [/note]
+
+2-7-ui -->
+
+<!-- vanilla 2-8-ui
+<h2 id="heading--add-nodes-via-a-chassis">Add a machine via a chassis</h2>
+
+Use the chassis feature to add multiple machines at once. To do this, instead of selecting 'Machine' as above, choose 'Chassis' from the drop-down menu. In the following example, MAAS will add all available VMs from the given  virsh address:
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/e7f88bce68318cf3c6a8e97b4d31d0b6980e0f32.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/e7f88bce68318cf3c6a8e97b4d31d0b6980e0f32.jpeg"></a>
+
+The required fields will change based on the type of chassis you choose.
+
+[note]
+As with the manual method, the underlying machines will require netbooting.
+[/note]
+
+ vanilla 2-8-ui -->

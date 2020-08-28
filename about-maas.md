@@ -36,7 +36,7 @@ MAAS is an open-source tool that lets you build a data centre from bare-metal se
 
 * [What is MAAS?](#heading--what-is-maas)
 * [What does MAAS offer me?](/t/about-maas/840#heading--what-maas-offers)
-* [Can MAAS colocate key components to conserve my resources?](/t/about-maas/840#heading--colocation-of-key-components)
+* [Can MAAS colocate key components to conserve  resources?](/t/about-maas/840#heading--colocation-of-key-components)
 * [How does MAAS work?](/t/about-maas/840#heading--how-maas-works)
 
 <h2 id="heading--what-is-maas">What is MAAS?</h2>
@@ -181,7 +181,7 @@ cli -->
 
 <!-- vanilla cli
 When acquiring machines from the API/CLI, you can specify requirements ("constraints"). Common constraints are memory, CPU cores, connected networks, and assigned physical zone.
-vanilla cli -->
+vanilla cli  -->
 
 An acquired MAAS machine is more flexible than a virtual instance in a cloud. You have complete control, including hardware drivers and root access. If you want to upgrade the BIOS, for example, you can allocate a machine to yourself and complete the upgrade.  Once you have completed the upgrade, you can send the machine back to the pool.
 
