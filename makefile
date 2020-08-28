@@ -1,146 +1,163 @@
-TARGET_DEPS := maas-documentation-25.html
-TARGET_DEPS += api-authentication-742.html
-TARGET_DEPS += contact-us-743.html
-TARGET_DEPS += language-details-contributing-to-maas-docs-745.html
-TARGET_DEPS += writing-guide-747.html
-TARGET_DEPS += block-devices-749.html
-TARGET_DEPS += installation-and-configuration-checklist-750.html
-TARGET_DEPS += select-and-import-images-751.html
-TARGET_DEPS += local-image-mirror-752.html
-TARGET_DEPS += vmware-images-753.html
-TARGET_DEPS += images-754.html
-TARGET_DEPS += install-with-lxd-757.html
-TARGET_DEPS += network-discovery-758.html
-TARGET_DEPS += managing-dhcp-759.html
-TARGET_DEPS += ip-ranges-760.html
-TARGET_DEPS += ipv6-addressing-761.html
-TARGET_DEPS += ntp-services-762.html
-TARGET_DEPS += proxy-763.html
-TARGET_DEPS += configuring-tls-encryption-764.html
-TARGET_DEPS += managing-stp-765.html
-TARGET_DEPS += subnet-management-766.html
-TARGET_DEPS += networking-768.html
-TARGET_DEPS += partitions-770.html
-TARGET_DEPS += rack-controllers-771.html
-TARGET_DEPS += region-controllers-772.html
-TARGET_DEPS += maas-installation-from-a-snap-773.html
-TARGET_DEPS += disk-erasure-774.html
-TARGET_DEPS += storage-775.html
-TARGET_DEPS += upgrade-2-3-to-2-4-from-ubuntu-16-04-777.html
-TARGET_DEPS += upgrade-from-1-9-to-2-x-778.html
-TARGET_DEPS += upgrading-maas-779.html
-TARGET_DEPS += vmware-vmfs-datastores-780.html
-TARGET_DEPS += configuration-journey-781.html
-TARGET_DEPS += maas-communication-783.html
-TARGET_DEPS += zone-examples-784.html
-TARGET_DEPS += concepts-and-terms-785.html
-TARGET_DEPS += introduction-to-controllers-786.html
-TARGET_DEPS += explore-maas-787.html
-TARGET_DEPS += whats-new-in-2-6-788.html
-TARGET_DEPS += maas-requirements-789.html
-TARGET_DEPS += user-accounts-790.html
-TARGET_DEPS += audit-event-logs-791.html
-TARGET_DEPS += backup-792.html
-TARGET_DEPS += cli-advanced-tasks-793.html
-TARGET_DEPS += common-cli-tasks-794.html
-TARGET_DEPS += cli-composable-hardware-795.html
-TARGET_DEPS += cli-dhcp-snippet-management-796.html
-TARGET_DEPS += cli-image-management-797.html
-TARGET_DEPS += cli-interface-management-798.html
-TARGET_DEPS += cli-kernel-management-799.html
-TARGET_DEPS += cli-resource-pool-management-800.html
-TARGET_DEPS += cli-tag-management-801.html
-TARGET_DEPS += maas-cli-802.html
-TARGET_DEPS += postgresql-ha-hot-standby-803.html
-TARGET_DEPS += high-availability-804.html
-TARGET_DEPS += creating-and-deleting-vms-806.html
-TARGET_DEPS += python-api-client-810.html
-TARGET_DEPS += prometheus-metrics-813.html
-TARGET_DEPS += package-repositories-814.html
-TARGET_DEPS += interactive-search-819.html
-TARGET_DEPS += availability-zones-820.html
-TARGET_DEPS += add-machines-821.html
-TARGET_DEPS += commission-machines-822.html
-TARGET_DEPS += custom-machine-setup-824.html
-TARGET_DEPS += deploy-machines-825.html
-TARGET_DEPS += hardware-testing-826.html
-TARGET_DEPS += kernel-boot-options-827.html
-TARGET_DEPS += ubuntu-kernels-828.html
-TARGET_DEPS += introduction-to-machines-829.html
-TARGET_DEPS += power-management-830.html
-TARGET_DEPS += resource-pools-831.html
-TARGET_DEPS += cli-commissioning-and-hardware-testing-scripts-832.html
-TARGET_DEPS += commissioning-and-hardware-testing-scripts-833.html
-TARGET_DEPS += maas-tags-834.html
-TARGET_DEPS += historical-release-notes-835.html
-TARGET_DEPS += maas-2-6-release-notes-836.html
-TARGET_DEPS += troubleshooting-837.html
-TARGET_DEPS += getting-help-838.html
-TARGET_DEPS += about-maas-840.html
-TARGET_DEPS += maas-image-builder-1112.html
-TARGET_DEPS += network-testing-1267.html
-TARGET_DEPS += whats-new-in-maas-2-6-1305.html
-TARGET_DEPS += whats-new-in-maas-2-7-1306.html
-TARGET_DEPS += give-me-an-example-of-maas-1314.html
-TARGET_DEPS += hardening-your-maas-installation-1381.html
-TARGET_DEPS += maas-logging-1468.html
-TARGET_DEPS += commissioning-logs-1478.html
-TARGET_DEPS += tips-tricks-and-traps-1506.html
-TARGET_DEPS += introduction-to-vm-hosting-1524.html
-TARGET_DEPS += vm-host-storage-pools-1525.html
-TARGET_DEPS += vm-host-networking-1526.html
-TARGET_DEPS += adding-a-vm-host-1549.html
-TARGET_DEPS += creating-a-custom-ubuntu-image-1652.html
-TARGET_DEPS += whats-new-in-maas-2-8-1655.html
+TARGET_DEPS := originals/maas-documentation-25.md
+TARGET_DEPS += originals/api-authentication-742.md
+TARGET_DEPS += originals/contact-us-743.md
+TARGET_DEPS += originals/language-details-contributing-to-maas-docs-745.md
+TARGET_DEPS += originals/writing-guide-747.md
+TARGET_DEPS += originals/enabling-maas-2-8-snap-via-ui-2172.md
+TARGET_DEPS += originals/about-maas-840.md
 
-OVAN = /var/www/html/maas-offline/maas-vanilla
-OCLI = /var/www/html/maas-offline/maas-cli-only
-OUI  = /var/www/html/maas-offline/maas-ui-only
-RVAN = /var/www/html/maas-rad/maas-vanilla
-RCLI = /var/www/html/maas-rad/maas-cli-only
-RUI  = /var/www/html/maas-rad/maas-ui-only
 
-%.html: %.md
-# vanilla version
-	cp templates/offline-vanilla-template.html ./template.html
-	sed -i 's/zork/$@/g' ./template.html
-	xpub convert dc2html -t vanilla $<
-	mkdir -p $(OVAN) && cp $@ $(OVAN)
-	cp templates/rad-vanilla-template.html ./template.html
-	sed -i 's/zork/$@/g' ./template.html
-	xpub convert dc2html -t vanilla $<
-	mkdir -p $(RVAN) && cp $@ $(RVAN)
-# ui-only version
-	cp templates/offline-ui-only-template.html ./template.html
-	sed -i 's/zork/$@/g' ./template.html
-	xpub convert dc2html -t ui $<
-	mkdir -p $(OUI) && cp $@ $(OUI)	
-	cp templates/rad-ui-only-template.html ./template.html
-	sed -i 's/zork/$@/g' ./template.html
-	xpub convert dc2html -t ui $<
-	mkdir -p $(RUI) && cp $@ $(RUI)	
-# cli-only version
-	cp templates/offline-cli-only-template.html ./template.html
-	sed -i 's/zork/$@/g' ./template.html
-	xpub convert dc2html -t cli $<
-	mkdir -p $(OCLI) && cp $@ $(OCLI)	
-	cp templates/rad-cli-only-template.html ./template.html
-	sed -i 's/zork/$@/g' ./template.html
-	xpub convert dc2html -t cli $<
-	mkdir -p $(RCLI) && cp $@ $(RCLI)	
+all: $(TARGET_DEPS)
+.PHONY: all
 
-finale: $(TARGET_DEPS)
-	xpub push github
-	mkdir -p $(OVAN)/images && cp images/* $(OVAN)/images
-	mkdir -p $(RVAN)/images && cp images/* $(RVAN)/images
-	mkdir -p $(OCLI)/images && cp images/* $(OCLI)/images
-	mkdir -p $(RCLI)/images && cp images/* $(RCLI)/images
-	mkdir -p $(OUI)/images && cp images/* $(OUI)/images
-	mkdir -p $(RUI)/images && cp images/* $(RUI)/images
-	mkdir -p $(OVAN)/css && cp -r css/* $(OVAN)/css
-	mkdir -p $(RVAN)/css && cp -r css/* $(RVAN)/css
-	mkdir -p $(OCLI)/css && cp -r css/* $(OCLI)/css
-	mkdir -p $(RCLI)/css && cp -r css/* $(RCLI)/css
-	mkdir -p $(OUI)/css && cp -r css/* $(OUI)/css
-	mkdir -p $(RUI)/css && cp -r css/* $(RUI)/css
+originals/maas-documentation-25.md: maas-documentation.md
+	chmod 644 originals/*
+	cp maas-documentation.md maas-documentation-25.md
+	cp maas-documentation.md maas-documentation-cli-2030.md
+	cp maas-documentation.md maas-documentation-ui-2100.md
+	cp maas-documentation.md maas-documentation-v2-7-2168.md
+	./clean-navigation.sh
+	xpub push discourse -t vanilla maas-documentation-25.md
+	xpub push discourse -t cli maas-documentation-cli-2030.md
+	xpub push discourse -t ui maas-documentation-ui-2100.md
+	xpub push discourse -t 2.7 maas-documentation-v2-7-2168.md
+	xpub pull discourse 25 25
+	xpub pull discourse 2100 2100
+	xpub pull discourse 2030 2030
+	xpub pull discourse 2168 2168
+	cp -p maas-documentation-25.md originals
+	cp -p maas-documentation-ui-2100.md originals
+	cp -p maas-documentation-cli-2030.md originals
+	cp -p maas-documentation-v2-7-2168.md originals
+	rm maas-documentation-25.md
+	rm maas-documentation-ui-2100.md
+	rm maas-documentation-cli-2030.md
+	rm maas-documentation-v2-7-2168.md
+	chmod 444 originals/*
 
+originals/api-authentication-742.md: api-authentication.md
+	chmod 644 originals/*
+	cp api-authentication.md api-authentication-742.md
+	xpub push discourse api-authentication-742.md
+	xpub pull discourse 742 742
+	cp -p api-authentication-742.md originals
+	rm api-authentication-742.md
+	chmod 444 originals/*
+
+originals/contact-us-743.md: contact-us.md
+	chmod 644 originals/*
+	cp contact-us.md contact-us-743.md
+	xpub push discourse contact-us-743.md
+	xpub pull discourse 743 743
+	cp -p contact-us-743.md originals
+	rm contact-us-743.md
+	chmod 444 originals/*
+
+originals/language-details-contributing-to-maas-docs-745.md: lang-det-contrib-to-maas-docs.md
+	chmod 644 originals/*
+	cp lang-det-contrib-to-maas-docs.md language-details-contributing-to-maas-docs-745.md
+	xpub push discourse language-details-contributing-to-maas-docs-745.md
+	xpub pull discourse 745 745
+	cp -p language-details-contributing-to-maas-docs-745.md originals
+	rm language-details-contributing-to-maas-docs-745.md
+	chmod 444 originals/*
+
+originals/writing-guide-747.md: writing-guide.md
+	chmod 644 originals/*
+	cp writing-guide.md writing-guide-747.md
+	xpub push discourse writing-guide-747.md
+	xpub pull discourse 747 747
+	cp -p writing-guide-747.md originals
+	rm writing-guide-747.md
+	chmod 444 originals/*
+
+originals/about-maas-840.md: about-maas.md
+	chmod 644 originals/*
+	cp about-maas.md about-maas-840.md
+	cp about-maas.md about-maas-ui-2063.md
+	cp about-maas.md about-maas-cli-1993.md
+	xpub push discourse -t vanilla about-maas-840.md
+	xpub push discourse -t ui about-maas-ui-2063.md
+	xpub push discourse -t cli about-maas-cli-1993.md
+	xpub pull discourse 840 840
+	xpub pull discourse 2063 2063
+	xpub pull discourse 1993 1993
+	cp -p about-maas-[0-9]*.md originals
+	rm about-maas-[0-9]*.md
+	chmod 444 originals/*
+
+# COMMENTED PENDING CONFIRMATION OF EQUIV UI METHODS OR NOT
+#originals/block-devices-749.md: writing-guide.md
+	# chmod 644 originals/*
+	# cp block-devices.md block-devices-749.md
+	# xpub push discourse block-devices-749.md
+	# xpub pull discourse 749 749
+	# cp -p block-devices-749.md originals
+	# rm block-devices-749.md
+	# chmod 444 originals/*
+
+originals/enabling-maas-2-8-snap-via-ui-2172.md: enabling-maas.md
+	chmod 644 originals/*
+	cp enabling-maas.md enabling-maas-2-7-snap-via-cli-2173.md
+	cp enabling-maas.md enabling-maas-2-7-snap-via-ui-2171.md
+	cp enabling-maas.md enabling-maas-2-7-pkgs-via-ui-2175.md
+	cp enabling-maas.md enabling-maas-2-7-pkgs-via-cli-2177.md
+	cp enabling-maas.md enabling-maas-2-8-snap-via-cli-2174.md
+	cp enabling-maas.md enabling-maas-2-8-snap-via-ui-2172.md
+	cp enabling-maas.md enabling-maas-2-8-pkgs-via-ui-2176.md
+	cp enabling-maas.md enabling-maas-2-8-pkgs-via-cli-2178.md
+	xpub push discourse -t snap-cli-2-7 enabling-maas-2-7-snap-via-cli-2173.md
+	xpub push discourse -t snap-ui-2-7 enabling-maas-2-7-snap-via-ui-2171.md
+	xpub push discourse -t deb-ui-2-7 enabling-maas-2-7-pkgs-via-ui-2175.md
+	xpub push discourse -t deb-cli-2-7 enabling-maas-2-7-pkgs-via-cli-2177.md
+	xpub push discourse -t snap-cli-2-8 enabling-maas-2-8-snap-via-cli-2174.md
+	xpub push discourse -t snap-ui-2-8 enabling-maas-2-8-snap-via-ui-2172.md
+	xpub push discourse -t deb-ui-2-8 enabling-maas-2-8-pkgs-via-ui-2176.md
+	xpub push discourse -t deb-cli-2-8 enabling-maas-2-8-pkgs-via-cli-2178.md
+	xpub pull discourse 2171 2178
+	cp -p *-217[1-8].md originals
+	rm *-217[1-8].md
+	chmod 444 originals/*
+
+pull:
+	chmod 644 originals/*.md
+	xpub pull discourse 25 25
+	xpub pull discourse 742 743
+	xpub pull discourse 745 745
+	xpub pull discourse 747 747
+	xpub pull discourse 2171 2178
+	cp -p *-[0-9]*.md originals
+	rm *-[0-9]*.md
+	chmod 444 originals/*.md
+# 	xpub pull discourse 742 743
+# 	xpub pull discourse 745 745
+# 	xpub pull discourse 747 747
+# 	xpub pull discourse 749 754
+# 	xpub pull discourse 756 766
+# 	xpub pull discourse 768 768
+# 	xpub pull discourse 770 775
+# 	xpub pull discourse 777 781
+# 	xpub pull discourse 783 804
+# 	xpub pull discourse 806 806
+# 	xpub pull discourse 810 810
+# 	xpub pull discourse 813 814
+# 	xpub pull discourse 819 822
+# 	xpub pull discourse 824 838
+# 	xpub pull discourse 840 840
+# 	xpub pull discourse 1112 1112
+# 	xpub pull discourse 1267 1267
+# 	xpub pull discourse 1305 1306
+# 	xpub pull discourse 1308 1308
+# 	xpub pull discourse 1314 1314
+# 	xpub pull discourse 1381 1381
+# 	xpub pull discourse 1468 1468
+# 	xpub pull discourse 1478 1478
+# 	xpub pull discourse 1506 1506
+# 	xpub pull discourse 1524 1526
+# 	xpub pull discourse 1549 1549
+# 	xpub pull discourse 1652 1652
+# 	xpub pull discourse 1655 1655
+# 	xpub pull discourse 1753 1753
+# 	xpub pull discourse 1992 2156
+# 	cp -p *.md originals
+# 	chmod 444 originals/*.md
