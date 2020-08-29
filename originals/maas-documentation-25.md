@@ -1,43 +1,43 @@
 <!-- base set DO NOT EDIT
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs"><u>Standard</u></a></td>
-<td><a href="https://maas.io/docs/ui-docs">UI-only</a></td>
-<td><a href="https://maas.io/docs/cli-docs">CLI-only</a></td>
-<td><a href="https://maas.io/docs/v2-7-docs">v2.7</a></td>
+<td><a href="https://maas.io/docs/ui">UI-only</a></td>
+<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
+<td><a href="https://maas.io/docs/2.7">2.7</a></td>
 </tr></table>
  base set DO NOT EDIT -->
 
 <table width="100%"><tr>
 <td><strong>Standard</strong></td>
-<td><a href="https://maas.io/docs/ui-docs">UI-only</a></td>
-<td><a href="https://maas.io/docs/cli-docs">CLI-only</a></td>
-<td><a href="https://maas.io/docs/v2-7-docs">v2.7</a></td>
+<td><a href="https://maas.io/docs/ui">UI-only</a></td>
+<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
+<td><a href="https://maas.io/docs/2.7">2.7</a></td>
 </tr></table>
 
 <!-- ui
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs">Standard</a></td>
 <td><strong>UI-only<strong></td>
-<td><a href="https://maas.io/docs/cli-docs">CLI-only</a></td>
-<td><a href="https://maas.io/docs/v2-7-docs">v2.7</a></td>
+<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
+<td><a href="https://maas.io/docs/2.7">2.7</a></td>
 </tr></table>
  ui -->
 
 <!-- cli
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs">Standard</a></td>
-<td><a href="https://maas.io/docs/ui-docs">UI-only</a></td>
+<td><a href="https://maas.io/docs/ui">UI-only</a></td>
 <td><strong>CLI-only</strong></td>
-<td><a href="https://maas.io/docs/v2-7-docs">v2.7</a></td>
+<td><a href="https://maas.io/docs/2.7">2.7</a></td>
 </tr></table>
  cli -->
 
 <!-- 2.7
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs"><u>Standard</u></a></td>
-<td><a href="https://maas.io/docs/ui-docs">UI-only</a></td>
-<td><a href="https://maas.io/docs/cli-docs">CLI-only</a></td>
-<td><strong>v2.7</strong></td>
+<td><a href="https://maas.io/docs/ui">UI-only</a></td>
+<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
+<td><strong>2.7</strong></td>
 </tr></table>
  2.7 -->
 
@@ -240,22 +240,22 @@ cli -->
 | https://discourse.maas.io/t/non-snap-maas-installs/1308 | /docs/non-snap-maas-installs |
 | https://discourse.maas.io/t/concepts-and-terms/785#heading--network-tutorial | /docs/network-tutorial |
 | https://discourse.maas.io/t/maas-documentation/25/ | /docs |
-| https://discourse.maas.io/t/maas-documentation-cli/2030/ | /docs/cli-docs |
-| https://discourse.maas.io/t/maas-documentation-ui/2100/ | /docs/ui-docs |
-| https://discourse.maas.io/t/maas-documentation-v2-7/2168 | /docs/v2-7-docs |
+| https://discourse.maas.io/t/maas-documentation-cli/2030/ | /docs/cli |
+| https://discourse.maas.io/t/maas-documentation-ui/2100/ | /docs/ui |
+| https://discourse.maas.io/t/maas-documentation-2-7/2168 | /docs/2.7 |
 | https://discourse.maas.io/t/api-authentication/742/ | /docs/api-authentication |
 | https://discourse.maas.io/t/contact-us/743/ | /docs/contact-us |
 | https://discourse.maas.io/t/tips-tricks-and-traps/1506 | /docs/tips-tricks-and-traps |
 | https://discourse.maas.io/t/writing-guide/747/ | /docs/writing-guide |
 | https://discourse.maas.io/t/block-devices/749/ | /docs/block-devices |
-| https://discourse.maas.io/t/installing-maas-2-7-via-snap-and-ui/2171 | /docs/snap/ui/2.7 |
-| https://discourse.maas.io/t/installing-maas-2-8-via-snap-and-ui/2172 | /docs/snap/ui/2.8 |
-| https://discourse.maas.io/t/installing-maas-2-7-via-snap-and-cli/2173 | /docs/snap/cli/2.7 |
-| https://discourse.maas.io/t/installing-maas-2-8-via-snap-and-cli/2174 | /docs/snap/cli/2.8 |
-| https://discourse.maas.io/t/installing-maas-2-7-with-packages-ui/2175 | /docs/deb/ui/2.7 |
-| https://discourse.maas.io/t/installing-maas-2-8-with-packages-ui/2176 | /docs/deb/ui/2.8 |
-| https://discourse.maas.io/t/installing-maas-2-7-with-packages-using-the-cli/2177 | /docs/deb/cli/2.7 |
-| https://discourse.maas.io/t/installing-maas-2-8-with-packages-using-the-cli/2178 | /docs/deb/cli/2.8 |
+| https://discourse.maas.io/t/installing-maas-2-7-via-snap-and-ui/2171 | /docs/2.7/snap/ui |
+| https://discourse.maas.io/t/installing-maas-2-8-via-snap-and-ui/2172 | /docs/2.8/snap/ui |
+| https://discourse.maas.io/t/installing-maas-2-7-via-snap-and-cli/2173 | /docs/2.7/snap/cli |
+| https://discourse.maas.io/t/installing-maas-2-8-via-snap-and-cli/2174 | /docs/2.8/snap/cli |
+| https://discourse.maas.io/t/installing-maas-2-7-with-packages-ui/2175 | /docs/2.7/deb/ui |
+| https://discourse.maas.io/t/installing-maas-2-8-with-packages-ui/2176 | /docs/2.8/deb/ui |
+| https://discourse.maas.io/t/installing-maas-2-7-with-packages-using-the-cli/2177 | /docs/2.7/deb/cli |
+| https://discourse.maas.io/t/installing-maas-2-8-with-packages-using-the-cli/2178 | /docs/2.8/deb/cli |
 | https://discourse.maas.io/t/select-and-import-images/751/ | /docs/select-and-import-images |
 | https://discourse.maas.io/t/local-image-mirror/752/ | /docs/local-image-mirror |
 | https://discourse.maas.io/t/vmware-images/753/ | /docs/vmware-images |
@@ -327,7 +327,10 @@ cli -->
 | https://discourse.maas.io/t/interactive-search/819/ | /docs/interactive-search |
 | https://discourse.maas.io/t/availability-zones/820/ | /docs/availability-zones |
 | https://discourse.maas.io/t/documentation-index/839/ | /docs/documentation-index |
-| https://discourse.maas.io/t/add-nodes/821/ | /docs/add-nodes |
+| https://discourse.maas.io/t/add-machines/821/ | /docs/add-machines |
+| https://discourse.maas.io/t/add-machines-cli/1995/ | /docs/cli/add-machines |
+| https://discourse.maas.io/t/add-machines-2-7-ui/2065/ | /docs/2.7/ui/add-machines |
+| https://discourse.maas.io/t/add-machines-2-8-ui/2187/ | /docs/2.8/ui/add-machines |
 | https://discourse.maas.io/t/commission-nodes/822/ | /docs/commission-nodes |
 | https://discourse.maas.io/t/custom-node-setup-preseed/824/ | /docs/custom-node-setup-preseed |
 | https://discourse.maas.io/t/deploy-nodes/825/ | /docs/deploy-nodes |
@@ -457,7 +460,8 @@ cli -->
 | /docs/manage-search | /docs/interactive-search |
 | /docs/manage-zones | /docs/availability-zones |
 | /docs/metadata.y | /docs/documentation-index |
-| /docs/nodes-add | /docs/add-nodes |
+| /docs/nodes-add | /docs/add-machines |
+| /docs/add-nodes | /docs/add-machines |
 | /docs/nodes-commission | /docs/commission-nodes |
 | /docs/nodes-comp-hw | /docs/intro-to-vm-hosting |
 | /docs/nodes-custom | /docs/custom-node-setup-preseed |

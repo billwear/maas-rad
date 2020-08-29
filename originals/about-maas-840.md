@@ -6,13 +6,11 @@
 </tr></table>
  base set DO NOT EDIT -->
 
-<!-- vanilla
 <table width="100%"><tr>
 <td><strong>Standard</strong></td>
 <td><a href="https://maas.io/docs/ui/what-is-maas">UI-only</a></td>
 <td><a href="https://maas.io/docs/cli/what-is-maas">CLI-only</a></td>
 </tr></table>
- vanilla -->
 
 <!-- ui
 <table width="100%"><tr>
@@ -36,7 +34,7 @@ MAAS is an open-source tool that lets you build a data centre from bare-metal se
 
 * [What is MAAS?](#heading--what-is-maas)
 * [What does MAAS offer me?](/t/about-maas/840#heading--what-maas-offers)
-* [Can MAAS colocate key components to conserve my resources?](/t/about-maas/840#heading--colocation-of-key-components)
+* [Can MAAS colocate key components to conserve  resources?](/t/about-maas/840#heading--colocation-of-key-components)
 * [How does MAAS work?](/t/about-maas/840#heading--how-maas-works)
 
 <h2 id="heading--what-is-maas">What is MAAS?</h2>
@@ -59,7 +57,6 @@ MAAS can manage a large number of physical machines by merging them into user-de
 
 MAAS integrates all the tools you need into a smooth system-management experience. It includes:
 
-<!-- vanilla 
 - web UI (optimised for mobile devices)
 - Ubuntu, CentOS, Windows, and RHEL installation support
 - open-source IP address management (IPAM)
@@ -78,7 +75,6 @@ These tools can be controlled from a responsive web UI or a [CLI](/t/maas-cli/80
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg"></a> 
 
-vanilla -->
 
 <!-- ui 
 - web UI (optimised for mobile devices)
@@ -115,7 +111,9 @@ ui -->
 
 These tools can be controlled from a [CLI](/t/maas-cli/802) driven by a REST API.  You can easily (re)configure and scale your data centre with MAAS.
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/3fd0019730330702d25c9bc73e1bd6ae442f4244.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/3fd0019730330702d25c9bc73e1bd6ae442f4244.jpeg"></a> 
+<a href="https://discourse.maas.io/uploads/default/original/1X/40fdae53957095e5a830458dc5c7a62ea5d78c10.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/40fdae53957095e5a830458dc5c7a62ea5d78c10.jpeg"></a> 
+
+*Listing generated with [jqmltag.sh](https://maas.io/docs/tips-tricks-and-traps#heading--jqmltag-sh) on our [Tips, Tricks, and Traps](https://maas.io/docs/tips-tricks-and-traps) page.
 
 cli -->
 
@@ -133,9 +131,7 @@ We generally recommended installing both controllers on the same system.  The de
 
 In special cases, such as [high availability or load balancing](/t/high-availability/804), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp/759) will cause problems.
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/40fdae53957095e5a830458dc5c7a62ea5d78c10.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/40fdae53957095e5a830458dc5c7a62ea5d78c10.jpeg"></a>
-
-*Listing generated with [jqmltag.sh](https://maas.io/docs/tips-tricks-and-traps#heading--jqmltag-sh) on our [Tips, Tricks, and Traps](https://maas.io/docs/tips-tricks-and-traps) page.
+<a href="https://discourse.maas.io/uploads/default/original/1X/3ad2b128fbc034e9f575f21c0415a6e6c55baea3.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/3ad2b128fbc034e9f575f21c0415a6e6c55baea3.jpeg"></a>
 
 <h2 id="heading--how-maas-works">How MAAS works</h2>
 
@@ -151,7 +147,15 @@ Commissioning means that MAAS has successfully booted the machine, scanned and r
 
 </details>
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg"></a> 
+<a href="https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg"></a>
+
+<!-- ui
+<a href="https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg"></a>
+ ui -->
+
+<!-- cli
+<a href="https://discourse.maas.io/uploads/default/original/1X/6aec9b567022216d80596411e689a14e1f594674.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/6aec9b567022216d80596411e689a14e1f594674.jpeg"></a>
+cli -->
 
 MAAS controls machines through IPMI (or another BMC). It can also manage machines through a converged chassis controller, such as Cisco UCS.  You can choose how you want to control power on your machines based on what is available.  MAAS overwrites the machine's disk space with your chosen, pre-cached OS images.
 
@@ -161,7 +165,11 @@ MAAS controls machines through IPMI (or another BMC). It can also manage machine
 
 MAAS users allocate ("acquire") machines for use when needed. The web UI also allows you to acquire machines manually, such as when you are reserving specific hardware for certain users. You can remotely access and customise the installed operating system via SSH.
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg"></a> 
+<a href="https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg"></a>
+
+<!-- cli
+<a href="https://discourse.maas.io/uploads/default/original/1X/ac3b251a916bb18a7e7e463d7fa3c57ef32628da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/ac3b251a916bb18a7e7e463d7fa3c57ef32628da.jpeg"></a>
+cli -->
 
 When acquiring machines from the API/CLI, you can specify requirements ("constraints"). Common constraints are memory, CPU cores, connected networks, and assigned physical zone.
 

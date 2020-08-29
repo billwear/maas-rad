@@ -1,18 +1,18 @@
 <!-- base set DO NOT EDIT
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs"><u>Standard</u></a></td>
-<td><a href="https://maas.io/docs/ui-docs">UI-only</a></td>
-<td><a href="https://maas.io/docs/cli-docs">CLI-only</a></td>
-<td><a href="https://maas.io/docs/v2-7-docs">v2.7</a></td>
+<td><a href="https://maas.io/docs/ui">UI-only</a></td>
+<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
+<td><a href="https://maas.io/docs/2.7">2.7</a></td>
 </tr></table>
  base set DO NOT EDIT -->
 
 <!-- vanilla
 <table width="100%"><tr>
 <td><strong>Standard</strong></td>
-<td><a href="https://maas.io/docs/ui-docs">UI-only</a></td>
-<td><a href="https://maas.io/docs/cli-docs">CLI-only</a></td>
-<td><a href="https://maas.io/docs/v2-7-docs">v2.7</a></td>
+<td><a href="https://maas.io/docs/ui">UI-only</a></td>
+<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
+<td><a href="https://maas.io/docs/2.7">2.7</a></td>
 </tr></table>
  vanilla -->
 
@@ -20,26 +20,28 @@
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs">Standard</a></td>
 <td><strong>UI-only<strong></td>
-<td><a href="https://maas.io/docs/cli-docs">CLI-only</a></td>
-<td><a href="https://maas.io/docs/v2-7-docs">v2.7</a></td>
+<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
+<td><a href="https://maas.io/docs/2.7">2.7</a></td>
 </tr></table>
  ui -->
 
 <!-- cli
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs">Standard</a></td>
-<td><a href="https://maas.io/docs/ui-docs">UI-only</a></td>
+<td><a href="https://maas.io/docs/ui">UI-only</a></td>
 <td><strong>CLI-only</strong></td>
-<td><a href="https://maas.io/docs/v2-7-docs">v2.7</a></td>
+<td><a href="https://maas.io/docs/2.7">2.7</a></td>
 </tr></table>
  cli -->
 
+<!-- 2.7
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs"><u>Standard</u></a></td>
-<td><a href="https://maas.io/docs/ui-docs">UI-only</a></td>
-<td><a href="https://maas.io/docs/cli-docs">CLI-only</a></td>
-<td><strong>v2.7</strong></td>
+<td><a href="https://maas.io/docs/ui">UI-only</a></td>
+<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
+<td><strong>2.7</strong></td>
 </tr></table>
+ 2.7 -->
 
 MAAS is **Metal As A Service**, a service that lets you treat physical servers like virtual machines -- instances -- in the cloud.  No need for you to manage servers individually: MAAS turns your bare metal into an elastic, cloud-like resource.
 
@@ -70,9 +72,11 @@ vanilla -->
 *Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre, generated with the [jq-machine-list](/t/tips-tricks-and-traps/1506#heading--jq-machine-list) recipe on our Tips, Tricks and Traps page.*
  cli -->
 
+<!-- 2.7
 <a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a>
 
 *Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre.*
+2.7 -->
 
 ---
 
@@ -90,7 +94,9 @@ ui -->
 - [What's new in 2.8](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
 cli -->
 
+<!-- 2.7
 - [What's new in 2.7](https://discourse.maas.io/t/whats-new-in-maas-2-7/1306)
+2.7 -->
 
 ---
 
@@ -108,3 +114,4 @@ cli -->
 - [Guide to contributing](/t/writing-guide/747)
 - [Push some code (external link)](https://launchpad.net/maas)
 - [File an issue (external link)](https://bugs.launchpad.net/maas/+filebug)
+
