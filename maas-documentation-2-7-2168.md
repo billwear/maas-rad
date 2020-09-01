@@ -25,21 +25,21 @@
 </tr></table>
  ui -->
 
+<!-- cli
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs">Standard</a></td>
 <td><a href="https://maas.io/docs/ui">UI-only</a></td>
 <td><strong>CLI-only</strong></td>
 <td><a href="https://maas.io/docs/2.7">2.7</a></td>
 </tr></table>
+ cli -->
 
-<!-- 2.7
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs"><u>Standard</u></a></td>
 <td><a href="https://maas.io/docs/ui">UI-only</a></td>
 <td><a href="https://maas.io/docs/cli">CLI-only</a></td>
 <td><strong>2.7</strong></td>
 </tr></table>
- 2.7 -->
 
 MAAS is **Metal As A Service**, a service that lets you treat physical servers like virtual machines -- instances -- in the cloud.  No need for you to manage servers individually: MAAS turns your bare metal into an elastic, cloud-like resource.
 
@@ -63,16 +63,16 @@ vanilla -->
 *Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre.*
  ui -->
 
+<!-- cli
 <a href="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg">
 </a>
 
 *Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre, generated with the [lsmm](/t/the-cli-cookbook/2218#heading--basic-machine-list) recipe in our [CLI cookbook](/t/the-cli-cookbook/2218).*
+ cli -->
 
-<!-- 2.7
 <a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a>
 
 *Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre.*
-2.7 -->
 
 ---
 
@@ -86,11 +86,11 @@ vanilla -->
 - [What's new in 2.8](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
 ui -->
 
+<!-- cli
 - [What's new in 2.8](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
+cli -->
 
-<!-- 2.7
 - [What's new in 2.7](https://discourse.maas.io/t/whats-new-in-maas-2-7/1306)
-2.7 -->
 
 ---
 

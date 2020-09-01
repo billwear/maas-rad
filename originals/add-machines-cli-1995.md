@@ -1,8 +1,8 @@
 <!-- base set DO NOT EDIT
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs/add-machines"><u>Standard</u></a></td>
-<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
-<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
+<td><a href="https://maas.io/docs/2.7/uiadd-machines">2.7/UI</a></td>
+<td><a href="https://maas.io/docs/2.8/ui/add-machines">2.8/UI</a></td>
 <td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
 </tr></table>
  base set DO NOT EDIT -->
@@ -10,8 +10,8 @@
 <!-- vanilla
 <table width="100%"><tr>
 <td><strong>Standard</strong></td>
-<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
-<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
+<td><a href="https://maas.io/docs/2.7/ui/add-machines">2.7/UI</a></td>
+<td><a href="https://maas.io/docs/2.8/ui/add-machines">2.8/UI</a></td>
 <td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
 </tr></table>
  vanilla -->
@@ -19,8 +19,8 @@
 <!-- 2-7-ui
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs/add-machines">Standard</a></td>
-<td><strong>UI/2.7</strong></td>
-<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
+<td><strong>2.7/UI</strong></td>
+<td><a href="https://maas.io/docs/2.8/ui/add-machines">2.8/UI</a></td>
 <td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
 </tr></table>
  2-7-ui -->
@@ -28,16 +28,16 @@
 <!-- 2-8-ui
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs/add-machines">Standard</a></td>
-<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
-<td><strong>UI/2.8</strong></td>
+<td><a href="https://maas.io/docs/2.7/ui/add-machines">2.7/UI</a></td>
+<td><strong>2.8/UI</strong></td>
 <td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
 </tr></table>
  2-8-ui -->
 
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs/add-machines">Standard</a></td>
-<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
-<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
+<td><a href="https://maas.io/docs/2.7/ui/add-machines">2.7/UI</a></td>
+<td><a href="https://maas.io/docs/2.8/ui/add-machines">2.8/UI</a></td>
 <td><strong>CLI-only</strong></td>
 </tr></table>
 

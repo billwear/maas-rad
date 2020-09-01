@@ -1,18 +1,18 @@
 <!-- base set DO NOT EDIT
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs"><u>Standard</u></a></td>
-<td><a href="https://maas.io/docs/ui-docs">UI-only</a></td>
-<td><a href="https://maas.io/docs/cli-docs">CLI-only</a></td>
-<td><a href="https://maas.io/docs/v2-7-docs">v2.7</a></td>
+<td><a href="https://maas.io/docs/ui">UI-only</a></td>
+<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
+<td><a href="https://maas.io/docs/2.7">2.7</a></td>
 </tr></table>
  base set DO NOT EDIT -->
 
 <!-- vanilla
 <table width="100%"><tr>
 <td><strong>Standard</strong></td>
-<td><a href="https://maas.io/docs/ui-docs">UI-only</a></td>
-<td><a href="https://maas.io/docs/cli-docs">CLI-only</a></td>
-<td><a href="https://maas.io/docs/v2-7-docs">v2.7</a></td>
+<td><a href="https://maas.io/docs/ui">UI-only</a></td>
+<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
+<td><a href="https://maas.io/docs/2.7">2.7</a></td>
 </tr></table>
  vanilla -->
 
@@ -20,26 +20,26 @@
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs">Standard</a></td>
 <td><strong>UI-only<strong></td>
-<td><a href="https://maas.io/docs/cli-docs">CLI-only</a></td>
-<td><a href="https://maas.io/docs/v2-7-docs">v2.7</a></td>
+<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
+<td><a href="https://maas.io/docs/2.7">2.7</a></td>
 </tr></table>
  ui -->
 
 <!-- cli
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs">Standard</a></td>
-<td><a href="https://maas.io/docs/ui-docs">UI-only</a></td>
+<td><a href="https://maas.io/docs/ui">UI-only</a></td>
 <td><strong>CLI-only</strong></td>
-<td><a href="https://maas.io/docs/v2-7-docs">v2.7</a></td>
+<td><a href="https://maas.io/docs/2.7">2.7</a></td>
 </tr></table>
  cli -->
 
 <!-- 2.7
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs"><u>Standard</u></a></td>
-<td><a href="https://maas.io/docs/ui-docs">UI-only</a></td>
-<td><a href="https://maas.io/docs/cli-docs">CLI-only</a></td>
-<td><strong>v2.7</strong></td>
+<td><a href="https://maas.io/docs/ui">UI-only</a></td>
+<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
+<td><strong>2.7</strong></td>
 </tr></table>
  2.7 -->
 
@@ -69,7 +69,7 @@ vanilla -->
 <a href="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg">
 </a>
 
-*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre, generated with the [jq-machine-list](/t/tips-tricks-and-traps/1506#heading--jq-machine-list) recipe on our Tips, Tricks and Traps page.*
+*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre, generated with the [lsmm](/t/the-cli-cookbook/2218#heading--basic-machine-list) recipe in our [CLI cookbook](/t/the-cli-cookbook/2218).*
  cli -->
 
 <!-- 2.7
@@ -201,6 +201,7 @@ cli -->
 
 ### [CLI](/t/maas-cli/802)
 
+- [The CLI cookbook](/t/the-cli-cookbook/2218/)
 - [Common tasks](/t/common-cli-tasks/794)
 - [Audit event logs](/t/audit-event-logs/791)
 - [Kernel management](/t/cli-kernel-management/799)
@@ -240,28 +241,30 @@ cli -->
 | TOPIC | PATH |
 | -- | -- |
 | https://discourse.maas.io/t/adding-a-vm-host/1549 | /docs/add-a-vm-host |
+| https://discourse.maas.io/t/adding-a-vm-host-ui/2064 | /docs/ui/add-a-vm-host |
+| https://discourse.maas.io/t/adding-a-vm-host-cli/1994 | /docs/cli/add-a-vm-host |
 | https://discourse.maas.io/t/vm-host-storage-pools/1525 | /docs/vm-host-storage-pools |
 | https://discourse.maas.io/t/vm-host-networking/1526 | /docs/vm-host-networking |
 | https://discourse.maas.io/t/give-me-an-example-of-maas/1314 | /docs/maas-example-config |
 | https://discourse.maas.io/t/non-snap-maas-installs/1308 | /docs/non-snap-maas-installs |
 | https://discourse.maas.io/t/concepts-and-terms/785#heading--network-tutorial | /docs/network-tutorial |
 | https://discourse.maas.io/t/maas-documentation/25/ | /docs |
-| https://discourse.maas.io/t/maas-documentation-cli/2030/ | /docs/cli-docs |
-| https://discourse.maas.io/t/maas-documentation-ui/2100/ | /docs/ui-docs |
-| https://discourse.maas.io/t/maas-documentation-v2-7/2168 | /docs/v2-7-docs |
+| https://discourse.maas.io/t/maas-documentation-cli/2030/ | /docs/cli |
+| https://discourse.maas.io/t/maas-documentation-ui/2100/ | /docs/ui |
+| https://discourse.maas.io/t/maas-documentation-2-7/2168 | /docs/2.7 |
 | https://discourse.maas.io/t/api-authentication/742/ | /docs/api-authentication |
 | https://discourse.maas.io/t/contact-us/743/ | /docs/contact-us |
 | https://discourse.maas.io/t/tips-tricks-and-traps/1506 | /docs/tips-tricks-and-traps |
 | https://discourse.maas.io/t/writing-guide/747/ | /docs/writing-guide |
 | https://discourse.maas.io/t/block-devices/749/ | /docs/block-devices |
-| https://discourse.maas.io/t/installing-maas-2-7-via-snap-and-ui/2171 | /docs/snap/ui/2.7 |
-| https://discourse.maas.io/t/installing-maas-2-8-via-snap-and-ui/2172 | /docs/snap/ui/2.8 |
-| https://discourse.maas.io/t/installing-maas-2-7-via-snap-and-cli/2173 | /docs/snap/cli/2.7 |
-| https://discourse.maas.io/t/installing-maas-2-8-via-snap-and-cli/2174 | /docs/snap/cli/2.8 |
-| https://discourse.maas.io/t/installing-maas-2-7-with-packages-ui/2175 | /docs/deb/ui/2.7 |
-| https://discourse.maas.io/t/installing-maas-2-8-with-packages-ui/2176 | /docs/deb/ui/2.8 |
-| https://discourse.maas.io/t/installing-maas-2-7-with-packages-using-the-cli/2177 | /docs/deb/cli/2.7 |
-| https://discourse.maas.io/t/installing-maas-2-8-with-packages-using-the-cli/2178 | /docs/deb/cli/2.8 |
+| https://discourse.maas.io/t/installing-maas-2-7-via-snap-and-ui/2171 | /docs/2.7/snap/ui |
+| https://discourse.maas.io/t/installing-maas-2-8-via-snap-and-ui/2172 | /docs/2.8/snap/ui |
+| https://discourse.maas.io/t/installing-maas-2-7-via-snap-and-cli/2173 | /docs/2.7/snap/cli |
+| https://discourse.maas.io/t/installing-maas-2-8-via-snap-and-cli/2174 | /docs/2.8/snap/cli |
+| https://discourse.maas.io/t/installing-maas-2-7-with-packages-ui/2175 | /docs/2.7/deb/ui |
+| https://discourse.maas.io/t/installing-maas-2-8-with-packages-ui/2176 | /docs/2.8/deb/ui |
+| https://discourse.maas.io/t/installing-maas-2-7-with-packages-using-the-cli/2177 | /docs/2.7/deb/cli |
+| https://discourse.maas.io/t/installing-maas-2-8-with-packages-using-the-cli/2178 | /docs/2.8/deb/cli |
 | https://discourse.maas.io/t/select-and-import-images/751/ | /docs/select-and-import-images |
 | https://discourse.maas.io/t/local-image-mirror/752/ | /docs/local-image-mirror |
 | https://discourse.maas.io/t/vmware-images/753/ | /docs/vmware-images |
@@ -335,10 +338,13 @@ cli -->
 | https://discourse.maas.io/t/documentation-index/839/ | /docs/documentation-index |
 | https://discourse.maas.io/t/add-machines/821/ | /docs/add-machines |
 | https://discourse.maas.io/t/add-machines-cli/1995/ | /docs/cli/add-machines |
-| https://discourse.maas.io/t/add-machines-ui-2-7/2065/ | /docs/ui/2.7/add-machines |
-| https://discourse.maas.io/t/add-machines-ui-2-8/2187/ | /docs/ui/2.8/add-machines |
+| https://discourse.maas.io/t/add-machines-2-7-ui/2065/ | /docs/2.7/ui/add-machines |
+| https://discourse.maas.io/t/add-machines-2-8-ui/2187/ | /docs/2.8/ui/add-machines |
 | https://discourse.maas.io/t/commission-nodes/822/ | /docs/commission-nodes |
-| https://discourse.maas.io/t/custom-node-setup-preseed/824/ | /docs/custom-node-setup-preseed |
+| https://discourse.maas.io/t/custom-machine-setup/824/ | /docs/custom-machine-setup |
+| https://discourse.maas.io/t/custom-machine-setup-2-9-ui/2079/ | /docs/2.9/ui/custom-machine-setup |
+| https://discourse.maas.io/t/custom-machine-setup-cli/2009/ | /docs/cli/custom-machine-setup |
+| https://discourse.maas.io/t/jq-cookbook/2218/ | /docs/jq-cookbook |
 | https://discourse.maas.io/t/deploy-nodes/825/ | /docs/deploy-nodes |
 | https://discourse.maas.io/t/hardware-testing/826/ | /docs/hardware-testing |
 | https://discourse.maas.io/t/kernel-boot-options/827/ | /docs/kernel-boot-options |
@@ -369,6 +375,8 @@ cli -->
 | -- | -- |
 | https://discourse.maas.io/t/building-the-docs/744/ | /docs/building-the-docs |
 | https://discourse.maas.io/t/working-with-git-and-github/746/ | /docs/working-with-git-and-github |
+| https://discourse.maas.io/t/the-cli-cookbook/2218/ | /docs/cli-cookbook |
+| BOT ADD POINT | DO NOT REMOVE THIS LINE |
 [/details]
 
 ## Redirects
@@ -379,6 +387,7 @@ cli -->
 | /docs/pods                             | /docs/intro-to-vm-hosting                 |
 |/docs/manage-composable-machines |/docs/intro-to-vm-hosting |
 | /docs/kvm-introduction                 | /docs/intro-to-vm-hosting                 |
+| /docs/custom-node-setup-preseed        | /docs/custom-machine-setup                |
 | /docs/manage-kvm-intro                 | /docs/intro-to-vm-hosting                 |
 | /docs/add-a-kvm-host                   | /docs/add-a-vm-host                       |
 | /docs/manage-kvm-add-host              | /docs/add-a-vm-host                       |

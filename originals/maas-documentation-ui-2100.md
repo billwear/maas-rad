@@ -1,43 +1,43 @@
 <!-- base set DO NOT EDIT
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs"><u>Standard</u></a></td>
-<td><a href="https://maas.io/docs/ui-docs">UI-only</a></td>
-<td><a href="https://maas.io/docs/cli-docs">CLI-only</a></td>
-<td><a href="https://maas.io/docs/v2-7-docs">v2.7</a></td>
+<td><a href="https://maas.io/docs/ui">UI-only</a></td>
+<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
+<td><a href="https://maas.io/docs/2.7">2.7</a></td>
 </tr></table>
  base set DO NOT EDIT -->
 
 <!-- vanilla
 <table width="100%"><tr>
 <td><strong>Standard</strong></td>
-<td><a href="https://maas.io/docs/ui-docs">UI-only</a></td>
-<td><a href="https://maas.io/docs/cli-docs">CLI-only</a></td>
-<td><a href="https://maas.io/docs/v2-7-docs">v2.7</a></td>
+<td><a href="https://maas.io/docs/ui">UI-only</a></td>
+<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
+<td><a href="https://maas.io/docs/2.7">2.7</a></td>
 </tr></table>
  vanilla -->
 
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs">Standard</a></td>
 <td><strong>UI-only<strong></td>
-<td><a href="https://maas.io/docs/cli-docs">CLI-only</a></td>
-<td><a href="https://maas.io/docs/v2-7-docs">v2.7</a></td>
+<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
+<td><a href="https://maas.io/docs/2.7">2.7</a></td>
 </tr></table>
 
 <!-- cli
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs">Standard</a></td>
-<td><a href="https://maas.io/docs/ui-docs">UI-only</a></td>
+<td><a href="https://maas.io/docs/ui">UI-only</a></td>
 <td><strong>CLI-only</strong></td>
-<td><a href="https://maas.io/docs/v2-7-docs">v2.7</a></td>
+<td><a href="https://maas.io/docs/2.7">2.7</a></td>
 </tr></table>
  cli -->
 
 <!-- 2.7
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs"><u>Standard</u></a></td>
-<td><a href="https://maas.io/docs/ui-docs">UI-only</a></td>
-<td><a href="https://maas.io/docs/cli-docs">CLI-only</a></td>
-<td><strong>v2.7</strong></td>
+<td><a href="https://maas.io/docs/ui">UI-only</a></td>
+<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
+<td><strong>2.7</strong></td>
 </tr></table>
  2.7 -->
 
@@ -65,7 +65,7 @@ vanilla -->
 <a href="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg">
 </a>
 
-*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre, generated with the [jq-machine-list](/t/tips-tricks-and-traps/1506#heading--jq-machine-list) recipe on our Tips, Tricks and Traps page.*
+*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre, generated with the [lsmm](/t/the-cli-cookbook/2218#heading--basic-machine-list) recipe in our [CLI cookbook](/t/the-cli-cookbook/2218).*
  cli -->
 
 <!-- 2.7

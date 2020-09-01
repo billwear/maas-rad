@@ -6,6 +6,9 @@ TARGET_DEPS += originals/writing-guide-747.md
 TARGET_DEPS += originals/enabling-maas-2-8-snap-via-ui-2172.md
 TARGET_DEPS += originals/about-maas-840.md
 TARGET_DEPS += originals/add-machines-821.md
+TARGET_DEPS += originals/custom-machine-setup-824.md
+TARGET_DEPS += originals/adding-a-vm-host-1549.md
+TARGET_DEPS += originals/the-cli-cookbook-2218.md
 
 
 all: $(TARGET_DEPS)
@@ -105,6 +108,36 @@ originals/add-machines-821.md: add-machines.md
 	rm add-machines-*[0-9]*.md
 	chmod 444 originals/*
 
+originals/custom-machine-setup-824.md: custom-machine-setup.md
+	chmod 644 originals/*
+	cp custom-machine-setup.md custom-machine-setup-824.md
+	cp custom-machine-setup.md custom-machine-setup-2-9-ui-2079.md
+	cp custom-machine-setup.md custom-machine-setup-cli-2009.md
+	xpub push discourse -t vanilla custom-machine-setup-824.md
+	xpub push discourse -t 2-9-ui custom-machine-setup-2-9-ui-2079.md
+	xpub push discourse -t cli custom-machine-setup-cli-2009.md
+	xpub pull discourse 824 824
+	xpub pull discourse 2079 2079
+	xpub pull discourse 2009 2009
+	cp -p custom-machine-setup-*[0-9]*.md originals
+	rm custom-machine-setup-*[0-9]*.md
+	chmod 444 originals/*
+
+originals/adding-a-vm-host-1549.md: adding-a-vm-host.md
+	chmod 644 originals/*
+	cp adding-a-vm-host.md adding-a-vm-host-1549.md
+	cp adding-a-vm-host.md adding-a-vm-host-ui-2064.md
+	cp adding-a-vm-host.md adding-a-vm-host-cli-1994.md
+	xpub push discourse -t vanilla adding-a-vm-host-1549.md
+	xpub push discourse -t ui adding-a-vm-host-ui-2064.md
+	xpub push discourse -t cli adding-a-vm-host-cli-1994.md
+	xpub pull discourse 1549 1549
+	xpub pull discourse 2064 2064
+	xpub pull discourse 1994 1994
+	cp -p adding-a-vm-host-*[0-9]*.md originals
+	rm adding-a-vm-host-*[0-9]*.md
+	chmod 444 originals/*
+
 # COMMENTED PENDING CONFIRMATION OF EQUIV UI METHODS OR NOT
 #originals/block-devices-749.md: writing-guide.md
 	# chmod 644 originals/*
@@ -138,6 +171,16 @@ originals/enabling-maas-2-8-snap-via-ui-2172.md: enabling-maas.md
 	rm *-217[1-8].md
 	chmod 444 originals/*
 
+originals/the-cli-cookbook-2218.md: the-cli-cookbook.md
+	chmod 644 originals/*
+	cp the-cli-cookbook.md the-cli-cookbook-2218.md
+	xpub push discourse the-cli-cookbook-2218.md
+	xpub pull discourse 2218 2218
+	cp -p the-cli-cookbook-2218.md originals
+	rm the-cli-cookbook-2218.md
+	chmod 444 originals/*
+
+
 pull:
 	chmod 644 originals/*.md
 	xpub pull discourse 25 25
@@ -161,6 +204,7 @@ pull:
 # 	xpub pull discourse 810 810
 # 	xpub pull discourse 813 814
 # 	xpub pull discourse 819 822
+	xpub pull discourse 824 824
 # 	xpub pull discourse 824 838
 # 	xpub pull discourse 840 840
 # 	xpub pull discourse 1112 1112
@@ -180,3 +224,5 @@ pull:
 # 	xpub pull discourse 1992 2156
 # 	cp -p *.md originals
 # 	chmod 444 originals/*.md
+
+

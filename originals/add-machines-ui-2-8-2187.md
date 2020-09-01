@@ -1,8 +1,8 @@
 <!-- base set DO NOT EDIT
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs/add-machines"><u>Standard</u></a></td>
-<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
-<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
+<td><a href="https://maas.io/docs/2.7/uiadd-machines">2.7/UI</a></td>
+<td><a href="https://maas.io/docs/2.8/ui/add-machines">2.8/UI</a></td>
 <td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
 </tr></table>
  base set DO NOT EDIT -->
@@ -10,8 +10,8 @@
 <!-- vanilla
 <table width="100%"><tr>
 <td><strong>Standard</strong></td>
-<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
-<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
+<td><a href="https://maas.io/docs/2.7/ui/add-machines">2.7/UI</a></td>
+<td><a href="https://maas.io/docs/2.8/ui/add-machines">2.8/UI</a></td>
 <td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
 </tr></table>
  vanilla -->
@@ -19,24 +19,26 @@
 <!-- 2-7-ui
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs/add-machines">Standard</a></td>
-<td><strong>UI/2.7</strong></td>
-<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
+<td><strong>2.7/UI</strong></td>
+<td><a href="https://maas.io/docs/2.8/ui/add-machines">2.8/UI</a></td>
 <td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
 </tr></table>
  2-7-ui -->
 
+<!-- 2-8-ui
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs/add-machines">Standard</a></td>
-<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
-<td><strong>UI/2.8</strong></td>
+<td><a href="https://maas.io/docs/2.7/ui/add-machines">2.7/UI</a></td>
+<td><strong>2.8/UI</strong></td>
 <td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
 </tr></table>
+ 2-8-ui -->
 
 <!-- cli
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs/add-machines">Standard</a></td>
-<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
-<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
+<td><a href="https://maas.io/docs/2.7/ui/add-machines">2.7/UI</a></td>
+<td><a href="https://maas.io/docs/2.8/ui/add-machines">2.8/UI</a></td>
 <td><strong>CLI-only</strong></td>
 </tr></table>
  cli -->
@@ -50,11 +52,13 @@ This article will explain more about both methods.
 
 #### Quick questions you may have:
 
+<!-- vanilla 2-7-ui 2-8-ui
 * [How does enlistment work?](/t/add-machines/821#heading--enlistment)
 * [How do VM host nodes work?](/t/introduction-to-vm-hosting/1524)
 * [How do I add virtual machines?](https://discourse.maas.io/t/adding-a-vm-host/1549)
 * [How do I add a machine manually?](/t/add-machines/821#heading--add-a-node-manually)
 * [How do I add a machine via a chassis?](/t/add-machines/821#heading--add-nodes-via-a-chassis)
+vanilla 2-7-ui 2-8-ui -->
 
 <!-- cli
 * [How does enlistment work?](/t/add-machines/821#heading--enlistment)
@@ -127,6 +131,7 @@ The fields on the "Add machine" screen are as follows:
 * **Power type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/830) for details on the availabile power types and the relevant parameters for each type.
 2-7-ui -->
 
+<!-- 2-8-ui vanilla
 On the 'Machines' page of the web UI, click the 'Add hardware' button and then select 'Machine'.
 
 Fill in the form and hit 'Save machine'. In this example, you are adding an IPMI machine:
@@ -150,6 +155,7 @@ The fields on the "Add machine" screen are as follows:
 * **MAC Address**: You should fill in this field with the MAC address of the machine you are adding.  Note that the MAC address entered here must use a colon (":") separator, although some MAC addresses are written with dash ("-") separators.
 
 * **Power type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/830) for details on the availabile power types and the relevant parameters for each type.
+2-8-ui vanilla -->
 
 <!-- cli
 At the command line, enter the following information:
@@ -230,6 +236,7 @@ As with the manual method, the underlying machines will require netbooting.
 
 2-7-ui -->
 
+<!-- vanilla 2-8-ui
 <h2 id="heading--add-nodes-via-a-chassis">Add a machine via a chassis</h2>
 
 Use the chassis feature to add multiple machines at once. To do this, instead of selecting 'Machine' as above, choose 'Chassis' from the drop-down menu. In the following example, MAAS will add all available VMs from the given  virsh address:
@@ -241,3 +248,5 @@ The required fields will change based on the type of chassis you choose.
 [note]
 As with the manual method, the underlying machines will require netbooting.
 [/note]
+
+ vanilla 2-8-ui -->

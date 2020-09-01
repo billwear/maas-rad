@@ -1,246 +1,198 @@
 <!-- base set DO NOT EDIT
 <table width="100%"><tr>
-<td><a href="https://maas.io/docs/add-machines"><u>Standard</u></a></td>
-<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
-<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
-<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
+<td><a href="https://maas.io/docs/add-a-vm-host">Standard</a></td>
+<td><a href="https://maas.io/docs/ui/add-a-vm-host">UI</a></td>
+<td><a href="https://maas.io/docs/cli/add-a-vm-host">CLI-only</a></td>
 </tr></table>
  base set DO NOT EDIT -->
 
 <!-- vanilla
 <table width="100%"><tr>
 <td><strong>Standard</strong></td>
-<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
-<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
-<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
+<td><a href="https://maas.io/docs/ui/add-a-vm-host">UI</a></td>
+<td><a href="https://maas.io/docs/cli/add-a-vm-host">CLI-only</a></td>
 </tr></table>
  vanilla -->
 
-<!-- 2-7-ui
+<!-- ui
 <table width="100%"><tr>
-<td><a href="https://maas.io/docs/add-machines">Standard</a></td>
-<td><strong>UI/2.7</strong></td>
-<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
-<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
+<td><a href="https://maas.io/docs/add-a-vm-host">Standard</a></td>
+<td><strong>UI</strong></td>
+<td><a href="https://maas.io/docs/cli/add-a-vm-host">CLI-only</a></td>
 </tr></table>
- 2-7-ui -->
-
-<!-- 2-8-ui
-<table width="100%"><tr>
-<td><a href="https://maas.io/docs/add-machines">Standard</a></td>
-<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
-<td><strong>UI/2.8</strong></td>
-<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
-</tr></table>
- 2-8-ui -->
+ ui -->
 
 <table width="100%"><tr>
-<td><a href="https://maas.io/docs/add-machines">Standard</a></td>
-<td><a href="https://maas.io/docs/ui/2.7/add-machines">UI/2.7</a></td>
-<td><a href="https://maas.io/docs/ui/2.8/add-machines">UI/2.8</a></td>
+<td><a href="https://maas.io/docs/add-a-vm-host">Standard</a></td>
+<td><a href="https://maas.io/docs/ui/add-a-vm-host">UI</a></td>
 <td><strong>CLI-only</strong></td>
 </tr></table>
 
-There are two ways to add a machine to MAAS:
 
-1. If you place the machine on a connected network, and the machine is configured to netboot, MAAS will automatically enlist it.
-2. If you add a machine manually, MAAS will automatically commission it.
+A VM host is simply a machine which can run virtual machines (VMs) by allocating  resources across the VMs you want to create.  If needed, you can overcommit resources, allocating more resources than actually available, so long as you don't try to use more than the VM host has available at any one time. Once MAAS has enlisted, commissioned, and acquired a newly-added machine, you can deploy it as a VM host.  Alternatively, you can create a VM host from a machine you've already got running.
 
-This article will explain more about both methods.
+[note type="caution" status="Warning"]
+You **must** [configure your network](/t/vm-host-networking/1526) to support a VM host before following the procedures in this section.  You will also want to make sure that you have [set up SSH](/t/vm-host-networking/1526#heading--set-up-ssh) (if needed) before you follow any procedures in this section. 
+[/note]
 
-#### Quick questions you may have:
+* [How do I configure networking for VM hosts?](/t/vm-host-networking/1526)
+* [How do I set up SSH when manually adding a VM host?](/t/vm-host-networking/1526#heading--set-up-ssh)
+* [How do I add a VM host with the web UI?](/t/adding-a-vm-host/1549#heading--adding-a-vm-host)
+* [How do I add a VM host with the API/CLI?](/t/adding-a-vm-host/1549#heading--adding-a-vm-host-cli)
+* [How do I configure a VM host after I've added it?](/t/adding-a-vm-host/1549#heading--configuration)
+* [How do I overcommit resources on a host?](/t/adding-a-vm-host/1549#heading--overcommit-resources)
+* [How do I add a VM host using MAAS versions below 2.5?](https://old-docs.maas.io/2.5/en/manage-kvm-add-host)
 
-<!-- vanilla 2-7-ui 2-8-ui
-* [How does enlistment work?](/t/add-machines/821#heading--enlistment)
-* [How do VM host nodes work?](/t/introduction-to-vm-hosting/1524)
-* [How do I add virtual machines?](https://discourse.maas.io/t/adding-a-vm-host/1549)
-* [How do I add a machine manually?](/t/add-machines/821#heading--add-a-node-manually)
-* [How do I add a machine via a chassis?](/t/add-machines/821#heading--add-nodes-via-a-chassis)
-vanilla 2-7-ui 2-8-ui -->
 
-* [How does enlistment work?](/t/add-machines/821#heading--enlistment)
-* [How do VM host nodes work?](/t/introduction-to-vm-hosting/1524)
-* [How do I add virtual machines?](https://discourse.maas.io/t/adding-a-vm-host/1549)
-* [How do I add a machine manually?](/t/add-machines/821#heading--add-a-node-manually)
+<h2 id="heading--adding-a-vm-host">Adding a VM host</h2>
 
-MAAS typically adds a machine via a combination of DHCP, TFTP, and PXE. By now, you should have enabled MAAS to automatically add devices and machines to your environment. This unattended method of adding machines is called enlistment.
+<!-- vanilla ui
+After installing MAAS, the 'KVM' page is typically empty:
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/fa0cc573f34cb23ca0ac026e97ef5b618ff1fed3.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/fa0cc573f34cb23ca0ac026e97ef5b618ff1fed3.jpeg"></a> 
+
+If you want to add a [libvirt](https://ubuntu.com/server/docs/virtualization-libvirt) or LXD VM host to a machine which is already installed, you can do so with the 'Add KVM' button:
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/197ae57b89b32546cf054fff49452f9025354af8.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/197ae57b89b32546cf054fff49452f9025354af8.jpeg"></a> 
+
+Here, 'Virsh address' typically looks like the following for libvirt:
+
+    qemu+ssh://<vm host IP>/system
+
+of like this for LXD (Beta):
+
+    https://10.0.0.100:8443
+vanilla ui -->
+
+To add a VM host:
+
+``` bash
+maas $PROFILE vm-hosts create type=$VM_HOST_TYPE power_address=$POWER_ADDRESS \
+    [power_user=$USERNAME] [power_pass=$PASSWORD] [zone=$ZONE] \
+    [tags=$TAG1,$TAG2,...]
+```
+
+$VM_HOST_TYPE can currently take three values: `rsd`, `virsh`, and `lxd`.
+
+$POWER_ADDRESS typically looks like the following for libvirt:
+
+    qemu+ssh://<vm host IP>/system
+
+of like this for LXD (Beta):
+
+    https://10.0.0.100:8443
+
+Both $USERNAME and $PASSWORD are optional for the virsh power type. $ZONE and $TAGS are optional for all VM hosts.
+
+The `power_...` parameters will vary with power type.  See the [API reference](/docs/api#power-types) for a listing of available power types.
+
+<h3>Some examples</h3>
+For example, to create an RSD VM host, enter:
+
+``` bash
+maas $PROFILE vm-hosts create type=rsd power_address=10.3.0.1:8443 \
+    power_user=admin power_pass=admin
+```
+
+To create a KVM host, enter the following:
+
+``` bash
+maas $PROFILE vm-hosts create type=virsh power_address=qemu+ssh://ubuntu@192.168.1.2/system
+```
 
 [note]
-Configuring a computer to boot over PXE is done via its BIOS, often referred to as "netboot" or "network boot".
+MAAS will automatically discover and store the resources your VM host contains. Any existing machines will also appear on the 'Machines' page, and MAAS will automatically attempt to commission them.
 [/note]
 
-Regardless of how MAAS adds a machine, there are no special requirements for the underlying machine. In particular, there is no need to install an operating system on it.
+<h2 id="heading--configuration">Configuration</h2>
 
-Once MAAS is working to the point of adding machines, you'll probably want to understand statuses and actions. See [Node statuses](/t/concepts-and-terms/785#heading--node-statuses) and [Machine actions](/t/concepts-and-terms/785#heading--machine-actions) respectively.
+<!-- vanilla ui
+VM hosts have several configuration options. Modify these by selecting the 'Configuration' tab and clicking 'Edit'. Options include a VM host's location, password, network zone, and default resource pool.
 
-<h2 id="heading--enlistment">How enlistment works</h2>
+<a href="https://discourse.maas.io/uploads/default/original/1X/e6f9b3effcc9e4f44a09836cf6185449410bae7f.png" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/e6f9b3effcc9e4f44a09836cf6185449410bae7f.png"></a>
+vanilla ui -->
 
-When MAAS enlists a machine, it first contacts the DHCP server, so that the machine can be assigned an IP address.  An IP address is necessary to download a kernel and initrd via TFTP, since these functions can't accept domain names.  Once the machine has a bootable kernel, MAAS boots it:
+Using the CLI, it's possible to update the configuration of a VM host.  You can change these configurable parameters with an `update` command -- but first, you'll want to know how to check the values of configurable parameters, both before and after the change.
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/76f7113545e6950fec60bdeac06cfaf79b14b3ff.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/76f7113545e6950fec60bdeac06cfaf79b14b3ff.jpeg"></a> 
+<h3>List VM-hosts</h3>
+To begin, you can list your avsailable KVM-hosts with the following command:
 
-Next, initrd mounts a Squashfs image, ephemerally via HTTP, so that cloud-init can execute:
+```
+maas admin vm-hosts read | jq -r '(["ID, "VM-HOST","SYSID","CORES",
+"USED","RAM", "USED","STORAGE", "USED"] | (., map(length*"-"))),
+(.[]| [.id,.name,.host.system_id,.total.cores, .used.cores, .total.memory, .used.memory,.total.local_storage, .used.local_storage])
+| @tsv' | column -t
+```
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/500f9bd2d070790a4007085705035366bee88a4a.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/500f9bd2d070790a4007085705035366bee88a4a.jpeg"></a> 
+This command is in the [CLI cookbook](/t/the-cli-cookbook/2218) as [lsvmh](/t/the-cli-cookbook/2218#heading--vm-host-list)
 
-Finally, cloud-init runs enlistment and setup scripts:
+<h3>List configurable VM host parameters</h3>
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/bd87f78c8ee668a22640bf15607c9e3e532d46bb.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/bd87f78c8ee668a22640bf15607c9e3e532d46bb.jpeg"></a> 
+There are just a few parameters that you can change for a VM host.  You can list these, on a per-host basis, using the following procedure:
 
-The enlistment scripts send information about the machine to the region API server, including the architecture, MAC address and other details.  The API server, in turn, stores these details in the database. This information-gathering process is known as [automatic discovery or network discovery](/t/network-discovery/758).
+1. Run the command above[lsvmh](/t/the-cli-cookbook/2218#heading--vm-host-list)) to get the VM host ID (different from the System ID, see the first column in the listing).
 
-After the enlistment process, MAAS places the machine in the 'Ready' state.  'Ready' is a holding state for machines that are enlisted (or commissioned), waiting to be deployed when needed.
+2. Enter the following command ([lsvmhc](/t/the-cli-cookbook/2218#heading--vm-host-config) to list configurable parameters:
 
-Typically, the next step will be to [commission the machine](/t/commission-machines/822). As an alternative to enlistment, an administrator can add a machine manually (see [below](#heading--add-a-node-manually)). Typically this is done when enlistment doesn't work for some reason. Note that when you manually add a machine, MAAS automatically commissions the machine as soon as you've added it.
+```
+maas admin vm-host read $ID | jq -r '(["ID","NAME","POOL","ZONE",
+"CPU-O/C", "RAM-O/C", "TAGS"] | (., map(length*"-"))), (.| [.id,.name,
+.pool.name, .zone.name,.cpu_over_commit_ratio, 
+.memory_over_commit_ratio, .tags[]]) | @tsv' | column -t
+```
 
-[note]
-MAAS runs built-in commissioning scripts during the enlistment phase. When you commission a machine, any customised commissioning scripts you add will have access to data collected during enlistment. Follow the link above for more information about commissioning and commission scripts.
-[/note]
+where $ID is the ID (not System ID) of the VM-host.
 
-<h2 id="heading--add-a-node-manually">Add a machine manually</h2>
+<h3>Change the VM host's name</h3>
 
-Enlistment can be done manually if the hardware specifications of the underlying machine are known.
+You can change the VM host's name very simply, with this command:
 
-<!-- 2-7-ui
-On the 'Machines' page of the web UI, click the 'Add hardware' button and then select 'Machine'.
+    maas admin vm-host update $ID name=$NEW_NAME
 
-Fill in the form and hit 'Save machine'. In this example, you are adding an IPMI machine:
+where $ID is the VM host's ID (not System ID), and $NEW_NAME is the new name you want to assign.  You can check that the change was successful by just printing out the ID and name, like this:
 
-<a href="https://assets.ubuntu.com/v1/20aa36b2-nodes-add__2.5_add-node-manually.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/20aa36b2-nodes-add__2.5_add-node-manually.png"></a>
+```
+maas admin vm-host read $ID | jq -r '(["ID","NAME"] 
+| (., map(length*"-"))), (.| [.id,.name]) 
+| @tsv' | column -t
+```
 
-The fields on the "Add machine" screen are as follows:
+You can find this script at [catvmname](/t/the-cli-cookbook-2218#heading--jq-check-vm-host-name).
 
-* **Machine name**: This field is used to identify the machine to the user.  It can be set to anything, though it is often set to the MAC address of the machine in question.  This field is optional, in that MAAS will assign a unique, nonsense name if you leave it blank.  You can change this nonsense name later, if desired.
+<h3>Change the VM host's pool</h3>
 
-* **Domain**: This field sets the domain name of the domain managed by MAAS.  It can be set to anything; MAAS assigns the domain name "maas" by default.
+You can also change the VM host's pool with a simple command:
 
-* **Architecture**: This field refers to the architecture of the machine being added.
+    maas admin vm-host update $ID pool=$VALID_POOL
 
-* **Minimum Kernal**: This field supplies a dropdown of possible kernels available for deployment on this machine.
+where $ID is the VM host's ID (not System ID), and $VALID_POOL is the name of a pool that already exists.  If you mention a pool you haven't created yet, you'll get an error like this:
 
-* **Zone**: This field allows you to set the availability zone, selected from AZs that you have already created (if any).
+```
+{"pool": ["Select a valid choice. That choice is not one of the available choices."]}
+```
 
-* **Resource pool**: This field allows you to set the resource pool for this machine, selected from pools you have already created (if any).
+If you want to see the available choices, you can list pools with [catvmpool](/t/the-cli-cookbook-2218#heading--list-pools):
 
-* **MAC Address**: You should fill in this field with the MAC address of the machine you are adding.  Note that the MAC address entered here must use a colon (":") separator, although some MAC addresses are written with dash ("-") separators.
+    maas admin resource-pools read | jq -r '.[] | (.name)'
 
-* **Power type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/830) for details on the availabile power types and the relevant parameters for each type.
-2-7-ui -->
+If you really want to set your VM host to a new one, you just need to create a new one with this command:
 
-<!-- 2-8-ui vanilla
-On the 'Machines' page of the web UI, click the 'Add hardware' button and then select 'Machine'.
+    maas admin resource-pools create name=$NEW_POOL_NAME
 
-Fill in the form and hit 'Save machine'. In this example, you are adding an IPMI machine:
+Then double-check it with `catvmpools`, and assign your VM host to it using the earlier command. 
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/faebe2fb37cd73252eaf9521ed1bcf31fb0e76f6.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/faebe2fb37cd73252eaf9521ed1bcf31fb0e76f6.jpeg"></a>
 
-The fields on the "Add machine" screen are as follows:
+<h3 id="heading--overcommit-resources">Overcommit resources</h3>
 
-* **Machine name**: This field is used to identify the machine to the user.  It can be set to anything, though it is often set to the MAC address of the machine in question.  This field is optional, in that MAAS will assign a unique, nonsense name if you leave it blank.  You can change this nonsense name later, if desired.
+Overcommitted resources are those allocated beyond what's available in the physical resource. Using sliders on the configuration page, you can limit whether MAAS will attempt to overcommit CPU and memory. The input fields to the right of the sliders accept floating-point values from 0 to 10, with a default value of 1.
 
-* **Domain**: This field sets the domain name of the domain managed by MAAS.  It can be set to anything; MAAS assigns the domain name "maas" by default.
+The following shows theoretical examples of these ratios and how they affect physical resource allocation:
 
-* **Architecture**: This field refers to the architecture of the machine being added.
+-   `8 physical CPU cores  * 1 multiplier     = 8 virtual CPU cores`
+-   `8 physical CPU cores  * 0.5 multiplier   = 4 virtual CPU cores`
+-   `32 physical CPU cores * 10.0 multiplier  = 320 virtual CPU cores`
+-   `128GB physical memory  * 5.5 multiplier  = 704G virtual Memory`
 
-* **Minimum Kernal**: This field supplies a dropdown of possible kernels available for deployment on this machine.
+<a href="https://discourse.maas.io/uploads/default/original/1X/27a8f21392af3d29a500e33f99e1f79c578cf29c.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/27a8f21392af3d29a500e33f99e1f79c578cf29c.jpeg"></a> 
 
-* **Zone**: This field allows you to set the availability zone, selected from AZs that you have already created (if any).
-
-* **Resource pool**: This field allows you to set the resource pool for this machine, selected from pools you have already created (if any).
-
-* **MAC Address**: You should fill in this field with the MAC address of the machine you are adding.  Note that the MAC address entered here must use a colon (":") separator, although some MAC addresses are written with dash ("-") separators.
-
-* **Power type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/830) for details on the availabile power types and the relevant parameters for each type.
-2-8-ui vanilla -->
-
-At the command line, enter the following information:
-
-<code>
-stormrider@wintermute:~$ maas admin machines create \
-> architecture=$ARCH \
-> max_addresses=$MAC_ADDRESS \
-> power_type=$POWER_TYPE \
-> power_parameters_power_id=$POWER_ID \
-> power_parameters_power_address=$POWER_ADDRESS \
-> power_parameters_power_pass=$POWER_PASSWORD
-</code>
-
-When you enter the command (substituting the `$...` parameters for your own particulars), the screen will pause for a moment, and then return a stream of JSON relating to the added machine.
-
-Here's an example with a local laptop MAAS install, using KVMs as virtual machines:
-
-stormrider@wintermute:~$ maas admin machines create \
-> architecture=amd64 \
-> max_addresses=52:54:00:6f:b4:af \
-> power_type=virsh \
-> power_parameters_power_id=50f6cca2-5d89-43b9-941c-90c9fcd7c156 \
-> power_parameters_power_address=qemu+ssh://stormrider@192.168.123.1/system \
-> power_parameters_power_pass=xxxxxxx
-
-The variable fields in the `machines create` command (the `$...` items) are as follows, in this example: 
-> architecture=$ARCH \
-> max_addresses=$MAC_ADDRESS \
-> power_type=$POWER_TYPE \
-> power_parameters_power_id=$POWER_ID \
-> power_parameters_power_address=$POWER_ADDRESS \
-> power_parameters_power_pass=$POWER_PASSWORD
-
-* `$ARCH`: This field refers to the architecture of the machine being added, `amd64` in the local laptop example.
-
-* `$MAC_ADDRESS`: This is the MAC address of the boot-enabled NIC for the machine being added.  Note that the MAC address entered here must use a colon (":") separator, although some MAC addresses are written with dash ("-") separators.
-
-* `$POWER_ID`: This is generally the UUID of the machine being added.
-
-* `$POWER_ADDRESS/$POWER_PASSWORD`: In the case of a KVM, these are the only parameters that need to be entered.  See [Power types](https://maas.io/docs/api#power-types) in the API reference for details on the availabile power types and the relevant parameters for each type.
-
-Normally, when you add a machine manually, MAAS will immediately attempt to commission the machine. Note that you will need to configure the underlying machine to boot over the network, or commissioning will fail. MAAS cannot handle this configuration for you.  While the correct method for configuring network boot depends heavily on your server, there are a couple of common elements:
-
-* The network card on your server must be able to support PXE, i.e., your NIC -- whether independent or integrated on a motherboard -- must have a boot PROM that supports network booting.  You'll need to consult the documentation for the machine in question to determine this.
-
-* You usually have to interrupt the boot process and enter the BIOS/UEFI menu to configure the network cards's PXE stack.  Again, you may need to consult your machine's documentation to pin down this step.
-
-Additional steps will vary widely by machine type and architecture.
-
-<h3 id="heading--bmc-enlistment">BMC enlistment</h3>
-
-[note status="2.4"]
-Note that in MAAS versions before 2.5, you are required to provide the MAC address of the PXE interface when adding a new machine manually.
-[/note]
-
-##### IPMI machines
-
-For IPMI machines, you only need to provide IPMI credentials. MAAS automatically discovers the machine and runs enlistment configuration by matching the BMC address.
-
-##### Non-IPMI machines
-
-For non-IPMI machines, you must specify a non-PXE MAC address. MAAS automatically discovers the machine and runs enlistment configuration by matching the non-PXE MAC address.
-
-<!-- 2-7-ui
-<h2 id="heading--add-nodes-via-a-chassis">Add a machine via a chassis</h2>
-
-Use the chassis feature to add multiple machines at once. To do this, instead of selecting 'Machine' as above, choose 'Chassis' from the drop-down menu. In the following example, MAAS will add all available VMs from the given  virsh address:
-
-<a href="https://assets.ubuntu.com/v1/d5314a8a-nodes-add__2.4_add-node-chassis.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/d5314a8a-nodes-add__2.4_add-node-chassis.png"></a>
-
-The required fields will change based on the type of chassis you choose.
-
-[note]
-As with the manual method, the underlying machines will require netbooting.
-[/note]
-
-2-7-ui -->
-
-<!-- vanilla 2-8-ui
-<h2 id="heading--add-nodes-via-a-chassis">Add a machine via a chassis</h2>
-
-Use the chassis feature to add multiple machines at once. To do this, instead of selecting 'Machine' as above, choose 'Chassis' from the drop-down menu. In the following example, MAAS will add all available VMs from the given  virsh address:
-
-<a href="https://discourse.maas.io/uploads/default/original/1X/e7f88bce68318cf3c6a8e97b4d31d0b6980e0f32.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/e7f88bce68318cf3c6a8e97b4d31d0b6980e0f32.jpeg"></a>
-
-The required fields will change based on the type of chassis you choose.
-
-[note]
-As with the manual method, the underlying machines will require netbooting.
-[/note]
-
- vanilla 2-8-ui -->
+Overcommitting resources allows a user to compose many MAAS-managed machines without worrying about the physical limitations of the host. For example, on a physical host with four cores and 12 GB of memory, you could compose four libvirt machines, each using two cores and 4 GB of memory.  This arrangement overcommits the available physical resources. Provided you never run all four VMs simultaneously, you would have all the benefits of MAAS-managed VMs without over-taxing your host.

@@ -14,11 +14,13 @@
 </tr></table>
  vanilla -->
 
+<!-- ui
 <table width="100%"><tr>
 <td><a href="https://maas.io/docs/what-is-maas">Standard</a></td>
 <td><strong>UI-only<strong></td>
 <td><a href="https://maas.io/docs/cli/what-is-maas">CLI-only</a></td>
 </tr></table>
+ ui -->
 
 <!-- cli
 <table width="100%"><tr>
@@ -78,6 +80,7 @@ These tools can be controlled from a responsive web UI or a [CLI](/t/maas-cli/80
 
 vanilla -->
 
+<!-- ui 
 - web UI (optimised for mobile devices)
 - Ubuntu, CentOS, Windows, and RHEL installation support
 - open-source IP address management (IPAM)
@@ -95,6 +98,7 @@ These tools can be controlled from a responsive web UI.  You can easily (re)conf
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg"></a> 
 
+ui -->
 
 <!-- cli 
 - Ubuntu, CentOS, Windows, and RHEL installation support
@@ -113,7 +117,7 @@ These tools can be controlled from a [CLI](/t/maas-cli/802) driven by a REST API
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/40fdae53957095e5a830458dc5c7a62ea5d78c10.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/40fdae53957095e5a830458dc5c7a62ea5d78c10.jpeg"></a> 
 
-*Listing generated with [lsmm](/t/the-cli-cookbook/2218#heading--machine-list-first-tag) recipe in our [CLI cookbook](/t/the-cli-cookbook/2218) page.
+*Listing generated with [jqmltag.sh](https://maas.io/docs/tips-tricks-and-traps#heading--jqmltag-sh) on our [Tips, Tricks, and Traps](https://maas.io/docs/tips-tricks-and-traps) page.
 
 cli -->
 
@@ -151,7 +155,9 @@ Commissioning means that MAAS has successfully booted the machine, scanned and r
 <a href="https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg"></a>
  vanilla -->
 
+<!-- ui
 <a href="https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/605019de31078dd70df72ff199d812de13a30d00.jpeg"></a>
+ ui -->
 
 <!-- cli
 <a href="https://discourse.maas.io/uploads/default/original/1X/6aec9b567022216d80596411e689a14e1f594674.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/6aec9b567022216d80596411e689a14e1f594674.jpeg"></a>
@@ -165,7 +171,9 @@ MAAS controls machines through IPMI (or another BMC). It can also manage machine
 
 MAAS users allocate ("acquire") machines for use when needed. The web UI also allows you to acquire machines manually, such as when you are reserving specific hardware for certain users. You can remotely access and customise the installed operating system via SSH.
 
+<!-- vanilla ui
 <a href="https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/8101d641c55d912cd66646bd99bbee9bb8f196ab.jpeg"></a>
+ vanilla ui -->
 
 <!-- cli
 <a href="https://discourse.maas.io/uploads/default/original/1X/ac3b251a916bb18a7e7e463d7fa3c57ef32628da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/ac3b251a916bb18a7e7e463d7fa3c57ef32628da.jpeg"></a>
