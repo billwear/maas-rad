@@ -154,7 +154,7 @@ The fields on the "Add machine" screen are as follows:
 <!-- cli
 At the command line, enter the following information:
 
-<code>
+```
 stormrider@wintermute:~$ maas admin machines create \
 > architecture=$ARCH \
 > max_addresses=$MAC_ADDRESS \
@@ -162,12 +162,13 @@ stormrider@wintermute:~$ maas admin machines create \
 > power_parameters_power_id=$POWER_ID \
 > power_parameters_power_address=$POWER_ADDRESS \
 > power_parameters_power_pass=$POWER_PASSWORD
-</code>
+```
 
 When you enter the command (substituting the `$...` parameters for your own particulars), the screen will pause for a moment, and then return a stream of JSON relating to the added machine.
 
 Here's an example with a local laptop MAAS install, using KVMs as virtual machines:
 
+```
 stormrider@wintermute:~$ maas admin machines create \
 > architecture=amd64 \
 > max_addresses=52:54:00:6f:b4:af \
@@ -175,18 +176,26 @@ stormrider@wintermute:~$ maas admin machines create \
 > power_parameters_power_id=50f6cca2-5d89-43b9-941c-90c9fcd7c156 \
 > power_parameters_power_address=qemu+ssh://stormrider@192.168.123.1/system \
 > power_parameters_power_pass=xxxxxxx
+```
+
+There's also a version of this command in a script called [mkmm --kvm](/t/the-cli-cookbook/2218#heading--mkkvm) in the [CLI cookbook](/t/the-cli-cookbook/2218).
 
 The variable fields in the `machines create` command (the `$...` items) are as follows, in this example: 
+
+```
 > architecture=$ARCH \
-> max_addresses=$MAC_ADDRESS \
+> mac_addresses=$MAC_ADDRESS \
 > power_type=$POWER_TYPE \
 > power_parameters_power_id=$POWER_ID \
 > power_parameters_power_address=$POWER_ADDRESS \
 > power_parameters_power_pass=$POWER_PASSWORD
+```
 
 * `$ARCH`: This field refers to the architecture of the machine being added, `amd64` in the local laptop example.
 
 * `$MAC_ADDRESS`: This is the MAC address of the boot-enabled NIC for the machine being added.  Note that the MAC address entered here must use a colon (":") separator, although some MAC addresses are written with dash ("-") separators.
+
+* `$POWER_TYPE`: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/830) for details on the availabile power types and the relevant parameters for each type. In this example, we've used a "virsh" power type (a libvirt KVM), but your choice will depend on your hardware.
 
 * `$POWER_ID`: This is generally the UUID of the machine being added.
 

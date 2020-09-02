@@ -117,7 +117,7 @@ These tools can be controlled from a [CLI](/t/maas-cli/802) driven by a REST API
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/40fdae53957095e5a830458dc5c7a62ea5d78c10.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/40fdae53957095e5a830458dc5c7a62ea5d78c10.jpeg"></a> 
 
-*Listing generated with [lsmm](/t/the-cli-cookbook/2218#heading--machine-list-first-tag) recipe in our [CLI cookbook](/t/the-cli-cookbook/2218) page.
+*Listing generated with [lsmm -t](/t/the-cli-cookbook/2218#heading--lsmm-t), a recipe in our [CLI cookbook](/t/the-cli-cookbook/2218) page.
 
 cli -->
 
