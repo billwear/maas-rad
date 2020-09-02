@@ -1,4 +1,4 @@
-As with block devices (see [Block devices](/t/block-devices/749)), MAAS and its API offer a great deal of control over the creation, formatting, mounting and deletion of partitions.
+As with block devices (see [Block devices](/t/block-devices/749)), MAAS and the MAAS API offer a great deal of control over the creation, formatting, mounting and deletion of partitions.
 
 <h3 id="heading--list-partitions">List Partitions</h3>
 

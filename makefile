@@ -1609,16 +1609,19 @@ originals/maas-documentation-25.md: maas-documentation.md
 	cp -p maas-documentation-25.md originals
 	rm maas-documentation-25.md
 	cp maas-documentation.md maas-documentation-cli-2030.md
+	sed -i '/^## Navigation/,$d' maas-documentation-cli-2030.md
 	xpub push discourse -t cli maas-documentation-cli-2030.md
 	xpub pull discourse 2030 2030
 	cp -p maas-documentation-cli-2030.md originals
 	rm maas-documentation-cli-2030.md
 	cp maas-documentation.md maas-documentation-2-7-2168.md
+	sed -i '/^## Navigation/,$d' maas-documentation-2-7-2168.md
 	xpub push discourse -t 2-7 maas-documentation-2-7-2168.md
 	xpub pull discourse 2168 2168
 	cp -p maas-documentation-2-7-2168.md originals
 	rm maas-documentation-2-7-2168.md
 	cp maas-documentation.md maas-documentation-ui-2100.md
+	sed -i '/^## Navigation/,$d' maas-documentation-ui-2100.md
 	xpub push discourse -t ui maas-documentation-ui-2100.md
 	xpub pull discourse 2100 2100
 	cp -p maas-documentation-ui-2100.md originals
