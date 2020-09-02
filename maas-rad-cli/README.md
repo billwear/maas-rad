@@ -1,1 +1,0 @@
-This is a MAAS doc version which maximizes the use of the MAAS CLI (command line interface) instead of the UI, where possible.

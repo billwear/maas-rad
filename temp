@@ -1,5 +1,0 @@
-maas-documentation-25.md:- [Installation](https://maas.io/docs/install-from-a-snap)
-maas-documentation-25.md:- [Configuration journey](https://maas.io/docs/configuration-journey)
-maas-documentation-25.md:### [API documentation](https://maas.io/docs/api)
-maas-installation-from-a-snap-773.md:With MAAS installed and initialised, you can now open the web UI in your browser and begin your [Configuration journey](https://maas.io/docs/configuration-journey).
-python-api-client-810.md:-   [API documentation](https://maas.io/docs/api)
