@@ -181,12 +181,15 @@ Select a viable release (in this case, "Ubuntu 18.04...") and check the box labe
 Paste the desired script directly into the box, and select "Start deployment for machine."  For example, to import an SSH key immediately after your machine deployment, you could paste this script:
 
 ``` bash
-#!/bin/bash
-(
-echo === $date ===
-ssh-import-id foobar_user
-) | tee /ssh-key-import.log
+#cloud-config
+write_files:
+  - path: /test
+    content: hello
 ```
 
-This script echos the date in addition to the output of the `ssh-import-key` command. It also adds that output to a file, `/ssh-key-import.log`.
+This script simply writes hello to a the file `/test`.
+
+[note]
+No script validation of any kind is provided with this capability.  You will need to test and debug your own cloud-init scripts.
+[/note]
 vanilla 2-9-ui -->

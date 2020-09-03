@@ -242,6 +242,7 @@ cli -->
 | -- | -- |
 | https://discourse.maas.io/t/adding-a-vm-host/1549 | /docs/add-a-vm-host |
 | https://discourse.maas.io/t/adding-a-vm-host-ui/2064 | /docs/ui/add-a-vm-host |
+| https://discourse.maas.io/t/test-logs/1479 | /docs/test-logs |
 | https://discourse.maas.io/t/adding-a-vm-host-cli/1994 | /docs/cli/add-a-vm-host |
 | https://discourse.maas.io/t/vm-host-storage-pools/1525 | /docs/vm-host-storage-pools |
 | https://discourse.maas.io/t/vm-host-networking/1526 | /docs/vm-host-networking |

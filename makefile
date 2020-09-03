@@ -1,4 +1,5 @@
 TARGET_DEPS := originals/rack-controllers-ui-2119.md
+TARGET_DEPS += originals/test-logs-1479.md
 TARGET_DEPS += originals/rack-controllers-771.md
 TARGET_DEPS += originals/rack-controllers-cli-2049.md
 TARGET_DEPS += originals/subnet-management-766.md
@@ -1609,25 +1610,33 @@ originals/maas-documentation-25.md: maas-documentation.md
 	cp -p maas-documentation-25.md originals
 	rm maas-documentation-25.md
 	cp maas-documentation.md maas-documentation-cli-2030.md
-	sed -i '/^## Navigation/,$d' maas-documentation-cli-2030.md
+	./clean-navigation.sh maas-documentation-cli-2030.md
 	xpub push discourse -t cli maas-documentation-cli-2030.md
 	xpub pull discourse 2030 2030
 	cp -p maas-documentation-cli-2030.md originals
 	rm maas-documentation-cli-2030.md
 	cp maas-documentation.md maas-documentation-2-7-2168.md
-	sed -i '/^## Navigation/,$d' maas-documentation-2-7-2168.md
+	./clean-navigation.sh maas-documentation-2-7-2168.md
 	xpub push discourse -t 2-7 maas-documentation-2-7-2168.md
 	xpub pull discourse 2168 2168
 	cp -p maas-documentation-2-7-2168.md originals
 	rm maas-documentation-2-7-2168.md
 	cp maas-documentation.md maas-documentation-ui-2100.md
-	sed -i '/^## Navigation/,$d' maas-documentation-ui-2100.md
+	./clean-navigation.sh maas-documentation-ui-2100.md
 	xpub push discourse -t ui maas-documentation-ui-2100.md
 	xpub pull discourse 2100 2100
 	cp -p maas-documentation-ui-2100.md originals
 	rm maas-documentation-ui-2100.md
 	chmod 444 originals/*
- 
+
+originals/test-logs-1479.md: test-logs.md
+	chmod 644 originals/*
+	cp test-logs.md test-logs-1479.md
+	xpub push discourse -t vanilla test-logs-1479.md
+	xpub pull discourse 1479 1479
+	cp -p test-logs-1479.md originals
+	rm test-logs-1479.md
+
 originals/maas-communication-783.md: maas-communication.md
 	chmod 644 originals/*
 	cp maas-communication.md maas-communication-783.md

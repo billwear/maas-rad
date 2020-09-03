@@ -1,12 +1,149 @@
-The following recipes may help you make better use of the [MAAS CLI](/t/maas-cli/802).  Each recipe includes the relevant CLI command sequence, with the results processed through `jq` and other relevant command-line utilities to produce cleaner output.
+The following recipes may help you make better use of the [MAAS CLI](/t/maas-cli/802).  Each recipe includes the relevant CLI command sequence, with the results processed through `jq` and other relevant command-line utilities to produce cleaner output.  Understand that this material isn't meant to replace the CLI, just to give you some tips and tricks on ways you might use it.
 
-#### Catalog of jq recipes:
+#### Catalog of recipes:
 
-* [lsmm: List MAAS machines](/t/the-cli-cookbook/2218#heading--lsmm)
-* [lsmm -t: list MAAS machines with tags](/t/the-cli-cookbook/2218#heading--lsmm-t)
-* [lsmm --vmhost: list MAAS VM hosts](/t/the-cli-cookbook/2218#heading--lsmm-vmh)
-* [lsmm --vmhost -c $ID: list configurable params for MAAS VM host](/t/the-cli-cookbook/2218#heading--lxmm-vmhc)
-* [mkmm --kvm: create a KVM machine, with parameter prompting](/t/the-cli-cookbook/2218#heading--mkkvm)
+* [Basic machine list](/t/the-cli-cookbook/2218#heading--basic-machine-list)
+  * [sorted by machine name](/t/the-cli-cookbook/2218#heading--sorted-by-machine-name)
+  * [sorted by system ID](/t/the-cli-cookbook/2218#heading--sorted-by-system-id)
+  * [sorted by power state](/t/the-cli-cookbook/2218#heading--sorted-by-power-state)
+  * [sorted by machine status](/t/the-cli-cookbook/2218#heading--sorted-by-machine-status)
+  * [sorted by first tag](/t/the-cli-cookbook/2218#heading--sorted-by-first-tag)
+  * [sorted by pool](/t/the-cli-cookbook/2218#heading--sorted-by-pool)
+  * [sorted by VLAN](/t/the-cli-cookbook/2218#heading--sorted-by-vlan)
+  * [sorted by fabric](/t/the-cli-cookbook/2218#heading--sorted-by-fabric)
+  * [sorted by subnet](/t/the-cli-cookbook/2218#heading--sorted-by-subnet)
+* [VM host list](/t/the-cli-cookbook/2218#heading--vm-host-list)
+* [Creating KVMs & getting feedback](/t/the-cli-cookbook/2218#heading--create-kvm)
+
+<h2 id="heading--basic-machine-list">Basic machine list</h2>
+
+```
+maas admin machines read | jq -r '(["HOSTNAME","SYSID","POWER","STATUS",
+"OWNER", "TAGS", "POOL", "VLAN","FABRIC","SUBNET"] | (., map(length*"-"))),
+(.[] | [.hostname, .system_id, .power_state, .status_name, .owner // "-", 
+.tag_names[0] // "-", .pool.name,
+.boot_interface.vlan.name, .boot_interface.vlan.fabric,
+.boot_interface.links[0].subnet.name]) | @tsv' | column -t
+```
+
+<h3 id="heading--sorted-by-machine-name">Machine list sorted by machine name</h3>
+
+```
+maas admin machines read | jq -r '(["HOSTNAME","SYSID","POWER","STATUS",
+"OWNER", "TAGS", "POOL", "VLAN","FABRIC","SUBNET"] | (., map(length*"-"))),
+(.[] | [.hostname, .system_id, .power_state, .status_name, .owner // "-", 
+.tag_names[0] // "-", .pool.name,
+.boot_interface.vlan.name, .boot_interface.vlan.fabric,
+.boot_interface.links[0].subnet.name]) | @tsv' | column -t \
+| sort -k 1
+```
+
+<h3 id="heading--sorted-by-system-id">Machine list sorted by system ID</h3>
+
+```
+maas admin machines read | jq -r '(["HOSTNAME","SYSID","POWER","STATUS",
+"OWNER", "TAGS", "POOL", "VLAN","FABRIC","SUBNET"] | (., map(length*"-"))),
+(.[] | [.hostname, .system_id, .power_state, .status_name, .owner // "-", 
+.tag_names[0] // "-", .pool.name,
+.boot_interface.vlan.name, .boot_interface.vlan.fabric,
+.boot_interface.links[0].subnet.name]) | @tsv' | column -t \
+| sort -k 1
+```
+
+<h3 id="heading--sorted-by-power-state">Machine list sorted by power state</h3>
+
+```
+maas admin machines read | jq -r '(["HOSTNAME","SYSID","POWER","STATUS",
+"OWNER", "TAGS", "POOL", "VLAN","FABRIC","SUBNET"] | (., map(length*"-"))),
+(.[] | [.hostname, .system_id, .power_state, .status_name, .owner // "-", 
+.tag_names[0] // "-", .pool.name,
+.boot_interface.vlan.name, .boot_interface.vlan.fabric,
+.boot_interface.links[0].subnet.name]) | @tsv' | column -t \
+| sort -k 1
+```
+
+<h3 id="heading--sorted-by-machine-status">Machine list sorted by machine status</h3>
+
+```
+maas admin machines read | jq -r '(["HOSTNAME","SYSID","POWER","STATUS",
+"OWNER", "TAGS", "POOL", "VLAN","FABRIC","SUBNET"] | (., map(length*"-"))),
+(.[] | [.hostname, .system_id, .power_state, .status_name, .owner // "-", 
+.tag_names[0] // "-", .pool.name,
+.boot_interface.vlan.name, .boot_interface.vlan.fabric,
+.boot_interface.links[0].subnet.name]) | @tsv' | column -t \
+| sort -k 1
+```
+
+<h3 id="heading--sorted-by-first-tag">Machine list sorted by first tag</h3>
+
+```
+maas admin machines read | jq -r '(["HOSTNAME","SYSID","POWER","STATUS",
+"OWNER", "TAGS", "POOL", "VLAN","FABRIC","SUBNET"] | (., map(length*"-"))),
+(.[] | [.hostname, .system_id, .power_state, .status_name, .owner // "-", 
+.tag_names[0] // "-", .pool.name,
+.boot_interface.vlan.name, .boot_interface.vlan.fabric,
+.boot_interface.links[0].subnet.name]) | @tsv' | column -t \
+| sort -k 1
+```
+
+<h3 id="heading--sorted-by-pool">Machine list sorted by pool</h3>
+
+```
+maas admin machines read | jq -r '(["HOSTNAME","SYSID","POWER","STATUS",
+"OWNER", "TAGS", "POOL", "VLAN","FABRIC","SUBNET"] | (., map(length*"-"))),
+(.[] | [.hostname, .system_id, .power_state, .status_name, .owner // "-", 
+.tag_names[0] // "-", .pool.name,
+.boot_interface.vlan.name, .boot_interface.vlan.fabric,
+.boot_interface.links[0].subnet.name]) | @tsv' | column -t \
+| sort -k 1
+```
+
+<h3 id="heading--sorted-by-vlan">Machine list sorted by VLAN</h3>
+
+```
+maas admin machines read | jq -r '(["HOSTNAME","SYSID","POWER","STATUS",
+"OWNER", "TAGS", "POOL", "VLAN","FABRIC","SUBNET"] | (., map(length*"-"))),
+(.[] | [.hostname, .system_id, .power_state, .status_name, .owner // "-", 
+.tag_names[0] // "-", .pool.name,
+.boot_interface.vlan.name, .boot_interface.vlan.fabric,
+.boot_interface.links[0].subnet.name]) | @tsv' | column -t \
+| sort -k 1
+```
+
+<h3 id="heading--sorted-by-fabric">Machine list sorted by fabric</h3>
+
+```
+maas admin machines read | jq -r '(["HOSTNAME","SYSID","POWER","STATUS",
+"OWNER", "TAGS", "POOL", "VLAN","FABRIC","SUBNET"] | (., map(length*"-"))),
+(.[] | [.hostname, .system_id, .power_state, .status_name, .owner // "-", 
+.tag_names[0] // "-", .pool.name,
+.boot_interface.vlan.name, .boot_interface.vlan.fabric,
+.boot_interface.links[0].subnet.name]) | @tsv' | column -t \
+| sort -k 1
+```
+
+<h3 id="heading--sorted-by-subnet">Machine list sorted by subnet</h3>
+
+```
+maas admin machines read | jq -r '(["HOSTNAME","SYSID","POWER","STATUS",
+"OWNER", "TAGS", "POOL", "VLAN","FABRIC","SUBNET"] | (., map(length*"-"))),
+(.[] | [.hostname, .system_id, .power_state, .status_name, .owner // "-", 
+.tag_names[0] // "-", .pool.name,
+.boot_interface.vlan.name, .boot_interface.vlan.fabric,
+.boot_interface.links[0].subnet.name]) | @tsv' | column -t \
+| sort -k 1
+```
+
+<h2 id="heading--vm-host-list">List of VM hosts</h2>
+
+```
+maas admin vm-hosts read | jq -r '(["ID","VM-HOST","SYSID","CORES","USED","RAM",
+"USED","STORAGE", "USED"] | (., map(length*"-"))), (.[]| [.id,.name,.host.system_id,
+.total.cores, .used.cores, .total.memory, .used.memory,.total.local_storage,
+.used.local_storage]) | @tsv' | column -t
+```
+
+<h2 id="heading--create-kvm">Creating a KVM with confirmation</h2>
 
 Note that most of these can be entered directly at the command line using copy/paste -- even the `#!/bin/bash` won't hurt, as it will be ignored by the shell.
 
