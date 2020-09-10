@@ -22,7 +22,7 @@ deb-2-7-cli -->
 <!-- deb-2-7-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | <small>Snap</small> | &nbsp; &nbsp;[CLI](maas-documentation-snap-2-7-cli/2838) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-7-ui/2839) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-8-cli/2840) &nbsp; &nbsp; [UI](/t/maas-documentation/25) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-9-cli/2842) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-9-ui/2843) &nbsp; &nbsp; |
+| <small>Snap</small> | &nbsp; &nbsp;[CLI](maas-documentation-snap-2-7-cli/2838) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-7-ui/2839) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-8-cli/2840) &nbsp; &nbsp; [UI](/t/maas-documentation/25) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-9-cli/2842) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-9-ui/2843) &nbsp; &nbsp; |
 | <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-7-cli/2844) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-8-cli/2846) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-8-ui/2847) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-9-cli/2848) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-9-ui/2849) &nbsp; &nbsp; |
 deb-2-7-ui -->
 
@@ -80,15 +80,103 @@ deb-2-9-cli -->
 | <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-7-cli/2838) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-7-ui/2839) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-8-cli/2840) &nbsp; &nbsp; [UI](/t/maas-documentation/25) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-9-cli/2842) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-9-ui/2843) &nbsp; &nbsp; |
 | <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-7-cli/2844) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-7-ui/2845) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-8-cli/2846) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-8-ui/2847) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-9-cli/2848) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
 
-MAAS is **Metal As A Service**, a service that lets you treat physical servers like virtual machines -- instances -- in the cloud.  No need for you to manage servers individually: MAAS turns your bare metal into an elastic, cloud-like resource.
+MAAS is **Metal As A Service**, a service that allows you to treat physical servers like virtual machines -- instances -- in the cloud.  No need for you to manage servers individually: MAAS turns your bare metal into an elastic, cloud-like resource.
 
 #### Quick questions you might have:
 
-* [What is MAAS -- and what does it really do for me?](/t/what-is-maas/840)
-* [Can you show me an example datacentre using MAAS?](/t/give-me-an-example-of-maas/1314)
-* [How does MAAS work -- in detail?](/t/what-is-maas/840#heading--how-maas-works)
-* [What concepts might I need to understand before starting?](/t/concepts-and-terms/785)
-* [Can I just install it and try it for myself?](/t/explore-maas/787)
+<!-- deb-2-7-ui
+* [What is MAAS -- and what does it really do for me?](/t/about-maas-deb-2-7-ui/2269)
+* [Can you show me an example datacentre using MAAS?](/t/give-me-an-example-of-maas-deb-2-7-ui/2653)
+* [How does MAAS work -- in detail?](/t/about-maas-deb-2-7-ui/2269#heading--how-maas-works)
+* [What concepts might I need to understand before starting?](/t/concepts-and-terms-deb-2-7-ui/2521)
+* [Can I just install it and try it for myself?](/t/explore-maas-deb-2-7-ui/2641)
+deb-2-7-ui -->
+
+<!-- snap-2-7-ui
+* [What is MAAS -- and what does it really do for me?](/t/about-maas-snap-2-7-ui/2263)
+* [Can you show me an example datacentre using MAAS?](/t/give-me-an-example-of-maas-snap-2-7-ui/2647)
+* [How does MAAS work -- in detail?](/t/about-maas-snap-2-7-ui/2263#heading--how-maas-works)
+* [What concepts might I need to understand before starting?](/t/concepts-and-terms-snap-2-7-ui/2515)
+* [Can I just install it and try it for myself?](/t/explore-maas-snap-2-7-ui/2635)
+snap-2-7-ui -->
+
+<!-- deb-2-8-ui
+* [What is MAAS -- and what does it really do for me?](/t/about-maas-deb-2-8-ui/2271)
+* [Can you show me an example datacentre using MAAS?](/t/give-me-an-example-of-maas-deb-2-8-ui/2655)
+* [How does MAAS work -- in detail?](/tabout-maas-deb-2-8-ui/2271#heading--how-maas-works)
+* [What concepts might I need to understand before starting?](/t/concepts-and-terms-deb-2-8-ui/2523)
+* [Can I just install it and try it for myself?](/t/explore-maas-deb-2-8-ui/2643)
+deb-2-8-ui -->
+
+<!-- snap-2-8-ui
+* [What is MAAS -- and what does it really do for me?](/t/about-maas-snap-2-8-ui/2265)
+* [Can you show me an example datacentre using MAAS?](/t/give-me-an-example-of-maas-snap-2-8-ui/2649)
+* [How does MAAS work -- in detail?](/t/about-maas-snap-2-8-ui/2265#heading--how-maas-works)
+* [What concepts might I need to understand before starting?](/t/concepts-and-terms-snap-2-8-ui/2517)
+* [Can I just install it and try it for myself?](/t/explore-maas-snap-2-8-ui/2637)
+snap-2-8-ui -->
+
+* [What is MAAS -- and what does it really do for me?](/t/about-maas-deb-2-9-ui/2273)
+* [Can you show me an example datacentre using MAAS?](/t/give-me-an-example-of-maas-deb-2-9-ui/2657)
+* [How does MAAS work -- in detail?](/t/about-maas-deb-2-9-ui/2273#heading--how-maas-works)
+* [What concepts might I need to understand before starting?](/t/concepts-and-terms-deb-2-9-ui/2525)
+* [Can I just install it and try it for myself?](/t/explore-maas-deb-2-9-ui/2645)
+
+<!-- snap-2-9-ui
+* [What is MAAS -- and what does it really do for me?](/t/about-maas-snap-2-9-ui/2267)
+* [Can you show me an example datacentre using MAAS?](/t/give-me-an-example-of-maas-snap-2-9-ui/2651)
+* [How does MAAS work -- in detail?](/t/about-maas-snap-2-9-ui/2267#heading--how-maas-works)
+* [What concepts might I need to understand before starting?](/t/concepts-and-terms-snap-2-9-ui/2519)
+* [Can I just install it and try it for myself?](/t/explore-maas-snap-2-9-ui/2639)
+snap-2-9-ui -->
+
+<!-- deb-2-7-cli
+* [What is MAAS -- and what does it really do for me?](/t/about-maas-deb-2-7-cli/2268)
+* [Can you show me an example datacentre using MAAS?](/t/give-me-an-example-of-maas-deb-2-7-cli/2652)
+* [How does MAAS work -- in detail?](/t/about-maas-deb-2-7-cli/2268#heading--how-maas-works)
+* [What concepts might I need to understand before starting?](/t/concepts-and-terms-deb-2-7-cli/2520)
+* [Can I just install it and try it for myself?](/t/explore-maas-deb-2-7-cli/2640)
+deb-2-7-cli -->
+
+<!-- snap-2-7-cli
+* [What is MAAS -- and what does it really do for me?](/t/about-maas-snap-2-7-cli/2262)
+* [Can you show me an example datacentre using MAAS?](/t/give-me-an-example-of-maas-snap-2-7-cli/2646)
+* [How does MAAS work -- in detail?](/t/about-maas-snap-2-7-cli/2262#heading--how-maas-works)
+* [What concepts might I need to understand before starting?](/t/concepts-and-terms-snap-2-7-cli/2514)
+* [Can I just install it and try it for myself?](/t/explore-maas-snap-2-7-cli/2634)
+snap-2-7-cli -->
+
+<!-- deb-2-8-cli
+* [What is MAAS -- and what does it really do for me?](/t/about-maas-deb-2-8-cli/2270)
+* [Can you show me an example datacentre using MAAS?](/t/give-me-an-example-of-maas-deb-2-8-cli/2654)
+* [How does MAAS work -- in detail?](/t/about-maas-deb-2-8-cli/2270#heading--how-maas-works)
+* [What concepts might I need to understand before starting?](/t/concepts-and-terms-deb-2-8-cli/2522)
+* [Can I just install it and try it for myself?](/t/explore-maas-deb-2-8-cli/2642)
+deb-2-8-cli -->
+
+<!-- snap-2-8-cli
+* [What is MAAS -- and what does it really do for me?](/t/about-maas-snap-2-8-cli/2264)
+* [Can you show me an example datacentre using MAAS?](/t/give-me-an-example-of-maas-snap-2-8-cli/2648)
+* [How does MAAS work -- in detail?](/t/about-maas-snap-2-8-cli/2264#heading--how-maas-works)
+* [What concepts might I need to understand before starting?](/t/concepts-and-terms-snap-2-8-cli/2516)
+* [Can I just install it and try it for myself?](/t/explore-maas-snap-2-8-cli/2636)
+snap-2-8-cli -->
+
+<!-- deb-2-9-cli
+* [What is MAAS -- and what does it really do for me?](/t/about-maas-deb-2-9-cli/2272)
+* [Can you show me an example datacentre using MAAS?](/t/give-me-an-example-of-maas-deb-2-9-cli/2656)
+* [How does MAAS work -- in detail?](/t/about-maas-deb-2-9-cli/2272#heading--how-maas-works)
+* [What concepts might I need to understand before starting?](/t/concepts-and-terms-deb-2-9-cli/2524)
+* [Can I just install it and try it for myself?](/t/explore-maas-deb-2-9-cli/2644)
+deb-2-9-cli -->
+
+<!-- snap-2-9-cli
+* [What is MAAS -- and what does it really do for me?](/t/about-maas-snap-2-9-cli/2266)
+* [Can you show me an example datacentre using MAAS?](/t/give-me-an-example-of-maas-snap-2-9-cli/2650)
+* [How does MAAS work -- in detail?](/t/about-maas-snap-2-9-cli/2266#heading--how-maas-works)
+* [What concepts might I need to understand before starting?](/t/concepts-and-terms-snap-2-9-cli/2518)
+* [Can I just install it and try it for myself?](/t/explore-maas-snap-2-9-cli/2638)
+snap-2-9-cli -->
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a>
 

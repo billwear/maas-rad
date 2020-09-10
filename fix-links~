@@ -1,0 +1,59 @@
+#!/usr/bin/python3
+
+import sys, subprocess, json, os, time, re, markdown, jinja2
+from shutil import copyfile
+import datetime
+import pytz
+import shutil
+import requests
+import glob, sys
+
+for name in glob.glob('originals/*.md'):
+    basename = name.split(".")[0]
+    print(basename)
+#     makestanza = []
+#     i = False
+#     for target in glob.glob('originals/'+basename+'*'):
+#         deplist.append(target)
+#         splitter = name.split(".")[0]
+#         diff = target.split(splitter)[1].split(".")[0]
+#         topicno = diff.split("-")[-1]
+#         tag = diff.split(topicno)[0].strip("-")
+#         target_base = target.split("/")[1]
+#         if i == False:
+#             makestanza.append(target + ": " + name)
+#             makestanza.append("\tchmod 644 originals/*")
+#             i = True 
+#         makestanza.append("\tcp " + name + " " + target_base)
+#         makestanza.append("\txpub push discourse -t " + tag + " " + target_base)
+#         makestanza.append("\txpub pull discourse " + topicno + " " + topicno)
+#         makestanza.append("\tcp -p " + target_base + " originals")
+#         makestanza.append("\trm " + target_base)
+
+# # convert the tag to a discourse friendly URL
+#         subdomains = re.sub("-", "/", tag)
+#         urlish = "/docs/" + subdomains + "/" + filename.split(".")[0]
+#         content = ""
+#         foundit = False
+
+#         ## formulate what the link should look like
+#         link = "https://discourse.maas.io/t/" + str(topic_slug) + "/" + str(topic_id)
+
+#         ## formulate the full URL definition line
+#         defline = "| " + link + " | " + urlish + " |\n"
+
+#         # find the line that references the base doc
+#         with open("maas-documentation.md", "r") as inF:
+#             for line in inF:
+#                 if link in line:
+#                     foundit = True
+#                     break
+#                 elif "BOT ADD POINT" in line:
+#                     content += defline
+#                 content += line
+
+#         if foundit == False:
+#             # write the whole thing back to the base doc
+#             bdf = open("maas-documentation.md", "w")
+#             bdf.write(content)
+#             bdf.close()

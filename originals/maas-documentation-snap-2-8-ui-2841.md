@@ -1,131 +1,84 @@
 <!-- snap-2-7-cli
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
+| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-7-ui/2839) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-8-cli/2840) &nbsp; &nbsp; [UI](/t/maas-documentation/25) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-9-cli/2842) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-9-ui/2843) &nbsp; &nbsp; |
+| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-7-cli/2844) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-7-ui/2845) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-8-cli/2846) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-8-ui/2847) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-9-cli/2848) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-9-ui/2849) &nbsp; &nbsp; |
 snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
+| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-7-cli/2838) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-8-cli/2840) &nbsp; &nbsp; [UI](/t/maas-documentation/25) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-9-cli/2842) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-9-ui/2843) &nbsp; &nbsp; |
+| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-7-cli/2844) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-7-ui/2845) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-8-cli/2846) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-8-ui/2847) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-9-cli/2848) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-9-ui/2849) &nbsp; &nbsp; |
 snap-2-7-ui -->
 
 <!-- deb-2-7-cli
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
+| <small>Snap</small> | &nbsp; &nbsp;[CLI](maas-documentation-snap-2-7-cli/2838) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-7-ui/2839) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-8-cli/2840) &nbsp; &nbsp; [UI](/t/maas-documentation/25) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-9-cli/2842) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-9-ui/2843) &nbsp; &nbsp; |
+| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-7-ui/2845) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-8-cli/2846) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-8-ui/2847) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-9-cli/2848) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-9-ui/2849) &nbsp; &nbsp; |
 deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
+| <small>Snap</small> | &nbsp; &nbsp;[CLI](maas-documentation-snap-2-7-cli/2838) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-7-ui/2839) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-8-cli/2840) &nbsp; &nbsp; [UI](/t/maas-documentation/25) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-9-cli/2842) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-9-ui/2843) &nbsp; &nbsp; |
+| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-7-cli/2844) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-8-cli/2846) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-8-ui/2847) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-9-cli/2848) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-9-ui/2849) &nbsp; &nbsp; |
 deb-2-7-ui -->
 
 <!-- snap-2-8-cli
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
+| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-7-cli/2838) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-7-ui/2839) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/maas-documentation/25) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-9-cli/2842) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-9-ui/2843) &nbsp; &nbsp; |
+| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-7-cli/2844) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-7-ui/2845) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-8-cli/2846) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-8-ui/2847) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-9-cli/2848) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-9-ui/2849) &nbsp; &nbsp; |
 snap-2-8-cli -->
 
-<!-- snap-2-8-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-7-cli/2838) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-7-ui/2839) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-8-cli/2840) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-9-cli/2842) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-9-ui/2843) &nbsp; &nbsp; |
+| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-7-cli/2844) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-7-ui/2845) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-8-cli/2846) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-8-ui/2847) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-9-cli/2848) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-9-ui/2849) &nbsp; &nbsp; |
 
 <!-- deb-2-8-cli
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
+| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-7-cli/2838) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-7-ui/2839) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-8-cli/2840) &nbsp; &nbsp; [UI](/t/maas-documentation/25) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-9-cli/2842) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-9-ui/2843) &nbsp; &nbsp; |
+| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-7-cli/2844) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-7-ui/2845) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-8-ui/2847) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-9-cli/2848) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-9-ui/2849) &nbsp; &nbsp; |
 deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
+| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-7-cli/2838) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-7-ui/2839) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-8-cli/2840) &nbsp; &nbsp; [UI](/t/maas-documentation/25) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-9-cli/2842) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-9-ui/2843) &nbsp; &nbsp; |
+| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-7-cli/2844) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-7-ui/2845) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-8-cli/2846) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-9-cli/2848) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-9-ui/2849) &nbsp; &nbsp; |
 deb-2-8-ui -->
 
 <!-- snap-2-9-cli
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
+| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-7-cli/2838) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-7-ui/2839) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-8-cli/2840) &nbsp; &nbsp; [UI](/t/maas-documentation/25) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-9-ui/2843) &nbsp; &nbsp; |
+| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-7-cli/2844) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-7-ui/2845) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-8-cli/2846) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-8-ui/2847) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-9-cli/2848) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-9-ui/2849) &nbsp; &nbsp; |
 snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
+| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-7-cli/2838) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-7-ui/2839) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-8-cli/2840) &nbsp; &nbsp; [UI](/t/maas-documentation/25) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-9-cli/2842) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
+| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-7-cli/2844) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-7-ui/2845) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-8-cli/2846) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-8-ui/2847) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-9-cli/2848) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-9-ui/2849) &nbsp; &nbsp; |
 snap-2-9-ui -->
 
 <!-- deb-2-9-cli
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
+| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-7-cli/2838) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-7-ui/2839) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-8-cli/2840) &nbsp; &nbsp; [UI](/t/maas-documentation/25) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-9-cli/2842) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-9-ui/2843) &nbsp; &nbsp; |
+| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-7-cli/2844) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-7-ui/2845) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-8-cli/2846) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-8-ui/2847) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-9-ui/2849) &nbsp; &nbsp; |
 deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
+| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-7-cli/2838) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-7-ui/2839) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-8-cli/2840) &nbsp; &nbsp; [UI](/t/maas-documentation/25) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-9-cli/2842) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-9-ui/2843) &nbsp; &nbsp; |
+| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-7-cli/2844) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-7-ui/2845) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-8-cli/2846) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-8-ui/2847) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-9-cli/2848) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
 deb-2-9-ui -->
-
-<!-- base set DO NOT EDIT
-<table width="100%"><tr>
-<td><a href="https://maas.io/docs"><u>Standard</u></a></td>
-<td><a href="https://maas.io/docs/ui">UI-only</a></td>
-<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
-<td><a href="https://maas.io/docs/2.7">2.7</a></td>
-</tr></table>
- base set DO NOT EDIT -->
-
-<!-- vanilla
-<table width="100%"><tr>
-<td><strong>Standard</strong></td>
-<td><a href="https://maas.io/docs/ui">UI-only</a></td>
-<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
-<td><a href="https://maas.io/docs/2.7">2.7</a></td>
-</tr></table>
- vanilla -->
-
-<!-- ui
-<table width="100%"><tr>
-<td><a href="https://maas.io/docs">Standard</a></td>
-<td><strong>UI-only<strong></td>
-<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
-<td><a href="https://maas.io/docs/2.7">2.7</a></td>
-</tr></table>
- ui -->
-
-<!-- cli
-<table width="100%"><tr>
-<td><a href="https://maas.io/docs">Standard</a></td>
-<td><a href="https://maas.io/docs/ui">UI-only</a></td>
-<td><strong>CLI-only</strong></td>
-<td><a href="https://maas.io/docs/2.7">2.7</a></td>
-</tr></table>
- cli -->
-
-<!-- 2.7
-<table width="100%"><tr>
-<td><a href="https://maas.io/docs"><u>Standard</u></a></td>
-<td><a href="https://maas.io/docs/ui">UI-only</a></td>
-<td><a href="https://maas.io/docs/cli">CLI-only</a></td>
-<td><strong>2.7</strong></td>
-</tr></table>
- 2.7 -->
 
 MAAS is **Metal As A Service**, a service that lets you treat physical servers like virtual machines -- instances -- in the cloud.  No need for you to manage servers individually: MAAS turns your bare metal into an elastic, cloud-like resource.
 
@@ -137,50 +90,30 @@ MAAS is **Metal As A Service**, a service that lets you treat physical servers l
 * [What concepts might I need to understand before starting?](/t/concepts-and-terms/785)
 * [Can I just install it and try it for myself?](/t/explore-maas/787)
 
-<!-- vanilla
 <a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a>
 
 *Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre.*
-vanilla -->
 
-<!-- ui
-<a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a>
-
-*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre.*
- ui -->
-
-<!-- cli
+<!-- deb-2-7-cli deb-2-8-cli deb-2-9-cli snap-2-7-cli snap-2-8-cli snap-2-9-cli
 <a href="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg">
 </a>
 
 *Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre, generated with the [lsmm](/t/the-cli-cookbook/2218#heading--basic-machine-list) recipe in our [CLI cookbook](/t/the-cli-cookbook/2218).*
- cli -->
-
-<!-- 2.7
-<a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a>
-
-*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre.*
-2.7 -->
+ deb-2-7-cli deb-2-8-cli deb-2-9-cli snap-2-7-cli snap-2-8-cli snap-2-9-cli -->
 
 ---
 
 <h2 id="heading--whats-new">New version of MAAS</h2>
 
-<!-- vanilla
 - [What's new in 2.8](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
-vanilla -->
 
-<!-- ui
-- [What's new in 2.8](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
-ui -->
-
-<!-- cli
-- [What's new in 2.8](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
-cli -->
-
-<!-- 2.7
+<!-- deb-2-7-cli deb-2-7-ui snap-2-7-cli snap-2-7-ui
 - [What's new in 2.7](https://discourse.maas.io/t/whats-new-in-maas-2-7/1306)
-2.7 -->
+deb-2-7-cli deb-2-7-ui snap-2-7-cli snap-2-7-ui -->
+
+<!-- deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui
+- What's new in 2.9 (under development)
+deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 
 ---
 
@@ -324,6 +257,18 @@ cli -->
 [details=Mapping table]
 | TOPIC | PATH |
 | -- | -- |
+| https://discourse.maas.io/t/maas-documentation-snap-2-8-ui/2841/ | /docs/ |
+| https://discourse.maas.io/t/maas-documentation-deb-2-7-cli/2844 | /docs/deb/2.7/cli |
+| https://discourse.maas.io/t/maas-documentation-deb-2-7-ui/2845 | /docs/deb/2.7/ui |
+| https://discourse.maas.io/t/maas-documentation-deb-2-8-cli/2846 | /docs/deb/2.8/cli |
+| https://discourse.maas.io/t/maas-documentation-deb-2-8-ui/2847 | /docs/deb/2.8/ui |
+| https://discourse.maas.io/t/maas-documentation-deb-2-9-cli/2848 | /docs/deb/2.9/cli |
+| https://discourse.maas.io/t/maas-documentation-deb-2-9-ui/2849 | /docs/deb/2.9/ui |
+| https://discourse.maas.io/t/maas-documentation-snap-2-7-cli/2838 | /docs/snap/2.7/cli |
+| https://discourse.maas.io/t/maas-documentation-snap-2-7-ui/2839 | /docs/snap/2.7/ui |
+| https://discourse.maas.io/t/maas-documentation-snap-2-8-cli/2840 | /docs/snap/2.8/cli |
+| https://discourse.maas.io/t/maas-documentation-snap-2-9-cli/2842 | /docs/snap/2.9/cli |
+| https://discourse.maas.io/t/maas-documentation-snap-2-9-ui/2843 | /docs/snap/2.9/ui |
 | https://discourse.maas.io/t/rad-menu-testing-deb-2-7-cli/2251 | /docs/deb/2.7/cli/menu-testing |
 | https://discourse.maas.io/t/rad-menu-testing-deb-2-7-ui/2253  | /docs/deb/2.7/ui/menu-testing  |
 | https://discourse.maas.io/t/rad-menu-testing-deb-2-8-cli/2256 | /docs/deb/2.8/cli/menu-testing |
@@ -345,10 +290,6 @@ cli -->
 | https://discourse.maas.io/t/give-me-an-example-of-maas/1314 | /docs/maas-example-config |
 | https://discourse.maas.io/t/non-snap-maas-installs/1308 | /docs/non-snap-maas-installs |
 | https://discourse.maas.io/t/concepts-and-terms/785#heading--network-tutorial | /docs/network-tutorial |
-| https://discourse.maas.io/t/maas-documentation/25/ | /docs |
-| https://discourse.maas.io/t/maas-documentation-cli/2030/ | /docs/cli |
-| https://discourse.maas.io/t/maas-documentation-ui/2100/ | /docs/ui |
-| https://discourse.maas.io/t/maas-documentation-2-7/2168 | /docs/2.7 |
 | https://discourse.maas.io/t/api-authentication/742/ | /docs/api-authentication |
 | https://discourse.maas.io/t/contact-us/743/ | /docs/contact-us |
 | https://discourse.maas.io/t/tips-tricks-and-traps/1506 | /docs/tips-tricks-and-traps |
@@ -481,6 +422,15 @@ cli -->
 [details=Mapping table]
 | PATH                                   | LOCATION                                  |
 | -------------------------------------- | ----------------------------------------- |
+| /docs/snap/2.8/ui                      | /docs |
+| /docs/snap                            | /docs |
+| /docs/snap/2.8                         | /docs |
+| /docs/snap/2.7                         | /docs/snap/2.7/ui |
+| /docs/snap/2.9                         | /docs/snap/2.9/ui |
+| /docs/deb                              | /docs/deb/2.8/ui |
+| /docs/deb/2.8                          | /docs/deb/2.8/ui |
+| /docs/deb/2.7                          | /docs/deb/2.7/ui |
+| /docs/deb/2.9                          | /docs/deb/2.9/ui |
 | /docs/pods                             | /docs/intro-to-vm-hosting                 |
 |/docs/manage-composable-machines |/docs/intro-to-vm-hosting |
 | /docs/kvm-introduction                 | /docs/intro-to-vm-hosting                 |

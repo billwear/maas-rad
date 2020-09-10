@@ -5752,7 +5752,7 @@ originals/maas-documentation-snap-2-7-ui-2839.md: maas-documentation.md
 	rm maas-documentation-snap-2-9-ui-2843.md
 	cp maas-documentation.md maas-documentation-25.md
 	xpub push discourse -t snap-2-8-ui maas-documentation-25.md
-	xpub pull discourse 2841 2841
+	xpub pull discourse 25 25
 	cp -p maas-documentation-25.md originals
 	rm maas-documentation-25.md
 	cp maas-documentation.md maas-documentation-snap-2-8-cli-2840.md
