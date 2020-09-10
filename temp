@@ -1,0 +1,27 @@
+Usage: xpub push discourse [OPTIONS] [FILES]...
+
+  Push files to a discourse forum from the CWD
+
+  Files must represent topics that already exist, and should be named
+  "<anything-you-want>-tnum.md", where "tnum" is the topic number.  Nothing
+  other than the "tnum" affects anything about the pushed topic. You may
+  specify files with wildcards, if desired.
+
+  Tags are markers that turn on commented-out sections of the markdown, so
+  that you can create different versions of the topic.  To add a tag, simply
+  place a comment before the paragraph you wish to make conditional, like
+  this: "<!-- keyword" and place a corresponding comment marker after the
+  paragraph, like this: "keyword -->".  Enter a tag keyword, exactly as
+  specified, when you invoke this command.
+
+  Only one tag per push.  This may seem like a limitation, but if you are
+  using mutliple dimensions (like CLI vs. UI, and version 2 vs. version 3,
+  you'll quickly discover that nested tags don't work well for writing.
+  Instead, try tags like "v2-cli" or "v3-ui".
+
+  You must have URL and auth data in a file called "/etc/dc.yaml" -- see the
+  example file in github for details.
+
+Options:
+  -t TEXT  document tag to control output
+  --help   Show this message and exit.

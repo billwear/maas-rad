@@ -7,6 +7,7 @@ makelist = []
 for name in glob.glob('*.md'):
     basename = name.split(".")[0]
     makestanza = []
+    i = False
     for target in glob.glob('originals/'+basename+'*'):
         deplist.append(target)
         splitter = name.split(".")[0]
@@ -14,20 +15,16 @@ for name in glob.glob('*.md'):
         topicno = diff.split("-")[-1]
         tag = diff.split(topicno)[0].strip("-")
         target_base = target.split("/")[1]
-        if not tag:
-            makestanza.insert(0,"\trm " + target_base)
-            makestanza.insert(0,"\tcp -p " + target_base + " originals")
-            makestanza.insert(0,"\txpub pull discourse " + topicno + " " + topicno)
-            makestanza.insert(0,"\txpub push discourse -t vanilla " + target_base)
-            makestanza.insert(0,"\tcp " + name + " " + target_base)
-            makestanza.insert(0,"\tchmod 644 originals/*")
-            makestanza.insert(0,target + ": " + name)
-        else:
-            makestanza.append("\tcp " + name + " " + target_base)
-            makestanza.append("\txpub push discourse -t " + tag + " " + target_base)
-            makestanza.append("\txpub pull discourse " + topicno + " " + topicno)
-            makestanza.append("\tcp -p " + target_base + " originals")
-            makestanza.append("\trm " + target_base)
+        if i == False:
+            makestanza.append(target + ": " + name)
+            makestanza.append("\tchmod 644 originals/*")
+            i = True 
+        makestanza.append("\tcp " + name + " " + target_base)
+        makestanza.append("\txpub push discourse -t " + tag + " " + target_base)
+        makestanza.append("\txpub pull discourse " + topicno + " " + topicno)
+        makestanza.append("\tcp -p " + target_base + " originals")
+        makestanza.append("\trm " + target_base)
+                      
     makestanza.append("\tchmod 444 originals/*")
     makelist.append(makestanza)
 
