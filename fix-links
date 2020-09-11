@@ -14,7 +14,10 @@ for name in glob.glob('*.md'):
         splitter = name.split(".")[0]
         diff = target.split(splitter)[1].split(".")[0]
         topicno = diff.split("-")[-1]
-        tag = diff.split(topicno)[0].strip("-")
+        try:
+            tag = diff.split(topicno)[0].strip("-")
+        except:
+            continue
         subdomains = re.sub("-", "/", tag)
         subdomains = re.sub("2/7","2.7",subdomains)
         subdomains = re.sub("2/8","2.8",subdomains)

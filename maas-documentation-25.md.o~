@@ -33,10 +33,12 @@ deb-2-7-ui -->
 | <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-7-cli/2844) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-7-ui/2845) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-8-cli/2846) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-8-ui/2847) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-9-cli/2848) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-9-ui/2849) &nbsp; &nbsp; |
 snap-2-8-cli -->
 
+<!-- snap-2-8-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
 | <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-7-cli/2838) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-7-ui/2839) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-8-cli/2840) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-snap-2-9-cli/2842) &nbsp; &nbsp; [UI](/t/maas-documentation-snap-2-9-ui/2843) &nbsp; &nbsp; |
 | <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-7-cli/2844) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-7-ui/2845) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-8-cli/2846) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-8-ui/2847) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/maas-documentation-deb-2-9-cli/2848) &nbsp; &nbsp; [UI](/t/maas-documentation-deb-2-9-ui/2849) &nbsp; &nbsp; |
+snap-2-8-ui -->
 
 <!-- deb-2-8-cli
 || 2.7 | 2.8 | 2.9|
@@ -108,11 +110,13 @@ snap-2-7-ui -->
 * [Can I just install it and try it for myself?](/t/explore-maas-deb-2-8-ui/2643)
 deb-2-8-ui -->
 
+<!-- snap-2-8-ui
 * [What is MAAS -- and what does it really do for me?](/t/about-maas-snap-2-8-ui/2265)
 * [Can you show me an example datacentre using MAAS?](/t/give-me-an-example-of-maas-snap-2-8-ui/2649)
 * [How does MAAS work -- in detail?](/t/about-maas-snap-2-8-ui/2265#heading--how-maas-works)
 * [What concepts might I need to understand before starting?](/t/concepts-and-terms-snap-2-8-ui/2517)
 * [Can I just install it and try it for myself?](/t/explore-maas-snap-2-8-ui/2637)
+snap-2-8-ui -->
 
 <!-- deb-2-9-ui
 * [What is MAAS -- and what does it really do for me?](/t/about-maas-deb-2-9-ui/2273)
@@ -178,9 +182,11 @@ deb-2-9-cli -->
 * [Can I just install it and try it for myself?](/t/explore-maas-snap-2-9-cli/2638)
 snap-2-9-cli -->
 
+<!-- deb-2-7-ui deb-2-8-ui deb-2-9-ui snap-2-7-ui snap-2-8-ui snap-2-9-ui
 <a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a>
 
 *Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre.*
+ deb-2-7-ui deb-2-8-ui deb-2-9-ui snap-2-7-ui snap-2-8-ui snap-2-9-ui -->
 
 <!-- deb-2-7-cli deb-2-8-cli deb-2-9-cli snap-2-7-cli snap-2-8-cli snap-2-9-cli
 <a href="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg">
@@ -193,7 +199,9 @@ snap-2-9-cli -->
 
 <h2 id="heading--whats-new">New version of MAAS</h2>
 
+<!-- deb-2-8-cli deb-2-8-ui snap-2-8-cli snap-2-8-ui
 - [What's new in 2.8](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
+deb-2-8-cli deb-2-8-ui snap-2-8-cli snap-2-8-ui -->
 
 <!-- deb-2-7-cli deb-2-7-ui snap-2-7-cli snap-2-7-ui
 - [What's new in 2.7](https://discourse.maas.io/t/whats-new-in-maas-2-7/1306)
@@ -343,60 +351,7 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 ## URLs
 
 [details=Mapping table]
-| TOPIC | PATH |
-| --                                                               | --                 |
-| current version items - change when version is switched          |                    |
-| --                                                               | --                 |
 | https://discourse.maas.io/t/maas-documentation/25                | /docs/             |
-| --                                                               | --                 |
-| https://discourse.maas.io/t/maas-documentation-deb-2-7-cli/2844  | /docs/deb/2.7/cli  |
-| https://discourse.maas.io/t/maas-documentation-deb-2-7-ui/2845   | /docs/deb/2.7/ui   |
-| https://discourse.maas.io/t/maas-documentation-deb-2-8-cli/2846  | /docs/deb/2.8/cli  |
-| https://discourse.maas.io/t/maas-documentation-deb-2-8-ui/2847   | /docs/deb/2.8/ui   |
-| https://discourse.maas.io/t/maas-documentation-deb-2-9-cli/2848  | /docs/deb/2.9/cli  |
-| https://discourse.maas.io/t/maas-documentation-deb-2-9-ui/2849   | /docs/deb/2.9/ui   |
-| https://discourse.maas.io/t/maas-documentation-snap-2-7-cli/2838 | /docs/snap/2.7/cli |
-| https://discourse.maas.io/t/maas-documentation-snap-2-7-ui/2839  | /docs/snap/2.7/ui  |
-| https://discourse.maas.io/t/maas-documentation-snap-2-8-cli/2840 | /docs/snap/2.8/cli |
-| https://discourse.maas.io/t/maas-documentation-snap-2-9-cli/2842 | /docs/snap/2.9/cli |
-| https://discourse.maas.io/t/maas-documentation-snap-2-9-ui/2843  | /docs/snap/2.9/ui  |
-| https://discourse.maas.io/t/maas-documentation-snap-2-9-ui/2843  | /docs/snap/2.9/ui  |
-| https://discourse.maas.io/t/about-maas-deb-2-7-cli/2268       | /docs/deb/2.7/cli/about-maas |
-| https://discourse.maas.io/t/about-maas-deb-2-7-ui/2269       | /docs/deb/2.7/ui/about-maas |
-| https://discourse.maas.io/t/about-maas-deb-2-8-cli/2270       | /docs/deb/2.8/cli/about-maas |
-| https://discourse.maas.io/t/about-maas-deb-2-8-ui/2271       | /docs/deb/2.8/ui/about-maas |
-| https://discourse.maas.io/t/about-maas-deb-2-9-cli/2272       | /docs/deb/2.9/cli/about-maas |
-| https://discourse.maas.io/t/about-maas-deb-2-9-ui/2273       | /docs/deb/2.9/ui/about-maas |
-| https://discourse.maas.io/t/about-maas-snap-2-7-cli/2262       | /docs/snap/2.7/cli/about-maas |
-| https://discourse.maas.io/t/about-maas-snap-2-7-ui/2263       | /docs/snap/2.7/ui/about-maas |
-| https://discourse.maas.io/t/about-maas-snap-2-8-cli/2264       | /docs/snap/2.8/cli/about-maas |
-| https://discourse.maas.io/t/about-maas-snap-2-8-ui/2265       | /docs/snap/2.8/ui/about-maas |
-| https://discourse.maas.io/t/about-maas-snap-2-9-cli/2266       | /docs/snap/2.9/cli/about-maas |
-| https://discourse.maas.io/t/about-maas-snap-2-9-ui/2267       | /docs/snap/2.9/ui/about-maas |
-| https://discourse.maas.io/t/give-me-an-example-of-maas-deb-2-7-cli/2652 | /docs/deb/2.7/cli/maas-example-config |
-| https://discourse.maas.io/t/give-me-an-example-of-maas-deb-2-7-ui/2653 | /docs/deb/2.7/ui/maas-example-config |
-| https://discourse.maas.io/t/give-me-an-example-of-maas-deb-2-8-cli/2654 | /docs/deb/2.8/cli/maas-example-config |
-| https://discourse.maas.io/t/give-me-an-example-of-maas-deb-2-8-ui/2655 | /docs/deb/2.8/ui/maas-example-config |
-| https://discourse.maas.io/t/give-me-an-example-of-maas-deb-2-9-cli/2656 | /docs/deb/2.9/cli/maas-example-config |
-| https://discourse.maas.io/t/give-me-an-example-of-maas-deb-2-9-ui/2657 | /docs/deb/2.9/ui/maas-example-config |
-| https://discourse.maas.io/t/give-me-an-example-of-maas-snap-2-7-cli/2646 | /docs/snap/2.7/cli/maas-example-config |
-| https://discourse.maas.io/t/give-me-an-example-of-maas-snap-2-7-ui/2647 | /docs/snap/2.7/ui/maas-example-config |
-| https://discourse.maas.io/t/give-me-an-example-of-maas-snap-2-8-cli/2648 | /docs/snap/2.8/cli/maas-example-config |
-| https://discourse.maas.io/t/give-me-an-example-of-maas-snap-2-8-ui/2649 | /docs/snap/2.8/ui/maas-example-config |
-| https://discourse.maas.io/t/give-me-an-example-of-maas-snap-2-9-cli/2650 | /docs/snap/2.9/cli/maas-example-config |
-| https://discourse.maas.io/t/give-me-an-example-of-maas-snap-2-9-ui/2651 | /docs/snap/2.7/ui/maas-example-config |
-| https://discourse.maas.io/t/rad-menu-testing-deb-2-7-cli/2251 | /docs/deb/2.7/cli/menu-testing |
-| https://discourse.maas.io/t/rad-menu-testing-deb-2-7-ui/2253  | /docs/deb/2.7/ui/menu-testing  |
-| https://discourse.maas.io/t/rad-menu-testing-deb-2-8-cli/2256 | /docs/deb/2.8/cli/menu-testing |
-| https://discourse.maas.io/t/rad-menu-testing-deb-2-8-ui/2257  | /docs/deb/2.8/ui/menu-testing  |
-| https://discourse.maas.io/t/rad-menu-testing-deb-2-9-cli/2260 | /docs/deb/2.9/cli/menu-testing |
-| https://discourse.maas.io/t/rad-menu-testing-deb-2-9-ui/2261  | /docs/deb/2.9/ui/menu-testing  |
-| https://discourse.maas.io/t/rad-menu-testing-snap-2-7-cli/2250 | /docs/snap/2.7/cli/menu-testing |
-| https://discourse.maas.io/t/rad-menu-testing-snap-2-7-ui/2249 | /docs/snap/2.7/ui/menu-testing |
-| https://discourse.maas.io/t/rad-menu-testing-snap-2-8-cli/2255 | /docs/snap/2.8/cli/menu-testing |
-| https://discourse.maas.io/t/rad-menu-testing-snap-2-8-ui/2254 | /docs/snap/2.8/ui/menu-testing |
-| https://discourse.maas.io/t/rad-menu-testing-snap-2-9-cli/2259 | /docs/snap/2.9/cli/menu-testing |
-| https://discourse.maas.io/t/rad-menu-testing-snap-2-9-ui/2258 | /docs/snap/2.9/ui/menu-testing |
 | https://discourse.maas.io/t/adding-a-vm-host/1549 | /docs/add-a-vm-host |
 | https://discourse.maas.io/t/adding-a-vm-host-ui/2064 | /docs/ui/add-a-vm-host |
 | https://discourse.maas.io/t/test-logs/1479 | /docs/test-logs |
@@ -527,7 +482,7 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 | https://discourse.maas.io/t/working-with-git-and-github/746/ | /docs/working-with-git-and-github |
 | https://discourse.maas.io/t/the-cli-cookbook/2218/ | /docs/cli-cookbook |
 | BOT ADD POINT | DO NOT REMOVE THIS LINE |
-[/details]
+[/details]s
 
 ## Redirects
 
@@ -535,17 +490,17 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 | PATH                                   | LOCATION                                  |
 | -------------------------------------- | ----------------------------------------- |
 | /docs/what-is-maas                     | /docs/snap/2.8/ui/about-maas              |
-| /docs/snap/2.8/ui                      | /docs |
-| /docs/snap                            | /docs |
-| /docs/snap/2.8                         | /docs |
-| /docs/snap/2.7                         | /docs/snap/2.7/ui |
-| /docs/snap/2.9                         | /docs/snap/2.9/ui |
-| /docs/deb                              | /docs/deb/2.8/ui |
-| /docs/deb/2.8                          | /docs/deb/2.8/ui |
-| /docs/deb/2.7                          | /docs/deb/2.7/ui |
-| /docs/deb/2.9                          | /docs/deb/2.9/ui |
+| /docs/snap/2.8/ui                      | /docs                                     |
+| /docs/snap                             | /docs                                     |
+| /docs/snap/2.8                         | /docs                                     |
+| /docs/snap/2.7                         | /docs/snap/2.7/ui                         |
+| /docs/snap/2.9                         | /docs/snap/2.9/ui                         |
+| /docs/deb                              | /docs/deb/2.8/ui                          |
+| /docs/deb/2.8                          | /docs/deb/2.8/ui                          |
+| /docs/deb/2.7                          | /docs/deb/2.7/ui                          |
+| /docs/deb/2.9                          | /docs/deb/2.9/ui                          |
 | /docs/pods                             | /docs/intro-to-vm-hosting                 |
-|/docs/manage-composable-machines |/docs/intro-to-vm-hosting |
+| /docs/manage-composable-machines       | /docs/intro-to-vm-hosting                 |
 | /docs/kvm-introduction                 | /docs/intro-to-vm-hosting                 |
 | /docs/custom-node-setup-preseed        | /docs/custom-machine-setup                |
 | /docs/manage-kvm-intro                 | /docs/intro-to-vm-hosting                 |
