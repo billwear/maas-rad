@@ -1,27 +1,478 @@
-Usage: xpub push discourse [OPTIONS] [FILES]...
-
-  Push files to a discourse forum from the CWD
-
-  Files must represent topics that already exist, and should be named
-  "<anything-you-want>-tnum.md", where "tnum" is the topic number.  Nothing
-  other than the "tnum" affects anything about the pushed topic. You may
-  specify files with wildcards, if desired.
-
-  Tags are markers that turn on commented-out sections of the markdown, so
-  that you can create different versions of the topic.  To add a tag, simply
-  place a comment before the paragraph you wish to make conditional, like
-  this: "<!-- keyword" and place a corresponding comment marker after the
-  paragraph, like this: "keyword -->".  Enter a tag keyword, exactly as
-  specified, when you invoke this command.
-
-  Only one tag per push.  This may seem like a limitation, but if you are
-  using mutliple dimensions (like CLI vs. UI, and version 2 vs. version 3,
-  you'll quickly discover that nested tags don't work well for writing.
-  Instead, try tags like "v2-cli" or "v3-ui".
-
-  You must have URL and auth data in a file called "/etc/dc.yaml" -- see the
-  example file in github for details.
-
-Options:
-  -t TEXT  document tag to control output
-  --help   Show this message and exit.
+topic 2747 , title VM hosting (snap/2.9/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   187    0   151  100    36    596    142 --:--:-- --:--:-- --:--:--   736
+b'{"basic_topic":{"id":2747,"title":"VM hosting (snap/2.9/UI)","fancy_title":"VM hosting (snap/2.9/UI)","slug":"vm-hosting-snap-2-9-ui","posts_count":1}}'
+topic 2751 , title VM hosting (deb/2.8/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   183    0   148  100    35    599    141 --:--:-- --:--:-- --:--:--   740
+b'{"basic_topic":{"id":2751,"title":"VM hosting (deb/2.8/UI)","fancy_title":"VM hosting (deb/2.8/UI)","slug":"vm-hosting-deb-2-8-ui","posts_count":1}}'
+topic 2752 , title VM hosting (deb/2.9/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   187    0   151  100    36    616    146 --:--:-- --:--:-- --:--:--   766
+b'{"basic_topic":{"id":2752,"title":"VM hosting (deb/2.9/CLI)","fancy_title":"VM hosting (deb/2.9/CLI)","slug":"vm-hosting-deb-2-9-cli","posts_count":1}}'
+topic 2744 , title VM hosting (snap/2.8/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   191    0   154  100    37    639    153 --:--:-- --:--:-- --:--:--   792
+b'{"basic_topic":{"id":2744,"title":"VM hosting (snap/2.8/CLI)","fancy_title":"VM hosting (snap/2.8/CLI)","slug":"vm-hosting-snap-2-8-cli","posts_count":1}}'
+topic 2753 , title VM hosting (deb/2.9/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   183    0   148  100    35    596    141 --:--:-- --:--:-- --:--:--   734
+b'{"basic_topic":{"id":2753,"title":"VM hosting (deb/2.9/UI)","fancy_title":"VM hosting (deb/2.9/UI)","slug":"vm-hosting-deb-2-9-ui","posts_count":1}}'
+topic 2750 , title VM hosting (deb/2.8/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   187    0   151  100    36    621    148 --:--:-- --:--:-- --:--:--   769
+b'{"basic_topic":{"id":2750,"title":"VM hosting (deb/2.8/CLI)","fancy_title":"VM hosting (deb/2.8/CLI)","slug":"vm-hosting-deb-2-8-cli","posts_count":1}}'
+topic 2746 , title VM hosting (snap/2.9/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   191    0   154  100    37    636    152 --:--:-- --:--:-- --:--:--   789
+b'{"basic_topic":{"id":2746,"title":"VM hosting (snap/2.9/CLI)","fancy_title":"VM hosting (snap/2.9/CLI)","slug":"vm-hosting-snap-2-9-cli","posts_count":1}}'
+topic 2748 , title VM hosting (deb/2.7/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   187    0   151  100    36    631    150 --:--:-- --:--:-- --:--:--   782
+b'{"basic_topic":{"id":2748,"title":"VM hosting (deb/2.7/CLI)","fancy_title":"VM hosting (deb/2.7/CLI)","slug":"vm-hosting-deb-2-7-cli","posts_count":1}}'
+topic 2742 , title VM hosting (snap/2.7/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   191    0   154  100    37    606    145 --:--:-- --:--:-- --:--:--   749
+b'{"basic_topic":{"id":2742,"title":"VM hosting (snap/2.7/CLI)","fancy_title":"VM hosting (snap/2.7/CLI)","slug":"vm-hosting-snap-2-7-cli","posts_count":1}}'
+topic 2745 , title VM hosting (snap/2.8/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   187    0   151  100    36    626    149 --:--:-- --:--:-- --:--:--   775
+b'{"basic_topic":{"id":2745,"title":"VM hosting (snap/2.8/UI)","fancy_title":"VM hosting (snap/2.8/UI)","slug":"vm-hosting-snap-2-8-ui","posts_count":1}}'
+topic 2749 , title VM hosting (deb/2.7/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   183    0   148  100    35    604    142 --:--:-- --:--:-- --:--:--   750
+b'{"basic_topic":{"id":2749,"title":"VM hosting (deb/2.7/UI)","fancy_title":"VM hosting (deb/2.7/UI)","slug":"vm-hosting-deb-2-7-ui","posts_count":1}}'
+topic 2743 , title VM hosting (snap/2.7/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   187    0   151  100    36    621    148 --:--:-- --:--:-- --:--:--   769
+b'{"basic_topic":{"id":2743,"title":"VM hosting (snap/2.7/UI)","fancy_title":"VM hosting (snap/2.7/UI)","slug":"vm-hosting-snap-2-7-ui","posts_count":1}}'
+topic 2985 , title Partitions (snap/2.8/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   187    0   151  100    36    604    144 --:--:-- --:--:-- --:--:--   748
+b'{"basic_topic":{"id":2985,"title":"Partitions (snap/2.8/UI)","fancy_title":"Partitions (snap/2.8/UI)","slug":"partitions-snap-2-8-ui","posts_count":1}}'
+topic 2993 , title Partitions (deb/2.9/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   183    0   148  100    35    616    145 --:--:-- --:--:-- --:--:--   762
+b'{"basic_topic":{"id":2993,"title":"Partitions (deb/2.9/UI)","fancy_title":"Partitions (deb/2.9/UI)","slug":"partitions-deb-2-9-ui","posts_count":1}}'
+topic 2992 , title Partitions (deb/2.9/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   187    0   151  100    36    621    148 --:--:-- --:--:-- --:--:--   769
+b'{"basic_topic":{"id":2992,"title":"Partitions (deb/2.9/CLI)","fancy_title":"Partitions (deb/2.9/CLI)","slug":"partitions-deb-2-9-cli","posts_count":1}}'
+topic 2990 , title Partitions (deb/2.8/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    36    0     0  100    36      0    154 --:--:-- --:--:-- --:--:--   154100   187    0   151  100    36    611    145 --:--:-- --:--:-- --:--:--   754
+b'{"basic_topic":{"id":2990,"title":"Partitions (deb/2.8/CLI)","fancy_title":"Partitions (deb/2.8/CLI)","slug":"partitions-deb-2-8-cli","posts_count":1}}'
+topic 2984 , title Partitions (snap/2.8/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   191    0   154  100    37    631    151 --:--:-- --:--:-- --:--:--   782
+b'{"basic_topic":{"id":2984,"title":"Partitions (snap/2.8/CLI)","fancy_title":"Partitions (snap/2.8/CLI)","slug":"partitions-snap-2-8-cli","posts_count":1}}'
+topic 2983 , title Partitions (snap/2.7/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   187    0   151  100    36    613    146 --:--:-- --:--:-- --:--:--   760
+b'{"basic_topic":{"id":2983,"title":"Partitions (snap/2.7/UI)","fancy_title":"Partitions (snap/2.7/UI)","slug":"partitions-snap-2-7-ui","posts_count":1}}'
+topic 2989 , title Partitions (deb/2.7/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   183    0   148  100    35    609    144 --:--:-- --:--:-- --:--:--   753
+b'{"basic_topic":{"id":2989,"title":"Partitions (deb/2.7/UI)","fancy_title":"Partitions (deb/2.7/UI)","slug":"partitions-deb-2-7-ui","posts_count":1}}'
+topic 2987 , title Partitions (snap/2.9/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    36    0     0  100    36      0    175 --:--:-- --:--:-- --:--:--   174100   187    0   151  100    36    623    148 --:--:-- --:--:-- --:--:--   769
+b'{"basic_topic":{"id":2987,"title":"Partitions (snap/2.9/UI)","fancy_title":"Partitions (snap/2.9/UI)","slug":"partitions-snap-2-9-ui","posts_count":1}}'
+topic 2991 , title Partitions (deb/2.8/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   183    0   148  100    35    616    145 --:--:-- --:--:-- --:--:--   762
+b'{"basic_topic":{"id":2991,"title":"Partitions (deb/2.8/UI)","fancy_title":"Partitions (deb/2.8/UI)","slug":"partitions-deb-2-8-ui","posts_count":1}}'
+topic 2988 , title Partitions (deb/2.7/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   187    0   151  100    36    611    145 --:--:-- --:--:-- --:--:--   757
+b'{"basic_topic":{"id":2988,"title":"Partitions (deb/2.7/CLI)","fancy_title":"Partitions (deb/2.7/CLI)","slug":"partitions-deb-2-7-cli","posts_count":1}}'
+topic 2982 , title Partitions (snap/2.7/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   191    0   154  100    37    652    156 --:--:-- --:--:-- --:--:--   809
+b'{"basic_topic":{"id":2982,"title":"Partitions (snap/2.7/CLI)","fancy_title":"Partitions (snap/2.7/CLI)","slug":"partitions-snap-2-7-cli","posts_count":1}}'
+topic 2986 , title Partitions (snap/2.9/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    37    0     0  100    37      0    180 --:--:-- --:--:-- --:--:--   179100   191    0   154  100    37    623    149 --:--:-- --:--:-- --:--:--   770
+b'{"basic_topic":{"id":2986,"title":"Partitions (snap/2.9/CLI)","fancy_title":"Partitions (snap/2.9/CLI)","slug":"partitions-snap-2-9-cli","posts_count":1}}'
+topic 3165 , title Troubleshooting (snap/2.8/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   207    0   166  100    41    680    168 --:--:-- --:--:-- --:--:--   848
+b'{"basic_topic":{"id":3165,"title":"Troubleshooting (snap/2.8/UI)","fancy_title":"Troubleshooting (snap/2.8/UI)","slug":"troubleshooting-snap-2-8-ui","posts_count":1}}'
+topic 3167 , title Troubleshooting (snap/2.9/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   207    0   166  100    41    688    170 --:--:-- --:--:-- --:--:--   858
+b'{"basic_topic":{"id":3167,"title":"Troubleshooting (snap/2.9/UI)","fancy_title":"Troubleshooting (snap/2.9/UI)","slug":"troubleshooting-snap-2-9-ui","posts_count":1}}'
+topic 3170 , title Troubleshooting (deb/2.8/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   207    0   166  100    41    688    170 --:--:-- --:--:-- --:--:--   862
+b'{"basic_topic":{"id":3170,"title":"Troubleshooting (deb/2.8/CLI)","fancy_title":"Troubleshooting (deb/2.8/CLI)","slug":"troubleshooting-deb-2-8-cli","posts_count":1}}'
+topic 3164 , title Troubleshooting (snap/2.8/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   211    0   169  100    42    701    174 --:--:-- --:--:-- --:--:--   871
+b'{"basic_topic":{"id":3164,"title":"Troubleshooting (snap/2.8/CLI)","fancy_title":"Troubleshooting (snap/2.8/CLI)","slug":"troubleshooting-snap-2-8-cli","posts_count":1}}'
+topic 3166 , title Troubleshooting (snap/2.9/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   211    0   169  100    42    698    173 --:--:-- --:--:-- --:--:--   871
+b'{"basic_topic":{"id":3166,"title":"Troubleshooting (snap/2.9/CLI)","fancy_title":"Troubleshooting (snap/2.9/CLI)","slug":"troubleshooting-snap-2-9-cli","posts_count":1}}'
+topic 3171 , title Troubleshooting (deb/2.8/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   203    0   163  100    40    641    157 --:--:-- --:--:-- --:--:--   799
+b'{"basic_topic":{"id":3171,"title":"Troubleshooting (deb/2.8/UI)","fancy_title":"Troubleshooting (deb/2.8/UI)","slug":"troubleshooting-deb-2-8-ui","posts_count":1}}'
+topic 3168 , title Troubleshooting (deb/2.7/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   207    0   166  100    41    688    170 --:--:-- --:--:-- --:--:--   858
+b'{"basic_topic":{"id":3168,"title":"Troubleshooting (deb/2.7/CLI)","fancy_title":"Troubleshooting (deb/2.7/CLI)","slug":"troubleshooting-deb-2-7-cli","posts_count":1}}'
+topic 3163 , title Troubleshooting (snap/2.7/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   207    0   166  100    41    691    170 --:--:-- --:--:-- --:--:--   858
+b'{"basic_topic":{"id":3163,"title":"Troubleshooting (snap/2.7/UI)","fancy_title":"Troubleshooting (snap/2.7/UI)","slug":"troubleshooting-snap-2-7-ui","posts_count":1}}'
+topic 3162 , title Troubleshooting (snap/2.7/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   211    0   169  100    42    686    170 --:--:-- --:--:-- --:--:--   857
+b'{"basic_topic":{"id":3162,"title":"Troubleshooting (snap/2.7/CLI)","fancy_title":"Troubleshooting (snap/2.7/CLI)","slug":"troubleshooting-snap-2-7-cli","posts_count":1}}'
+topic 3172 , title Troubleshooting (deb/2.9/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   207    0   166  100    41    680    168 --:--:-- --:--:-- --:--:--   848
+b'{"basic_topic":{"id":3172,"title":"Troubleshooting (deb/2.9/CLI)","fancy_title":"Troubleshooting (deb/2.9/CLI)","slug":"troubleshooting-deb-2-9-cli","posts_count":1}}'
+topic 3169 , title Troubleshooting (deb/2.7/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   203    0   163  100    40    665    163 --:--:-- --:--:-- --:--:--   828
+b'{"basic_topic":{"id":3169,"title":"Troubleshooting (deb/2.7/UI)","fancy_title":"Troubleshooting (deb/2.7/UI)","slug":"troubleshooting-deb-2-7-ui","posts_count":1}}'
+topic 3173 , title Troubleshooting (deb/2.9/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   203    0   163  100    40    644    158 --:--:-- --:--:-- --:--:--   799
+b'{"basic_topic":{"id":3173,"title":"Troubleshooting (deb/2.9/UI)","fancy_title":"Troubleshooting (deb/2.9/UI)","slug":"troubleshooting-deb-2-9-ui","posts_count":1}}'
+topic 2784 , title Kernel boot options (deb/2.7/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   223    0   178  100    45    738    186 --:--:-- --:--:-- --:--:--   925
+b'{"basic_topic":{"id":2784,"title":"Kernel boot options (deb/2.7/CLI)","fancy_title":"Kernel boot options (deb/2.7/CLI)","slug":"kernel-boot-options-deb-2-7-cli","posts_count":1}}'
+topic 2778 , title Kernel boot options (snap/2.7/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   227    0   181  100    46    721    183 --:--:-- --:--:-- --:--:--   904
+b'{"basic_topic":{"id":2778,"title":"Kernel boot options (snap/2.7/CLI)","fancy_title":"Kernel boot options (snap/2.7/CLI)","slug":"kernel-boot-options-snap-2-7-cli","posts_count":1}}'
+topic 2789 , title Kernel boot options (deb/2.9/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   219    0   175  100    44    726    182 --:--:-- --:--:-- --:--:--   908
+b'{"basic_topic":{"id":2789,"title":"Kernel boot options (deb/2.9/UI)","fancy_title":"Kernel boot options (deb/2.9/UI)","slug":"kernel-boot-options-deb-2-9-ui","posts_count":1}}'
+topic 2782 , title Kernel boot options (snap/2.9/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   227    0   181  100    46    754    191 --:--:-- --:--:-- --:--:--   941
+b'{"basic_topic":{"id":2782,"title":"Kernel boot options (snap/2.9/CLI)","fancy_title":"Kernel boot options (snap/2.9/CLI)","slug":"kernel-boot-options-snap-2-9-cli","posts_count":1}}'
+topic 2785 , title Kernel boot options (deb/2.7/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   219    0   175  100    44    729    183 --:--:-- --:--:-- --:--:--   912
+b'{"basic_topic":{"id":2785,"title":"Kernel boot options (deb/2.7/UI)","fancy_title":"Kernel boot options (deb/2.7/UI)","slug":"kernel-boot-options-deb-2-7-ui","posts_count":1}}'
+topic 2788 , title Kernel boot options (deb/2.9/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   223    0   178  100    45    738    186 --:--:-- --:--:-- --:--:--   925
+b'{"basic_topic":{"id":2788,"title":"Kernel boot options (deb/2.9/CLI)","fancy_title":"Kernel boot options (deb/2.9/CLI)","slug":"kernel-boot-options-deb-2-9-cli","posts_count":1}}'
+topic 2779 , title Kernel boot options (snap/2.7/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   223    0   178  100    45    744    188 --:--:-- --:--:-- --:--:--   933
+b'{"basic_topic":{"id":2779,"title":"Kernel boot options (snap/2.7/UI)","fancy_title":"Kernel boot options (snap/2.7/UI)","slug":"kernel-boot-options-snap-2-7-ui","posts_count":1}}'
+topic 2783 , title Kernel boot options (snap/2.9/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   223    0   178  100    45    741    187 --:--:-- --:--:-- --:--:--   925
+b'{"basic_topic":{"id":2783,"title":"Kernel boot options (snap/2.9/UI)","fancy_title":"Kernel boot options (snap/2.9/UI)","slug":"kernel-boot-options-snap-2-9-ui","posts_count":1}}'
+topic 2780 , title Kernel boot options (snap/2.8/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   227    0   181  100    46    751    190 --:--:-- --:--:-- --:--:--   945
+b'{"basic_topic":{"id":2780,"title":"Kernel boot options (snap/2.8/CLI)","fancy_title":"Kernel boot options (snap/2.8/CLI)","slug":"kernel-boot-options-snap-2-8-cli","posts_count":1}}'
+topic 2787 , title Kernel boot options (deb/2.8/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   219    0   175  100    44    714    179 --:--:-- --:--:-- --:--:--   893
+b'{"basic_topic":{"id":2787,"title":"Kernel boot options (deb/2.8/UI)","fancy_title":"Kernel boot options (deb/2.8/UI)","slug":"kernel-boot-options-deb-2-8-ui","posts_count":1}}'
+topic 2786 , title Kernel boot options (deb/2.8/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   223    0   178  100    45    732    185 --:--:-- --:--:-- --:--:--   917
+b'{"basic_topic":{"id":2786,"title":"Kernel boot options (deb/2.8/CLI)","fancy_title":"Kernel boot options (deb/2.8/CLI)","slug":"kernel-boot-options-deb-2-8-cli","posts_count":1}}'
+topic 2781 , title Kernel boot options (snap/2.8/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   223    0   178  100    45    717    181 --:--:-- --:--:-- --:--:--   895
+b'{"basic_topic":{"id":2781,"title":"Kernel boot options (snap/2.8/UI)","fancy_title":"Kernel boot options (snap/2.8/UI)","slug":"kernel-boot-options-snap-2-8-ui","posts_count":1}}'
+topic 2717 , title Interactive search (deb/2.9/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   215    0   172  100    43    713    178 --:--:-- --:--:-- --:--:--   892
+b'{"basic_topic":{"id":2717,"title":"Interactive search (deb/2.9/UI)","fancy_title":"Interactive search (deb/2.9/UI)","slug":"interactive-search-deb-2-9-ui","posts_count":1}}'
+topic 2711 , title Interactive search (snap/2.9/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   219    0   175  100    44    729    183 --:--:-- --:--:-- --:--:--   912
+b'{"basic_topic":{"id":2711,"title":"Interactive search (snap/2.9/UI)","fancy_title":"Interactive search (snap/2.9/UI)","slug":"interactive-search-snap-2-9-ui","posts_count":1}}'
+topic 2713 , title Interactive search (deb/2.7/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   215    0   172  100    43    693    173 --:--:-- --:--:-- --:--:--   866
+b'{"basic_topic":{"id":2713,"title":"Interactive search (deb/2.7/UI)","fancy_title":"Interactive search (deb/2.7/UI)","slug":"interactive-search-deb-2-7-ui","posts_count":1}}'
+topic 2706 , title Interactive search (snap/2.7/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   223    0   178  100    45    738    186 --:--:-- --:--:-- --:--:--   925
+b'{"basic_topic":{"id":2706,"title":"Interactive search (snap/2.7/CLI)","fancy_title":"Interactive search (snap/2.7/CLI)","slug":"interactive-search-snap-2-7-cli","posts_count":1}}'
+topic 2716 , title Interactive search (deb/2.9/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   219    0   175  100    44    732    184 --:--:-- --:--:-- --:--:--   916
+b'{"basic_topic":{"id":2716,"title":"Interactive search (deb/2.9/CLI)","fancy_title":"Interactive search (deb/2.9/CLI)","slug":"interactive-search-deb-2-9-cli","posts_count":1}}'
+topic 2710 , title Interactive search (snap/2.9/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   223    0   178  100    45    735    185 --:--:-- --:--:-- --:--:--   921
+b'{"basic_topic":{"id":2710,"title":"Interactive search (snap/2.9/CLI)","fancy_title":"Interactive search (snap/2.9/CLI)","slug":"interactive-search-snap-2-9-cli","posts_count":1}}'
+topic 2709 , title Interactive search (snap/2.8/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   219    0   175  100    44    717    180 --:--:-- --:--:-- --:--:--   893100   219    0   175  100    44    714    179 --:--:-- --:--:-- --:--:--   890
+b'{"basic_topic":{"id":2709,"title":"Interactive search (snap/2.8/UI)","fancy_title":"Interactive search (snap/2.8/UI)","slug":"interactive-search-snap-2-8-ui","posts_count":1}}'
+topic 2712 , title Interactive search (deb/2.7/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   219    0   175  100    44    648    162 --:--:-- --:--:-- --:--:--   811
+b'{"basic_topic":{"id":2712,"title":"Interactive search (deb/2.7/CLI)","fancy_title":"Interactive search (deb/2.7/CLI)","slug":"interactive-search-deb-2-7-cli","posts_count":1}}'
+topic 2707 , title Interactive search (snap/2.7/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   219    0   175  100    44    720    181 --:--:-- --:--:-- --:--:--   901
+b'{"basic_topic":{"id":2707,"title":"Interactive search (snap/2.7/UI)","fancy_title":"Interactive search (snap/2.7/UI)","slug":"interactive-search-snap-2-7-ui","posts_count":1}}'
+topic 2715 , title Interactive search (deb/2.8/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   215    0   172  100    43    699    174 --:--:-- --:--:-- --:--:--   873
+b'{"basic_topic":{"id":2715,"title":"Interactive search (deb/2.8/UI)","fancy_title":"Interactive search (deb/2.8/UI)","slug":"interactive-search-deb-2-8-ui","posts_count":1}}'
+topic 2708 , title Interactive search (snap/2.8/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    45    0     0  100    45      0    220 --:--:-- --:--:-- --:--:--   219100   223    0   178  100    45    744    188 --:--:-- --:--:-- --:--:--   929
+b'{"basic_topic":{"id":2708,"title":"Interactive search (snap/2.8/CLI)","fancy_title":"Interactive search (snap/2.8/CLI)","slug":"interactive-search-snap-2-8-cli","posts_count":1}}'
+topic 2714 , title Interactive search (deb/2.8/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   219    0   175  100    44    726    182 --:--:-- --:--:-- --:--:--   908
+b'{"basic_topic":{"id":2714,"title":"Interactive search (deb/2.8/CLI)","fancy_title":"Interactive search (deb/2.8/CLI)","slug":"interactive-search-deb-2-8-cli","posts_count":1}}'
+topic 2310 , title Audit event logs (snap/2.7/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   203    0   160  100    43    672    180 --:--:-- --:--:-- --:--:--   852
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 44 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":44}}'
+topic 2317 , title Audit event logs (deb/2.7/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   201    0   160  100    41    663    170 --:--:-- --:--:-- --:--:--   834
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 44 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":44}}'
+topic 2316 , title Audit event logs (deb/2.7/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    42    0     0  100    42      0    205 --:--:-- --:--:-- --:--:--   204100   202    0   160  100    42    669    175 --:--:-- --:--:-- --:--:--   841
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 44 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":44}}'
+topic 2320 , title Audit event logs (deb/2.9/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   202    0   160  100    42    677    177 --:--:-- --:--:-- --:--:--   855
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 44 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":44}}'
+topic 2318 , title Audit event logs (deb/2.8/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   202    0   160  100    42    675    177 --:--:-- --:--:-- --:--:--   852
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 43 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":43}}'
+topic 2321 , title Audit event logs (deb/2.9/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   201    0   160  100    41    675    172 --:--:-- --:--:-- --:--:--   851
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 43 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":43}}'
+topic 2311 , title Audit event logs (snap/2.7/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    42    0     0  100    42      0    204 --:--:-- --:--:-- --:--:--   204100   202    0   160  100    42    675    177 --:--:-- --:--:-- --:--:--   848
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 43 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":43}}'
+topic 2319 , title Audit event logs (deb/2.8/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   201    0   160  100    41    663    170 --:--:-- --:--:-- --:--:--   834
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 43 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":43}}'
+topic 2312 , title Audit event logs (snap/2.8/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   203    0   160  100    43    677    182 --:--:-- --:--:-- --:--:--   860
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 42 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":42}}'
+topic 2313 , title Audit event logs (snap/2.8/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   202    0   160  100    42    669    175 --:--:-- --:--:-- --:--:--   845
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 42 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":42}}'
+topic 2314 , title Audit event logs (snap/2.9/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    43    0     0  100    43      0    209 --:--:-- --:--:-- --:--:--   208100   203    0   160  100    43    601    161 --:--:-- --:--:-- --:--:--   763
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 42 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":42}}'
+topic 2315 , title Audit event logs (snap/2.9/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   202    0   160  100    42    661    173 --:--:-- --:--:-- --:--:--   834
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 42 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":42}}'
+topic 2727 , title Controllers (deb/2.8/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   196    0   160  100    36    669    150 --:--:-- --:--:-- --:--:--   823
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 41 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":41}}'
+topic 2721 , title Controllers (snap/2.8/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   197    0   160  100    37    672    155 --:--:-- --:--:-- --:--:--   827
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 41 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":41}}'
+topic 2728 , title Controllers (deb/2.9/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   197    0   160  100    37    663    153 --:--:-- --:--:-- --:--:--   817
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 41 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":41}}'
+topic 2729 , title Controllers (deb/2.9/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   196    0   160  100    36    663    149 --:--:-- --:--:-- --:--:--   813
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 40 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":40}}'
+topic 2722 , title Controllers (snap/2.9/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   198    0   160  100    38    640    152 --:--:-- --:--:-- --:--:--   792
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 40 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":40}}'
+topic 2718 , title Controllers (snap/2.7/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   198    0   160  100    38    669    158 --:--:-- --:--:-- --:--:--   828
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 40 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":40}}'
+topic 2723 , title Controllers (snap/2.9/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   197    0   160  100    37    675    156 --:--:-- --:--:-- --:--:--   827
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 40 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":40}}'
+topic 2719 , title Controllers (snap/2.7/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   197    0   160  100    37    622    143 --:--:-- --:--:-- --:--:--   766
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 39 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":39}}'
+topic 2724 , title Controllers (deb/2.7/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   197    0   160  100    37    658    152 --:--:-- --:--:-- --:--:--   810
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 39 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":39}}'
+topic 2725 , title Controllers (deb/2.7/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   196    0   160  100    36    675    151 --:--:-- --:--:-- --:--:--   827
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 39 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":39}}'
+topic 2720 , title Controllers (snap/2.8/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   198    0   160  100    38    663    157 --:--:-- --:--:-- --:--:--   818
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 39 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":39}}'
+topic 2726 , title Controllers (deb/2.8/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   197    0   160  100    37    675    156 --:--:-- --:--:-- --:--:--   831
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 38 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":38}}'
+topic 2297 , title Adding a VM host (deb/2.9/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   201    0   160  100    41    672    172 --:--:-- --:--:-- --:--:--   844
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 38 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":38}}'
+topic 2290 , title Adding a VM host (snap/2.9/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   203    0   160  100    43    666    179 --:--:-- --:--:-- --:--:--   845
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 38 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":38}}'
+topic 2296 , title Adding a VM host (deb/2.9/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   202    0   160  100    42    677    177 --:--:-- --:--:-- --:--:--   852
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 38 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":38}}'
+topic 2292 , title Adding a VM host (deb/2.7/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   202    0   160  100    42    666    175 --:--:-- --:--:-- --:--:--   841
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 37 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":37}}'
+topic 2295 , title Adding a VM host (deb/2.8/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   201    0   160  100    41    642    164 --:--:-- --:--:-- --:--:--   807
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 37 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":37}}'
+topic 2286 , title Adding a VM host (snap/2.7/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   203    0   160  100    43    677    182 --:--:-- --:--:-- --:--:--   860
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 37 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":37}}'
+topic 2293 , title Adding a VM host (deb/2.7/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   201    0   160  100    41    680    174 --:--:-- --:--:-- --:--:--   851
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 37 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":37}}'
+topic 2287 , title Adding a VM host (snap/2.7/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   202    0   160  100    42    675    177 --:--:-- --:--:-- --:--:--   852
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 36 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":36}}'
+topic 2291 , title Adding a VM host (snap/2.9/UI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   202    0   160  100    42    669    175 --:--:-- --:--:-- --:--:--   845
+b'{"errors":["You\xe2\x80\x99ve performed this action too many times. Please wait 36 seconds before trying again."],"error_type":"rate_limit","extras":{"wait_seconds":36}}'
+topic 2288 , title Adding a VM host (snap/2.8/CLI)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Traceback (most recent call last):
+  File "./xdelete", line 747, in <module>
+    '{"title":"'+x[0]+'"}'
+  File "/usr/lib/python3.6/subprocess.py", line 356, in check_output
+    **kwargs).stdout
+  File "/usr/lib/python3.6/subprocess.py", line 425, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/lib/python3.6/subprocess.py", line 850, in communicate
+    stdout = self.stdout.read()
+KeyboardInterrupt
