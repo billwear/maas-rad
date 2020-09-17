@@ -1,3 +1,87 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](concepts-and-terms-snap-2-7-cli/2514) ~ [UI](concepts-and-terms-snap-2-7-ui/2515)|[CLI](concepts-and-terms-snap-2-8-cli/2516) ~ [UI](concepts-and-terms-snap-2-8-ui/2517)|[CLI](concepts-and-terms-snap-2-9-cli/2518) ~ [UI](concepts-and-terms-snap-2-9-ui/2519)|
+|Packages|**CLI** ~ [UI](concepts-and-terms-deb-2-7-ui/2521)|[CLI](concepts-and-terms-deb-2-8-cli/2522) ~ [UI](concepts-and-terms-deb-2-8-ui/2523)|[CLI](concepts-and-terms-deb-2-9-cli/2524) ~ [UI](concepts-and-terms-deb-2-9-ui/2525)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](concepts-and-terms-snap-2-7-cli/2514) ~ [UI](concepts-and-terms-snap-2-7-ui/2515)|[CLI](concepts-and-terms-snap-2-8-cli/2516) ~ [UI](concepts-and-terms-snap-2-8-ui/2517)|[CLI](concepts-and-terms-snap-2-9-cli/2518) ~ [UI](concepts-and-terms-snap-2-9-ui/2519)|
+|Packages|[CLI](concepts-and-terms-deb-2-7-cli/2520) ~ |**UI**|[CLI](concepts-and-terms-deb-2-8-cli/2522) ~ [UI](concepts-and-terms-deb-2-8-ui/2523)|[CLI](concepts-and-terms-deb-2-9-cli/2524) ~ [UI](concepts-and-terms-deb-2-9-ui/2525)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](concepts-and-terms-snap-2-7-cli/2514) ~ [UI](concepts-and-terms-snap-2-7-ui/2515)|[CLI](concepts-and-terms-snap-2-8-cli/2516) ~ [UI](concepts-and-terms-snap-2-8-ui/2517)|[CLI](concepts-and-terms-snap-2-9-cli/2518) ~ [UI](concepts-and-terms-snap-2-9-ui/2519)|
+|Packages|[CLI](concepts-and-terms-deb-2-7-cli/2520) ~ [UI](concepts-and-terms-deb-2-7-ui/2521)||**CLI** ~ [UI](concepts-and-terms-deb-2-8-ui/2523)|[CLI](concepts-and-terms-deb-2-9-cli/2524) ~ [UI](concepts-and-terms-deb-2-9-ui/2525)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](concepts-and-terms-snap-2-7-cli/2514) ~ [UI](concepts-and-terms-snap-2-7-ui/2515)|[CLI](concepts-and-terms-snap-2-8-cli/2516) ~ [UI](concepts-and-terms-snap-2-8-ui/2517)|[CLI](concepts-and-terms-snap-2-9-cli/2518) ~ [UI](concepts-and-terms-snap-2-9-ui/2519)|
+|Packages|[CLI](concepts-and-terms-deb-2-7-cli/2520) ~ [UI](concepts-and-terms-deb-2-7-ui/2521)|[CLI](concepts-and-terms-deb-2-8-cli/2522) ~ |**UI**|[CLI](concepts-and-terms-deb-2-9-cli/2524) ~ [UI](concepts-and-terms-deb-2-9-ui/2525)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](concepts-and-terms-snap-2-7-cli/2514) ~ [UI](concepts-and-terms-snap-2-7-ui/2515)|[CLI](concepts-and-terms-snap-2-8-cli/2516) ~ [UI](concepts-and-terms-snap-2-8-ui/2517)|[CLI](concepts-and-terms-snap-2-9-cli/2518) ~ [UI](concepts-and-terms-snap-2-9-ui/2519)|
+|Packages|[CLI](concepts-and-terms-deb-2-7-cli/2520) ~ [UI](concepts-and-terms-deb-2-7-ui/2521)|[CLI](concepts-and-terms-deb-2-8-cli/2522) ~ [UI](concepts-and-terms-deb-2-8-ui/2523)||**CLI** ~ [UI](concepts-and-terms-deb-2-9-ui/2525)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](concepts-and-terms-snap-2-7-cli/2514) ~ [UI](concepts-and-terms-snap-2-7-ui/2515)|[CLI](concepts-and-terms-snap-2-8-cli/2516) ~ [UI](concepts-and-terms-snap-2-8-ui/2517)|[CLI](concepts-and-terms-snap-2-9-cli/2518) ~ [UI](concepts-and-terms-snap-2-9-ui/2519)|
+|Packages|[CLI](concepts-and-terms-deb-2-7-cli/2520) ~ [UI](concepts-and-terms-deb-2-7-ui/2521)|[CLI](concepts-and-terms-deb-2-8-cli/2522) ~ [UI](concepts-and-terms-deb-2-8-ui/2523)|[CLI](concepts-and-terms-deb-2-9-cli/2524) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](concepts-and-terms-snap-2-7-ui/2515)|[CLI](concepts-and-terms-snap-2-8-cli/2516) ~ [UI](concepts-and-terms-snap-2-8-ui/2517)|[CLI](concepts-and-terms-snap-2-9-cli/2518) ~ [UI](concepts-and-terms-snap-2-9-ui/2519)|
+|Packages|[CLI](concepts-and-terms-deb-2-7-cli/2520) ~ [UI](concepts-and-terms-deb-2-7-ui/2521)|[CLI](concepts-and-terms-deb-2-8-cli/2522) ~ [UI](concepts-and-terms-deb-2-8-ui/2523)|[CLI](concepts-and-terms-deb-2-9-cli/2524) ~ [UI](concepts-and-terms-deb-2-9-ui/2525)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](concepts-and-terms-snap-2-7-cli/2514) ~ |**UI**|[CLI](concepts-and-terms-snap-2-8-cli/2516) ~ [UI](concepts-and-terms-snap-2-8-ui/2517)|[CLI](concepts-and-terms-snap-2-9-cli/2518) ~ [UI](concepts-and-terms-snap-2-9-ui/2519)|
+|Packages|[CLI](concepts-and-terms-deb-2-7-cli/2520) ~ [UI](concepts-and-terms-deb-2-7-ui/2521)|[CLI](concepts-and-terms-deb-2-8-cli/2522) ~ [UI](concepts-and-terms-deb-2-8-ui/2523)|[CLI](concepts-and-terms-deb-2-9-cli/2524) ~ [UI](concepts-and-terms-deb-2-9-ui/2525)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](concepts-and-terms-snap-2-7-cli/2514) ~ [UI](concepts-and-terms-snap-2-7-ui/2515)||**CLI** ~ [UI](concepts-and-terms-snap-2-8-ui/2517)|[CLI](concepts-and-terms-snap-2-9-cli/2518) ~ [UI](concepts-and-terms-snap-2-9-ui/2519)|
+|Packages|[CLI](concepts-and-terms-deb-2-7-cli/2520) ~ [UI](concepts-and-terms-deb-2-7-ui/2521)|[CLI](concepts-and-terms-deb-2-8-cli/2522) ~ [UI](concepts-and-terms-deb-2-8-ui/2523)|[CLI](concepts-and-terms-deb-2-9-cli/2524) ~ [UI](concepts-and-terms-deb-2-9-ui/2525)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](concepts-and-terms-snap-2-7-cli/2514) ~ [UI](concepts-and-terms-snap-2-7-ui/2515)|[CLI](concepts-and-terms-snap-2-8-cli/2516) ~ |**UI**|[CLI](concepts-and-terms-snap-2-9-cli/2518) ~ [UI](concepts-and-terms-snap-2-9-ui/2519)|
+|Packages|[CLI](concepts-and-terms-deb-2-7-cli/2520) ~ [UI](concepts-and-terms-deb-2-7-ui/2521)|[CLI](concepts-and-terms-deb-2-8-cli/2522) ~ [UI](concepts-and-terms-deb-2-8-ui/2523)|[CLI](concepts-and-terms-deb-2-9-cli/2524) ~ [UI](concepts-and-terms-deb-2-9-ui/2525)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](concepts-and-terms-snap-2-7-cli/2514) ~ [UI](concepts-and-terms-snap-2-7-ui/2515)|[CLI](concepts-and-terms-snap-2-8-cli/2516) ~ [UI](concepts-and-terms-snap-2-8-ui/2517)||**CLI** ~ [UI](concepts-and-terms-snap-2-9-ui/2519)|
+|Packages|[CLI](concepts-and-terms-deb-2-7-cli/2520) ~ [UI](concepts-and-terms-deb-2-7-ui/2521)|[CLI](concepts-and-terms-deb-2-8-cli/2522) ~ [UI](concepts-and-terms-deb-2-8-ui/2523)|[CLI](concepts-and-terms-deb-2-9-cli/2524) ~ [UI](concepts-and-terms-deb-2-9-ui/2525)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](concepts-and-terms-snap-2-7-cli/2514) ~ [UI](concepts-and-terms-snap-2-7-ui/2515)|[CLI](concepts-and-terms-snap-2-8-cli/2516) ~ [UI](concepts-and-terms-snap-2-8-ui/2517)|[CLI](concepts-and-terms-snap-2-9-cli/2518) ~ |**UI**|
+|Packages|[CLI](concepts-and-terms-deb-2-7-cli/2520) ~ [UI](concepts-and-terms-deb-2-7-ui/2521)|[CLI](concepts-and-terms-deb-2-8-cli/2522) ~ [UI](concepts-and-terms-deb-2-8-ui/2523)|[CLI](concepts-and-terms-deb-2-9-cli/2524) ~ [UI](concepts-and-terms-deb-2-9-ui/2525)|
+ snap-2-9-ui -->
+
 Built on a foundation of networking knowledge, MAAS introduces a number of new terms, and adds some nuances to common terms.  Some of these terms may be common networking terms you never looked up; others represent more complex concepts that may be unique to MAAS.  This article presents and explains some of these important terms.
 
 <details><summary>Show me an alphabetical list of terms</summary>

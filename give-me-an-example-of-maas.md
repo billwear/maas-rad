@@ -1,3 +1,87 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|**CLI** ~ [UI](give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](give-me-an-example-of-maas-deb-2-7-cli/2652) ~ |**UI**|[CLI](give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](give-me-an-example-of-maas-deb-2-7-ui/2653)||**CLI** ~ [UI](give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](give-me-an-example-of-maas-deb-2-8-cli/2654) ~ |**UI**|[CLI](give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](give-me-an-example-of-maas-deb-2-8-ui/2655)||**CLI** ~ [UI](give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](give-me-an-example-of-maas-deb-2-9-cli/2656) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](give-me-an-example-of-maas-snap-2-7-cli/2646) ~ |**UI**|[CLI](give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](give-me-an-example-of-maas-snap-2-7-ui/2647)||**CLI** ~ [UI](give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](give-me-an-example-of-maas-snap-2-8-cli/2648) ~ |**UI**|[CLI](give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](give-me-an-example-of-maas-snap-2-8-ui/2649)||**CLI** ~ [UI](give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](give-me-an-example-of-maas-snap-2-9-cli/2650) ~ |**UI**|
+|Packages|[CLI](give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ snap-2-9-ui -->
+
 An evolving example may be useful to introduce you to MAAS, and it doesn't have to be comprehensive --  just coherent and plausible.  This example will continue to expand and update over time.
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img  src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a> 

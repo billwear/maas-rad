@@ -1,3 +1,87 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|**CLI** ~ [UI](configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](configuring-tls-encryption-deb-2-9-ui/2549)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](configuring-tls-encryption-deb-2-7-cli/2544) ~ |**UI**|[CLI](configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](configuring-tls-encryption-deb-2-9-ui/2549)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](configuring-tls-encryption-deb-2-7-ui/2545)||**CLI** ~ [UI](configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](configuring-tls-encryption-deb-2-9-ui/2549)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](configuring-tls-encryption-deb-2-8-cli/2546) ~ |**UI**|[CLI](configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](configuring-tls-encryption-deb-2-9-ui/2549)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](configuring-tls-encryption-deb-2-8-ui/2547)||**CLI** ~ [UI](configuring-tls-encryption-deb-2-9-ui/2549)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](configuring-tls-encryption-deb-2-9-cli/2548) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](configuring-tls-encryption-deb-2-9-ui/2549)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](configuring-tls-encryption-snap-2-7-cli/2538) ~ |**UI**|[CLI](configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](configuring-tls-encryption-deb-2-9-ui/2549)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](configuring-tls-encryption-snap-2-7-ui/2539)||**CLI** ~ [UI](configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](configuring-tls-encryption-deb-2-9-ui/2549)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](configuring-tls-encryption-snap-2-8-cli/2540) ~ |**UI**|[CLI](configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](configuring-tls-encryption-deb-2-9-ui/2549)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](configuring-tls-encryption-snap-2-8-ui/2541)||**CLI** ~ [UI](configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](configuring-tls-encryption-deb-2-9-ui/2549)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](configuring-tls-encryption-snap-2-9-cli/2542) ~ |**UI**|
+|Packages|[CLI](configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](configuring-tls-encryption-deb-2-9-ui/2549)|
+ snap-2-9-ui -->
+
 MAAS doesn't support TLS encryption natively.  If you are not interested in [setting up an HAProxy](/t/high-availability/804#heading--load-balancing-with-haproxy-optional), you can enable TLS independently in the web server software (e.g. Apache, Nginx) which users access directly.  The examples below explain how to create this configuration.
 
 Note that MAAS doesn't bind to port 80; instead, MAAS binds to port 5240.

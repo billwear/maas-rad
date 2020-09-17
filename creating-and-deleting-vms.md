@@ -1,3 +1,87 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|**CLI** ~ [UI](creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](creating-and-deleting-vms-deb-2-9-ui/2585)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](creating-and-deleting-vms-deb-2-7-cli/2580) ~ |**UI**|[CLI](creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](creating-and-deleting-vms-deb-2-9-ui/2585)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](creating-and-deleting-vms-deb-2-7-ui/2581)||**CLI** ~ [UI](creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](creating-and-deleting-vms-deb-2-9-ui/2585)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](creating-and-deleting-vms-deb-2-8-cli/2582) ~ |**UI**|[CLI](creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](creating-and-deleting-vms-deb-2-9-ui/2585)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](creating-and-deleting-vms-deb-2-8-ui/2583)||**CLI** ~ [UI](creating-and-deleting-vms-deb-2-9-ui/2585)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](creating-and-deleting-vms-deb-2-9-cli/2584) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](creating-and-deleting-vms-deb-2-9-ui/2585)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](creating-and-deleting-vms-snap-2-7-cli/2574) ~ |**UI**|[CLI](creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](creating-and-deleting-vms-deb-2-9-ui/2585)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](creating-and-deleting-vms-snap-2-7-ui/2575)||**CLI** ~ [UI](creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](creating-and-deleting-vms-deb-2-9-ui/2585)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](creating-and-deleting-vms-snap-2-8-cli/2576) ~ |**UI**|[CLI](creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](creating-and-deleting-vms-deb-2-9-ui/2585)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](creating-and-deleting-vms-snap-2-8-ui/2577)||**CLI** ~ [UI](creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](creating-and-deleting-vms-deb-2-9-ui/2585)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](creating-and-deleting-vms-snap-2-9-cli/2578) ~ |**UI**|
+|Packages|[CLI](creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](creating-and-deleting-vms-deb-2-9-ui/2585)|
+ snap-2-9-ui -->
+
 If you have created a VM host, you will want to create and delete virtual machines (VMs).  You can use either the CLI or the UI for these operations; this article explains how.
 
 #### Quick questions you may have:

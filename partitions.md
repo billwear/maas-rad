@@ -1,4 +1,88 @@
-As with block devices (see [Block devices](/t/block-devices/749)), MAAS and its API offer a great deal of control over the creation, formatting, mounting and deletion of partitions.
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](partitions-snap-2-7-cli/2982) ~ [UI](partitions-snap-2-7-ui/2983)|[CLI](partitions-snap-2-8-cli/2984) ~ [UI](partitions-snap-2-8-ui/2985)|[CLI](partitions-snap-2-9-cli/2986) ~ [UI](partitions-snap-2-9-ui/2987)|
+|Packages|**CLI** ~ [UI](partitions-deb-2-7-ui/2989)|[CLI](partitions-deb-2-8-cli/2990) ~ [UI](partitions-deb-2-8-ui/2991)|[CLI](partitions-deb-2-9-cli/2992) ~ [UI](partitions-deb-2-9-ui/2993)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](partitions-snap-2-7-cli/2982) ~ [UI](partitions-snap-2-7-ui/2983)|[CLI](partitions-snap-2-8-cli/2984) ~ [UI](partitions-snap-2-8-ui/2985)|[CLI](partitions-snap-2-9-cli/2986) ~ [UI](partitions-snap-2-9-ui/2987)|
+|Packages|[CLI](partitions-deb-2-7-cli/2988) ~ |**UI**|[CLI](partitions-deb-2-8-cli/2990) ~ [UI](partitions-deb-2-8-ui/2991)|[CLI](partitions-deb-2-9-cli/2992) ~ [UI](partitions-deb-2-9-ui/2993)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](partitions-snap-2-7-cli/2982) ~ [UI](partitions-snap-2-7-ui/2983)|[CLI](partitions-snap-2-8-cli/2984) ~ [UI](partitions-snap-2-8-ui/2985)|[CLI](partitions-snap-2-9-cli/2986) ~ [UI](partitions-snap-2-9-ui/2987)|
+|Packages|[CLI](partitions-deb-2-7-cli/2988) ~ [UI](partitions-deb-2-7-ui/2989)||**CLI** ~ [UI](partitions-deb-2-8-ui/2991)|[CLI](partitions-deb-2-9-cli/2992) ~ [UI](partitions-deb-2-9-ui/2993)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](partitions-snap-2-7-cli/2982) ~ [UI](partitions-snap-2-7-ui/2983)|[CLI](partitions-snap-2-8-cli/2984) ~ [UI](partitions-snap-2-8-ui/2985)|[CLI](partitions-snap-2-9-cli/2986) ~ [UI](partitions-snap-2-9-ui/2987)|
+|Packages|[CLI](partitions-deb-2-7-cli/2988) ~ [UI](partitions-deb-2-7-ui/2989)|[CLI](partitions-deb-2-8-cli/2990) ~ |**UI**|[CLI](partitions-deb-2-9-cli/2992) ~ [UI](partitions-deb-2-9-ui/2993)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](partitions-snap-2-7-cli/2982) ~ [UI](partitions-snap-2-7-ui/2983)|[CLI](partitions-snap-2-8-cli/2984) ~ [UI](partitions-snap-2-8-ui/2985)|[CLI](partitions-snap-2-9-cli/2986) ~ [UI](partitions-snap-2-9-ui/2987)|
+|Packages|[CLI](partitions-deb-2-7-cli/2988) ~ [UI](partitions-deb-2-7-ui/2989)|[CLI](partitions-deb-2-8-cli/2990) ~ [UI](partitions-deb-2-8-ui/2991)||**CLI** ~ [UI](partitions-deb-2-9-ui/2993)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](partitions-snap-2-7-cli/2982) ~ [UI](partitions-snap-2-7-ui/2983)|[CLI](partitions-snap-2-8-cli/2984) ~ [UI](partitions-snap-2-8-ui/2985)|[CLI](partitions-snap-2-9-cli/2986) ~ [UI](partitions-snap-2-9-ui/2987)|
+|Packages|[CLI](partitions-deb-2-7-cli/2988) ~ [UI](partitions-deb-2-7-ui/2989)|[CLI](partitions-deb-2-8-cli/2990) ~ [UI](partitions-deb-2-8-ui/2991)|[CLI](partitions-deb-2-9-cli/2992) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](partitions-snap-2-7-ui/2983)|[CLI](partitions-snap-2-8-cli/2984) ~ [UI](partitions-snap-2-8-ui/2985)|[CLI](partitions-snap-2-9-cli/2986) ~ [UI](partitions-snap-2-9-ui/2987)|
+|Packages|[CLI](partitions-deb-2-7-cli/2988) ~ [UI](partitions-deb-2-7-ui/2989)|[CLI](partitions-deb-2-8-cli/2990) ~ [UI](partitions-deb-2-8-ui/2991)|[CLI](partitions-deb-2-9-cli/2992) ~ [UI](partitions-deb-2-9-ui/2993)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](partitions-snap-2-7-cli/2982) ~ |**UI**|[CLI](partitions-snap-2-8-cli/2984) ~ [UI](partitions-snap-2-8-ui/2985)|[CLI](partitions-snap-2-9-cli/2986) ~ [UI](partitions-snap-2-9-ui/2987)|
+|Packages|[CLI](partitions-deb-2-7-cli/2988) ~ [UI](partitions-deb-2-7-ui/2989)|[CLI](partitions-deb-2-8-cli/2990) ~ [UI](partitions-deb-2-8-ui/2991)|[CLI](partitions-deb-2-9-cli/2992) ~ [UI](partitions-deb-2-9-ui/2993)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](partitions-snap-2-7-cli/2982) ~ [UI](partitions-snap-2-7-ui/2983)||**CLI** ~ [UI](partitions-snap-2-8-ui/2985)|[CLI](partitions-snap-2-9-cli/2986) ~ [UI](partitions-snap-2-9-ui/2987)|
+|Packages|[CLI](partitions-deb-2-7-cli/2988) ~ [UI](partitions-deb-2-7-ui/2989)|[CLI](partitions-deb-2-8-cli/2990) ~ [UI](partitions-deb-2-8-ui/2991)|[CLI](partitions-deb-2-9-cli/2992) ~ [UI](partitions-deb-2-9-ui/2993)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](partitions-snap-2-7-cli/2982) ~ [UI](partitions-snap-2-7-ui/2983)|[CLI](partitions-snap-2-8-cli/2984) ~ |**UI**|[CLI](partitions-snap-2-9-cli/2986) ~ [UI](partitions-snap-2-9-ui/2987)|
+|Packages|[CLI](partitions-deb-2-7-cli/2988) ~ [UI](partitions-deb-2-7-ui/2989)|[CLI](partitions-deb-2-8-cli/2990) ~ [UI](partitions-deb-2-8-ui/2991)|[CLI](partitions-deb-2-9-cli/2992) ~ [UI](partitions-deb-2-9-ui/2993)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](partitions-snap-2-7-cli/2982) ~ [UI](partitions-snap-2-7-ui/2983)|[CLI](partitions-snap-2-8-cli/2984) ~ [UI](partitions-snap-2-8-ui/2985)||**CLI** ~ [UI](partitions-snap-2-9-ui/2987)|
+|Packages|[CLI](partitions-deb-2-7-cli/2988) ~ [UI](partitions-deb-2-7-ui/2989)|[CLI](partitions-deb-2-8-cli/2990) ~ [UI](partitions-deb-2-8-ui/2991)|[CLI](partitions-deb-2-9-cli/2992) ~ [UI](partitions-deb-2-9-ui/2993)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](partitions-snap-2-7-cli/2982) ~ [UI](partitions-snap-2-7-ui/2983)|[CLI](partitions-snap-2-8-cli/2984) ~ [UI](partitions-snap-2-8-ui/2985)|[CLI](partitions-snap-2-9-cli/2986) ~ |**UI**|
+|Packages|[CLI](partitions-deb-2-7-cli/2988) ~ [UI](partitions-deb-2-7-ui/2989)|[CLI](partitions-deb-2-8-cli/2990) ~ [UI](partitions-deb-2-8-ui/2991)|[CLI](partitions-deb-2-9-cli/2992) ~ [UI](partitions-deb-2-9-ui/2993)|
+ snap-2-9-ui -->
+
+As with block devices (see [Block devices](/t/block-devices/749)), MAAS and the MAAS API offer a great deal of control over the creation, formatting, mounting and deletion of partitions.
 
 <h3 id="heading--list-partitions">List Partitions</h3>
 

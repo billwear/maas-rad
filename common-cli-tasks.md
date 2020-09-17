@@ -1,3 +1,87 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](common-cli-tasks-snap-2-7-cli/2502) ~ [UI](common-cli-tasks-snap-2-7-ui/2503)|[CLI](common-cli-tasks-snap-2-8-cli/2504) ~ [UI](common-cli-tasks-snap-2-8-ui/2505)|[CLI](common-cli-tasks-snap-2-9-cli/2506) ~ [UI](common-cli-tasks-snap-2-9-ui/2507)|
+|Packages|**CLI** ~ [UI](common-cli-tasks-deb-2-7-ui/2509)|[CLI](common-cli-tasks-deb-2-8-cli/2510) ~ [UI](common-cli-tasks-deb-2-8-ui/2511)|[CLI](common-cli-tasks-deb-2-9-cli/2512) ~ [UI](common-cli-tasks-deb-2-9-ui/2513)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](common-cli-tasks-snap-2-7-cli/2502) ~ [UI](common-cli-tasks-snap-2-7-ui/2503)|[CLI](common-cli-tasks-snap-2-8-cli/2504) ~ [UI](common-cli-tasks-snap-2-8-ui/2505)|[CLI](common-cli-tasks-snap-2-9-cli/2506) ~ [UI](common-cli-tasks-snap-2-9-ui/2507)|
+|Packages|[CLI](common-cli-tasks-deb-2-7-cli/2508) ~ |**UI**|[CLI](common-cli-tasks-deb-2-8-cli/2510) ~ [UI](common-cli-tasks-deb-2-8-ui/2511)|[CLI](common-cli-tasks-deb-2-9-cli/2512) ~ [UI](common-cli-tasks-deb-2-9-ui/2513)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](common-cli-tasks-snap-2-7-cli/2502) ~ [UI](common-cli-tasks-snap-2-7-ui/2503)|[CLI](common-cli-tasks-snap-2-8-cli/2504) ~ [UI](common-cli-tasks-snap-2-8-ui/2505)|[CLI](common-cli-tasks-snap-2-9-cli/2506) ~ [UI](common-cli-tasks-snap-2-9-ui/2507)|
+|Packages|[CLI](common-cli-tasks-deb-2-7-cli/2508) ~ [UI](common-cli-tasks-deb-2-7-ui/2509)||**CLI** ~ [UI](common-cli-tasks-deb-2-8-ui/2511)|[CLI](common-cli-tasks-deb-2-9-cli/2512) ~ [UI](common-cli-tasks-deb-2-9-ui/2513)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](common-cli-tasks-snap-2-7-cli/2502) ~ [UI](common-cli-tasks-snap-2-7-ui/2503)|[CLI](common-cli-tasks-snap-2-8-cli/2504) ~ [UI](common-cli-tasks-snap-2-8-ui/2505)|[CLI](common-cli-tasks-snap-2-9-cli/2506) ~ [UI](common-cli-tasks-snap-2-9-ui/2507)|
+|Packages|[CLI](common-cli-tasks-deb-2-7-cli/2508) ~ [UI](common-cli-tasks-deb-2-7-ui/2509)|[CLI](common-cli-tasks-deb-2-8-cli/2510) ~ |**UI**|[CLI](common-cli-tasks-deb-2-9-cli/2512) ~ [UI](common-cli-tasks-deb-2-9-ui/2513)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](common-cli-tasks-snap-2-7-cli/2502) ~ [UI](common-cli-tasks-snap-2-7-ui/2503)|[CLI](common-cli-tasks-snap-2-8-cli/2504) ~ [UI](common-cli-tasks-snap-2-8-ui/2505)|[CLI](common-cli-tasks-snap-2-9-cli/2506) ~ [UI](common-cli-tasks-snap-2-9-ui/2507)|
+|Packages|[CLI](common-cli-tasks-deb-2-7-cli/2508) ~ [UI](common-cli-tasks-deb-2-7-ui/2509)|[CLI](common-cli-tasks-deb-2-8-cli/2510) ~ [UI](common-cli-tasks-deb-2-8-ui/2511)||**CLI** ~ [UI](common-cli-tasks-deb-2-9-ui/2513)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](common-cli-tasks-snap-2-7-cli/2502) ~ [UI](common-cli-tasks-snap-2-7-ui/2503)|[CLI](common-cli-tasks-snap-2-8-cli/2504) ~ [UI](common-cli-tasks-snap-2-8-ui/2505)|[CLI](common-cli-tasks-snap-2-9-cli/2506) ~ [UI](common-cli-tasks-snap-2-9-ui/2507)|
+|Packages|[CLI](common-cli-tasks-deb-2-7-cli/2508) ~ [UI](common-cli-tasks-deb-2-7-ui/2509)|[CLI](common-cli-tasks-deb-2-8-cli/2510) ~ [UI](common-cli-tasks-deb-2-8-ui/2511)|[CLI](common-cli-tasks-deb-2-9-cli/2512) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](common-cli-tasks-snap-2-7-ui/2503)|[CLI](common-cli-tasks-snap-2-8-cli/2504) ~ [UI](common-cli-tasks-snap-2-8-ui/2505)|[CLI](common-cli-tasks-snap-2-9-cli/2506) ~ [UI](common-cli-tasks-snap-2-9-ui/2507)|
+|Packages|[CLI](common-cli-tasks-deb-2-7-cli/2508) ~ [UI](common-cli-tasks-deb-2-7-ui/2509)|[CLI](common-cli-tasks-deb-2-8-cli/2510) ~ [UI](common-cli-tasks-deb-2-8-ui/2511)|[CLI](common-cli-tasks-deb-2-9-cli/2512) ~ [UI](common-cli-tasks-deb-2-9-ui/2513)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](common-cli-tasks-snap-2-7-cli/2502) ~ |**UI**|[CLI](common-cli-tasks-snap-2-8-cli/2504) ~ [UI](common-cli-tasks-snap-2-8-ui/2505)|[CLI](common-cli-tasks-snap-2-9-cli/2506) ~ [UI](common-cli-tasks-snap-2-9-ui/2507)|
+|Packages|[CLI](common-cli-tasks-deb-2-7-cli/2508) ~ [UI](common-cli-tasks-deb-2-7-ui/2509)|[CLI](common-cli-tasks-deb-2-8-cli/2510) ~ [UI](common-cli-tasks-deb-2-8-ui/2511)|[CLI](common-cli-tasks-deb-2-9-cli/2512) ~ [UI](common-cli-tasks-deb-2-9-ui/2513)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](common-cli-tasks-snap-2-7-cli/2502) ~ [UI](common-cli-tasks-snap-2-7-ui/2503)||**CLI** ~ [UI](common-cli-tasks-snap-2-8-ui/2505)|[CLI](common-cli-tasks-snap-2-9-cli/2506) ~ [UI](common-cli-tasks-snap-2-9-ui/2507)|
+|Packages|[CLI](common-cli-tasks-deb-2-7-cli/2508) ~ [UI](common-cli-tasks-deb-2-7-ui/2509)|[CLI](common-cli-tasks-deb-2-8-cli/2510) ~ [UI](common-cli-tasks-deb-2-8-ui/2511)|[CLI](common-cli-tasks-deb-2-9-cli/2512) ~ [UI](common-cli-tasks-deb-2-9-ui/2513)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](common-cli-tasks-snap-2-7-cli/2502) ~ [UI](common-cli-tasks-snap-2-7-ui/2503)|[CLI](common-cli-tasks-snap-2-8-cli/2504) ~ |**UI**|[CLI](common-cli-tasks-snap-2-9-cli/2506) ~ [UI](common-cli-tasks-snap-2-9-ui/2507)|
+|Packages|[CLI](common-cli-tasks-deb-2-7-cli/2508) ~ [UI](common-cli-tasks-deb-2-7-ui/2509)|[CLI](common-cli-tasks-deb-2-8-cli/2510) ~ [UI](common-cli-tasks-deb-2-8-ui/2511)|[CLI](common-cli-tasks-deb-2-9-cli/2512) ~ [UI](common-cli-tasks-deb-2-9-ui/2513)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](common-cli-tasks-snap-2-7-cli/2502) ~ [UI](common-cli-tasks-snap-2-7-ui/2503)|[CLI](common-cli-tasks-snap-2-8-cli/2504) ~ [UI](common-cli-tasks-snap-2-8-ui/2505)||**CLI** ~ [UI](common-cli-tasks-snap-2-9-ui/2507)|
+|Packages|[CLI](common-cli-tasks-deb-2-7-cli/2508) ~ [UI](common-cli-tasks-deb-2-7-ui/2509)|[CLI](common-cli-tasks-deb-2-8-cli/2510) ~ [UI](common-cli-tasks-deb-2-8-ui/2511)|[CLI](common-cli-tasks-deb-2-9-cli/2512) ~ [UI](common-cli-tasks-deb-2-9-ui/2513)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](common-cli-tasks-snap-2-7-cli/2502) ~ [UI](common-cli-tasks-snap-2-7-ui/2503)|[CLI](common-cli-tasks-snap-2-8-cli/2504) ~ [UI](common-cli-tasks-snap-2-8-ui/2505)|[CLI](common-cli-tasks-snap-2-9-cli/2506) ~ |**UI**|
+|Packages|[CLI](common-cli-tasks-deb-2-7-cli/2508) ~ [UI](common-cli-tasks-deb-2-7-ui/2509)|[CLI](common-cli-tasks-deb-2-8-cli/2510) ~ [UI](common-cli-tasks-deb-2-8-ui/2511)|[CLI](common-cli-tasks-deb-2-9-cli/2512) ~ [UI](common-cli-tasks-deb-2-9-ui/2513)|
+ snap-2-9-ui -->
+
 This page presents a list of common tasks that you can perform via the MAAS CLI. See [MAAS CLI](/t/maas-cli/802) for instructions to help get you started with the CLI.
 
 #### Quick questions you may have:

@@ -1,3 +1,87 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](networking-snap-2-7-cli/2946) ~ [UI](networking-snap-2-7-ui/2947)|[CLI](networking-snap-2-8-cli/2948) ~ [UI](networking-snap-2-8-ui/2949)|[CLI](networking-snap-2-9-cli/2950) ~ [UI](networking-snap-2-9-ui/2951)|
+|Packages|**CLI** ~ [UI](networking-deb-2-7-ui/2953)|[CLI](networking-deb-2-8-cli/2954) ~ [UI](networking-deb-2-8-ui/2955)|[CLI](networking-deb-2-9-cli/2956) ~ [UI](networking-deb-2-9-ui/2957)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](networking-snap-2-7-cli/2946) ~ [UI](networking-snap-2-7-ui/2947)|[CLI](networking-snap-2-8-cli/2948) ~ [UI](networking-snap-2-8-ui/2949)|[CLI](networking-snap-2-9-cli/2950) ~ [UI](networking-snap-2-9-ui/2951)|
+|Packages|[CLI](networking-deb-2-7-cli/2952) ~ |**UI**|[CLI](networking-deb-2-8-cli/2954) ~ [UI](networking-deb-2-8-ui/2955)|[CLI](networking-deb-2-9-cli/2956) ~ [UI](networking-deb-2-9-ui/2957)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](networking-snap-2-7-cli/2946) ~ [UI](networking-snap-2-7-ui/2947)|[CLI](networking-snap-2-8-cli/2948) ~ [UI](networking-snap-2-8-ui/2949)|[CLI](networking-snap-2-9-cli/2950) ~ [UI](networking-snap-2-9-ui/2951)|
+|Packages|[CLI](networking-deb-2-7-cli/2952) ~ [UI](networking-deb-2-7-ui/2953)||**CLI** ~ [UI](networking-deb-2-8-ui/2955)|[CLI](networking-deb-2-9-cli/2956) ~ [UI](networking-deb-2-9-ui/2957)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](networking-snap-2-7-cli/2946) ~ [UI](networking-snap-2-7-ui/2947)|[CLI](networking-snap-2-8-cli/2948) ~ [UI](networking-snap-2-8-ui/2949)|[CLI](networking-snap-2-9-cli/2950) ~ [UI](networking-snap-2-9-ui/2951)|
+|Packages|[CLI](networking-deb-2-7-cli/2952) ~ [UI](networking-deb-2-7-ui/2953)|[CLI](networking-deb-2-8-cli/2954) ~ |**UI**|[CLI](networking-deb-2-9-cli/2956) ~ [UI](networking-deb-2-9-ui/2957)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](networking-snap-2-7-cli/2946) ~ [UI](networking-snap-2-7-ui/2947)|[CLI](networking-snap-2-8-cli/2948) ~ [UI](networking-snap-2-8-ui/2949)|[CLI](networking-snap-2-9-cli/2950) ~ [UI](networking-snap-2-9-ui/2951)|
+|Packages|[CLI](networking-deb-2-7-cli/2952) ~ [UI](networking-deb-2-7-ui/2953)|[CLI](networking-deb-2-8-cli/2954) ~ [UI](networking-deb-2-8-ui/2955)||**CLI** ~ [UI](networking-deb-2-9-ui/2957)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](networking-snap-2-7-cli/2946) ~ [UI](networking-snap-2-7-ui/2947)|[CLI](networking-snap-2-8-cli/2948) ~ [UI](networking-snap-2-8-ui/2949)|[CLI](networking-snap-2-9-cli/2950) ~ [UI](networking-snap-2-9-ui/2951)|
+|Packages|[CLI](networking-deb-2-7-cli/2952) ~ [UI](networking-deb-2-7-ui/2953)|[CLI](networking-deb-2-8-cli/2954) ~ [UI](networking-deb-2-8-ui/2955)|[CLI](networking-deb-2-9-cli/2956) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](networking-snap-2-7-ui/2947)|[CLI](networking-snap-2-8-cli/2948) ~ [UI](networking-snap-2-8-ui/2949)|[CLI](networking-snap-2-9-cli/2950) ~ [UI](networking-snap-2-9-ui/2951)|
+|Packages|[CLI](networking-deb-2-7-cli/2952) ~ [UI](networking-deb-2-7-ui/2953)|[CLI](networking-deb-2-8-cli/2954) ~ [UI](networking-deb-2-8-ui/2955)|[CLI](networking-deb-2-9-cli/2956) ~ [UI](networking-deb-2-9-ui/2957)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](networking-snap-2-7-cli/2946) ~ |**UI**|[CLI](networking-snap-2-8-cli/2948) ~ [UI](networking-snap-2-8-ui/2949)|[CLI](networking-snap-2-9-cli/2950) ~ [UI](networking-snap-2-9-ui/2951)|
+|Packages|[CLI](networking-deb-2-7-cli/2952) ~ [UI](networking-deb-2-7-ui/2953)|[CLI](networking-deb-2-8-cli/2954) ~ [UI](networking-deb-2-8-ui/2955)|[CLI](networking-deb-2-9-cli/2956) ~ [UI](networking-deb-2-9-ui/2957)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](networking-snap-2-7-cli/2946) ~ [UI](networking-snap-2-7-ui/2947)||**CLI** ~ [UI](networking-snap-2-8-ui/2949)|[CLI](networking-snap-2-9-cli/2950) ~ [UI](networking-snap-2-9-ui/2951)|
+|Packages|[CLI](networking-deb-2-7-cli/2952) ~ [UI](networking-deb-2-7-ui/2953)|[CLI](networking-deb-2-8-cli/2954) ~ [UI](networking-deb-2-8-ui/2955)|[CLI](networking-deb-2-9-cli/2956) ~ [UI](networking-deb-2-9-ui/2957)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](networking-snap-2-7-cli/2946) ~ [UI](networking-snap-2-7-ui/2947)|[CLI](networking-snap-2-8-cli/2948) ~ |**UI**|[CLI](networking-snap-2-9-cli/2950) ~ [UI](networking-snap-2-9-ui/2951)|
+|Packages|[CLI](networking-deb-2-7-cli/2952) ~ [UI](networking-deb-2-7-ui/2953)|[CLI](networking-deb-2-8-cli/2954) ~ [UI](networking-deb-2-8-ui/2955)|[CLI](networking-deb-2-9-cli/2956) ~ [UI](networking-deb-2-9-ui/2957)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](networking-snap-2-7-cli/2946) ~ [UI](networking-snap-2-7-ui/2947)|[CLI](networking-snap-2-8-cli/2948) ~ [UI](networking-snap-2-8-ui/2949)||**CLI** ~ [UI](networking-snap-2-9-ui/2951)|
+|Packages|[CLI](networking-deb-2-7-cli/2952) ~ [UI](networking-deb-2-7-ui/2953)|[CLI](networking-deb-2-8-cli/2954) ~ [UI](networking-deb-2-8-ui/2955)|[CLI](networking-deb-2-9-cli/2956) ~ [UI](networking-deb-2-9-ui/2957)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](networking-snap-2-7-cli/2946) ~ [UI](networking-snap-2-7-ui/2947)|[CLI](networking-snap-2-8-cli/2948) ~ [UI](networking-snap-2-8-ui/2949)|[CLI](networking-snap-2-9-cli/2950) ~ |**UI**|
+|Packages|[CLI](networking-deb-2-7-cli/2952) ~ [UI](networking-deb-2-7-ui/2953)|[CLI](networking-deb-2-8-cli/2954) ~ [UI](networking-deb-2-8-ui/2955)|[CLI](networking-deb-2-9-cli/2956) ~ [UI](networking-deb-2-9-ui/2957)|
+ snap-2-9-ui -->
+
 You can use the Web UI to manage the networking elements of MAAS, including subnets, fabrics, VLANs, and spaces.  This page shows how to access and edit these elements. See [Concepts and terms](/t/concepts-and-terms/785) for the definitions of networking objects, along with a basic networking tutorial (if needed).
 
 <h2 id="heading--main-view">Main view</h2>

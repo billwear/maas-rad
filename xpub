@@ -16,13 +16,8 @@ except ImportError:
 import click
 
 
-@click.group(help="Publish and convert files")
+@click.group(help="Publish, convert, and link files")
 def xpub():
-    pass
-
-
-@xpub.group(help="Push files to a directory or repository")
-def push():
     pass
 
 
@@ -70,10 +65,6 @@ def discourse(filename, title, category, tag, autolink):
         sys.exit(4)
     config_data = load(cfile, Loader=Loader)
     cfile.close()
-
-    # if there's a tag, create the title from filename + tag
-    if tag:
-        title = filename.split(".")[0] + "-" + tag
 
     # load and convert the specified markdown file
     f = open(filename, "r")

@@ -1,3 +1,87 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](kernel-boot-options-snap-2-7-cli/2778) ~ [UI](kernel-boot-options-snap-2-7-ui/2779)|[CLI](kernel-boot-options-snap-2-8-cli/2780) ~ [UI](kernel-boot-options-snap-2-8-ui/2781)|[CLI](kernel-boot-options-snap-2-9-cli/2782) ~ [UI](kernel-boot-options-snap-2-9-ui/2783)|
+|Packages|**CLI** ~ [UI](kernel-boot-options-deb-2-7-ui/2785)|[CLI](kernel-boot-options-deb-2-8-cli/2786) ~ [UI](kernel-boot-options-deb-2-8-ui/2787)|[CLI](kernel-boot-options-deb-2-9-cli/2788) ~ [UI](kernel-boot-options-deb-2-9-ui/2789)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](kernel-boot-options-snap-2-7-cli/2778) ~ [UI](kernel-boot-options-snap-2-7-ui/2779)|[CLI](kernel-boot-options-snap-2-8-cli/2780) ~ [UI](kernel-boot-options-snap-2-8-ui/2781)|[CLI](kernel-boot-options-snap-2-9-cli/2782) ~ [UI](kernel-boot-options-snap-2-9-ui/2783)|
+|Packages|[CLI](kernel-boot-options-deb-2-7-cli/2784) ~ |**UI**|[CLI](kernel-boot-options-deb-2-8-cli/2786) ~ [UI](kernel-boot-options-deb-2-8-ui/2787)|[CLI](kernel-boot-options-deb-2-9-cli/2788) ~ [UI](kernel-boot-options-deb-2-9-ui/2789)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](kernel-boot-options-snap-2-7-cli/2778) ~ [UI](kernel-boot-options-snap-2-7-ui/2779)|[CLI](kernel-boot-options-snap-2-8-cli/2780) ~ [UI](kernel-boot-options-snap-2-8-ui/2781)|[CLI](kernel-boot-options-snap-2-9-cli/2782) ~ [UI](kernel-boot-options-snap-2-9-ui/2783)|
+|Packages|[CLI](kernel-boot-options-deb-2-7-cli/2784) ~ [UI](kernel-boot-options-deb-2-7-ui/2785)||**CLI** ~ [UI](kernel-boot-options-deb-2-8-ui/2787)|[CLI](kernel-boot-options-deb-2-9-cli/2788) ~ [UI](kernel-boot-options-deb-2-9-ui/2789)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](kernel-boot-options-snap-2-7-cli/2778) ~ [UI](kernel-boot-options-snap-2-7-ui/2779)|[CLI](kernel-boot-options-snap-2-8-cli/2780) ~ [UI](kernel-boot-options-snap-2-8-ui/2781)|[CLI](kernel-boot-options-snap-2-9-cli/2782) ~ [UI](kernel-boot-options-snap-2-9-ui/2783)|
+|Packages|[CLI](kernel-boot-options-deb-2-7-cli/2784) ~ [UI](kernel-boot-options-deb-2-7-ui/2785)|[CLI](kernel-boot-options-deb-2-8-cli/2786) ~ |**UI**|[CLI](kernel-boot-options-deb-2-9-cli/2788) ~ [UI](kernel-boot-options-deb-2-9-ui/2789)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](kernel-boot-options-snap-2-7-cli/2778) ~ [UI](kernel-boot-options-snap-2-7-ui/2779)|[CLI](kernel-boot-options-snap-2-8-cli/2780) ~ [UI](kernel-boot-options-snap-2-8-ui/2781)|[CLI](kernel-boot-options-snap-2-9-cli/2782) ~ [UI](kernel-boot-options-snap-2-9-ui/2783)|
+|Packages|[CLI](kernel-boot-options-deb-2-7-cli/2784) ~ [UI](kernel-boot-options-deb-2-7-ui/2785)|[CLI](kernel-boot-options-deb-2-8-cli/2786) ~ [UI](kernel-boot-options-deb-2-8-ui/2787)||**CLI** ~ [UI](kernel-boot-options-deb-2-9-ui/2789)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](kernel-boot-options-snap-2-7-cli/2778) ~ [UI](kernel-boot-options-snap-2-7-ui/2779)|[CLI](kernel-boot-options-snap-2-8-cli/2780) ~ [UI](kernel-boot-options-snap-2-8-ui/2781)|[CLI](kernel-boot-options-snap-2-9-cli/2782) ~ [UI](kernel-boot-options-snap-2-9-ui/2783)|
+|Packages|[CLI](kernel-boot-options-deb-2-7-cli/2784) ~ [UI](kernel-boot-options-deb-2-7-ui/2785)|[CLI](kernel-boot-options-deb-2-8-cli/2786) ~ [UI](kernel-boot-options-deb-2-8-ui/2787)|[CLI](kernel-boot-options-deb-2-9-cli/2788) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](kernel-boot-options-snap-2-7-ui/2779)|[CLI](kernel-boot-options-snap-2-8-cli/2780) ~ [UI](kernel-boot-options-snap-2-8-ui/2781)|[CLI](kernel-boot-options-snap-2-9-cli/2782) ~ [UI](kernel-boot-options-snap-2-9-ui/2783)|
+|Packages|[CLI](kernel-boot-options-deb-2-7-cli/2784) ~ [UI](kernel-boot-options-deb-2-7-ui/2785)|[CLI](kernel-boot-options-deb-2-8-cli/2786) ~ [UI](kernel-boot-options-deb-2-8-ui/2787)|[CLI](kernel-boot-options-deb-2-9-cli/2788) ~ [UI](kernel-boot-options-deb-2-9-ui/2789)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](kernel-boot-options-snap-2-7-cli/2778) ~ |**UI**|[CLI](kernel-boot-options-snap-2-8-cli/2780) ~ [UI](kernel-boot-options-snap-2-8-ui/2781)|[CLI](kernel-boot-options-snap-2-9-cli/2782) ~ [UI](kernel-boot-options-snap-2-9-ui/2783)|
+|Packages|[CLI](kernel-boot-options-deb-2-7-cli/2784) ~ [UI](kernel-boot-options-deb-2-7-ui/2785)|[CLI](kernel-boot-options-deb-2-8-cli/2786) ~ [UI](kernel-boot-options-deb-2-8-ui/2787)|[CLI](kernel-boot-options-deb-2-9-cli/2788) ~ [UI](kernel-boot-options-deb-2-9-ui/2789)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](kernel-boot-options-snap-2-7-cli/2778) ~ [UI](kernel-boot-options-snap-2-7-ui/2779)||**CLI** ~ [UI](kernel-boot-options-snap-2-8-ui/2781)|[CLI](kernel-boot-options-snap-2-9-cli/2782) ~ [UI](kernel-boot-options-snap-2-9-ui/2783)|
+|Packages|[CLI](kernel-boot-options-deb-2-7-cli/2784) ~ [UI](kernel-boot-options-deb-2-7-ui/2785)|[CLI](kernel-boot-options-deb-2-8-cli/2786) ~ [UI](kernel-boot-options-deb-2-8-ui/2787)|[CLI](kernel-boot-options-deb-2-9-cli/2788) ~ [UI](kernel-boot-options-deb-2-9-ui/2789)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](kernel-boot-options-snap-2-7-cli/2778) ~ [UI](kernel-boot-options-snap-2-7-ui/2779)|[CLI](kernel-boot-options-snap-2-8-cli/2780) ~ |**UI**|[CLI](kernel-boot-options-snap-2-9-cli/2782) ~ [UI](kernel-boot-options-snap-2-9-ui/2783)|
+|Packages|[CLI](kernel-boot-options-deb-2-7-cli/2784) ~ [UI](kernel-boot-options-deb-2-7-ui/2785)|[CLI](kernel-boot-options-deb-2-8-cli/2786) ~ [UI](kernel-boot-options-deb-2-8-ui/2787)|[CLI](kernel-boot-options-deb-2-9-cli/2788) ~ [UI](kernel-boot-options-deb-2-9-ui/2789)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](kernel-boot-options-snap-2-7-cli/2778) ~ [UI](kernel-boot-options-snap-2-7-ui/2779)|[CLI](kernel-boot-options-snap-2-8-cli/2780) ~ [UI](kernel-boot-options-snap-2-8-ui/2781)||**CLI** ~ [UI](kernel-boot-options-snap-2-9-ui/2783)|
+|Packages|[CLI](kernel-boot-options-deb-2-7-cli/2784) ~ [UI](kernel-boot-options-deb-2-7-ui/2785)|[CLI](kernel-boot-options-deb-2-8-cli/2786) ~ [UI](kernel-boot-options-deb-2-8-ui/2787)|[CLI](kernel-boot-options-deb-2-9-cli/2788) ~ [UI](kernel-boot-options-deb-2-9-ui/2789)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](kernel-boot-options-snap-2-7-cli/2778) ~ [UI](kernel-boot-options-snap-2-7-ui/2779)|[CLI](kernel-boot-options-snap-2-8-cli/2780) ~ [UI](kernel-boot-options-snap-2-8-ui/2781)|[CLI](kernel-boot-options-snap-2-9-cli/2782) ~ |**UI**|
+|Packages|[CLI](kernel-boot-options-deb-2-7-cli/2784) ~ [UI](kernel-boot-options-deb-2-7-ui/2785)|[CLI](kernel-boot-options-deb-2-8-cli/2786) ~ [UI](kernel-boot-options-deb-2-8-ui/2787)|[CLI](kernel-boot-options-deb-2-9-cli/2788) ~ [UI](kernel-boot-options-deb-2-9-ui/2789)|
+ snap-2-9-ui -->
+
 MAAS can specify kernel boot options to machines on both a global basis and a per-machine basis. A full catalog of available options can be found in the [Linux kernel parameters list](https://www.kernel.org/doc/html/latest/admin-guide/kernel-parameters.html) at kernel.org.
 
 #### Quick questions you may have:

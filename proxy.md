@@ -1,3 +1,87 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](proxy-snap-2-7-cli/3030) ~ [UI](proxy-snap-2-7-ui/3031)|[CLI](proxy-snap-2-8-cli/3032) ~ [UI](proxy-snap-2-8-ui/3033)|[CLI](proxy-snap-2-9-cli/3034) ~ [UI](proxy-snap-2-9-ui/3035)|
+|Packages|**CLI** ~ [UI](proxy-deb-2-7-ui/3037)|[CLI](proxy-deb-2-8-cli/3038) ~ [UI](proxy-deb-2-8-ui/3039)|[CLI](proxy-deb-2-9-cli/3040) ~ [UI](proxy-deb-2-9-ui/3041)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](proxy-snap-2-7-cli/3030) ~ [UI](proxy-snap-2-7-ui/3031)|[CLI](proxy-snap-2-8-cli/3032) ~ [UI](proxy-snap-2-8-ui/3033)|[CLI](proxy-snap-2-9-cli/3034) ~ [UI](proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](proxy-deb-2-7-cli/3036) ~ |**UI**|[CLI](proxy-deb-2-8-cli/3038) ~ [UI](proxy-deb-2-8-ui/3039)|[CLI](proxy-deb-2-9-cli/3040) ~ [UI](proxy-deb-2-9-ui/3041)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](proxy-snap-2-7-cli/3030) ~ [UI](proxy-snap-2-7-ui/3031)|[CLI](proxy-snap-2-8-cli/3032) ~ [UI](proxy-snap-2-8-ui/3033)|[CLI](proxy-snap-2-9-cli/3034) ~ [UI](proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](proxy-deb-2-7-cli/3036) ~ [UI](proxy-deb-2-7-ui/3037)||**CLI** ~ [UI](proxy-deb-2-8-ui/3039)|[CLI](proxy-deb-2-9-cli/3040) ~ [UI](proxy-deb-2-9-ui/3041)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](proxy-snap-2-7-cli/3030) ~ [UI](proxy-snap-2-7-ui/3031)|[CLI](proxy-snap-2-8-cli/3032) ~ [UI](proxy-snap-2-8-ui/3033)|[CLI](proxy-snap-2-9-cli/3034) ~ [UI](proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](proxy-deb-2-7-cli/3036) ~ [UI](proxy-deb-2-7-ui/3037)|[CLI](proxy-deb-2-8-cli/3038) ~ |**UI**|[CLI](proxy-deb-2-9-cli/3040) ~ [UI](proxy-deb-2-9-ui/3041)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](proxy-snap-2-7-cli/3030) ~ [UI](proxy-snap-2-7-ui/3031)|[CLI](proxy-snap-2-8-cli/3032) ~ [UI](proxy-snap-2-8-ui/3033)|[CLI](proxy-snap-2-9-cli/3034) ~ [UI](proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](proxy-deb-2-7-cli/3036) ~ [UI](proxy-deb-2-7-ui/3037)|[CLI](proxy-deb-2-8-cli/3038) ~ [UI](proxy-deb-2-8-ui/3039)||**CLI** ~ [UI](proxy-deb-2-9-ui/3041)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](proxy-snap-2-7-cli/3030) ~ [UI](proxy-snap-2-7-ui/3031)|[CLI](proxy-snap-2-8-cli/3032) ~ [UI](proxy-snap-2-8-ui/3033)|[CLI](proxy-snap-2-9-cli/3034) ~ [UI](proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](proxy-deb-2-7-cli/3036) ~ [UI](proxy-deb-2-7-ui/3037)|[CLI](proxy-deb-2-8-cli/3038) ~ [UI](proxy-deb-2-8-ui/3039)|[CLI](proxy-deb-2-9-cli/3040) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](proxy-snap-2-7-ui/3031)|[CLI](proxy-snap-2-8-cli/3032) ~ [UI](proxy-snap-2-8-ui/3033)|[CLI](proxy-snap-2-9-cli/3034) ~ [UI](proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](proxy-deb-2-7-cli/3036) ~ [UI](proxy-deb-2-7-ui/3037)|[CLI](proxy-deb-2-8-cli/3038) ~ [UI](proxy-deb-2-8-ui/3039)|[CLI](proxy-deb-2-9-cli/3040) ~ [UI](proxy-deb-2-9-ui/3041)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](proxy-snap-2-7-cli/3030) ~ |**UI**|[CLI](proxy-snap-2-8-cli/3032) ~ [UI](proxy-snap-2-8-ui/3033)|[CLI](proxy-snap-2-9-cli/3034) ~ [UI](proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](proxy-deb-2-7-cli/3036) ~ [UI](proxy-deb-2-7-ui/3037)|[CLI](proxy-deb-2-8-cli/3038) ~ [UI](proxy-deb-2-8-ui/3039)|[CLI](proxy-deb-2-9-cli/3040) ~ [UI](proxy-deb-2-9-ui/3041)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](proxy-snap-2-7-cli/3030) ~ [UI](proxy-snap-2-7-ui/3031)||**CLI** ~ [UI](proxy-snap-2-8-ui/3033)|[CLI](proxy-snap-2-9-cli/3034) ~ [UI](proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](proxy-deb-2-7-cli/3036) ~ [UI](proxy-deb-2-7-ui/3037)|[CLI](proxy-deb-2-8-cli/3038) ~ [UI](proxy-deb-2-8-ui/3039)|[CLI](proxy-deb-2-9-cli/3040) ~ [UI](proxy-deb-2-9-ui/3041)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](proxy-snap-2-7-cli/3030) ~ [UI](proxy-snap-2-7-ui/3031)|[CLI](proxy-snap-2-8-cli/3032) ~ |**UI**|[CLI](proxy-snap-2-9-cli/3034) ~ [UI](proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](proxy-deb-2-7-cli/3036) ~ [UI](proxy-deb-2-7-ui/3037)|[CLI](proxy-deb-2-8-cli/3038) ~ [UI](proxy-deb-2-8-ui/3039)|[CLI](proxy-deb-2-9-cli/3040) ~ [UI](proxy-deb-2-9-ui/3041)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](proxy-snap-2-7-cli/3030) ~ [UI](proxy-snap-2-7-ui/3031)|[CLI](proxy-snap-2-8-cli/3032) ~ [UI](proxy-snap-2-8-ui/3033)||**CLI** ~ [UI](proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](proxy-deb-2-7-cli/3036) ~ [UI](proxy-deb-2-7-ui/3037)|[CLI](proxy-deb-2-8-cli/3038) ~ [UI](proxy-deb-2-8-ui/3039)|[CLI](proxy-deb-2-9-cli/3040) ~ [UI](proxy-deb-2-9-ui/3041)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](proxy-snap-2-7-cli/3030) ~ [UI](proxy-snap-2-7-ui/3031)|[CLI](proxy-snap-2-8-cli/3032) ~ [UI](proxy-snap-2-8-ui/3033)|[CLI](proxy-snap-2-9-cli/3034) ~ |**UI**|
+|Packages|[CLI](proxy-deb-2-7-cli/3036) ~ [UI](proxy-deb-2-7-ui/3037)|[CLI](proxy-deb-2-8-cli/3038) ~ [UI](proxy-deb-2-8-ui/3039)|[CLI](proxy-deb-2-9-cli/3040) ~ [UI](proxy-deb-2-9-ui/3041)|
+ snap-2-9-ui -->
+
 MAAS provides a way for its managed machines to use a proxy server when they need to access HTTP/HTTPS-based resources, such as the Ubuntu package archive.
 
 There are three possible options:

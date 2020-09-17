@@ -1,3 +1,87 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ntp-services-snap-2-7-cli/2958) ~ [UI](ntp-services-snap-2-7-ui/2959)|[CLI](ntp-services-snap-2-8-cli/2960) ~ [UI](ntp-services-snap-2-8-ui/2961)|[CLI](ntp-services-snap-2-9-cli/2962) ~ [UI](ntp-services-snap-2-9-ui/2963)|
+|Packages|**CLI** ~ [UI](ntp-services-deb-2-7-ui/2965)|[CLI](ntp-services-deb-2-8-cli/2966) ~ [UI](ntp-services-deb-2-8-ui/2967)|[CLI](ntp-services-deb-2-9-cli/2968) ~ [UI](ntp-services-deb-2-9-ui/2969)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ntp-services-snap-2-7-cli/2958) ~ [UI](ntp-services-snap-2-7-ui/2959)|[CLI](ntp-services-snap-2-8-cli/2960) ~ [UI](ntp-services-snap-2-8-ui/2961)|[CLI](ntp-services-snap-2-9-cli/2962) ~ [UI](ntp-services-snap-2-9-ui/2963)|
+|Packages|[CLI](ntp-services-deb-2-7-cli/2964) ~ |**UI**|[CLI](ntp-services-deb-2-8-cli/2966) ~ [UI](ntp-services-deb-2-8-ui/2967)|[CLI](ntp-services-deb-2-9-cli/2968) ~ [UI](ntp-services-deb-2-9-ui/2969)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ntp-services-snap-2-7-cli/2958) ~ [UI](ntp-services-snap-2-7-ui/2959)|[CLI](ntp-services-snap-2-8-cli/2960) ~ [UI](ntp-services-snap-2-8-ui/2961)|[CLI](ntp-services-snap-2-9-cli/2962) ~ [UI](ntp-services-snap-2-9-ui/2963)|
+|Packages|[CLI](ntp-services-deb-2-7-cli/2964) ~ [UI](ntp-services-deb-2-7-ui/2965)||**CLI** ~ [UI](ntp-services-deb-2-8-ui/2967)|[CLI](ntp-services-deb-2-9-cli/2968) ~ [UI](ntp-services-deb-2-9-ui/2969)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ntp-services-snap-2-7-cli/2958) ~ [UI](ntp-services-snap-2-7-ui/2959)|[CLI](ntp-services-snap-2-8-cli/2960) ~ [UI](ntp-services-snap-2-8-ui/2961)|[CLI](ntp-services-snap-2-9-cli/2962) ~ [UI](ntp-services-snap-2-9-ui/2963)|
+|Packages|[CLI](ntp-services-deb-2-7-cli/2964) ~ [UI](ntp-services-deb-2-7-ui/2965)|[CLI](ntp-services-deb-2-8-cli/2966) ~ |**UI**|[CLI](ntp-services-deb-2-9-cli/2968) ~ [UI](ntp-services-deb-2-9-ui/2969)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ntp-services-snap-2-7-cli/2958) ~ [UI](ntp-services-snap-2-7-ui/2959)|[CLI](ntp-services-snap-2-8-cli/2960) ~ [UI](ntp-services-snap-2-8-ui/2961)|[CLI](ntp-services-snap-2-9-cli/2962) ~ [UI](ntp-services-snap-2-9-ui/2963)|
+|Packages|[CLI](ntp-services-deb-2-7-cli/2964) ~ [UI](ntp-services-deb-2-7-ui/2965)|[CLI](ntp-services-deb-2-8-cli/2966) ~ [UI](ntp-services-deb-2-8-ui/2967)||**CLI** ~ [UI](ntp-services-deb-2-9-ui/2969)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ntp-services-snap-2-7-cli/2958) ~ [UI](ntp-services-snap-2-7-ui/2959)|[CLI](ntp-services-snap-2-8-cli/2960) ~ [UI](ntp-services-snap-2-8-ui/2961)|[CLI](ntp-services-snap-2-9-cli/2962) ~ [UI](ntp-services-snap-2-9-ui/2963)|
+|Packages|[CLI](ntp-services-deb-2-7-cli/2964) ~ [UI](ntp-services-deb-2-7-ui/2965)|[CLI](ntp-services-deb-2-8-cli/2966) ~ [UI](ntp-services-deb-2-8-ui/2967)|[CLI](ntp-services-deb-2-9-cli/2968) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](ntp-services-snap-2-7-ui/2959)|[CLI](ntp-services-snap-2-8-cli/2960) ~ [UI](ntp-services-snap-2-8-ui/2961)|[CLI](ntp-services-snap-2-9-cli/2962) ~ [UI](ntp-services-snap-2-9-ui/2963)|
+|Packages|[CLI](ntp-services-deb-2-7-cli/2964) ~ [UI](ntp-services-deb-2-7-ui/2965)|[CLI](ntp-services-deb-2-8-cli/2966) ~ [UI](ntp-services-deb-2-8-ui/2967)|[CLI](ntp-services-deb-2-9-cli/2968) ~ [UI](ntp-services-deb-2-9-ui/2969)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ntp-services-snap-2-7-cli/2958) ~ |**UI**|[CLI](ntp-services-snap-2-8-cli/2960) ~ [UI](ntp-services-snap-2-8-ui/2961)|[CLI](ntp-services-snap-2-9-cli/2962) ~ [UI](ntp-services-snap-2-9-ui/2963)|
+|Packages|[CLI](ntp-services-deb-2-7-cli/2964) ~ [UI](ntp-services-deb-2-7-ui/2965)|[CLI](ntp-services-deb-2-8-cli/2966) ~ [UI](ntp-services-deb-2-8-ui/2967)|[CLI](ntp-services-deb-2-9-cli/2968) ~ [UI](ntp-services-deb-2-9-ui/2969)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ntp-services-snap-2-7-cli/2958) ~ [UI](ntp-services-snap-2-7-ui/2959)||**CLI** ~ [UI](ntp-services-snap-2-8-ui/2961)|[CLI](ntp-services-snap-2-9-cli/2962) ~ [UI](ntp-services-snap-2-9-ui/2963)|
+|Packages|[CLI](ntp-services-deb-2-7-cli/2964) ~ [UI](ntp-services-deb-2-7-ui/2965)|[CLI](ntp-services-deb-2-8-cli/2966) ~ [UI](ntp-services-deb-2-8-ui/2967)|[CLI](ntp-services-deb-2-9-cli/2968) ~ [UI](ntp-services-deb-2-9-ui/2969)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ntp-services-snap-2-7-cli/2958) ~ [UI](ntp-services-snap-2-7-ui/2959)|[CLI](ntp-services-snap-2-8-cli/2960) ~ |**UI**|[CLI](ntp-services-snap-2-9-cli/2962) ~ [UI](ntp-services-snap-2-9-ui/2963)|
+|Packages|[CLI](ntp-services-deb-2-7-cli/2964) ~ [UI](ntp-services-deb-2-7-ui/2965)|[CLI](ntp-services-deb-2-8-cli/2966) ~ [UI](ntp-services-deb-2-8-ui/2967)|[CLI](ntp-services-deb-2-9-cli/2968) ~ [UI](ntp-services-deb-2-9-ui/2969)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ntp-services-snap-2-7-cli/2958) ~ [UI](ntp-services-snap-2-7-ui/2959)|[CLI](ntp-services-snap-2-8-cli/2960) ~ [UI](ntp-services-snap-2-8-ui/2961)||**CLI** ~ [UI](ntp-services-snap-2-9-ui/2963)|
+|Packages|[CLI](ntp-services-deb-2-7-cli/2964) ~ [UI](ntp-services-deb-2-7-ui/2965)|[CLI](ntp-services-deb-2-8-cli/2966) ~ [UI](ntp-services-deb-2-8-ui/2967)|[CLI](ntp-services-deb-2-9-cli/2968) ~ [UI](ntp-services-deb-2-9-ui/2969)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ntp-services-snap-2-7-cli/2958) ~ [UI](ntp-services-snap-2-7-ui/2959)|[CLI](ntp-services-snap-2-8-cli/2960) ~ [UI](ntp-services-snap-2-8-ui/2961)|[CLI](ntp-services-snap-2-9-cli/2962) ~ |**UI**|
+|Packages|[CLI](ntp-services-deb-2-7-cli/2964) ~ [UI](ntp-services-deb-2-7-ui/2965)|[CLI](ntp-services-deb-2-8-cli/2966) ~ [UI](ntp-services-deb-2-8-ui/2967)|[CLI](ntp-services-deb-2-9-cli/2968) ~ [UI](ntp-services-deb-2-9-ui/2969)|
+ snap-2-9-ui -->
+
 MAAS provides managed NTP services (with [Chrony](https://chrony.tuxfamily.org/)) for all region and rack controllers. This arrangement allows MAAS to both keep its controllers synchronised, and keep deployed machines synchronised as well. You can configure NTP on the 'Network services' tab of the 'Settings' page.
 
 The region controller configures the NTP service to keep its time synchronised from one or more external sources. By default, the MAAS region controller uses `ntp.ubuntu.com`. Rack controllers also configure the NTP service, synchronising their time with the region controllers.  Rack controllers also configure DHCP with the correct NTP information. Any machine on the network that obtains a DHCP lease from MAAS will benefit from NTP support.

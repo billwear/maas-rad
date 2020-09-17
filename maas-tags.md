@@ -1,3 +1,87 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](maas-tags-snap-2-7-cli/2886) ~ [UI](maas-tags-snap-2-7-ui/2887)|[CLI](maas-tags-snap-2-8-cli/2888) ~ [UI](maas-tags-snap-2-8-ui/2889)|[CLI](maas-tags-snap-2-9-cli/2890) ~ [UI](maas-tags-snap-2-9-ui/2891)|
+|Packages|**CLI** ~ [UI](maas-tags-deb-2-7-ui/2893)|[CLI](maas-tags-deb-2-8-cli/2894) ~ [UI](maas-tags-deb-2-8-ui/2895)|[CLI](maas-tags-deb-2-9-cli/2896) ~ [UI](maas-tags-deb-2-9-ui/2897)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](maas-tags-snap-2-7-cli/2886) ~ [UI](maas-tags-snap-2-7-ui/2887)|[CLI](maas-tags-snap-2-8-cli/2888) ~ [UI](maas-tags-snap-2-8-ui/2889)|[CLI](maas-tags-snap-2-9-cli/2890) ~ [UI](maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](maas-tags-deb-2-7-cli/2892) ~ |**UI**|[CLI](maas-tags-deb-2-8-cli/2894) ~ [UI](maas-tags-deb-2-8-ui/2895)|[CLI](maas-tags-deb-2-9-cli/2896) ~ [UI](maas-tags-deb-2-9-ui/2897)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](maas-tags-snap-2-7-cli/2886) ~ [UI](maas-tags-snap-2-7-ui/2887)|[CLI](maas-tags-snap-2-8-cli/2888) ~ [UI](maas-tags-snap-2-8-ui/2889)|[CLI](maas-tags-snap-2-9-cli/2890) ~ [UI](maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](maas-tags-deb-2-7-cli/2892) ~ [UI](maas-tags-deb-2-7-ui/2893)||**CLI** ~ [UI](maas-tags-deb-2-8-ui/2895)|[CLI](maas-tags-deb-2-9-cli/2896) ~ [UI](maas-tags-deb-2-9-ui/2897)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](maas-tags-snap-2-7-cli/2886) ~ [UI](maas-tags-snap-2-7-ui/2887)|[CLI](maas-tags-snap-2-8-cli/2888) ~ [UI](maas-tags-snap-2-8-ui/2889)|[CLI](maas-tags-snap-2-9-cli/2890) ~ [UI](maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](maas-tags-deb-2-7-cli/2892) ~ [UI](maas-tags-deb-2-7-ui/2893)|[CLI](maas-tags-deb-2-8-cli/2894) ~ |**UI**|[CLI](maas-tags-deb-2-9-cli/2896) ~ [UI](maas-tags-deb-2-9-ui/2897)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](maas-tags-snap-2-7-cli/2886) ~ [UI](maas-tags-snap-2-7-ui/2887)|[CLI](maas-tags-snap-2-8-cli/2888) ~ [UI](maas-tags-snap-2-8-ui/2889)|[CLI](maas-tags-snap-2-9-cli/2890) ~ [UI](maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](maas-tags-deb-2-7-cli/2892) ~ [UI](maas-tags-deb-2-7-ui/2893)|[CLI](maas-tags-deb-2-8-cli/2894) ~ [UI](maas-tags-deb-2-8-ui/2895)||**CLI** ~ [UI](maas-tags-deb-2-9-ui/2897)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](maas-tags-snap-2-7-cli/2886) ~ [UI](maas-tags-snap-2-7-ui/2887)|[CLI](maas-tags-snap-2-8-cli/2888) ~ [UI](maas-tags-snap-2-8-ui/2889)|[CLI](maas-tags-snap-2-9-cli/2890) ~ [UI](maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](maas-tags-deb-2-7-cli/2892) ~ [UI](maas-tags-deb-2-7-ui/2893)|[CLI](maas-tags-deb-2-8-cli/2894) ~ [UI](maas-tags-deb-2-8-ui/2895)|[CLI](maas-tags-deb-2-9-cli/2896) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](maas-tags-snap-2-7-ui/2887)|[CLI](maas-tags-snap-2-8-cli/2888) ~ [UI](maas-tags-snap-2-8-ui/2889)|[CLI](maas-tags-snap-2-9-cli/2890) ~ [UI](maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](maas-tags-deb-2-7-cli/2892) ~ [UI](maas-tags-deb-2-7-ui/2893)|[CLI](maas-tags-deb-2-8-cli/2894) ~ [UI](maas-tags-deb-2-8-ui/2895)|[CLI](maas-tags-deb-2-9-cli/2896) ~ [UI](maas-tags-deb-2-9-ui/2897)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](maas-tags-snap-2-7-cli/2886) ~ |**UI**|[CLI](maas-tags-snap-2-8-cli/2888) ~ [UI](maas-tags-snap-2-8-ui/2889)|[CLI](maas-tags-snap-2-9-cli/2890) ~ [UI](maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](maas-tags-deb-2-7-cli/2892) ~ [UI](maas-tags-deb-2-7-ui/2893)|[CLI](maas-tags-deb-2-8-cli/2894) ~ [UI](maas-tags-deb-2-8-ui/2895)|[CLI](maas-tags-deb-2-9-cli/2896) ~ [UI](maas-tags-deb-2-9-ui/2897)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](maas-tags-snap-2-7-cli/2886) ~ [UI](maas-tags-snap-2-7-ui/2887)||**CLI** ~ [UI](maas-tags-snap-2-8-ui/2889)|[CLI](maas-tags-snap-2-9-cli/2890) ~ [UI](maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](maas-tags-deb-2-7-cli/2892) ~ [UI](maas-tags-deb-2-7-ui/2893)|[CLI](maas-tags-deb-2-8-cli/2894) ~ [UI](maas-tags-deb-2-8-ui/2895)|[CLI](maas-tags-deb-2-9-cli/2896) ~ [UI](maas-tags-deb-2-9-ui/2897)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](maas-tags-snap-2-7-cli/2886) ~ [UI](maas-tags-snap-2-7-ui/2887)|[CLI](maas-tags-snap-2-8-cli/2888) ~ |**UI**|[CLI](maas-tags-snap-2-9-cli/2890) ~ [UI](maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](maas-tags-deb-2-7-cli/2892) ~ [UI](maas-tags-deb-2-7-ui/2893)|[CLI](maas-tags-deb-2-8-cli/2894) ~ [UI](maas-tags-deb-2-8-ui/2895)|[CLI](maas-tags-deb-2-9-cli/2896) ~ [UI](maas-tags-deb-2-9-ui/2897)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](maas-tags-snap-2-7-cli/2886) ~ [UI](maas-tags-snap-2-7-ui/2887)|[CLI](maas-tags-snap-2-8-cli/2888) ~ [UI](maas-tags-snap-2-8-ui/2889)||**CLI** ~ [UI](maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](maas-tags-deb-2-7-cli/2892) ~ [UI](maas-tags-deb-2-7-ui/2893)|[CLI](maas-tags-deb-2-8-cli/2894) ~ [UI](maas-tags-deb-2-8-ui/2895)|[CLI](maas-tags-deb-2-9-cli/2896) ~ [UI](maas-tags-deb-2-9-ui/2897)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](maas-tags-snap-2-7-cli/2886) ~ [UI](maas-tags-snap-2-7-ui/2887)|[CLI](maas-tags-snap-2-8-cli/2888) ~ [UI](maas-tags-snap-2-8-ui/2889)|[CLI](maas-tags-snap-2-9-cli/2890) ~ |**UI**|
+|Packages|[CLI](maas-tags-deb-2-7-cli/2892) ~ [UI](maas-tags-deb-2-7-ui/2893)|[CLI](maas-tags-deb-2-8-cli/2894) ~ [UI](maas-tags-deb-2-8-ui/2895)|[CLI](maas-tags-deb-2-9-cli/2896) ~ [UI](maas-tags-deb-2-9-ui/2897)|
+ snap-2-9-ui -->
+
 Tags are a convenient way to assign descriptive words to machines, interfaces, and storage devices. Using MAAS tags, you can easily select machines that meet certain criteria, helping you to remember that you've defined or reserved certain machines for certain functions. 
 
 [note]

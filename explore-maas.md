@@ -1,3 +1,87 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](explore-maas-snap-2-7-cli/2634) ~ [UI](explore-maas-snap-2-7-ui/2635)|[CLI](explore-maas-snap-2-8-cli/2636) ~ [UI](explore-maas-snap-2-8-ui/2637)|[CLI](explore-maas-snap-2-9-cli/2638) ~ [UI](explore-maas-snap-2-9-ui/2639)|
+|Packages|**CLI** ~ [UI](explore-maas-deb-2-7-ui/2641)|[CLI](explore-maas-deb-2-8-cli/2642) ~ [UI](explore-maas-deb-2-8-ui/2643)|[CLI](explore-maas-deb-2-9-cli/2644) ~ [UI](explore-maas-deb-2-9-ui/2645)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](explore-maas-snap-2-7-cli/2634) ~ [UI](explore-maas-snap-2-7-ui/2635)|[CLI](explore-maas-snap-2-8-cli/2636) ~ [UI](explore-maas-snap-2-8-ui/2637)|[CLI](explore-maas-snap-2-9-cli/2638) ~ [UI](explore-maas-snap-2-9-ui/2639)|
+|Packages|[CLI](explore-maas-deb-2-7-cli/2640) ~ |**UI**|[CLI](explore-maas-deb-2-8-cli/2642) ~ [UI](explore-maas-deb-2-8-ui/2643)|[CLI](explore-maas-deb-2-9-cli/2644) ~ [UI](explore-maas-deb-2-9-ui/2645)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](explore-maas-snap-2-7-cli/2634) ~ [UI](explore-maas-snap-2-7-ui/2635)|[CLI](explore-maas-snap-2-8-cli/2636) ~ [UI](explore-maas-snap-2-8-ui/2637)|[CLI](explore-maas-snap-2-9-cli/2638) ~ [UI](explore-maas-snap-2-9-ui/2639)|
+|Packages|[CLI](explore-maas-deb-2-7-cli/2640) ~ [UI](explore-maas-deb-2-7-ui/2641)||**CLI** ~ [UI](explore-maas-deb-2-8-ui/2643)|[CLI](explore-maas-deb-2-9-cli/2644) ~ [UI](explore-maas-deb-2-9-ui/2645)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](explore-maas-snap-2-7-cli/2634) ~ [UI](explore-maas-snap-2-7-ui/2635)|[CLI](explore-maas-snap-2-8-cli/2636) ~ [UI](explore-maas-snap-2-8-ui/2637)|[CLI](explore-maas-snap-2-9-cli/2638) ~ [UI](explore-maas-snap-2-9-ui/2639)|
+|Packages|[CLI](explore-maas-deb-2-7-cli/2640) ~ [UI](explore-maas-deb-2-7-ui/2641)|[CLI](explore-maas-deb-2-8-cli/2642) ~ |**UI**|[CLI](explore-maas-deb-2-9-cli/2644) ~ [UI](explore-maas-deb-2-9-ui/2645)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](explore-maas-snap-2-7-cli/2634) ~ [UI](explore-maas-snap-2-7-ui/2635)|[CLI](explore-maas-snap-2-8-cli/2636) ~ [UI](explore-maas-snap-2-8-ui/2637)|[CLI](explore-maas-snap-2-9-cli/2638) ~ [UI](explore-maas-snap-2-9-ui/2639)|
+|Packages|[CLI](explore-maas-deb-2-7-cli/2640) ~ [UI](explore-maas-deb-2-7-ui/2641)|[CLI](explore-maas-deb-2-8-cli/2642) ~ [UI](explore-maas-deb-2-8-ui/2643)||**CLI** ~ [UI](explore-maas-deb-2-9-ui/2645)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](explore-maas-snap-2-7-cli/2634) ~ [UI](explore-maas-snap-2-7-ui/2635)|[CLI](explore-maas-snap-2-8-cli/2636) ~ [UI](explore-maas-snap-2-8-ui/2637)|[CLI](explore-maas-snap-2-9-cli/2638) ~ [UI](explore-maas-snap-2-9-ui/2639)|
+|Packages|[CLI](explore-maas-deb-2-7-cli/2640) ~ [UI](explore-maas-deb-2-7-ui/2641)|[CLI](explore-maas-deb-2-8-cli/2642) ~ [UI](explore-maas-deb-2-8-ui/2643)|[CLI](explore-maas-deb-2-9-cli/2644) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](explore-maas-snap-2-7-ui/2635)|[CLI](explore-maas-snap-2-8-cli/2636) ~ [UI](explore-maas-snap-2-8-ui/2637)|[CLI](explore-maas-snap-2-9-cli/2638) ~ [UI](explore-maas-snap-2-9-ui/2639)|
+|Packages|[CLI](explore-maas-deb-2-7-cli/2640) ~ [UI](explore-maas-deb-2-7-ui/2641)|[CLI](explore-maas-deb-2-8-cli/2642) ~ [UI](explore-maas-deb-2-8-ui/2643)|[CLI](explore-maas-deb-2-9-cli/2644) ~ [UI](explore-maas-deb-2-9-ui/2645)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](explore-maas-snap-2-7-cli/2634) ~ |**UI**|[CLI](explore-maas-snap-2-8-cli/2636) ~ [UI](explore-maas-snap-2-8-ui/2637)|[CLI](explore-maas-snap-2-9-cli/2638) ~ [UI](explore-maas-snap-2-9-ui/2639)|
+|Packages|[CLI](explore-maas-deb-2-7-cli/2640) ~ [UI](explore-maas-deb-2-7-ui/2641)|[CLI](explore-maas-deb-2-8-cli/2642) ~ [UI](explore-maas-deb-2-8-ui/2643)|[CLI](explore-maas-deb-2-9-cli/2644) ~ [UI](explore-maas-deb-2-9-ui/2645)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](explore-maas-snap-2-7-cli/2634) ~ [UI](explore-maas-snap-2-7-ui/2635)||**CLI** ~ [UI](explore-maas-snap-2-8-ui/2637)|[CLI](explore-maas-snap-2-9-cli/2638) ~ [UI](explore-maas-snap-2-9-ui/2639)|
+|Packages|[CLI](explore-maas-deb-2-7-cli/2640) ~ [UI](explore-maas-deb-2-7-ui/2641)|[CLI](explore-maas-deb-2-8-cli/2642) ~ [UI](explore-maas-deb-2-8-ui/2643)|[CLI](explore-maas-deb-2-9-cli/2644) ~ [UI](explore-maas-deb-2-9-ui/2645)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](explore-maas-snap-2-7-cli/2634) ~ [UI](explore-maas-snap-2-7-ui/2635)|[CLI](explore-maas-snap-2-8-cli/2636) ~ |**UI**|[CLI](explore-maas-snap-2-9-cli/2638) ~ [UI](explore-maas-snap-2-9-ui/2639)|
+|Packages|[CLI](explore-maas-deb-2-7-cli/2640) ~ [UI](explore-maas-deb-2-7-ui/2641)|[CLI](explore-maas-deb-2-8-cli/2642) ~ [UI](explore-maas-deb-2-8-ui/2643)|[CLI](explore-maas-deb-2-9-cli/2644) ~ [UI](explore-maas-deb-2-9-ui/2645)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](explore-maas-snap-2-7-cli/2634) ~ [UI](explore-maas-snap-2-7-ui/2635)|[CLI](explore-maas-snap-2-8-cli/2636) ~ [UI](explore-maas-snap-2-8-ui/2637)||**CLI** ~ [UI](explore-maas-snap-2-9-ui/2639)|
+|Packages|[CLI](explore-maas-deb-2-7-cli/2640) ~ [UI](explore-maas-deb-2-7-ui/2641)|[CLI](explore-maas-deb-2-8-cli/2642) ~ [UI](explore-maas-deb-2-8-ui/2643)|[CLI](explore-maas-deb-2-9-cli/2644) ~ [UI](explore-maas-deb-2-9-ui/2645)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](explore-maas-snap-2-7-cli/2634) ~ [UI](explore-maas-snap-2-7-ui/2635)|[CLI](explore-maas-snap-2-8-cli/2636) ~ [UI](explore-maas-snap-2-8-ui/2637)|[CLI](explore-maas-snap-2-9-cli/2638) ~ |**UI**|
+|Packages|[CLI](explore-maas-deb-2-7-cli/2640) ~ [UI](explore-maas-deb-2-7-ui/2641)|[CLI](explore-maas-deb-2-8-cli/2642) ~ [UI](explore-maas-deb-2-8-ui/2643)|[CLI](explore-maas-deb-2-9-cli/2644) ~ [UI](explore-maas-deb-2-9-ui/2645)|
+ snap-2-9-ui -->
+
 You can get a feel for MAAS without committing real hardware by using virtual machines. This article will show you how, focusing on the web UI.  You should realise that this is not an exhaustive introduction, but it will set you up with a good MAAS test configuration.
 
 <h2 id="heading--installation">Installation</a></h2>

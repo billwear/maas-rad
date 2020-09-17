@@ -1,3 +1,87 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](block-devices-snap-2-7-cli/2346) ~ [UI](block-devices-snap-2-7-ui/2347)|[CLI](block-devices-snap-2-8-cli/2348) ~ [UI](block-devices-snap-2-8-ui/2349)|[CLI](block-devices-snap-2-9-cli/2350) ~ [UI](block-devices-snap-2-9-ui/2351)|
+|Packages|**CLI** ~ [UI](block-devices-deb-2-7-ui/2353)|[CLI](block-devices-deb-2-8-cli/2354) ~ [UI](block-devices-deb-2-8-ui/2355)|[CLI](block-devices-deb-2-9-cli/2356) ~ [UI](block-devices-deb-2-9-ui/2357)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](block-devices-snap-2-7-cli/2346) ~ [UI](block-devices-snap-2-7-ui/2347)|[CLI](block-devices-snap-2-8-cli/2348) ~ [UI](block-devices-snap-2-8-ui/2349)|[CLI](block-devices-snap-2-9-cli/2350) ~ [UI](block-devices-snap-2-9-ui/2351)|
+|Packages|[CLI](block-devices-deb-2-7-cli/2352) ~ |**UI**|[CLI](block-devices-deb-2-8-cli/2354) ~ [UI](block-devices-deb-2-8-ui/2355)|[CLI](block-devices-deb-2-9-cli/2356) ~ [UI](block-devices-deb-2-9-ui/2357)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](block-devices-snap-2-7-cli/2346) ~ [UI](block-devices-snap-2-7-ui/2347)|[CLI](block-devices-snap-2-8-cli/2348) ~ [UI](block-devices-snap-2-8-ui/2349)|[CLI](block-devices-snap-2-9-cli/2350) ~ [UI](block-devices-snap-2-9-ui/2351)|
+|Packages|[CLI](block-devices-deb-2-7-cli/2352) ~ [UI](block-devices-deb-2-7-ui/2353)||**CLI** ~ [UI](block-devices-deb-2-8-ui/2355)|[CLI](block-devices-deb-2-9-cli/2356) ~ [UI](block-devices-deb-2-9-ui/2357)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](block-devices-snap-2-7-cli/2346) ~ [UI](block-devices-snap-2-7-ui/2347)|[CLI](block-devices-snap-2-8-cli/2348) ~ [UI](block-devices-snap-2-8-ui/2349)|[CLI](block-devices-snap-2-9-cli/2350) ~ [UI](block-devices-snap-2-9-ui/2351)|
+|Packages|[CLI](block-devices-deb-2-7-cli/2352) ~ [UI](block-devices-deb-2-7-ui/2353)|[CLI](block-devices-deb-2-8-cli/2354) ~ |**UI**|[CLI](block-devices-deb-2-9-cli/2356) ~ [UI](block-devices-deb-2-9-ui/2357)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](block-devices-snap-2-7-cli/2346) ~ [UI](block-devices-snap-2-7-ui/2347)|[CLI](block-devices-snap-2-8-cli/2348) ~ [UI](block-devices-snap-2-8-ui/2349)|[CLI](block-devices-snap-2-9-cli/2350) ~ [UI](block-devices-snap-2-9-ui/2351)|
+|Packages|[CLI](block-devices-deb-2-7-cli/2352) ~ [UI](block-devices-deb-2-7-ui/2353)|[CLI](block-devices-deb-2-8-cli/2354) ~ [UI](block-devices-deb-2-8-ui/2355)||**CLI** ~ [UI](block-devices-deb-2-9-ui/2357)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](block-devices-snap-2-7-cli/2346) ~ [UI](block-devices-snap-2-7-ui/2347)|[CLI](block-devices-snap-2-8-cli/2348) ~ [UI](block-devices-snap-2-8-ui/2349)|[CLI](block-devices-snap-2-9-cli/2350) ~ [UI](block-devices-snap-2-9-ui/2351)|
+|Packages|[CLI](block-devices-deb-2-7-cli/2352) ~ [UI](block-devices-deb-2-7-ui/2353)|[CLI](block-devices-deb-2-8-cli/2354) ~ [UI](block-devices-deb-2-8-ui/2355)|[CLI](block-devices-deb-2-9-cli/2356) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](block-devices-snap-2-7-ui/2347)|[CLI](block-devices-snap-2-8-cli/2348) ~ [UI](block-devices-snap-2-8-ui/2349)|[CLI](block-devices-snap-2-9-cli/2350) ~ [UI](block-devices-snap-2-9-ui/2351)|
+|Packages|[CLI](block-devices-deb-2-7-cli/2352) ~ [UI](block-devices-deb-2-7-ui/2353)|[CLI](block-devices-deb-2-8-cli/2354) ~ [UI](block-devices-deb-2-8-ui/2355)|[CLI](block-devices-deb-2-9-cli/2356) ~ [UI](block-devices-deb-2-9-ui/2357)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](block-devices-snap-2-7-cli/2346) ~ |**UI**|[CLI](block-devices-snap-2-8-cli/2348) ~ [UI](block-devices-snap-2-8-ui/2349)|[CLI](block-devices-snap-2-9-cli/2350) ~ [UI](block-devices-snap-2-9-ui/2351)|
+|Packages|[CLI](block-devices-deb-2-7-cli/2352) ~ [UI](block-devices-deb-2-7-ui/2353)|[CLI](block-devices-deb-2-8-cli/2354) ~ [UI](block-devices-deb-2-8-ui/2355)|[CLI](block-devices-deb-2-9-cli/2356) ~ [UI](block-devices-deb-2-9-ui/2357)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](block-devices-snap-2-7-cli/2346) ~ [UI](block-devices-snap-2-7-ui/2347)||**CLI** ~ [UI](block-devices-snap-2-8-ui/2349)|[CLI](block-devices-snap-2-9-cli/2350) ~ [UI](block-devices-snap-2-9-ui/2351)|
+|Packages|[CLI](block-devices-deb-2-7-cli/2352) ~ [UI](block-devices-deb-2-7-ui/2353)|[CLI](block-devices-deb-2-8-cli/2354) ~ [UI](block-devices-deb-2-8-ui/2355)|[CLI](block-devices-deb-2-9-cli/2356) ~ [UI](block-devices-deb-2-9-ui/2357)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](block-devices-snap-2-7-cli/2346) ~ [UI](block-devices-snap-2-7-ui/2347)|[CLI](block-devices-snap-2-8-cli/2348) ~ |**UI**|[CLI](block-devices-snap-2-9-cli/2350) ~ [UI](block-devices-snap-2-9-ui/2351)|
+|Packages|[CLI](block-devices-deb-2-7-cli/2352) ~ [UI](block-devices-deb-2-7-ui/2353)|[CLI](block-devices-deb-2-8-cli/2354) ~ [UI](block-devices-deb-2-8-ui/2355)|[CLI](block-devices-deb-2-9-cli/2356) ~ [UI](block-devices-deb-2-9-ui/2357)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](block-devices-snap-2-7-cli/2346) ~ [UI](block-devices-snap-2-7-ui/2347)|[CLI](block-devices-snap-2-8-cli/2348) ~ [UI](block-devices-snap-2-8-ui/2349)||**CLI** ~ [UI](block-devices-snap-2-9-ui/2351)|
+|Packages|[CLI](block-devices-deb-2-7-cli/2352) ~ [UI](block-devices-deb-2-7-ui/2353)|[CLI](block-devices-deb-2-8-cli/2354) ~ [UI](block-devices-deb-2-8-ui/2355)|[CLI](block-devices-deb-2-9-cli/2356) ~ [UI](block-devices-deb-2-9-ui/2357)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](block-devices-snap-2-7-cli/2346) ~ [UI](block-devices-snap-2-7-ui/2347)|[CLI](block-devices-snap-2-8-cli/2348) ~ [UI](block-devices-snap-2-8-ui/2349)|[CLI](block-devices-snap-2-9-cli/2350) ~ |**UI**|
+|Packages|[CLI](block-devices-deb-2-7-cli/2352) ~ [UI](block-devices-deb-2-7-ui/2353)|[CLI](block-devices-deb-2-8-cli/2354) ~ [UI](block-devices-deb-2-8-ui/2355)|[CLI](block-devices-deb-2-9-cli/2356) ~ [UI](block-devices-deb-2-9-ui/2357)|
+ snap-2-9-ui -->
+
 Once the initial storage layout has been configured on a machine, you can perform many operations to view and adjust the entire storage layout for the machine. In MAAS there are two different types of block devices.
 
 **Physical**

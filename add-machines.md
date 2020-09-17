@@ -1,47 +1,86 @@
-<!-- base set DO NOT EDIT
-<table width="100%"><tr>
-<td><a href="https://maas.io/docs/add-machines"><u>Standard</u></a></td>
-<td><a href="https://maas.io/docs/2.7/uiadd-machines">2.7/UI</a></td>
-<td><a href="https://maas.io/docs/2.8/ui/add-machines">2.8/UI</a></td>
-<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
-</tr></table>
- base set DO NOT EDIT -->
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
+|Packages|**CLI** ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+ deb-2-7-cli -->
 
-<!-- vanilla
-<table width="100%"><tr>
-<td><strong>Standard</strong></td>
-<td><a href="https://maas.io/docs/2.7/ui/add-machines">2.7/UI</a></td>
-<td><a href="https://maas.io/docs/2.8/ui/add-machines">2.8/UI</a></td>
-<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
-</tr></table>
- vanilla -->
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ |**UI**|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+ deb-2-7-ui -->
 
-<!-- 2-7-ui
-<table width="100%"><tr>
-<td><a href="https://maas.io/docs/add-machines">Standard</a></td>
-<td><strong>2.7/UI</strong></td>
-<td><a href="https://maas.io/docs/2.8/ui/add-machines">2.8/UI</a></td>
-<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
-</tr></table>
- 2-7-ui -->
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)||**CLI** ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+ deb-2-8-cli -->
 
-<!-- 2-8-ui
-<table width="100%"><tr>
-<td><a href="https://maas.io/docs/add-machines">Standard</a></td>
-<td><a href="https://maas.io/docs/2.7/ui/add-machines">2.7/UI</a></td>
-<td><strong>2.8/UI</strong></td>
-<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
-</tr></table>
- 2-8-ui -->
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ |**UI**|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+ deb-2-8-ui -->
 
-<!-- cli
-<table width="100%"><tr>
-<td><a href="https://maas.io/docs/add-machines">Standard</a></td>
-<td><a href="https://maas.io/docs/2.7/ui/add-machines">2.7/UI</a></td>
-<td><a href="https://maas.io/docs/2.8/ui/add-machines">2.8/UI</a></td>
-<td><strong>CLI-only</strong></td>
-</tr></table>
- cli -->
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)||**CLI** ~ [UI](add-machines-deb-2-9-ui/2285)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ |**UI**|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)||**CLI** ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ |**UI**|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)||**CLI** ~ [UI](add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ |**UI**|
+|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+ snap-2-9-ui -->
 
 There are two ways to add a machine to MAAS:
 
@@ -160,7 +199,7 @@ The fields on the "Add machine" screen are as follows:
 <!-- cli
 At the command line, enter the following information:
 
-<code>
+```
 stormrider@wintermute:~$ maas admin machines create \
 > architecture=$ARCH \
 > max_addresses=$MAC_ADDRESS \
@@ -168,12 +207,13 @@ stormrider@wintermute:~$ maas admin machines create \
 > power_parameters_power_id=$POWER_ID \
 > power_parameters_power_address=$POWER_ADDRESS \
 > power_parameters_power_pass=$POWER_PASSWORD
-</code>
+```
 
 When you enter the command (substituting the `$...` parameters for your own particulars), the screen will pause for a moment, and then return a stream of JSON relating to the added machine.
 
 Here's an example with a local laptop MAAS install, using KVMs as virtual machines:
 
+```
 stormrider@wintermute:~$ maas admin machines create \
 > architecture=amd64 \
 > max_addresses=52:54:00:6f:b4:af \
@@ -181,18 +221,26 @@ stormrider@wintermute:~$ maas admin machines create \
 > power_parameters_power_id=50f6cca2-5d89-43b9-941c-90c9fcd7c156 \
 > power_parameters_power_address=qemu+ssh://stormrider@192.168.123.1/system \
 > power_parameters_power_pass=xxxxxxx
+```
+
+There's also a version of this command in a script called [mkmm --kvm](/t/the-cli-cookbook/2218#heading--mkkvm) in the [CLI cookbook](/t/the-cli-cookbook/2218).
 
 The variable fields in the `machines create` command (the `$...` items) are as follows, in this example: 
+
+```
 > architecture=$ARCH \
-> max_addresses=$MAC_ADDRESS \
+> mac_addresses=$MAC_ADDRESS \
 > power_type=$POWER_TYPE \
 > power_parameters_power_id=$POWER_ID \
 > power_parameters_power_address=$POWER_ADDRESS \
 > power_parameters_power_pass=$POWER_PASSWORD
+```
 
 * `$ARCH`: This field refers to the architecture of the machine being added, `amd64` in the local laptop example.
 
 * `$MAC_ADDRESS`: This is the MAC address of the boot-enabled NIC for the machine being added.  Note that the MAC address entered here must use a colon (":") separator, although some MAC addresses are written with dash ("-") separators.
+
+* `$POWER_TYPE`: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/830) for details on the availabile power types and the relevant parameters for each type. In this example, we've used a "virsh" power type (a libvirt KVM), but your choice will depend on your hardware.
 
 * `$POWER_ID`: This is generally the UUID of the machine being added.
 

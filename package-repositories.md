@@ -1,3 +1,87 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](package-repositories-snap-2-7-cli/2970) ~ [UI](package-repositories-snap-2-7-ui/2971)|[CLI](package-repositories-snap-2-8-cli/2972) ~ [UI](package-repositories-snap-2-8-ui/2973)|[CLI](package-repositories-snap-2-9-cli/2974) ~ [UI](package-repositories-snap-2-9-ui/2975)|
+|Packages|**CLI** ~ [UI](package-repositories-deb-2-7-ui/2977)|[CLI](package-repositories-deb-2-8-cli/2978) ~ [UI](package-repositories-deb-2-8-ui/2979)|[CLI](package-repositories-deb-2-9-cli/2980) ~ [UI](package-repositories-deb-2-9-ui/2981)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](package-repositories-snap-2-7-cli/2970) ~ [UI](package-repositories-snap-2-7-ui/2971)|[CLI](package-repositories-snap-2-8-cli/2972) ~ [UI](package-repositories-snap-2-8-ui/2973)|[CLI](package-repositories-snap-2-9-cli/2974) ~ [UI](package-repositories-snap-2-9-ui/2975)|
+|Packages|[CLI](package-repositories-deb-2-7-cli/2976) ~ |**UI**|[CLI](package-repositories-deb-2-8-cli/2978) ~ [UI](package-repositories-deb-2-8-ui/2979)|[CLI](package-repositories-deb-2-9-cli/2980) ~ [UI](package-repositories-deb-2-9-ui/2981)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](package-repositories-snap-2-7-cli/2970) ~ [UI](package-repositories-snap-2-7-ui/2971)|[CLI](package-repositories-snap-2-8-cli/2972) ~ [UI](package-repositories-snap-2-8-ui/2973)|[CLI](package-repositories-snap-2-9-cli/2974) ~ [UI](package-repositories-snap-2-9-ui/2975)|
+|Packages|[CLI](package-repositories-deb-2-7-cli/2976) ~ [UI](package-repositories-deb-2-7-ui/2977)||**CLI** ~ [UI](package-repositories-deb-2-8-ui/2979)|[CLI](package-repositories-deb-2-9-cli/2980) ~ [UI](package-repositories-deb-2-9-ui/2981)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](package-repositories-snap-2-7-cli/2970) ~ [UI](package-repositories-snap-2-7-ui/2971)|[CLI](package-repositories-snap-2-8-cli/2972) ~ [UI](package-repositories-snap-2-8-ui/2973)|[CLI](package-repositories-snap-2-9-cli/2974) ~ [UI](package-repositories-snap-2-9-ui/2975)|
+|Packages|[CLI](package-repositories-deb-2-7-cli/2976) ~ [UI](package-repositories-deb-2-7-ui/2977)|[CLI](package-repositories-deb-2-8-cli/2978) ~ |**UI**|[CLI](package-repositories-deb-2-9-cli/2980) ~ [UI](package-repositories-deb-2-9-ui/2981)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](package-repositories-snap-2-7-cli/2970) ~ [UI](package-repositories-snap-2-7-ui/2971)|[CLI](package-repositories-snap-2-8-cli/2972) ~ [UI](package-repositories-snap-2-8-ui/2973)|[CLI](package-repositories-snap-2-9-cli/2974) ~ [UI](package-repositories-snap-2-9-ui/2975)|
+|Packages|[CLI](package-repositories-deb-2-7-cli/2976) ~ [UI](package-repositories-deb-2-7-ui/2977)|[CLI](package-repositories-deb-2-8-cli/2978) ~ [UI](package-repositories-deb-2-8-ui/2979)||**CLI** ~ [UI](package-repositories-deb-2-9-ui/2981)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](package-repositories-snap-2-7-cli/2970) ~ [UI](package-repositories-snap-2-7-ui/2971)|[CLI](package-repositories-snap-2-8-cli/2972) ~ [UI](package-repositories-snap-2-8-ui/2973)|[CLI](package-repositories-snap-2-9-cli/2974) ~ [UI](package-repositories-snap-2-9-ui/2975)|
+|Packages|[CLI](package-repositories-deb-2-7-cli/2976) ~ [UI](package-repositories-deb-2-7-ui/2977)|[CLI](package-repositories-deb-2-8-cli/2978) ~ [UI](package-repositories-deb-2-8-ui/2979)|[CLI](package-repositories-deb-2-9-cli/2980) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](package-repositories-snap-2-7-ui/2971)|[CLI](package-repositories-snap-2-8-cli/2972) ~ [UI](package-repositories-snap-2-8-ui/2973)|[CLI](package-repositories-snap-2-9-cli/2974) ~ [UI](package-repositories-snap-2-9-ui/2975)|
+|Packages|[CLI](package-repositories-deb-2-7-cli/2976) ~ [UI](package-repositories-deb-2-7-ui/2977)|[CLI](package-repositories-deb-2-8-cli/2978) ~ [UI](package-repositories-deb-2-8-ui/2979)|[CLI](package-repositories-deb-2-9-cli/2980) ~ [UI](package-repositories-deb-2-9-ui/2981)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](package-repositories-snap-2-7-cli/2970) ~ |**UI**|[CLI](package-repositories-snap-2-8-cli/2972) ~ [UI](package-repositories-snap-2-8-ui/2973)|[CLI](package-repositories-snap-2-9-cli/2974) ~ [UI](package-repositories-snap-2-9-ui/2975)|
+|Packages|[CLI](package-repositories-deb-2-7-cli/2976) ~ [UI](package-repositories-deb-2-7-ui/2977)|[CLI](package-repositories-deb-2-8-cli/2978) ~ [UI](package-repositories-deb-2-8-ui/2979)|[CLI](package-repositories-deb-2-9-cli/2980) ~ [UI](package-repositories-deb-2-9-ui/2981)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](package-repositories-snap-2-7-cli/2970) ~ [UI](package-repositories-snap-2-7-ui/2971)||**CLI** ~ [UI](package-repositories-snap-2-8-ui/2973)|[CLI](package-repositories-snap-2-9-cli/2974) ~ [UI](package-repositories-snap-2-9-ui/2975)|
+|Packages|[CLI](package-repositories-deb-2-7-cli/2976) ~ [UI](package-repositories-deb-2-7-ui/2977)|[CLI](package-repositories-deb-2-8-cli/2978) ~ [UI](package-repositories-deb-2-8-ui/2979)|[CLI](package-repositories-deb-2-9-cli/2980) ~ [UI](package-repositories-deb-2-9-ui/2981)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](package-repositories-snap-2-7-cli/2970) ~ [UI](package-repositories-snap-2-7-ui/2971)|[CLI](package-repositories-snap-2-8-cli/2972) ~ |**UI**|[CLI](package-repositories-snap-2-9-cli/2974) ~ [UI](package-repositories-snap-2-9-ui/2975)|
+|Packages|[CLI](package-repositories-deb-2-7-cli/2976) ~ [UI](package-repositories-deb-2-7-ui/2977)|[CLI](package-repositories-deb-2-8-cli/2978) ~ [UI](package-repositories-deb-2-8-ui/2979)|[CLI](package-repositories-deb-2-9-cli/2980) ~ [UI](package-repositories-deb-2-9-ui/2981)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](package-repositories-snap-2-7-cli/2970) ~ [UI](package-repositories-snap-2-7-ui/2971)|[CLI](package-repositories-snap-2-8-cli/2972) ~ [UI](package-repositories-snap-2-8-ui/2973)||**CLI** ~ [UI](package-repositories-snap-2-9-ui/2975)|
+|Packages|[CLI](package-repositories-deb-2-7-cli/2976) ~ [UI](package-repositories-deb-2-7-ui/2977)|[CLI](package-repositories-deb-2-8-cli/2978) ~ [UI](package-repositories-deb-2-8-ui/2979)|[CLI](package-repositories-deb-2-9-cli/2980) ~ [UI](package-repositories-deb-2-9-ui/2981)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](package-repositories-snap-2-7-cli/2970) ~ [UI](package-repositories-snap-2-7-ui/2971)|[CLI](package-repositories-snap-2-8-cli/2972) ~ [UI](package-repositories-snap-2-8-ui/2973)|[CLI](package-repositories-snap-2-9-cli/2974) ~ |**UI**|
+|Packages|[CLI](package-repositories-deb-2-7-cli/2976) ~ [UI](package-repositories-deb-2-7-ui/2977)|[CLI](package-repositories-deb-2-8-cli/2978) ~ [UI](package-repositories-deb-2-8-ui/2979)|[CLI](package-repositories-deb-2-9-cli/2980) ~ [UI](package-repositories-deb-2-9-ui/2981)|
+ snap-2-9-ui -->
+
 Package repositories managed within MAAS can be of two types:
 
 -   Ubuntu package repositories

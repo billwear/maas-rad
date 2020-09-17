@@ -1,3 +1,87 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](python-api-client-snap-2-7-cli/3042) ~ [UI](python-api-client-snap-2-7-ui/3043)|[CLI](python-api-client-snap-2-8-cli/3044) ~ [UI](python-api-client-snap-2-8-ui/3045)|[CLI](python-api-client-snap-2-9-cli/3046) ~ [UI](python-api-client-snap-2-9-ui/3047)|
+|Packages|**CLI** ~ [UI](python-api-client-deb-2-7-ui/3049)|[CLI](python-api-client-deb-2-8-cli/3050) ~ [UI](python-api-client-deb-2-8-ui/3051)|[CLI](python-api-client-deb-2-9-cli/3052) ~ [UI](python-api-client-deb-2-9-ui/3053)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](python-api-client-snap-2-7-cli/3042) ~ [UI](python-api-client-snap-2-7-ui/3043)|[CLI](python-api-client-snap-2-8-cli/3044) ~ [UI](python-api-client-snap-2-8-ui/3045)|[CLI](python-api-client-snap-2-9-cli/3046) ~ [UI](python-api-client-snap-2-9-ui/3047)|
+|Packages|[CLI](python-api-client-deb-2-7-cli/3048) ~ |**UI**|[CLI](python-api-client-deb-2-8-cli/3050) ~ [UI](python-api-client-deb-2-8-ui/3051)|[CLI](python-api-client-deb-2-9-cli/3052) ~ [UI](python-api-client-deb-2-9-ui/3053)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](python-api-client-snap-2-7-cli/3042) ~ [UI](python-api-client-snap-2-7-ui/3043)|[CLI](python-api-client-snap-2-8-cli/3044) ~ [UI](python-api-client-snap-2-8-ui/3045)|[CLI](python-api-client-snap-2-9-cli/3046) ~ [UI](python-api-client-snap-2-9-ui/3047)|
+|Packages|[CLI](python-api-client-deb-2-7-cli/3048) ~ [UI](python-api-client-deb-2-7-ui/3049)||**CLI** ~ [UI](python-api-client-deb-2-8-ui/3051)|[CLI](python-api-client-deb-2-9-cli/3052) ~ [UI](python-api-client-deb-2-9-ui/3053)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](python-api-client-snap-2-7-cli/3042) ~ [UI](python-api-client-snap-2-7-ui/3043)|[CLI](python-api-client-snap-2-8-cli/3044) ~ [UI](python-api-client-snap-2-8-ui/3045)|[CLI](python-api-client-snap-2-9-cli/3046) ~ [UI](python-api-client-snap-2-9-ui/3047)|
+|Packages|[CLI](python-api-client-deb-2-7-cli/3048) ~ [UI](python-api-client-deb-2-7-ui/3049)|[CLI](python-api-client-deb-2-8-cli/3050) ~ |**UI**|[CLI](python-api-client-deb-2-9-cli/3052) ~ [UI](python-api-client-deb-2-9-ui/3053)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](python-api-client-snap-2-7-cli/3042) ~ [UI](python-api-client-snap-2-7-ui/3043)|[CLI](python-api-client-snap-2-8-cli/3044) ~ [UI](python-api-client-snap-2-8-ui/3045)|[CLI](python-api-client-snap-2-9-cli/3046) ~ [UI](python-api-client-snap-2-9-ui/3047)|
+|Packages|[CLI](python-api-client-deb-2-7-cli/3048) ~ [UI](python-api-client-deb-2-7-ui/3049)|[CLI](python-api-client-deb-2-8-cli/3050) ~ [UI](python-api-client-deb-2-8-ui/3051)||**CLI** ~ [UI](python-api-client-deb-2-9-ui/3053)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](python-api-client-snap-2-7-cli/3042) ~ [UI](python-api-client-snap-2-7-ui/3043)|[CLI](python-api-client-snap-2-8-cli/3044) ~ [UI](python-api-client-snap-2-8-ui/3045)|[CLI](python-api-client-snap-2-9-cli/3046) ~ [UI](python-api-client-snap-2-9-ui/3047)|
+|Packages|[CLI](python-api-client-deb-2-7-cli/3048) ~ [UI](python-api-client-deb-2-7-ui/3049)|[CLI](python-api-client-deb-2-8-cli/3050) ~ [UI](python-api-client-deb-2-8-ui/3051)|[CLI](python-api-client-deb-2-9-cli/3052) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](python-api-client-snap-2-7-ui/3043)|[CLI](python-api-client-snap-2-8-cli/3044) ~ [UI](python-api-client-snap-2-8-ui/3045)|[CLI](python-api-client-snap-2-9-cli/3046) ~ [UI](python-api-client-snap-2-9-ui/3047)|
+|Packages|[CLI](python-api-client-deb-2-7-cli/3048) ~ [UI](python-api-client-deb-2-7-ui/3049)|[CLI](python-api-client-deb-2-8-cli/3050) ~ [UI](python-api-client-deb-2-8-ui/3051)|[CLI](python-api-client-deb-2-9-cli/3052) ~ [UI](python-api-client-deb-2-9-ui/3053)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](python-api-client-snap-2-7-cli/3042) ~ |**UI**|[CLI](python-api-client-snap-2-8-cli/3044) ~ [UI](python-api-client-snap-2-8-ui/3045)|[CLI](python-api-client-snap-2-9-cli/3046) ~ [UI](python-api-client-snap-2-9-ui/3047)|
+|Packages|[CLI](python-api-client-deb-2-7-cli/3048) ~ [UI](python-api-client-deb-2-7-ui/3049)|[CLI](python-api-client-deb-2-8-cli/3050) ~ [UI](python-api-client-deb-2-8-ui/3051)|[CLI](python-api-client-deb-2-9-cli/3052) ~ [UI](python-api-client-deb-2-9-ui/3053)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](python-api-client-snap-2-7-cli/3042) ~ [UI](python-api-client-snap-2-7-ui/3043)||**CLI** ~ [UI](python-api-client-snap-2-8-ui/3045)|[CLI](python-api-client-snap-2-9-cli/3046) ~ [UI](python-api-client-snap-2-9-ui/3047)|
+|Packages|[CLI](python-api-client-deb-2-7-cli/3048) ~ [UI](python-api-client-deb-2-7-ui/3049)|[CLI](python-api-client-deb-2-8-cli/3050) ~ [UI](python-api-client-deb-2-8-ui/3051)|[CLI](python-api-client-deb-2-9-cli/3052) ~ [UI](python-api-client-deb-2-9-ui/3053)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](python-api-client-snap-2-7-cli/3042) ~ [UI](python-api-client-snap-2-7-ui/3043)|[CLI](python-api-client-snap-2-8-cli/3044) ~ |**UI**|[CLI](python-api-client-snap-2-9-cli/3046) ~ [UI](python-api-client-snap-2-9-ui/3047)|
+|Packages|[CLI](python-api-client-deb-2-7-cli/3048) ~ [UI](python-api-client-deb-2-7-ui/3049)|[CLI](python-api-client-deb-2-8-cli/3050) ~ [UI](python-api-client-deb-2-8-ui/3051)|[CLI](python-api-client-deb-2-9-cli/3052) ~ [UI](python-api-client-deb-2-9-ui/3053)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](python-api-client-snap-2-7-cli/3042) ~ [UI](python-api-client-snap-2-7-ui/3043)|[CLI](python-api-client-snap-2-8-cli/3044) ~ [UI](python-api-client-snap-2-8-ui/3045)||**CLI** ~ [UI](python-api-client-snap-2-9-ui/3047)|
+|Packages|[CLI](python-api-client-deb-2-7-cli/3048) ~ [UI](python-api-client-deb-2-7-ui/3049)|[CLI](python-api-client-deb-2-8-cli/3050) ~ [UI](python-api-client-deb-2-8-ui/3051)|[CLI](python-api-client-deb-2-9-cli/3052) ~ [UI](python-api-client-deb-2-9-ui/3053)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](python-api-client-snap-2-7-cli/3042) ~ [UI](python-api-client-snap-2-7-ui/3043)|[CLI](python-api-client-snap-2-8-cli/3044) ~ [UI](python-api-client-snap-2-8-ui/3045)|[CLI](python-api-client-snap-2-9-cli/3046) ~ |**UI**|
+|Packages|[CLI](python-api-client-deb-2-7-cli/3048) ~ [UI](python-api-client-deb-2-7-ui/3049)|[CLI](python-api-client-deb-2-8-cli/3050) ~ [UI](python-api-client-deb-2-8-ui/3051)|[CLI](python-api-client-deb-2-9-cli/3052) ~ [UI](python-api-client-deb-2-9-ui/3053)|
+ snap-2-9-ui -->
+
 The `python-libmaas` client library is an asyncio-based client library whose purpose is to allow developers, integrators and administrators to better interact with MAAS.  This software is in development and does not yet support all MAAS endpoints (nor all operations). It currently supports MAAS versions 2.1 and 2.2-beta3.
 
 * [What should I know about library endpoints?](/t/cli-resource-pool-management/800#heading--library-endpoints)

@@ -1,3 +1,87 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ip-ranges-snap-2-7-cli/2754) ~ [UI](ip-ranges-snap-2-7-ui/2755)|[CLI](ip-ranges-snap-2-8-cli/2756) ~ [UI](ip-ranges-snap-2-8-ui/2757)|[CLI](ip-ranges-snap-2-9-cli/2758) ~ [UI](ip-ranges-snap-2-9-ui/2759)|
+|Packages|**CLI** ~ [UI](ip-ranges-deb-2-7-ui/2761)|[CLI](ip-ranges-deb-2-8-cli/2762) ~ [UI](ip-ranges-deb-2-8-ui/2763)|[CLI](ip-ranges-deb-2-9-cli/2764) ~ [UI](ip-ranges-deb-2-9-ui/2765)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ip-ranges-snap-2-7-cli/2754) ~ [UI](ip-ranges-snap-2-7-ui/2755)|[CLI](ip-ranges-snap-2-8-cli/2756) ~ [UI](ip-ranges-snap-2-8-ui/2757)|[CLI](ip-ranges-snap-2-9-cli/2758) ~ [UI](ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](ip-ranges-deb-2-7-cli/2760) ~ |**UI**|[CLI](ip-ranges-deb-2-8-cli/2762) ~ [UI](ip-ranges-deb-2-8-ui/2763)|[CLI](ip-ranges-deb-2-9-cli/2764) ~ [UI](ip-ranges-deb-2-9-ui/2765)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ip-ranges-snap-2-7-cli/2754) ~ [UI](ip-ranges-snap-2-7-ui/2755)|[CLI](ip-ranges-snap-2-8-cli/2756) ~ [UI](ip-ranges-snap-2-8-ui/2757)|[CLI](ip-ranges-snap-2-9-cli/2758) ~ [UI](ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](ip-ranges-deb-2-7-cli/2760) ~ [UI](ip-ranges-deb-2-7-ui/2761)||**CLI** ~ [UI](ip-ranges-deb-2-8-ui/2763)|[CLI](ip-ranges-deb-2-9-cli/2764) ~ [UI](ip-ranges-deb-2-9-ui/2765)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ip-ranges-snap-2-7-cli/2754) ~ [UI](ip-ranges-snap-2-7-ui/2755)|[CLI](ip-ranges-snap-2-8-cli/2756) ~ [UI](ip-ranges-snap-2-8-ui/2757)|[CLI](ip-ranges-snap-2-9-cli/2758) ~ [UI](ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](ip-ranges-deb-2-7-cli/2760) ~ [UI](ip-ranges-deb-2-7-ui/2761)|[CLI](ip-ranges-deb-2-8-cli/2762) ~ |**UI**|[CLI](ip-ranges-deb-2-9-cli/2764) ~ [UI](ip-ranges-deb-2-9-ui/2765)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ip-ranges-snap-2-7-cli/2754) ~ [UI](ip-ranges-snap-2-7-ui/2755)|[CLI](ip-ranges-snap-2-8-cli/2756) ~ [UI](ip-ranges-snap-2-8-ui/2757)|[CLI](ip-ranges-snap-2-9-cli/2758) ~ [UI](ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](ip-ranges-deb-2-7-cli/2760) ~ [UI](ip-ranges-deb-2-7-ui/2761)|[CLI](ip-ranges-deb-2-8-cli/2762) ~ [UI](ip-ranges-deb-2-8-ui/2763)||**CLI** ~ [UI](ip-ranges-deb-2-9-ui/2765)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ip-ranges-snap-2-7-cli/2754) ~ [UI](ip-ranges-snap-2-7-ui/2755)|[CLI](ip-ranges-snap-2-8-cli/2756) ~ [UI](ip-ranges-snap-2-8-ui/2757)|[CLI](ip-ranges-snap-2-9-cli/2758) ~ [UI](ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](ip-ranges-deb-2-7-cli/2760) ~ [UI](ip-ranges-deb-2-7-ui/2761)|[CLI](ip-ranges-deb-2-8-cli/2762) ~ [UI](ip-ranges-deb-2-8-ui/2763)|[CLI](ip-ranges-deb-2-9-cli/2764) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](ip-ranges-snap-2-7-ui/2755)|[CLI](ip-ranges-snap-2-8-cli/2756) ~ [UI](ip-ranges-snap-2-8-ui/2757)|[CLI](ip-ranges-snap-2-9-cli/2758) ~ [UI](ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](ip-ranges-deb-2-7-cli/2760) ~ [UI](ip-ranges-deb-2-7-ui/2761)|[CLI](ip-ranges-deb-2-8-cli/2762) ~ [UI](ip-ranges-deb-2-8-ui/2763)|[CLI](ip-ranges-deb-2-9-cli/2764) ~ [UI](ip-ranges-deb-2-9-ui/2765)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ip-ranges-snap-2-7-cli/2754) ~ |**UI**|[CLI](ip-ranges-snap-2-8-cli/2756) ~ [UI](ip-ranges-snap-2-8-ui/2757)|[CLI](ip-ranges-snap-2-9-cli/2758) ~ [UI](ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](ip-ranges-deb-2-7-cli/2760) ~ [UI](ip-ranges-deb-2-7-ui/2761)|[CLI](ip-ranges-deb-2-8-cli/2762) ~ [UI](ip-ranges-deb-2-8-ui/2763)|[CLI](ip-ranges-deb-2-9-cli/2764) ~ [UI](ip-ranges-deb-2-9-ui/2765)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ip-ranges-snap-2-7-cli/2754) ~ [UI](ip-ranges-snap-2-7-ui/2755)||**CLI** ~ [UI](ip-ranges-snap-2-8-ui/2757)|[CLI](ip-ranges-snap-2-9-cli/2758) ~ [UI](ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](ip-ranges-deb-2-7-cli/2760) ~ [UI](ip-ranges-deb-2-7-ui/2761)|[CLI](ip-ranges-deb-2-8-cli/2762) ~ [UI](ip-ranges-deb-2-8-ui/2763)|[CLI](ip-ranges-deb-2-9-cli/2764) ~ [UI](ip-ranges-deb-2-9-ui/2765)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ip-ranges-snap-2-7-cli/2754) ~ [UI](ip-ranges-snap-2-7-ui/2755)|[CLI](ip-ranges-snap-2-8-cli/2756) ~ |**UI**|[CLI](ip-ranges-snap-2-9-cli/2758) ~ [UI](ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](ip-ranges-deb-2-7-cli/2760) ~ [UI](ip-ranges-deb-2-7-ui/2761)|[CLI](ip-ranges-deb-2-8-cli/2762) ~ [UI](ip-ranges-deb-2-8-ui/2763)|[CLI](ip-ranges-deb-2-9-cli/2764) ~ [UI](ip-ranges-deb-2-9-ui/2765)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ip-ranges-snap-2-7-cli/2754) ~ [UI](ip-ranges-snap-2-7-ui/2755)|[CLI](ip-ranges-snap-2-8-cli/2756) ~ [UI](ip-ranges-snap-2-8-ui/2757)||**CLI** ~ [UI](ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](ip-ranges-deb-2-7-cli/2760) ~ [UI](ip-ranges-deb-2-7-ui/2761)|[CLI](ip-ranges-deb-2-8-cli/2762) ~ [UI](ip-ranges-deb-2-8-ui/2763)|[CLI](ip-ranges-deb-2-9-cli/2764) ~ [UI](ip-ranges-deb-2-9-ui/2765)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](ip-ranges-snap-2-7-cli/2754) ~ [UI](ip-ranges-snap-2-7-ui/2755)|[CLI](ip-ranges-snap-2-8-cli/2756) ~ [UI](ip-ranges-snap-2-8-ui/2757)|[CLI](ip-ranges-snap-2-9-cli/2758) ~ |**UI**|
+|Packages|[CLI](ip-ranges-deb-2-7-cli/2760) ~ [UI](ip-ranges-deb-2-7-ui/2761)|[CLI](ip-ranges-deb-2-8-cli/2762) ~ [UI](ip-ranges-deb-2-8-ui/2763)|[CLI](ip-ranges-deb-2-9-cli/2764) ~ [UI](ip-ranges-deb-2-9-ui/2765)|
+ snap-2-9-ui -->
+
 In MAAS-managed networks, you can further manage your subnets with a reserved range of IP addresses.  You can reserve IP addresses by adding one or more reserved ranges to a subnet configuration. You can define two types of ranges: reserved ranges and reserved dynamic ranges.  
 
 A reserved range operates differently depending on whether the subnet is managed or unmanaged.  For a managed (subnet), MAAS will never assign IP addresses inside this range.  You can use this range for anything, such as infrastructure systems, network hardware, external DHCP, or an OpenStack namespace.  For an unmanaged (subnet), MAAS will only assign IP addresses inside this range -- but MAAS can assign any IP within this range.

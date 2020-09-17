@@ -1,3 +1,87 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](disk-erasure-snap-2-7-cli/2610) ~ [UI](disk-erasure-snap-2-7-ui/2611)|[CLI](disk-erasure-snap-2-8-cli/2612) ~ [UI](disk-erasure-snap-2-8-ui/2613)|[CLI](disk-erasure-snap-2-9-cli/2614) ~ [UI](disk-erasure-snap-2-9-ui/2615)|
+|Packages|**CLI** ~ [UI](disk-erasure-deb-2-7-ui/2617)|[CLI](disk-erasure-deb-2-8-cli/2618) ~ [UI](disk-erasure-deb-2-8-ui/2619)|[CLI](disk-erasure-deb-2-9-cli/2620) ~ [UI](disk-erasure-deb-2-9-ui/2621)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](disk-erasure-snap-2-7-cli/2610) ~ [UI](disk-erasure-snap-2-7-ui/2611)|[CLI](disk-erasure-snap-2-8-cli/2612) ~ [UI](disk-erasure-snap-2-8-ui/2613)|[CLI](disk-erasure-snap-2-9-cli/2614) ~ [UI](disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](disk-erasure-deb-2-7-cli/2616) ~ |**UI**|[CLI](disk-erasure-deb-2-8-cli/2618) ~ [UI](disk-erasure-deb-2-8-ui/2619)|[CLI](disk-erasure-deb-2-9-cli/2620) ~ [UI](disk-erasure-deb-2-9-ui/2621)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](disk-erasure-snap-2-7-cli/2610) ~ [UI](disk-erasure-snap-2-7-ui/2611)|[CLI](disk-erasure-snap-2-8-cli/2612) ~ [UI](disk-erasure-snap-2-8-ui/2613)|[CLI](disk-erasure-snap-2-9-cli/2614) ~ [UI](disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](disk-erasure-deb-2-7-cli/2616) ~ [UI](disk-erasure-deb-2-7-ui/2617)||**CLI** ~ [UI](disk-erasure-deb-2-8-ui/2619)|[CLI](disk-erasure-deb-2-9-cli/2620) ~ [UI](disk-erasure-deb-2-9-ui/2621)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](disk-erasure-snap-2-7-cli/2610) ~ [UI](disk-erasure-snap-2-7-ui/2611)|[CLI](disk-erasure-snap-2-8-cli/2612) ~ [UI](disk-erasure-snap-2-8-ui/2613)|[CLI](disk-erasure-snap-2-9-cli/2614) ~ [UI](disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](disk-erasure-deb-2-7-cli/2616) ~ [UI](disk-erasure-deb-2-7-ui/2617)|[CLI](disk-erasure-deb-2-8-cli/2618) ~ |**UI**|[CLI](disk-erasure-deb-2-9-cli/2620) ~ [UI](disk-erasure-deb-2-9-ui/2621)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](disk-erasure-snap-2-7-cli/2610) ~ [UI](disk-erasure-snap-2-7-ui/2611)|[CLI](disk-erasure-snap-2-8-cli/2612) ~ [UI](disk-erasure-snap-2-8-ui/2613)|[CLI](disk-erasure-snap-2-9-cli/2614) ~ [UI](disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](disk-erasure-deb-2-7-cli/2616) ~ [UI](disk-erasure-deb-2-7-ui/2617)|[CLI](disk-erasure-deb-2-8-cli/2618) ~ [UI](disk-erasure-deb-2-8-ui/2619)||**CLI** ~ [UI](disk-erasure-deb-2-9-ui/2621)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](disk-erasure-snap-2-7-cli/2610) ~ [UI](disk-erasure-snap-2-7-ui/2611)|[CLI](disk-erasure-snap-2-8-cli/2612) ~ [UI](disk-erasure-snap-2-8-ui/2613)|[CLI](disk-erasure-snap-2-9-cli/2614) ~ [UI](disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](disk-erasure-deb-2-7-cli/2616) ~ [UI](disk-erasure-deb-2-7-ui/2617)|[CLI](disk-erasure-deb-2-8-cli/2618) ~ [UI](disk-erasure-deb-2-8-ui/2619)|[CLI](disk-erasure-deb-2-9-cli/2620) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](disk-erasure-snap-2-7-ui/2611)|[CLI](disk-erasure-snap-2-8-cli/2612) ~ [UI](disk-erasure-snap-2-8-ui/2613)|[CLI](disk-erasure-snap-2-9-cli/2614) ~ [UI](disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](disk-erasure-deb-2-7-cli/2616) ~ [UI](disk-erasure-deb-2-7-ui/2617)|[CLI](disk-erasure-deb-2-8-cli/2618) ~ [UI](disk-erasure-deb-2-8-ui/2619)|[CLI](disk-erasure-deb-2-9-cli/2620) ~ [UI](disk-erasure-deb-2-9-ui/2621)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](disk-erasure-snap-2-7-cli/2610) ~ |**UI**|[CLI](disk-erasure-snap-2-8-cli/2612) ~ [UI](disk-erasure-snap-2-8-ui/2613)|[CLI](disk-erasure-snap-2-9-cli/2614) ~ [UI](disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](disk-erasure-deb-2-7-cli/2616) ~ [UI](disk-erasure-deb-2-7-ui/2617)|[CLI](disk-erasure-deb-2-8-cli/2618) ~ [UI](disk-erasure-deb-2-8-ui/2619)|[CLI](disk-erasure-deb-2-9-cli/2620) ~ [UI](disk-erasure-deb-2-9-ui/2621)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](disk-erasure-snap-2-7-cli/2610) ~ [UI](disk-erasure-snap-2-7-ui/2611)||**CLI** ~ [UI](disk-erasure-snap-2-8-ui/2613)|[CLI](disk-erasure-snap-2-9-cli/2614) ~ [UI](disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](disk-erasure-deb-2-7-cli/2616) ~ [UI](disk-erasure-deb-2-7-ui/2617)|[CLI](disk-erasure-deb-2-8-cli/2618) ~ [UI](disk-erasure-deb-2-8-ui/2619)|[CLI](disk-erasure-deb-2-9-cli/2620) ~ [UI](disk-erasure-deb-2-9-ui/2621)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](disk-erasure-snap-2-7-cli/2610) ~ [UI](disk-erasure-snap-2-7-ui/2611)|[CLI](disk-erasure-snap-2-8-cli/2612) ~ |**UI**|[CLI](disk-erasure-snap-2-9-cli/2614) ~ [UI](disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](disk-erasure-deb-2-7-cli/2616) ~ [UI](disk-erasure-deb-2-7-ui/2617)|[CLI](disk-erasure-deb-2-8-cli/2618) ~ [UI](disk-erasure-deb-2-8-ui/2619)|[CLI](disk-erasure-deb-2-9-cli/2620) ~ [UI](disk-erasure-deb-2-9-ui/2621)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](disk-erasure-snap-2-7-cli/2610) ~ [UI](disk-erasure-snap-2-7-ui/2611)|[CLI](disk-erasure-snap-2-8-cli/2612) ~ [UI](disk-erasure-snap-2-8-ui/2613)||**CLI** ~ [UI](disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](disk-erasure-deb-2-7-cli/2616) ~ [UI](disk-erasure-deb-2-7-ui/2617)|[CLI](disk-erasure-deb-2-8-cli/2618) ~ [UI](disk-erasure-deb-2-8-ui/2619)|[CLI](disk-erasure-deb-2-9-cli/2620) ~ [UI](disk-erasure-deb-2-9-ui/2621)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](disk-erasure-snap-2-7-cli/2610) ~ [UI](disk-erasure-snap-2-7-ui/2611)|[CLI](disk-erasure-snap-2-8-cli/2612) ~ [UI](disk-erasure-snap-2-8-ui/2613)|[CLI](disk-erasure-snap-2-9-cli/2614) ~ |**UI**|
+|Packages|[CLI](disk-erasure-deb-2-7-cli/2616) ~ [UI](disk-erasure-deb-2-7-ui/2617)|[CLI](disk-erasure-deb-2-8-cli/2618) ~ [UI](disk-erasure-deb-2-8-ui/2619)|[CLI](disk-erasure-deb-2-9-cli/2620) ~ [UI](disk-erasure-deb-2-9-ui/2621)|
+ snap-2-9-ui -->
+
 Disk erasure pertains to the erasing of data on each of a machine's disks when the machine has been released (see [Release action](/t/concepts-and-terms/785#heading--release)) back into the pool of available machines. The user can choose from among three erasure types before confirming the Release action. A default erasure configuration can also be set.
 
 <h2 id="heading--erasure-types">Erasure types</h2>

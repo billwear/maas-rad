@@ -1,0 +1,82 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/zork-snap-2-7-cli/mork1) ~ [UI](/t/zork-snap-2-7-ui/mork2)|[CLI](/t/zork-snap-2-8-ui/mork3) ~ [UI](/t/zork2)|[CLI](/t/zork-snap-2-8-cli/mork4) ~ [UI](/t/zork-snap-2-8-ui/mork5)|[CLI](/t/zork-snap-2-9-cli/mork5) ~ [UI](/t/zork-snap-2-9-ui/mork6) |
+|Packages|[CLI](zork-deb-2-7-cli/mork7) ~ **UI**|[CLI](/t/zork-deb-2-8-cli/mork9) ~ [UI](/t/zork10)|[CLI](/t/zork-deb-2-9-cli/mork11) ~ [UI](/t/zork-deb-2-9-ui/mork12)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/zork-snap-2-7-cli/mork1) ~ [UI](/t/zork-snap-2-7-ui/mork2)|[CLI](/t/zork-snap-2-8-ui/mork3) ~ [UI](/t/zork2)|[CLI](/t/zork-snap-2-8-cli/mork4) ~ [UI](/t/zork-snap-2-8-ui/mork5)|[CLI](/t/zork-snap-2-9-cli/mork5) ~ [UI](/t/zork-snap-2-9-ui/mork6) |
+|Packages|[CLI](zork-deb-2-7-cli/mork7) ~ [UI](/t/zork-deb-2-7-ui/mork8)|**CLI** ~ [UI](/t/zork10)|[CLI](/t/zork-deb-2-9-cli/mork11) ~ [UI](/t/zork-deb-2-9-ui/mork12)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/zork-snap-2-7-cli/mork1) ~ [UI](/t/zork-snap-2-7-ui/mork2)|[CLI](/t/zork-snap-2-8-ui/mork3) ~ [UI](/t/zork2)|[CLI](/t/zork-snap-2-8-cli/mork4) ~ [UI](/t/zork-snap-2-8-ui/mork5)|[CLI](/t/zork-snap-2-9-cli/mork5) ~ [UI](/t/zork-snap-2-9-ui/mork6) |
+|Packages|[CLI](zork-deb-2-7-cli/mork7) ~ [UI](/t/zork-deb-2-7-ui/mork8)|[CLI](/t/zork-deb-2-8-cli/mork9) ~ [UI](/t/zork10)|[CLI](/t/zork-deb-2-9-cli/mork11) ~ [UI](/t/zork-deb-2-9-ui/mork12)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/zork-snap-2-7-cli/mork1) ~ [UI](/t/zork-snap-2-7-ui/mork2)|[CLI](/t/zork-snap-2-8-ui/mork3) ~ [UI](/t/zork2)|[CLI](/t/zork-snap-2-8-cli/mork4) ~ [UI](/t/zork-snap-2-8-ui/mork5)|[CLI](/t/zork-snap-2-9-cli/mork5) ~ [UI](/t/zork-snap-2-9-ui/mork6) |
+|Packages|[CLI](zork-deb-2-7-cli/mork7) ~ [UI](/t/zork-deb-2-7-ui/mork8)|[CLI](/t/zork-deb-2-8-cli/mork9) ~ [UI](/t/zork10)|[CLI](/t/zork-deb-2-9-cli/mork11) ~ [UI](/t/zork-deb-2-9-ui/mork12)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/zork-snap-2-7-cli/mork1) ~ [UI](/t/zork-snap-2-7-ui/mork2)|[CLI](/t/zork-snap-2-8-ui/mork3) ~ [UI](/t/zork2)|[CLI](/t/zork-snap-2-8-cli/mork4) ~ [UI](/t/zork-snap-2-8-ui/mork5)|[CLI](/t/zork-snap-2-9-cli/mork5) ~ [UI](/t/zork-snap-2-9-ui/mork6) |
+|Packages|[CLI](zork-deb-2-7-cli/mork7) ~ [UI](/t/zork-deb-2-7-ui/mork8)|[CLI](/t/zork-deb-2-8-cli/mork9) ~ [UI](/t/zork10)|[CLI](/t/zork-deb-2-9-cli/mork11) ~ [UI](/t/zork-deb-2-9-ui/mork12)|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/zork-snap-2-7-cli/mork1) ~ [UI](/t/zork-snap-2-7-ui/mork2)|[CLI](/t/zork-snap-2-8-ui/mork3) ~ [UI](/t/zork2)|[CLI](/t/zork-snap-2-8-cli/mork4) ~ [UI](/t/zork-snap-2-8-ui/mork5)|[CLI](/t/zork-snap-2-9-cli/mork5) ~ [UI](/t/zork-snap-2-9-ui/mork6) |
+|Packages|[CLI](zork-deb-2-7-cli/mork7) ~ [UI](/t/zork-deb-2-7-ui/mork8)|[CLI](/t/zork-deb-2-8-cli/mork9) ~ [UI](/t/zork10)|[CLI](/t/zork-deb-2-9-cli/mork11) ~ [UI](/t/zork-deb-2-9-ui/mork12)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/zork-snap-2-7-cli/mork1) ~ [UI](/t/zork-snap-2-7-ui/mork2)|[CLI](/t/zork-snap-2-8-ui/mork3) ~ [UI](/t/zork2)|[CLI](/t/zork-snap-2-8-cli/mork4) ~ [UI](/t/zork-snap-2-8-ui/mork5)|[CLI](/t/zork-snap-2-9-cli/mork5) ~ [UI](/t/zork-snap-2-9-ui/mork6) |
+|Packages|[CLI](zork-deb-2-7-cli/mork7) ~ [UI](/t/zork-deb-2-7-ui/mork8)|[CLI](/t/zork-deb-2-8-cli/mork9) ~ [UI](/t/zork10)|[CLI](/t/zork-deb-2-9-cli/mork11) ~ [UI](/t/zork-deb-2-9-ui/mork12)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/zork-snap-2-7-cli/mork1) ~ [UI](/t/zork-snap-2-7-ui/mork2)|[CLI](/t/zork-snap-2-8-ui/mork3) ~ [UI](/t/zork2)|[CLI](/t/zork-snap-2-8-cli/mork4) ~ [UI](/t/zork-snap-2-8-ui/mork5)|[CLI](/t/zork-snap-2-9-cli/mork5) ~ [UI](/t/zork-snap-2-9-ui/mork6) |
+|Packages|[CLI](zork-deb-2-7-cli/mork7) ~ [UI](/t/zork-deb-2-7-ui/mork8)|[CLI](/t/zork-deb-2-8-cli/mork9) ~ [UI](/t/zork10)|[CLI](/t/zork-deb-2-9-cli/mork11) ~ [UI](/t/zork-deb-2-9-ui/mork12)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/zork-snap-2-7-cli/mork1) ~ [UI](/t/zork-snap-2-7-ui/mork2)|[CLI](/t/zork-snap-2-8-ui/mork3) ~ [UI](/t/zork2)|[CLI](/t/zork-snap-2-8-cli/mork4) ~ [UI](/t/zork-snap-2-8-ui/mork5)|[CLI](/t/zork-snap-2-9-cli/mork5) ~ [UI](/t/zork-snap-2-9-ui/mork6) |
+|Packages|[CLI](zork-deb-2-7-cli/mork7) ~ [UI](/t/zork-deb-2-7-ui/mork8)|[CLI](/t/zork-deb-2-8-cli/mork9) ~ [UI](/t/zork10)|[CLI](/t/zork-deb-2-9-cli/mork11) ~ [UI](/t/zork-deb-2-9-ui/mork12)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/zork-snap-2-7-cli/mork1) ~ [UI](/t/zork-snap-2-7-ui/mork2)|[CLI](/t/zork-snap-2-8-ui/mork3) ~ [UI](/t/zork2)|[CLI](/t/zork-snap-2-8-cli/mork4) ~ [UI](/t/zork-snap-2-8-ui/mork5)|[CLI](/t/zork-snap-2-9-cli/mork5) ~ [UI](/t/zork-snap-2-9-ui/mork6) |
+|Packages|[CLI](zork-deb-2-7-cli/mork7) ~ [UI](/t/zork-deb-2-7-ui/mork8)|[CLI](/t/zork-deb-2-8-cli/mork9) ~ [UI](/t/zork10)|[CLI](/t/zork-deb-2-9-cli/mork11) ~ [UI](/t/zork-deb-2-9-ui/mork12)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/zork-snap-2-7-cli/mork1) ~ [UI](/t/zork-snap-2-7-ui/mork2)|[CLI](/t/zork-snap-2-8-ui/mork3) ~ [UI](/t/zork2)|[CLI](/t/zork-snap-2-8-cli/mork4) ~ [UI](/t/zork-snap-2-8-ui/mork5)|[CLI](/t/zork-snap-2-9-cli/mork5) ~ [UI](/t/zork-snap-2-9-ui/mork6) |
+|Packages|[CLI](zork-deb-2-7-cli/mork7) ~ [UI](/t/zork-deb-2-7-ui/mork8)|[CLI](/t/zork-deb-2-8-cli/mork9) ~ [UI](/t/zork10)|[CLI](/t/zork-deb-2-9-cli/mork11) ~ [UI](/t/zork-deb-2-9-ui/mork12)|
+ snap-2-9-ui -->
+

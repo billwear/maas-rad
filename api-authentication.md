@@ -1,3 +1,87 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](api-authentication-snap-2-7-cli/2298) ~ [UI](api-authentication-snap-2-7-ui/2299)|[CLI](api-authentication-snap-2-8-cli/2300) ~ [UI](api-authentication-snap-2-8-ui/2301)|[CLI](api-authentication-snap-2-9-cli/2302) ~ [UI](api-authentication-snap-2-9-ui/2303)|
+|Packages|**CLI** ~ [UI](api-authentication-deb-2-7-ui/2305)|[CLI](api-authentication-deb-2-8-cli/2306) ~ [UI](api-authentication-deb-2-8-ui/2307)|[CLI](api-authentication-deb-2-9-cli/2308) ~ [UI](api-authentication-deb-2-9-ui/2309)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](api-authentication-snap-2-7-cli/2298) ~ [UI](api-authentication-snap-2-7-ui/2299)|[CLI](api-authentication-snap-2-8-cli/2300) ~ [UI](api-authentication-snap-2-8-ui/2301)|[CLI](api-authentication-snap-2-9-cli/2302) ~ [UI](api-authentication-snap-2-9-ui/2303)|
+|Packages|[CLI](api-authentication-deb-2-7-cli/2304) ~ |**UI**|[CLI](api-authentication-deb-2-8-cli/2306) ~ [UI](api-authentication-deb-2-8-ui/2307)|[CLI](api-authentication-deb-2-9-cli/2308) ~ [UI](api-authentication-deb-2-9-ui/2309)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](api-authentication-snap-2-7-cli/2298) ~ [UI](api-authentication-snap-2-7-ui/2299)|[CLI](api-authentication-snap-2-8-cli/2300) ~ [UI](api-authentication-snap-2-8-ui/2301)|[CLI](api-authentication-snap-2-9-cli/2302) ~ [UI](api-authentication-snap-2-9-ui/2303)|
+|Packages|[CLI](api-authentication-deb-2-7-cli/2304) ~ [UI](api-authentication-deb-2-7-ui/2305)||**CLI** ~ [UI](api-authentication-deb-2-8-ui/2307)|[CLI](api-authentication-deb-2-9-cli/2308) ~ [UI](api-authentication-deb-2-9-ui/2309)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](api-authentication-snap-2-7-cli/2298) ~ [UI](api-authentication-snap-2-7-ui/2299)|[CLI](api-authentication-snap-2-8-cli/2300) ~ [UI](api-authentication-snap-2-8-ui/2301)|[CLI](api-authentication-snap-2-9-cli/2302) ~ [UI](api-authentication-snap-2-9-ui/2303)|
+|Packages|[CLI](api-authentication-deb-2-7-cli/2304) ~ [UI](api-authentication-deb-2-7-ui/2305)|[CLI](api-authentication-deb-2-8-cli/2306) ~ |**UI**|[CLI](api-authentication-deb-2-9-cli/2308) ~ [UI](api-authentication-deb-2-9-ui/2309)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](api-authentication-snap-2-7-cli/2298) ~ [UI](api-authentication-snap-2-7-ui/2299)|[CLI](api-authentication-snap-2-8-cli/2300) ~ [UI](api-authentication-snap-2-8-ui/2301)|[CLI](api-authentication-snap-2-9-cli/2302) ~ [UI](api-authentication-snap-2-9-ui/2303)|
+|Packages|[CLI](api-authentication-deb-2-7-cli/2304) ~ [UI](api-authentication-deb-2-7-ui/2305)|[CLI](api-authentication-deb-2-8-cli/2306) ~ [UI](api-authentication-deb-2-8-ui/2307)||**CLI** ~ [UI](api-authentication-deb-2-9-ui/2309)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](api-authentication-snap-2-7-cli/2298) ~ [UI](api-authentication-snap-2-7-ui/2299)|[CLI](api-authentication-snap-2-8-cli/2300) ~ [UI](api-authentication-snap-2-8-ui/2301)|[CLI](api-authentication-snap-2-9-cli/2302) ~ [UI](api-authentication-snap-2-9-ui/2303)|
+|Packages|[CLI](api-authentication-deb-2-7-cli/2304) ~ [UI](api-authentication-deb-2-7-ui/2305)|[CLI](api-authentication-deb-2-8-cli/2306) ~ [UI](api-authentication-deb-2-8-ui/2307)|[CLI](api-authentication-deb-2-9-cli/2308) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](api-authentication-snap-2-7-ui/2299)|[CLI](api-authentication-snap-2-8-cli/2300) ~ [UI](api-authentication-snap-2-8-ui/2301)|[CLI](api-authentication-snap-2-9-cli/2302) ~ [UI](api-authentication-snap-2-9-ui/2303)|
+|Packages|[CLI](api-authentication-deb-2-7-cli/2304) ~ [UI](api-authentication-deb-2-7-ui/2305)|[CLI](api-authentication-deb-2-8-cli/2306) ~ [UI](api-authentication-deb-2-8-ui/2307)|[CLI](api-authentication-deb-2-9-cli/2308) ~ [UI](api-authentication-deb-2-9-ui/2309)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](api-authentication-snap-2-7-cli/2298) ~ |**UI**|[CLI](api-authentication-snap-2-8-cli/2300) ~ [UI](api-authentication-snap-2-8-ui/2301)|[CLI](api-authentication-snap-2-9-cli/2302) ~ [UI](api-authentication-snap-2-9-ui/2303)|
+|Packages|[CLI](api-authentication-deb-2-7-cli/2304) ~ [UI](api-authentication-deb-2-7-ui/2305)|[CLI](api-authentication-deb-2-8-cli/2306) ~ [UI](api-authentication-deb-2-8-ui/2307)|[CLI](api-authentication-deb-2-9-cli/2308) ~ [UI](api-authentication-deb-2-9-ui/2309)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](api-authentication-snap-2-7-cli/2298) ~ [UI](api-authentication-snap-2-7-ui/2299)||**CLI** ~ [UI](api-authentication-snap-2-8-ui/2301)|[CLI](api-authentication-snap-2-9-cli/2302) ~ [UI](api-authentication-snap-2-9-ui/2303)|
+|Packages|[CLI](api-authentication-deb-2-7-cli/2304) ~ [UI](api-authentication-deb-2-7-ui/2305)|[CLI](api-authentication-deb-2-8-cli/2306) ~ [UI](api-authentication-deb-2-8-ui/2307)|[CLI](api-authentication-deb-2-9-cli/2308) ~ [UI](api-authentication-deb-2-9-ui/2309)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](api-authentication-snap-2-7-cli/2298) ~ [UI](api-authentication-snap-2-7-ui/2299)|[CLI](api-authentication-snap-2-8-cli/2300) ~ |**UI**|[CLI](api-authentication-snap-2-9-cli/2302) ~ [UI](api-authentication-snap-2-9-ui/2303)|
+|Packages|[CLI](api-authentication-deb-2-7-cli/2304) ~ [UI](api-authentication-deb-2-7-ui/2305)|[CLI](api-authentication-deb-2-8-cli/2306) ~ [UI](api-authentication-deb-2-8-ui/2307)|[CLI](api-authentication-deb-2-9-cli/2308) ~ [UI](api-authentication-deb-2-9-ui/2309)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](api-authentication-snap-2-7-cli/2298) ~ [UI](api-authentication-snap-2-7-ui/2299)|[CLI](api-authentication-snap-2-8-cli/2300) ~ [UI](api-authentication-snap-2-8-ui/2301)||**CLI** ~ [UI](api-authentication-snap-2-9-ui/2303)|
+|Packages|[CLI](api-authentication-deb-2-7-cli/2304) ~ [UI](api-authentication-deb-2-7-ui/2305)|[CLI](api-authentication-deb-2-8-cli/2306) ~ [UI](api-authentication-deb-2-8-ui/2307)|[CLI](api-authentication-deb-2-9-cli/2308) ~ [UI](api-authentication-deb-2-9-ui/2309)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](api-authentication-snap-2-7-cli/2298) ~ [UI](api-authentication-snap-2-7-ui/2299)|[CLI](api-authentication-snap-2-8-cli/2300) ~ [UI](api-authentication-snap-2-8-ui/2301)|[CLI](api-authentication-snap-2-9-cli/2302) ~ |**UI**|
+|Packages|[CLI](api-authentication-deb-2-7-cli/2304) ~ [UI](api-authentication-deb-2-7-ui/2305)|[CLI](api-authentication-deb-2-8-cli/2306) ~ [UI](api-authentication-deb-2-8-ui/2307)|[CLI](api-authentication-deb-2-9-cli/2308) ~ [UI](api-authentication-deb-2-9-ui/2309)|
+ snap-2-9-ui -->
+
 MAAS's API uses [OAuth (external link)](http://en.wikipedia.org/wiki/OAuth) as its authentication mechanism. This isn't third-party (3-legged) OAuth, so the process used is what's commonly referred to as 0-legged OAuth: the consumer accesses protected resources by submitting OAuth signed requests.
 
 Note that some API endpoints support unauthenticated requests (i.e. anonymous access). See the [API documentation](https://maas.io/docs/api) for details. 
