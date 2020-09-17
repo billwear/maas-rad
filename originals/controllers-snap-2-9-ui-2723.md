@@ -1,86 +1,84 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|**CLI** ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ **UI**|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)||**CLI** ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ **UI**|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)||**CLI** ~ [UI](/t/controllers-deb-2-9-ui/2729)|
+ deb-2-9-cli -->
 
 <!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ **UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ **UI**|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)||**CLI** ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ **UI**|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)||**CLI** ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
+ snap-2-9-cli -->
+
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ **UI**|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
 
 Most of the functionality of MAAS is contained in a series of controllers.  There are two basic types: a region controller and one or more rack controllers. The region controller deals with operator requests, while the rack controller(s) provides high-bandwidth services to the individual machines.  In essence, the region controller interacts with the user, while the rack controllers manage the bare metal.   Note that both region and rack controllers can be scaled out, as well as made [highly available](/t/high-availability/804).
 

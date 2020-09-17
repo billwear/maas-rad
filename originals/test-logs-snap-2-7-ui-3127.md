@@ -1,86 +1,84 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/test-logs-snap-2-7-cli/3126) ~ [UI](/t/test-logs-snap-2-7-ui/3127)|[CLI](/t/test-logs-snap-2-8-cli/3128) ~ [UI](/t/test-logs-snap-2-8-ui/3129)|[CLI](/t/test-logs-snap-2-9-cli/3130) ~ [UI](/t/test-logs-snap-2-9-ui/3131)|
+|Packages|**CLI** ~ [UI](/t/test-logs-deb-2-7-ui/3133)|[CLI](/t/test-logs-deb-2-8-cli/3134) ~ [UI](/t/test-logs-deb-2-8-ui/3135)|[CLI](/t/test-logs-deb-2-9-cli/3136) ~ [UI](/t/test-logs-deb-2-9-ui/3137)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/test-logs-snap-2-7-cli/3126) ~ [UI](/t/test-logs-snap-2-7-ui/3127)|[CLI](/t/test-logs-snap-2-8-cli/3128) ~ [UI](/t/test-logs-snap-2-8-ui/3129)|[CLI](/t/test-logs-snap-2-9-cli/3130) ~ [UI](/t/test-logs-snap-2-9-ui/3131)|
+|Packages|[CLI](/t/test-logs-deb-2-7-cli/3132) ~ **UI**|[CLI](/t/test-logs-deb-2-8-cli/3134) ~ [UI](/t/test-logs-deb-2-8-ui/3135)|[CLI](/t/test-logs-deb-2-9-cli/3136) ~ [UI](/t/test-logs-deb-2-9-ui/3137)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/test-logs-snap-2-7-cli/3126) ~ [UI](/t/test-logs-snap-2-7-ui/3127)|[CLI](/t/test-logs-snap-2-8-cli/3128) ~ [UI](/t/test-logs-snap-2-8-ui/3129)|[CLI](/t/test-logs-snap-2-9-cli/3130) ~ [UI](/t/test-logs-snap-2-9-ui/3131)|
+|Packages|[CLI](/t/test-logs-deb-2-7-cli/3132) ~ [UI](/t/test-logs-deb-2-7-ui/3133)||**CLI** ~ [UI](/t/test-logs-deb-2-8-ui/3135)|[CLI](/t/test-logs-deb-2-9-cli/3136) ~ [UI](/t/test-logs-deb-2-9-ui/3137)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/test-logs-snap-2-7-cli/3126) ~ [UI](/t/test-logs-snap-2-7-ui/3127)|[CLI](/t/test-logs-snap-2-8-cli/3128) ~ [UI](/t/test-logs-snap-2-8-ui/3129)|[CLI](/t/test-logs-snap-2-9-cli/3130) ~ [UI](/t/test-logs-snap-2-9-ui/3131)|
+|Packages|[CLI](/t/test-logs-deb-2-7-cli/3132) ~ [UI](/t/test-logs-deb-2-7-ui/3133)|[CLI](/t/test-logs-deb-2-8-cli/3134) ~ **UI**|[CLI](/t/test-logs-deb-2-9-cli/3136) ~ [UI](/t/test-logs-deb-2-9-ui/3137)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/test-logs-snap-2-7-cli/3126) ~ [UI](/t/test-logs-snap-2-7-ui/3127)|[CLI](/t/test-logs-snap-2-8-cli/3128) ~ [UI](/t/test-logs-snap-2-8-ui/3129)|[CLI](/t/test-logs-snap-2-9-cli/3130) ~ [UI](/t/test-logs-snap-2-9-ui/3131)|
+|Packages|[CLI](/t/test-logs-deb-2-7-cli/3132) ~ [UI](/t/test-logs-deb-2-7-ui/3133)|[CLI](/t/test-logs-deb-2-8-cli/3134) ~ [UI](/t/test-logs-deb-2-8-ui/3135)||**CLI** ~ [UI](/t/test-logs-deb-2-9-ui/3137)|
+ deb-2-9-cli -->
 
 <!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/test-logs-snap-2-7-cli/3126) ~ [UI](/t/test-logs-snap-2-7-ui/3127)|[CLI](/t/test-logs-snap-2-8-cli/3128) ~ [UI](/t/test-logs-snap-2-8-ui/3129)|[CLI](/t/test-logs-snap-2-9-cli/3130) ~ [UI](/t/test-logs-snap-2-9-ui/3131)|
+|Packages|[CLI](/t/test-logs-deb-2-7-cli/3132) ~ [UI](/t/test-logs-deb-2-7-ui/3133)|[CLI](/t/test-logs-deb-2-8-cli/3134) ~ [UI](/t/test-logs-deb-2-8-ui/3135)|[CLI](/t/test-logs-deb-2-9-cli/3136) ~ **UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](/t/test-logs-snap-2-7-ui/3127)|[CLI](/t/test-logs-snap-2-8-cli/3128) ~ [UI](/t/test-logs-snap-2-8-ui/3129)|[CLI](/t/test-logs-snap-2-9-cli/3130) ~ [UI](/t/test-logs-snap-2-9-ui/3131)|
+|Packages|[CLI](/t/test-logs-deb-2-7-cli/3132) ~ [UI](/t/test-logs-deb-2-7-ui/3133)|[CLI](/t/test-logs-deb-2-8-cli/3134) ~ [UI](/t/test-logs-deb-2-8-ui/3135)|[CLI](/t/test-logs-deb-2-9-cli/3136) ~ [UI](/t/test-logs-deb-2-9-ui/3137)|
+ snap-2-7-cli -->
+
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/test-logs-snap-2-7-cli/3126) ~ **UI**|[CLI](/t/test-logs-snap-2-8-cli/3128) ~ [UI](/t/test-logs-snap-2-8-ui/3129)|[CLI](/t/test-logs-snap-2-9-cli/3130) ~ [UI](/t/test-logs-snap-2-9-ui/3131)|
+|Packages|[CLI](/t/test-logs-deb-2-7-cli/3132) ~ [UI](/t/test-logs-deb-2-7-ui/3133)|[CLI](/t/test-logs-deb-2-8-cli/3134) ~ [UI](/t/test-logs-deb-2-8-ui/3135)|[CLI](/t/test-logs-deb-2-9-cli/3136) ~ [UI](/t/test-logs-deb-2-9-ui/3137)|
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/test-logs-snap-2-7-cli/3126) ~ [UI](/t/test-logs-snap-2-7-ui/3127)||**CLI** ~ [UI](/t/test-logs-snap-2-8-ui/3129)|[CLI](/t/test-logs-snap-2-9-cli/3130) ~ [UI](/t/test-logs-snap-2-9-ui/3131)|
+|Packages|[CLI](/t/test-logs-deb-2-7-cli/3132) ~ [UI](/t/test-logs-deb-2-7-ui/3133)|[CLI](/t/test-logs-deb-2-8-cli/3134) ~ [UI](/t/test-logs-deb-2-8-ui/3135)|[CLI](/t/test-logs-deb-2-9-cli/3136) ~ [UI](/t/test-logs-deb-2-9-ui/3137)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/test-logs-snap-2-7-cli/3126) ~ [UI](/t/test-logs-snap-2-7-ui/3127)|[CLI](/t/test-logs-snap-2-8-cli/3128) ~ **UI**|[CLI](/t/test-logs-snap-2-9-cli/3130) ~ [UI](/t/test-logs-snap-2-9-ui/3131)|
+|Packages|[CLI](/t/test-logs-deb-2-7-cli/3132) ~ [UI](/t/test-logs-deb-2-7-ui/3133)|[CLI](/t/test-logs-deb-2-8-cli/3134) ~ [UI](/t/test-logs-deb-2-8-ui/3135)|[CLI](/t/test-logs-deb-2-9-cli/3136) ~ [UI](/t/test-logs-deb-2-9-ui/3137)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/test-logs-snap-2-7-cli/3126) ~ [UI](/t/test-logs-snap-2-7-ui/3127)|[CLI](/t/test-logs-snap-2-8-cli/3128) ~ [UI](/t/test-logs-snap-2-8-ui/3129)||**CLI** ~ [UI](/t/test-logs-snap-2-9-ui/3131)|
+|Packages|[CLI](/t/test-logs-deb-2-7-cli/3132) ~ [UI](/t/test-logs-deb-2-7-ui/3133)|[CLI](/t/test-logs-deb-2-8-cli/3134) ~ [UI](/t/test-logs-deb-2-8-ui/3135)|[CLI](/t/test-logs-deb-2-9-cli/3136) ~ [UI](/t/test-logs-deb-2-9-ui/3137)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/test-logs-snap-2-7-cli/3126) ~ [UI](/t/test-logs-snap-2-7-ui/3127)|[CLI](/t/test-logs-snap-2-8-cli/3128) ~ [UI](/t/test-logs-snap-2-8-ui/3129)|[CLI](/t/test-logs-snap-2-9-cli/3130) ~ **UI**|
+|Packages|[CLI](/t/test-logs-deb-2-7-cli/3132) ~ [UI](/t/test-logs-deb-2-7-ui/3133)|[CLI](/t/test-logs-deb-2-8-cli/3134) ~ [UI](/t/test-logs-deb-2-8-ui/3135)|[CLI](/t/test-logs-deb-2-9-cli/3136) ~ [UI](/t/test-logs-deb-2-9-ui/3137)|
+ snap-2-9-ui -->
 
 Under the "Tests" tab for any machine which has undergone testing, the Tests log screen shows a list of tests that have been run for that machine, along with a timestamp and result.  You can view the detailed logs for each test script from this tab.
 

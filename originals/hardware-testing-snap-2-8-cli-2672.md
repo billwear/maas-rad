@@ -1,86 +1,84 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/hardware-testing-snap-2-7-cli/2670) ~ [UI](/t/hardware-testing-snap-2-7-ui/2671)|[CLI](/t/hardware-testing-snap-2-8-cli/2672) ~ [UI](/t/hardware-testing-snap-2-8-ui/2673)|[CLI](/t/hardware-testing-snap-2-9-cli/2674) ~ [UI](/t/hardware-testing-snap-2-9-ui/2675)|
+|Packages|**CLI** ~ [UI](/t/hardware-testing-deb-2-7-ui/2677)|[CLI](/t/hardware-testing-deb-2-8-cli/2678) ~ [UI](/t/hardware-testing-deb-2-8-ui/2679)|[CLI](/t/hardware-testing-deb-2-9-cli/2680) ~ [UI](/t/hardware-testing-deb-2-9-ui/2681)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/hardware-testing-snap-2-7-cli/2670) ~ [UI](/t/hardware-testing-snap-2-7-ui/2671)|[CLI](/t/hardware-testing-snap-2-8-cli/2672) ~ [UI](/t/hardware-testing-snap-2-8-ui/2673)|[CLI](/t/hardware-testing-snap-2-9-cli/2674) ~ [UI](/t/hardware-testing-snap-2-9-ui/2675)|
+|Packages|[CLI](/t/hardware-testing-deb-2-7-cli/2676) ~ **UI**|[CLI](/t/hardware-testing-deb-2-8-cli/2678) ~ [UI](/t/hardware-testing-deb-2-8-ui/2679)|[CLI](/t/hardware-testing-deb-2-9-cli/2680) ~ [UI](/t/hardware-testing-deb-2-9-ui/2681)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/hardware-testing-snap-2-7-cli/2670) ~ [UI](/t/hardware-testing-snap-2-7-ui/2671)|[CLI](/t/hardware-testing-snap-2-8-cli/2672) ~ [UI](/t/hardware-testing-snap-2-8-ui/2673)|[CLI](/t/hardware-testing-snap-2-9-cli/2674) ~ [UI](/t/hardware-testing-snap-2-9-ui/2675)|
+|Packages|[CLI](/t/hardware-testing-deb-2-7-cli/2676) ~ [UI](/t/hardware-testing-deb-2-7-ui/2677)||**CLI** ~ [UI](/t/hardware-testing-deb-2-8-ui/2679)|[CLI](/t/hardware-testing-deb-2-9-cli/2680) ~ [UI](/t/hardware-testing-deb-2-9-ui/2681)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/hardware-testing-snap-2-7-cli/2670) ~ [UI](/t/hardware-testing-snap-2-7-ui/2671)|[CLI](/t/hardware-testing-snap-2-8-cli/2672) ~ [UI](/t/hardware-testing-snap-2-8-ui/2673)|[CLI](/t/hardware-testing-snap-2-9-cli/2674) ~ [UI](/t/hardware-testing-snap-2-9-ui/2675)|
+|Packages|[CLI](/t/hardware-testing-deb-2-7-cli/2676) ~ [UI](/t/hardware-testing-deb-2-7-ui/2677)|[CLI](/t/hardware-testing-deb-2-8-cli/2678) ~ **UI**|[CLI](/t/hardware-testing-deb-2-9-cli/2680) ~ [UI](/t/hardware-testing-deb-2-9-ui/2681)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/hardware-testing-snap-2-7-cli/2670) ~ [UI](/t/hardware-testing-snap-2-7-ui/2671)|[CLI](/t/hardware-testing-snap-2-8-cli/2672) ~ [UI](/t/hardware-testing-snap-2-8-ui/2673)|[CLI](/t/hardware-testing-snap-2-9-cli/2674) ~ [UI](/t/hardware-testing-snap-2-9-ui/2675)|
+|Packages|[CLI](/t/hardware-testing-deb-2-7-cli/2676) ~ [UI](/t/hardware-testing-deb-2-7-ui/2677)|[CLI](/t/hardware-testing-deb-2-8-cli/2678) ~ [UI](/t/hardware-testing-deb-2-8-ui/2679)||**CLI** ~ [UI](/t/hardware-testing-deb-2-9-ui/2681)|
+ deb-2-9-cli -->
 
 <!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/hardware-testing-snap-2-7-cli/2670) ~ [UI](/t/hardware-testing-snap-2-7-ui/2671)|[CLI](/t/hardware-testing-snap-2-8-cli/2672) ~ [UI](/t/hardware-testing-snap-2-8-ui/2673)|[CLI](/t/hardware-testing-snap-2-9-cli/2674) ~ [UI](/t/hardware-testing-snap-2-9-ui/2675)|
+|Packages|[CLI](/t/hardware-testing-deb-2-7-cli/2676) ~ [UI](/t/hardware-testing-deb-2-7-ui/2677)|[CLI](/t/hardware-testing-deb-2-8-cli/2678) ~ [UI](/t/hardware-testing-deb-2-8-ui/2679)|[CLI](/t/hardware-testing-deb-2-9-cli/2680) ~ **UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](/t/hardware-testing-snap-2-7-ui/2671)|[CLI](/t/hardware-testing-snap-2-8-cli/2672) ~ [UI](/t/hardware-testing-snap-2-8-ui/2673)|[CLI](/t/hardware-testing-snap-2-9-cli/2674) ~ [UI](/t/hardware-testing-snap-2-9-ui/2675)|
+|Packages|[CLI](/t/hardware-testing-deb-2-7-cli/2676) ~ [UI](/t/hardware-testing-deb-2-7-ui/2677)|[CLI](/t/hardware-testing-deb-2-8-cli/2678) ~ [UI](/t/hardware-testing-deb-2-8-ui/2679)|[CLI](/t/hardware-testing-deb-2-9-cli/2680) ~ [UI](/t/hardware-testing-deb-2-9-ui/2681)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/hardware-testing-snap-2-7-cli/2670) ~ **UI**|[CLI](/t/hardware-testing-snap-2-8-cli/2672) ~ [UI](/t/hardware-testing-snap-2-8-ui/2673)|[CLI](/t/hardware-testing-snap-2-9-cli/2674) ~ [UI](/t/hardware-testing-snap-2-9-ui/2675)|
+|Packages|[CLI](/t/hardware-testing-deb-2-7-cli/2676) ~ [UI](/t/hardware-testing-deb-2-7-ui/2677)|[CLI](/t/hardware-testing-deb-2-8-cli/2678) ~ [UI](/t/hardware-testing-deb-2-8-ui/2679)|[CLI](/t/hardware-testing-deb-2-9-cli/2680) ~ [UI](/t/hardware-testing-deb-2-9-ui/2681)|
+ snap-2-7-ui -->
+
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/hardware-testing-snap-2-7-cli/2670) ~ [UI](/t/hardware-testing-snap-2-7-ui/2671)||**CLI** ~ [UI](/t/hardware-testing-snap-2-8-ui/2673)|[CLI](/t/hardware-testing-snap-2-9-cli/2674) ~ [UI](/t/hardware-testing-snap-2-9-ui/2675)|
+|Packages|[CLI](/t/hardware-testing-deb-2-7-cli/2676) ~ [UI](/t/hardware-testing-deb-2-7-ui/2677)|[CLI](/t/hardware-testing-deb-2-8-cli/2678) ~ [UI](/t/hardware-testing-deb-2-8-ui/2679)|[CLI](/t/hardware-testing-deb-2-9-cli/2680) ~ [UI](/t/hardware-testing-deb-2-9-ui/2681)|
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/hardware-testing-snap-2-7-cli/2670) ~ [UI](/t/hardware-testing-snap-2-7-ui/2671)|[CLI](/t/hardware-testing-snap-2-8-cli/2672) ~ **UI**|[CLI](/t/hardware-testing-snap-2-9-cli/2674) ~ [UI](/t/hardware-testing-snap-2-9-ui/2675)|
+|Packages|[CLI](/t/hardware-testing-deb-2-7-cli/2676) ~ [UI](/t/hardware-testing-deb-2-7-ui/2677)|[CLI](/t/hardware-testing-deb-2-8-cli/2678) ~ [UI](/t/hardware-testing-deb-2-8-ui/2679)|[CLI](/t/hardware-testing-deb-2-9-cli/2680) ~ [UI](/t/hardware-testing-deb-2-9-ui/2681)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/hardware-testing-snap-2-7-cli/2670) ~ [UI](/t/hardware-testing-snap-2-7-ui/2671)|[CLI](/t/hardware-testing-snap-2-8-cli/2672) ~ [UI](/t/hardware-testing-snap-2-8-ui/2673)||**CLI** ~ [UI](/t/hardware-testing-snap-2-9-ui/2675)|
+|Packages|[CLI](/t/hardware-testing-deb-2-7-cli/2676) ~ [UI](/t/hardware-testing-deb-2-7-ui/2677)|[CLI](/t/hardware-testing-deb-2-8-cli/2678) ~ [UI](/t/hardware-testing-deb-2-8-ui/2679)|[CLI](/t/hardware-testing-deb-2-9-cli/2680) ~ [UI](/t/hardware-testing-deb-2-9-ui/2681)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/hardware-testing-snap-2-7-cli/2670) ~ [UI](/t/hardware-testing-snap-2-7-ui/2671)|[CLI](/t/hardware-testing-snap-2-8-cli/2672) ~ [UI](/t/hardware-testing-snap-2-8-ui/2673)|[CLI](/t/hardware-testing-snap-2-9-cli/2674) ~ **UI**|
+|Packages|[CLI](/t/hardware-testing-deb-2-7-cli/2676) ~ [UI](/t/hardware-testing-deb-2-7-ui/2677)|[CLI](/t/hardware-testing-deb-2-8-cli/2678) ~ [UI](/t/hardware-testing-deb-2-8-ui/2679)|[CLI](/t/hardware-testing-deb-2-9-cli/2680) ~ [UI](/t/hardware-testing-deb-2-9-ui/2681)|
+ snap-2-9-ui -->
 
 If you wish, you can tell MAAS to test machine hardware using well-known Linux utilities.  MAAS can test machines that have  a status of **Ready**, **Broken**, or **Deployed**.  You can include testing as part of the commissioning process. When you choose the 'Commission' action, MAAS will display the dialog described below.  Be aware, though, that if the hardware tests fail, the machine will become unavailable for Deployment.
 

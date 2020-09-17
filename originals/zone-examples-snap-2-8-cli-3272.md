@@ -1,94 +1,84 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/zone-examples-snap-2-7-cli/3270) ~ [UI](/t/zone-examples-snap-2-7-ui/3271)|[CLI](/t/zone-examples-snap-2-8-cli/3272) ~ [UI](/t/zone-examples-snap-2-8-ui/3273)|[CLI](/t/zone-examples-snap-2-9-cli/3274) ~ [UI](/t/zone-examples-snap-2-9-ui/3275)|
+|Packages|**CLI** ~ [UI](/t/zone-examples-deb-2-7-ui/3277)|[CLI](/t/zone-examples-deb-2-8-cli/3278) ~ [UI](/t/zone-examples-deb-2-8-ui/3279)|[CLI](/t/zone-examples-deb-2-9-cli/3280) ~ [UI](/t/zone-examples-deb-2-9-ui/3281)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/zone-examples-snap-2-7-cli/3270) ~ [UI](/t/zone-examples-snap-2-7-ui/3271)|[CLI](/t/zone-examples-snap-2-8-cli/3272) ~ [UI](/t/zone-examples-snap-2-8-ui/3273)|[CLI](/t/zone-examples-snap-2-9-cli/3274) ~ [UI](/t/zone-examples-snap-2-9-ui/3275)|
+|Packages|[CLI](/t/zone-examples-deb-2-7-cli/3276) ~ **UI**|[CLI](/t/zone-examples-deb-2-8-cli/3278) ~ [UI](/t/zone-examples-deb-2-8-ui/3279)|[CLI](/t/zone-examples-deb-2-9-cli/3280) ~ [UI](/t/zone-examples-deb-2-9-ui/3281)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/zone-examples-snap-2-7-cli/3270) ~ [UI](/t/zone-examples-snap-2-7-ui/3271)|[CLI](/t/zone-examples-snap-2-8-cli/3272) ~ [UI](/t/zone-examples-snap-2-8-ui/3273)|[CLI](/t/zone-examples-snap-2-9-cli/3274) ~ [UI](/t/zone-examples-snap-2-9-ui/3275)|
+|Packages|[CLI](/t/zone-examples-deb-2-7-cli/3276) ~ [UI](/t/zone-examples-deb-2-7-ui/3277)||**CLI** ~ [UI](/t/zone-examples-deb-2-8-ui/3279)|[CLI](/t/zone-examples-deb-2-9-cli/3280) ~ [UI](/t/zone-examples-deb-2-9-ui/3281)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/zone-examples-snap-2-7-cli/3270) ~ [UI](/t/zone-examples-snap-2-7-ui/3271)|[CLI](/t/zone-examples-snap-2-8-cli/3272) ~ [UI](/t/zone-examples-snap-2-8-ui/3273)|[CLI](/t/zone-examples-snap-2-9-cli/3274) ~ [UI](/t/zone-examples-snap-2-9-ui/3275)|
+|Packages|[CLI](/t/zone-examples-deb-2-7-cli/3276) ~ [UI](/t/zone-examples-deb-2-7-ui/3277)|[CLI](/t/zone-examples-deb-2-8-cli/3278) ~ **UI**|[CLI](/t/zone-examples-deb-2-9-cli/3280) ~ [UI](/t/zone-examples-deb-2-9-ui/3281)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/zone-examples-snap-2-7-cli/3270) ~ [UI](/t/zone-examples-snap-2-7-ui/3271)|[CLI](/t/zone-examples-snap-2-8-cli/3272) ~ [UI](/t/zone-examples-snap-2-8-ui/3273)|[CLI](/t/zone-examples-snap-2-9-cli/3274) ~ [UI](/t/zone-examples-snap-2-9-ui/3275)|
+|Packages|[CLI](/t/zone-examples-deb-2-7-cli/3276) ~ [UI](/t/zone-examples-deb-2-7-ui/3277)|[CLI](/t/zone-examples-deb-2-8-cli/3278) ~ [UI](/t/zone-examples-deb-2-8-ui/3279)||**CLI** ~ [UI](/t/zone-examples-deb-2-9-ui/3281)|
+ deb-2-9-cli -->
 
 <!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/zone-examples-snap-2-7-cli/3270) ~ [UI](/t/zone-examples-snap-2-7-ui/3271)|[CLI](/t/zone-examples-snap-2-8-cli/3272) ~ [UI](/t/zone-examples-snap-2-8-ui/3273)|[CLI](/t/zone-examples-snap-2-9-cli/3274) ~ [UI](/t/zone-examples-snap-2-9-ui/3275)|
+|Packages|[CLI](/t/zone-examples-deb-2-7-cli/3276) ~ [UI](/t/zone-examples-deb-2-7-ui/3277)|[CLI](/t/zone-examples-deb-2-8-cli/3278) ~ [UI](/t/zone-examples-deb-2-8-ui/3279)|[CLI](/t/zone-examples-deb-2-9-cli/3280) ~ **UI**|
+ deb-2-9-ui -->
 
-<table width="100%"><tr style="padding-bottom:0px;"><td><strong>Standard</strong></td><td>CLI-only</td><td>UI-only</td></tr></table>
-<!-- ui
-<table width="100%"><tr><td>Standard</td><td><strong>CLI-only</strong></td><td>UI-only</td></tr></table>
- ui -->
-<!-- cli
-<table width="100%"><tr><td>Standard</td><td>CLI-only</td><td><strong>UI-only</strong></td></tr></table>
- cli -->
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](/t/zone-examples-snap-2-7-ui/3271)|[CLI](/t/zone-examples-snap-2-8-cli/3272) ~ [UI](/t/zone-examples-snap-2-8-ui/3273)|[CLI](/t/zone-examples-snap-2-9-cli/3274) ~ [UI](/t/zone-examples-snap-2-9-ui/3275)|
+|Packages|[CLI](/t/zone-examples-deb-2-7-cli/3276) ~ [UI](/t/zone-examples-deb-2-7-ui/3277)|[CLI](/t/zone-examples-deb-2-8-cli/3278) ~ [UI](/t/zone-examples-deb-2-8-ui/3279)|[CLI](/t/zone-examples-deb-2-9-cli/3280) ~ [UI](/t/zone-examples-deb-2-9-ui/3281)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/zone-examples-snap-2-7-cli/3270) ~ **UI**|[CLI](/t/zone-examples-snap-2-8-cli/3272) ~ [UI](/t/zone-examples-snap-2-8-ui/3273)|[CLI](/t/zone-examples-snap-2-9-cli/3274) ~ [UI](/t/zone-examples-snap-2-9-ui/3275)|
+|Packages|[CLI](/t/zone-examples-deb-2-7-cli/3276) ~ [UI](/t/zone-examples-deb-2-7-ui/3277)|[CLI](/t/zone-examples-deb-2-8-cli/3278) ~ [UI](/t/zone-examples-deb-2-8-ui/3279)|[CLI](/t/zone-examples-deb-2-9-cli/3280) ~ [UI](/t/zone-examples-deb-2-9-ui/3281)|
+ snap-2-7-ui -->
+
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/zone-examples-snap-2-7-cli/3270) ~ [UI](/t/zone-examples-snap-2-7-ui/3271)||**CLI** ~ [UI](/t/zone-examples-snap-2-8-ui/3273)|[CLI](/t/zone-examples-snap-2-9-cli/3274) ~ [UI](/t/zone-examples-snap-2-9-ui/3275)|
+|Packages|[CLI](/t/zone-examples-deb-2-7-cli/3276) ~ [UI](/t/zone-examples-deb-2-7-ui/3277)|[CLI](/t/zone-examples-deb-2-8-cli/3278) ~ [UI](/t/zone-examples-deb-2-8-ui/3279)|[CLI](/t/zone-examples-deb-2-9-cli/3280) ~ [UI](/t/zone-examples-deb-2-9-ui/3281)|
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/zone-examples-snap-2-7-cli/3270) ~ [UI](/t/zone-examples-snap-2-7-ui/3271)|[CLI](/t/zone-examples-snap-2-8-cli/3272) ~ **UI**|[CLI](/t/zone-examples-snap-2-9-cli/3274) ~ [UI](/t/zone-examples-snap-2-9-ui/3275)|
+|Packages|[CLI](/t/zone-examples-deb-2-7-cli/3276) ~ [UI](/t/zone-examples-deb-2-7-ui/3277)|[CLI](/t/zone-examples-deb-2-8-cli/3278) ~ [UI](/t/zone-examples-deb-2-8-ui/3279)|[CLI](/t/zone-examples-deb-2-9-cli/3280) ~ [UI](/t/zone-examples-deb-2-9-ui/3281)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/zone-examples-snap-2-7-cli/3270) ~ [UI](/t/zone-examples-snap-2-7-ui/3271)|[CLI](/t/zone-examples-snap-2-8-cli/3272) ~ [UI](/t/zone-examples-snap-2-8-ui/3273)||**CLI** ~ [UI](/t/zone-examples-snap-2-9-ui/3275)|
+|Packages|[CLI](/t/zone-examples-deb-2-7-cli/3276) ~ [UI](/t/zone-examples-deb-2-7-ui/3277)|[CLI](/t/zone-examples-deb-2-8-cli/3278) ~ [UI](/t/zone-examples-deb-2-8-ui/3279)|[CLI](/t/zone-examples-deb-2-9-cli/3280) ~ [UI](/t/zone-examples-deb-2-9-ui/3281)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/zone-examples-snap-2-7-cli/3270) ~ [UI](/t/zone-examples-snap-2-7-ui/3271)|[CLI](/t/zone-examples-snap-2-8-cli/3272) ~ [UI](/t/zone-examples-snap-2-8-ui/3273)|[CLI](/t/zone-examples-snap-2-9-cli/3274) ~ **UI**|
+|Packages|[CLI](/t/zone-examples-deb-2-7-cli/3276) ~ [UI](/t/zone-examples-deb-2-7-ui/3277)|[CLI](/t/zone-examples-deb-2-8-cli/3278) ~ [UI](/t/zone-examples-deb-2-8-ui/3279)|[CLI](/t/zone-examples-deb-2-9-cli/3280) ~ [UI](/t/zone-examples-deb-2-9-ui/3281)|
+ snap-2-9-ui -->
 
 This page provides several useful examples of MAAS zone usage.
 

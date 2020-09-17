@@ -1,86 +1,84 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/prometheus-metrics-snap-2-7-cli/3018) ~ [UI](/t/prometheus-metrics-snap-2-7-ui/3019)|[CLI](/t/prometheus-metrics-snap-2-8-cli/3020) ~ [UI](/t/prometheus-metrics-snap-2-8-ui/3021)|[CLI](/t/prometheus-metrics-snap-2-9-cli/3022) ~ [UI](/t/prometheus-metrics-snap-2-9-ui/3023)|
+|Packages|**CLI** ~ [UI](/t/prometheus-metrics-deb-2-7-ui/3025)|[CLI](/t/prometheus-metrics-deb-2-8-cli/3026) ~ [UI](/t/prometheus-metrics-deb-2-8-ui/3027)|[CLI](/t/prometheus-metrics-deb-2-9-cli/3028) ~ [UI](/t/prometheus-metrics-deb-2-9-ui/3029)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/prometheus-metrics-snap-2-7-cli/3018) ~ [UI](/t/prometheus-metrics-snap-2-7-ui/3019)|[CLI](/t/prometheus-metrics-snap-2-8-cli/3020) ~ [UI](/t/prometheus-metrics-snap-2-8-ui/3021)|[CLI](/t/prometheus-metrics-snap-2-9-cli/3022) ~ [UI](/t/prometheus-metrics-snap-2-9-ui/3023)|
+|Packages|[CLI](/t/prometheus-metrics-deb-2-7-cli/3024) ~ **UI**|[CLI](/t/prometheus-metrics-deb-2-8-cli/3026) ~ [UI](/t/prometheus-metrics-deb-2-8-ui/3027)|[CLI](/t/prometheus-metrics-deb-2-9-cli/3028) ~ [UI](/t/prometheus-metrics-deb-2-9-ui/3029)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/prometheus-metrics-snap-2-7-cli/3018) ~ [UI](/t/prometheus-metrics-snap-2-7-ui/3019)|[CLI](/t/prometheus-metrics-snap-2-8-cli/3020) ~ [UI](/t/prometheus-metrics-snap-2-8-ui/3021)|[CLI](/t/prometheus-metrics-snap-2-9-cli/3022) ~ [UI](/t/prometheus-metrics-snap-2-9-ui/3023)|
+|Packages|[CLI](/t/prometheus-metrics-deb-2-7-cli/3024) ~ [UI](/t/prometheus-metrics-deb-2-7-ui/3025)||**CLI** ~ [UI](/t/prometheus-metrics-deb-2-8-ui/3027)|[CLI](/t/prometheus-metrics-deb-2-9-cli/3028) ~ [UI](/t/prometheus-metrics-deb-2-9-ui/3029)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/prometheus-metrics-snap-2-7-cli/3018) ~ [UI](/t/prometheus-metrics-snap-2-7-ui/3019)|[CLI](/t/prometheus-metrics-snap-2-8-cli/3020) ~ [UI](/t/prometheus-metrics-snap-2-8-ui/3021)|[CLI](/t/prometheus-metrics-snap-2-9-cli/3022) ~ [UI](/t/prometheus-metrics-snap-2-9-ui/3023)|
+|Packages|[CLI](/t/prometheus-metrics-deb-2-7-cli/3024) ~ [UI](/t/prometheus-metrics-deb-2-7-ui/3025)|[CLI](/t/prometheus-metrics-deb-2-8-cli/3026) ~ **UI**|[CLI](/t/prometheus-metrics-deb-2-9-cli/3028) ~ [UI](/t/prometheus-metrics-deb-2-9-ui/3029)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/prometheus-metrics-snap-2-7-cli/3018) ~ [UI](/t/prometheus-metrics-snap-2-7-ui/3019)|[CLI](/t/prometheus-metrics-snap-2-8-cli/3020) ~ [UI](/t/prometheus-metrics-snap-2-8-ui/3021)|[CLI](/t/prometheus-metrics-snap-2-9-cli/3022) ~ [UI](/t/prometheus-metrics-snap-2-9-ui/3023)|
+|Packages|[CLI](/t/prometheus-metrics-deb-2-7-cli/3024) ~ [UI](/t/prometheus-metrics-deb-2-7-ui/3025)|[CLI](/t/prometheus-metrics-deb-2-8-cli/3026) ~ [UI](/t/prometheus-metrics-deb-2-8-ui/3027)||**CLI** ~ [UI](/t/prometheus-metrics-deb-2-9-ui/3029)|
+ deb-2-9-cli -->
 
 <!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/prometheus-metrics-snap-2-7-cli/3018) ~ [UI](/t/prometheus-metrics-snap-2-7-ui/3019)|[CLI](/t/prometheus-metrics-snap-2-8-cli/3020) ~ [UI](/t/prometheus-metrics-snap-2-8-ui/3021)|[CLI](/t/prometheus-metrics-snap-2-9-cli/3022) ~ [UI](/t/prometheus-metrics-snap-2-9-ui/3023)|
+|Packages|[CLI](/t/prometheus-metrics-deb-2-7-cli/3024) ~ [UI](/t/prometheus-metrics-deb-2-7-ui/3025)|[CLI](/t/prometheus-metrics-deb-2-8-cli/3026) ~ [UI](/t/prometheus-metrics-deb-2-8-ui/3027)|[CLI](/t/prometheus-metrics-deb-2-9-cli/3028) ~ **UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](/t/prometheus-metrics-snap-2-7-ui/3019)|[CLI](/t/prometheus-metrics-snap-2-8-cli/3020) ~ [UI](/t/prometheus-metrics-snap-2-8-ui/3021)|[CLI](/t/prometheus-metrics-snap-2-9-cli/3022) ~ [UI](/t/prometheus-metrics-snap-2-9-ui/3023)|
+|Packages|[CLI](/t/prometheus-metrics-deb-2-7-cli/3024) ~ [UI](/t/prometheus-metrics-deb-2-7-ui/3025)|[CLI](/t/prometheus-metrics-deb-2-8-cli/3026) ~ [UI](/t/prometheus-metrics-deb-2-8-ui/3027)|[CLI](/t/prometheus-metrics-deb-2-9-cli/3028) ~ [UI](/t/prometheus-metrics-deb-2-9-ui/3029)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/prometheus-metrics-snap-2-7-cli/3018) ~ **UI**|[CLI](/t/prometheus-metrics-snap-2-8-cli/3020) ~ [UI](/t/prometheus-metrics-snap-2-8-ui/3021)|[CLI](/t/prometheus-metrics-snap-2-9-cli/3022) ~ [UI](/t/prometheus-metrics-snap-2-9-ui/3023)|
+|Packages|[CLI](/t/prometheus-metrics-deb-2-7-cli/3024) ~ [UI](/t/prometheus-metrics-deb-2-7-ui/3025)|[CLI](/t/prometheus-metrics-deb-2-8-cli/3026) ~ [UI](/t/prometheus-metrics-deb-2-8-ui/3027)|[CLI](/t/prometheus-metrics-deb-2-9-cli/3028) ~ [UI](/t/prometheus-metrics-deb-2-9-ui/3029)|
+ snap-2-7-ui -->
+
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/prometheus-metrics-snap-2-7-cli/3018) ~ [UI](/t/prometheus-metrics-snap-2-7-ui/3019)||**CLI** ~ [UI](/t/prometheus-metrics-snap-2-8-ui/3021)|[CLI](/t/prometheus-metrics-snap-2-9-cli/3022) ~ [UI](/t/prometheus-metrics-snap-2-9-ui/3023)|
+|Packages|[CLI](/t/prometheus-metrics-deb-2-7-cli/3024) ~ [UI](/t/prometheus-metrics-deb-2-7-ui/3025)|[CLI](/t/prometheus-metrics-deb-2-8-cli/3026) ~ [UI](/t/prometheus-metrics-deb-2-8-ui/3027)|[CLI](/t/prometheus-metrics-deb-2-9-cli/3028) ~ [UI](/t/prometheus-metrics-deb-2-9-ui/3029)|
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/prometheus-metrics-snap-2-7-cli/3018) ~ [UI](/t/prometheus-metrics-snap-2-7-ui/3019)|[CLI](/t/prometheus-metrics-snap-2-8-cli/3020) ~ **UI**|[CLI](/t/prometheus-metrics-snap-2-9-cli/3022) ~ [UI](/t/prometheus-metrics-snap-2-9-ui/3023)|
+|Packages|[CLI](/t/prometheus-metrics-deb-2-7-cli/3024) ~ [UI](/t/prometheus-metrics-deb-2-7-ui/3025)|[CLI](/t/prometheus-metrics-deb-2-8-cli/3026) ~ [UI](/t/prometheus-metrics-deb-2-8-ui/3027)|[CLI](/t/prometheus-metrics-deb-2-9-cli/3028) ~ [UI](/t/prometheus-metrics-deb-2-9-ui/3029)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/prometheus-metrics-snap-2-7-cli/3018) ~ [UI](/t/prometheus-metrics-snap-2-7-ui/3019)|[CLI](/t/prometheus-metrics-snap-2-8-cli/3020) ~ [UI](/t/prometheus-metrics-snap-2-8-ui/3021)||**CLI** ~ [UI](/t/prometheus-metrics-snap-2-9-ui/3023)|
+|Packages|[CLI](/t/prometheus-metrics-deb-2-7-cli/3024) ~ [UI](/t/prometheus-metrics-deb-2-7-ui/3025)|[CLI](/t/prometheus-metrics-deb-2-8-cli/3026) ~ [UI](/t/prometheus-metrics-deb-2-8-ui/3027)|[CLI](/t/prometheus-metrics-deb-2-9-cli/3028) ~ [UI](/t/prometheus-metrics-deb-2-9-ui/3029)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/prometheus-metrics-snap-2-7-cli/3018) ~ [UI](/t/prometheus-metrics-snap-2-7-ui/3019)|[CLI](/t/prometheus-metrics-snap-2-8-cli/3020) ~ [UI](/t/prometheus-metrics-snap-2-8-ui/3021)|[CLI](/t/prometheus-metrics-snap-2-9-cli/3022) ~ **UI**|
+|Packages|[CLI](/t/prometheus-metrics-deb-2-7-cli/3024) ~ [UI](/t/prometheus-metrics-deb-2-7-ui/3025)|[CLI](/t/prometheus-metrics-deb-2-8-cli/3026) ~ [UI](/t/prometheus-metrics-deb-2-8-ui/3027)|[CLI](/t/prometheus-metrics-deb-2-9-cli/3028) ~ [UI](/t/prometheus-metrics-deb-2-9-ui/3029)|
+ snap-2-9-ui -->
 
 MAAS services can provide [Prometheus](https://prometheus.io/) endpoints for collecting performance metrics.  These include:
 

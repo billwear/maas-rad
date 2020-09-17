@@ -1,86 +1,84 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/proxy-snap-2-7-cli/3030) ~ [UI](/t/proxy-snap-2-7-ui/3031)|[CLI](/t/proxy-snap-2-8-cli/3032) ~ [UI](/t/proxy-snap-2-8-ui/3033)|[CLI](/t/proxy-snap-2-9-cli/3034) ~ [UI](/t/proxy-snap-2-9-ui/3035)|
+|Packages|**CLI** ~ [UI](/t/proxy-deb-2-7-ui/3037)|[CLI](/t/proxy-deb-2-8-cli/3038) ~ [UI](/t/proxy-deb-2-8-ui/3039)|[CLI](/t/proxy-deb-2-9-cli/3040) ~ [UI](/t/proxy-deb-2-9-ui/3041)|
+ deb-2-7-cli -->
 
-<!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/proxy-snap-2-7-cli/3030) ~ [UI](/t/proxy-snap-2-7-ui/3031)|[CLI](/t/proxy-snap-2-8-cli/3032) ~ [UI](/t/proxy-snap-2-8-ui/3033)|[CLI](/t/proxy-snap-2-9-cli/3034) ~ [UI](/t/proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](/t/proxy-deb-2-7-cli/3036) ~ **UI**|[CLI](/t/proxy-deb-2-8-cli/3038) ~ [UI](/t/proxy-deb-2-8-ui/3039)|[CLI](/t/proxy-deb-2-9-cli/3040) ~ [UI](/t/proxy-deb-2-9-ui/3041)|
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/proxy-snap-2-7-cli/3030) ~ [UI](/t/proxy-snap-2-7-ui/3031)|[CLI](/t/proxy-snap-2-8-cli/3032) ~ [UI](/t/proxy-snap-2-8-ui/3033)|[CLI](/t/proxy-snap-2-9-cli/3034) ~ [UI](/t/proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](/t/proxy-deb-2-7-cli/3036) ~ [UI](/t/proxy-deb-2-7-ui/3037)||**CLI** ~ [UI](/t/proxy-deb-2-8-ui/3039)|[CLI](/t/proxy-deb-2-9-cli/3040) ~ [UI](/t/proxy-deb-2-9-ui/3041)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/proxy-snap-2-7-cli/3030) ~ [UI](/t/proxy-snap-2-7-ui/3031)|[CLI](/t/proxy-snap-2-8-cli/3032) ~ [UI](/t/proxy-snap-2-8-ui/3033)|[CLI](/t/proxy-snap-2-9-cli/3034) ~ [UI](/t/proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](/t/proxy-deb-2-7-cli/3036) ~ [UI](/t/proxy-deb-2-7-ui/3037)|[CLI](/t/proxy-deb-2-8-cli/3038) ~ **UI**|[CLI](/t/proxy-deb-2-9-cli/3040) ~ [UI](/t/proxy-deb-2-9-ui/3041)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/proxy-snap-2-7-cli/3030) ~ [UI](/t/proxy-snap-2-7-ui/3031)|[CLI](/t/proxy-snap-2-8-cli/3032) ~ [UI](/t/proxy-snap-2-8-ui/3033)|[CLI](/t/proxy-snap-2-9-cli/3034) ~ [UI](/t/proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](/t/proxy-deb-2-7-cli/3036) ~ [UI](/t/proxy-deb-2-7-ui/3037)|[CLI](/t/proxy-deb-2-8-cli/3038) ~ [UI](/t/proxy-deb-2-8-ui/3039)||**CLI** ~ [UI](/t/proxy-deb-2-9-ui/3041)|
+ deb-2-9-cli -->
 
 <!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/proxy-snap-2-7-cli/3030) ~ [UI](/t/proxy-snap-2-7-ui/3031)|[CLI](/t/proxy-snap-2-8-cli/3032) ~ [UI](/t/proxy-snap-2-8-ui/3033)|[CLI](/t/proxy-snap-2-9-cli/3034) ~ [UI](/t/proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](/t/proxy-deb-2-7-cli/3036) ~ [UI](/t/proxy-deb-2-7-ui/3037)|[CLI](/t/proxy-deb-2-8-cli/3038) ~ [UI](/t/proxy-deb-2-8-ui/3039)|[CLI](/t/proxy-deb-2-9-cli/3040) ~ **UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](/t/proxy-snap-2-7-ui/3031)|[CLI](/t/proxy-snap-2-8-cli/3032) ~ [UI](/t/proxy-snap-2-8-ui/3033)|[CLI](/t/proxy-snap-2-9-cli/3034) ~ [UI](/t/proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](/t/proxy-deb-2-7-cli/3036) ~ [UI](/t/proxy-deb-2-7-ui/3037)|[CLI](/t/proxy-deb-2-8-cli/3038) ~ [UI](/t/proxy-deb-2-8-ui/3039)|[CLI](/t/proxy-deb-2-9-cli/3040) ~ [UI](/t/proxy-deb-2-9-ui/3041)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/proxy-snap-2-7-cli/3030) ~ **UI**|[CLI](/t/proxy-snap-2-8-cli/3032) ~ [UI](/t/proxy-snap-2-8-ui/3033)|[CLI](/t/proxy-snap-2-9-cli/3034) ~ [UI](/t/proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](/t/proxy-deb-2-7-cli/3036) ~ [UI](/t/proxy-deb-2-7-ui/3037)|[CLI](/t/proxy-deb-2-8-cli/3038) ~ [UI](/t/proxy-deb-2-8-ui/3039)|[CLI](/t/proxy-deb-2-9-cli/3040) ~ [UI](/t/proxy-deb-2-9-ui/3041)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/proxy-snap-2-7-cli/3030) ~ [UI](/t/proxy-snap-2-7-ui/3031)||**CLI** ~ [UI](/t/proxy-snap-2-8-ui/3033)|[CLI](/t/proxy-snap-2-9-cli/3034) ~ [UI](/t/proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](/t/proxy-deb-2-7-cli/3036) ~ [UI](/t/proxy-deb-2-7-ui/3037)|[CLI](/t/proxy-deb-2-8-cli/3038) ~ [UI](/t/proxy-deb-2-8-ui/3039)|[CLI](/t/proxy-deb-2-9-cli/3040) ~ [UI](/t/proxy-deb-2-9-ui/3041)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/proxy-snap-2-7-cli/3030) ~ [UI](/t/proxy-snap-2-7-ui/3031)|[CLI](/t/proxy-snap-2-8-cli/3032) ~ **UI**|[CLI](/t/proxy-snap-2-9-cli/3034) ~ [UI](/t/proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](/t/proxy-deb-2-7-cli/3036) ~ [UI](/t/proxy-deb-2-7-ui/3037)|[CLI](/t/proxy-deb-2-8-cli/3038) ~ [UI](/t/proxy-deb-2-8-ui/3039)|[CLI](/t/proxy-deb-2-9-cli/3040) ~ [UI](/t/proxy-deb-2-9-ui/3041)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/proxy-snap-2-7-cli/3030) ~ [UI](/t/proxy-snap-2-7-ui/3031)|[CLI](/t/proxy-snap-2-8-cli/3032) ~ [UI](/t/proxy-snap-2-8-ui/3033)||**CLI** ~ [UI](/t/proxy-snap-2-9-ui/3035)|
+|Packages|[CLI](/t/proxy-deb-2-7-cli/3036) ~ [UI](/t/proxy-deb-2-7-ui/3037)|[CLI](/t/proxy-deb-2-8-cli/3038) ~ [UI](/t/proxy-deb-2-8-ui/3039)|[CLI](/t/proxy-deb-2-9-cli/3040) ~ [UI](/t/proxy-deb-2-9-ui/3041)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/proxy-snap-2-7-cli/3030) ~ [UI](/t/proxy-snap-2-7-ui/3031)|[CLI](/t/proxy-snap-2-8-cli/3032) ~ [UI](/t/proxy-snap-2-8-ui/3033)|[CLI](/t/proxy-snap-2-9-cli/3034) ~ **UI**|
+|Packages|[CLI](/t/proxy-deb-2-7-cli/3036) ~ [UI](/t/proxy-deb-2-7-ui/3037)|[CLI](/t/proxy-deb-2-8-cli/3038) ~ [UI](/t/proxy-deb-2-8-ui/3039)|[CLI](/t/proxy-deb-2-9-cli/3040) ~ [UI](/t/proxy-deb-2-9-ui/3041)|
+ snap-2-9-ui -->
 
 MAAS provides a way for its managed machines to use a proxy server when they need to access HTTP/HTTPS-based resources, such as the Ubuntu package archive.
 

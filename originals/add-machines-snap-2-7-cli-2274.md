@@ -1,131 +1,84 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|**CLI** ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ **UI**|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)||**CLI** ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ **UI**|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)||**CLI** ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ deb-2-9-cli -->
 
 <!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ **UI**|
+ deb-2-9-ui -->
 
-<!-- base set DO NOT EDIT
-<table width="100%"><tr>
-<td><a href="https://maas.io/docs/add-machines"><u>Standard</u></a></td>
-<td><a href="https://maas.io/docs/2.7/uiadd-machines">2.7/UI</a></td>
-<td><a href="https://maas.io/docs/2.8/ui/add-machines">2.8/UI</a></td>
-<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
-</tr></table>
- base set DO NOT EDIT -->
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
 
-<!-- vanilla
-<table width="100%"><tr>
-<td><strong>Standard</strong></td>
-<td><a href="https://maas.io/docs/2.7/ui/add-machines">2.7/UI</a></td>
-<td><a href="https://maas.io/docs/2.8/ui/add-machines">2.8/UI</a></td>
-<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
-</tr></table>
- vanilla -->
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ **UI**|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ snap-2-7-ui -->
 
-<!-- 2-7-ui
-<table width="100%"><tr>
-<td><a href="https://maas.io/docs/add-machines">Standard</a></td>
-<td><strong>2.7/UI</strong></td>
-<td><a href="https://maas.io/docs/2.8/ui/add-machines">2.8/UI</a></td>
-<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
-</tr></table>
- 2-7-ui -->
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)||**CLI** ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ snap-2-8-cli -->
 
-<!-- 2-8-ui
-<table width="100%"><tr>
-<td><a href="https://maas.io/docs/add-machines">Standard</a></td>
-<td><a href="https://maas.io/docs/2.7/ui/add-machines">2.7/UI</a></td>
-<td><strong>2.8/UI</strong></td>
-<td><a href="https://maas.io/docs/cli/add-machines">CLI-only</a></td>
-</tr></table>
- 2-8-ui -->
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ **UI**|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ snap-2-8-ui -->
 
-<!-- cli
-<table width="100%"><tr>
-<td><a href="https://maas.io/docs/add-machines">Standard</a></td>
-<td><a href="https://maas.io/docs/2.7/ui/add-machines">2.7/UI</a></td>
-<td><a href="https://maas.io/docs/2.8/ui/add-machines">2.8/UI</a></td>
-<td><strong>CLI-only</strong></td>
-</tr></table>
- cli -->
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)||**CLI** ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ **UI**|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ snap-2-9-ui -->
 
 There are two ways to add a machine to MAAS:
 

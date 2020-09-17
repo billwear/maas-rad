@@ -1,86 +1,84 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](/t/configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](/t/configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](/t/configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](/t/configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](/t/configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|**CLI** ~ [UI](/t/configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](/t/configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](/t/configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](/t/configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](/t/configuring-tls-encryption-deb-2-9-ui/2549)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](/t/configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](/t/configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](/t/configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](/t/configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](/t/configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](/t/configuring-tls-encryption-deb-2-7-cli/2544) ~ **UI**|[CLI](/t/configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](/t/configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](/t/configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](/t/configuring-tls-encryption-deb-2-9-ui/2549)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](/t/configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](/t/configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](/t/configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](/t/configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](/t/configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](/t/configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](/t/configuring-tls-encryption-deb-2-7-ui/2545)||**CLI** ~ [UI](/t/configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](/t/configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](/t/configuring-tls-encryption-deb-2-9-ui/2549)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](/t/configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](/t/configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](/t/configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](/t/configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](/t/configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](/t/configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](/t/configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](/t/configuring-tls-encryption-deb-2-8-cli/2546) ~ **UI**|[CLI](/t/configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](/t/configuring-tls-encryption-deb-2-9-ui/2549)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](/t/configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](/t/configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](/t/configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](/t/configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](/t/configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](/t/configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](/t/configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](/t/configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](/t/configuring-tls-encryption-deb-2-8-ui/2547)||**CLI** ~ [UI](/t/configuring-tls-encryption-deb-2-9-ui/2549)|
+ deb-2-9-cli -->
 
 <!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](/t/configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](/t/configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](/t/configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](/t/configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](/t/configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](/t/configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](/t/configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](/t/configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](/t/configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](/t/configuring-tls-encryption-deb-2-9-cli/2548) ~ **UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](/t/configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](/t/configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](/t/configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](/t/configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](/t/configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](/t/configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](/t/configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](/t/configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](/t/configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](/t/configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](/t/configuring-tls-encryption-deb-2-9-ui/2549)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/configuring-tls-encryption-snap-2-7-cli/2538) ~ **UI**|[CLI](/t/configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](/t/configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](/t/configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](/t/configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](/t/configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](/t/configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](/t/configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](/t/configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](/t/configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](/t/configuring-tls-encryption-deb-2-9-ui/2549)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](/t/configuring-tls-encryption-snap-2-7-ui/2539)||**CLI** ~ [UI](/t/configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](/t/configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](/t/configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](/t/configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](/t/configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](/t/configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](/t/configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](/t/configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](/t/configuring-tls-encryption-deb-2-9-ui/2549)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](/t/configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](/t/configuring-tls-encryption-snap-2-8-cli/2540) ~ **UI**|[CLI](/t/configuring-tls-encryption-snap-2-9-cli/2542) ~ [UI](/t/configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](/t/configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](/t/configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](/t/configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](/t/configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](/t/configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](/t/configuring-tls-encryption-deb-2-9-ui/2549)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](/t/configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](/t/configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](/t/configuring-tls-encryption-snap-2-8-ui/2541)||**CLI** ~ [UI](/t/configuring-tls-encryption-snap-2-9-ui/2543)|
+|Packages|[CLI](/t/configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](/t/configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](/t/configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](/t/configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](/t/configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](/t/configuring-tls-encryption-deb-2-9-ui/2549)|
+ snap-2-9-cli -->
+
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/configuring-tls-encryption-snap-2-7-cli/2538) ~ [UI](/t/configuring-tls-encryption-snap-2-7-ui/2539)|[CLI](/t/configuring-tls-encryption-snap-2-8-cli/2540) ~ [UI](/t/configuring-tls-encryption-snap-2-8-ui/2541)|[CLI](/t/configuring-tls-encryption-snap-2-9-cli/2542) ~ **UI**|
+|Packages|[CLI](/t/configuring-tls-encryption-deb-2-7-cli/2544) ~ [UI](/t/configuring-tls-encryption-deb-2-7-ui/2545)|[CLI](/t/configuring-tls-encryption-deb-2-8-cli/2546) ~ [UI](/t/configuring-tls-encryption-deb-2-8-ui/2547)|[CLI](/t/configuring-tls-encryption-deb-2-9-cli/2548) ~ [UI](/t/configuring-tls-encryption-deb-2-9-ui/2549)|
 
 MAAS doesn't support TLS encryption natively.  If you are not interested in [setting up an HAProxy](/t/high-availability/804#heading--load-balancing-with-haproxy-optional), you can enable TLS independently in the web server software (e.g. Apache, Nginx) which users access directly.  The examples below explain how to create this configuration.
 

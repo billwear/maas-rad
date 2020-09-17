@@ -1,119 +1,84 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
-<!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
+|Packages|**CLI** ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
+|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ **UI**|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
+|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)||**CLI** ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
+|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ **UI**|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
+|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)||**CLI** ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
+ deb-2-9-cli -->
 
 <!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
+|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ **UI**|
+ deb-2-9-ui -->
 
-<!-- base set DO NOT EDIT
-<table width="100%"><tr>
-<td><a href="https://maas.io/docs/add-a-vm-host">Standard</a></td>
-<td><a href="https://maas.io/docs/ui/add-a-vm-host">UI</a></td>
-<td><a href="https://maas.io/docs/cli/add-a-vm-host">CLI-only</a></td>
-</tr></table>
- base set DO NOT EDIT -->
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
+|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
+ snap-2-7-cli -->
 
-<!-- vanilla
-<table width="100%"><tr>
-<td><strong>Standard</strong></td>
-<td><a href="https://maas.io/docs/ui/add-a-vm-host">UI</a></td>
-<td><a href="https://maas.io/docs/cli/add-a-vm-host">CLI-only</a></td>
-</tr></table>
- vanilla -->
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ **UI**|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
+|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
+ snap-2-7-ui -->
 
-<!-- ui
-<table width="100%"><tr>
-<td><a href="https://maas.io/docs/add-a-vm-host">Standard</a></td>
-<td><strong>UI</strong></td>
-<td><a href="https://maas.io/docs/cli/add-a-vm-host">CLI-only</a></td>
-</tr></table>
- ui -->
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)||**CLI** ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
+|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
+ snap-2-8-cli -->
 
-<!-- cli
-<table width="100%"><tr>
-<td><a href="https://maas.io/docs/add-a-vm-host">Standard</a></td>
-<td><a href="https://maas.io/docs/ui/add-a-vm-host">UI</a></td>
-<td><strong>CLI-only</strong></td>
-</tr></table>
- cli -->
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ **UI**|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
+|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
+ snap-2-8-ui -->
 
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)||**CLI** ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
+|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ **UI**|
+|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
+ snap-2-9-ui -->
 
 A VM host is simply a machine which can run virtual machines (VMs) by allocating  resources across the VMs you want to create.  If needed, you can overcommit resources, allocating more resources than actually available, so long as you don't try to use more than the VM host has available at any one time. Once MAAS has enlisted, commissioned, and acquired a newly-added machine, you can deploy it as a VM host.  Alternatively, you can create a VM host from a machine you've already got running.
 

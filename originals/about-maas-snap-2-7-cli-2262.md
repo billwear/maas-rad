@@ -3,6 +3,13 @@
 |Snap|**CLI** ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
 |Packages|[CLI](/t/about-maas-deb-2-7-cli/2268) ~ [UI](/t/about-maas-deb-2-7-ui/2269)|[CLI](/t/about-maas-deb-2-8-cli/2270) ~ [UI](/t/about-maas-deb-2-8-ui/2271)|[CLI](/t/about-maas-deb-2-9-cli/2272) ~ [UI](/t/about-maas-deb-2-9-ui/2273)|
 
+<!-- deb-2-7-cli
+|| 2.7 | 2.8 | 2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](about-maas-snap-2-7-cli/2838) ~ [UI](/t/about-maas-snap-2-7-ui/2263) |[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265) |[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
+|Packages|**CLI** ~  [UI](/t/about-maas-deb-2-7-ui/2269)|[CLI](/t/about-maas-deb-2-8-cli/2270) ~ [UI](/t/about-maas-deb-2-8-ui/2271)|[CLI](/t/about-maas-deb-2-9-cli/2272) ~ [UI](/t/about-maas-deb-2-9-ui/2273)|
+deb-2-7-cli -->
+
 <!-- snap-2-7-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|

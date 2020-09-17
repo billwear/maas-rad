@@ -1,86 +1,84 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|**CLI** ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ **UI**|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)||**CLI** ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ **UI**|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)||**CLI** ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
+ deb-2-9-cli -->
 
 <!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ **UI**|
+ deb-2-9-ui -->
+
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ **UI**|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)||**CLI** ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ **UI**|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)||**CLI** ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ **UI**|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
+ snap-2-9-ui -->
 
 Once a machine has been commissioned (see [Commission machines](/t/commission-machines/822)) the next logical step is to deploy it. Deploying a machine means, effectively, to install an operating system on it.
 

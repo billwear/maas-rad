@@ -1,86 +1,84 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/vmware-images-snap-2-7-cli/3234) ~ [UI](/t/vmware-images-snap-2-7-ui/3235)|[CLI](/t/vmware-images-snap-2-8-cli/3236) ~ [UI](/t/vmware-images-snap-2-8-ui/3237)|[CLI](/t/vmware-images-snap-2-9-cli/3238) ~ [UI](/t/vmware-images-snap-2-9-ui/3239)|
+|Packages|**CLI** ~ [UI](/t/vmware-images-deb-2-7-ui/3241)|[CLI](/t/vmware-images-deb-2-8-cli/3242) ~ [UI](/t/vmware-images-deb-2-8-ui/3243)|[CLI](/t/vmware-images-deb-2-9-cli/3244) ~ [UI](/t/vmware-images-deb-2-9-ui/3245)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/vmware-images-snap-2-7-cli/3234) ~ [UI](/t/vmware-images-snap-2-7-ui/3235)|[CLI](/t/vmware-images-snap-2-8-cli/3236) ~ [UI](/t/vmware-images-snap-2-8-ui/3237)|[CLI](/t/vmware-images-snap-2-9-cli/3238) ~ [UI](/t/vmware-images-snap-2-9-ui/3239)|
+|Packages|[CLI](/t/vmware-images-deb-2-7-cli/3240) ~ **UI**|[CLI](/t/vmware-images-deb-2-8-cli/3242) ~ [UI](/t/vmware-images-deb-2-8-ui/3243)|[CLI](/t/vmware-images-deb-2-9-cli/3244) ~ [UI](/t/vmware-images-deb-2-9-ui/3245)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/vmware-images-snap-2-7-cli/3234) ~ [UI](/t/vmware-images-snap-2-7-ui/3235)|[CLI](/t/vmware-images-snap-2-8-cli/3236) ~ [UI](/t/vmware-images-snap-2-8-ui/3237)|[CLI](/t/vmware-images-snap-2-9-cli/3238) ~ [UI](/t/vmware-images-snap-2-9-ui/3239)|
+|Packages|[CLI](/t/vmware-images-deb-2-7-cli/3240) ~ [UI](/t/vmware-images-deb-2-7-ui/3241)||**CLI** ~ [UI](/t/vmware-images-deb-2-8-ui/3243)|[CLI](/t/vmware-images-deb-2-9-cli/3244) ~ [UI](/t/vmware-images-deb-2-9-ui/3245)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
+|Snap|[CLI](/t/vmware-images-snap-2-7-cli/3234) ~ [UI](/t/vmware-images-snap-2-7-ui/3235)|[CLI](/t/vmware-images-snap-2-8-cli/3236) ~ [UI](/t/vmware-images-snap-2-8-ui/3237)|[CLI](/t/vmware-images-snap-2-9-cli/3238) ~ [UI](/t/vmware-images-snap-2-9-ui/3239)|
+|Packages|[CLI](/t/vmware-images-deb-2-7-cli/3240) ~ [UI](/t/vmware-images-deb-2-7-ui/3241)|[CLI](/t/vmware-images-deb-2-8-cli/3242) ~ **UI**|[CLI](/t/vmware-images-deb-2-9-cli/3244) ~ [UI](/t/vmware-images-deb-2-9-ui/3245)|
+ deb-2-8-ui -->
 
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
-
-<!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/vmware-images-snap-2-7-cli/3234) ~ [UI](/t/vmware-images-snap-2-7-ui/3235)|[CLI](/t/vmware-images-snap-2-8-cli/3236) ~ [UI](/t/vmware-images-snap-2-8-ui/3237)|[CLI](/t/vmware-images-snap-2-9-cli/3238) ~ [UI](/t/vmware-images-snap-2-9-ui/3239)|
+|Packages|[CLI](/t/vmware-images-deb-2-7-cli/3240) ~ [UI](/t/vmware-images-deb-2-7-ui/3241)|[CLI](/t/vmware-images-deb-2-8-cli/3242) ~ [UI](/t/vmware-images-deb-2-8-ui/3243)||**CLI** ~ [UI](/t/vmware-images-deb-2-9-ui/3245)|
 
 <!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/vmware-images-snap-2-7-cli/3234) ~ [UI](/t/vmware-images-snap-2-7-ui/3235)|[CLI](/t/vmware-images-snap-2-8-cli/3236) ~ [UI](/t/vmware-images-snap-2-8-ui/3237)|[CLI](/t/vmware-images-snap-2-9-cli/3238) ~ [UI](/t/vmware-images-snap-2-9-ui/3239)|
+|Packages|[CLI](/t/vmware-images-deb-2-7-cli/3240) ~ [UI](/t/vmware-images-deb-2-7-ui/3241)|[CLI](/t/vmware-images-deb-2-8-cli/3242) ~ [UI](/t/vmware-images-deb-2-8-ui/3243)|[CLI](/t/vmware-images-deb-2-9-cli/3244) ~ **UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](/t/vmware-images-snap-2-7-ui/3235)|[CLI](/t/vmware-images-snap-2-8-cli/3236) ~ [UI](/t/vmware-images-snap-2-8-ui/3237)|[CLI](/t/vmware-images-snap-2-9-cli/3238) ~ [UI](/t/vmware-images-snap-2-9-ui/3239)|
+|Packages|[CLI](/t/vmware-images-deb-2-7-cli/3240) ~ [UI](/t/vmware-images-deb-2-7-ui/3241)|[CLI](/t/vmware-images-deb-2-8-cli/3242) ~ [UI](/t/vmware-images-deb-2-8-ui/3243)|[CLI](/t/vmware-images-deb-2-9-cli/3244) ~ [UI](/t/vmware-images-deb-2-9-ui/3245)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/vmware-images-snap-2-7-cli/3234) ~ **UI**|[CLI](/t/vmware-images-snap-2-8-cli/3236) ~ [UI](/t/vmware-images-snap-2-8-ui/3237)|[CLI](/t/vmware-images-snap-2-9-cli/3238) ~ [UI](/t/vmware-images-snap-2-9-ui/3239)|
+|Packages|[CLI](/t/vmware-images-deb-2-7-cli/3240) ~ [UI](/t/vmware-images-deb-2-7-ui/3241)|[CLI](/t/vmware-images-deb-2-8-cli/3242) ~ [UI](/t/vmware-images-deb-2-8-ui/3243)|[CLI](/t/vmware-images-deb-2-9-cli/3244) ~ [UI](/t/vmware-images-deb-2-9-ui/3245)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/vmware-images-snap-2-7-cli/3234) ~ [UI](/t/vmware-images-snap-2-7-ui/3235)||**CLI** ~ [UI](/t/vmware-images-snap-2-8-ui/3237)|[CLI](/t/vmware-images-snap-2-9-cli/3238) ~ [UI](/t/vmware-images-snap-2-9-ui/3239)|
+|Packages|[CLI](/t/vmware-images-deb-2-7-cli/3240) ~ [UI](/t/vmware-images-deb-2-7-ui/3241)|[CLI](/t/vmware-images-deb-2-8-cli/3242) ~ [UI](/t/vmware-images-deb-2-8-ui/3243)|[CLI](/t/vmware-images-deb-2-9-cli/3244) ~ [UI](/t/vmware-images-deb-2-9-ui/3245)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/vmware-images-snap-2-7-cli/3234) ~ [UI](/t/vmware-images-snap-2-7-ui/3235)|[CLI](/t/vmware-images-snap-2-8-cli/3236) ~ **UI**|[CLI](/t/vmware-images-snap-2-9-cli/3238) ~ [UI](/t/vmware-images-snap-2-9-ui/3239)|
+|Packages|[CLI](/t/vmware-images-deb-2-7-cli/3240) ~ [UI](/t/vmware-images-deb-2-7-ui/3241)|[CLI](/t/vmware-images-deb-2-8-cli/3242) ~ [UI](/t/vmware-images-deb-2-8-ui/3243)|[CLI](/t/vmware-images-deb-2-9-cli/3244) ~ [UI](/t/vmware-images-deb-2-9-ui/3245)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/vmware-images-snap-2-7-cli/3234) ~ [UI](/t/vmware-images-snap-2-7-ui/3235)|[CLI](/t/vmware-images-snap-2-8-cli/3236) ~ [UI](/t/vmware-images-snap-2-8-ui/3237)||**CLI** ~ [UI](/t/vmware-images-snap-2-9-ui/3239)|
+|Packages|[CLI](/t/vmware-images-deb-2-7-cli/3240) ~ [UI](/t/vmware-images-deb-2-7-ui/3241)|[CLI](/t/vmware-images-deb-2-8-cli/3242) ~ [UI](/t/vmware-images-deb-2-8-ui/3243)|[CLI](/t/vmware-images-deb-2-9-cli/3244) ~ [UI](/t/vmware-images-deb-2-9-ui/3245)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/vmware-images-snap-2-7-cli/3234) ~ [UI](/t/vmware-images-snap-2-7-ui/3235)|[CLI](/t/vmware-images-snap-2-8-cli/3236) ~ [UI](/t/vmware-images-snap-2-8-ui/3237)|[CLI](/t/vmware-images-snap-2-9-cli/3238) ~ **UI**|
+|Packages|[CLI](/t/vmware-images-deb-2-7-cli/3240) ~ [UI](/t/vmware-images-deb-2-7-ui/3241)|[CLI](/t/vmware-images-deb-2-8-cli/3242) ~ [UI](/t/vmware-images-deb-2-8-ui/3243)|[CLI](/t/vmware-images-deb-2-9-cli/3244) ~ [UI](/t/vmware-images-deb-2-9-ui/3245)|
+ snap-2-9-ui -->
 
 MAAS 2.5 and above can deploy VMware ESXi as a custom image. MAAS cannot directly deploy the VMware ESXi ISO; you must create a specialised image from an official VMWare ISO. Canonical created a [packer](https://www.packer.io/) template to automate the image creation process.
 
