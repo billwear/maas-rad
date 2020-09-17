@@ -1,4 +1,0 @@
-#!/bin/bash
-for filename in *.md; do
-    cp "$filename" "$filename.o"
-done

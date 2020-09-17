@@ -1,5 +1,0 @@
-#!/bin/bash
-for filename in *.md; do
-    cp "$filename" "$filename.o"
-    cat menu-header "$filename.o" > "$filename"
-done

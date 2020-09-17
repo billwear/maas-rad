@@ -1,9 +1,0 @@
-Usage: dcstat [OPTIONS] COMMAND [ARGS]...
-
-  update discourse statistics
-
-Options:
-  --help  Show this message and exit.
-
-Commands:
-  pull  pull stats from discourse for 'Users'...

@@ -1,3 +1,10 @@
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/maas-documentation-snap-2-7-cli/2838) ~ [UI](/t/maas-documentation-snap-2-7-ui/2839)|[CLI](/t/maas-documentation-snap-2-8-cli/2840) ~ [UI](/t/maas-documentation/25)|[CLI](/t/maas-documentation-snap-2-9-cli/2842) ~ [UI](/t/maas-documentation-snap-2-9-ui/2843)|
+|Packages|**CLI** ~ [UI](/t/maas-documentation-deb-2-7-ui/2845)|[CLI](/t/maas-documentation-deb-2-8-cli/2846) ~ [UI](/t/maas-documentation-deb-2-8-ui/2847)|[CLI](/t/maas-documentation-deb-2-9-cli/2848) ~ [UI](/t/maas-documentation-deb-2-9-ui/2849)|
+deb-2-7-cli -->
+
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
@@ -11,13 +18,6 @@ snap-2-7-cli -->
 |Snap|[CLI](/t/maas-documentation-snap-2-7-cli/2838) ~ **UI**|[CLI](/t/maas-documentation-snap-2-8-cli/2840) ~ [UI](/t/maas-documentation/25)|[CLI](/t/maas-documentation-snap-2-9-cli/2842) ~ [UI](/t/maas-documentation-snap-2-9-ui/2843)|
 |Packages|[CLI](/t/maas-documentation-deb-2-7-cli/2844) ~ [UI](/t/maas-documentation-deb-2-7-ui/2845)|[CLI](/t/maas-documentation-deb-2-8-cli/2846) ~ [UI](/t/maas-documentation-deb-2-8-ui/2847)|[CLI](/t/maas-documentation-deb-2-9-cli/2848) ~ [UI](/t/maas-documentation-deb-2-9-ui/2849)|
 snap-2-7-ui -->
-
-<!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](maas-documentation-snap-2-7-cli/2838) ~ [UI](/t/maas-documentation-snap-2-7-ui/2839) |[CLI](/t/maas-documentation-snap-2-8-cli/2840) ~ [UI](/t/maas-documentation/25) |[CLI](/t/maas-documentation-snap-2-9-cli/2842) ~ [UI](/t/maas-documentation-snap-2-9-ui/2843)|
-|Packages|**CLI** ~  [UI](/t/maas-documentation-deb-2-7-ui/2845)|[CLI](/t/maas-documentation-deb-2-8-cli/2846) ~ [UI](/t/maas-documentation-deb-2-8-ui/2847)|[CLI](/t/maas-documentation-deb-2-9-cli/2848) ~ [UI](/t/maas-documentation-deb-2-9-ui/2849)|
-deb-2-8-cli -->
 
 <!-- deb-2-7-ui
 || 2.7 | 2.8 | 2.9|
@@ -178,16 +178,81 @@ snap-2-8-cli -->
 * [Can I just install it and try it for myself?](/t/explore-maas-snap-2-9-cli/2638)
 snap-2-9-cli -->
 
-<!-- deb-2-7-ui deb-2-8-ui deb-2-9-ui snap-2-7-ui snap-2-8-ui snap-2-9-ui
+<!-- deb-2-7-ui
 <a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a>
 
-*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre.*
- deb-2-7-ui deb-2-8-ui deb-2-9-ui snap-2-7-ui snap-2-8-ui snap-2-9-ui -->
+*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas-deb-2-7-ui/2653), our example datacentre.*
+ deb-2-7-ui -->
+
+<!-- deb-2-8-ui
+<a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a>
+
+*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas-deb-2-8-ui/2655), our example datacentre.*
+ deb-2-8-ui -->
+
+<!-- deb-2-9-ui
+<a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a>
+
+*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas-deb-2-9-ui/2657), our example datacentre.*
+ deb-2-9-ui -->
+
+<!-- snap-2-7-ui
+<a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a>
+
+*Part of the machine list from [Metaphorical General Hospital](/t/about-maas-snap-2-7-ui/2263#heading--how-maas-works), our example datacentre.*
+ snap-2-7-ui -->
+
+<!-- snap-2-8-ui 
+<a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a>
+
+*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas-snap-2-8-ui/2649), our example datacentre.*
+ snap-2-8-ui -->
+
+<!-- snap-2-9-ui
+<a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a>
+
+*Part of the machine list from [Metaphorical General Hospital](/t/about-maas-snap-2-9-ui/2267#heading--how-maas-works), our example datacentre.*
+ snap-2-9-ui -->
+
+<!-- deb-2-7-cli 
+<a href="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg">
+</a>
+
+*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas-deb-2-7-cli/2652), our example datacentre, generated with the [basic machine list](/t/the-cli-cookbook/2218#heading--basic-machine-list) recipe in our [CLI cookbook](/t/the-cli-cookbook/2218).*
+ deb-2-7-cli -->
+
+<!-- deb-2-8-cli
+<a href="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg">
+</a>
+
+*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas-deb-2-8-cli/2654), our example datacentre, generated with the [basic machine list](/t/the-cli-cookbook/2218#heading--basic-machine-list) recipe in our [CLI cookbook](/t/the-cli-cookbook/2218).*
+ deb-2-8-cli -->
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg">
 </a>
 
-*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre, generated with the [lsmm](/t/the-cli-cookbook/2218#heading--basic-machine-list) recipe in our [CLI cookbook](/t/the-cli-cookbook/2218).*
+*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas-deb-2-9-cli/2656), our example datacentre, generated with the [basic machine list](/t/the-cli-cookbook/2218#heading--basic-machine-list) recipe in our [CLI cookbook](/t/the-cli-cookbook/2218).*
+
+<!-- snap-2-7-cli
+<a href="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg">
+</a>
+
+*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas-snap-2-7-cli/2646), our example datacentre, generated with the [basic machine list](/t/the-cli-cookbook/2218#heading--basic-machine-list) recipe in our [CLI cookbook](/t/the-cli-cookbook/2218).*
+ snap-2-7-cli -->
+
+<!-- snap-2-8-cli 
+<a href="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg">
+</a>
+
+*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas-snap-2-8-cli/2648), our example datacentre, generated with the [basic-machine-list](/t/the-cli-cookbook/2218#heading--basic-machine-list) recipe in our [CLI cookbook](/t/the-cli-cookbook/2218).*
+ snap-2-8-cli -->
+
+<!-- snap-2-9-cli
+<a href="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg">
+</a>
+
+*Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas-snap-2-9-cli/2650), our example datacentre, generated with the [basic machine list](/t/the-cli-cookbook/2218#heading--basic-machine-list) recipe in our [CLI cookbook](/t/the-cli-cookbook/2218).*
+ snap-2-9-cli -->
 
 ---
 

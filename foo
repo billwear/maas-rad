@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+import glob, sys
+
+# run through all the master file names
+for name in glob.glob('*.md'):
+    basename = name.split(".")[0])
+
+    # pull in each rad filename, based on master filename
+    for target in glob.glob('originals/'+basename+'*'):
+        radname.append(target.split("/")[1])
+    
+# print check
+print(len(radname))
+        
+

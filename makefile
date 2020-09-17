@@ -22,18 +22,18 @@ TARGET_DEPS += originals/subnet-management-snap-2-7-ui-3115.md
 TARGET_DEPS += originals/subnet-management-deb-2-7-ui-3121.md
 TARGET_DEPS += originals/subnet-management-snap-2-9-cli-3118.md
 TARGET_DEPS += originals/subnet-management-snap-2-7-cli-3114.md
-TARGET_DEPS += originals/introduction-to-vm-hosting-snap-2-9-ui-2747.md
-TARGET_DEPS += originals/introduction-to-vm-hosting-deb-2-8-ui-2751.md
-TARGET_DEPS += originals/introduction-to-vm-hosting-deb-2-9-cli-2752.md
-TARGET_DEPS += originals/introduction-to-vm-hosting-snap-2-8-cli-2744.md
-TARGET_DEPS += originals/introduction-to-vm-hosting-deb-2-9-ui-2753.md
-TARGET_DEPS += originals/introduction-to-vm-hosting-deb-2-8-cli-2750.md
-TARGET_DEPS += originals/introduction-to-vm-hosting-snap-2-9-cli-2746.md
-TARGET_DEPS += originals/introduction-to-vm-hosting-deb-2-7-cli-2748.md
-TARGET_DEPS += originals/introduction-to-vm-hosting-snap-2-7-cli-2742.md
-TARGET_DEPS += originals/introduction-to-vm-hosting-snap-2-8-ui-2745.md
-TARGET_DEPS += originals/introduction-to-vm-hosting-deb-2-7-ui-2749.md
-TARGET_DEPS += originals/introduction-to-vm-hosting-snap-2-7-ui-2743.md
+TARGET_DEPS += originals/vm-hosting-snap-2-9-ui-2747.md
+TARGET_DEPS += originals/vm-hosting-deb-2-8-ui-2751.md
+TARGET_DEPS += originals/vm-hosting-deb-2-9-cli-2752.md
+TARGET_DEPS += originals/vm-hosting-snap-2-8-cli-2744.md
+TARGET_DEPS += originals/vm-hosting-deb-2-9-ui-2753.md
+TARGET_DEPS += originals/vm-hosting-deb-2-8-cli-2750.md
+TARGET_DEPS += originals/vm-hosting-snap-2-9-cli-2746.md
+TARGET_DEPS += originals/vm-hosting-deb-2-7-cli-2748.md
+TARGET_DEPS += originals/vm-hosting-snap-2-7-cli-2742.md
+TARGET_DEPS += originals/vm-hosting-snap-2-8-ui-2745.md
+TARGET_DEPS += originals/vm-hosting-deb-2-7-ui-2749.md
+TARGET_DEPS += originals/vm-hosting-snap-2-7-ui-2743.md
 TARGET_DEPS += originals/partitions-snap-2-8-ui-2985.md
 TARGET_DEPS += originals/partitions-deb-2-9-ui-2993.md
 TARGET_DEPS += originals/partitions-deb-2-9-cli-2992.md
@@ -130,18 +130,18 @@ TARGET_DEPS += originals/audit-event-logs-snap-2-8-cli-2312.md
 TARGET_DEPS += originals/audit-event-logs-snap-2-8-ui-2313.md
 TARGET_DEPS += originals/audit-event-logs-snap-2-9-cli-2314.md
 TARGET_DEPS += originals/audit-event-logs-snap-2-9-ui-2315.md
-TARGET_DEPS += originals/introduction-to-controllers-deb-2-8-ui-2727.md
-TARGET_DEPS += originals/introduction-to-controllers-snap-2-8-ui-2721.md
-TARGET_DEPS += originals/introduction-to-controllers-deb-2-9-cli-2728.md
-TARGET_DEPS += originals/introduction-to-controllers-deb-2-9-ui-2729.md
-TARGET_DEPS += originals/introduction-to-controllers-snap-2-9-cli-2722.md
-TARGET_DEPS += originals/introduction-to-controllers-snap-2-7-cli-2718.md
-TARGET_DEPS += originals/introduction-to-controllers-snap-2-9-ui-2723.md
-TARGET_DEPS += originals/introduction-to-controllers-snap-2-7-ui-2719.md
-TARGET_DEPS += originals/introduction-to-controllers-deb-2-7-cli-2724.md
-TARGET_DEPS += originals/introduction-to-controllers-deb-2-7-ui-2725.md
-TARGET_DEPS += originals/introduction-to-controllers-snap-2-8-cli-2720.md
-TARGET_DEPS += originals/introduction-to-controllers-deb-2-8-cli-2726.md
+TARGET_DEPS += originals/controllers-deb-2-8-ui-2727.md
+TARGET_DEPS += originals/controllers-snap-2-8-ui-2721.md
+TARGET_DEPS += originals/controllers-deb-2-9-cli-2728.md
+TARGET_DEPS += originals/controllers-deb-2-9-ui-2729.md
+TARGET_DEPS += originals/controllers-snap-2-9-cli-2722.md
+TARGET_DEPS += originals/controllers-snap-2-7-cli-2718.md
+TARGET_DEPS += originals/controllers-snap-2-9-ui-2723.md
+TARGET_DEPS += originals/controllers-snap-2-7-ui-2719.md
+TARGET_DEPS += originals/controllers-deb-2-7-cli-2724.md
+TARGET_DEPS += originals/controllers-deb-2-7-ui-2725.md
+TARGET_DEPS += originals/controllers-snap-2-8-cli-2720.md
+TARGET_DEPS += originals/controllers-deb-2-8-cli-2726.md
 TARGET_DEPS += originals/adding-a-vm-host-deb-2-9-ui-2297.md
 TARGET_DEPS += originals/adding-a-vm-host-snap-2-9-cli-2290.md
 TARGET_DEPS += originals/adding-a-vm-host-deb-2-9-cli-2296.md
@@ -466,18 +466,18 @@ TARGET_DEPS += originals/zone-examples-deb-2-8-ui-3279.md
 TARGET_DEPS += originals/zone-examples-snap-2-7-ui-3271.md
 TARGET_DEPS += originals/zone-examples-snap-2-9-ui-3275.md
 TARGET_DEPS += originals/zone-examples-deb-2-7-cli-3276.md
-TARGET_DEPS += originals/introduction-to-machines-snap-2-8-cli-2732.md
-TARGET_DEPS += originals/introduction-to-machines-deb-2-8-ui-2739.md
-TARGET_DEPS += originals/introduction-to-machines-deb-2-9-cli-2740.md
-TARGET_DEPS += originals/introduction-to-machines-deb-2-9-ui-2741.md
-TARGET_DEPS += originals/introduction-to-machines-snap-2-7-cli-2730.md
-TARGET_DEPS += originals/introduction-to-machines-snap-2-8-ui-2733.md
-TARGET_DEPS += originals/introduction-to-machines-snap-2-7-ui-2731.md
-TARGET_DEPS += originals/introduction-to-machines-deb-2-7-ui-2737.md
-TARGET_DEPS += originals/introduction-to-machines-deb-2-8-cli-2738.md
-TARGET_DEPS += originals/introduction-to-machines-snap-2-9-ui-2735.md
-TARGET_DEPS += originals/introduction-to-machines-snap-2-9-cli-2734.md
-TARGET_DEPS += originals/introduction-to-machines-deb-2-7-cli-2736.md
+TARGET_DEPS += originals/machines-snap-2-8-cli-2732.md
+TARGET_DEPS += originals/machines-deb-2-8-ui-2739.md
+TARGET_DEPS += originals/machines-deb-2-9-cli-2740.md
+TARGET_DEPS += originals/machines-deb-2-9-ui-2741.md
+TARGET_DEPS += originals/machines-snap-2-7-cli-2730.md
+TARGET_DEPS += originals/machines-snap-2-8-ui-2733.md
+TARGET_DEPS += originals/machines-snap-2-7-ui-2731.md
+TARGET_DEPS += originals/machines-deb-2-7-ui-2737.md
+TARGET_DEPS += originals/machines-deb-2-8-cli-2738.md
+TARGET_DEPS += originals/machines-snap-2-9-ui-2735.md
+TARGET_DEPS += originals/machines-snap-2-9-cli-2734.md
+TARGET_DEPS += originals/machines-deb-2-7-cli-2736.md
 TARGET_DEPS += originals/test-logs-snap-2-8-ui-3129.md
 TARGET_DEPS += originals/test-logs-deb-2-7-cli-3132.md
 TARGET_DEPS += originals/test-logs-snap-2-8-cli-3128.md
@@ -1150,68 +1150,68 @@ originals/subnet-management-deb-2-8-cli-3122.md: subnet-management.md
 	rm subnet-management-snap-2-7-cli-3114.md
 	chmod 444 originals/*
  
-originals/introduction-to-vm-hosting-snap-2-9-ui-2747.md: introduction-to-vm-hosting.md
+originals/vm-hosting-snap-2-9-ui-2747.md: vm-hosting.md
 	chmod 644 originals/*
-	cp introduction-to-vm-hosting.md introduction-to-vm-hosting-snap-2-9-ui-2747.md
-	xpub push discourse -t snap-2-9-ui introduction-to-vm-hosting-snap-2-9-ui-2747.md
+	cp vm-hosting.md vm-hosting-snap-2-9-ui-2747.md
+	xpub push discourse -t snap-2-9-ui vm-hosting-snap-2-9-ui-2747.md
 	xpub pull discourse 2747 2747
-	cp -p introduction-to-vm-hosting-snap-2-9-ui-2747.md originals
-	rm introduction-to-vm-hosting-snap-2-9-ui-2747.md
-	cp introduction-to-vm-hosting.md introduction-to-vm-hosting-deb-2-8-ui-2751.md
-	xpub push discourse -t deb-2-8-ui introduction-to-vm-hosting-deb-2-8-ui-2751.md
+	cp -p vm-hosting-snap-2-9-ui-2747.md originals
+	rm vm-hosting-snap-2-9-ui-2747.md
+	cp vm-hosting.md vm-hosting-deb-2-8-ui-2751.md
+	xpub push discourse -t deb-2-8-ui vm-hosting-deb-2-8-ui-2751.md
 	xpub pull discourse 2751 2751
-	cp -p introduction-to-vm-hosting-deb-2-8-ui-2751.md originals
-	rm introduction-to-vm-hosting-deb-2-8-ui-2751.md
-	cp introduction-to-vm-hosting.md introduction-to-vm-hosting-deb-2-9-cli-2752.md
-	xpub push discourse -t deb-2-9-cli introduction-to-vm-hosting-deb-2-9-cli-2752.md
+	cp -p vm-hosting-deb-2-8-ui-2751.md originals
+	rm vm-hosting-deb-2-8-ui-2751.md
+	cp vm-hosting.md vm-hosting-deb-2-9-cli-2752.md
+	xpub push discourse -t deb-2-9-cli vm-hosting-deb-2-9-cli-2752.md
 	xpub pull discourse 2752 2752
-	cp -p introduction-to-vm-hosting-deb-2-9-cli-2752.md originals
-	rm introduction-to-vm-hosting-deb-2-9-cli-2752.md
-	cp introduction-to-vm-hosting.md introduction-to-vm-hosting-snap-2-8-cli-2744.md
-	xpub push discourse -t snap-2-8-cli introduction-to-vm-hosting-snap-2-8-cli-2744.md
+	cp -p vm-hosting-deb-2-9-cli-2752.md originals
+	rm vm-hosting-deb-2-9-cli-2752.md
+	cp vm-hosting.md vm-hosting-snap-2-8-cli-2744.md
+	xpub push discourse -t snap-2-8-cli vm-hosting-snap-2-8-cli-2744.md
 	xpub pull discourse 2744 2744
-	cp -p introduction-to-vm-hosting-snap-2-8-cli-2744.md originals
-	rm introduction-to-vm-hosting-snap-2-8-cli-2744.md
-	cp introduction-to-vm-hosting.md introduction-to-vm-hosting-deb-2-9-ui-2753.md
-	xpub push discourse -t deb-2-9-ui introduction-to-vm-hosting-deb-2-9-ui-2753.md
+	cp -p vm-hosting-snap-2-8-cli-2744.md originals
+	rm vm-hosting-snap-2-8-cli-2744.md
+	cp vm-hosting.md vm-hosting-deb-2-9-ui-2753.md
+	xpub push discourse -t deb-2-9-ui vm-hosting-deb-2-9-ui-2753.md
 	xpub pull discourse 2753 2753
-	cp -p introduction-to-vm-hosting-deb-2-9-ui-2753.md originals
-	rm introduction-to-vm-hosting-deb-2-9-ui-2753.md
-	cp introduction-to-vm-hosting.md introduction-to-vm-hosting-deb-2-8-cli-2750.md
-	xpub push discourse -t deb-2-8-cli introduction-to-vm-hosting-deb-2-8-cli-2750.md
+	cp -p vm-hosting-deb-2-9-ui-2753.md originals
+	rm vm-hosting-deb-2-9-ui-2753.md
+	cp vm-hosting.md vm-hosting-deb-2-8-cli-2750.md
+	xpub push discourse -t deb-2-8-cli vm-hosting-deb-2-8-cli-2750.md
 	xpub pull discourse 2750 2750
-	cp -p introduction-to-vm-hosting-deb-2-8-cli-2750.md originals
-	rm introduction-to-vm-hosting-deb-2-8-cli-2750.md
-	cp introduction-to-vm-hosting.md introduction-to-vm-hosting-snap-2-9-cli-2746.md
-	xpub push discourse -t snap-2-9-cli introduction-to-vm-hosting-snap-2-9-cli-2746.md
+	cp -p vm-hosting-deb-2-8-cli-2750.md originals
+	rm vm-hosting-deb-2-8-cli-2750.md
+	cp vm-hosting.md vm-hosting-snap-2-9-cli-2746.md
+	xpub push discourse -t snap-2-9-cli vm-hosting-snap-2-9-cli-2746.md
 	xpub pull discourse 2746 2746
-	cp -p introduction-to-vm-hosting-snap-2-9-cli-2746.md originals
-	rm introduction-to-vm-hosting-snap-2-9-cli-2746.md
-	cp introduction-to-vm-hosting.md introduction-to-vm-hosting-deb-2-7-cli-2748.md
-	xpub push discourse -t deb-2-7-cli introduction-to-vm-hosting-deb-2-7-cli-2748.md
+	cp -p vm-hosting-snap-2-9-cli-2746.md originals
+	rm vm-hosting-snap-2-9-cli-2746.md
+	cp vm-hosting.md vm-hosting-deb-2-7-cli-2748.md
+	xpub push discourse -t deb-2-7-cli vm-hosting-deb-2-7-cli-2748.md
 	xpub pull discourse 2748 2748
-	cp -p introduction-to-vm-hosting-deb-2-7-cli-2748.md originals
-	rm introduction-to-vm-hosting-deb-2-7-cli-2748.md
-	cp introduction-to-vm-hosting.md introduction-to-vm-hosting-snap-2-7-cli-2742.md
-	xpub push discourse -t snap-2-7-cli introduction-to-vm-hosting-snap-2-7-cli-2742.md
+	cp -p vm-hosting-deb-2-7-cli-2748.md originals
+	rm vm-hosting-deb-2-7-cli-2748.md
+	cp vm-hosting.md vm-hosting-snap-2-7-cli-2742.md
+	xpub push discourse -t snap-2-7-cli vm-hosting-snap-2-7-cli-2742.md
 	xpub pull discourse 2742 2742
-	cp -p introduction-to-vm-hosting-snap-2-7-cli-2742.md originals
-	rm introduction-to-vm-hosting-snap-2-7-cli-2742.md
-	cp introduction-to-vm-hosting.md introduction-to-vm-hosting-snap-2-8-ui-2745.md
-	xpub push discourse -t snap-2-8-ui introduction-to-vm-hosting-snap-2-8-ui-2745.md
+	cp -p vm-hosting-snap-2-7-cli-2742.md originals
+	rm vm-hosting-snap-2-7-cli-2742.md
+	cp vm-hosting.md vm-hosting-snap-2-8-ui-2745.md
+	xpub push discourse -t snap-2-8-ui vm-hosting-snap-2-8-ui-2745.md
 	xpub pull discourse 2745 2745
-	cp -p introduction-to-vm-hosting-snap-2-8-ui-2745.md originals
-	rm introduction-to-vm-hosting-snap-2-8-ui-2745.md
-	cp introduction-to-vm-hosting.md introduction-to-vm-hosting-deb-2-7-ui-2749.md
-	xpub push discourse -t deb-2-7-ui introduction-to-vm-hosting-deb-2-7-ui-2749.md
+	cp -p vm-hosting-snap-2-8-ui-2745.md originals
+	rm vm-hosting-snap-2-8-ui-2745.md
+	cp vm-hosting.md vm-hosting-deb-2-7-ui-2749.md
+	xpub push discourse -t deb-2-7-ui vm-hosting-deb-2-7-ui-2749.md
 	xpub pull discourse 2749 2749
-	cp -p introduction-to-vm-hosting-deb-2-7-ui-2749.md originals
-	rm introduction-to-vm-hosting-deb-2-7-ui-2749.md
-	cp introduction-to-vm-hosting.md introduction-to-vm-hosting-snap-2-7-ui-2743.md
-	xpub push discourse -t snap-2-7-ui introduction-to-vm-hosting-snap-2-7-ui-2743.md
+	cp -p vm-hosting-deb-2-7-ui-2749.md originals
+	rm vm-hosting-deb-2-7-ui-2749.md
+	cp vm-hosting.md vm-hosting-snap-2-7-ui-2743.md
+	xpub push discourse -t snap-2-7-ui vm-hosting-snap-2-7-ui-2743.md
 	xpub pull discourse 2743 2743
-	cp -p introduction-to-vm-hosting-snap-2-7-ui-2743.md originals
-	rm introduction-to-vm-hosting-snap-2-7-ui-2743.md
+	cp -p vm-hosting-snap-2-7-ui-2743.md originals
+	rm vm-hosting-snap-2-7-ui-2743.md
 	chmod 444 originals/*
  
 originals/partitions-snap-2-8-ui-2985.md: partitions.md
@@ -1726,68 +1726,68 @@ originals/audit-event-logs-snap-2-7-cli-2310.md: audit-event-logs.md
 	rm audit-event-logs-snap-2-9-ui-2315.md
 	chmod 444 originals/*
  
-originals/introduction-to-controllers-deb-2-8-ui-2727.md: introduction-to-controllers.md
+originals/controllers-deb-2-8-ui-2727.md: controllers.md
 	chmod 644 originals/*
-	cp introduction-to-controllers.md introduction-to-controllers-deb-2-8-ui-2727.md
-	xpub push discourse -t deb-2-8-ui introduction-to-controllers-deb-2-8-ui-2727.md
+	cp controllers.md controllers-deb-2-8-ui-2727.md
+	xpub push discourse -t deb-2-8-ui controllers-deb-2-8-ui-2727.md
 	xpub pull discourse 2727 2727
-	cp -p introduction-to-controllers-deb-2-8-ui-2727.md originals
-	rm introduction-to-controllers-deb-2-8-ui-2727.md
-	cp introduction-to-controllers.md introduction-to-controllers-snap-2-8-ui-2721.md
-	xpub push discourse -t snap-2-8-ui introduction-to-controllers-snap-2-8-ui-2721.md
+	cp -p controllers-deb-2-8-ui-2727.md originals
+	rm controllers-deb-2-8-ui-2727.md
+	cp controllers.md controllers-snap-2-8-ui-2721.md
+	xpub push discourse -t snap-2-8-ui controllers-snap-2-8-ui-2721.md
 	xpub pull discourse 2721 2721
-	cp -p introduction-to-controllers-snap-2-8-ui-2721.md originals
-	rm introduction-to-controllers-snap-2-8-ui-2721.md
-	cp introduction-to-controllers.md introduction-to-controllers-deb-2-9-cli-2728.md
-	xpub push discourse -t deb-2-9-cli introduction-to-controllers-deb-2-9-cli-2728.md
+	cp -p controllers-snap-2-8-ui-2721.md originals
+	rm controllers-snap-2-8-ui-2721.md
+	cp controllers.md controllers-deb-2-9-cli-2728.md
+	xpub push discourse -t deb-2-9-cli controllers-deb-2-9-cli-2728.md
 	xpub pull discourse 2728 2728
-	cp -p introduction-to-controllers-deb-2-9-cli-2728.md originals
-	rm introduction-to-controllers-deb-2-9-cli-2728.md
-	cp introduction-to-controllers.md introduction-to-controllers-deb-2-9-ui-2729.md
-	xpub push discourse -t deb-2-9-ui introduction-to-controllers-deb-2-9-ui-2729.md
+	cp -p controllers-deb-2-9-cli-2728.md originals
+	rm controllers-deb-2-9-cli-2728.md
+	cp controllers.md controllers-deb-2-9-ui-2729.md
+	xpub push discourse -t deb-2-9-ui controllers-deb-2-9-ui-2729.md
 	xpub pull discourse 2729 2729
-	cp -p introduction-to-controllers-deb-2-9-ui-2729.md originals
-	rm introduction-to-controllers-deb-2-9-ui-2729.md
-	cp introduction-to-controllers.md introduction-to-controllers-snap-2-9-cli-2722.md
-	xpub push discourse -t snap-2-9-cli introduction-to-controllers-snap-2-9-cli-2722.md
+	cp -p controllers-deb-2-9-ui-2729.md originals
+	rm controllers-deb-2-9-ui-2729.md
+	cp controllers.md controllers-snap-2-9-cli-2722.md
+	xpub push discourse -t snap-2-9-cli controllers-snap-2-9-cli-2722.md
 	xpub pull discourse 2722 2722
-	cp -p introduction-to-controllers-snap-2-9-cli-2722.md originals
-	rm introduction-to-controllers-snap-2-9-cli-2722.md
-	cp introduction-to-controllers.md introduction-to-controllers-snap-2-7-cli-2718.md
-	xpub push discourse -t snap-2-7-cli introduction-to-controllers-snap-2-7-cli-2718.md
+	cp -p controllers-snap-2-9-cli-2722.md originals
+	rm controllers-snap-2-9-cli-2722.md
+	cp controllers.md controllers-snap-2-7-cli-2718.md
+	xpub push discourse -t snap-2-7-cli controllers-snap-2-7-cli-2718.md
 	xpub pull discourse 2718 2718
-	cp -p introduction-to-controllers-snap-2-7-cli-2718.md originals
-	rm introduction-to-controllers-snap-2-7-cli-2718.md
-	cp introduction-to-controllers.md introduction-to-controllers-snap-2-9-ui-2723.md
-	xpub push discourse -t snap-2-9-ui introduction-to-controllers-snap-2-9-ui-2723.md
+	cp -p controllers-snap-2-7-cli-2718.md originals
+	rm controllers-snap-2-7-cli-2718.md
+	cp controllers.md controllers-snap-2-9-ui-2723.md
+	xpub push discourse -t snap-2-9-ui controllers-snap-2-9-ui-2723.md
 	xpub pull discourse 2723 2723
-	cp -p introduction-to-controllers-snap-2-9-ui-2723.md originals
-	rm introduction-to-controllers-snap-2-9-ui-2723.md
-	cp introduction-to-controllers.md introduction-to-controllers-snap-2-7-ui-2719.md
-	xpub push discourse -t snap-2-7-ui introduction-to-controllers-snap-2-7-ui-2719.md
+	cp -p controllers-snap-2-9-ui-2723.md originals
+	rm controllers-snap-2-9-ui-2723.md
+	cp controllers.md controllers-snap-2-7-ui-2719.md
+	xpub push discourse -t snap-2-7-ui controllers-snap-2-7-ui-2719.md
 	xpub pull discourse 2719 2719
-	cp -p introduction-to-controllers-snap-2-7-ui-2719.md originals
-	rm introduction-to-controllers-snap-2-7-ui-2719.md
-	cp introduction-to-controllers.md introduction-to-controllers-deb-2-7-cli-2724.md
-	xpub push discourse -t deb-2-7-cli introduction-to-controllers-deb-2-7-cli-2724.md
+	cp -p controllers-snap-2-7-ui-2719.md originals
+	rm controllers-snap-2-7-ui-2719.md
+	cp controllers.md controllers-deb-2-7-cli-2724.md
+	xpub push discourse -t deb-2-7-cli controllers-deb-2-7-cli-2724.md
 	xpub pull discourse 2724 2724
-	cp -p introduction-to-controllers-deb-2-7-cli-2724.md originals
-	rm introduction-to-controllers-deb-2-7-cli-2724.md
-	cp introduction-to-controllers.md introduction-to-controllers-deb-2-7-ui-2725.md
-	xpub push discourse -t deb-2-7-ui introduction-to-controllers-deb-2-7-ui-2725.md
+	cp -p controllers-deb-2-7-cli-2724.md originals
+	rm controllers-deb-2-7-cli-2724.md
+	cp controllers.md controllers-deb-2-7-ui-2725.md
+	xpub push discourse -t deb-2-7-ui controllers-deb-2-7-ui-2725.md
 	xpub pull discourse 2725 2725
-	cp -p introduction-to-controllers-deb-2-7-ui-2725.md originals
-	rm introduction-to-controllers-deb-2-7-ui-2725.md
-	cp introduction-to-controllers.md introduction-to-controllers-snap-2-8-cli-2720.md
-	xpub push discourse -t snap-2-8-cli introduction-to-controllers-snap-2-8-cli-2720.md
+	cp -p controllers-deb-2-7-ui-2725.md originals
+	rm controllers-deb-2-7-ui-2725.md
+	cp controllers.md controllers-snap-2-8-cli-2720.md
+	xpub push discourse -t snap-2-8-cli controllers-snap-2-8-cli-2720.md
 	xpub pull discourse 2720 2720
-	cp -p introduction-to-controllers-snap-2-8-cli-2720.md originals
-	rm introduction-to-controllers-snap-2-8-cli-2720.md
-	cp introduction-to-controllers.md introduction-to-controllers-deb-2-8-cli-2726.md
-	xpub push discourse -t deb-2-8-cli introduction-to-controllers-deb-2-8-cli-2726.md
+	cp -p controllers-snap-2-8-cli-2720.md originals
+	rm controllers-snap-2-8-cli-2720.md
+	cp controllers.md controllers-deb-2-8-cli-2726.md
+	xpub push discourse -t deb-2-8-cli controllers-deb-2-8-cli-2726.md
 	xpub pull discourse 2726 2726
-	cp -p introduction-to-controllers-deb-2-8-cli-2726.md originals
-	rm introduction-to-controllers-deb-2-8-cli-2726.md
+	cp -p controllers-deb-2-8-cli-2726.md originals
+	rm controllers-deb-2-8-cli-2726.md
 	chmod 444 originals/*
  
 originals/adding-a-vm-host-deb-2-9-ui-2297.md: adding-a-vm-host.md
@@ -3522,68 +3522,68 @@ originals/zone-examples-snap-2-7-cli-3270.md: zone-examples.md
 	rm zone-examples-deb-2-7-cli-3276.md
 	chmod 444 originals/*
  
-originals/introduction-to-machines-snap-2-8-cli-2732.md: introduction-to-machines.md
+originals/machines-snap-2-8-cli-2732.md: machines.md
 	chmod 644 originals/*
-	cp introduction-to-machines.md introduction-to-machines-snap-2-8-cli-2732.md
-	xpub push discourse -t snap-2-8-cli introduction-to-machines-snap-2-8-cli-2732.md
+	cp machines.md machines-snap-2-8-cli-2732.md
+	xpub push discourse -t snap-2-8-cli machines-snap-2-8-cli-2732.md
 	xpub pull discourse 2732 2732
-	cp -p introduction-to-machines-snap-2-8-cli-2732.md originals
-	rm introduction-to-machines-snap-2-8-cli-2732.md
-	cp introduction-to-machines.md introduction-to-machines-deb-2-8-ui-2739.md
-	xpub push discourse -t deb-2-8-ui introduction-to-machines-deb-2-8-ui-2739.md
+	cp -p machines-snap-2-8-cli-2732.md originals
+	rm machines-snap-2-8-cli-2732.md
+	cp machines.md machines-deb-2-8-ui-2739.md
+	xpub push discourse -t deb-2-8-ui machines-deb-2-8-ui-2739.md
 	xpub pull discourse 2739 2739
-	cp -p introduction-to-machines-deb-2-8-ui-2739.md originals
-	rm introduction-to-machines-deb-2-8-ui-2739.md
-	cp introduction-to-machines.md introduction-to-machines-deb-2-9-cli-2740.md
-	xpub push discourse -t deb-2-9-cli introduction-to-machines-deb-2-9-cli-2740.md
+	cp -p machines-deb-2-8-ui-2739.md originals
+	rm machines-deb-2-8-ui-2739.md
+	cp machines.md machines-deb-2-9-cli-2740.md
+	xpub push discourse -t deb-2-9-cli machines-deb-2-9-cli-2740.md
 	xpub pull discourse 2740 2740
-	cp -p introduction-to-machines-deb-2-9-cli-2740.md originals
-	rm introduction-to-machines-deb-2-9-cli-2740.md
-	cp introduction-to-machines.md introduction-to-machines-deb-2-9-ui-2741.md
-	xpub push discourse -t deb-2-9-ui introduction-to-machines-deb-2-9-ui-2741.md
+	cp -p machines-deb-2-9-cli-2740.md originals
+	rm machines-deb-2-9-cli-2740.md
+	cp machines.md machines-deb-2-9-ui-2741.md
+	xpub push discourse -t deb-2-9-ui machines-deb-2-9-ui-2741.md
 	xpub pull discourse 2741 2741
-	cp -p introduction-to-machines-deb-2-9-ui-2741.md originals
-	rm introduction-to-machines-deb-2-9-ui-2741.md
-	cp introduction-to-machines.md introduction-to-machines-snap-2-7-cli-2730.md
-	xpub push discourse -t snap-2-7-cli introduction-to-machines-snap-2-7-cli-2730.md
+	cp -p machines-deb-2-9-ui-2741.md originals
+	rm machines-deb-2-9-ui-2741.md
+	cp machines.md machines-snap-2-7-cli-2730.md
+	xpub push discourse -t snap-2-7-cli machines-snap-2-7-cli-2730.md
 	xpub pull discourse 2730 2730
-	cp -p introduction-to-machines-snap-2-7-cli-2730.md originals
-	rm introduction-to-machines-snap-2-7-cli-2730.md
-	cp introduction-to-machines.md introduction-to-machines-snap-2-8-ui-2733.md
-	xpub push discourse -t snap-2-8-ui introduction-to-machines-snap-2-8-ui-2733.md
+	cp -p machines-snap-2-7-cli-2730.md originals
+	rm machines-snap-2-7-cli-2730.md
+	cp machines.md machines-snap-2-8-ui-2733.md
+	xpub push discourse -t snap-2-8-ui machines-snap-2-8-ui-2733.md
 	xpub pull discourse 2733 2733
-	cp -p introduction-to-machines-snap-2-8-ui-2733.md originals
-	rm introduction-to-machines-snap-2-8-ui-2733.md
-	cp introduction-to-machines.md introduction-to-machines-snap-2-7-ui-2731.md
-	xpub push discourse -t snap-2-7-ui introduction-to-machines-snap-2-7-ui-2731.md
+	cp -p machines-snap-2-8-ui-2733.md originals
+	rm machines-snap-2-8-ui-2733.md
+	cp machines.md machines-snap-2-7-ui-2731.md
+	xpub push discourse -t snap-2-7-ui machines-snap-2-7-ui-2731.md
 	xpub pull discourse 2731 2731
-	cp -p introduction-to-machines-snap-2-7-ui-2731.md originals
-	rm introduction-to-machines-snap-2-7-ui-2731.md
-	cp introduction-to-machines.md introduction-to-machines-deb-2-7-ui-2737.md
-	xpub push discourse -t deb-2-7-ui introduction-to-machines-deb-2-7-ui-2737.md
+	cp -p machines-snap-2-7-ui-2731.md originals
+	rm machines-snap-2-7-ui-2731.md
+	cp machines.md machines-deb-2-7-ui-2737.md
+	xpub push discourse -t deb-2-7-ui machines-deb-2-7-ui-2737.md
 	xpub pull discourse 2737 2737
-	cp -p introduction-to-machines-deb-2-7-ui-2737.md originals
-	rm introduction-to-machines-deb-2-7-ui-2737.md
-	cp introduction-to-machines.md introduction-to-machines-deb-2-8-cli-2738.md
-	xpub push discourse -t deb-2-8-cli introduction-to-machines-deb-2-8-cli-2738.md
+	cp -p machines-deb-2-7-ui-2737.md originals
+	rm machines-deb-2-7-ui-2737.md
+	cp machines.md machines-deb-2-8-cli-2738.md
+	xpub push discourse -t deb-2-8-cli machines-deb-2-8-cli-2738.md
 	xpub pull discourse 2738 2738
-	cp -p introduction-to-machines-deb-2-8-cli-2738.md originals
-	rm introduction-to-machines-deb-2-8-cli-2738.md
-	cp introduction-to-machines.md introduction-to-machines-snap-2-9-ui-2735.md
-	xpub push discourse -t snap-2-9-ui introduction-to-machines-snap-2-9-ui-2735.md
+	cp -p machines-deb-2-8-cli-2738.md originals
+	rm machines-deb-2-8-cli-2738.md
+	cp machines.md machines-snap-2-9-ui-2735.md
+	xpub push discourse -t snap-2-9-ui machines-snap-2-9-ui-2735.md
 	xpub pull discourse 2735 2735
-	cp -p introduction-to-machines-snap-2-9-ui-2735.md originals
-	rm introduction-to-machines-snap-2-9-ui-2735.md
-	cp introduction-to-machines.md introduction-to-machines-snap-2-9-cli-2734.md
-	xpub push discourse -t snap-2-9-cli introduction-to-machines-snap-2-9-cli-2734.md
+	cp -p machines-snap-2-9-ui-2735.md originals
+	rm machines-snap-2-9-ui-2735.md
+	cp machines.md machines-snap-2-9-cli-2734.md
+	xpub push discourse -t snap-2-9-cli machines-snap-2-9-cli-2734.md
 	xpub pull discourse 2734 2734
-	cp -p introduction-to-machines-snap-2-9-cli-2734.md originals
-	rm introduction-to-machines-snap-2-9-cli-2734.md
-	cp introduction-to-machines.md introduction-to-machines-deb-2-7-cli-2736.md
-	xpub push discourse -t deb-2-7-cli introduction-to-machines-deb-2-7-cli-2736.md
+	cp -p machines-snap-2-9-cli-2734.md originals
+	rm machines-snap-2-9-cli-2734.md
+	cp machines.md machines-deb-2-7-cli-2736.md
+	xpub push discourse -t deb-2-7-cli machines-deb-2-7-cli-2736.md
 	xpub pull discourse 2736 2736
-	cp -p introduction-to-machines-deb-2-7-cli-2736.md originals
-	rm introduction-to-machines-deb-2-7-cli-2736.md
+	cp -p machines-deb-2-7-cli-2736.md originals
+	rm machines-deb-2-7-cli-2736.md
 	chmod 444 originals/*
  
 originals/test-logs-snap-2-8-ui-3129.md: test-logs.md

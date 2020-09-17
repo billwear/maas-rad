@@ -16,13 +16,8 @@ except ImportError:
 import click
 
 
-@click.group(help="Publish and convert files")
+@click.group(help="Publish, convert, and link files")
 def xpub():
-    pass
-
-
-@xpub.group(help="Push files to a directory or repository")
-def push():
     pass
 
 
