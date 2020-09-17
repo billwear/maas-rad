@@ -1,85 +1,85 @@
 <!-- deb-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](controllers-snap-2-7-cli/2718) ~ [UI](controllers-snap-2-7-ui/2719)|[CLI](controllers-snap-2-8-cli/2720) ~ [UI](controllers-snap-2-8-ui/2721)|[CLI](controllers-snap-2-9-cli/2722) ~ [UI](controllers-snap-2-9-ui/2723)|
-|Packages|**CLI** ~ [UI](controllers-deb-2-7-ui/2725)|[CLI](controllers-deb-2-8-cli/2726) ~ [UI](controllers-deb-2-8-ui/2727)|[CLI](controllers-deb-2-9-cli/2728) ~ [UI](controllers-deb-2-9-ui/2729)|
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|**CLI** ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](controllers-snap-2-7-cli/2718) ~ [UI](controllers-snap-2-7-ui/2719)|[CLI](controllers-snap-2-8-cli/2720) ~ [UI](controllers-snap-2-8-ui/2721)|[CLI](controllers-snap-2-9-cli/2722) ~ [UI](controllers-snap-2-9-ui/2723)|
-|Packages|[CLI](controllers-deb-2-7-cli/2724) ~ |**UI**|[CLI](controllers-deb-2-8-cli/2726) ~ [UI](controllers-deb-2-8-ui/2727)|[CLI](controllers-deb-2-9-cli/2728) ~ [UI](controllers-deb-2-9-ui/2729)|
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ |**UI**|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](controllers-snap-2-7-cli/2718) ~ [UI](controllers-snap-2-7-ui/2719)|[CLI](controllers-snap-2-8-cli/2720) ~ [UI](controllers-snap-2-8-ui/2721)|[CLI](controllers-snap-2-9-cli/2722) ~ [UI](controllers-snap-2-9-ui/2723)|
-|Packages|[CLI](controllers-deb-2-7-cli/2724) ~ [UI](controllers-deb-2-7-ui/2725)||**CLI** ~ [UI](controllers-deb-2-8-ui/2727)|[CLI](controllers-deb-2-9-cli/2728) ~ [UI](controllers-deb-2-9-ui/2729)|
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)||**CLI** ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](controllers-snap-2-7-cli/2718) ~ [UI](controllers-snap-2-7-ui/2719)|[CLI](controllers-snap-2-8-cli/2720) ~ [UI](controllers-snap-2-8-ui/2721)|[CLI](controllers-snap-2-9-cli/2722) ~ [UI](controllers-snap-2-9-ui/2723)|
-|Packages|[CLI](controllers-deb-2-7-cli/2724) ~ [UI](controllers-deb-2-7-ui/2725)|[CLI](controllers-deb-2-8-cli/2726) ~ |**UI**|[CLI](controllers-deb-2-9-cli/2728) ~ [UI](controllers-deb-2-9-ui/2729)|
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ |**UI**|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](controllers-snap-2-7-cli/2718) ~ [UI](controllers-snap-2-7-ui/2719)|[CLI](controllers-snap-2-8-cli/2720) ~ [UI](controllers-snap-2-8-ui/2721)|[CLI](controllers-snap-2-9-cli/2722) ~ [UI](controllers-snap-2-9-ui/2723)|
-|Packages|[CLI](controllers-deb-2-7-cli/2724) ~ [UI](controllers-deb-2-7-ui/2725)|[CLI](controllers-deb-2-8-cli/2726) ~ [UI](controllers-deb-2-8-ui/2727)||**CLI** ~ [UI](controllers-deb-2-9-ui/2729)|
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)||**CLI** ~ [UI](/t/controllers-deb-2-9-ui/2729)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](controllers-snap-2-7-cli/2718) ~ [UI](controllers-snap-2-7-ui/2719)|[CLI](controllers-snap-2-8-cli/2720) ~ [UI](controllers-snap-2-8-ui/2721)|[CLI](controllers-snap-2-9-cli/2722) ~ [UI](controllers-snap-2-9-ui/2723)|
-|Packages|[CLI](controllers-deb-2-7-cli/2724) ~ [UI](controllers-deb-2-7-ui/2725)|[CLI](controllers-deb-2-8-cli/2726) ~ [UI](controllers-deb-2-8-ui/2727)|[CLI](controllers-deb-2-9-cli/2728) ~ |**UI**|
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ |**UI**|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|**CLI** ~ [UI](controllers-snap-2-7-ui/2719)|[CLI](controllers-snap-2-8-cli/2720) ~ [UI](controllers-snap-2-8-ui/2721)|[CLI](controllers-snap-2-9-cli/2722) ~ [UI](controllers-snap-2-9-ui/2723)|
-|Packages|[CLI](controllers-deb-2-7-cli/2724) ~ [UI](controllers-deb-2-7-ui/2725)|[CLI](controllers-deb-2-8-cli/2726) ~ [UI](controllers-deb-2-8-ui/2727)|[CLI](controllers-deb-2-9-cli/2728) ~ [UI](controllers-deb-2-9-ui/2729)|
+|Snap|**CLI** ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](controllers-snap-2-7-cli/2718) ~ |**UI**|[CLI](controllers-snap-2-8-cli/2720) ~ [UI](controllers-snap-2-8-ui/2721)|[CLI](controllers-snap-2-9-cli/2722) ~ [UI](controllers-snap-2-9-ui/2723)|
-|Packages|[CLI](controllers-deb-2-7-cli/2724) ~ [UI](controllers-deb-2-7-ui/2725)|[CLI](controllers-deb-2-8-cli/2726) ~ [UI](controllers-deb-2-8-ui/2727)|[CLI](controllers-deb-2-9-cli/2728) ~ [UI](controllers-deb-2-9-ui/2729)|
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ |**UI**|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](controllers-snap-2-7-cli/2718) ~ [UI](controllers-snap-2-7-ui/2719)||**CLI** ~ [UI](controllers-snap-2-8-ui/2721)|[CLI](controllers-snap-2-9-cli/2722) ~ [UI](controllers-snap-2-9-ui/2723)|
-|Packages|[CLI](controllers-deb-2-7-cli/2724) ~ [UI](controllers-deb-2-7-ui/2725)|[CLI](controllers-deb-2-8-cli/2726) ~ [UI](controllers-deb-2-8-ui/2727)|[CLI](controllers-deb-2-9-cli/2728) ~ [UI](controllers-deb-2-9-ui/2729)|
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)||**CLI** ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](controllers-snap-2-7-cli/2718) ~ [UI](controllers-snap-2-7-ui/2719)|[CLI](controllers-snap-2-8-cli/2720) ~ |**UI**|[CLI](controllers-snap-2-9-cli/2722) ~ [UI](controllers-snap-2-9-ui/2723)|
-|Packages|[CLI](controllers-deb-2-7-cli/2724) ~ [UI](controllers-deb-2-7-ui/2725)|[CLI](controllers-deb-2-8-cli/2726) ~ [UI](controllers-deb-2-8-ui/2727)|[CLI](controllers-deb-2-9-cli/2728) ~ [UI](controllers-deb-2-9-ui/2729)|
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ |**UI**|[CLI](/t/controllers-snap-2-9-cli/2722) ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](controllers-snap-2-7-cli/2718) ~ [UI](controllers-snap-2-7-ui/2719)|[CLI](controllers-snap-2-8-cli/2720) ~ [UI](controllers-snap-2-8-ui/2721)||**CLI** ~ [UI](controllers-snap-2-9-ui/2723)|
-|Packages|[CLI](controllers-deb-2-7-cli/2724) ~ [UI](controllers-deb-2-7-ui/2725)|[CLI](controllers-deb-2-8-cli/2726) ~ [UI](controllers-deb-2-8-ui/2727)|[CLI](controllers-deb-2-9-cli/2728) ~ [UI](controllers-deb-2-9-ui/2729)|
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)||**CLI** ~ [UI](/t/controllers-snap-2-9-ui/2723)|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](controllers-snap-2-7-cli/2718) ~ [UI](controllers-snap-2-7-ui/2719)|[CLI](controllers-snap-2-8-cli/2720) ~ [UI](controllers-snap-2-8-ui/2721)|[CLI](controllers-snap-2-9-cli/2722) ~ |**UI**|
-|Packages|[CLI](controllers-deb-2-7-cli/2724) ~ [UI](controllers-deb-2-7-ui/2725)|[CLI](controllers-deb-2-8-cli/2726) ~ [UI](controllers-deb-2-8-ui/2727)|[CLI](controllers-deb-2-9-cli/2728) ~ [UI](controllers-deb-2-9-ui/2729)|
+|Snap|[CLI](/t/controllers-snap-2-7-cli/2718) ~ [UI](/t/controllers-snap-2-7-ui/2719)|[CLI](/t/controllers-snap-2-8-cli/2720) ~ [UI](/t/controllers-snap-2-8-ui/2721)|[CLI](/t/controllers-snap-2-9-cli/2722) ~ |**UI**|
+|Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
  snap-2-9-ui -->
 
 Most of the functionality of MAAS is contained in a series of controllers.  There are two basic types: a region controller and one or more rack controllers. The region controller deals with operator requests, while the rack controller(s) provides high-bandwidth services to the individual machines.  In essence, the region controller interacts with the user, while the rack controllers manage the bare metal.   Note that both region and rack controllers can be scaled out, as well as made [highly available](/t/high-availability/804).

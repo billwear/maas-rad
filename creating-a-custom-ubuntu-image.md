@@ -1,85 +1,85 @@
 <!-- deb-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
-|Packages|**CLI** ~ [UI](creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
+|Snap|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
+|Packages|**CLI** ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
-|Packages|[CLI](creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ |**UI**|[CLI](creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
+|Snap|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
+|Packages|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ |**UI**|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
-|Packages|[CLI](creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](creating-a-custom-ubuntu-image-deb-2-7-ui/2569)||**CLI** ~ [UI](creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
+|Snap|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
+|Packages|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-7-ui/2569)||**CLI** ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
-|Packages|[CLI](creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ |**UI**|[CLI](creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
+|Snap|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
+|Packages|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ |**UI**|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
-|Packages|[CLI](creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](creating-a-custom-ubuntu-image-deb-2-8-ui/2571)||**CLI** ~ [UI](creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
+|Snap|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
+|Packages|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-8-ui/2571)||**CLI** ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
-|Packages|[CLI](creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ |**UI**|
+|Snap|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
+|Packages|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ |**UI**|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|**CLI** ~ [UI](creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
-|Packages|[CLI](creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
+|Snap|**CLI** ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
+|Packages|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ |**UI**|[CLI](creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
-|Packages|[CLI](creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
+|Snap|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ |**UI**|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
+|Packages|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](creating-a-custom-ubuntu-image-snap-2-7-ui/2563)||**CLI** ~ [UI](creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
-|Packages|[CLI](creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
+|Snap|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-7-ui/2563)||**CLI** ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
+|Packages|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ |**UI**|[CLI](creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
-|Packages|[CLI](creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
+|Snap|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ |**UI**|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
+|Packages|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](creating-a-custom-ubuntu-image-snap-2-8-ui/2565)||**CLI** ~ [UI](creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
-|Packages|[CLI](creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
+|Snap|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-8-ui/2565)||**CLI** ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-9-ui/2567)|
+|Packages|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ |**UI**|
-|Packages|[CLI](creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
+|Snap|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-7-cli/2562) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-7-ui/2563)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-8-cli/2564) ~ [UI](/t/creating-a-custom-ubuntu-image-snap-2-8-ui/2565)|[CLI](/t/creating-a-custom-ubuntu-image-snap-2-9-cli/2566) ~ |**UI**|
+|Packages|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-7-cli/2568) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-7-ui/2569)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-8-cli/2570) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-8-ui/2571)|[CLI](/t/creating-a-custom-ubuntu-image-deb-2-9-cli/2572) ~ [UI](/t/creating-a-custom-ubuntu-image-deb-2-9-ui/2573)|
  snap-2-9-ui -->
 
 # Introduction

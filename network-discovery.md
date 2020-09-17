@@ -1,85 +1,169 @@
 <!-- deb-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](network-discovery-snap-2-7-cli/2922) ~ [UI](network-discovery-snap-2-7-ui/2923)|[CLI](network-discovery-snap-2-8-cli/2924) ~ [UI](network-discovery-snap-2-8-ui/2925)|[CLI](network-discovery-snap-2-9-cli/2926) ~ [UI](network-discovery-snap-2-9-ui/2927)|
-|Packages|**CLI** ~ [UI](network-discovery-deb-2-7-ui/2929)|[CLI](network-discovery-deb-2-8-cli/2930) ~ [UI](network-discovery-deb-2-8-ui/2931)|[CLI](network-discovery-deb-2-9-cli/2932) ~ [UI](network-discovery-deb-2-9-ui/2933)|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|**CLI** ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](network-discovery-snap-2-7-cli/2922) ~ [UI](network-discovery-snap-2-7-ui/2923)|[CLI](network-discovery-snap-2-8-cli/2924) ~ [UI](network-discovery-snap-2-8-ui/2925)|[CLI](network-discovery-snap-2-9-cli/2926) ~ [UI](network-discovery-snap-2-9-ui/2927)|
-|Packages|[CLI](network-discovery-deb-2-7-cli/2928) ~ |**UI**|[CLI](network-discovery-deb-2-8-cli/2930) ~ [UI](network-discovery-deb-2-8-ui/2931)|[CLI](network-discovery-deb-2-9-cli/2932) ~ [UI](network-discovery-deb-2-9-ui/2933)|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ |**UI**|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](network-discovery-snap-2-7-cli/2922) ~ [UI](network-discovery-snap-2-7-ui/2923)|[CLI](network-discovery-snap-2-8-cli/2924) ~ [UI](network-discovery-snap-2-8-ui/2925)|[CLI](network-discovery-snap-2-9-cli/2926) ~ [UI](network-discovery-snap-2-9-ui/2927)|
-|Packages|[CLI](network-discovery-deb-2-7-cli/2928) ~ [UI](network-discovery-deb-2-7-ui/2929)||**CLI** ~ [UI](network-discovery-deb-2-8-ui/2931)|[CLI](network-discovery-deb-2-9-cli/2932) ~ [UI](network-discovery-deb-2-9-ui/2933)|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)||**CLI** ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](network-discovery-snap-2-7-cli/2922) ~ [UI](network-discovery-snap-2-7-ui/2923)|[CLI](network-discovery-snap-2-8-cli/2924) ~ [UI](network-discovery-snap-2-8-ui/2925)|[CLI](network-discovery-snap-2-9-cli/2926) ~ [UI](network-discovery-snap-2-9-ui/2927)|
-|Packages|[CLI](network-discovery-deb-2-7-cli/2928) ~ [UI](network-discovery-deb-2-7-ui/2929)|[CLI](network-discovery-deb-2-8-cli/2930) ~ |**UI**|[CLI](network-discovery-deb-2-9-cli/2932) ~ [UI](network-discovery-deb-2-9-ui/2933)|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ |**UI**|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](network-discovery-snap-2-7-cli/2922) ~ [UI](network-discovery-snap-2-7-ui/2923)|[CLI](network-discovery-snap-2-8-cli/2924) ~ [UI](network-discovery-snap-2-8-ui/2925)|[CLI](network-discovery-snap-2-9-cli/2926) ~ [UI](network-discovery-snap-2-9-ui/2927)|
-|Packages|[CLI](network-discovery-deb-2-7-cli/2928) ~ [UI](network-discovery-deb-2-7-ui/2929)|[CLI](network-discovery-deb-2-8-cli/2930) ~ [UI](network-discovery-deb-2-8-ui/2931)||**CLI** ~ [UI](network-discovery-deb-2-9-ui/2933)|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)||**CLI** ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](network-discovery-snap-2-7-cli/2922) ~ [UI](network-discovery-snap-2-7-ui/2923)|[CLI](network-discovery-snap-2-8-cli/2924) ~ [UI](network-discovery-snap-2-8-ui/2925)|[CLI](network-discovery-snap-2-9-cli/2926) ~ [UI](network-discovery-snap-2-9-ui/2927)|
-|Packages|[CLI](network-discovery-deb-2-7-cli/2928) ~ [UI](network-discovery-deb-2-7-ui/2929)|[CLI](network-discovery-deb-2-8-cli/2930) ~ [UI](network-discovery-deb-2-8-ui/2931)|[CLI](network-discovery-deb-2-9-cli/2932) ~ |**UI**|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ |**UI**|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|**CLI** ~ [UI](network-discovery-snap-2-7-ui/2923)|[CLI](network-discovery-snap-2-8-cli/2924) ~ [UI](network-discovery-snap-2-8-ui/2925)|[CLI](network-discovery-snap-2-9-cli/2926) ~ [UI](network-discovery-snap-2-9-ui/2927)|
-|Packages|[CLI](network-discovery-deb-2-7-cli/2928) ~ [UI](network-discovery-deb-2-7-ui/2929)|[CLI](network-discovery-deb-2-8-cli/2930) ~ [UI](network-discovery-deb-2-8-ui/2931)|[CLI](network-discovery-deb-2-9-cli/2932) ~ [UI](network-discovery-deb-2-9-ui/2933)|
+|Snap|**CLI** ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](network-discovery-snap-2-7-cli/2922) ~ |**UI**|[CLI](network-discovery-snap-2-8-cli/2924) ~ [UI](network-discovery-snap-2-8-ui/2925)|[CLI](network-discovery-snap-2-9-cli/2926) ~ [UI](network-discovery-snap-2-9-ui/2927)|
-|Packages|[CLI](network-discovery-deb-2-7-cli/2928) ~ [UI](network-discovery-deb-2-7-ui/2929)|[CLI](network-discovery-deb-2-8-cli/2930) ~ [UI](network-discovery-deb-2-8-ui/2931)|[CLI](network-discovery-deb-2-9-cli/2932) ~ [UI](network-discovery-deb-2-9-ui/2933)|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ |**UI**|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](network-discovery-snap-2-7-cli/2922) ~ [UI](network-discovery-snap-2-7-ui/2923)||**CLI** ~ [UI](network-discovery-snap-2-8-ui/2925)|[CLI](network-discovery-snap-2-9-cli/2926) ~ [UI](network-discovery-snap-2-9-ui/2927)|
-|Packages|[CLI](network-discovery-deb-2-7-cli/2928) ~ [UI](network-discovery-deb-2-7-ui/2929)|[CLI](network-discovery-deb-2-8-cli/2930) ~ [UI](network-discovery-deb-2-8-ui/2931)|[CLI](network-discovery-deb-2-9-cli/2932) ~ [UI](network-discovery-deb-2-9-ui/2933)|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)||**CLI** ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](network-discovery-snap-2-7-cli/2922) ~ [UI](network-discovery-snap-2-7-ui/2923)|[CLI](network-discovery-snap-2-8-cli/2924) ~ |**UI**|[CLI](network-discovery-snap-2-9-cli/2926) ~ [UI](network-discovery-snap-2-9-ui/2927)|
-|Packages|[CLI](network-discovery-deb-2-7-cli/2928) ~ [UI](network-discovery-deb-2-7-ui/2929)|[CLI](network-discovery-deb-2-8-cli/2930) ~ [UI](network-discovery-deb-2-8-ui/2931)|[CLI](network-discovery-deb-2-9-cli/2932) ~ [UI](network-discovery-deb-2-9-ui/2933)|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ |**UI**|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](network-discovery-snap-2-7-cli/2922) ~ [UI](network-discovery-snap-2-7-ui/2923)|[CLI](network-discovery-snap-2-8-cli/2924) ~ [UI](network-discovery-snap-2-8-ui/2925)||**CLI** ~ [UI](network-discovery-snap-2-9-ui/2927)|
-|Packages|[CLI](network-discovery-deb-2-7-cli/2928) ~ [UI](network-discovery-deb-2-7-ui/2929)|[CLI](network-discovery-deb-2-8-cli/2930) ~ [UI](network-discovery-deb-2-8-ui/2931)|[CLI](network-discovery-deb-2-9-cli/2932) ~ [UI](network-discovery-deb-2-9-ui/2933)|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)||**CLI** ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](network-discovery-snap-2-7-cli/2922) ~ [UI](network-discovery-snap-2-7-ui/2923)|[CLI](network-discovery-snap-2-8-cli/2924) ~ [UI](network-discovery-snap-2-8-ui/2925)|[CLI](network-discovery-snap-2-9-cli/2926) ~ |**UI**|
-|Packages|[CLI](network-discovery-deb-2-7-cli/2928) ~ [UI](network-discovery-deb-2-7-ui/2929)|[CLI](network-discovery-deb-2-8-cli/2930) ~ [UI](network-discovery-deb-2-8-ui/2931)|[CLI](network-discovery-deb-2-9-cli/2932) ~ [UI](network-discovery-deb-2-9-ui/2933)|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ |**UI**|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
+ snap-2-9-ui -->
+
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|**CLI** ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ |**UI**|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)||**CLI** ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ |**UI**|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)||**CLI** ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ |**UI**|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)||**CLI** ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ |**UI**|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)||**CLI** ~ [UI](/t/network-discovery-snap-2-9-ui/2927)|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/network-discovery-snap-2-7-cli/2922) ~ [UI](/t/network-discovery-snap-2-7-ui/2923)|[CLI](/t/network-discovery-snap-2-8-cli/2924) ~ [UI](/t/network-discovery-snap-2-8-ui/2925)|[CLI](/t/network-discovery-snap-2-9-cli/2926) ~ |**UI**|
+|Packages|[CLI](/t/network-discovery-deb-2-7-cli/2928) ~ [UI](/t/network-discovery-deb-2-7-ui/2929)|[CLI](/t/network-discovery-deb-2-8-cli/2930) ~ [UI](/t/network-discovery-deb-2-8-ui/2931)|[CLI](/t/network-discovery-deb-2-9-cli/2932) ~ [UI](/t/network-discovery-deb-2-9-ui/2933)|
  snap-2-9-ui -->
 
 MAAS constantly listens to the network and reports any discovered devices. Devices are identified when the rack controller observes them communicating on an attached IPv4 subnet. Discovered devices that do not correspond to machines and devices already known to MAAS are shown on the dashboard. If a device advertises a hostname using `mDNS` (such as with `avahi` or `Bonjour`), MAAS will also present the discovered hostname in the Dashboard.

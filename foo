@@ -62,52 +62,56 @@ for name in glob.glob("*.md"):
         if rad_block_counter == 7:
             rad_block += "|**CLI** ~ "
         else:
-            rad_block += "|[" + rad_element[6][1] + "](" + rad_element[6][2] + ") ~ "
+            rad_block += "|[" + rad_element[6][1] + "](/t/" + rad_element[6][2] + ") ~ "
         if rad_block_counter == 8:
             rad_block += "|**UI**|"
         else:
-            rad_block += "[" + rad_element[7][1] + "](" + rad_element[7][2] + ")|"
+            rad_block += "[" + rad_element[7][1] + "](/t/" + rad_element[7][2] + ")|"
         if rad_block_counter == 9:
             rad_block += "|**CLI** ~ "
         else:
-            rad_block += "[" + rad_element[8][1] + "](" + rad_element[8][2] + ") ~ "
+            rad_block += "[" + rad_element[8][1] + "](/t/" + rad_element[8][2] + ") ~ "
         if rad_block_counter == 10:
             rad_block += "|**UI**|"
         else:
-            rad_block += "[" + rad_element[9][1] + "](" + rad_element[9][2] + ")|"
+            rad_block += "[" + rad_element[9][1] + "](/t/" + rad_element[9][2] + ")|"
         if rad_block_counter == 11:
             rad_block += "|**CLI** ~ "
         else:
-            rad_block += "[" + rad_element[10][1] + "](" + rad_element[10][2] + ") ~ "
+            rad_block += (
+                "[" + rad_element[10][1] + "](/t/" + rad_element[10][2] + ") ~ "
+            )
         if rad_block_counter == 12:
             rad_block += "|**UI**|\n"
         else:
-            rad_block += "[" + rad_element[11][1] + "](" + rad_element[11][2] + ")|\n"
+            rad_block += (
+                "[" + rad_element[11][1] + "](/t/" + rad_element[11][2] + ")|\n"
+            )
         rad_block += "|Packages"
         if rad_block_counter == 1:
             rad_block += "|**CLI** ~ "
         else:
-            rad_block += "|[" + rad_element[0][1] + "](" + rad_element[0][2] + ") ~ "
+            rad_block += "|[" + rad_element[0][1] + "](/t/" + rad_element[0][2] + ") ~ "
         if rad_block_counter == 2:
             rad_block += "|**UI**|"
         else:
-            rad_block += "[" + rad_element[1][1] + "](" + rad_element[1][2] + ")|"
+            rad_block += "[" + rad_element[1][1] + "](/t/" + rad_element[1][2] + ")|"
         if rad_block_counter == 3:
             rad_block += "|**CLI** ~ "
         else:
-            rad_block += "[" + rad_element[2][1] + "](" + rad_element[2][2] + ") ~ "
+            rad_block += "[" + rad_element[2][1] + "](/t/" + rad_element[2][2] + ") ~ "
         if rad_block_counter == 4:
             rad_block += "|**UI**|"
         else:
-            rad_block += "[" + rad_element[3][1] + "](" + rad_element[3][2] + ")|"
+            rad_block += "[" + rad_element[3][1] + "](/t/" + rad_element[3][2] + ")|"
         if rad_block_counter == 5:
             rad_block += "|**CLI** ~ "
         else:
-            rad_block += "[" + rad_element[4][1] + "](" + rad_element[4][2] + ") ~ "
+            rad_block += "[" + rad_element[4][1] + "](/t/" + rad_element[4][2] + ") ~ "
         if rad_block_counter == 6:
             rad_block += "|**UI**|\n"
         else:
-            rad_block += "[" + rad_element[5][1] + "](" + rad_element[5][2] + ")|\n"
+            rad_block += "[" + rad_element[5][1] + "](/t/" + rad_element[5][2] + ")|\n"
 
         # close out the rad block
         rad_block += " " + tag + " -->\n\n"

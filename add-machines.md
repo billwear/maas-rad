@@ -1,85 +1,169 @@
 <!-- deb-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
-|Packages|**CLI** ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|**CLI** ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
-|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ |**UI**|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ |**UI**|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
-|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)||**CLI** ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)||**CLI** ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
-|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ |**UI**|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ |**UI**|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
-|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)||**CLI** ~ [UI](add-machines-deb-2-9-ui/2285)|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)||**CLI** ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
-|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ |**UI**|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ |**UI**|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|**CLI** ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
-|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+|Snap|**CLI** ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ |**UI**|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
-|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ |**UI**|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)||**CLI** ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
-|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)||**CLI** ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ |**UI**|[CLI](add-machines-snap-2-9-cli/2278) ~ [UI](add-machines-snap-2-9-ui/2279)|
-|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ |**UI**|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)||**CLI** ~ [UI](add-machines-snap-2-9-ui/2279)|
-|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)||**CLI** ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](add-machines-snap-2-7-cli/2274) ~ [UI](add-machines-snap-2-7-ui/2275)|[CLI](add-machines-snap-2-8-cli/2276) ~ [UI](add-machines-snap-2-8-ui/2277)|[CLI](add-machines-snap-2-9-cli/2278) ~ |**UI**|
-|Packages|[CLI](add-machines-deb-2-7-cli/2280) ~ [UI](add-machines-deb-2-7-ui/2281)|[CLI](add-machines-deb-2-8-cli/2282) ~ [UI](add-machines-deb-2-8-ui/2283)|[CLI](add-machines-deb-2-9-cli/2284) ~ [UI](add-machines-deb-2-9-ui/2285)|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ |**UI**|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ snap-2-9-ui -->
+
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|**CLI** ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ |**UI**|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)||**CLI** ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ |**UI**|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)||**CLI** ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ |**UI**|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)||**CLI** ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ |**UI**|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)||**CLI** ~ [UI](/t/add-machines-snap-2-9-ui/2279)|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/add-machines-snap-2-7-cli/2274) ~ [UI](/t/add-machines-snap-2-7-ui/2275)|[CLI](/t/add-machines-snap-2-8-cli/2276) ~ [UI](/t/add-machines-snap-2-8-ui/2277)|[CLI](/t/add-machines-snap-2-9-cli/2278) ~ |**UI**|
+|Packages|[CLI](/t/add-machines-deb-2-7-cli/2280) ~ [UI](/t/add-machines-deb-2-7-ui/2281)|[CLI](/t/add-machines-deb-2-8-cli/2282) ~ [UI](/t/add-machines-deb-2-8-ui/2283)|[CLI](/t/add-machines-deb-2-9-cli/2284) ~ [UI](/t/add-machines-deb-2-9-ui/2285)|
  snap-2-9-ui -->
 
 There are two ways to add a machine to MAAS:

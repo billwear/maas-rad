@@ -1,85 +1,169 @@
 <!-- deb-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](power-management-snap-2-7-cli/3006) ~ [UI](power-management-snap-2-7-ui/3007)|[CLI](power-management-snap-2-8-cli/3008) ~ [UI](power-management-snap-2-8-ui/3009)|[CLI](power-management-snap-2-9-cli/3010) ~ [UI](power-management-snap-2-9-ui/3011)|
-|Packages|**CLI** ~ [UI](power-management-deb-2-7-ui/3013)|[CLI](power-management-deb-2-8-cli/3014) ~ [UI](power-management-deb-2-8-ui/3015)|[CLI](power-management-deb-2-9-cli/3016) ~ [UI](power-management-deb-2-9-ui/3017)|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|**CLI** ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](power-management-snap-2-7-cli/3006) ~ [UI](power-management-snap-2-7-ui/3007)|[CLI](power-management-snap-2-8-cli/3008) ~ [UI](power-management-snap-2-8-ui/3009)|[CLI](power-management-snap-2-9-cli/3010) ~ [UI](power-management-snap-2-9-ui/3011)|
-|Packages|[CLI](power-management-deb-2-7-cli/3012) ~ |**UI**|[CLI](power-management-deb-2-8-cli/3014) ~ [UI](power-management-deb-2-8-ui/3015)|[CLI](power-management-deb-2-9-cli/3016) ~ [UI](power-management-deb-2-9-ui/3017)|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ |**UI**|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](power-management-snap-2-7-cli/3006) ~ [UI](power-management-snap-2-7-ui/3007)|[CLI](power-management-snap-2-8-cli/3008) ~ [UI](power-management-snap-2-8-ui/3009)|[CLI](power-management-snap-2-9-cli/3010) ~ [UI](power-management-snap-2-9-ui/3011)|
-|Packages|[CLI](power-management-deb-2-7-cli/3012) ~ [UI](power-management-deb-2-7-ui/3013)||**CLI** ~ [UI](power-management-deb-2-8-ui/3015)|[CLI](power-management-deb-2-9-cli/3016) ~ [UI](power-management-deb-2-9-ui/3017)|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)||**CLI** ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](power-management-snap-2-7-cli/3006) ~ [UI](power-management-snap-2-7-ui/3007)|[CLI](power-management-snap-2-8-cli/3008) ~ [UI](power-management-snap-2-8-ui/3009)|[CLI](power-management-snap-2-9-cli/3010) ~ [UI](power-management-snap-2-9-ui/3011)|
-|Packages|[CLI](power-management-deb-2-7-cli/3012) ~ [UI](power-management-deb-2-7-ui/3013)|[CLI](power-management-deb-2-8-cli/3014) ~ |**UI**|[CLI](power-management-deb-2-9-cli/3016) ~ [UI](power-management-deb-2-9-ui/3017)|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ |**UI**|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](power-management-snap-2-7-cli/3006) ~ [UI](power-management-snap-2-7-ui/3007)|[CLI](power-management-snap-2-8-cli/3008) ~ [UI](power-management-snap-2-8-ui/3009)|[CLI](power-management-snap-2-9-cli/3010) ~ [UI](power-management-snap-2-9-ui/3011)|
-|Packages|[CLI](power-management-deb-2-7-cli/3012) ~ [UI](power-management-deb-2-7-ui/3013)|[CLI](power-management-deb-2-8-cli/3014) ~ [UI](power-management-deb-2-8-ui/3015)||**CLI** ~ [UI](power-management-deb-2-9-ui/3017)|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)||**CLI** ~ [UI](/t/power-management-deb-2-9-ui/3017)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](power-management-snap-2-7-cli/3006) ~ [UI](power-management-snap-2-7-ui/3007)|[CLI](power-management-snap-2-8-cli/3008) ~ [UI](power-management-snap-2-8-ui/3009)|[CLI](power-management-snap-2-9-cli/3010) ~ [UI](power-management-snap-2-9-ui/3011)|
-|Packages|[CLI](power-management-deb-2-7-cli/3012) ~ [UI](power-management-deb-2-7-ui/3013)|[CLI](power-management-deb-2-8-cli/3014) ~ [UI](power-management-deb-2-8-ui/3015)|[CLI](power-management-deb-2-9-cli/3016) ~ |**UI**|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ |**UI**|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|**CLI** ~ [UI](power-management-snap-2-7-ui/3007)|[CLI](power-management-snap-2-8-cli/3008) ~ [UI](power-management-snap-2-8-ui/3009)|[CLI](power-management-snap-2-9-cli/3010) ~ [UI](power-management-snap-2-9-ui/3011)|
-|Packages|[CLI](power-management-deb-2-7-cli/3012) ~ [UI](power-management-deb-2-7-ui/3013)|[CLI](power-management-deb-2-8-cli/3014) ~ [UI](power-management-deb-2-8-ui/3015)|[CLI](power-management-deb-2-9-cli/3016) ~ [UI](power-management-deb-2-9-ui/3017)|
+|Snap|**CLI** ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](power-management-snap-2-7-cli/3006) ~ |**UI**|[CLI](power-management-snap-2-8-cli/3008) ~ [UI](power-management-snap-2-8-ui/3009)|[CLI](power-management-snap-2-9-cli/3010) ~ [UI](power-management-snap-2-9-ui/3011)|
-|Packages|[CLI](power-management-deb-2-7-cli/3012) ~ [UI](power-management-deb-2-7-ui/3013)|[CLI](power-management-deb-2-8-cli/3014) ~ [UI](power-management-deb-2-8-ui/3015)|[CLI](power-management-deb-2-9-cli/3016) ~ [UI](power-management-deb-2-9-ui/3017)|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ |**UI**|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](power-management-snap-2-7-cli/3006) ~ [UI](power-management-snap-2-7-ui/3007)||**CLI** ~ [UI](power-management-snap-2-8-ui/3009)|[CLI](power-management-snap-2-9-cli/3010) ~ [UI](power-management-snap-2-9-ui/3011)|
-|Packages|[CLI](power-management-deb-2-7-cli/3012) ~ [UI](power-management-deb-2-7-ui/3013)|[CLI](power-management-deb-2-8-cli/3014) ~ [UI](power-management-deb-2-8-ui/3015)|[CLI](power-management-deb-2-9-cli/3016) ~ [UI](power-management-deb-2-9-ui/3017)|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)||**CLI** ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](power-management-snap-2-7-cli/3006) ~ [UI](power-management-snap-2-7-ui/3007)|[CLI](power-management-snap-2-8-cli/3008) ~ |**UI**|[CLI](power-management-snap-2-9-cli/3010) ~ [UI](power-management-snap-2-9-ui/3011)|
-|Packages|[CLI](power-management-deb-2-7-cli/3012) ~ [UI](power-management-deb-2-7-ui/3013)|[CLI](power-management-deb-2-8-cli/3014) ~ [UI](power-management-deb-2-8-ui/3015)|[CLI](power-management-deb-2-9-cli/3016) ~ [UI](power-management-deb-2-9-ui/3017)|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ |**UI**|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](power-management-snap-2-7-cli/3006) ~ [UI](power-management-snap-2-7-ui/3007)|[CLI](power-management-snap-2-8-cli/3008) ~ [UI](power-management-snap-2-8-ui/3009)||**CLI** ~ [UI](power-management-snap-2-9-ui/3011)|
-|Packages|[CLI](power-management-deb-2-7-cli/3012) ~ [UI](power-management-deb-2-7-ui/3013)|[CLI](power-management-deb-2-8-cli/3014) ~ [UI](power-management-deb-2-8-ui/3015)|[CLI](power-management-deb-2-9-cli/3016) ~ [UI](power-management-deb-2-9-ui/3017)|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)||**CLI** ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](power-management-snap-2-7-cli/3006) ~ [UI](power-management-snap-2-7-ui/3007)|[CLI](power-management-snap-2-8-cli/3008) ~ [UI](power-management-snap-2-8-ui/3009)|[CLI](power-management-snap-2-9-cli/3010) ~ |**UI**|
-|Packages|[CLI](power-management-deb-2-7-cli/3012) ~ [UI](power-management-deb-2-7-ui/3013)|[CLI](power-management-deb-2-8-cli/3014) ~ [UI](power-management-deb-2-8-ui/3015)|[CLI](power-management-deb-2-9-cli/3016) ~ [UI](power-management-deb-2-9-ui/3017)|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ |**UI**|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
+ snap-2-9-ui -->
+
+<!-- deb-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|**CLI** ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ |**UI**|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)||**CLI** ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ |**UI**|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)||**CLI** ~ [UI](/t/power-management-deb-2-9-ui/3017)|
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ |**UI**|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|**CLI** ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ |**UI**|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)||**CLI** ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ |**UI**|[CLI](/t/power-management-snap-2-9-cli/3010) ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)||**CLI** ~ [UI](/t/power-management-snap-2-9-ui/3011)|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/power-management-snap-2-7-cli/3006) ~ [UI](/t/power-management-snap-2-7-ui/3007)|[CLI](/t/power-management-snap-2-8-cli/3008) ~ [UI](/t/power-management-snap-2-8-ui/3009)|[CLI](/t/power-management-snap-2-9-cli/3010) ~ |**UI**|
+|Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
  snap-2-9-ui -->
 
 To manage a machine, MAAS must be able to power cycle it, usually through the machine's [BMC](https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface#Baseboard_management_controller) card.  Until you configure the power type, a newly-added machine can't be enlisted and used by MAAS.
