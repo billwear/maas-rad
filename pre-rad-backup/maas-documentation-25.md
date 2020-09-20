@@ -173,7 +173,7 @@ MAAS is **Metal As A Service**, a service that lets you treat physical servers l
 | https://discourse.maas.io/t/api-authentication/742/ | /docs/api-authentication |
 | https://discourse.maas.io/t/contact-us/743/ | /docs/contact-us |
 | https://discourse.maas.io/t/tips-tricks-and-traps/1506 | /docs/tips-tricks-and-traps |
-| https://discourse.maas.io/t/writing-guide/747/ | /docs/writing-guide |
+|https://discourse.maas.io/t/writing-guide/747/|/docs/writing-guide|
 | https://discourse.maas.io/t/block-devices/749/ | /docs/block-devices |
 | https://discourse.maas.io/t/installing-maas-2-7-via-snap-and-ui/2171 | /docs/2.7/snap/ui |
 | https://discourse.maas.io/t/installing-maas-2-8-via-snap-and-ui/2172 | /docs/2.8/snap/ui |

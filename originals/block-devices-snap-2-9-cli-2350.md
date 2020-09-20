@@ -16,7 +16,7 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/block-devices-snap-2-7-cli/2346) ~ [UI](/t/block-devices-snap-2-7-ui/2347)|[CLI](/t/block-devices-snap-2-8-cli/2348) ~ [UI](/t/block-devices-snap-2-8-ui/2349)|[CLI](/t/block-devices-snap-2-9-cli/2350) ~ [UI](/t/block-devices-snap-2-9-ui/2351)|
-|Packages|[CLI](/t/block-devices-deb-2-7-cli/2352) ~ [UI](/t/block-devices-deb-2-7-ui/2353)||**CLI** ~ [UI](/t/block-devices-deb-2-8-ui/2355)|[CLI](/t/block-devices-deb-2-9-cli/2356) ~ [UI](/t/block-devices-deb-2-9-ui/2357)|
+|Packages|[CLI](/t/block-devices-deb-2-7-cli/2352) ~ [UI](/t/block-devices-deb-2-7-ui/2353)|**CLI** ~ [UI](/t/block-devices-deb-2-8-ui/2355)|[CLI](/t/block-devices-deb-2-9-cli/2356) ~ [UI](/t/block-devices-deb-2-9-ui/2357)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
@@ -30,7 +30,7 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/block-devices-snap-2-7-cli/2346) ~ [UI](/t/block-devices-snap-2-7-ui/2347)|[CLI](/t/block-devices-snap-2-8-cli/2348) ~ [UI](/t/block-devices-snap-2-8-ui/2349)|[CLI](/t/block-devices-snap-2-9-cli/2350) ~ [UI](/t/block-devices-snap-2-9-ui/2351)|
-|Packages|[CLI](/t/block-devices-deb-2-7-cli/2352) ~ [UI](/t/block-devices-deb-2-7-ui/2353)|[CLI](/t/block-devices-deb-2-8-cli/2354) ~ [UI](/t/block-devices-deb-2-8-ui/2355)||**CLI** ~ [UI](/t/block-devices-deb-2-9-ui/2357)|
+|Packages|[CLI](/t/block-devices-deb-2-7-cli/2352) ~ [UI](/t/block-devices-deb-2-7-ui/2353)|[CLI](/t/block-devices-deb-2-8-cli/2354) ~ [UI](/t/block-devices-deb-2-8-ui/2355)|**CLI** ~ [UI](/t/block-devices-deb-2-9-ui/2357)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
@@ -57,7 +57,7 @@
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/block-devices-snap-2-7-cli/2346) ~ [UI](/t/block-devices-snap-2-7-ui/2347)||**CLI** ~ [UI](/t/block-devices-snap-2-8-ui/2349)|[CLI](/t/block-devices-snap-2-9-cli/2350) ~ [UI](/t/block-devices-snap-2-9-ui/2351)|
+|Snap|[CLI](/t/block-devices-snap-2-7-cli/2346) ~ [UI](/t/block-devices-snap-2-7-ui/2347)|**CLI** ~ [UI](/t/block-devices-snap-2-8-ui/2349)|[CLI](/t/block-devices-snap-2-9-cli/2350) ~ [UI](/t/block-devices-snap-2-9-ui/2351)|
 |Packages|[CLI](/t/block-devices-deb-2-7-cli/2352) ~ [UI](/t/block-devices-deb-2-7-ui/2353)|[CLI](/t/block-devices-deb-2-8-cli/2354) ~ [UI](/t/block-devices-deb-2-8-ui/2355)|[CLI](/t/block-devices-deb-2-9-cli/2356) ~ [UI](/t/block-devices-deb-2-9-ui/2357)|
  snap-2-8-cli -->
 
@@ -70,7 +70,7 @@
 
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/block-devices-snap-2-7-cli/2346) ~ [UI](/t/block-devices-snap-2-7-ui/2347)|[CLI](/t/block-devices-snap-2-8-cli/2348) ~ [UI](/t/block-devices-snap-2-8-ui/2349)||**CLI** ~ [UI](/t/block-devices-snap-2-9-ui/2351)|
+|Snap|[CLI](/t/block-devices-snap-2-7-cli/2346) ~ [UI](/t/block-devices-snap-2-7-ui/2347)|[CLI](/t/block-devices-snap-2-8-cli/2348) ~ [UI](/t/block-devices-snap-2-8-ui/2349)|**CLI** ~ [UI](/t/block-devices-snap-2-9-ui/2351)|
 |Packages|[CLI](/t/block-devices-deb-2-7-cli/2352) ~ [UI](/t/block-devices-deb-2-7-ui/2353)|[CLI](/t/block-devices-deb-2-8-cli/2354) ~ [UI](/t/block-devices-deb-2-8-ui/2355)|[CLI](/t/block-devices-deb-2-9-cli/2356) ~ [UI](/t/block-devices-deb-2-9-ui/2357)|
 
 <!-- snap-2-9-ui

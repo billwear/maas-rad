@@ -16,7 +16,7 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/high-availability-snap-2-7-cli/2682) ~ [UI](/t/high-availability-snap-2-7-ui/2683)|[CLI](/t/high-availability-snap-2-8-cli/2684) ~ [UI](/t/high-availability-snap-2-8-ui/2685)|[CLI](/t/high-availability-snap-2-9-cli/2686) ~ [UI](/t/high-availability-snap-2-9-ui/2687)|
-|Packages|[CLI](/t/high-availability-deb-2-7-cli/2688) ~ [UI](/t/high-availability-deb-2-7-ui/2689)||**CLI** ~ [UI](/t/high-availability-deb-2-8-ui/2691)|[CLI](/t/high-availability-deb-2-9-cli/2692) ~ [UI](/t/high-availability-deb-2-9-ui/2693)|
+|Packages|[CLI](/t/high-availability-deb-2-7-cli/2688) ~ [UI](/t/high-availability-deb-2-7-ui/2689)|**CLI** ~ [UI](/t/high-availability-deb-2-8-ui/2691)|[CLI](/t/high-availability-deb-2-9-cli/2692) ~ [UI](/t/high-availability-deb-2-9-ui/2693)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
@@ -30,7 +30,7 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/high-availability-snap-2-7-cli/2682) ~ [UI](/t/high-availability-snap-2-7-ui/2683)|[CLI](/t/high-availability-snap-2-8-cli/2684) ~ [UI](/t/high-availability-snap-2-8-ui/2685)|[CLI](/t/high-availability-snap-2-9-cli/2686) ~ [UI](/t/high-availability-snap-2-9-ui/2687)|
-|Packages|[CLI](/t/high-availability-deb-2-7-cli/2688) ~ [UI](/t/high-availability-deb-2-7-ui/2689)|[CLI](/t/high-availability-deb-2-8-cli/2690) ~ [UI](/t/high-availability-deb-2-8-ui/2691)||**CLI** ~ [UI](/t/high-availability-deb-2-9-ui/2693)|
+|Packages|[CLI](/t/high-availability-deb-2-7-cli/2688) ~ [UI](/t/high-availability-deb-2-7-ui/2689)|[CLI](/t/high-availability-deb-2-8-cli/2690) ~ [UI](/t/high-availability-deb-2-8-ui/2691)|**CLI** ~ [UI](/t/high-availability-deb-2-9-ui/2693)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
@@ -57,7 +57,7 @@
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/high-availability-snap-2-7-cli/2682) ~ [UI](/t/high-availability-snap-2-7-ui/2683)||**CLI** ~ [UI](/t/high-availability-snap-2-8-ui/2685)|[CLI](/t/high-availability-snap-2-9-cli/2686) ~ [UI](/t/high-availability-snap-2-9-ui/2687)|
+|Snap|[CLI](/t/high-availability-snap-2-7-cli/2682) ~ [UI](/t/high-availability-snap-2-7-ui/2683)|**CLI** ~ [UI](/t/high-availability-snap-2-8-ui/2685)|[CLI](/t/high-availability-snap-2-9-cli/2686) ~ [UI](/t/high-availability-snap-2-9-ui/2687)|
 |Packages|[CLI](/t/high-availability-deb-2-7-cli/2688) ~ [UI](/t/high-availability-deb-2-7-ui/2689)|[CLI](/t/high-availability-deb-2-8-cli/2690) ~ [UI](/t/high-availability-deb-2-8-ui/2691)|[CLI](/t/high-availability-deb-2-9-cli/2692) ~ [UI](/t/high-availability-deb-2-9-ui/2693)|
  snap-2-8-cli -->
 
@@ -69,7 +69,7 @@
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/high-availability-snap-2-7-cli/2682) ~ [UI](/t/high-availability-snap-2-7-ui/2683)|[CLI](/t/high-availability-snap-2-8-cli/2684) ~ [UI](/t/high-availability-snap-2-8-ui/2685)||**CLI** ~ [UI](/t/high-availability-snap-2-9-ui/2687)|
+|Snap|[CLI](/t/high-availability-snap-2-7-cli/2682) ~ [UI](/t/high-availability-snap-2-7-ui/2683)|[CLI](/t/high-availability-snap-2-8-cli/2684) ~ [UI](/t/high-availability-snap-2-8-ui/2685)|**CLI** ~ [UI](/t/high-availability-snap-2-9-ui/2687)|
 |Packages|[CLI](/t/high-availability-deb-2-7-cli/2688) ~ [UI](/t/high-availability-deb-2-7-ui/2689)|[CLI](/t/high-availability-deb-2-8-cli/2690) ~ [UI](/t/high-availability-deb-2-8-ui/2691)|[CLI](/t/high-availability-deb-2-9-cli/2692) ~ [UI](/t/high-availability-deb-2-9-ui/2693)|
  snap-2-9-cli -->
 

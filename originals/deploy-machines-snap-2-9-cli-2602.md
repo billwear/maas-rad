@@ -16,7 +16,7 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
-|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)||**CLI** ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|**CLI** ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
@@ -30,7 +30,7 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
-|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)||**CLI** ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|**CLI** ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
@@ -57,7 +57,7 @@
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)||**CLI** ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|**CLI** ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
 |Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
  snap-2-8-cli -->
 
@@ -70,7 +70,7 @@
 
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)||**CLI** ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|**CLI** ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
 |Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
 
 <!-- snap-2-9-ui

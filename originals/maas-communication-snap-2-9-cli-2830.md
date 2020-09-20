@@ -16,7 +16,7 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/maas-communication-snap-2-7-cli/2826) ~ [UI](/t/maas-communication-snap-2-7-ui/2827)|[CLI](/t/maas-communication-snap-2-8-cli/2828) ~ [UI](/t/maas-communication-snap-2-8-ui/2829)|[CLI](/t/maas-communication-snap-2-9-cli/2830) ~ [UI](/t/maas-communication-snap-2-9-ui/2831)|
-|Packages|[CLI](/t/maas-communication-deb-2-7-cli/2832) ~ [UI](/t/maas-communication-deb-2-7-ui/2833)||**CLI** ~ [UI](/t/maas-communication-deb-2-8-ui/2835)|[CLI](/t/maas-communication-deb-2-9-cli/2836) ~ [UI](/t/maas-communication-deb-2-9-ui/2837)|
+|Packages|[CLI](/t/maas-communication-deb-2-7-cli/2832) ~ [UI](/t/maas-communication-deb-2-7-ui/2833)|**CLI** ~ [UI](/t/maas-communication-deb-2-8-ui/2835)|[CLI](/t/maas-communication-deb-2-9-cli/2836) ~ [UI](/t/maas-communication-deb-2-9-ui/2837)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
@@ -30,7 +30,7 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/maas-communication-snap-2-7-cli/2826) ~ [UI](/t/maas-communication-snap-2-7-ui/2827)|[CLI](/t/maas-communication-snap-2-8-cli/2828) ~ [UI](/t/maas-communication-snap-2-8-ui/2829)|[CLI](/t/maas-communication-snap-2-9-cli/2830) ~ [UI](/t/maas-communication-snap-2-9-ui/2831)|
-|Packages|[CLI](/t/maas-communication-deb-2-7-cli/2832) ~ [UI](/t/maas-communication-deb-2-7-ui/2833)|[CLI](/t/maas-communication-deb-2-8-cli/2834) ~ [UI](/t/maas-communication-deb-2-8-ui/2835)||**CLI** ~ [UI](/t/maas-communication-deb-2-9-ui/2837)|
+|Packages|[CLI](/t/maas-communication-deb-2-7-cli/2832) ~ [UI](/t/maas-communication-deb-2-7-ui/2833)|[CLI](/t/maas-communication-deb-2-8-cli/2834) ~ [UI](/t/maas-communication-deb-2-8-ui/2835)|**CLI** ~ [UI](/t/maas-communication-deb-2-9-ui/2837)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
@@ -57,7 +57,7 @@
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/maas-communication-snap-2-7-cli/2826) ~ [UI](/t/maas-communication-snap-2-7-ui/2827)||**CLI** ~ [UI](/t/maas-communication-snap-2-8-ui/2829)|[CLI](/t/maas-communication-snap-2-9-cli/2830) ~ [UI](/t/maas-communication-snap-2-9-ui/2831)|
+|Snap|[CLI](/t/maas-communication-snap-2-7-cli/2826) ~ [UI](/t/maas-communication-snap-2-7-ui/2827)|**CLI** ~ [UI](/t/maas-communication-snap-2-8-ui/2829)|[CLI](/t/maas-communication-snap-2-9-cli/2830) ~ [UI](/t/maas-communication-snap-2-9-ui/2831)|
 |Packages|[CLI](/t/maas-communication-deb-2-7-cli/2832) ~ [UI](/t/maas-communication-deb-2-7-ui/2833)|[CLI](/t/maas-communication-deb-2-8-cli/2834) ~ [UI](/t/maas-communication-deb-2-8-ui/2835)|[CLI](/t/maas-communication-deb-2-9-cli/2836) ~ [UI](/t/maas-communication-deb-2-9-ui/2837)|
  snap-2-8-cli -->
 
@@ -70,7 +70,7 @@
 
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/maas-communication-snap-2-7-cli/2826) ~ [UI](/t/maas-communication-snap-2-7-ui/2827)|[CLI](/t/maas-communication-snap-2-8-cli/2828) ~ [UI](/t/maas-communication-snap-2-8-ui/2829)||**CLI** ~ [UI](/t/maas-communication-snap-2-9-ui/2831)|
+|Snap|[CLI](/t/maas-communication-snap-2-7-cli/2826) ~ [UI](/t/maas-communication-snap-2-7-ui/2827)|[CLI](/t/maas-communication-snap-2-8-cli/2828) ~ [UI](/t/maas-communication-snap-2-8-ui/2829)|**CLI** ~ [UI](/t/maas-communication-snap-2-9-ui/2831)|
 |Packages|[CLI](/t/maas-communication-deb-2-7-cli/2832) ~ [UI](/t/maas-communication-deb-2-7-ui/2833)|[CLI](/t/maas-communication-deb-2-8-cli/2834) ~ [UI](/t/maas-communication-deb-2-8-ui/2835)|[CLI](/t/maas-communication-deb-2-9-cli/2836) ~ [UI](/t/maas-communication-deb-2-9-ui/2837)|
 
 <!-- snap-2-9-ui

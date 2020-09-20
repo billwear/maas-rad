@@ -16,7 +16,7 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/commissioning-logs-snap-2-7-cli/2490) ~ [UI](/t/commissioning-logs-snap-2-7-ui/2491)|[CLI](/t/commissioning-logs-snap-2-8-cli/2492) ~ [UI](/t/commissioning-logs-snap-2-8-ui/2493)|[CLI](/t/commissioning-logs-snap-2-9-cli/2494) ~ [UI](/t/commissioning-logs-snap-2-9-ui/2495)|
-|Packages|[CLI](/t/commissioning-logs-deb-2-7-cli/2496) ~ [UI](/t/commissioning-logs-deb-2-7-ui/2497)||**CLI** ~ [UI](/t/commissioning-logs-deb-2-8-ui/2499)|[CLI](/t/commissioning-logs-deb-2-9-cli/2500) ~ [UI](/t/commissioning-logs-deb-2-9-ui/2501)|
+|Packages|[CLI](/t/commissioning-logs-deb-2-7-cli/2496) ~ [UI](/t/commissioning-logs-deb-2-7-ui/2497)|**CLI** ~ [UI](/t/commissioning-logs-deb-2-8-ui/2499)|[CLI](/t/commissioning-logs-deb-2-9-cli/2500) ~ [UI](/t/commissioning-logs-deb-2-9-ui/2501)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
@@ -30,7 +30,7 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/commissioning-logs-snap-2-7-cli/2490) ~ [UI](/t/commissioning-logs-snap-2-7-ui/2491)|[CLI](/t/commissioning-logs-snap-2-8-cli/2492) ~ [UI](/t/commissioning-logs-snap-2-8-ui/2493)|[CLI](/t/commissioning-logs-snap-2-9-cli/2494) ~ [UI](/t/commissioning-logs-snap-2-9-ui/2495)|
-|Packages|[CLI](/t/commissioning-logs-deb-2-7-cli/2496) ~ [UI](/t/commissioning-logs-deb-2-7-ui/2497)|[CLI](/t/commissioning-logs-deb-2-8-cli/2498) ~ [UI](/t/commissioning-logs-deb-2-8-ui/2499)||**CLI** ~ [UI](/t/commissioning-logs-deb-2-9-ui/2501)|
+|Packages|[CLI](/t/commissioning-logs-deb-2-7-cli/2496) ~ [UI](/t/commissioning-logs-deb-2-7-ui/2497)|[CLI](/t/commissioning-logs-deb-2-8-cli/2498) ~ [UI](/t/commissioning-logs-deb-2-8-ui/2499)|**CLI** ~ [UI](/t/commissioning-logs-deb-2-9-ui/2501)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
@@ -55,7 +55,7 @@
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/commissioning-logs-snap-2-7-cli/2490) ~ [UI](/t/commissioning-logs-snap-2-7-ui/2491)||**CLI** ~ [UI](/t/commissioning-logs-snap-2-8-ui/2493)|[CLI](/t/commissioning-logs-snap-2-9-cli/2494) ~ [UI](/t/commissioning-logs-snap-2-9-ui/2495)|
+|Snap|[CLI](/t/commissioning-logs-snap-2-7-cli/2490) ~ [UI](/t/commissioning-logs-snap-2-7-ui/2491)|**CLI** ~ [UI](/t/commissioning-logs-snap-2-8-ui/2493)|[CLI](/t/commissioning-logs-snap-2-9-cli/2494) ~ [UI](/t/commissioning-logs-snap-2-9-ui/2495)|
 |Packages|[CLI](/t/commissioning-logs-deb-2-7-cli/2496) ~ [UI](/t/commissioning-logs-deb-2-7-ui/2497)|[CLI](/t/commissioning-logs-deb-2-8-cli/2498) ~ [UI](/t/commissioning-logs-deb-2-8-ui/2499)|[CLI](/t/commissioning-logs-deb-2-9-cli/2500) ~ [UI](/t/commissioning-logs-deb-2-9-ui/2501)|
  snap-2-8-cli -->
 
@@ -69,7 +69,7 @@
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/commissioning-logs-snap-2-7-cli/2490) ~ [UI](/t/commissioning-logs-snap-2-7-ui/2491)|[CLI](/t/commissioning-logs-snap-2-8-cli/2492) ~ [UI](/t/commissioning-logs-snap-2-8-ui/2493)||**CLI** ~ [UI](/t/commissioning-logs-snap-2-9-ui/2495)|
+|Snap|[CLI](/t/commissioning-logs-snap-2-7-cli/2490) ~ [UI](/t/commissioning-logs-snap-2-7-ui/2491)|[CLI](/t/commissioning-logs-snap-2-8-cli/2492) ~ [UI](/t/commissioning-logs-snap-2-8-ui/2493)|**CLI** ~ [UI](/t/commissioning-logs-snap-2-9-ui/2495)|
 |Packages|[CLI](/t/commissioning-logs-deb-2-7-cli/2496) ~ [UI](/t/commissioning-logs-deb-2-7-ui/2497)|[CLI](/t/commissioning-logs-deb-2-8-cli/2498) ~ [UI](/t/commissioning-logs-deb-2-8-ui/2499)|[CLI](/t/commissioning-logs-deb-2-9-cli/2500) ~ [UI](/t/commissioning-logs-deb-2-9-ui/2501)|
  snap-2-9-cli -->
 

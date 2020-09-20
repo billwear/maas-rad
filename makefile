@@ -387,7 +387,8 @@ TARGET_DEPS += originals/maas-communication-snap-2-9-ui-2831.md
 TARGET_DEPS += originals/maas-documentation-deb-2-7-cli-2844.md
 TARGET_DEPS += originals/maas-documentation-deb-2-7-ui-2845.md
 TARGET_DEPS += originals/maas-documentation-deb-2-8-cli-2846.md
-TARGET_DEPS += originals/maas-documentation-deb-2-8-ui-2847.md
+#TARGET_DEPS += originals/maas-documentation-deb-2-8-ui-2847.md
+TARGET_DEPS += originals/maas-documentation-25.md
 TARGET_DEPS += originals/maas-documentation-deb-2-9-cli-2848.md
 TARGET_DEPS += originals/maas-documentation-deb-2-9-ui-2849.md
 TARGET_DEPS += originals/maas-documentation-snap-2-7-cli-2838.md
@@ -673,18 +674,7 @@ TARGET_DEPS += originals/test-logs-snap-2-8-cli-3128.md
 TARGET_DEPS += originals/test-logs-snap-2-8-ui-3129.md
 TARGET_DEPS += originals/test-logs-snap-2-9-cli-3130.md
 TARGET_DEPS += originals/test-logs-snap-2-9-ui-3131.md
-TARGET_DEPS += originals/the-cli-cookbook-deb-2-7-cli-3144.md
-TARGET_DEPS += originals/the-cli-cookbook-deb-2-7-ui-3145.md
-TARGET_DEPS += originals/the-cli-cookbook-deb-2-8-cli-3146.md
-TARGET_DEPS += originals/the-cli-cookbook-deb-2-8-ui-3147.md
-TARGET_DEPS += originals/the-cli-cookbook-deb-2-9-cli-3148.md
-TARGET_DEPS += originals/the-cli-cookbook-deb-2-9-ui-3149.md
-TARGET_DEPS += originals/the-cli-cookbook-snap-2-7-cli-3138.md
-TARGET_DEPS += originals/the-cli-cookbook-snap-2-7-ui-3139.md
-TARGET_DEPS += originals/the-cli-cookbook-snap-2-8-cli-3140.md
-TARGET_DEPS += originals/the-cli-cookbook-snap-2-8-ui-3141.md
-TARGET_DEPS += originals/the-cli-cookbook-snap-2-9-cli-3142.md
-TARGET_DEPS += originals/the-cli-cookbook-snap-2-9-ui-3143.md
+TARGET_DEPS += originals/the-cli-cookbook-2218.md
 TARGET_DEPS += originals/tips-tricks-and-traps-1506.md
 TARGET_DEPS += originals/troubleshooting-deb-2-7-cli-3168.md
 TARGET_DEPS += originals/troubleshooting-deb-2-7-ui-3169.md
@@ -5680,68 +5670,13 @@ originals/cli-kernel-management-snap-2-8-ui-2433.md: cli-kernel-management.md
 	rm cli-kernel-management-deb-2-7-cli-2436.md
 	chmod 444 originals/*
  
-originals/the-cli-cookbook-deb-2-7-ui-3145.md: the-cli-cookbook.md
+originals/the-cli-cookbook-2218.md: the-cli-cookbook.md
 	chmod 644 originals/*
-	cp the-cli-cookbook.md the-cli-cookbook-deb-2-7-ui-3145.md
-	xpub push discourse -t deb-2-7-ui the-cli-cookbook-deb-2-7-ui-3145.md
-	xpub pull discourse 3145 3145
-	cp -p the-cli-cookbook-deb-2-7-ui-3145.md originals
-	rm the-cli-cookbook-deb-2-7-ui-3145.md
-	cp the-cli-cookbook.md the-cli-cookbook-snap-2-9-ui-3143.md
-	xpub push discourse -t snap-2-9-ui the-cli-cookbook-snap-2-9-ui-3143.md
-	xpub pull discourse 3143 3143
-	cp -p the-cli-cookbook-snap-2-9-ui-3143.md originals
-	rm the-cli-cookbook-snap-2-9-ui-3143.md
-	cp the-cli-cookbook.md the-cli-cookbook-deb-2-9-cli-3148.md
-	xpub push discourse -t deb-2-9-cli the-cli-cookbook-deb-2-9-cli-3148.md
-	xpub pull discourse 3148 3148
-	cp -p the-cli-cookbook-deb-2-9-cli-3148.md originals
-	rm the-cli-cookbook-deb-2-9-cli-3148.md
-	cp the-cli-cookbook.md the-cli-cookbook-deb-2-8-ui-3147.md
-	xpub push discourse -t deb-2-8-ui the-cli-cookbook-deb-2-8-ui-3147.md
-	xpub pull discourse 3147 3147
-	cp -p the-cli-cookbook-deb-2-8-ui-3147.md originals
-	rm the-cli-cookbook-deb-2-8-ui-3147.md
-	cp the-cli-cookbook.md the-cli-cookbook-snap-2-9-cli-3142.md
-	xpub push discourse -t snap-2-9-cli the-cli-cookbook-snap-2-9-cli-3142.md
-	xpub pull discourse 3142 3142
-	cp -p the-cli-cookbook-snap-2-9-cli-3142.md originals
-	rm the-cli-cookbook-snap-2-9-cli-3142.md
-	cp the-cli-cookbook.md the-cli-cookbook-snap-2-7-ui-3139.md
-	xpub push discourse -t snap-2-7-ui the-cli-cookbook-snap-2-7-ui-3139.md
-	xpub pull discourse 3139 3139
-	cp -p the-cli-cookbook-snap-2-7-ui-3139.md originals
-	rm the-cli-cookbook-snap-2-7-ui-3139.md
-	cp the-cli-cookbook.md the-cli-cookbook-snap-2-8-cli-3140.md
-	xpub push discourse -t snap-2-8-cli the-cli-cookbook-snap-2-8-cli-3140.md
-	xpub pull discourse 3140 3140
-	cp -p the-cli-cookbook-snap-2-8-cli-3140.md originals
-	rm the-cli-cookbook-snap-2-8-cli-3140.md
-	cp the-cli-cookbook.md the-cli-cookbook-snap-2-7-cli-3138.md
-	xpub push discourse -t snap-2-7-cli the-cli-cookbook-snap-2-7-cli-3138.md
-	xpub pull discourse 3138 3138
-	cp -p the-cli-cookbook-snap-2-7-cli-3138.md originals
-	rm the-cli-cookbook-snap-2-7-cli-3138.md
-	cp the-cli-cookbook.md the-cli-cookbook-deb-2-8-cli-3146.md
-	xpub push discourse -t deb-2-8-cli the-cli-cookbook-deb-2-8-cli-3146.md
-	xpub pull discourse 3146 3146
-	cp -p the-cli-cookbook-deb-2-8-cli-3146.md originals
-	rm the-cli-cookbook-deb-2-8-cli-3146.md
-	cp the-cli-cookbook.md the-cli-cookbook-snap-2-8-ui-3141.md
-	xpub push discourse -t snap-2-8-ui the-cli-cookbook-snap-2-8-ui-3141.md
-	xpub pull discourse 3141 3141
-	cp -p the-cli-cookbook-snap-2-8-ui-3141.md originals
-	rm the-cli-cookbook-snap-2-8-ui-3141.md
-	cp the-cli-cookbook.md the-cli-cookbook-deb-2-9-ui-3149.md
-	xpub push discourse -t deb-2-9-ui the-cli-cookbook-deb-2-9-ui-3149.md
-	xpub pull discourse 3149 3149
-	cp -p the-cli-cookbook-deb-2-9-ui-3149.md originals
-	rm the-cli-cookbook-deb-2-9-ui-3149.md
-	cp the-cli-cookbook.md the-cli-cookbook-deb-2-7-cli-3144.md
-	xpub push discourse -t deb-2-7-cli the-cli-cookbook-deb-2-7-cli-3144.md
-	xpub pull discourse 3144 3144
-	cp -p the-cli-cookbook-deb-2-7-cli-3144.md originals
-	rm the-cli-cookbook-deb-2-7-cli-3144.md
+	cp the-cli-cookbook.md the-cli-cookbook-2218.md
+	xpub push discourse the-cli-cookbook-2218.md
+	xpub pull discourse 2218 2218
+	cp -p the-cli-cookbook-2218.md originals
+	rm the-cli-cookbook-2218.md
 	chmod 444 originals/*
  
 originals/contact-us-snap-2-8-cli-2552.md: contact-us.md

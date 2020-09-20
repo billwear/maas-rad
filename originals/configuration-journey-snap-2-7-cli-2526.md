@@ -16,7 +16,7 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/configuration-journey-snap-2-7-cli/2526) ~ [UI](/t/configuration-journey-snap-2-7-ui/2527)|[CLI](/t/configuration-journey-snap-2-8-cli/2528) ~ [UI](/t/configuration-journey-snap-2-8-ui/2529)|[CLI](/t/configuration-journey-snap-2-9-cli/2530) ~ [UI](/t/configuration-journey-snap-2-9-ui/2531)|
-|Packages|[CLI](/t/configuration-journey-deb-2-7-cli/2532) ~ [UI](/t/configuration-journey-deb-2-7-ui/2533)||**CLI** ~ [UI](/t/configuration-journey-deb-2-8-ui/2535)|[CLI](/t/configuration-journey-deb-2-9-cli/2536) ~ [UI](/t/configuration-journey-deb-2-9-ui/2537)|
+|Packages|[CLI](/t/configuration-journey-deb-2-7-cli/2532) ~ [UI](/t/configuration-journey-deb-2-7-ui/2533)|**CLI** ~ [UI](/t/configuration-journey-deb-2-8-ui/2535)|[CLI](/t/configuration-journey-deb-2-9-cli/2536) ~ [UI](/t/configuration-journey-deb-2-9-ui/2537)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
@@ -30,7 +30,7 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/configuration-journey-snap-2-7-cli/2526) ~ [UI](/t/configuration-journey-snap-2-7-ui/2527)|[CLI](/t/configuration-journey-snap-2-8-cli/2528) ~ [UI](/t/configuration-journey-snap-2-8-ui/2529)|[CLI](/t/configuration-journey-snap-2-9-cli/2530) ~ [UI](/t/configuration-journey-snap-2-9-ui/2531)|
-|Packages|[CLI](/t/configuration-journey-deb-2-7-cli/2532) ~ [UI](/t/configuration-journey-deb-2-7-ui/2533)|[CLI](/t/configuration-journey-deb-2-8-cli/2534) ~ [UI](/t/configuration-journey-deb-2-8-ui/2535)||**CLI** ~ [UI](/t/configuration-journey-deb-2-9-ui/2537)|
+|Packages|[CLI](/t/configuration-journey-deb-2-7-cli/2532) ~ [UI](/t/configuration-journey-deb-2-7-ui/2533)|[CLI](/t/configuration-journey-deb-2-8-cli/2534) ~ [UI](/t/configuration-journey-deb-2-8-ui/2535)|**CLI** ~ [UI](/t/configuration-journey-deb-2-9-ui/2537)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
@@ -55,7 +55,7 @@
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/configuration-journey-snap-2-7-cli/2526) ~ [UI](/t/configuration-journey-snap-2-7-ui/2527)||**CLI** ~ [UI](/t/configuration-journey-snap-2-8-ui/2529)|[CLI](/t/configuration-journey-snap-2-9-cli/2530) ~ [UI](/t/configuration-journey-snap-2-9-ui/2531)|
+|Snap|[CLI](/t/configuration-journey-snap-2-7-cli/2526) ~ [UI](/t/configuration-journey-snap-2-7-ui/2527)|**CLI** ~ [UI](/t/configuration-journey-snap-2-8-ui/2529)|[CLI](/t/configuration-journey-snap-2-9-cli/2530) ~ [UI](/t/configuration-journey-snap-2-9-ui/2531)|
 |Packages|[CLI](/t/configuration-journey-deb-2-7-cli/2532) ~ [UI](/t/configuration-journey-deb-2-7-ui/2533)|[CLI](/t/configuration-journey-deb-2-8-cli/2534) ~ [UI](/t/configuration-journey-deb-2-8-ui/2535)|[CLI](/t/configuration-journey-deb-2-9-cli/2536) ~ [UI](/t/configuration-journey-deb-2-9-ui/2537)|
  snap-2-8-cli -->
 
@@ -69,7 +69,7 @@
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/configuration-journey-snap-2-7-cli/2526) ~ [UI](/t/configuration-journey-snap-2-7-ui/2527)|[CLI](/t/configuration-journey-snap-2-8-cli/2528) ~ [UI](/t/configuration-journey-snap-2-8-ui/2529)||**CLI** ~ [UI](/t/configuration-journey-snap-2-9-ui/2531)|
+|Snap|[CLI](/t/configuration-journey-snap-2-7-cli/2526) ~ [UI](/t/configuration-journey-snap-2-7-ui/2527)|[CLI](/t/configuration-journey-snap-2-8-cli/2528) ~ [UI](/t/configuration-journey-snap-2-8-ui/2529)|**CLI** ~ [UI](/t/configuration-journey-snap-2-9-ui/2531)|
 |Packages|[CLI](/t/configuration-journey-deb-2-7-cli/2532) ~ [UI](/t/configuration-journey-deb-2-7-ui/2533)|[CLI](/t/configuration-journey-deb-2-8-cli/2534) ~ [UI](/t/configuration-journey-deb-2-8-ui/2535)|[CLI](/t/configuration-journey-deb-2-9-cli/2536) ~ [UI](/t/configuration-journey-deb-2-9-ui/2537)|
  snap-2-9-cli -->
 

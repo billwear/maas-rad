@@ -14,7 +14,7 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/subnet-management-snap-2-7-cli/3114) ~ [UI](/t/subnet-management-snap-2-7-ui/3115)|[CLI](/t/subnet-management-snap-2-8-cli/3116) ~ [UI](/t/subnet-management-snap-2-8-ui/3117)|[CLI](/t/subnet-management-snap-2-9-cli/3118) ~ [UI](/t/subnet-management-snap-2-9-ui/3119)|
-|Packages|[CLI](/t/subnet-management-deb-2-7-cli/3120) ~ [UI](/t/subnet-management-deb-2-7-ui/3121)||**CLI** ~ [UI](/t/subnet-management-deb-2-8-ui/3123)|[CLI](/t/subnet-management-deb-2-9-cli/3124) ~ [UI](/t/subnet-management-deb-2-9-ui/3125)|
+|Packages|[CLI](/t/subnet-management-deb-2-7-cli/3120) ~ [UI](/t/subnet-management-deb-2-7-ui/3121)|**CLI** ~ [UI](/t/subnet-management-deb-2-8-ui/3123)|[CLI](/t/subnet-management-deb-2-9-cli/3124) ~ [UI](/t/subnet-management-deb-2-9-ui/3125)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
@@ -28,7 +28,7 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/subnet-management-snap-2-7-cli/3114) ~ [UI](/t/subnet-management-snap-2-7-ui/3115)|[CLI](/t/subnet-management-snap-2-8-cli/3116) ~ [UI](/t/subnet-management-snap-2-8-ui/3117)|[CLI](/t/subnet-management-snap-2-9-cli/3118) ~ [UI](/t/subnet-management-snap-2-9-ui/3119)|
-|Packages|[CLI](/t/subnet-management-deb-2-7-cli/3120) ~ [UI](/t/subnet-management-deb-2-7-ui/3121)|[CLI](/t/subnet-management-deb-2-8-cli/3122) ~ [UI](/t/subnet-management-deb-2-8-ui/3123)||**CLI** ~ [UI](/t/subnet-management-deb-2-9-ui/3125)|
+|Packages|[CLI](/t/subnet-management-deb-2-7-cli/3120) ~ [UI](/t/subnet-management-deb-2-7-ui/3121)|[CLI](/t/subnet-management-deb-2-8-cli/3122) ~ [UI](/t/subnet-management-deb-2-8-ui/3123)|**CLI** ~ [UI](/t/subnet-management-deb-2-9-ui/3125)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
@@ -55,7 +55,7 @@
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/subnet-management-snap-2-7-cli/3114) ~ [UI](/t/subnet-management-snap-2-7-ui/3115)||**CLI** ~ [UI](/t/subnet-management-snap-2-8-ui/3117)|[CLI](/t/subnet-management-snap-2-9-cli/3118) ~ [UI](/t/subnet-management-snap-2-9-ui/3119)|
+|Snap|[CLI](/t/subnet-management-snap-2-7-cli/3114) ~ [UI](/t/subnet-management-snap-2-7-ui/3115)|**CLI** ~ [UI](/t/subnet-management-snap-2-8-ui/3117)|[CLI](/t/subnet-management-snap-2-9-cli/3118) ~ [UI](/t/subnet-management-snap-2-9-ui/3119)|
 |Packages|[CLI](/t/subnet-management-deb-2-7-cli/3120) ~ [UI](/t/subnet-management-deb-2-7-ui/3121)|[CLI](/t/subnet-management-deb-2-8-cli/3122) ~ [UI](/t/subnet-management-deb-2-8-ui/3123)|[CLI](/t/subnet-management-deb-2-9-cli/3124) ~ [UI](/t/subnet-management-deb-2-9-ui/3125)|
  snap-2-8-cli -->
 
@@ -69,7 +69,7 @@
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/subnet-management-snap-2-7-cli/3114) ~ [UI](/t/subnet-management-snap-2-7-ui/3115)|[CLI](/t/subnet-management-snap-2-8-cli/3116) ~ [UI](/t/subnet-management-snap-2-8-ui/3117)||**CLI** ~ [UI](/t/subnet-management-snap-2-9-ui/3119)|
+|Snap|[CLI](/t/subnet-management-snap-2-7-cli/3114) ~ [UI](/t/subnet-management-snap-2-7-ui/3115)|[CLI](/t/subnet-management-snap-2-8-cli/3116) ~ [UI](/t/subnet-management-snap-2-8-ui/3117)|**CLI** ~ [UI](/t/subnet-management-snap-2-9-ui/3119)|
 |Packages|[CLI](/t/subnet-management-deb-2-7-cli/3120) ~ [UI](/t/subnet-management-deb-2-7-ui/3121)|[CLI](/t/subnet-management-deb-2-8-cli/3122) ~ [UI](/t/subnet-management-deb-2-8-ui/3123)|[CLI](/t/subnet-management-deb-2-9-cli/3124) ~ [UI](/t/subnet-management-deb-2-9-ui/3125)|
  snap-2-9-cli -->
 
