@@ -80,12 +80,82 @@
 |Packages|[CLI](/t/controllers-deb-2-7-cli/2724) ~ [UI](/t/controllers-deb-2-7-ui/2725)|[CLI](/t/controllers-deb-2-8-cli/2726) ~ [UI](/t/controllers-deb-2-8-ui/2727)|[CLI](/t/controllers-deb-2-9-cli/2728) ~ [UI](/t/controllers-deb-2-9-ui/2729)|
  snap-2-9-ui -->
 
-Most of the functionality of MAAS is contained in a series of controllers.  There are two basic types: a region controller and one or more rack controllers. The region controller deals with operator requests, while the rack controller(s) provides high-bandwidth services to the individual machines.  In essence, the region controller interacts with the user, while the rack controllers manage the bare metal.   Note that both region and rack controllers can be scaled out, as well as made [highly available](/t/high-availability/804).
+Most of the functionality of MAAS is contained in a series of controllers.  There are two basic types: a region controller and one or more rack controllers. The region controller deals with operator requests, while the rack controller(s) provides high-bandwidth services to the individual machines.  In essence, the region controller interacts with the user, while the rack controllers manage the bare metal.
+
+<!-- deb-2-7-cli
+[note]
+Note that both region and rack controllers can be scaled out, as well as made [highly available](/t/-/2688).
+[/note]
+deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+[note]
+Note that both region and rack controllers can be scaled out, as well as made [highly available](/t/-/2689).
+[/note]
+deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+[note]
+Note that both region and rack controllers can be scaled out, as well as made [highly available](/t/high-availability/2690).
+[/note]
+deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+[note]
+Note that both region and rack controllers can be scaled out, as well as made [highly available](/t/high-availability/2691).
+[/note]
+deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+[note]
+Note that both region and rack controllers can be scaled out, as well as made [highly available](/t/high-availability/2692).
+[/note]
+deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+[note]
+Note that both region and rack controllers can be scaled out, as well as made [highly available](/t/high-availability/2693).
+[/note]
+deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+[note]
+Note that both region and rack controllers can be scaled out, as well as made [highly available](/t/high-availability/2682).
+[/note]
+snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+[note]
+Note that both region and rack controllers can be scaled out, as well as made [highly available](/t/high-availability/2683).
+[/note]
+snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+[note]
+Note that both region and rack controllers can be scaled out, as well as made [highly available](/t/high-availability/2684).
+[/note]
+deb-2-7-cli -->
+
+[note]
+Note that both region and rack controllers can be scaled out, as well as made [highly available](/t/high-availability/2685).
+[/note]
+
+<!-- snap-2-9-cli
+[note]
+Note that both region and rack controllers can be scaled out, as well as made [highly available](/t/high-availability/2686).
+[/note]
+snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+[note]
+Note that both region and rack controllers can be scaled out, as well as made [highly available](/t/high-availability/2687).
+[/note]
+snap-2-9-ui -->
 
 #### Quick questions you might have:
 
-* [What does a region controller do?](/t/introduction-to-controllers/786#heading--region-controller)
-* [What does a rack controller do?](/t/introduction-to-controllers/786#heading--rack-controllers)
+* [What does a region controller do?](#heading--region-controller)
+* [What does a rack controller do?](#heading--rack-controllers)
 
 <h2 id="heading--region-controller">What a region controller does</h2>
 
