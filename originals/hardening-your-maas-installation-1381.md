@@ -68,10 +68,12 @@
 |Packages|[CLI](/t/hardening-your-maas-installation-deb-2-7-cli/2664) ~ [UI](/t/hardening-your-maas-installation-deb-2-7-ui/2665)|[CLI](/t/hardening-your-maas-installation-deb-2-8-cli/2666) ~ [UI](/t/hardening-your-maas-installation-deb-2-8-ui/2667)|[CLI](/t/hardening-your-maas-installation-deb-2-9-cli/2668) ~ [UI](/t/hardening-your-maas-installation-deb-2-9-ui/2669)|
  snap-2-8-ui -->
 
+<!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/hardening-your-maas-installation-snap-2-7-cli/2658) ~ [UI](/t/hardening-your-maas-installation-snap-2-7-ui/2659)|[CLI](/t/hardening-your-maas-installation-snap-2-8-cli/2660) ~ [UI](/t/hardening-your-maas-installation-snap-2-8-ui/2661)|CLI ~ [UI](/t/hardening-your-maas-installation-snap-2-9-ui/2663)|
 |Packages|[CLI](/t/hardening-your-maas-installation-deb-2-7-cli/2664) ~ [UI](/t/hardening-your-maas-installation-deb-2-7-ui/2665)|[CLI](/t/hardening-your-maas-installation-deb-2-8-cli/2666) ~ [UI](/t/hardening-your-maas-installation-deb-2-8-ui/2667)|[CLI](/t/hardening-your-maas-installation-deb-2-9-cli/2668) ~ [UI](/t/hardening-your-maas-installation-deb-2-9-ui/2669)|
+ snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|

@@ -35,18 +35,7 @@ TARGET_DEPS += originals/adding-a-vm-host-snap-2-8-ui-2289.md
 TARGET_DEPS += originals/adding-a-vm-host-snap-2-9-cli-2290.md
 TARGET_DEPS += originals/adding-a-vm-host-snap-2-9-ui-2291.md
 TARGET_DEPS += originals/api-authentication-742.md
-TARGET_DEPS += originals/audit-event-logs-deb-2-7-cli-2316.md
-TARGET_DEPS += originals/audit-event-logs-deb-2-7-ui-2317.md
-TARGET_DEPS += originals/audit-event-logs-deb-2-8-cli-2318.md
-TARGET_DEPS += originals/audit-event-logs-deb-2-8-ui-2319.md
-TARGET_DEPS += originals/audit-event-logs-deb-2-9-cli-2320.md
-TARGET_DEPS += originals/audit-event-logs-deb-2-9-ui-2321.md
-TARGET_DEPS += originals/audit-event-logs-snap-2-7-cli-2310.md
-TARGET_DEPS += originals/audit-event-logs-snap-2-7-ui-2311.md
-TARGET_DEPS += originals/audit-event-logs-snap-2-8-cli-2312.md
-TARGET_DEPS += originals/audit-event-logs-snap-2-8-ui-2313.md
-TARGET_DEPS += originals/audit-event-logs-snap-2-9-cli-2314.md
-TARGET_DEPS += originals/audit-event-logs-snap-2-9-ui-2315.md
+TARGET_DEPS += originals/audit-event-logs-791.md
 TARGET_DEPS += originals/availability-zones-deb-2-7-cli-2328.md
 TARGET_DEPS += originals/availability-zones-deb-2-7-ui-2329.md
 TARGET_DEPS += originals/availability-zones-deb-2-8-cli-2330.md
@@ -59,18 +48,7 @@ TARGET_DEPS += originals/availability-zones-snap-2-8-cli-2324.md
 TARGET_DEPS += originals/availability-zones-snap-2-8-ui-2325.md
 TARGET_DEPS += originals/availability-zones-snap-2-9-cli-2326.md
 TARGET_DEPS += originals/availability-zones-snap-2-9-ui-2327.md
-TARGET_DEPS += originals/backup-deb-2-7-cli-2340.md
-TARGET_DEPS += originals/backup-deb-2-7-ui-2341.md
-TARGET_DEPS += originals/backup-deb-2-8-cli-2342.md
-TARGET_DEPS += originals/backup-deb-2-8-ui-2343.md
-TARGET_DEPS += originals/backup-deb-2-9-cli-2344.md
-TARGET_DEPS += originals/backup-deb-2-9-ui-2345.md
-TARGET_DEPS += originals/backup-snap-2-7-cli-2334.md
-TARGET_DEPS += originals/backup-snap-2-7-ui-2335.md
-TARGET_DEPS += originals/backup-snap-2-8-cli-2336.md
-TARGET_DEPS += originals/backup-snap-2-8-ui-2337.md
-TARGET_DEPS += originals/backup-snap-2-9-cli-2338.md
-TARGET_DEPS += originals/backup-snap-2-9-ui-2339.md
+TARGET_DEPS += originals/backup-792.md
 TARGET_DEPS += originals/block-devices-deb-2-7-cli-2352.md
 TARGET_DEPS += originals/block-devices-deb-2-7-ui-2353.md
 TARGET_DEPS += originals/block-devices-deb-2-8-cli-2354.md
@@ -129,18 +107,7 @@ TARGET_DEPS += originals/commissioning-logs-snap-2-8-ui-2493.md
 TARGET_DEPS += originals/commissioning-logs-snap-2-9-cli-2494.md
 TARGET_DEPS += originals/commissioning-logs-snap-2-9-ui-2495.md
 TARGET_DEPS += originals/common-cli-tasks-794.md
-TARGET_DEPS += originals/concepts-and-terms-deb-2-7-cli-2520.md
-TARGET_DEPS += originals/concepts-and-terms-deb-2-7-ui-2521.md
-TARGET_DEPS += originals/concepts-and-terms-deb-2-8-cli-2522.md
-TARGET_DEPS += originals/concepts-and-terms-deb-2-8-ui-2523.md
-TARGET_DEPS += originals/concepts-and-terms-deb-2-9-cli-2524.md
-TARGET_DEPS += originals/concepts-and-terms-deb-2-9-ui-2525.md
-TARGET_DEPS += originals/concepts-and-terms-snap-2-7-cli-2514.md
-TARGET_DEPS += originals/concepts-and-terms-snap-2-7-ui-2515.md
-TARGET_DEPS += originals/concepts-and-terms-snap-2-8-cli-2516.md
-TARGET_DEPS += originals/concepts-and-terms-snap-2-8-ui-2517.md
-TARGET_DEPS += originals/concepts-and-terms-snap-2-9-cli-2518.md
-TARGET_DEPS += originals/concepts-and-terms-snap-2-9-ui-2519.md
+TARGET_DEPS += originals/concepts-and-terms-785.md
 TARGET_DEPS += originals/configuration-journey-deb-2-7-cli-2532.md
 TARGET_DEPS += originals/configuration-journey-deb-2-7-ui-2533.md
 TARGET_DEPS += originals/configuration-journey-deb-2-8-cli-2534.md
@@ -262,18 +229,7 @@ TARGET_DEPS += originals/give-me-an-example-of-maas-snap-2-8-cli-2648.md
 TARGET_DEPS += originals/give-me-an-example-of-maas-snap-2-8-ui-2649.md
 TARGET_DEPS += originals/give-me-an-example-of-maas-snap-2-9-cli-2650.md
 TARGET_DEPS += originals/give-me-an-example-of-maas-snap-2-9-ui-2651.md
-TARGET_DEPS += originals/hardening-your-maas-installation-deb-2-7-cli-2664.md
-TARGET_DEPS += originals/hardening-your-maas-installation-deb-2-7-ui-2665.md
-TARGET_DEPS += originals/hardening-your-maas-installation-deb-2-8-cli-2666.md
-TARGET_DEPS += originals/hardening-your-maas-installation-deb-2-8-ui-2667.md
-TARGET_DEPS += originals/hardening-your-maas-installation-deb-2-9-cli-2668.md
-TARGET_DEPS += originals/hardening-your-maas-installation-deb-2-9-ui-2669.md
-TARGET_DEPS += originals/hardening-your-maas-installation-snap-2-7-cli-2658.md
-TARGET_DEPS += originals/hardening-your-maas-installation-snap-2-7-ui-2659.md
-TARGET_DEPS += originals/hardening-your-maas-installation-snap-2-8-cli-2660.md
-TARGET_DEPS += originals/hardening-your-maas-installation-snap-2-8-ui-2661.md
-TARGET_DEPS += originals/hardening-your-maas-installation-snap-2-9-cli-2662.md
-TARGET_DEPS += originals/hardening-your-maas-installation-snap-2-9-ui-2663.md
+TARGET_DEPS += originals/hardening-your-maas-installation-1381.md
 TARGET_DEPS += originals/hardware-testing-deb-2-7-cli-2676.md
 TARGET_DEPS += originals/hardware-testing-deb-2-7-ui-2677.md
 TARGET_DEPS += originals/hardware-testing-deb-2-8-cli-2678.md
@@ -566,18 +522,6 @@ TARGET_DEPS += originals/power-management-snap-2-8-cli-3008.md
 TARGET_DEPS += originals/power-management-snap-2-8-ui-3009.md
 TARGET_DEPS += originals/power-management-snap-2-9-cli-3010.md
 TARGET_DEPS += originals/power-management-snap-2-9-ui-3011.md
-TARGET_DEPS += originals/prometheus-metrics-deb-2-7-cli-3024.md
-TARGET_DEPS += originals/prometheus-metrics-deb-2-7-ui-3025.md
-TARGET_DEPS += originals/prometheus-metrics-deb-2-8-cli-3026.md
-TARGET_DEPS += originals/prometheus-metrics-deb-2-8-ui-3027.md
-TARGET_DEPS += originals/prometheus-metrics-deb-2-9-cli-3028.md
-TARGET_DEPS += originals/prometheus-metrics-deb-2-9-ui-3029.md
-TARGET_DEPS += originals/prometheus-metrics-snap-2-7-cli-3018.md
-TARGET_DEPS += originals/prometheus-metrics-snap-2-7-ui-3019.md
-TARGET_DEPS += originals/prometheus-metrics-snap-2-8-cli-3020.md
-TARGET_DEPS += originals/prometheus-metrics-snap-2-8-ui-3021.md
-TARGET_DEPS += originals/prometheus-metrics-snap-2-9-cli-3022.md
-TARGET_DEPS += originals/prometheus-metrics-snap-2-9-ui-3023.md
 TARGET_DEPS += originals/proxy-deb-2-7-cli-3036.md
 TARGET_DEPS += originals/proxy-deb-2-7-ui-3037.md
 TARGET_DEPS += originals/proxy-deb-2-8-cli-3038.md
@@ -676,18 +620,7 @@ TARGET_DEPS += originals/test-logs-snap-2-9-cli-3130.md
 TARGET_DEPS += originals/test-logs-snap-2-9-ui-3131.md
 TARGET_DEPS += originals/the-cli-cookbook-2218.md
 TARGET_DEPS += originals/tips-tricks-and-traps-1506.md
-TARGET_DEPS += originals/troubleshooting-deb-2-7-cli-3168.md
-TARGET_DEPS += originals/troubleshooting-deb-2-7-ui-3169.md
-TARGET_DEPS += originals/troubleshooting-deb-2-8-cli-3170.md
-TARGET_DEPS += originals/troubleshooting-deb-2-8-ui-3171.md
-TARGET_DEPS += originals/troubleshooting-deb-2-9-cli-3172.md
-TARGET_DEPS += originals/troubleshooting-deb-2-9-ui-3173.md
-TARGET_DEPS += originals/troubleshooting-snap-2-7-cli-3162.md
-TARGET_DEPS += originals/troubleshooting-snap-2-7-ui-3163.md
-TARGET_DEPS += originals/troubleshooting-snap-2-8-cli-3164.md
-TARGET_DEPS += originals/troubleshooting-snap-2-8-ui-3165.md
-TARGET_DEPS += originals/troubleshooting-snap-2-9-cli-3166.md
-TARGET_DEPS += originals/troubleshooting-snap-2-9-ui-3167.md
+TARGET_DEPS += originals/troubleshooting-837.md
 TARGET_DEPS += originals/ubuntu-kernels-deb-2-7-cli-3180.md
 TARGET_DEPS += originals/ubuntu-kernels-deb-2-7-ui-3181.md
 TARGET_DEPS += originals/ubuntu-kernels-deb-2-8-cli-3182.md
@@ -1045,196 +978,22 @@ originals/partitions-snap-2-8-ui-2985.md: partitions.md
 	rm partitions-snap-2-9-cli-2986.md
 	chmod 444 originals/*
  
-originals/troubleshooting-snap-2-8-ui-3165.md: troubleshooting.md
+originals/troubleshooting-837.md: troubleshooting.md
 	chmod 644 originals/*
-	cp troubleshooting.md troubleshooting-snap-2-8-ui-3165.md
-	xpub push discourse -t snap-2-8-ui troubleshooting-snap-2-8-ui-3165.md
-	xpub pull discourse 3165 3165
-	cp -p troubleshooting-snap-2-8-ui-3165.md originals
-	rm troubleshooting-snap-2-8-ui-3165.md
-	cp troubleshooting.md troubleshooting-snap-2-9-ui-3167.md
-	xpub push discourse -t snap-2-9-ui troubleshooting-snap-2-9-ui-3167.md
-	xpub pull discourse 3167 3167
-	cp -p troubleshooting-snap-2-9-ui-3167.md originals
-	rm troubleshooting-snap-2-9-ui-3167.md
-	cp troubleshooting.md troubleshooting-deb-2-8-cli-3170.md
-	xpub push discourse -t deb-2-8-cli troubleshooting-deb-2-8-cli-3170.md
-	xpub pull discourse 3170 3170
-	cp -p troubleshooting-deb-2-8-cli-3170.md originals
-	rm troubleshooting-deb-2-8-cli-3170.md
-	cp troubleshooting.md troubleshooting-snap-2-8-cli-3164.md
-	xpub push discourse -t snap-2-8-cli troubleshooting-snap-2-8-cli-3164.md
-	xpub pull discourse 3164 3164
-	cp -p troubleshooting-snap-2-8-cli-3164.md originals
-	rm troubleshooting-snap-2-8-cli-3164.md
-	cp troubleshooting.md troubleshooting-snap-2-9-cli-3166.md
-	xpub push discourse -t snap-2-9-cli troubleshooting-snap-2-9-cli-3166.md
-	xpub pull discourse 3166 3166
-	cp -p troubleshooting-snap-2-9-cli-3166.md originals
-	rm troubleshooting-snap-2-9-cli-3166.md
-	cp troubleshooting.md troubleshooting-deb-2-8-ui-3171.md
-	xpub push discourse -t deb-2-8-ui troubleshooting-deb-2-8-ui-3171.md
-	xpub pull discourse 3171 3171
-	cp -p troubleshooting-deb-2-8-ui-3171.md originals
-	rm troubleshooting-deb-2-8-ui-3171.md
-	cp troubleshooting.md troubleshooting-deb-2-7-cli-3168.md
-	xpub push discourse -t deb-2-7-cli troubleshooting-deb-2-7-cli-3168.md
-	xpub pull discourse 3168 3168
-	cp -p troubleshooting-deb-2-7-cli-3168.md originals
-	rm troubleshooting-deb-2-7-cli-3168.md
-	cp troubleshooting.md troubleshooting-snap-2-7-ui-3163.md
-	xpub push discourse -t snap-2-7-ui troubleshooting-snap-2-7-ui-3163.md
-	xpub pull discourse 3163 3163
-	cp -p troubleshooting-snap-2-7-ui-3163.md originals
-	rm troubleshooting-snap-2-7-ui-3163.md
-	cp troubleshooting.md troubleshooting-snap-2-7-cli-3162.md
-	xpub push discourse -t snap-2-7-cli troubleshooting-snap-2-7-cli-3162.md
-	xpub pull discourse 3162 3162
-	cp -p troubleshooting-snap-2-7-cli-3162.md originals
-	rm troubleshooting-snap-2-7-cli-3162.md
-	cp troubleshooting.md troubleshooting-deb-2-9-cli-3172.md
-	xpub push discourse -t deb-2-9-cli troubleshooting-deb-2-9-cli-3172.md
-	xpub pull discourse 3172 3172
-	cp -p troubleshooting-deb-2-9-cli-3172.md originals
-	rm troubleshooting-deb-2-9-cli-3172.md
-	cp troubleshooting.md troubleshooting-deb-2-7-ui-3169.md
-	xpub push discourse -t deb-2-7-ui troubleshooting-deb-2-7-ui-3169.md
-	xpub pull discourse 3169 3169
-	cp -p troubleshooting-deb-2-7-ui-3169.md originals
-	rm troubleshooting-deb-2-7-ui-3169.md
-	cp troubleshooting.md troubleshooting-deb-2-9-ui-3173.md
-	xpub push discourse -t deb-2-9-ui troubleshooting-deb-2-9-ui-3173.md
-	xpub pull discourse 3173 3173
-	cp -p troubleshooting-deb-2-9-ui-3173.md originals
-	rm troubleshooting-deb-2-9-ui-3173.md
+	cp troubleshooting.md troubleshooting-837.md
+	xpub push discourse troubleshooting-837.md
+	xpub pull discourse 837 837
+	cp -p troubleshooting-837.md originals
+	rm troubleshooting-837.md
 	chmod 444 originals/*
  
-originals/package-repositories-snap-2-8-cli-2972.md: package-repositories.md
+originals/cli-commissioning-and-hardware-testing-scripts-832.md: cli-commissioning-and-hardware-testing-scripts.md
 	chmod 644 originals/*
-	cp package-repositories.md package-repositories-snap-2-8-cli-2972.md
-	xpub push discourse -t snap-2-8-cli package-repositories-snap-2-8-cli-2972.md
-	xpub pull discourse 2972 2972
-	cp -p package-repositories-snap-2-8-cli-2972.md originals
-	rm package-repositories-snap-2-8-cli-2972.md
-	cp package-repositories.md package-repositories-snap-2-9-ui-2975.md
-	xpub push discourse -t snap-2-9-ui package-repositories-snap-2-9-ui-2975.md
-	xpub pull discourse 2975 2975
-	cp -p package-repositories-snap-2-9-ui-2975.md originals
-	rm package-repositories-snap-2-9-ui-2975.md
-	cp package-repositories.md package-repositories-deb-2-9-ui-2981.md
-	xpub push discourse -t deb-2-9-ui package-repositories-deb-2-9-ui-2981.md
-	xpub pull discourse 2981 2981
-	cp -p package-repositories-deb-2-9-ui-2981.md originals
-	rm package-repositories-deb-2-9-ui-2981.md
-	cp package-repositories.md package-repositories-deb-2-8-ui-2979.md
-	xpub push discourse -t deb-2-8-ui package-repositories-deb-2-8-ui-2979.md
-	xpub pull discourse 2979 2979
-	cp -p package-repositories-deb-2-8-ui-2979.md originals
-	rm package-repositories-deb-2-8-ui-2979.md
-	cp package-repositories.md package-repositories-deb-2-8-cli-2978.md
-	xpub push discourse -t deb-2-8-cli package-repositories-deb-2-8-cli-2978.md
-	xpub pull discourse 2978 2978
-	cp -p package-repositories-deb-2-8-cli-2978.md originals
-	rm package-repositories-deb-2-8-cli-2978.md
-	cp package-repositories.md package-repositories-snap-2-7-cli-2970.md
-	xpub push discourse -t snap-2-7-cli package-repositories-snap-2-7-cli-2970.md
-	xpub pull discourse 2970 2970
-	cp -p package-repositories-snap-2-7-cli-2970.md originals
-	rm package-repositories-snap-2-7-cli-2970.md
-	cp package-repositories.md package-repositories-snap-2-7-ui-2971.md
-	xpub push discourse -t snap-2-7-ui package-repositories-snap-2-7-ui-2971.md
-	xpub pull discourse 2971 2971
-	cp -p package-repositories-snap-2-7-ui-2971.md originals
-	rm package-repositories-snap-2-7-ui-2971.md
-	cp package-repositories.md package-repositories-snap-2-9-cli-2974.md
-	xpub push discourse -t snap-2-9-cli package-repositories-snap-2-9-cli-2974.md
-	xpub pull discourse 2974 2974
-	cp -p package-repositories-snap-2-9-cli-2974.md originals
-	rm package-repositories-snap-2-9-cli-2974.md
-	cp package-repositories.md package-repositories-snap-2-8-ui-2973.md
-	xpub push discourse -t snap-2-8-ui package-repositories-snap-2-8-ui-2973.md
-	xpub pull discourse 2973 2973
-	cp -p package-repositories-snap-2-8-ui-2973.md originals
-	rm package-repositories-snap-2-8-ui-2973.md
-	cp package-repositories.md package-repositories-deb-2-9-cli-2980.md
-	xpub push discourse -t deb-2-9-cli package-repositories-deb-2-9-cli-2980.md
-	xpub pull discourse 2980 2980
-	cp -p package-repositories-deb-2-9-cli-2980.md originals
-	rm package-repositories-deb-2-9-cli-2980.md
-	cp package-repositories.md package-repositories-deb-2-7-ui-2977.md
-	xpub push discourse -t deb-2-7-ui package-repositories-deb-2-7-ui-2977.md
-	xpub pull discourse 2977 2977
-	cp -p package-repositories-deb-2-7-ui-2977.md originals
-	rm package-repositories-deb-2-7-ui-2977.md
-	cp package-repositories.md package-repositories-deb-2-7-cli-2976.md
-	xpub push discourse -t deb-2-7-cli package-repositories-deb-2-7-cli-2976.md
-	xpub pull discourse 2976 2976
-	cp -p package-repositories-deb-2-7-cli-2976.md originals
-	rm package-repositories-deb-2-7-cli-2976.md
-	chmod 444 originals/*
- 
-originals/cli-commissioning-and-hardware-testing-scripts-snap-2-8-cli-2372.md: cli-commissioning-and-hardware-testing-scripts.md
-	chmod 644 originals/*
-	cp cli-commissioning-and-hardware-testing-scripts.md cli-commissioning-and-hardware-testing-scripts-snap-2-8-cli-2372.md
-	xpub push discourse -t snap-2-8-cli cli-commissioning-and-hardware-testing-scripts-snap-2-8-cli-2372.md
-	xpub pull discourse 2372 2372
-	cp -p cli-commissioning-and-hardware-testing-scripts-snap-2-8-cli-2372.md originals
-	rm cli-commissioning-and-hardware-testing-scripts-snap-2-8-cli-2372.md
-	cp cli-commissioning-and-hardware-testing-scripts.md cli-commissioning-and-hardware-testing-scripts-deb-2-8-ui-2379.md
-	xpub push discourse -t deb-2-8-ui cli-commissioning-and-hardware-testing-scripts-deb-2-8-ui-2379.md
-	xpub pull discourse 2379 2379
-	cp -p cli-commissioning-and-hardware-testing-scripts-deb-2-8-ui-2379.md originals
-	rm cli-commissioning-and-hardware-testing-scripts-deb-2-8-ui-2379.md
-	cp cli-commissioning-and-hardware-testing-scripts.md cli-commissioning-and-hardware-testing-scripts-deb-2-7-ui-2377.md
-	xpub push discourse -t deb-2-7-ui cli-commissioning-and-hardware-testing-scripts-deb-2-7-ui-2377.md
-	xpub pull discourse 2377 2377
-	cp -p cli-commissioning-and-hardware-testing-scripts-deb-2-7-ui-2377.md originals
-	rm cli-commissioning-and-hardware-testing-scripts-deb-2-7-ui-2377.md
-	cp cli-commissioning-and-hardware-testing-scripts.md cli-commissioning-and-hardware-testing-scripts-snap-2-7-ui-2371.md
-	xpub push discourse -t snap-2-7-ui cli-commissioning-and-hardware-testing-scripts-snap-2-7-ui-2371.md
-	xpub pull discourse 2371 2371
-	cp -p cli-commissioning-and-hardware-testing-scripts-snap-2-7-ui-2371.md originals
-	rm cli-commissioning-and-hardware-testing-scripts-snap-2-7-ui-2371.md
-	cp cli-commissioning-and-hardware-testing-scripts.md cli-commissioning-and-hardware-testing-scripts-snap-2-8-ui-2373.md
-	xpub push discourse -t snap-2-8-ui cli-commissioning-and-hardware-testing-scripts-snap-2-8-ui-2373.md
-	xpub pull discourse 2373 2373
-	cp -p cli-commissioning-and-hardware-testing-scripts-snap-2-8-ui-2373.md originals
-	rm cli-commissioning-and-hardware-testing-scripts-snap-2-8-ui-2373.md
-	cp cli-commissioning-and-hardware-testing-scripts.md cli-commissioning-and-hardware-testing-scripts-snap-2-7-cli-2370.md
-	xpub push discourse -t snap-2-7-cli cli-commissioning-and-hardware-testing-scripts-snap-2-7-cli-2370.md
-	xpub pull discourse 2370 2370
-	cp -p cli-commissioning-and-hardware-testing-scripts-snap-2-7-cli-2370.md originals
-	rm cli-commissioning-and-hardware-testing-scripts-snap-2-7-cli-2370.md
-	cp cli-commissioning-and-hardware-testing-scripts.md cli-commissioning-and-hardware-testing-scripts-snap-2-9-ui-2375.md
-	xpub push discourse -t snap-2-9-ui cli-commissioning-and-hardware-testing-scripts-snap-2-9-ui-2375.md
-	xpub pull discourse 2375 2375
-	cp -p cli-commissioning-and-hardware-testing-scripts-snap-2-9-ui-2375.md originals
-	rm cli-commissioning-and-hardware-testing-scripts-snap-2-9-ui-2375.md
-	cp cli-commissioning-and-hardware-testing-scripts.md cli-commissioning-and-hardware-testing-scripts-deb-2-9-ui-2381.md
-	xpub push discourse -t deb-2-9-ui cli-commissioning-and-hardware-testing-scripts-deb-2-9-ui-2381.md
-	xpub pull discourse 2381 2381
-	cp -p cli-commissioning-and-hardware-testing-scripts-deb-2-9-ui-2381.md originals
-	rm cli-commissioning-and-hardware-testing-scripts-deb-2-9-ui-2381.md
-	cp cli-commissioning-and-hardware-testing-scripts.md cli-commissioning-and-hardware-testing-scripts-snap-2-9-cli-2374.md
-	xpub push discourse -t snap-2-9-cli cli-commissioning-and-hardware-testing-scripts-snap-2-9-cli-2374.md
-	xpub pull discourse 2374 2374
-	cp -p cli-commissioning-and-hardware-testing-scripts-snap-2-9-cli-2374.md originals
-	rm cli-commissioning-and-hardware-testing-scripts-snap-2-9-cli-2374.md
-	cp cli-commissioning-and-hardware-testing-scripts.md cli-commissioning-and-hardware-testing-scripts-deb-2-8-cli-2378.md
-	xpub push discourse -t deb-2-8-cli cli-commissioning-and-hardware-testing-scripts-deb-2-8-cli-2378.md
-	xpub pull discourse 2378 2378
-	cp -p cli-commissioning-and-hardware-testing-scripts-deb-2-8-cli-2378.md originals
-	rm cli-commissioning-and-hardware-testing-scripts-deb-2-8-cli-2378.md
-	cp cli-commissioning-and-hardware-testing-scripts.md cli-commissioning-and-hardware-testing-scripts-deb-2-7-cli-2376.md
-	xpub push discourse -t deb-2-7-cli cli-commissioning-and-hardware-testing-scripts-deb-2-7-cli-2376.md
-	xpub pull discourse 2376 2376
-	cp -p cli-commissioning-and-hardware-testing-scripts-deb-2-7-cli-2376.md originals
-	rm cli-commissioning-and-hardware-testing-scripts-deb-2-7-cli-2376.md
-	cp cli-commissioning-and-hardware-testing-scripts.md cli-commissioning-and-hardware-testing-scripts-deb-2-9-cli-2380.md
-	xpub push discourse -t deb-2-9-cli cli-commissioning-and-hardware-testing-scripts-deb-2-9-cli-2380.md
-	xpub pull discourse 2380 2380
-	cp -p cli-commissioning-and-hardware-testing-scripts-deb-2-9-cli-2380.md originals
-	rm cli-commissioning-and-hardware-testing-scripts-deb-2-9-cli-2380.md
+	cp cli-commissioning-and-hardware-testing-scripts.md cli-commissioning-and-hardware-testing-scripts-832.md
+	xpub push discourse  cli-commissioning-and-hardware-testing-scripts-832.mdd
+	xpub pull discourse 832 832
+	cp -p cli-commissioning-and-hardware-testing-scripts-832.md originals
+	rm cli-commissioning-and-hardware-testing-scripts-832.md
 	chmod 444 originals/*
  
 originals/kernel-boot-options-deb-2-7-cli-2784.md: kernel-boot-options.md
@@ -1301,68 +1060,13 @@ originals/kernel-boot-options-deb-2-7-cli-2784.md: kernel-boot-options.md
 	rm kernel-boot-options-snap-2-8-ui-2781.md
 	chmod 444 originals/*
  
-originals/python-api-client-snap-2-8-ui-3045.md: python-api-client.md
+originals/python-api-client-810.md: python-api-client.md
 	chmod 644 originals/*
-	cp python-api-client.md python-api-client-snap-2-8-ui-3045.md
-	xpub push discourse -t snap-2-8-ui python-api-client-snap-2-8-ui-3045.md
-	xpub pull discourse 3045 3045
-	cp -p python-api-client-snap-2-8-ui-3045.md originals
-	rm python-api-client-snap-2-8-ui-3045.md
-	cp python-api-client.md python-api-client-snap-2-7-cli-3042.md
-	xpub push discourse -t snap-2-7-cli python-api-client-snap-2-7-cli-3042.md
-	xpub pull discourse 3042 3042
-	cp -p python-api-client-snap-2-7-cli-3042.md originals
-	rm python-api-client-snap-2-7-cli-3042.md
-	cp python-api-client.md python-api-client-snap-2-9-ui-3047.md
-	xpub push discourse -t snap-2-9-ui python-api-client-snap-2-9-ui-3047.md
-	xpub pull discourse 3047 3047
-	cp -p python-api-client-snap-2-9-ui-3047.md originals
-	rm python-api-client-snap-2-9-ui-3047.md
-	cp python-api-client.md python-api-client-deb-2-8-ui-3051.md
-	xpub push discourse -t deb-2-8-ui python-api-client-deb-2-8-ui-3051.md
-	xpub pull discourse 3051 3051
-	cp -p python-api-client-deb-2-8-ui-3051.md originals
-	rm python-api-client-deb-2-8-ui-3051.md
-	cp python-api-client.md python-api-client-deb-2-9-cli-3052.md
-	xpub push discourse -t deb-2-9-cli python-api-client-deb-2-9-cli-3052.md
-	xpub pull discourse 3052 3052
-	cp -p python-api-client-deb-2-9-cli-3052.md originals
-	rm python-api-client-deb-2-9-cli-3052.md
-	cp python-api-client.md python-api-client-deb-2-7-cli-3048.md
-	xpub push discourse -t deb-2-7-cli python-api-client-deb-2-7-cli-3048.md
-	xpub pull discourse 3048 3048
-	cp -p python-api-client-deb-2-7-cli-3048.md originals
-	rm python-api-client-deb-2-7-cli-3048.md
-	cp python-api-client.md python-api-client-deb-2-8-cli-3050.md
-	xpub push discourse -t deb-2-8-cli python-api-client-deb-2-8-cli-3050.md
-	xpub pull discourse 3050 3050
-	cp -p python-api-client-deb-2-8-cli-3050.md originals
-	rm python-api-client-deb-2-8-cli-3050.md
-	cp python-api-client.md python-api-client-snap-2-7-ui-3043.md
-	xpub push discourse -t snap-2-7-ui python-api-client-snap-2-7-ui-3043.md
-	xpub pull discourse 3043 3043
-	cp -p python-api-client-snap-2-7-ui-3043.md originals
-	rm python-api-client-snap-2-7-ui-3043.md
-	cp python-api-client.md python-api-client-snap-2-9-cli-3046.md
-	xpub push discourse -t snap-2-9-cli python-api-client-snap-2-9-cli-3046.md
-	xpub pull discourse 3046 3046
-	cp -p python-api-client-snap-2-9-cli-3046.md originals
-	rm python-api-client-snap-2-9-cli-3046.md
-	cp python-api-client.md python-api-client-snap-2-8-cli-3044.md
-	xpub push discourse -t snap-2-8-cli python-api-client-snap-2-8-cli-3044.md
-	xpub pull discourse 3044 3044
-	cp -p python-api-client-snap-2-8-cli-3044.md originals
-	rm python-api-client-snap-2-8-cli-3044.md
-	cp python-api-client.md python-api-client-deb-2-9-ui-3053.md
-	xpub push discourse -t deb-2-9-ui python-api-client-deb-2-9-ui-3053.md
-	xpub pull discourse 3053 3053
-	cp -p python-api-client-deb-2-9-ui-3053.md originals
-	rm python-api-client-deb-2-9-ui-3053.md
-	cp python-api-client.md python-api-client-deb-2-7-ui-3049.md
-	xpub push discourse -t deb-2-7-ui python-api-client-deb-2-7-ui-3049.md
-	xpub pull discourse 3049 3049
-	cp -p python-api-client-deb-2-7-ui-3049.md originals
-	rm python-api-client-deb-2-7-ui-3049.md
+	cp python-api-client.md python-api-client-810.md
+	xpub push discourse python-api-client-810.md
+	xpub pull discourse 810 810
+	cp -p python-api-client-810.md originals
+	rm python-api-client-810.md
 	chmod 444 originals/*
  
 originals/interactive-search-deb-2-9-ui-2717.md: interactive-search.md
@@ -1429,68 +1133,13 @@ originals/interactive-search-deb-2-9-ui-2717.md: interactive-search.md
 	rm interactive-search-deb-2-8-cli-2714.md
 	chmod 444 originals/*
  
-originals/audit-event-logs-snap-2-7-cli-2310.md: audit-event-logs.md
+originals/audit-event-logs-791.md: audit-event-logs.md
 	chmod 644 originals/*
-	cp audit-event-logs.md audit-event-logs-snap-2-7-cli-2310.md
-	xpub push discourse -t snap-2-7-cli audit-event-logs-snap-2-7-cli-2310.md
-	xpub pull discourse 2310 2310
-	cp -p audit-event-logs-snap-2-7-cli-2310.md originals
-	rm audit-event-logs-snap-2-7-cli-2310.md
-	cp audit-event-logs.md audit-event-logs-deb-2-7-ui-2317.md
-	xpub push discourse -t deb-2-7-ui audit-event-logs-deb-2-7-ui-2317.md
-	xpub pull discourse 2317 2317
-	cp -p audit-event-logs-deb-2-7-ui-2317.md originals
-	rm audit-event-logs-deb-2-7-ui-2317.md
-	cp audit-event-logs.md audit-event-logs-deb-2-7-cli-2316.md
-	xpub push discourse -t deb-2-7-cli audit-event-logs-deb-2-7-cli-2316.md
-	xpub pull discourse 2316 2316
-	cp -p audit-event-logs-deb-2-7-cli-2316.md originals
-	rm audit-event-logs-deb-2-7-cli-2316.md
-	cp audit-event-logs.md audit-event-logs-deb-2-9-cli-2320.md
-	xpub push discourse -t deb-2-9-cli audit-event-logs-deb-2-9-cli-2320.md
-	xpub pull discourse 2320 2320
-	cp -p audit-event-logs-deb-2-9-cli-2320.md originals
-	rm audit-event-logs-deb-2-9-cli-2320.md
-	cp audit-event-logs.md audit-event-logs-deb-2-8-cli-2318.md
-	xpub push discourse -t deb-2-8-cli audit-event-logs-deb-2-8-cli-2318.md
-	xpub pull discourse 2318 2318
-	cp -p audit-event-logs-deb-2-8-cli-2318.md originals
-	rm audit-event-logs-deb-2-8-cli-2318.md
-	cp audit-event-logs.md audit-event-logs-deb-2-9-ui-2321.md
-	xpub push discourse -t deb-2-9-ui audit-event-logs-deb-2-9-ui-2321.md
-	xpub pull discourse 2321 2321
-	cp -p audit-event-logs-deb-2-9-ui-2321.md originals
-	rm audit-event-logs-deb-2-9-ui-2321.md
-	cp audit-event-logs.md audit-event-logs-snap-2-7-ui-2311.md
-	xpub push discourse -t snap-2-7-ui audit-event-logs-snap-2-7-ui-2311.md
-	xpub pull discourse 2311 2311
-	cp -p audit-event-logs-snap-2-7-ui-2311.md originals
-	rm audit-event-logs-snap-2-7-ui-2311.md
-	cp audit-event-logs.md audit-event-logs-deb-2-8-ui-2319.md
-	xpub push discourse -t deb-2-8-ui audit-event-logs-deb-2-8-ui-2319.md
-	xpub pull discourse 2319 2319
-	cp -p audit-event-logs-deb-2-8-ui-2319.md originals
-	rm audit-event-logs-deb-2-8-ui-2319.md
-	cp audit-event-logs.md audit-event-logs-snap-2-8-cli-2312.md
-	xpub push discourse -t snap-2-8-cli audit-event-logs-snap-2-8-cli-2312.md
-	xpub pull discourse 2312 2312
-	cp -p audit-event-logs-snap-2-8-cli-2312.md originals
-	rm audit-event-logs-snap-2-8-cli-2312.md
-	cp audit-event-logs.md audit-event-logs-snap-2-8-ui-2313.md
-	xpub push discourse -t snap-2-8-ui audit-event-logs-snap-2-8-ui-2313.md
-	xpub pull discourse 2313 2313
-	cp -p audit-event-logs-snap-2-8-ui-2313.md originals
-	rm audit-event-logs-snap-2-8-ui-2313.md
-	cp audit-event-logs.md audit-event-logs-snap-2-9-cli-2314.md
-	xpub push discourse -t snap-2-9-cli audit-event-logs-snap-2-9-cli-2314.md
-	xpub pull discourse 2314 2314
-	cp -p audit-event-logs-snap-2-9-cli-2314.md originals
-	rm audit-event-logs-snap-2-9-cli-2314.md
-	cp audit-event-logs.md audit-event-logs-snap-2-9-ui-2315.md
-	xpub push discourse -t snap-2-9-ui audit-event-logs-snap-2-9-ui-2315.md
-	xpub pull discourse 2315 2315
-	cp -p audit-event-logs-snap-2-9-ui-2315.md originals
-	rm audit-event-logs-snap-2-9-ui-2315.md
+	cp audit-event-logs.md audit-event-logs-791.md
+	xpub push discourse audit-event-logs-791.md
+	xpub pull discourse 791 791
+	cp -p audit-event-logs-791.md originals
+	rm audit-event-logs-791.md
 	chmod 444 originals/*
  
 originals/controllers-deb-2-8-ui-2727.md: controllers.md
@@ -1685,68 +1334,13 @@ originals/user-accounts-deb-2-9-cli-3208.md: user-accounts.md
 	rm user-accounts-snap-2-7-ui-3199.md
 	chmod 444 originals/*
  
-originals/cli-dhcp-snippet-management-snap-2-7-cli-2394.md: cli-dhcp-snippet-management.md
+originals/cli-dhcp-snippet-management-796.md: cli-dhcp-snippet-management.md
 	chmod 644 originals/*
-	cp cli-dhcp-snippet-management.md cli-dhcp-snippet-management-snap-2-7-cli-2394.md
-	xpub push discourse -t snap-2-7-cli cli-dhcp-snippet-management-snap-2-7-cli-2394.md
-	xpub pull discourse 2394 2394
-	cp -p cli-dhcp-snippet-management-snap-2-7-cli-2394.md originals
-	rm cli-dhcp-snippet-management-snap-2-7-cli-2394.md
-	cp cli-dhcp-snippet-management.md cli-dhcp-snippet-management-snap-2-9-ui-2399.md
-	xpub push discourse -t snap-2-9-ui cli-dhcp-snippet-management-snap-2-9-ui-2399.md
-	xpub pull discourse 2399 2399
-	cp -p cli-dhcp-snippet-management-snap-2-9-ui-2399.md originals
-	rm cli-dhcp-snippet-management-snap-2-9-ui-2399.md
-	cp cli-dhcp-snippet-management.md cli-dhcp-snippet-management-snap-2-9-cli-2398.md
-	xpub push discourse -t snap-2-9-cli cli-dhcp-snippet-management-snap-2-9-cli-2398.md
-	xpub pull discourse 2398 2398
-	cp -p cli-dhcp-snippet-management-snap-2-9-cli-2398.md originals
-	rm cli-dhcp-snippet-management-snap-2-9-cli-2398.md
-	cp cli-dhcp-snippet-management.md cli-dhcp-snippet-management-deb-2-9-ui-2405.md
-	xpub push discourse -t deb-2-9-ui cli-dhcp-snippet-management-deb-2-9-ui-2405.md
-	xpub pull discourse 2405 2405
-	cp -p cli-dhcp-snippet-management-deb-2-9-ui-2405.md originals
-	rm cli-dhcp-snippet-management-deb-2-9-ui-2405.md
-	cp cli-dhcp-snippet-management.md cli-dhcp-snippet-management-snap-2-8-cli-2396.md
-	xpub push discourse -t snap-2-8-cli cli-dhcp-snippet-management-snap-2-8-cli-2396.md
-	xpub pull discourse 2396 2396
-	cp -p cli-dhcp-snippet-management-snap-2-8-cli-2396.md originals
-	rm cli-dhcp-snippet-management-snap-2-8-cli-2396.md
-	cp cli-dhcp-snippet-management.md cli-dhcp-snippet-management-deb-2-8-cli-2402.md
-	xpub push discourse -t deb-2-8-cli cli-dhcp-snippet-management-deb-2-8-cli-2402.md
-	xpub pull discourse 2402 2402
-	cp -p cli-dhcp-snippet-management-deb-2-8-cli-2402.md originals
-	rm cli-dhcp-snippet-management-deb-2-8-cli-2402.md
-	cp cli-dhcp-snippet-management.md cli-dhcp-snippet-management-deb-2-8-ui-2403.md
-	xpub push discourse -t deb-2-8-ui cli-dhcp-snippet-management-deb-2-8-ui-2403.md
-	xpub pull discourse 2403 2403
-	cp -p cli-dhcp-snippet-management-deb-2-8-ui-2403.md originals
-	rm cli-dhcp-snippet-management-deb-2-8-ui-2403.md
-	cp cli-dhcp-snippet-management.md cli-dhcp-snippet-management-deb-2-7-cli-2400.md
-	xpub push discourse -t deb-2-7-cli cli-dhcp-snippet-management-deb-2-7-cli-2400.md
-	xpub pull discourse 2400 2400
-	cp -p cli-dhcp-snippet-management-deb-2-7-cli-2400.md originals
-	rm cli-dhcp-snippet-management-deb-2-7-cli-2400.md
-	cp cli-dhcp-snippet-management.md cli-dhcp-snippet-management-deb-2-9-cli-2404.md
-	xpub push discourse -t deb-2-9-cli cli-dhcp-snippet-management-deb-2-9-cli-2404.md
-	xpub pull discourse 2404 2404
-	cp -p cli-dhcp-snippet-management-deb-2-9-cli-2404.md originals
-	rm cli-dhcp-snippet-management-deb-2-9-cli-2404.md
-	cp cli-dhcp-snippet-management.md cli-dhcp-snippet-management-snap-2-7-ui-2395.md
-	xpub push discourse -t snap-2-7-ui cli-dhcp-snippet-management-snap-2-7-ui-2395.md
-	xpub pull discourse 2395 2395
-	cp -p cli-dhcp-snippet-management-snap-2-7-ui-2395.md originals
-	rm cli-dhcp-snippet-management-snap-2-7-ui-2395.md
-	cp cli-dhcp-snippet-management.md cli-dhcp-snippet-management-deb-2-7-ui-2401.md
-	xpub push discourse -t deb-2-7-ui cli-dhcp-snippet-management-deb-2-7-ui-2401.md
-	xpub pull discourse 2401 2401
-	cp -p cli-dhcp-snippet-management-deb-2-7-ui-2401.md originals
-	rm cli-dhcp-snippet-management-deb-2-7-ui-2401.md
-	cp cli-dhcp-snippet-management.md cli-dhcp-snippet-management-snap-2-8-ui-2397.md
-	xpub push discourse -t snap-2-8-ui cli-dhcp-snippet-management-snap-2-8-ui-2397.md
-	xpub pull discourse 2397 2397
-	cp -p cli-dhcp-snippet-management-snap-2-8-ui-2397.md originals
-	rm cli-dhcp-snippet-management-snap-2-8-ui-2397.md
+	cp cli-dhcp-snippet-management.md cli-dhcp-snippet-management-796.md
+	xpub push discourse cli-dhcp-snippet-management-796.md
+	xpub pull discourse 796 796
+	cp -p cli-dhcp-snippet-management-796.md originals
+	rm cli-dhcp-snippet-management-796.md
 	chmod 444 originals/*
  
 originals/resource-pools-snap-2-8-cli-3080.md: resource-pools.md
@@ -2135,68 +1729,13 @@ originals/managing-dhcp-snap-2-9-cli-2902.md: managing-dhcp.md
 	rm managing-dhcp-deb-2-9-ui-2909.md
 	chmod 444 originals/*
  
-originals/cli-image-management-snap-2-7-cli-2406.md: cli-image-management.md
+originals/cli-image-management-797.md: cli-image-management.md
 	chmod 644 originals/*
-	cp cli-image-management.md cli-image-management-snap-2-7-cli-2406.md
-	xpub push discourse -t snap-2-7-cli cli-image-management-snap-2-7-cli-2406.md
-	xpub pull discourse 2406 2406
-	cp -p cli-image-management-snap-2-7-cli-2406.md originals
-	rm cli-image-management-snap-2-7-cli-2406.md
-	cp cli-image-management.md cli-image-management-deb-2-8-cli-2414.md
-	xpub push discourse -t deb-2-8-cli cli-image-management-deb-2-8-cli-2414.md
-	xpub pull discourse 2414 2414
-	cp -p cli-image-management-deb-2-8-cli-2414.md originals
-	rm cli-image-management-deb-2-8-cli-2414.md
-	cp cli-image-management.md cli-image-management-deb-2-7-ui-2413.md
-	xpub push discourse -t deb-2-7-ui cli-image-management-deb-2-7-ui-2413.md
-	xpub pull discourse 2413 2413
-	cp -p cli-image-management-deb-2-7-ui-2413.md originals
-	rm cli-image-management-deb-2-7-ui-2413.md
-	cp cli-image-management.md cli-image-management-snap-2-7-ui-2407.md
-	xpub push discourse -t snap-2-7-ui cli-image-management-snap-2-7-ui-2407.md
-	xpub pull discourse 2407 2407
-	cp -p cli-image-management-snap-2-7-ui-2407.md originals
-	rm cli-image-management-snap-2-7-ui-2407.md
-	cp cli-image-management.md cli-image-management-snap-2-8-cli-2408.md
-	xpub push discourse -t snap-2-8-cli cli-image-management-snap-2-8-cli-2408.md
-	xpub pull discourse 2408 2408
-	cp -p cli-image-management-snap-2-8-cli-2408.md originals
-	rm cli-image-management-snap-2-8-cli-2408.md
-	cp cli-image-management.md cli-image-management-deb-2-9-ui-2417.md
-	xpub push discourse -t deb-2-9-ui cli-image-management-deb-2-9-ui-2417.md
-	xpub pull discourse 2417 2417
-	cp -p cli-image-management-deb-2-9-ui-2417.md originals
-	rm cli-image-management-deb-2-9-ui-2417.md
-	cp cli-image-management.md cli-image-management-deb-2-8-ui-2415.md
-	xpub push discourse -t deb-2-8-ui cli-image-management-deb-2-8-ui-2415.md
-	xpub pull discourse 2415 2415
-	cp -p cli-image-management-deb-2-8-ui-2415.md originals
-	rm cli-image-management-deb-2-8-ui-2415.md
-	cp cli-image-management.md cli-image-management-deb-2-9-cli-2416.md
-	xpub push discourse -t deb-2-9-cli cli-image-management-deb-2-9-cli-2416.md
-	xpub pull discourse 2416 2416
-	cp -p cli-image-management-deb-2-9-cli-2416.md originals
-	rm cli-image-management-deb-2-9-cli-2416.md
-	cp cli-image-management.md cli-image-management-snap-2-9-cli-2410.md
-	xpub push discourse -t snap-2-9-cli cli-image-management-snap-2-9-cli-2410.md
-	xpub pull discourse 2410 2410
-	cp -p cli-image-management-snap-2-9-cli-2410.md originals
-	rm cli-image-management-snap-2-9-cli-2410.md
-	cp cli-image-management.md cli-image-management-snap-2-9-ui-2411.md
-	xpub push discourse -t snap-2-9-ui cli-image-management-snap-2-9-ui-2411.md
-	xpub pull discourse 2411 2411
-	cp -p cli-image-management-snap-2-9-ui-2411.md originals
-	rm cli-image-management-snap-2-9-ui-2411.md
-	cp cli-image-management.md cli-image-management-snap-2-8-ui-2409.md
-	xpub push discourse -t snap-2-8-ui cli-image-management-snap-2-8-ui-2409.md
-	xpub pull discourse 2409 2409
-	cp -p cli-image-management-snap-2-8-ui-2409.md originals
-	rm cli-image-management-snap-2-8-ui-2409.md
-	cp cli-image-management.md cli-image-management-deb-2-7-cli-2412.md
-	xpub push discourse -t deb-2-7-cli cli-image-management-deb-2-7-cli-2412.md
-	xpub pull discourse 2412 2412
-	cp -p cli-image-management-deb-2-7-cli-2412.md originals
-	rm cli-image-management-deb-2-7-cli-2412.md
+	cp cli-image-management.md cli-image-management-797.md
+	xpub push discourse cli-image-management-797.md
+	xpub pull discourse 797 797
+	cp -p cli-image-management-797.md originals
+	rm cli-image-management-797.md
 	chmod 444 originals/*
  
 originals/vm-host-networking-deb-2-7-cli-3216.md: vm-host-networking.md
@@ -2263,68 +1802,13 @@ originals/vm-host-networking-deb-2-7-cli-3216.md: vm-host-networking.md
 	rm vm-host-networking-snap-2-9-cli-3214.md
 	chmod 444 originals/*
  
-originals/api-authentication-snap-2-9-cli-2302.md: api-authentication.md
+originals/api-authentication-742.md: api-authentication.md
 	chmod 644 originals/*
-	cp api-authentication.md api-authentication-snap-2-9-cli-2302.md
-	xpub push discourse -t snap-2-9-cli api-authentication-snap-2-9-cli-2302.md
-	xpub pull discourse 2302 2302
-	cp -p api-authentication-snap-2-9-cli-2302.md originals
-	rm api-authentication-snap-2-9-cli-2302.md
-	cp api-authentication.md api-authentication-snap-2-8-cli-2300.md
-	xpub push discourse -t snap-2-8-cli api-authentication-snap-2-8-cli-2300.md
-	xpub pull discourse 2300 2300
-	cp -p api-authentication-snap-2-8-cli-2300.md originals
-	rm api-authentication-snap-2-8-cli-2300.md
-	cp api-authentication.md api-authentication-snap-2-7-ui-2299.md
-	xpub push discourse -t snap-2-7-ui api-authentication-snap-2-7-ui-2299.md
-	xpub pull discourse 2299 2299
-	cp -p api-authentication-snap-2-7-ui-2299.md originals
-	rm api-authentication-snap-2-7-ui-2299.md
-	cp api-authentication.md api-authentication-deb-2-7-cli-2304.md
-	xpub push discourse -t deb-2-7-cli api-authentication-deb-2-7-cli-2304.md
-	xpub pull discourse 2304 2304
-	cp -p api-authentication-deb-2-7-cli-2304.md originals
-	rm api-authentication-deb-2-7-cli-2304.md
-	cp api-authentication.md api-authentication-deb-2-8-cli-2306.md
-	xpub push discourse -t deb-2-8-cli api-authentication-deb-2-8-cli-2306.md
-	xpub pull discourse 2306 2306
-	cp -p api-authentication-deb-2-8-cli-2306.md originals
-	rm api-authentication-deb-2-8-cli-2306.md
-	cp api-authentication.md api-authentication-deb-2-7-ui-2305.md
-	xpub push discourse -t deb-2-7-ui api-authentication-deb-2-7-ui-2305.md
-	xpub pull discourse 2305 2305
-	cp -p api-authentication-deb-2-7-ui-2305.md originals
-	rm api-authentication-deb-2-7-ui-2305.md
-	cp api-authentication.md api-authentication-snap-2-7-cli-2298.md
-	xpub push discourse -t snap-2-7-cli api-authentication-snap-2-7-cli-2298.md
-	xpub pull discourse 2298 2298
-	cp -p api-authentication-snap-2-7-cli-2298.md originals
-	rm api-authentication-snap-2-7-cli-2298.md
-	cp api-authentication.md api-authentication-snap-2-8-ui-2301.md
-	xpub push discourse -t snap-2-8-ui api-authentication-snap-2-8-ui-2301.md
-	xpub pull discourse 2301 2301
-	cp -p api-authentication-snap-2-8-ui-2301.md originals
-	rm api-authentication-snap-2-8-ui-2301.md
-	cp api-authentication.md api-authentication-deb-2-8-ui-2307.md
-	xpub push discourse -t deb-2-8-ui api-authentication-deb-2-8-ui-2307.md
-	xpub pull discourse 2307 2307
-	cp -p api-authentication-deb-2-8-ui-2307.md originals
-	rm api-authentication-deb-2-8-ui-2307.md
-	cp api-authentication.md api-authentication-deb-2-9-cli-2308.md
-	xpub push discourse -t deb-2-9-cli api-authentication-deb-2-9-cli-2308.md
-	xpub pull discourse 2308 2308
-	cp -p api-authentication-deb-2-9-cli-2308.md originals
-	rm api-authentication-deb-2-9-cli-2308.md
-	cp api-authentication.md api-authentication-deb-2-9-ui-2309.md
-	xpub push discourse -t deb-2-9-ui api-authentication-deb-2-9-ui-2309.md
-	xpub pull discourse 2309 2309
-	cp -p api-authentication-deb-2-9-ui-2309.md originals
-	rm api-authentication-deb-2-9-ui-2309.md
-	cp api-authentication.md api-authentication-snap-2-9-ui-2303.md
-	xpub push discourse -t snap-2-9-ui api-authentication-snap-2-9-ui-2303.md
-	xpub pull discourse 2303 2303
-	cp -p api-authentication-snap-2-9-ui-2303.md originals
-	rm api-authentication-snap-2-9-ui-2303.md
+	cp api-authentication.md api-authentication-742.md
+	xpub push discourse api-authentication-742.md
+	xpub pull discourse 742 742
+	cp -p api-authentication-742.md originals
+	rm api-authentication-742.md
 	chmod 444 originals/*
  
 originals/vmware-images-snap-2-9-cli-3238.md: vmware-images.md
@@ -2969,68 +2453,13 @@ originals/writing-guide-deb-2-8-ui-3267.md: writing-guide.md
 	rm writing-guide-deb-2-7-cli-3264.md
 	chmod 444 originals/*
  
-originals/cli-interface-management-snap-2-9-cli-2422.md: cli-interface-management.md
+originals/cli-interface-management-798.md: cli-interface-management.md
 	chmod 644 originals/*
-	cp cli-interface-management.md cli-interface-management-snap-2-9-cli-2422.md
-	xpub push discourse -t snap-2-9-cli cli-interface-management-snap-2-9-cli-2422.md
-	xpub pull discourse 2422 2422
-	cp -p cli-interface-management-snap-2-9-cli-2422.md originals
-	rm cli-interface-management-snap-2-9-cli-2422.md
-	cp cli-interface-management.md cli-interface-management-snap-2-8-cli-2420.md
-	xpub push discourse -t snap-2-8-cli cli-interface-management-snap-2-8-cli-2420.md
-	xpub pull discourse 2420 2420
-	cp -p cli-interface-management-snap-2-8-cli-2420.md originals
-	rm cli-interface-management-snap-2-8-cli-2420.md
-	cp cli-interface-management.md cli-interface-management-snap-2-8-ui-2421.md
-	xpub push discourse -t snap-2-8-ui cli-interface-management-snap-2-8-ui-2421.md
-	xpub pull discourse 2421 2421
-	cp -p cli-interface-management-snap-2-8-ui-2421.md originals
-	rm cli-interface-management-snap-2-8-ui-2421.md
-	cp cli-interface-management.md cli-interface-management-deb-2-8-ui-2427.md
-	xpub push discourse -t deb-2-8-ui cli-interface-management-deb-2-8-ui-2427.md
-	xpub pull discourse 2427 2427
-	cp -p cli-interface-management-deb-2-8-ui-2427.md originals
-	rm cli-interface-management-deb-2-8-ui-2427.md
-	cp cli-interface-management.md cli-interface-management-snap-2-7-cli-2418.md
-	xpub push discourse -t snap-2-7-cli cli-interface-management-snap-2-7-cli-2418.md
-	xpub pull discourse 2418 2418
-	cp -p cli-interface-management-snap-2-7-cli-2418.md originals
-	rm cli-interface-management-snap-2-7-cli-2418.md
-	cp cli-interface-management.md cli-interface-management-snap-2-9-ui-2423.md
-	xpub push discourse -t snap-2-9-ui cli-interface-management-snap-2-9-ui-2423.md
-	xpub pull discourse 2423 2423
-	cp -p cli-interface-management-snap-2-9-ui-2423.md originals
-	rm cli-interface-management-snap-2-9-ui-2423.md
-	cp cli-interface-management.md cli-interface-management-deb-2-9-ui-2429.md
-	xpub push discourse -t deb-2-9-ui cli-interface-management-deb-2-9-ui-2429.md
-	xpub pull discourse 2429 2429
-	cp -p cli-interface-management-deb-2-9-ui-2429.md originals
-	rm cli-interface-management-deb-2-9-ui-2429.md
-	cp cli-interface-management.md cli-interface-management-deb-2-7-cli-2424.md
-	xpub push discourse -t deb-2-7-cli cli-interface-management-deb-2-7-cli-2424.md
-	xpub pull discourse 2424 2424
-	cp -p cli-interface-management-deb-2-7-cli-2424.md originals
-	rm cli-interface-management-deb-2-7-cli-2424.md
-	cp cli-interface-management.md cli-interface-management-deb-2-8-cli-2426.md
-	xpub push discourse -t deb-2-8-cli cli-interface-management-deb-2-8-cli-2426.md
-	xpub pull discourse 2426 2426
-	cp -p cli-interface-management-deb-2-8-cli-2426.md originals
-	rm cli-interface-management-deb-2-8-cli-2426.md
-	cp cli-interface-management.md cli-interface-management-deb-2-7-ui-2425.md
-	xpub push discourse -t deb-2-7-ui cli-interface-management-deb-2-7-ui-2425.md
-	xpub pull discourse 2425 2425
-	cp -p cli-interface-management-deb-2-7-ui-2425.md originals
-	rm cli-interface-management-deb-2-7-ui-2425.md
-	cp cli-interface-management.md cli-interface-management-deb-2-9-cli-2428.md
-	xpub push discourse -t deb-2-9-cli cli-interface-management-deb-2-9-cli-2428.md
-	xpub pull discourse 2428 2428
-	cp -p cli-interface-management-deb-2-9-cli-2428.md originals
-	rm cli-interface-management-deb-2-9-cli-2428.md
-	cp cli-interface-management.md cli-interface-management-snap-2-7-ui-2419.md
-	xpub push discourse -t snap-2-7-ui cli-interface-management-snap-2-7-ui-2419.md
-	xpub pull discourse 2419 2419
-	cp -p cli-interface-management-snap-2-7-ui-2419.md originals
-	rm cli-interface-management-snap-2-7-ui-2419.md
+	cp cli-interface-management.md cli-interface-management-798.md
+	xpub push discourse cli-interface-management-798.md
+	xpub pull discourse 798 798
+	cp -p cli-interface-management-798.md originals
+	rm cli-interface-management-798.md
 	chmod 444 originals/*
  
 originals/network-testing-snap-2-7-ui-2935.md: network-testing.md
@@ -3609,68 +3038,13 @@ originals/ipv6-addressing-deb-2-7-cli-2772.md: ipv6-addressing.md
 	rm ipv6-addressing-snap-2-8-cli-2768.md
 	chmod 444 originals/*
  
-originals/maas-cli-deb-2-9-cli-2824.md: maas-cli.md
+originals/maas-cli-802: maas-cli.md
 	chmod 644 originals/*
-	cp maas-cli.md maas-cli-deb-2-9-cli-2824.md
-	xpub push discourse -t deb-2-9-cli maas-cli-deb-2-9-cli-2824.md
-	xpub pull discourse 2824 2824
-	cp -p maas-cli-deb-2-9-cli-2824.md originals
-	rm maas-cli-deb-2-9-cli-2824.md
-	cp maas-cli.md maas-cli-deb-2-9-ui-2825.md
-	xpub push discourse -t deb-2-9-ui maas-cli-deb-2-9-ui-2825.md
-	xpub pull discourse 2825 2825
-	cp -p maas-cli-deb-2-9-ui-2825.md originals
-	rm maas-cli-deb-2-9-ui-2825.md
-	cp maas-cli.md maas-cli-deb-2-7-cli-2820.md
-	xpub push discourse -t deb-2-7-cli maas-cli-deb-2-7-cli-2820.md
-	xpub pull discourse 2820 2820
-	cp -p maas-cli-deb-2-7-cli-2820.md originals
-	rm maas-cli-deb-2-7-cli-2820.md
-	cp maas-cli.md maas-cli-snap-2-8-cli-2816.md
-	xpub push discourse -t snap-2-8-cli maas-cli-snap-2-8-cli-2816.md
-	xpub pull discourse 2816 2816
-	cp -p maas-cli-snap-2-8-cli-2816.md originals
-	rm maas-cli-snap-2-8-cli-2816.md
-	cp maas-cli.md maas-cli-snap-2-9-ui-2819.md
-	xpub push discourse -t snap-2-9-ui maas-cli-snap-2-9-ui-2819.md
-	xpub pull discourse 2819 2819
-	cp -p maas-cli-snap-2-9-ui-2819.md originals
-	rm maas-cli-snap-2-9-ui-2819.md
-	cp maas-cli.md maas-cli-snap-2-9-cli-2818.md
-	xpub push discourse -t snap-2-9-cli maas-cli-snap-2-9-cli-2818.md
-	xpub pull discourse 2818 2818
-	cp -p maas-cli-snap-2-9-cli-2818.md originals
-	rm maas-cli-snap-2-9-cli-2818.md
-	cp maas-cli.md maas-cli-deb-2-8-cli-2822.md
-	xpub push discourse -t deb-2-8-cli maas-cli-deb-2-8-cli-2822.md
-	xpub pull discourse 2822 2822
-	cp -p maas-cli-deb-2-8-cli-2822.md originals
-	rm maas-cli-deb-2-8-cli-2822.md
-	cp maas-cli.md maas-cli-snap-2-7-ui-2815.md
-	xpub push discourse -t snap-2-7-ui maas-cli-snap-2-7-ui-2815.md
-	xpub pull discourse 2815 2815
-	cp -p maas-cli-snap-2-7-ui-2815.md originals
-	rm maas-cli-snap-2-7-ui-2815.md
-	cp maas-cli.md maas-cli-snap-2-7-cli-2814.md
-	xpub push discourse -t snap-2-7-cli maas-cli-snap-2-7-cli-2814.md
-	xpub pull discourse 2814 2814
-	cp -p maas-cli-snap-2-7-cli-2814.md originals
-	rm maas-cli-snap-2-7-cli-2814.md
-	cp maas-cli.md maas-cli-deb-2-7-ui-2821.md
-	xpub push discourse -t deb-2-7-ui maas-cli-deb-2-7-ui-2821.md
-	xpub pull discourse 2821 2821
-	cp -p maas-cli-deb-2-7-ui-2821.md originals
-	rm maas-cli-deb-2-7-ui-2821.md
-	cp maas-cli.md maas-cli-deb-2-8-ui-2823.md
-	xpub push discourse -t deb-2-8-ui maas-cli-deb-2-8-ui-2823.md
-	xpub pull discourse 2823 2823
-	cp -p maas-cli-deb-2-8-ui-2823.md originals
-	rm maas-cli-deb-2-8-ui-2823.md
-	cp maas-cli.md maas-cli-snap-2-8-ui-2817.md
-	xpub push discourse -t snap-2-8-ui maas-cli-snap-2-8-ui-2817.md
-	xpub pull discourse 2817 2817
-	cp -p maas-cli-snap-2-8-ui-2817.md originals
-	rm maas-cli-snap-2-8-ui-2817.md
+	cp maas-cli.md maas-cli-802.md
+	xpub push discourse maas-cli-802.md
+	xpub pull discourse 802 802
+	cp -p maas-cli-802.md originals
+	rm maas-cli-802.md
 	chmod 444 originals/*
  
 originals/language-details-contributing-to-maas-docs-snap-2-8-ui-2793.md: language-details-contributing-to-maas-docs.md
@@ -3737,68 +3111,13 @@ originals/language-details-contributing-to-maas-docs-snap-2-8-ui-2793.md: langua
 	rm language-details-contributing-to-maas-docs-deb-2-9-ui-2801.md
 	chmod 444 originals/*
  
-originals/hardening-your-maas-installation-deb-2-8-cli-2666.md: hardening-your-maas-installation.md
+originals/hardening-your-maas-installation-1381.md: hardening-your-maas-installation.md
 	chmod 644 originals/*
-	cp hardening-your-maas-installation.md hardening-your-maas-installation-deb-2-8-cli-2666.md
-	xpub push discourse -t deb-2-8-cli hardening-your-maas-installation-deb-2-8-cli-2666.md
-	xpub pull discourse 2666 2666
-	cp -p hardening-your-maas-installation-deb-2-8-cli-2666.md originals
-	rm hardening-your-maas-installation-deb-2-8-cli-2666.md
-	cp hardening-your-maas-installation.md hardening-your-maas-installation-snap-2-9-cli-2662.md
-	xpub push discourse -t snap-2-9-cli hardening-your-maas-installation-snap-2-9-cli-2662.md
-	xpub pull discourse 2662 2662
-	cp -p hardening-your-maas-installation-snap-2-9-cli-2662.md originals
-	rm hardening-your-maas-installation-snap-2-9-cli-2662.md
-	cp hardening-your-maas-installation.md hardening-your-maas-installation-deb-2-7-cli-2664.md
-	xpub push discourse -t deb-2-7-cli hardening-your-maas-installation-deb-2-7-cli-2664.md
-	xpub pull discourse 2664 2664
-	cp -p hardening-your-maas-installation-deb-2-7-cli-2664.md originals
-	rm hardening-your-maas-installation-deb-2-7-cli-2664.md
-	cp hardening-your-maas-installation.md hardening-your-maas-installation-snap-2-7-ui-2659.md
-	xpub push discourse -t snap-2-7-ui hardening-your-maas-installation-snap-2-7-ui-2659.md
-	xpub pull discourse 2659 2659
-	cp -p hardening-your-maas-installation-snap-2-7-ui-2659.md originals
-	rm hardening-your-maas-installation-snap-2-7-ui-2659.md
-	cp hardening-your-maas-installation.md hardening-your-maas-installation-deb-2-9-ui-2669.md
-	xpub push discourse -t deb-2-9-ui hardening-your-maas-installation-deb-2-9-ui-2669.md
-	xpub pull discourse 2669 2669
-	cp -p hardening-your-maas-installation-deb-2-9-ui-2669.md originals
-	rm hardening-your-maas-installation-deb-2-9-ui-2669.md
-	cp hardening-your-maas-installation.md hardening-your-maas-installation-snap-2-7-cli-2658.md
-	xpub push discourse -t snap-2-7-cli hardening-your-maas-installation-snap-2-7-cli-2658.md
-	xpub pull discourse 2658 2658
-	cp -p hardening-your-maas-installation-snap-2-7-cli-2658.md originals
-	rm hardening-your-maas-installation-snap-2-7-cli-2658.md
-	cp hardening-your-maas-installation.md hardening-your-maas-installation-deb-2-7-ui-2665.md
-	xpub push discourse -t deb-2-7-ui hardening-your-maas-installation-deb-2-7-ui-2665.md
-	xpub pull discourse 2665 2665
-	cp -p hardening-your-maas-installation-deb-2-7-ui-2665.md originals
-	rm hardening-your-maas-installation-deb-2-7-ui-2665.md
-	cp hardening-your-maas-installation.md hardening-your-maas-installation-snap-2-9-ui-2663.md
-	xpub push discourse -t snap-2-9-ui hardening-your-maas-installation-snap-2-9-ui-2663.md
-	xpub pull discourse 2663 2663
-	cp -p hardening-your-maas-installation-snap-2-9-ui-2663.md originals
-	rm hardening-your-maas-installation-snap-2-9-ui-2663.md
-	cp hardening-your-maas-installation.md hardening-your-maas-installation-snap-2-8-cli-2660.md
-	xpub push discourse -t snap-2-8-cli hardening-your-maas-installation-snap-2-8-cli-2660.md
-	xpub pull discourse 2660 2660
-	cp -p hardening-your-maas-installation-snap-2-8-cli-2660.md originals
-	rm hardening-your-maas-installation-snap-2-8-cli-2660.md
-	cp hardening-your-maas-installation.md hardening-your-maas-installation-deb-2-9-cli-2668.md
-	xpub push discourse -t deb-2-9-cli hardening-your-maas-installation-deb-2-9-cli-2668.md
-	xpub pull discourse 2668 2668
-	cp -p hardening-your-maas-installation-deb-2-9-cli-2668.md originals
-	rm hardening-your-maas-installation-deb-2-9-cli-2668.md
-	cp hardening-your-maas-installation.md hardening-your-maas-installation-deb-2-8-ui-2667.md
-	xpub push discourse -t deb-2-8-ui hardening-your-maas-installation-deb-2-8-ui-2667.md
-	xpub pull discourse 2667 2667
-	cp -p hardening-your-maas-installation-deb-2-8-ui-2667.md originals
-	rm hardening-your-maas-installation-deb-2-8-ui-2667.md
-	cp hardening-your-maas-installation.md hardening-your-maas-installation-snap-2-8-ui-2661.md
-	xpub push discourse -t snap-2-8-ui hardening-your-maas-installation-snap-2-8-ui-2661.md
-	xpub pull discourse 2661 2661
-	cp -p hardening-your-maas-installation-snap-2-8-ui-2661.md originals
-	rm hardening-your-maas-installation-snap-2-8-ui-2661.md
+	cp hardening-your-maas-installation.md hardening-your-maas-installation-1381.md
+	xpub push discourse hardening-your-maas-installation-1381.md
+	xpub pull discourse 1381 1381
+	cp -p hardening-your-maas-installation-1381.md originals
+	rm hardening-your-maas-installation-1381.md
 	chmod 444 originals/*
  
 originals/ubuntu-kernels-snap-2-9-cli-3178.md: ubuntu-kernels.md
@@ -3993,68 +3312,13 @@ originals/select-and-import-images-snap-2-8-ui-3093.md: select-and-import-images
 	rm select-and-import-images-snap-2-9-cli-3094.md
 	chmod 444 originals/*
  
-originals/cli-advanced-tasks-deb-2-9-ui-2369.md: cli-advanced-tasks.md
+originals/cli-advanced-tasks-793.md: cli-advanced-tasks.md
 	chmod 644 originals/*
-	cp cli-advanced-tasks.md cli-advanced-tasks-deb-2-9-ui-2369.md
-	xpub push discourse -t deb-2-9-ui cli-advanced-tasks-deb-2-9-ui-2369.md
-	xpub pull discourse 2369 2369
-	cp -p cli-advanced-tasks-deb-2-9-ui-2369.md originals
-	rm cli-advanced-tasks-deb-2-9-ui-2369.md
-	cp cli-advanced-tasks.md cli-advanced-tasks-deb-2-8-ui-2367.md
-	xpub push discourse -t deb-2-8-ui cli-advanced-tasks-deb-2-8-ui-2367.md
-	xpub pull discourse 2367 2367
-	cp -p cli-advanced-tasks-deb-2-8-ui-2367.md originals
-	rm cli-advanced-tasks-deb-2-8-ui-2367.md
-	cp cli-advanced-tasks.md cli-advanced-tasks-snap-2-7-cli-2358.md
-	xpub push discourse -t snap-2-7-cli cli-advanced-tasks-snap-2-7-cli-2358.md
-	xpub pull discourse 2358 2358
-	cp -p cli-advanced-tasks-snap-2-7-cli-2358.md originals
-	rm cli-advanced-tasks-snap-2-7-cli-2358.md
-	cp cli-advanced-tasks.md cli-advanced-tasks-snap-2-8-ui-2361.md
-	xpub push discourse -t snap-2-8-ui cli-advanced-tasks-snap-2-8-ui-2361.md
-	xpub pull discourse 2361 2361
-	cp -p cli-advanced-tasks-snap-2-8-ui-2361.md originals
-	rm cli-advanced-tasks-snap-2-8-ui-2361.md
-	cp cli-advanced-tasks.md cli-advanced-tasks-snap-2-7-ui-2359.md
-	xpub push discourse -t snap-2-7-ui cli-advanced-tasks-snap-2-7-ui-2359.md
-	xpub pull discourse 2359 2359
-	cp -p cli-advanced-tasks-snap-2-7-ui-2359.md originals
-	rm cli-advanced-tasks-snap-2-7-ui-2359.md
-	cp cli-advanced-tasks.md cli-advanced-tasks-deb-2-7-ui-2365.md
-	xpub push discourse -t deb-2-7-ui cli-advanced-tasks-deb-2-7-ui-2365.md
-	xpub pull discourse 2365 2365
-	cp -p cli-advanced-tasks-deb-2-7-ui-2365.md originals
-	rm cli-advanced-tasks-deb-2-7-ui-2365.md
-	cp cli-advanced-tasks.md cli-advanced-tasks-snap-2-9-cli-2362.md
-	xpub push discourse -t snap-2-9-cli cli-advanced-tasks-snap-2-9-cli-2362.md
-	xpub pull discourse 2362 2362
-	cp -p cli-advanced-tasks-snap-2-9-cli-2362.md originals
-	rm cli-advanced-tasks-snap-2-9-cli-2362.md
-	cp cli-advanced-tasks.md cli-advanced-tasks-deb-2-9-cli-2368.md
-	xpub push discourse -t deb-2-9-cli cli-advanced-tasks-deb-2-9-cli-2368.md
-	xpub pull discourse 2368 2368
-	cp -p cli-advanced-tasks-deb-2-9-cli-2368.md originals
-	rm cli-advanced-tasks-deb-2-9-cli-2368.md
-	cp cli-advanced-tasks.md cli-advanced-tasks-deb-2-8-cli-2366.md
-	xpub push discourse -t deb-2-8-cli cli-advanced-tasks-deb-2-8-cli-2366.md
-	xpub pull discourse 2366 2366
-	cp -p cli-advanced-tasks-deb-2-8-cli-2366.md originals
-	rm cli-advanced-tasks-deb-2-8-cli-2366.md
-	cp cli-advanced-tasks.md cli-advanced-tasks-deb-2-7-cli-2364.md
-	xpub push discourse -t deb-2-7-cli cli-advanced-tasks-deb-2-7-cli-2364.md
-	xpub pull discourse 2364 2364
-	cp -p cli-advanced-tasks-deb-2-7-cli-2364.md originals
-	rm cli-advanced-tasks-deb-2-7-cli-2364.md
-	cp cli-advanced-tasks.md cli-advanced-tasks-snap-2-9-ui-2363.md
-	xpub push discourse -t snap-2-9-ui cli-advanced-tasks-snap-2-9-ui-2363.md
-	xpub pull discourse 2363 2363
-	cp -p cli-advanced-tasks-snap-2-9-ui-2363.md originals
-	rm cli-advanced-tasks-snap-2-9-ui-2363.md
-	cp cli-advanced-tasks.md cli-advanced-tasks-snap-2-8-cli-2360.md
-	xpub push discourse -t snap-2-8-cli cli-advanced-tasks-snap-2-8-cli-2360.md
-	xpub pull discourse 2360 2360
-	cp -p cli-advanced-tasks-snap-2-8-cli-2360.md originals
-	rm cli-advanced-tasks-snap-2-8-cli-2360.md
+	cp cli-advanced-tasks.md cli-advanced-tasks-793.md
+	xpub push discourse cli-advanced-tasks-793.md
+	xpub pull discourse 793 793
+	cp -p cli-advanced-tasks-793.md originals
+	rm cli-advanced-tasks-793.md
 	chmod 444 originals/*
  
 originals/images-deb-2-8-cli-2702.md: images.md
@@ -4249,196 +3513,31 @@ originals/maas-logging-deb-2-8-cli-2870.md: maas-logging.md
 	rm maas-logging-snap-2-8-cli-2864.md
 	chmod 444 originals/*
  
-originals/cli-resource-pool-management-snap-2-9-ui-2447.md: cli-resource-pool-management.md
+originals/cli-resource-pool-management-800.md: cli-resource-pool-management.md
 	chmod 644 originals/*
-	cp cli-resource-pool-management.md cli-resource-pool-management-snap-2-9-ui-2447.md
-	xpub push discourse -t snap-2-9-ui cli-resource-pool-management-snap-2-9-ui-2447.md
-	xpub pull discourse 2447 2447
-	cp -p cli-resource-pool-management-snap-2-9-ui-2447.md originals
-	rm cli-resource-pool-management-snap-2-9-ui-2447.md
-	cp cli-resource-pool-management.md cli-resource-pool-management-snap-2-8-ui-2445.md
-	xpub push discourse -t snap-2-8-ui cli-resource-pool-management-snap-2-8-ui-2445.md
-	xpub pull discourse 2445 2445
-	cp -p cli-resource-pool-management-snap-2-8-ui-2445.md originals
-	rm cli-resource-pool-management-snap-2-8-ui-2445.md
-	cp cli-resource-pool-management.md cli-resource-pool-management-deb-2-9-cli-2452.md
-	xpub push discourse -t deb-2-9-cli cli-resource-pool-management-deb-2-9-cli-2452.md
-	xpub pull discourse 2452 2452
-	cp -p cli-resource-pool-management-deb-2-9-cli-2452.md originals
-	rm cli-resource-pool-management-deb-2-9-cli-2452.md
-	cp cli-resource-pool-management.md cli-resource-pool-management-deb-2-8-ui-2451.md
-	xpub push discourse -t deb-2-8-ui cli-resource-pool-management-deb-2-8-ui-2451.md
-	xpub pull discourse 2451 2451
-	cp -p cli-resource-pool-management-deb-2-8-ui-2451.md originals
-	rm cli-resource-pool-management-deb-2-8-ui-2451.md
-	cp cli-resource-pool-management.md cli-resource-pool-management-snap-2-7-ui-2443.md
-	xpub push discourse -t snap-2-7-ui cli-resource-pool-management-snap-2-7-ui-2443.md
-	xpub pull discourse 2443 2443
-	cp -p cli-resource-pool-management-snap-2-7-ui-2443.md originals
-	rm cli-resource-pool-management-snap-2-7-ui-2443.md
-	cp cli-resource-pool-management.md cli-resource-pool-management-snap-2-8-cli-2444.md
-	xpub push discourse -t snap-2-8-cli cli-resource-pool-management-snap-2-8-cli-2444.md
-	xpub pull discourse 2444 2444
-	cp -p cli-resource-pool-management-snap-2-8-cli-2444.md originals
-	rm cli-resource-pool-management-snap-2-8-cli-2444.md
-	cp cli-resource-pool-management.md cli-resource-pool-management-deb-2-7-ui-2449.md
-	xpub push discourse -t deb-2-7-ui cli-resource-pool-management-deb-2-7-ui-2449.md
-	xpub pull discourse 2449 2449
-	cp -p cli-resource-pool-management-deb-2-7-ui-2449.md originals
-	rm cli-resource-pool-management-deb-2-7-ui-2449.md
-	cp cli-resource-pool-management.md cli-resource-pool-management-snap-2-9-cli-2446.md
-	xpub push discourse -t snap-2-9-cli cli-resource-pool-management-snap-2-9-cli-2446.md
-	xpub pull discourse 2446 2446
-	cp -p cli-resource-pool-management-snap-2-9-cli-2446.md originals
-	rm cli-resource-pool-management-snap-2-9-cli-2446.md
-	cp cli-resource-pool-management.md cli-resource-pool-management-deb-2-9-ui-2453.md
-	xpub push discourse -t deb-2-9-ui cli-resource-pool-management-deb-2-9-ui-2453.md
-	xpub pull discourse 2453 2453
-	cp -p cli-resource-pool-management-deb-2-9-ui-2453.md originals
-	rm cli-resource-pool-management-deb-2-9-ui-2453.md
-	cp cli-resource-pool-management.md cli-resource-pool-management-deb-2-7-cli-2448.md
-	xpub push discourse -t deb-2-7-cli cli-resource-pool-management-deb-2-7-cli-2448.md
-	xpub pull discourse 2448 2448
-	cp -p cli-resource-pool-management-deb-2-7-cli-2448.md originals
-	rm cli-resource-pool-management-deb-2-7-cli-2448.md
-	cp cli-resource-pool-management.md cli-resource-pool-management-snap-2-7-cli-2442.md
-	xpub push discourse -t snap-2-7-cli cli-resource-pool-management-snap-2-7-cli-2442.md
-	xpub pull discourse 2442 2442
-	cp -p cli-resource-pool-management-snap-2-7-cli-2442.md originals
-	rm cli-resource-pool-management-snap-2-7-cli-2442.md
-	cp cli-resource-pool-management.md cli-resource-pool-management-deb-2-8-cli-2450.md
-	xpub push discourse -t deb-2-8-cli cli-resource-pool-management-deb-2-8-cli-2450.md
-	xpub pull discourse 2450 2450
-	cp -p cli-resource-pool-management-deb-2-8-cli-2450.md originals
-	rm cli-resource-pool-management-deb-2-8-cli-2450.md
+	cp cli-resource-pool-management.md cli-resource-pool-management-800.md
+	xpub push discourse cli-resource-pool-management-800.md
+	xpub pull discourse 800 800
+	cp -p cli-resource-pool-management-800.md originals
+	rm cli-resource-pool-management-800.md
 	chmod 444 originals/*
  
-originals/backup-snap-2-9-cli-2338.md: backup.md
+originals/backup-792.md: backup.md
 	chmod 644 originals/*
-	cp backup.md backup-snap-2-9-cli-2338.md
-	xpub push discourse -t snap-2-9-cli backup-snap-2-9-cli-2338.md
-	xpub pull discourse 2338 2338
-	cp -p backup-snap-2-9-cli-2338.md originals
-	rm backup-snap-2-9-cli-2338.md
-	cp backup.md backup-deb-2-9-ui-2345.md
-	xpub push discourse -t deb-2-9-ui backup-deb-2-9-ui-2345.md
-	xpub pull discourse 2345 2345
-	cp -p backup-deb-2-9-ui-2345.md originals
-	rm backup-deb-2-9-ui-2345.md
-	cp backup.md backup-deb-2-7-ui-2341.md
-	xpub push discourse -t deb-2-7-ui backup-deb-2-7-ui-2341.md
-	xpub pull discourse 2341 2341
-	cp -p backup-deb-2-7-ui-2341.md originals
-	rm backup-deb-2-7-ui-2341.md
-	cp backup.md backup-snap-2-7-ui-2335.md
-	xpub push discourse -t snap-2-7-ui backup-snap-2-7-ui-2335.md
-	xpub pull discourse 2335 2335
-	cp -p backup-snap-2-7-ui-2335.md originals
-	rm backup-snap-2-7-ui-2335.md
-	cp backup.md backup-deb-2-8-ui-2343.md
-	xpub push discourse -t deb-2-8-ui backup-deb-2-8-ui-2343.md
-	xpub pull discourse 2343 2343
-	cp -p backup-deb-2-8-ui-2343.md originals
-	rm backup-deb-2-8-ui-2343.md
-	cp backup.md backup-snap-2-7-cli-2334.md
-	xpub push discourse -t snap-2-7-cli backup-snap-2-7-cli-2334.md
-	xpub pull discourse 2334 2334
-	cp -p backup-snap-2-7-cli-2334.md originals
-	rm backup-snap-2-7-cli-2334.md
-	cp backup.md backup-snap-2-8-cli-2336.md
-	xpub push discourse -t snap-2-8-cli backup-snap-2-8-cli-2336.md
-	xpub pull discourse 2336 2336
-	cp -p backup-snap-2-8-cli-2336.md originals
-	rm backup-snap-2-8-cli-2336.md
-	cp backup.md backup-deb-2-8-cli-2342.md
-	xpub push discourse -t deb-2-8-cli backup-deb-2-8-cli-2342.md
-	xpub pull discourse 2342 2342
-	cp -p backup-deb-2-8-cli-2342.md originals
-	rm backup-deb-2-8-cli-2342.md
-	cp backup.md backup-snap-2-8-ui-2337.md
-	xpub push discourse -t snap-2-8-ui backup-snap-2-8-ui-2337.md
-	xpub pull discourse 2337 2337
-	cp -p backup-snap-2-8-ui-2337.md originals
-	rm backup-snap-2-8-ui-2337.md
-	cp backup.md backup-snap-2-9-ui-2339.md
-	xpub push discourse -t snap-2-9-ui backup-snap-2-9-ui-2339.md
-	xpub pull discourse 2339 2339
-	cp -p backup-snap-2-9-ui-2339.md originals
-	rm backup-snap-2-9-ui-2339.md
-	cp backup.md backup-deb-2-7-cli-2340.md
-	xpub push discourse -t deb-2-7-cli backup-deb-2-7-cli-2340.md
-	xpub pull discourse 2340 2340
-	cp -p backup-deb-2-7-cli-2340.md originals
-	rm backup-deb-2-7-cli-2340.md
-	cp backup.md backup-deb-2-9-cli-2344.md
-	xpub push discourse -t deb-2-9-cli backup-deb-2-9-cli-2344.md
-	xpub pull discourse 2344 2344
-	cp -p backup-deb-2-9-cli-2344.md originals
-	rm backup-deb-2-9-cli-2344.md
+	cp backup.md backup-792.md
+	xpub push discourse backup-792.md
+	xpub pull discourse 792 792
+	cp -p backup-792.md originals
+	rm backup-snap-792.md
 	chmod 444 originals/*
  
-originals/concepts-and-terms-deb-2-7-ui-2521.md: concepts-and-terms.md
+originals/concepts-and-terms-785.md: concepts-and-terms.md
 	chmod 644 originals/*
-	cp concepts-and-terms.md concepts-and-terms-deb-2-7-ui-2521.md
-	xpub push discourse -t deb-2-7-ui concepts-and-terms-deb-2-7-ui-2521.md
-	xpub pull discourse 2521 2521
-	cp -p concepts-and-terms-deb-2-7-ui-2521.md originals
-	rm concepts-and-terms-deb-2-7-ui-2521.md
-	cp concepts-and-terms.md concepts-and-terms-snap-2-9-cli-2518.md
-	xpub push discourse -t snap-2-9-cli concepts-and-terms-snap-2-9-cli-2518.md
-	xpub pull discourse 2518 2518
-	cp -p concepts-and-terms-snap-2-9-cli-2518.md originals
-	rm concepts-and-terms-snap-2-9-cli-2518.md
-	cp concepts-and-terms.md concepts-and-terms-deb-2-8-ui-2523.md
-	xpub push discourse -t deb-2-8-ui concepts-and-terms-deb-2-8-ui-2523.md
-	xpub pull discourse 2523 2523
-	cp -p concepts-and-terms-deb-2-8-ui-2523.md originals
-	rm concepts-and-terms-deb-2-8-ui-2523.md
-	cp concepts-and-terms.md concepts-and-terms-deb-2-8-cli-2522.md
-	xpub push discourse -t deb-2-8-cli concepts-and-terms-deb-2-8-cli-2522.md
-	xpub pull discourse 2522 2522
-	cp -p concepts-and-terms-deb-2-8-cli-2522.md originals
-	rm concepts-and-terms-deb-2-8-cli-2522.md
-	cp concepts-and-terms.md concepts-and-terms-snap-2-8-ui-2517.md
-	xpub push discourse -t snap-2-8-ui concepts-and-terms-snap-2-8-ui-2517.md
-	xpub pull discourse 2517 2517
-	cp -p concepts-and-terms-snap-2-8-ui-2517.md originals
-	rm concepts-and-terms-snap-2-8-ui-2517.md
-	cp concepts-and-terms.md concepts-and-terms-deb-2-9-cli-2524.md
-	xpub push discourse -t deb-2-9-cli concepts-and-terms-deb-2-9-cli-2524.md
-	xpub pull discourse 2524 2524
-	cp -p concepts-and-terms-deb-2-9-cli-2524.md originals
-	rm concepts-and-terms-deb-2-9-cli-2524.md
-	cp concepts-and-terms.md concepts-and-terms-snap-2-9-ui-2519.md
-	xpub push discourse -t snap-2-9-ui concepts-and-terms-snap-2-9-ui-2519.md
-	xpub pull discourse 2519 2519
-	cp -p concepts-and-terms-snap-2-9-ui-2519.md originals
-	rm concepts-and-terms-snap-2-9-ui-2519.md
-	cp concepts-and-terms.md concepts-and-terms-snap-2-8-cli-2516.md
-	xpub push discourse -t snap-2-8-cli concepts-and-terms-snap-2-8-cli-2516.md
-	xpub pull discourse 2516 2516
-	cp -p concepts-and-terms-snap-2-8-cli-2516.md originals
-	rm concepts-and-terms-snap-2-8-cli-2516.md
-	cp concepts-and-terms.md concepts-and-terms-snap-2-7-ui-2515.md
-	xpub push discourse -t snap-2-7-ui concepts-and-terms-snap-2-7-ui-2515.md
-	xpub pull discourse 2515 2515
-	cp -p concepts-and-terms-snap-2-7-ui-2515.md originals
-	rm concepts-and-terms-snap-2-7-ui-2515.md
-	cp concepts-and-terms.md concepts-and-terms-deb-2-9-ui-2525.md
-	xpub push discourse -t deb-2-9-ui concepts-and-terms-deb-2-9-ui-2525.md
-	xpub pull discourse 2525 2525
-	cp -p concepts-and-terms-deb-2-9-ui-2525.md originals
-	rm concepts-and-terms-deb-2-9-ui-2525.md
-	cp concepts-and-terms.md concepts-and-terms-deb-2-7-cli-2520.md
-	xpub push discourse -t deb-2-7-cli concepts-and-terms-deb-2-7-cli-2520.md
-	xpub pull discourse 2520 2520
-	cp -p concepts-and-terms-deb-2-7-cli-2520.md originals
-	rm concepts-and-terms-deb-2-7-cli-2520.md
-	cp concepts-and-terms.md concepts-and-terms-snap-2-7-cli-2514.md
-	xpub push discourse -t snap-2-7-cli concepts-and-terms-snap-2-7-cli-2514.md
-	xpub pull discourse 2514 2514
-	cp -p concepts-and-terms-snap-2-7-cli-2514.md originals
-	rm concepts-and-terms-snap-2-7-cli-2514.md
+	cp concepts-and-terms.md concepts-and-terms-785.md
+	xpub push discourse concepts-and-terms-785.md
+	xpub pull discourse 785 785
+	cp -p concepts-and-terms-785.md originals
+	rm concepts-and-terms-785.md
 	chmod 444 originals/*
  
 originals/give-me-an-example-of-maas-snap-2-7-cli-2646.md: give-me-an-example-of-maas.md
@@ -4697,68 +3796,13 @@ originals/creating-and-deleting-vms-deb-2-8-ui-2583.md: creating-and-deleting-vm
 	rm creating-and-deleting-vms-snap-2-8-cli-2576.md
 	chmod 444 originals/*
  
-originals/cli-composable-hardware-snap-2-8-cli-2384.md: cli-composable-hardware.md
+originals/cli-composable-hardware-795.md: cli-composable-hardware.md
 	chmod 644 originals/*
-	cp cli-composable-hardware.md cli-composable-hardware-snap-2-8-cli-2384.md
-	xpub push discourse -t snap-2-8-cli cli-composable-hardware-snap-2-8-cli-2384.md
-	xpub pull discourse 2384 2384
-	cp -p cli-composable-hardware-snap-2-8-cli-2384.md originals
-	rm cli-composable-hardware-snap-2-8-cli-2384.md
-	cp cli-composable-hardware.md cli-composable-hardware-deb-2-8-cli-2390.md
-	xpub push discourse -t deb-2-8-cli cli-composable-hardware-deb-2-8-cli-2390.md
-	xpub pull discourse 2390 2390
-	cp -p cli-composable-hardware-deb-2-8-cli-2390.md originals
-	rm cli-composable-hardware-deb-2-8-cli-2390.md
-	cp cli-composable-hardware.md cli-composable-hardware-snap-2-7-ui-2383.md
-	xpub push discourse -t snap-2-7-ui cli-composable-hardware-snap-2-7-ui-2383.md
-	xpub pull discourse 2383 2383
-	cp -p cli-composable-hardware-snap-2-7-ui-2383.md originals
-	rm cli-composable-hardware-snap-2-7-ui-2383.md
-	cp cli-composable-hardware.md cli-composable-hardware-deb-2-7-ui-2389.md
-	xpub push discourse -t deb-2-7-ui cli-composable-hardware-deb-2-7-ui-2389.md
-	xpub pull discourse 2389 2389
-	cp -p cli-composable-hardware-deb-2-7-ui-2389.md originals
-	rm cli-composable-hardware-deb-2-7-ui-2389.md
-	cp cli-composable-hardware.md cli-composable-hardware-snap-2-8-ui-2385.md
-	xpub push discourse -t snap-2-8-ui cli-composable-hardware-snap-2-8-ui-2385.md
-	xpub pull discourse 2385 2385
-	cp -p cli-composable-hardware-snap-2-8-ui-2385.md originals
-	rm cli-composable-hardware-snap-2-8-ui-2385.md
-	cp cli-composable-hardware.md cli-composable-hardware-deb-2-9-ui-2393.md
-	xpub push discourse -t deb-2-9-ui cli-composable-hardware-deb-2-9-ui-2393.md
-	xpub pull discourse 2393 2393
-	cp -p cli-composable-hardware-deb-2-9-ui-2393.md originals
-	rm cli-composable-hardware-deb-2-9-ui-2393.md
-	cp cli-composable-hardware.md cli-composable-hardware-snap-2-9-cli-2386.md
-	xpub push discourse -t snap-2-9-cli cli-composable-hardware-snap-2-9-cli-2386.md
-	xpub pull discourse 2386 2386
-	cp -p cli-composable-hardware-snap-2-9-cli-2386.md originals
-	rm cli-composable-hardware-snap-2-9-cli-2386.md
-	cp cli-composable-hardware.md cli-composable-hardware-snap-2-7-cli-2382.md
-	xpub push discourse -t snap-2-7-cli cli-composable-hardware-snap-2-7-cli-2382.md
-	xpub pull discourse 2382 2382
-	cp -p cli-composable-hardware-snap-2-7-cli-2382.md originals
-	rm cli-composable-hardware-snap-2-7-cli-2382.md
-	cp cli-composable-hardware.md cli-composable-hardware-deb-2-7-cli-2388.md
-	xpub push discourse -t deb-2-7-cli cli-composable-hardware-deb-2-7-cli-2388.md
-	xpub pull discourse 2388 2388
-	cp -p cli-composable-hardware-deb-2-7-cli-2388.md originals
-	rm cli-composable-hardware-deb-2-7-cli-2388.md
-	cp cli-composable-hardware.md cli-composable-hardware-deb-2-9-cli-2392.md
-	xpub push discourse -t deb-2-9-cli cli-composable-hardware-deb-2-9-cli-2392.md
-	xpub pull discourse 2392 2392
-	cp -p cli-composable-hardware-deb-2-9-cli-2392.md originals
-	rm cli-composable-hardware-deb-2-9-cli-2392.md
-	cp cli-composable-hardware.md cli-composable-hardware-snap-2-9-ui-2387.md
-	xpub push discourse -t snap-2-9-ui cli-composable-hardware-snap-2-9-ui-2387.md
-	xpub pull discourse 2387 2387
-	cp -p cli-composable-hardware-snap-2-9-ui-2387.md originals
-	rm cli-composable-hardware-snap-2-9-ui-2387.md
-	cp cli-composable-hardware.md cli-composable-hardware-deb-2-8-ui-2391.md
-	xpub push discourse -t deb-2-8-ui cli-composable-hardware-deb-2-8-ui-2391.md
-	xpub pull discourse 2391 2391
-	cp -p cli-composable-hardware-deb-2-8-ui-2391.md originals
-	rm cli-composable-hardware-deb-2-8-ui-2391.md
+	cp cli-composable-hardware.md cli-composable-hardware-795.md
+	xpub push discourse cli-composable-hardware-795.md
+	xpub pull discourse 795 795
+	cp -p cli-composable-hardware-795.md originals
+	rm cli-composable-hardware-795.md
 	chmod 444 originals/*
  
 originals/region-controllers-deb-2-9-ui-3077.md: region-controllers.md
@@ -4825,132 +3869,22 @@ originals/region-controllers-deb-2-9-ui-3077.md: region-controllers.md
 	rm region-controllers-snap-2-9-cli-3070.md
 	chmod 444 originals/*
  
-originals/common-cli-tasks-snap-2-9-ui-2507.md: common-cli-tasks.md
+originals/common-cli-tasks-794.md: common-cli-tasks.md
 	chmod 644 originals/*
-	cp common-cli-tasks.md common-cli-tasks-snap-2-9-ui-2507.md
-	xpub push discourse -t snap-2-9-ui common-cli-tasks-snap-2-9-ui-2507.md
-	xpub pull discourse 2507 2507
-	cp -p common-cli-tasks-snap-2-9-ui-2507.md originals
-	rm common-cli-tasks-snap-2-9-ui-2507.md
-	cp common-cli-tasks.md common-cli-tasks-deb-2-8-cli-2510.md
-	xpub push discourse -t deb-2-8-cli common-cli-tasks-deb-2-8-cli-2510.md
-	xpub pull discourse 2510 2510
-	cp -p common-cli-tasks-deb-2-8-cli-2510.md originals
-	rm common-cli-tasks-deb-2-8-cli-2510.md
-	cp common-cli-tasks.md common-cli-tasks-snap-2-7-ui-2503.md
-	xpub push discourse -t snap-2-7-ui common-cli-tasks-snap-2-7-ui-2503.md
-	xpub pull discourse 2503 2503
-	cp -p common-cli-tasks-snap-2-7-ui-2503.md originals
-	rm common-cli-tasks-snap-2-7-ui-2503.md
-	cp common-cli-tasks.md common-cli-tasks-deb-2-8-ui-2511.md
-	xpub push discourse -t deb-2-8-ui common-cli-tasks-deb-2-8-ui-2511.md
-	xpub pull discourse 2511 2511
-	cp -p common-cli-tasks-deb-2-8-ui-2511.md originals
-	rm common-cli-tasks-deb-2-8-ui-2511.md
-	cp common-cli-tasks.md common-cli-tasks-deb-2-7-cli-2508.md
-	xpub push discourse -t deb-2-7-cli common-cli-tasks-deb-2-7-cli-2508.md
-	xpub pull discourse 2508 2508
-	cp -p common-cli-tasks-deb-2-7-cli-2508.md originals
-	rm common-cli-tasks-deb-2-7-cli-2508.md
-	cp common-cli-tasks.md common-cli-tasks-snap-2-9-cli-2506.md
-	xpub push discourse -t snap-2-9-cli common-cli-tasks-snap-2-9-cli-2506.md
-	xpub pull discourse 2506 2506
-	cp -p common-cli-tasks-snap-2-9-cli-2506.md originals
-	rm common-cli-tasks-snap-2-9-cli-2506.md
-	cp common-cli-tasks.md common-cli-tasks-snap-2-7-cli-2502.md
-	xpub push discourse -t snap-2-7-cli common-cli-tasks-snap-2-7-cli-2502.md
-	xpub pull discourse 2502 2502
-	cp -p common-cli-tasks-snap-2-7-cli-2502.md originals
-	rm common-cli-tasks-snap-2-7-cli-2502.md
-	cp common-cli-tasks.md common-cli-tasks-deb-2-7-ui-2509.md
-	xpub push discourse -t deb-2-7-ui common-cli-tasks-deb-2-7-ui-2509.md
-	xpub pull discourse 2509 2509
-	cp -p common-cli-tasks-deb-2-7-ui-2509.md originals
-	rm common-cli-tasks-deb-2-7-ui-2509.md
-	cp common-cli-tasks.md common-cli-tasks-snap-2-8-ui-2505.md
-	xpub push discourse -t snap-2-8-ui common-cli-tasks-snap-2-8-ui-2505.md
-	xpub pull discourse 2505 2505
-	cp -p common-cli-tasks-snap-2-8-ui-2505.md originals
-	rm common-cli-tasks-snap-2-8-ui-2505.md
-	cp common-cli-tasks.md common-cli-tasks-deb-2-9-ui-2513.md
-	xpub push discourse -t deb-2-9-ui common-cli-tasks-deb-2-9-ui-2513.md
-	xpub pull discourse 2513 2513
-	cp -p common-cli-tasks-deb-2-9-ui-2513.md originals
-	rm common-cli-tasks-deb-2-9-ui-2513.md
-	cp common-cli-tasks.md common-cli-tasks-snap-2-8-cli-2504.md
-	xpub push discourse -t snap-2-8-cli common-cli-tasks-snap-2-8-cli-2504.md
-	xpub pull discourse 2504 2504
-	cp -p common-cli-tasks-snap-2-8-cli-2504.md originals
-	rm common-cli-tasks-snap-2-8-cli-2504.md
-	cp common-cli-tasks.md common-cli-tasks-deb-2-9-cli-2512.md
-	xpub push discourse -t deb-2-9-cli common-cli-tasks-deb-2-9-cli-2512.md
-	xpub pull discourse 2512 2512
-	cp -p common-cli-tasks-deb-2-9-cli-2512.md originals
-	rm common-cli-tasks-deb-2-9-cli-2512.md
+	cp common-cli-tasks.md common-cli-tasks-794.md
+	xpub push discourse common-cli-tasks-794.md
+	xpub pull discourse 794 794
+	cp -p common-cli-tasks-794.md originals
+	rm common-cli-tasks-794.md
 	chmod 444 originals/*
  
-originals/cli-tag-management-deb-2-9-cli-2464.md: cli-tag-management.md
+originals/cli-tag-management-801.md: cli-tag-management.md
 	chmod 644 originals/*
-	cp cli-tag-management.md cli-tag-management-deb-2-9-cli-2464.md
-	xpub push discourse -t deb-2-9-cli cli-tag-management-deb-2-9-cli-2464.md
-	xpub pull discourse 2464 2464
-	cp -p cli-tag-management-deb-2-9-cli-2464.md originals
-	rm cli-tag-management-deb-2-9-cli-2464.md
-	cp cli-tag-management.md cli-tag-management-deb-2-9-ui-2465.md
-	xpub push discourse -t deb-2-9-ui cli-tag-management-deb-2-9-ui-2465.md
-	xpub pull discourse 2465 2465
-	cp -p cli-tag-management-deb-2-9-ui-2465.md originals
-	rm cli-tag-management-deb-2-9-ui-2465.md
-	cp cli-tag-management.md cli-tag-management-snap-2-8-ui-2457.md
-	xpub push discourse -t snap-2-8-ui cli-tag-management-snap-2-8-ui-2457.md
-	xpub pull discourse 2457 2457
-	cp -p cli-tag-management-snap-2-8-ui-2457.md originals
-	rm cli-tag-management-snap-2-8-ui-2457.md
-	cp cli-tag-management.md cli-tag-management-deb-2-8-cli-2462.md
-	xpub push discourse -t deb-2-8-cli cli-tag-management-deb-2-8-cli-2462.md
-	xpub pull discourse 2462 2462
-	cp -p cli-tag-management-deb-2-8-cli-2462.md originals
-	rm cli-tag-management-deb-2-8-cli-2462.md
-	cp cli-tag-management.md cli-tag-management-snap-2-8-cli-2456.md
-	xpub push discourse -t snap-2-8-cli cli-tag-management-snap-2-8-cli-2456.md
-	xpub pull discourse 2456 2456
-	cp -p cli-tag-management-snap-2-8-cli-2456.md originals
-	rm cli-tag-management-snap-2-8-cli-2456.md
-	cp cli-tag-management.md cli-tag-management-snap-2-7-cli-2454.md
-	xpub push discourse -t snap-2-7-cli cli-tag-management-snap-2-7-cli-2454.md
-	xpub pull discourse 2454 2454
-	cp -p cli-tag-management-snap-2-7-cli-2454.md originals
-	rm cli-tag-management-snap-2-7-cli-2454.md
-	cp cli-tag-management.md cli-tag-management-snap-2-7-ui-2455.md
-	xpub push discourse -t snap-2-7-ui cli-tag-management-snap-2-7-ui-2455.md
-	xpub pull discourse 2455 2455
-	cp -p cli-tag-management-snap-2-7-ui-2455.md originals
-	rm cli-tag-management-snap-2-7-ui-2455.md
-	cp cli-tag-management.md cli-tag-management-deb-2-7-ui-2461.md
-	xpub push discourse -t deb-2-7-ui cli-tag-management-deb-2-7-ui-2461.md
-	xpub pull discourse 2461 2461
-	cp -p cli-tag-management-deb-2-7-ui-2461.md originals
-	rm cli-tag-management-deb-2-7-ui-2461.md
-	cp cli-tag-management.md cli-tag-management-snap-2-9-ui-2459.md
-	xpub push discourse -t snap-2-9-ui cli-tag-management-snap-2-9-ui-2459.md
-	xpub pull discourse 2459 2459
-	cp -p cli-tag-management-snap-2-9-ui-2459.md originals
-	rm cli-tag-management-snap-2-9-ui-2459.md
-	cp cli-tag-management.md cli-tag-management-deb-2-7-cli-2460.md
-	xpub push discourse -t deb-2-7-cli cli-tag-management-deb-2-7-cli-2460.md
-	xpub pull discourse 2460 2460
-	cp -p cli-tag-management-deb-2-7-cli-2460.md originals
-	rm cli-tag-management-deb-2-7-cli-2460.md
-	cp cli-tag-management.md cli-tag-management-deb-2-8-ui-2463.md
-	xpub push discourse -t deb-2-8-ui cli-tag-management-deb-2-8-ui-2463.md
-	xpub pull discourse 2463 2463
-	cp -p cli-tag-management-deb-2-8-ui-2463.md originals
-	rm cli-tag-management-deb-2-8-ui-2463.md
-	cp cli-tag-management.md cli-tag-management-snap-2-9-cli-2458.md
-	xpub push discourse -t snap-2-9-cli cli-tag-management-snap-2-9-cli-2458.md
-	xpub pull discourse 2458 2458
-	cp -p cli-tag-management-snap-2-9-cli-2458.md originals
-	rm cli-tag-management-snap-2-9-cli-2458.md
+	cp cli-tag-management.md cli-tag-management-801.md
+	xpub push discourse cli-tag-management-801.md
+	xpub pull discourse 801 801
+	cp -p cli-tag-management-801.md originals
+	rm cli-tag-management-801.md
 	chmod 444 originals/*
  
 originals/commission-machines-deb-2-9-ui-2477.md: commission-machines.md
@@ -5275,68 +4209,13 @@ originals/maas-tags-deb-2-8-cli-2894.md: maas-tags.md
 	rm maas-tags-deb-2-9-cli-2896.md
 	chmod 444 originals/*
  
-originals/prometheus-metrics-snap-2-8-ui-3021.md: prometheus-metrics.md
+originals/prometheus-metrics-813.md: prometheus-metrics.md
 	chmod 644 originals/*
-	cp prometheus-metrics.md prometheus-metrics-snap-2-8-ui-3021.md
-	xpub push discourse -t snap-2-8-ui prometheus-metrics-snap-2-8-ui-3021.md
-	xpub pull discourse 3021 3021
-	cp -p prometheus-metrics-snap-2-8-ui-3021.md originals
-	rm prometheus-metrics-snap-2-8-ui-3021.md
-	cp prometheus-metrics.md prometheus-metrics-snap-2-9-cli-3022.md
-	xpub push discourse -t snap-2-9-cli prometheus-metrics-snap-2-9-cli-3022.md
-	xpub pull discourse 3022 3022
-	cp -p prometheus-metrics-snap-2-9-cli-3022.md originals
-	rm prometheus-metrics-snap-2-9-cli-3022.md
-	cp prometheus-metrics.md prometheus-metrics-deb-2-9-ui-3029.md
-	xpub push discourse -t deb-2-9-ui prometheus-metrics-deb-2-9-ui-3029.md
-	xpub pull discourse 3029 3029
-	cp -p prometheus-metrics-deb-2-9-ui-3029.md originals
-	rm prometheus-metrics-deb-2-9-ui-3029.md
-	cp prometheus-metrics.md prometheus-metrics-deb-2-9-cli-3028.md
-	xpub push discourse -t deb-2-9-cli prometheus-metrics-deb-2-9-cli-3028.md
-	xpub pull discourse 3028 3028
-	cp -p prometheus-metrics-deb-2-9-cli-3028.md originals
-	rm prometheus-metrics-deb-2-9-cli-3028.md
-	cp prometheus-metrics.md prometheus-metrics-snap-2-8-cli-3020.md
-	xpub push discourse -t snap-2-8-cli prometheus-metrics-snap-2-8-cli-3020.md
-	xpub pull discourse 3020 3020
-	cp -p prometheus-metrics-snap-2-8-cli-3020.md originals
-	rm prometheus-metrics-snap-2-8-cli-3020.md
-	cp prometheus-metrics.md prometheus-metrics-deb-2-8-ui-3027.md
-	xpub push discourse -t deb-2-8-ui prometheus-metrics-deb-2-8-ui-3027.md
-	xpub pull discourse 3027 3027
-	cp -p prometheus-metrics-deb-2-8-ui-3027.md originals
-	rm prometheus-metrics-deb-2-8-ui-3027.md
-	cp prometheus-metrics.md prometheus-metrics-deb-2-7-cli-3024.md
-	xpub push discourse -t deb-2-7-cli prometheus-metrics-deb-2-7-cli-3024.md
-	xpub pull discourse 3024 3024
-	cp -p prometheus-metrics-deb-2-7-cli-3024.md originals
-	rm prometheus-metrics-deb-2-7-cli-3024.md
-	cp prometheus-metrics.md prometheus-metrics-snap-2-7-ui-3019.md
-	xpub push discourse -t snap-2-7-ui prometheus-metrics-snap-2-7-ui-3019.md
-	xpub pull discourse 3019 3019
-	cp -p prometheus-metrics-snap-2-7-ui-3019.md originals
-	rm prometheus-metrics-snap-2-7-ui-3019.md
-	cp prometheus-metrics.md prometheus-metrics-snap-2-7-cli-3018.md
-	xpub push discourse -t snap-2-7-cli prometheus-metrics-snap-2-7-cli-3018.md
-	xpub pull discourse 3018 3018
-	cp -p prometheus-metrics-snap-2-7-cli-3018.md originals
-	rm prometheus-metrics-snap-2-7-cli-3018.md
-	cp prometheus-metrics.md prometheus-metrics-snap-2-9-ui-3023.md
-	xpub push discourse -t snap-2-9-ui prometheus-metrics-snap-2-9-ui-3023.md
-	xpub pull discourse 3023 3023
-	cp -p prometheus-metrics-snap-2-9-ui-3023.md originals
-	rm prometheus-metrics-snap-2-9-ui-3023.md
-	cp prometheus-metrics.md prometheus-metrics-deb-2-7-ui-3025.md
-	xpub push discourse -t deb-2-7-ui prometheus-metrics-deb-2-7-ui-3025.md
-	xpub pull discourse 3025 3025
-	cp -p prometheus-metrics-deb-2-7-ui-3025.md originals
-	rm prometheus-metrics-deb-2-7-ui-3025.md
-	cp prometheus-metrics.md prometheus-metrics-deb-2-8-cli-3026.md
-	xpub push discourse -t deb-2-8-cli prometheus-metrics-deb-2-8-cli-3026.md
-	xpub pull discourse 3026 3026
-	cp -p prometheus-metrics-deb-2-8-cli-3026.md originals
-	rm prometheus-metrics-deb-2-8-cli-3026.md
+	cp prometheus-metrics.md prometheus-metrics-813.md
+	xpub push discourse prometheus-metrics-813.md
+	xpub pull discourse 813 813
+	cp -p prometheus-metrics-813.md originals
+	rm prometheus-metrics-813.md
 	chmod 444 originals/*
  
 originals/commissioning-and-hardware-testing-scripts-deb-2-7-ui-2485.md: commissioning-and-hardware-testing-scripts.md
@@ -5606,68 +4485,13 @@ originals/maas-communication-deb-2-8-ui-2835.md: maas-communication.md
 	rm maas-communication-snap-2-8-cli-2828.md
 	chmod 444 originals/*
  
-originals/cli-kernel-management-snap-2-8-ui-2433.md: cli-kernel-management.md
+originals/cli-kernel-management-799.md: cli-kernel-management.md
 	chmod 644 originals/*
-	cp cli-kernel-management.md cli-kernel-management-snap-2-8-ui-2433.md
-	xpub push discourse -t snap-2-8-ui cli-kernel-management-snap-2-8-ui-2433.md
-	xpub pull discourse 2433 2433
-	cp -p cli-kernel-management-snap-2-8-ui-2433.md originals
-	rm cli-kernel-management-snap-2-8-ui-2433.md
-	cp cli-kernel-management.md cli-kernel-management-deb-2-9-ui-2441.md
-	xpub push discourse -t deb-2-9-ui cli-kernel-management-deb-2-9-ui-2441.md
-	xpub pull discourse 2441 2441
-	cp -p cli-kernel-management-deb-2-9-ui-2441.md originals
-	rm cli-kernel-management-deb-2-9-ui-2441.md
-	cp cli-kernel-management.md cli-kernel-management-snap-2-9-cli-2434.md
-	xpub push discourse -t snap-2-9-cli cli-kernel-management-snap-2-9-cli-2434.md
-	xpub pull discourse 2434 2434
-	cp -p cli-kernel-management-snap-2-9-cli-2434.md originals
-	rm cli-kernel-management-snap-2-9-cli-2434.md
-	cp cli-kernel-management.md cli-kernel-management-snap-2-8-cli-2432.md
-	xpub push discourse -t snap-2-8-cli cli-kernel-management-snap-2-8-cli-2432.md
-	xpub pull discourse 2432 2432
-	cp -p cli-kernel-management-snap-2-8-cli-2432.md originals
-	rm cli-kernel-management-snap-2-8-cli-2432.md
-	cp cli-kernel-management.md cli-kernel-management-deb-2-8-cli-2438.md
-	xpub push discourse -t deb-2-8-cli cli-kernel-management-deb-2-8-cli-2438.md
-	xpub pull discourse 2438 2438
-	cp -p cli-kernel-management-deb-2-8-cli-2438.md originals
-	rm cli-kernel-management-deb-2-8-cli-2438.md
-	cp cli-kernel-management.md cli-kernel-management-snap-2-7-cli-2430.md
-	xpub push discourse -t snap-2-7-cli cli-kernel-management-snap-2-7-cli-2430.md
-	xpub pull discourse 2430 2430
-	cp -p cli-kernel-management-snap-2-7-cli-2430.md originals
-	rm cli-kernel-management-snap-2-7-cli-2430.md
-	cp cli-kernel-management.md cli-kernel-management-deb-2-9-cli-2440.md
-	xpub push discourse -t deb-2-9-cli cli-kernel-management-deb-2-9-cli-2440.md
-	xpub pull discourse 2440 2440
-	cp -p cli-kernel-management-deb-2-9-cli-2440.md originals
-	rm cli-kernel-management-deb-2-9-cli-2440.md
-	cp cli-kernel-management.md cli-kernel-management-snap-2-9-ui-2435.md
-	xpub push discourse -t snap-2-9-ui cli-kernel-management-snap-2-9-ui-2435.md
-	xpub pull discourse 2435 2435
-	cp -p cli-kernel-management-snap-2-9-ui-2435.md originals
-	rm cli-kernel-management-snap-2-9-ui-2435.md
-	cp cli-kernel-management.md cli-kernel-management-deb-2-7-ui-2437.md
-	xpub push discourse -t deb-2-7-ui cli-kernel-management-deb-2-7-ui-2437.md
-	xpub pull discourse 2437 2437
-	cp -p cli-kernel-management-deb-2-7-ui-2437.md originals
-	rm cli-kernel-management-deb-2-7-ui-2437.md
-	cp cli-kernel-management.md cli-kernel-management-deb-2-8-ui-2439.md
-	xpub push discourse -t deb-2-8-ui cli-kernel-management-deb-2-8-ui-2439.md
-	xpub pull discourse 2439 2439
-	cp -p cli-kernel-management-deb-2-8-ui-2439.md originals
-	rm cli-kernel-management-deb-2-8-ui-2439.md
-	cp cli-kernel-management.md cli-kernel-management-snap-2-7-ui-2431.md
-	xpub push discourse -t snap-2-7-ui cli-kernel-management-snap-2-7-ui-2431.md
-	xpub pull discourse 2431 2431
-	cp -p cli-kernel-management-snap-2-7-ui-2431.md originals
-	rm cli-kernel-management-snap-2-7-ui-2431.md
-	cp cli-kernel-management.md cli-kernel-management-deb-2-7-cli-2436.md
-	xpub push discourse -t deb-2-7-cli cli-kernel-management-deb-2-7-cli-2436.md
-	xpub pull discourse 2436 2436
-	cp -p cli-kernel-management-deb-2-7-cli-2436.md originals
-	rm cli-kernel-management-deb-2-7-cli-2436.md
+	cp cli-kernel-management.md cli-kernel-management-799.md
+	xpub push discourse cli-kernel-management-799.md
+	xpub pull discourse 799 799
+	cp -p cli-kernel-management-799.md originals
+	rm cli-kernel-management-799.md
 	chmod 444 originals/*
  
 originals/the-cli-cookbook-2218.md: the-cli-cookbook.md

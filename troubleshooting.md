@@ -1,3 +1,7 @@
+<!--
+Todo:
+- critical: review needed
+-->
 This section covers some of the most commonly encountered problems and attempts to resolve them.
 
 <h2 id="heading--nodes-hang-on-commissioning">Nodes hang on "Commissioning"</h2>

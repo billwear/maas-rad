@@ -61,10 +61,12 @@
 |Packages|[CLI](/t/audit-event-logs-deb-2-7-cli/2316) ~ [UI](/t/audit-event-logs-deb-2-7-ui/2317)|[CLI](/t/audit-event-logs-deb-2-8-cli/2318) ~ [UI](/t/audit-event-logs-deb-2-8-ui/2319)|[CLI](/t/audit-event-logs-deb-2-9-cli/2320) ~ [UI](/t/audit-event-logs-deb-2-9-ui/2321)|
  snap-2-8-cli -->
 
+<!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/audit-event-logs-snap-2-7-cli/2310) ~ [UI](/t/audit-event-logs-snap-2-7-ui/2311)|[CLI](/t/audit-event-logs-snap-2-8-cli/2312) ~ UI|[CLI](/t/audit-event-logs-snap-2-9-cli/2314) ~ [UI](/t/audit-event-logs-snap-2-9-ui/2315)|
 |Packages|[CLI](/t/audit-event-logs-deb-2-7-cli/2316) ~ [UI](/t/audit-event-logs-deb-2-7-ui/2317)|[CLI](/t/audit-event-logs-deb-2-8-cli/2318) ~ [UI](/t/audit-event-logs-deb-2-8-ui/2319)|[CLI](/t/audit-event-logs-deb-2-9-cli/2320) ~ [UI](/t/audit-event-logs-deb-2-9-ui/2321)|
+ snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|

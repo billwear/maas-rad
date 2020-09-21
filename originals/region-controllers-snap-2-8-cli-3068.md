@@ -84,9 +84,9 @@ A region controller manages communication with the user, via the Web UI/API, as 
 
 #### Quick questions you might have:
 
-* [How do I set up PostgreSQL for the region?](/t/region-controllers/772#heading--postgresql-setup)
-* [How do I add a new region host?](/t/region-controllers/772#heading--adding-a-new-region-host)
-* [How can I improve region controller performance?](/t/region-controllers/772#heading--increasing-regiond-daemon-workers)
+* [How do I set up PostgreSQL for the region?](#heading--postgresql-setup)
+* [How do I add a new region host?](#heading--adding-a-new-region-host)
+* [How can I improve region controller performance?](#heading--increasing-regiond-daemon-workers)
 
 <h2 id="heading--postgresql-setup">Set up PostgreSQL for the region</h2>
 
@@ -137,14 +137,55 @@ The MAAS Region Controller is a daemon collection of 4 workers that are in charg
 
 In larger environments, which multiple rack controllers, you can easily improve performance within a region.  You can increase the number of workers, which allows faster (parallel) handling of internal communication between region and rack controllers.
 
-[note]
-Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/804#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
+<!-- snap-2-7-cli
+Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2682#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
+snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2683#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
+snap-2-7-ui -->
+
+Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2684#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
+
+<!-- snap-2-8-ui
+Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2685#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
+snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2686#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
+snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2687#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
+snap-2-9-ui -->
+
+<!-- deb-2-7-cli
+Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2688#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
+deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2689#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
+deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2690#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
+deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2691#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
+deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2692#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
+deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2693#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
+deb-2-9-ui -->
 
 To increase the number of workers, simply edit <code>regiond.conf (/etc/maas/regiond.conf)</code> and set <code>num_workers</code>. For example:
 
     [...]
     num_workers: 8
 
-[note]
 Keep in mind that adding too many workers may <em>reduce</em> performance. We recommended one worker per CPU, up to eight workers in total. Increasing beyond that is possible but use at your own risk.
-[/note]

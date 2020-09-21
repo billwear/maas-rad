@@ -61,10 +61,12 @@
 |Packages|[CLI](/t/concepts-and-terms-deb-2-7-cli/2520) ~ [UI](/t/concepts-and-terms-deb-2-7-ui/2521)|[CLI](/t/concepts-and-terms-deb-2-8-cli/2522) ~ [UI](/t/concepts-and-terms-deb-2-8-ui/2523)|[CLI](/t/concepts-and-terms-deb-2-9-cli/2524) ~ [UI](/t/concepts-and-terms-deb-2-9-ui/2525)|
  snap-2-8-cli -->
 
+<!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/concepts-and-terms-snap-2-7-cli/2514) ~ [UI](/t/concepts-and-terms-snap-2-7-ui/2515)|[CLI](/t/concepts-and-terms-snap-2-8-cli/2516) ~ UI|[CLI](/t/concepts-and-terms-snap-2-9-cli/2518) ~ [UI](/t/concepts-and-terms-snap-2-9-ui/2519)|
 |Packages|[CLI](/t/concepts-and-terms-deb-2-7-cli/2520) ~ [UI](/t/concepts-and-terms-deb-2-7-ui/2521)|[CLI](/t/concepts-and-terms-deb-2-8-cli/2522) ~ [UI](/t/concepts-and-terms-deb-2-8-ui/2523)|[CLI](/t/concepts-and-terms-deb-2-9-cli/2524) ~ [UI](/t/concepts-and-terms-deb-2-9-ui/2525)|
+ snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|

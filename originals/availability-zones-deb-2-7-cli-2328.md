@@ -1,3 +1,4 @@
+<!-- flip -->
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
