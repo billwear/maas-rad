@@ -2,81 +2,81 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
-|Packages|**CLI** ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
+|Packages|CLI ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
-|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ **UI**|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
+|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ UI|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
-|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)||**CLI** ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
+|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|CLI ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
  deb-2-8-cli -->
 
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
-|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ **UI**|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
+|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ UI|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
-|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)||**CLI** ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
+|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|CLI ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
-|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ **UI**|
+|Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ UI|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|**CLI** ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
+|Snap|CLI ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
 |Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ **UI**|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
+|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ UI|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
 |Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)||**CLI** ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
+|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|CLI ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
 |Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ **UI**|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
+|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ UI|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
 |Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)||**CLI** ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
+|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|CLI ~ [UI](/t/adding-a-vm-host-snap-2-9-ui/2291)|
 |Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ **UI**|
+|Snap|[CLI](/t/adding-a-vm-host-snap-2-7-cli/2286) ~ [UI](/t/adding-a-vm-host-snap-2-7-ui/2287)|[CLI](/t/adding-a-vm-host-snap-2-8-cli/2288) ~ [UI](/t/adding-a-vm-host-snap-2-8-ui/2289)|[CLI](/t/adding-a-vm-host-snap-2-9-cli/2290) ~ UI|
 |Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
  snap-2-9-ui -->
 

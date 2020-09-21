@@ -1,82 +1,82 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/networking-snap-2-7-cli/2946) ~ [UI](/t/networking-snap-2-7-ui/2947)|[CLI](/t/networking-snap-2-8-cli/2948) ~ [UI](/t/networking-snap-2-8-ui/2949)|[CLI](/t/networking-snap-2-9-cli/2950) ~ [UI](/t/networking-snap-2-9-ui/2951)|
-|Packages|**CLI** ~ [UI](/t/networking-deb-2-7-ui/2953)|[CLI](/t/networking-deb-2-8-cli/2954) ~ [UI](/t/networking-deb-2-8-ui/2955)|[CLI](/t/networking-deb-2-9-cli/2956) ~ [UI](/t/networking-deb-2-9-ui/2957)|
+|Packages|CLI ~ [UI](/t/networking-deb-2-7-ui/2953)|[CLI](/t/networking-deb-2-8-cli/2954) ~ [UI](/t/networking-deb-2-8-ui/2955)|[CLI](/t/networking-deb-2-9-cli/2956) ~ [UI](/t/networking-deb-2-9-ui/2957)|
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/networking-snap-2-7-cli/2946) ~ [UI](/t/networking-snap-2-7-ui/2947)|[CLI](/t/networking-snap-2-8-cli/2948) ~ [UI](/t/networking-snap-2-8-ui/2949)|[CLI](/t/networking-snap-2-9-cli/2950) ~ [UI](/t/networking-snap-2-9-ui/2951)|
-|Packages|[CLI](/t/networking-deb-2-7-cli/2952) ~ **UI**|[CLI](/t/networking-deb-2-8-cli/2954) ~ [UI](/t/networking-deb-2-8-ui/2955)|[CLI](/t/networking-deb-2-9-cli/2956) ~ [UI](/t/networking-deb-2-9-ui/2957)|
+|Packages|[CLI](/t/networking-deb-2-7-cli/2952) ~ UI|[CLI](/t/networking-deb-2-8-cli/2954) ~ [UI](/t/networking-deb-2-8-ui/2955)|[CLI](/t/networking-deb-2-9-cli/2956) ~ [UI](/t/networking-deb-2-9-ui/2957)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/networking-snap-2-7-cli/2946) ~ [UI](/t/networking-snap-2-7-ui/2947)|[CLI](/t/networking-snap-2-8-cli/2948) ~ [UI](/t/networking-snap-2-8-ui/2949)|[CLI](/t/networking-snap-2-9-cli/2950) ~ [UI](/t/networking-snap-2-9-ui/2951)|
-|Packages|[CLI](/t/networking-deb-2-7-cli/2952) ~ [UI](/t/networking-deb-2-7-ui/2953)||**CLI** ~ [UI](/t/networking-deb-2-8-ui/2955)|[CLI](/t/networking-deb-2-9-cli/2956) ~ [UI](/t/networking-deb-2-9-ui/2957)|
+|Packages|[CLI](/t/networking-deb-2-7-cli/2952) ~ [UI](/t/networking-deb-2-7-ui/2953)|CLI ~ [UI](/t/networking-deb-2-8-ui/2955)|[CLI](/t/networking-deb-2-9-cli/2956) ~ [UI](/t/networking-deb-2-9-ui/2957)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/networking-snap-2-7-cli/2946) ~ [UI](/t/networking-snap-2-7-ui/2947)|[CLI](/t/networking-snap-2-8-cli/2948) ~ [UI](/t/networking-snap-2-8-ui/2949)|[CLI](/t/networking-snap-2-9-cli/2950) ~ [UI](/t/networking-snap-2-9-ui/2951)|
-|Packages|[CLI](/t/networking-deb-2-7-cli/2952) ~ [UI](/t/networking-deb-2-7-ui/2953)|[CLI](/t/networking-deb-2-8-cli/2954) ~ **UI**|[CLI](/t/networking-deb-2-9-cli/2956) ~ [UI](/t/networking-deb-2-9-ui/2957)|
+|Packages|[CLI](/t/networking-deb-2-7-cli/2952) ~ [UI](/t/networking-deb-2-7-ui/2953)|[CLI](/t/networking-deb-2-8-cli/2954) ~ UI|[CLI](/t/networking-deb-2-9-cli/2956) ~ [UI](/t/networking-deb-2-9-ui/2957)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/networking-snap-2-7-cli/2946) ~ [UI](/t/networking-snap-2-7-ui/2947)|[CLI](/t/networking-snap-2-8-cli/2948) ~ [UI](/t/networking-snap-2-8-ui/2949)|[CLI](/t/networking-snap-2-9-cli/2950) ~ [UI](/t/networking-snap-2-9-ui/2951)|
-|Packages|[CLI](/t/networking-deb-2-7-cli/2952) ~ [UI](/t/networking-deb-2-7-ui/2953)|[CLI](/t/networking-deb-2-8-cli/2954) ~ [UI](/t/networking-deb-2-8-ui/2955)||**CLI** ~ [UI](/t/networking-deb-2-9-ui/2957)|
+|Packages|[CLI](/t/networking-deb-2-7-cli/2952) ~ [UI](/t/networking-deb-2-7-ui/2953)|[CLI](/t/networking-deb-2-8-cli/2954) ~ [UI](/t/networking-deb-2-8-ui/2955)|CLI ~ [UI](/t/networking-deb-2-9-ui/2957)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/networking-snap-2-7-cli/2946) ~ [UI](/t/networking-snap-2-7-ui/2947)|[CLI](/t/networking-snap-2-8-cli/2948) ~ [UI](/t/networking-snap-2-8-ui/2949)|[CLI](/t/networking-snap-2-9-cli/2950) ~ [UI](/t/networking-snap-2-9-ui/2951)|
-|Packages|[CLI](/t/networking-deb-2-7-cli/2952) ~ [UI](/t/networking-deb-2-7-ui/2953)|[CLI](/t/networking-deb-2-8-cli/2954) ~ [UI](/t/networking-deb-2-8-ui/2955)|[CLI](/t/networking-deb-2-9-cli/2956) ~ **UI**|
+|Packages|[CLI](/t/networking-deb-2-7-cli/2952) ~ [UI](/t/networking-deb-2-7-ui/2953)|[CLI](/t/networking-deb-2-8-cli/2954) ~ [UI](/t/networking-deb-2-8-ui/2955)|[CLI](/t/networking-deb-2-9-cli/2956) ~ UI|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|**CLI** ~ [UI](/t/networking-snap-2-7-ui/2947)|[CLI](/t/networking-snap-2-8-cli/2948) ~ [UI](/t/networking-snap-2-8-ui/2949)|[CLI](/t/networking-snap-2-9-cli/2950) ~ [UI](/t/networking-snap-2-9-ui/2951)|
+|Snap|CLI ~ [UI](/t/networking-snap-2-7-ui/2947)|[CLI](/t/networking-snap-2-8-cli/2948) ~ [UI](/t/networking-snap-2-8-ui/2949)|[CLI](/t/networking-snap-2-9-cli/2950) ~ [UI](/t/networking-snap-2-9-ui/2951)|
 |Packages|[CLI](/t/networking-deb-2-7-cli/2952) ~ [UI](/t/networking-deb-2-7-ui/2953)|[CLI](/t/networking-deb-2-8-cli/2954) ~ [UI](/t/networking-deb-2-8-ui/2955)|[CLI](/t/networking-deb-2-9-cli/2956) ~ [UI](/t/networking-deb-2-9-ui/2957)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/networking-snap-2-7-cli/2946) ~ **UI**|[CLI](/t/networking-snap-2-8-cli/2948) ~ [UI](/t/networking-snap-2-8-ui/2949)|[CLI](/t/networking-snap-2-9-cli/2950) ~ [UI](/t/networking-snap-2-9-ui/2951)|
+|Snap|[CLI](/t/networking-snap-2-7-cli/2946) ~ UI|[CLI](/t/networking-snap-2-8-cli/2948) ~ [UI](/t/networking-snap-2-8-ui/2949)|[CLI](/t/networking-snap-2-9-cli/2950) ~ [UI](/t/networking-snap-2-9-ui/2951)|
 |Packages|[CLI](/t/networking-deb-2-7-cli/2952) ~ [UI](/t/networking-deb-2-7-ui/2953)|[CLI](/t/networking-deb-2-8-cli/2954) ~ [UI](/t/networking-deb-2-8-ui/2955)|[CLI](/t/networking-deb-2-9-cli/2956) ~ [UI](/t/networking-deb-2-9-ui/2957)|
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/networking-snap-2-7-cli/2946) ~ [UI](/t/networking-snap-2-7-ui/2947)||**CLI** ~ [UI](/t/networking-snap-2-8-ui/2949)|[CLI](/t/networking-snap-2-9-cli/2950) ~ [UI](/t/networking-snap-2-9-ui/2951)|
+|Snap|[CLI](/t/networking-snap-2-7-cli/2946) ~ [UI](/t/networking-snap-2-7-ui/2947)|CLI ~ [UI](/t/networking-snap-2-8-ui/2949)|[CLI](/t/networking-snap-2-9-cli/2950) ~ [UI](/t/networking-snap-2-9-ui/2951)|
 |Packages|[CLI](/t/networking-deb-2-7-cli/2952) ~ [UI](/t/networking-deb-2-7-ui/2953)|[CLI](/t/networking-deb-2-8-cli/2954) ~ [UI](/t/networking-deb-2-8-ui/2955)|[CLI](/t/networking-deb-2-9-cli/2956) ~ [UI](/t/networking-deb-2-9-ui/2957)|
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/networking-snap-2-7-cli/2946) ~ [UI](/t/networking-snap-2-7-ui/2947)|[CLI](/t/networking-snap-2-8-cli/2948) ~ **UI**|[CLI](/t/networking-snap-2-9-cli/2950) ~ [UI](/t/networking-snap-2-9-ui/2951)|
+|Snap|[CLI](/t/networking-snap-2-7-cli/2946) ~ [UI](/t/networking-snap-2-7-ui/2947)|[CLI](/t/networking-snap-2-8-cli/2948) ~ UI|[CLI](/t/networking-snap-2-9-cli/2950) ~ [UI](/t/networking-snap-2-9-ui/2951)|
 |Packages|[CLI](/t/networking-deb-2-7-cli/2952) ~ [UI](/t/networking-deb-2-7-ui/2953)|[CLI](/t/networking-deb-2-8-cli/2954) ~ [UI](/t/networking-deb-2-8-ui/2955)|[CLI](/t/networking-deb-2-9-cli/2956) ~ [UI](/t/networking-deb-2-9-ui/2957)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/networking-snap-2-7-cli/2946) ~ [UI](/t/networking-snap-2-7-ui/2947)|[CLI](/t/networking-snap-2-8-cli/2948) ~ [UI](/t/networking-snap-2-8-ui/2949)||**CLI** ~ [UI](/t/networking-snap-2-9-ui/2951)|
+|Snap|[CLI](/t/networking-snap-2-7-cli/2946) ~ [UI](/t/networking-snap-2-7-ui/2947)|[CLI](/t/networking-snap-2-8-cli/2948) ~ [UI](/t/networking-snap-2-8-ui/2949)|CLI ~ [UI](/t/networking-snap-2-9-ui/2951)|
 |Packages|[CLI](/t/networking-deb-2-7-cli/2952) ~ [UI](/t/networking-deb-2-7-ui/2953)|[CLI](/t/networking-deb-2-8-cli/2954) ~ [UI](/t/networking-deb-2-8-ui/2955)|[CLI](/t/networking-deb-2-9-cli/2956) ~ [UI](/t/networking-deb-2-9-ui/2957)|
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/networking-snap-2-7-cli/2946) ~ [UI](/t/networking-snap-2-7-ui/2947)|[CLI](/t/networking-snap-2-8-cli/2948) ~ [UI](/t/networking-snap-2-8-ui/2949)|[CLI](/t/networking-snap-2-9-cli/2950) ~ **UI**|
+|Snap|[CLI](/t/networking-snap-2-7-cli/2946) ~ [UI](/t/networking-snap-2-7-ui/2947)|[CLI](/t/networking-snap-2-8-cli/2948) ~ [UI](/t/networking-snap-2-8-ui/2949)|[CLI](/t/networking-snap-2-9-cli/2950) ~ UI|
 |Packages|[CLI](/t/networking-deb-2-7-cli/2952) ~ [UI](/t/networking-deb-2-7-ui/2953)|[CLI](/t/networking-deb-2-8-cli/2954) ~ [UI](/t/networking-deb-2-8-ui/2955)|[CLI](/t/networking-deb-2-9-cli/2956) ~ [UI](/t/networking-deb-2-9-ui/2957)|
  snap-2-9-ui -->
 

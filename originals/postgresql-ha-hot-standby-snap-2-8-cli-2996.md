@@ -2,81 +2,81 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/postgresql-ha-hot-standby-snap-2-7-cli/2994) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-7-ui/2995)|[CLI](/t/postgresql-ha-hot-standby-snap-2-8-cli/2996) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-8-ui/2997)|[CLI](/t/postgresql-ha-hot-standby-snap-2-9-cli/2998) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-9-ui/2999)|
-|Packages|**CLI** ~ [UI](/t/postgresql-ha-hot-standby-deb-2-7-ui/3001)|[CLI](/t/postgresql-ha-hot-standby-deb-2-8-cli/3002) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-8-ui/3003)|[CLI](/t/postgresql-ha-hot-standby-deb-2-9-cli/3004) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-9-ui/3005)|
+|Packages|CLI ~ [UI](/t/postgresql-ha-hot-standby-deb-2-7-ui/3001)|[CLI](/t/postgresql-ha-hot-standby-deb-2-8-cli/3002) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-8-ui/3003)|[CLI](/t/postgresql-ha-hot-standby-deb-2-9-cli/3004) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-9-ui/3005)|
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/postgresql-ha-hot-standby-snap-2-7-cli/2994) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-7-ui/2995)|[CLI](/t/postgresql-ha-hot-standby-snap-2-8-cli/2996) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-8-ui/2997)|[CLI](/t/postgresql-ha-hot-standby-snap-2-9-cli/2998) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-9-ui/2999)|
-|Packages|[CLI](/t/postgresql-ha-hot-standby-deb-2-7-cli/3000) ~ **UI**|[CLI](/t/postgresql-ha-hot-standby-deb-2-8-cli/3002) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-8-ui/3003)|[CLI](/t/postgresql-ha-hot-standby-deb-2-9-cli/3004) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-9-ui/3005)|
+|Packages|[CLI](/t/postgresql-ha-hot-standby-deb-2-7-cli/3000) ~ UI|[CLI](/t/postgresql-ha-hot-standby-deb-2-8-cli/3002) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-8-ui/3003)|[CLI](/t/postgresql-ha-hot-standby-deb-2-9-cli/3004) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-9-ui/3005)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/postgresql-ha-hot-standby-snap-2-7-cli/2994) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-7-ui/2995)|[CLI](/t/postgresql-ha-hot-standby-snap-2-8-cli/2996) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-8-ui/2997)|[CLI](/t/postgresql-ha-hot-standby-snap-2-9-cli/2998) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-9-ui/2999)|
-|Packages|[CLI](/t/postgresql-ha-hot-standby-deb-2-7-cli/3000) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-7-ui/3001)||**CLI** ~ [UI](/t/postgresql-ha-hot-standby-deb-2-8-ui/3003)|[CLI](/t/postgresql-ha-hot-standby-deb-2-9-cli/3004) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-9-ui/3005)|
+|Packages|[CLI](/t/postgresql-ha-hot-standby-deb-2-7-cli/3000) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-7-ui/3001)|CLI ~ [UI](/t/postgresql-ha-hot-standby-deb-2-8-ui/3003)|[CLI](/t/postgresql-ha-hot-standby-deb-2-9-cli/3004) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-9-ui/3005)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/postgresql-ha-hot-standby-snap-2-7-cli/2994) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-7-ui/2995)|[CLI](/t/postgresql-ha-hot-standby-snap-2-8-cli/2996) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-8-ui/2997)|[CLI](/t/postgresql-ha-hot-standby-snap-2-9-cli/2998) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-9-ui/2999)|
-|Packages|[CLI](/t/postgresql-ha-hot-standby-deb-2-7-cli/3000) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-7-ui/3001)|[CLI](/t/postgresql-ha-hot-standby-deb-2-8-cli/3002) ~ **UI**|[CLI](/t/postgresql-ha-hot-standby-deb-2-9-cli/3004) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-9-ui/3005)|
+|Packages|[CLI](/t/postgresql-ha-hot-standby-deb-2-7-cli/3000) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-7-ui/3001)|[CLI](/t/postgresql-ha-hot-standby-deb-2-8-cli/3002) ~ UI|[CLI](/t/postgresql-ha-hot-standby-deb-2-9-cli/3004) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-9-ui/3005)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/postgresql-ha-hot-standby-snap-2-7-cli/2994) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-7-ui/2995)|[CLI](/t/postgresql-ha-hot-standby-snap-2-8-cli/2996) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-8-ui/2997)|[CLI](/t/postgresql-ha-hot-standby-snap-2-9-cli/2998) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-9-ui/2999)|
-|Packages|[CLI](/t/postgresql-ha-hot-standby-deb-2-7-cli/3000) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-7-ui/3001)|[CLI](/t/postgresql-ha-hot-standby-deb-2-8-cli/3002) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-8-ui/3003)||**CLI** ~ [UI](/t/postgresql-ha-hot-standby-deb-2-9-ui/3005)|
+|Packages|[CLI](/t/postgresql-ha-hot-standby-deb-2-7-cli/3000) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-7-ui/3001)|[CLI](/t/postgresql-ha-hot-standby-deb-2-8-cli/3002) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-8-ui/3003)|CLI ~ [UI](/t/postgresql-ha-hot-standby-deb-2-9-ui/3005)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/postgresql-ha-hot-standby-snap-2-7-cli/2994) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-7-ui/2995)|[CLI](/t/postgresql-ha-hot-standby-snap-2-8-cli/2996) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-8-ui/2997)|[CLI](/t/postgresql-ha-hot-standby-snap-2-9-cli/2998) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-9-ui/2999)|
-|Packages|[CLI](/t/postgresql-ha-hot-standby-deb-2-7-cli/3000) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-7-ui/3001)|[CLI](/t/postgresql-ha-hot-standby-deb-2-8-cli/3002) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-8-ui/3003)|[CLI](/t/postgresql-ha-hot-standby-deb-2-9-cli/3004) ~ **UI**|
+|Packages|[CLI](/t/postgresql-ha-hot-standby-deb-2-7-cli/3000) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-7-ui/3001)|[CLI](/t/postgresql-ha-hot-standby-deb-2-8-cli/3002) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-8-ui/3003)|[CLI](/t/postgresql-ha-hot-standby-deb-2-9-cli/3004) ~ UI|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|**CLI** ~ [UI](/t/postgresql-ha-hot-standby-snap-2-7-ui/2995)|[CLI](/t/postgresql-ha-hot-standby-snap-2-8-cli/2996) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-8-ui/2997)|[CLI](/t/postgresql-ha-hot-standby-snap-2-9-cli/2998) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-9-ui/2999)|
+|Snap|CLI ~ [UI](/t/postgresql-ha-hot-standby-snap-2-7-ui/2995)|[CLI](/t/postgresql-ha-hot-standby-snap-2-8-cli/2996) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-8-ui/2997)|[CLI](/t/postgresql-ha-hot-standby-snap-2-9-cli/2998) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-9-ui/2999)|
 |Packages|[CLI](/t/postgresql-ha-hot-standby-deb-2-7-cli/3000) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-7-ui/3001)|[CLI](/t/postgresql-ha-hot-standby-deb-2-8-cli/3002) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-8-ui/3003)|[CLI](/t/postgresql-ha-hot-standby-deb-2-9-cli/3004) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-9-ui/3005)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/postgresql-ha-hot-standby-snap-2-7-cli/2994) ~ **UI**|[CLI](/t/postgresql-ha-hot-standby-snap-2-8-cli/2996) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-8-ui/2997)|[CLI](/t/postgresql-ha-hot-standby-snap-2-9-cli/2998) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-9-ui/2999)|
+|Snap|[CLI](/t/postgresql-ha-hot-standby-snap-2-7-cli/2994) ~ UI|[CLI](/t/postgresql-ha-hot-standby-snap-2-8-cli/2996) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-8-ui/2997)|[CLI](/t/postgresql-ha-hot-standby-snap-2-9-cli/2998) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-9-ui/2999)|
 |Packages|[CLI](/t/postgresql-ha-hot-standby-deb-2-7-cli/3000) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-7-ui/3001)|[CLI](/t/postgresql-ha-hot-standby-deb-2-8-cli/3002) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-8-ui/3003)|[CLI](/t/postgresql-ha-hot-standby-deb-2-9-cli/3004) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-9-ui/3005)|
  snap-2-7-ui -->
 
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/postgresql-ha-hot-standby-snap-2-7-cli/2994) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-7-ui/2995)||**CLI** ~ [UI](/t/postgresql-ha-hot-standby-snap-2-8-ui/2997)|[CLI](/t/postgresql-ha-hot-standby-snap-2-9-cli/2998) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-9-ui/2999)|
+|Snap|[CLI](/t/postgresql-ha-hot-standby-snap-2-7-cli/2994) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-7-ui/2995)|CLI ~ [UI](/t/postgresql-ha-hot-standby-snap-2-8-ui/2997)|[CLI](/t/postgresql-ha-hot-standby-snap-2-9-cli/2998) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-9-ui/2999)|
 |Packages|[CLI](/t/postgresql-ha-hot-standby-deb-2-7-cli/3000) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-7-ui/3001)|[CLI](/t/postgresql-ha-hot-standby-deb-2-8-cli/3002) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-8-ui/3003)|[CLI](/t/postgresql-ha-hot-standby-deb-2-9-cli/3004) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-9-ui/3005)|
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/postgresql-ha-hot-standby-snap-2-7-cli/2994) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-7-ui/2995)|[CLI](/t/postgresql-ha-hot-standby-snap-2-8-cli/2996) ~ **UI**|[CLI](/t/postgresql-ha-hot-standby-snap-2-9-cli/2998) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-9-ui/2999)|
+|Snap|[CLI](/t/postgresql-ha-hot-standby-snap-2-7-cli/2994) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-7-ui/2995)|[CLI](/t/postgresql-ha-hot-standby-snap-2-8-cli/2996) ~ UI|[CLI](/t/postgresql-ha-hot-standby-snap-2-9-cli/2998) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-9-ui/2999)|
 |Packages|[CLI](/t/postgresql-ha-hot-standby-deb-2-7-cli/3000) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-7-ui/3001)|[CLI](/t/postgresql-ha-hot-standby-deb-2-8-cli/3002) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-8-ui/3003)|[CLI](/t/postgresql-ha-hot-standby-deb-2-9-cli/3004) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-9-ui/3005)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/postgresql-ha-hot-standby-snap-2-7-cli/2994) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-7-ui/2995)|[CLI](/t/postgresql-ha-hot-standby-snap-2-8-cli/2996) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-8-ui/2997)||**CLI** ~ [UI](/t/postgresql-ha-hot-standby-snap-2-9-ui/2999)|
+|Snap|[CLI](/t/postgresql-ha-hot-standby-snap-2-7-cli/2994) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-7-ui/2995)|[CLI](/t/postgresql-ha-hot-standby-snap-2-8-cli/2996) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-8-ui/2997)|CLI ~ [UI](/t/postgresql-ha-hot-standby-snap-2-9-ui/2999)|
 |Packages|[CLI](/t/postgresql-ha-hot-standby-deb-2-7-cli/3000) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-7-ui/3001)|[CLI](/t/postgresql-ha-hot-standby-deb-2-8-cli/3002) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-8-ui/3003)|[CLI](/t/postgresql-ha-hot-standby-deb-2-9-cli/3004) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-9-ui/3005)|
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/postgresql-ha-hot-standby-snap-2-7-cli/2994) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-7-ui/2995)|[CLI](/t/postgresql-ha-hot-standby-snap-2-8-cli/2996) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-8-ui/2997)|[CLI](/t/postgresql-ha-hot-standby-snap-2-9-cli/2998) ~ **UI**|
+|Snap|[CLI](/t/postgresql-ha-hot-standby-snap-2-7-cli/2994) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-7-ui/2995)|[CLI](/t/postgresql-ha-hot-standby-snap-2-8-cli/2996) ~ [UI](/t/postgresql-ha-hot-standby-snap-2-8-ui/2997)|[CLI](/t/postgresql-ha-hot-standby-snap-2-9-cli/2998) ~ UI|
 |Packages|[CLI](/t/postgresql-ha-hot-standby-deb-2-7-cli/3000) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-7-ui/3001)|[CLI](/t/postgresql-ha-hot-standby-deb-2-8-cli/3002) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-8-ui/3003)|[CLI](/t/postgresql-ha-hot-standby-deb-2-9-cli/3004) ~ [UI](/t/postgresql-ha-hot-standby-deb-2-9-ui/3005)|
  snap-2-9-ui -->
 

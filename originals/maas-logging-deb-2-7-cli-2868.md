@@ -1,82 +1,82 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
-|Packages|**CLI** ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
+|Packages|CLI ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
-|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ **UI**|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
+|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ UI|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
-|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)||**CLI** ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
+|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|CLI ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
-|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ **UI**|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
+|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ UI|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
-|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)||**CLI** ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
+|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|CLI ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
-|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ **UI**|
+|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ UI|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|**CLI** ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
+|Snap|CLI ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
 |Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ **UI**|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
+|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ UI|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
 |Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)||**CLI** ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
+|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|CLI ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
 |Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ **UI**|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
+|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ UI|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
 |Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)||**CLI** ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
+|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|CLI ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
 |Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ **UI**|
+|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ UI|
 |Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  snap-2-9-ui -->
 

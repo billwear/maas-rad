@@ -2,81 +2,81 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/partitions-snap-2-7-cli/2982) ~ [UI](/t/partitions-snap-2-7-ui/2983)|[CLI](/t/partitions-snap-2-8-cli/2984) ~ [UI](/t/partitions-snap-2-8-ui/2985)|[CLI](/t/partitions-snap-2-9-cli/2986) ~ [UI](/t/partitions-snap-2-9-ui/2987)|
-|Packages|**CLI** ~ [UI](/t/partitions-deb-2-7-ui/2989)|[CLI](/t/partitions-deb-2-8-cli/2990) ~ [UI](/t/partitions-deb-2-8-ui/2991)|[CLI](/t/partitions-deb-2-9-cli/2992) ~ [UI](/t/partitions-deb-2-9-ui/2993)|
+|Packages|CLI ~ [UI](/t/partitions-deb-2-7-ui/2989)|[CLI](/t/partitions-deb-2-8-cli/2990) ~ [UI](/t/partitions-deb-2-8-ui/2991)|[CLI](/t/partitions-deb-2-9-cli/2992) ~ [UI](/t/partitions-deb-2-9-ui/2993)|
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/partitions-snap-2-7-cli/2982) ~ [UI](/t/partitions-snap-2-7-ui/2983)|[CLI](/t/partitions-snap-2-8-cli/2984) ~ [UI](/t/partitions-snap-2-8-ui/2985)|[CLI](/t/partitions-snap-2-9-cli/2986) ~ [UI](/t/partitions-snap-2-9-ui/2987)|
-|Packages|[CLI](/t/partitions-deb-2-7-cli/2988) ~ **UI**|[CLI](/t/partitions-deb-2-8-cli/2990) ~ [UI](/t/partitions-deb-2-8-ui/2991)|[CLI](/t/partitions-deb-2-9-cli/2992) ~ [UI](/t/partitions-deb-2-9-ui/2993)|
+|Packages|[CLI](/t/partitions-deb-2-7-cli/2988) ~ UI|[CLI](/t/partitions-deb-2-8-cli/2990) ~ [UI](/t/partitions-deb-2-8-ui/2991)|[CLI](/t/partitions-deb-2-9-cli/2992) ~ [UI](/t/partitions-deb-2-9-ui/2993)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/partitions-snap-2-7-cli/2982) ~ [UI](/t/partitions-snap-2-7-ui/2983)|[CLI](/t/partitions-snap-2-8-cli/2984) ~ [UI](/t/partitions-snap-2-8-ui/2985)|[CLI](/t/partitions-snap-2-9-cli/2986) ~ [UI](/t/partitions-snap-2-9-ui/2987)|
-|Packages|[CLI](/t/partitions-deb-2-7-cli/2988) ~ [UI](/t/partitions-deb-2-7-ui/2989)|**CLI** ~ [UI](/t/partitions-deb-2-8-ui/2991)|[CLI](/t/partitions-deb-2-9-cli/2992) ~ [UI](/t/partitions-deb-2-9-ui/2993)|
+|Packages|[CLI](/t/partitions-deb-2-7-cli/2988) ~ [UI](/t/partitions-deb-2-7-ui/2989)|CLI ~ [UI](/t/partitions-deb-2-8-ui/2991)|[CLI](/t/partitions-deb-2-9-cli/2992) ~ [UI](/t/partitions-deb-2-9-ui/2993)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/partitions-snap-2-7-cli/2982) ~ [UI](/t/partitions-snap-2-7-ui/2983)|[CLI](/t/partitions-snap-2-8-cli/2984) ~ [UI](/t/partitions-snap-2-8-ui/2985)|[CLI](/t/partitions-snap-2-9-cli/2986) ~ [UI](/t/partitions-snap-2-9-ui/2987)|
-|Packages|[CLI](/t/partitions-deb-2-7-cli/2988) ~ [UI](/t/partitions-deb-2-7-ui/2989)|[CLI](/t/partitions-deb-2-8-cli/2990) ~ **UI**|[CLI](/t/partitions-deb-2-9-cli/2992) ~ [UI](/t/partitions-deb-2-9-ui/2993)|
+|Packages|[CLI](/t/partitions-deb-2-7-cli/2988) ~ [UI](/t/partitions-deb-2-7-ui/2989)|[CLI](/t/partitions-deb-2-8-cli/2990) ~ UI|[CLI](/t/partitions-deb-2-9-cli/2992) ~ [UI](/t/partitions-deb-2-9-ui/2993)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/partitions-snap-2-7-cli/2982) ~ [UI](/t/partitions-snap-2-7-ui/2983)|[CLI](/t/partitions-snap-2-8-cli/2984) ~ [UI](/t/partitions-snap-2-8-ui/2985)|[CLI](/t/partitions-snap-2-9-cli/2986) ~ [UI](/t/partitions-snap-2-9-ui/2987)|
-|Packages|[CLI](/t/partitions-deb-2-7-cli/2988) ~ [UI](/t/partitions-deb-2-7-ui/2989)|[CLI](/t/partitions-deb-2-8-cli/2990) ~ [UI](/t/partitions-deb-2-8-ui/2991)|**CLI** ~ [UI](/t/partitions-deb-2-9-ui/2993)|
+|Packages|[CLI](/t/partitions-deb-2-7-cli/2988) ~ [UI](/t/partitions-deb-2-7-ui/2989)|[CLI](/t/partitions-deb-2-8-cli/2990) ~ [UI](/t/partitions-deb-2-8-ui/2991)|CLI ~ [UI](/t/partitions-deb-2-9-ui/2993)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/partitions-snap-2-7-cli/2982) ~ [UI](/t/partitions-snap-2-7-ui/2983)|[CLI](/t/partitions-snap-2-8-cli/2984) ~ [UI](/t/partitions-snap-2-8-ui/2985)|[CLI](/t/partitions-snap-2-9-cli/2986) ~ [UI](/t/partitions-snap-2-9-ui/2987)|
-|Packages|[CLI](/t/partitions-deb-2-7-cli/2988) ~ [UI](/t/partitions-deb-2-7-ui/2989)|[CLI](/t/partitions-deb-2-8-cli/2990) ~ [UI](/t/partitions-deb-2-8-ui/2991)|[CLI](/t/partitions-deb-2-9-cli/2992) ~ **UI**|
+|Packages|[CLI](/t/partitions-deb-2-7-cli/2988) ~ [UI](/t/partitions-deb-2-7-ui/2989)|[CLI](/t/partitions-deb-2-8-cli/2990) ~ [UI](/t/partitions-deb-2-8-ui/2991)|[CLI](/t/partitions-deb-2-9-cli/2992) ~ UI|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|**CLI** ~ [UI](/t/partitions-snap-2-7-ui/2983)|[CLI](/t/partitions-snap-2-8-cli/2984) ~ [UI](/t/partitions-snap-2-8-ui/2985)|[CLI](/t/partitions-snap-2-9-cli/2986) ~ [UI](/t/partitions-snap-2-9-ui/2987)|
+|Snap|CLI ~ [UI](/t/partitions-snap-2-7-ui/2983)|[CLI](/t/partitions-snap-2-8-cli/2984) ~ [UI](/t/partitions-snap-2-8-ui/2985)|[CLI](/t/partitions-snap-2-9-cli/2986) ~ [UI](/t/partitions-snap-2-9-ui/2987)|
 |Packages|[CLI](/t/partitions-deb-2-7-cli/2988) ~ [UI](/t/partitions-deb-2-7-ui/2989)|[CLI](/t/partitions-deb-2-8-cli/2990) ~ [UI](/t/partitions-deb-2-8-ui/2991)|[CLI](/t/partitions-deb-2-9-cli/2992) ~ [UI](/t/partitions-deb-2-9-ui/2993)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/partitions-snap-2-7-cli/2982) ~ **UI**|[CLI](/t/partitions-snap-2-8-cli/2984) ~ [UI](/t/partitions-snap-2-8-ui/2985)|[CLI](/t/partitions-snap-2-9-cli/2986) ~ [UI](/t/partitions-snap-2-9-ui/2987)|
+|Snap|[CLI](/t/partitions-snap-2-7-cli/2982) ~ UI|[CLI](/t/partitions-snap-2-8-cli/2984) ~ [UI](/t/partitions-snap-2-8-ui/2985)|[CLI](/t/partitions-snap-2-9-cli/2986) ~ [UI](/t/partitions-snap-2-9-ui/2987)|
 |Packages|[CLI](/t/partitions-deb-2-7-cli/2988) ~ [UI](/t/partitions-deb-2-7-ui/2989)|[CLI](/t/partitions-deb-2-8-cli/2990) ~ [UI](/t/partitions-deb-2-8-ui/2991)|[CLI](/t/partitions-deb-2-9-cli/2992) ~ [UI](/t/partitions-deb-2-9-ui/2993)|
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/partitions-snap-2-7-cli/2982) ~ [UI](/t/partitions-snap-2-7-ui/2983)|**CLI** ~ [UI](/t/partitions-snap-2-8-ui/2985)|[CLI](/t/partitions-snap-2-9-cli/2986) ~ [UI](/t/partitions-snap-2-9-ui/2987)|
+|Snap|[CLI](/t/partitions-snap-2-7-cli/2982) ~ [UI](/t/partitions-snap-2-7-ui/2983)|CLI ~ [UI](/t/partitions-snap-2-8-ui/2985)|[CLI](/t/partitions-snap-2-9-cli/2986) ~ [UI](/t/partitions-snap-2-9-ui/2987)|
 |Packages|[CLI](/t/partitions-deb-2-7-cli/2988) ~ [UI](/t/partitions-deb-2-7-ui/2989)|[CLI](/t/partitions-deb-2-8-cli/2990) ~ [UI](/t/partitions-deb-2-8-ui/2991)|[CLI](/t/partitions-deb-2-9-cli/2992) ~ [UI](/t/partitions-deb-2-9-ui/2993)|
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/partitions-snap-2-7-cli/2982) ~ [UI](/t/partitions-snap-2-7-ui/2983)|[CLI](/t/partitions-snap-2-8-cli/2984) ~ **UI**|[CLI](/t/partitions-snap-2-9-cli/2986) ~ [UI](/t/partitions-snap-2-9-ui/2987)|
+|Snap|[CLI](/t/partitions-snap-2-7-cli/2982) ~ [UI](/t/partitions-snap-2-7-ui/2983)|[CLI](/t/partitions-snap-2-8-cli/2984) ~ UI|[CLI](/t/partitions-snap-2-9-cli/2986) ~ [UI](/t/partitions-snap-2-9-ui/2987)|
 |Packages|[CLI](/t/partitions-deb-2-7-cli/2988) ~ [UI](/t/partitions-deb-2-7-ui/2989)|[CLI](/t/partitions-deb-2-8-cli/2990) ~ [UI](/t/partitions-deb-2-8-ui/2991)|[CLI](/t/partitions-deb-2-9-cli/2992) ~ [UI](/t/partitions-deb-2-9-ui/2993)|
  snap-2-8-ui -->
 
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/partitions-snap-2-7-cli/2982) ~ [UI](/t/partitions-snap-2-7-ui/2983)|[CLI](/t/partitions-snap-2-8-cli/2984) ~ [UI](/t/partitions-snap-2-8-ui/2985)|**CLI** ~ [UI](/t/partitions-snap-2-9-ui/2987)|
+|Snap|[CLI](/t/partitions-snap-2-7-cli/2982) ~ [UI](/t/partitions-snap-2-7-ui/2983)|[CLI](/t/partitions-snap-2-8-cli/2984) ~ [UI](/t/partitions-snap-2-8-ui/2985)|CLI ~ [UI](/t/partitions-snap-2-9-ui/2987)|
 |Packages|[CLI](/t/partitions-deb-2-7-cli/2988) ~ [UI](/t/partitions-deb-2-7-ui/2989)|[CLI](/t/partitions-deb-2-8-cli/2990) ~ [UI](/t/partitions-deb-2-8-ui/2991)|[CLI](/t/partitions-deb-2-9-cli/2992) ~ [UI](/t/partitions-deb-2-9-ui/2993)|
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/partitions-snap-2-7-cli/2982) ~ [UI](/t/partitions-snap-2-7-ui/2983)|[CLI](/t/partitions-snap-2-8-cli/2984) ~ [UI](/t/partitions-snap-2-8-ui/2985)|[CLI](/t/partitions-snap-2-9-cli/2986) ~ **UI**|
+|Snap|[CLI](/t/partitions-snap-2-7-cli/2982) ~ [UI](/t/partitions-snap-2-7-ui/2983)|[CLI](/t/partitions-snap-2-8-cli/2984) ~ [UI](/t/partitions-snap-2-8-ui/2985)|[CLI](/t/partitions-snap-2-9-cli/2986) ~ UI|
 |Packages|[CLI](/t/partitions-deb-2-7-cli/2988) ~ [UI](/t/partitions-deb-2-7-ui/2989)|[CLI](/t/partitions-deb-2-8-cli/2990) ~ [UI](/t/partitions-deb-2-8-ui/2991)|[CLI](/t/partitions-deb-2-9-cli/2992) ~ [UI](/t/partitions-deb-2-9-ui/2993)|
  snap-2-9-ui -->
 

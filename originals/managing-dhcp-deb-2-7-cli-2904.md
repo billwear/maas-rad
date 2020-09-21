@@ -1,82 +1,82 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/managing-dhcp-snap-2-7-cli/2898) ~ [UI](/t/managing-dhcp-snap-2-7-ui/2899)|[CLI](/t/managing-dhcp-snap-2-8-cli/2900) ~ [UI](/t/managing-dhcp-snap-2-8-ui/2901)|[CLI](/t/managing-dhcp-snap-2-9-cli/2902) ~ [UI](/t/managing-dhcp-snap-2-9-ui/2903)|
-|Packages|**CLI** ~ [UI](/t/managing-dhcp-deb-2-7-ui/2905)|[CLI](/t/managing-dhcp-deb-2-8-cli/2906) ~ [UI](/t/managing-dhcp-deb-2-8-ui/2907)|[CLI](/t/managing-dhcp-deb-2-9-cli/2908) ~ [UI](/t/managing-dhcp-deb-2-9-ui/2909)|
+|Packages|CLI ~ [UI](/t/managing-dhcp-deb-2-7-ui/2905)|[CLI](/t/managing-dhcp-deb-2-8-cli/2906) ~ [UI](/t/managing-dhcp-deb-2-8-ui/2907)|[CLI](/t/managing-dhcp-deb-2-9-cli/2908) ~ [UI](/t/managing-dhcp-deb-2-9-ui/2909)|
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/managing-dhcp-snap-2-7-cli/2898) ~ [UI](/t/managing-dhcp-snap-2-7-ui/2899)|[CLI](/t/managing-dhcp-snap-2-8-cli/2900) ~ [UI](/t/managing-dhcp-snap-2-8-ui/2901)|[CLI](/t/managing-dhcp-snap-2-9-cli/2902) ~ [UI](/t/managing-dhcp-snap-2-9-ui/2903)|
-|Packages|[CLI](/t/managing-dhcp-deb-2-7-cli/2904) ~ **UI**|[CLI](/t/managing-dhcp-deb-2-8-cli/2906) ~ [UI](/t/managing-dhcp-deb-2-8-ui/2907)|[CLI](/t/managing-dhcp-deb-2-9-cli/2908) ~ [UI](/t/managing-dhcp-deb-2-9-ui/2909)|
+|Packages|[CLI](/t/managing-dhcp-deb-2-7-cli/2904) ~ UI|[CLI](/t/managing-dhcp-deb-2-8-cli/2906) ~ [UI](/t/managing-dhcp-deb-2-8-ui/2907)|[CLI](/t/managing-dhcp-deb-2-9-cli/2908) ~ [UI](/t/managing-dhcp-deb-2-9-ui/2909)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/managing-dhcp-snap-2-7-cli/2898) ~ [UI](/t/managing-dhcp-snap-2-7-ui/2899)|[CLI](/t/managing-dhcp-snap-2-8-cli/2900) ~ [UI](/t/managing-dhcp-snap-2-8-ui/2901)|[CLI](/t/managing-dhcp-snap-2-9-cli/2902) ~ [UI](/t/managing-dhcp-snap-2-9-ui/2903)|
-|Packages|[CLI](/t/managing-dhcp-deb-2-7-cli/2904) ~ [UI](/t/managing-dhcp-deb-2-7-ui/2905)||**CLI** ~ [UI](/t/managing-dhcp-deb-2-8-ui/2907)|[CLI](/t/managing-dhcp-deb-2-9-cli/2908) ~ [UI](/t/managing-dhcp-deb-2-9-ui/2909)|
+|Packages|[CLI](/t/managing-dhcp-deb-2-7-cli/2904) ~ [UI](/t/managing-dhcp-deb-2-7-ui/2905)|CLI ~ [UI](/t/managing-dhcp-deb-2-8-ui/2907)|[CLI](/t/managing-dhcp-deb-2-9-cli/2908) ~ [UI](/t/managing-dhcp-deb-2-9-ui/2909)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/managing-dhcp-snap-2-7-cli/2898) ~ [UI](/t/managing-dhcp-snap-2-7-ui/2899)|[CLI](/t/managing-dhcp-snap-2-8-cli/2900) ~ [UI](/t/managing-dhcp-snap-2-8-ui/2901)|[CLI](/t/managing-dhcp-snap-2-9-cli/2902) ~ [UI](/t/managing-dhcp-snap-2-9-ui/2903)|
-|Packages|[CLI](/t/managing-dhcp-deb-2-7-cli/2904) ~ [UI](/t/managing-dhcp-deb-2-7-ui/2905)|[CLI](/t/managing-dhcp-deb-2-8-cli/2906) ~ **UI**|[CLI](/t/managing-dhcp-deb-2-9-cli/2908) ~ [UI](/t/managing-dhcp-deb-2-9-ui/2909)|
+|Packages|[CLI](/t/managing-dhcp-deb-2-7-cli/2904) ~ [UI](/t/managing-dhcp-deb-2-7-ui/2905)|[CLI](/t/managing-dhcp-deb-2-8-cli/2906) ~ UI|[CLI](/t/managing-dhcp-deb-2-9-cli/2908) ~ [UI](/t/managing-dhcp-deb-2-9-ui/2909)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/managing-dhcp-snap-2-7-cli/2898) ~ [UI](/t/managing-dhcp-snap-2-7-ui/2899)|[CLI](/t/managing-dhcp-snap-2-8-cli/2900) ~ [UI](/t/managing-dhcp-snap-2-8-ui/2901)|[CLI](/t/managing-dhcp-snap-2-9-cli/2902) ~ [UI](/t/managing-dhcp-snap-2-9-ui/2903)|
-|Packages|[CLI](/t/managing-dhcp-deb-2-7-cli/2904) ~ [UI](/t/managing-dhcp-deb-2-7-ui/2905)|[CLI](/t/managing-dhcp-deb-2-8-cli/2906) ~ [UI](/t/managing-dhcp-deb-2-8-ui/2907)||**CLI** ~ [UI](/t/managing-dhcp-deb-2-9-ui/2909)|
+|Packages|[CLI](/t/managing-dhcp-deb-2-7-cli/2904) ~ [UI](/t/managing-dhcp-deb-2-7-ui/2905)|[CLI](/t/managing-dhcp-deb-2-8-cli/2906) ~ [UI](/t/managing-dhcp-deb-2-8-ui/2907)|CLI ~ [UI](/t/managing-dhcp-deb-2-9-ui/2909)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/managing-dhcp-snap-2-7-cli/2898) ~ [UI](/t/managing-dhcp-snap-2-7-ui/2899)|[CLI](/t/managing-dhcp-snap-2-8-cli/2900) ~ [UI](/t/managing-dhcp-snap-2-8-ui/2901)|[CLI](/t/managing-dhcp-snap-2-9-cli/2902) ~ [UI](/t/managing-dhcp-snap-2-9-ui/2903)|
-|Packages|[CLI](/t/managing-dhcp-deb-2-7-cli/2904) ~ [UI](/t/managing-dhcp-deb-2-7-ui/2905)|[CLI](/t/managing-dhcp-deb-2-8-cli/2906) ~ [UI](/t/managing-dhcp-deb-2-8-ui/2907)|[CLI](/t/managing-dhcp-deb-2-9-cli/2908) ~ **UI**|
+|Packages|[CLI](/t/managing-dhcp-deb-2-7-cli/2904) ~ [UI](/t/managing-dhcp-deb-2-7-ui/2905)|[CLI](/t/managing-dhcp-deb-2-8-cli/2906) ~ [UI](/t/managing-dhcp-deb-2-8-ui/2907)|[CLI](/t/managing-dhcp-deb-2-9-cli/2908) ~ UI|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|**CLI** ~ [UI](/t/managing-dhcp-snap-2-7-ui/2899)|[CLI](/t/managing-dhcp-snap-2-8-cli/2900) ~ [UI](/t/managing-dhcp-snap-2-8-ui/2901)|[CLI](/t/managing-dhcp-snap-2-9-cli/2902) ~ [UI](/t/managing-dhcp-snap-2-9-ui/2903)|
+|Snap|CLI ~ [UI](/t/managing-dhcp-snap-2-7-ui/2899)|[CLI](/t/managing-dhcp-snap-2-8-cli/2900) ~ [UI](/t/managing-dhcp-snap-2-8-ui/2901)|[CLI](/t/managing-dhcp-snap-2-9-cli/2902) ~ [UI](/t/managing-dhcp-snap-2-9-ui/2903)|
 |Packages|[CLI](/t/managing-dhcp-deb-2-7-cli/2904) ~ [UI](/t/managing-dhcp-deb-2-7-ui/2905)|[CLI](/t/managing-dhcp-deb-2-8-cli/2906) ~ [UI](/t/managing-dhcp-deb-2-8-ui/2907)|[CLI](/t/managing-dhcp-deb-2-9-cli/2908) ~ [UI](/t/managing-dhcp-deb-2-9-ui/2909)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/managing-dhcp-snap-2-7-cli/2898) ~ **UI**|[CLI](/t/managing-dhcp-snap-2-8-cli/2900) ~ [UI](/t/managing-dhcp-snap-2-8-ui/2901)|[CLI](/t/managing-dhcp-snap-2-9-cli/2902) ~ [UI](/t/managing-dhcp-snap-2-9-ui/2903)|
+|Snap|[CLI](/t/managing-dhcp-snap-2-7-cli/2898) ~ UI|[CLI](/t/managing-dhcp-snap-2-8-cli/2900) ~ [UI](/t/managing-dhcp-snap-2-8-ui/2901)|[CLI](/t/managing-dhcp-snap-2-9-cli/2902) ~ [UI](/t/managing-dhcp-snap-2-9-ui/2903)|
 |Packages|[CLI](/t/managing-dhcp-deb-2-7-cli/2904) ~ [UI](/t/managing-dhcp-deb-2-7-ui/2905)|[CLI](/t/managing-dhcp-deb-2-8-cli/2906) ~ [UI](/t/managing-dhcp-deb-2-8-ui/2907)|[CLI](/t/managing-dhcp-deb-2-9-cli/2908) ~ [UI](/t/managing-dhcp-deb-2-9-ui/2909)|
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/managing-dhcp-snap-2-7-cli/2898) ~ [UI](/t/managing-dhcp-snap-2-7-ui/2899)||**CLI** ~ [UI](/t/managing-dhcp-snap-2-8-ui/2901)|[CLI](/t/managing-dhcp-snap-2-9-cli/2902) ~ [UI](/t/managing-dhcp-snap-2-9-ui/2903)|
+|Snap|[CLI](/t/managing-dhcp-snap-2-7-cli/2898) ~ [UI](/t/managing-dhcp-snap-2-7-ui/2899)|CLI ~ [UI](/t/managing-dhcp-snap-2-8-ui/2901)|[CLI](/t/managing-dhcp-snap-2-9-cli/2902) ~ [UI](/t/managing-dhcp-snap-2-9-ui/2903)|
 |Packages|[CLI](/t/managing-dhcp-deb-2-7-cli/2904) ~ [UI](/t/managing-dhcp-deb-2-7-ui/2905)|[CLI](/t/managing-dhcp-deb-2-8-cli/2906) ~ [UI](/t/managing-dhcp-deb-2-8-ui/2907)|[CLI](/t/managing-dhcp-deb-2-9-cli/2908) ~ [UI](/t/managing-dhcp-deb-2-9-ui/2909)|
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/managing-dhcp-snap-2-7-cli/2898) ~ [UI](/t/managing-dhcp-snap-2-7-ui/2899)|[CLI](/t/managing-dhcp-snap-2-8-cli/2900) ~ **UI**|[CLI](/t/managing-dhcp-snap-2-9-cli/2902) ~ [UI](/t/managing-dhcp-snap-2-9-ui/2903)|
+|Snap|[CLI](/t/managing-dhcp-snap-2-7-cli/2898) ~ [UI](/t/managing-dhcp-snap-2-7-ui/2899)|[CLI](/t/managing-dhcp-snap-2-8-cli/2900) ~ UI|[CLI](/t/managing-dhcp-snap-2-9-cli/2902) ~ [UI](/t/managing-dhcp-snap-2-9-ui/2903)|
 |Packages|[CLI](/t/managing-dhcp-deb-2-7-cli/2904) ~ [UI](/t/managing-dhcp-deb-2-7-ui/2905)|[CLI](/t/managing-dhcp-deb-2-8-cli/2906) ~ [UI](/t/managing-dhcp-deb-2-8-ui/2907)|[CLI](/t/managing-dhcp-deb-2-9-cli/2908) ~ [UI](/t/managing-dhcp-deb-2-9-ui/2909)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/managing-dhcp-snap-2-7-cli/2898) ~ [UI](/t/managing-dhcp-snap-2-7-ui/2899)|[CLI](/t/managing-dhcp-snap-2-8-cli/2900) ~ [UI](/t/managing-dhcp-snap-2-8-ui/2901)||**CLI** ~ [UI](/t/managing-dhcp-snap-2-9-ui/2903)|
+|Snap|[CLI](/t/managing-dhcp-snap-2-7-cli/2898) ~ [UI](/t/managing-dhcp-snap-2-7-ui/2899)|[CLI](/t/managing-dhcp-snap-2-8-cli/2900) ~ [UI](/t/managing-dhcp-snap-2-8-ui/2901)|CLI ~ [UI](/t/managing-dhcp-snap-2-9-ui/2903)|
 |Packages|[CLI](/t/managing-dhcp-deb-2-7-cli/2904) ~ [UI](/t/managing-dhcp-deb-2-7-ui/2905)|[CLI](/t/managing-dhcp-deb-2-8-cli/2906) ~ [UI](/t/managing-dhcp-deb-2-8-ui/2907)|[CLI](/t/managing-dhcp-deb-2-9-cli/2908) ~ [UI](/t/managing-dhcp-deb-2-9-ui/2909)|
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/managing-dhcp-snap-2-7-cli/2898) ~ [UI](/t/managing-dhcp-snap-2-7-ui/2899)|[CLI](/t/managing-dhcp-snap-2-8-cli/2900) ~ [UI](/t/managing-dhcp-snap-2-8-ui/2901)|[CLI](/t/managing-dhcp-snap-2-9-cli/2902) ~ **UI**|
+|Snap|[CLI](/t/managing-dhcp-snap-2-7-cli/2898) ~ [UI](/t/managing-dhcp-snap-2-7-ui/2899)|[CLI](/t/managing-dhcp-snap-2-8-cli/2900) ~ [UI](/t/managing-dhcp-snap-2-8-ui/2901)|[CLI](/t/managing-dhcp-snap-2-9-cli/2902) ~ UI|
 |Packages|[CLI](/t/managing-dhcp-deb-2-7-cli/2904) ~ [UI](/t/managing-dhcp-deb-2-7-ui/2905)|[CLI](/t/managing-dhcp-deb-2-8-cli/2906) ~ [UI](/t/managing-dhcp-deb-2-8-ui/2907)|[CLI](/t/managing-dhcp-deb-2-9-cli/2908) ~ [UI](/t/managing-dhcp-deb-2-9-ui/2909)|
  snap-2-9-ui -->
 

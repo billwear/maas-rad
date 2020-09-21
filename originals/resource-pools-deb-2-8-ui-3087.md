@@ -2,81 +2,81 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/resource-pools-snap-2-7-cli/3078) ~ [UI](/t/resource-pools-snap-2-7-ui/3079)|[CLI](/t/resource-pools-snap-2-8-cli/3080) ~ [UI](/t/resource-pools-snap-2-8-ui/3081)|[CLI](/t/resource-pools-snap-2-9-cli/3082) ~ [UI](/t/resource-pools-snap-2-9-ui/3083)|
-|Packages|**CLI** ~ [UI](/t/resource-pools-deb-2-7-ui/3085)|[CLI](/t/resource-pools-deb-2-8-cli/3086) ~ [UI](/t/resource-pools-deb-2-8-ui/3087)|[CLI](/t/resource-pools-deb-2-9-cli/3088) ~ [UI](/t/resource-pools-deb-2-9-ui/3089)|
+|Packages|CLI ~ [UI](/t/resource-pools-deb-2-7-ui/3085)|[CLI](/t/resource-pools-deb-2-8-cli/3086) ~ [UI](/t/resource-pools-deb-2-8-ui/3087)|[CLI](/t/resource-pools-deb-2-9-cli/3088) ~ [UI](/t/resource-pools-deb-2-9-ui/3089)|
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/resource-pools-snap-2-7-cli/3078) ~ [UI](/t/resource-pools-snap-2-7-ui/3079)|[CLI](/t/resource-pools-snap-2-8-cli/3080) ~ [UI](/t/resource-pools-snap-2-8-ui/3081)|[CLI](/t/resource-pools-snap-2-9-cli/3082) ~ [UI](/t/resource-pools-snap-2-9-ui/3083)|
-|Packages|[CLI](/t/resource-pools-deb-2-7-cli/3084) ~ **UI**|[CLI](/t/resource-pools-deb-2-8-cli/3086) ~ [UI](/t/resource-pools-deb-2-8-ui/3087)|[CLI](/t/resource-pools-deb-2-9-cli/3088) ~ [UI](/t/resource-pools-deb-2-9-ui/3089)|
+|Packages|[CLI](/t/resource-pools-deb-2-7-cli/3084) ~ UI|[CLI](/t/resource-pools-deb-2-8-cli/3086) ~ [UI](/t/resource-pools-deb-2-8-ui/3087)|[CLI](/t/resource-pools-deb-2-9-cli/3088) ~ [UI](/t/resource-pools-deb-2-9-ui/3089)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/resource-pools-snap-2-7-cli/3078) ~ [UI](/t/resource-pools-snap-2-7-ui/3079)|[CLI](/t/resource-pools-snap-2-8-cli/3080) ~ [UI](/t/resource-pools-snap-2-8-ui/3081)|[CLI](/t/resource-pools-snap-2-9-cli/3082) ~ [UI](/t/resource-pools-snap-2-9-ui/3083)|
-|Packages|[CLI](/t/resource-pools-deb-2-7-cli/3084) ~ [UI](/t/resource-pools-deb-2-7-ui/3085)||**CLI** ~ [UI](/t/resource-pools-deb-2-8-ui/3087)|[CLI](/t/resource-pools-deb-2-9-cli/3088) ~ [UI](/t/resource-pools-deb-2-9-ui/3089)|
+|Packages|[CLI](/t/resource-pools-deb-2-7-cli/3084) ~ [UI](/t/resource-pools-deb-2-7-ui/3085)|CLI ~ [UI](/t/resource-pools-deb-2-8-ui/3087)|[CLI](/t/resource-pools-deb-2-9-cli/3088) ~ [UI](/t/resource-pools-deb-2-9-ui/3089)|
  deb-2-8-cli -->
 
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/resource-pools-snap-2-7-cli/3078) ~ [UI](/t/resource-pools-snap-2-7-ui/3079)|[CLI](/t/resource-pools-snap-2-8-cli/3080) ~ [UI](/t/resource-pools-snap-2-8-ui/3081)|[CLI](/t/resource-pools-snap-2-9-cli/3082) ~ [UI](/t/resource-pools-snap-2-9-ui/3083)|
-|Packages|[CLI](/t/resource-pools-deb-2-7-cli/3084) ~ [UI](/t/resource-pools-deb-2-7-ui/3085)|[CLI](/t/resource-pools-deb-2-8-cli/3086) ~ **UI**|[CLI](/t/resource-pools-deb-2-9-cli/3088) ~ [UI](/t/resource-pools-deb-2-9-ui/3089)|
+|Packages|[CLI](/t/resource-pools-deb-2-7-cli/3084) ~ [UI](/t/resource-pools-deb-2-7-ui/3085)|[CLI](/t/resource-pools-deb-2-8-cli/3086) ~ UI|[CLI](/t/resource-pools-deb-2-9-cli/3088) ~ [UI](/t/resource-pools-deb-2-9-ui/3089)|
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/resource-pools-snap-2-7-cli/3078) ~ [UI](/t/resource-pools-snap-2-7-ui/3079)|[CLI](/t/resource-pools-snap-2-8-cli/3080) ~ [UI](/t/resource-pools-snap-2-8-ui/3081)|[CLI](/t/resource-pools-snap-2-9-cli/3082) ~ [UI](/t/resource-pools-snap-2-9-ui/3083)|
-|Packages|[CLI](/t/resource-pools-deb-2-7-cli/3084) ~ [UI](/t/resource-pools-deb-2-7-ui/3085)|[CLI](/t/resource-pools-deb-2-8-cli/3086) ~ [UI](/t/resource-pools-deb-2-8-ui/3087)||**CLI** ~ [UI](/t/resource-pools-deb-2-9-ui/3089)|
+|Packages|[CLI](/t/resource-pools-deb-2-7-cli/3084) ~ [UI](/t/resource-pools-deb-2-7-ui/3085)|[CLI](/t/resource-pools-deb-2-8-cli/3086) ~ [UI](/t/resource-pools-deb-2-8-ui/3087)|CLI ~ [UI](/t/resource-pools-deb-2-9-ui/3089)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/resource-pools-snap-2-7-cli/3078) ~ [UI](/t/resource-pools-snap-2-7-ui/3079)|[CLI](/t/resource-pools-snap-2-8-cli/3080) ~ [UI](/t/resource-pools-snap-2-8-ui/3081)|[CLI](/t/resource-pools-snap-2-9-cli/3082) ~ [UI](/t/resource-pools-snap-2-9-ui/3083)|
-|Packages|[CLI](/t/resource-pools-deb-2-7-cli/3084) ~ [UI](/t/resource-pools-deb-2-7-ui/3085)|[CLI](/t/resource-pools-deb-2-8-cli/3086) ~ [UI](/t/resource-pools-deb-2-8-ui/3087)|[CLI](/t/resource-pools-deb-2-9-cli/3088) ~ **UI**|
+|Packages|[CLI](/t/resource-pools-deb-2-7-cli/3084) ~ [UI](/t/resource-pools-deb-2-7-ui/3085)|[CLI](/t/resource-pools-deb-2-8-cli/3086) ~ [UI](/t/resource-pools-deb-2-8-ui/3087)|[CLI](/t/resource-pools-deb-2-9-cli/3088) ~ UI|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|**CLI** ~ [UI](/t/resource-pools-snap-2-7-ui/3079)|[CLI](/t/resource-pools-snap-2-8-cli/3080) ~ [UI](/t/resource-pools-snap-2-8-ui/3081)|[CLI](/t/resource-pools-snap-2-9-cli/3082) ~ [UI](/t/resource-pools-snap-2-9-ui/3083)|
+|Snap|CLI ~ [UI](/t/resource-pools-snap-2-7-ui/3079)|[CLI](/t/resource-pools-snap-2-8-cli/3080) ~ [UI](/t/resource-pools-snap-2-8-ui/3081)|[CLI](/t/resource-pools-snap-2-9-cli/3082) ~ [UI](/t/resource-pools-snap-2-9-ui/3083)|
 |Packages|[CLI](/t/resource-pools-deb-2-7-cli/3084) ~ [UI](/t/resource-pools-deb-2-7-ui/3085)|[CLI](/t/resource-pools-deb-2-8-cli/3086) ~ [UI](/t/resource-pools-deb-2-8-ui/3087)|[CLI](/t/resource-pools-deb-2-9-cli/3088) ~ [UI](/t/resource-pools-deb-2-9-ui/3089)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/resource-pools-snap-2-7-cli/3078) ~ **UI**|[CLI](/t/resource-pools-snap-2-8-cli/3080) ~ [UI](/t/resource-pools-snap-2-8-ui/3081)|[CLI](/t/resource-pools-snap-2-9-cli/3082) ~ [UI](/t/resource-pools-snap-2-9-ui/3083)|
+|Snap|[CLI](/t/resource-pools-snap-2-7-cli/3078) ~ UI|[CLI](/t/resource-pools-snap-2-8-cli/3080) ~ [UI](/t/resource-pools-snap-2-8-ui/3081)|[CLI](/t/resource-pools-snap-2-9-cli/3082) ~ [UI](/t/resource-pools-snap-2-9-ui/3083)|
 |Packages|[CLI](/t/resource-pools-deb-2-7-cli/3084) ~ [UI](/t/resource-pools-deb-2-7-ui/3085)|[CLI](/t/resource-pools-deb-2-8-cli/3086) ~ [UI](/t/resource-pools-deb-2-8-ui/3087)|[CLI](/t/resource-pools-deb-2-9-cli/3088) ~ [UI](/t/resource-pools-deb-2-9-ui/3089)|
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/resource-pools-snap-2-7-cli/3078) ~ [UI](/t/resource-pools-snap-2-7-ui/3079)||**CLI** ~ [UI](/t/resource-pools-snap-2-8-ui/3081)|[CLI](/t/resource-pools-snap-2-9-cli/3082) ~ [UI](/t/resource-pools-snap-2-9-ui/3083)|
+|Snap|[CLI](/t/resource-pools-snap-2-7-cli/3078) ~ [UI](/t/resource-pools-snap-2-7-ui/3079)|CLI ~ [UI](/t/resource-pools-snap-2-8-ui/3081)|[CLI](/t/resource-pools-snap-2-9-cli/3082) ~ [UI](/t/resource-pools-snap-2-9-ui/3083)|
 |Packages|[CLI](/t/resource-pools-deb-2-7-cli/3084) ~ [UI](/t/resource-pools-deb-2-7-ui/3085)|[CLI](/t/resource-pools-deb-2-8-cli/3086) ~ [UI](/t/resource-pools-deb-2-8-ui/3087)|[CLI](/t/resource-pools-deb-2-9-cli/3088) ~ [UI](/t/resource-pools-deb-2-9-ui/3089)|
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/resource-pools-snap-2-7-cli/3078) ~ [UI](/t/resource-pools-snap-2-7-ui/3079)|[CLI](/t/resource-pools-snap-2-8-cli/3080) ~ **UI**|[CLI](/t/resource-pools-snap-2-9-cli/3082) ~ [UI](/t/resource-pools-snap-2-9-ui/3083)|
+|Snap|[CLI](/t/resource-pools-snap-2-7-cli/3078) ~ [UI](/t/resource-pools-snap-2-7-ui/3079)|[CLI](/t/resource-pools-snap-2-8-cli/3080) ~ UI|[CLI](/t/resource-pools-snap-2-9-cli/3082) ~ [UI](/t/resource-pools-snap-2-9-ui/3083)|
 |Packages|[CLI](/t/resource-pools-deb-2-7-cli/3084) ~ [UI](/t/resource-pools-deb-2-7-ui/3085)|[CLI](/t/resource-pools-deb-2-8-cli/3086) ~ [UI](/t/resource-pools-deb-2-8-ui/3087)|[CLI](/t/resource-pools-deb-2-9-cli/3088) ~ [UI](/t/resource-pools-deb-2-9-ui/3089)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/resource-pools-snap-2-7-cli/3078) ~ [UI](/t/resource-pools-snap-2-7-ui/3079)|[CLI](/t/resource-pools-snap-2-8-cli/3080) ~ [UI](/t/resource-pools-snap-2-8-ui/3081)||**CLI** ~ [UI](/t/resource-pools-snap-2-9-ui/3083)|
+|Snap|[CLI](/t/resource-pools-snap-2-7-cli/3078) ~ [UI](/t/resource-pools-snap-2-7-ui/3079)|[CLI](/t/resource-pools-snap-2-8-cli/3080) ~ [UI](/t/resource-pools-snap-2-8-ui/3081)|CLI ~ [UI](/t/resource-pools-snap-2-9-ui/3083)|
 |Packages|[CLI](/t/resource-pools-deb-2-7-cli/3084) ~ [UI](/t/resource-pools-deb-2-7-ui/3085)|[CLI](/t/resource-pools-deb-2-8-cli/3086) ~ [UI](/t/resource-pools-deb-2-8-ui/3087)|[CLI](/t/resource-pools-deb-2-9-cli/3088) ~ [UI](/t/resource-pools-deb-2-9-ui/3089)|
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/resource-pools-snap-2-7-cli/3078) ~ [UI](/t/resource-pools-snap-2-7-ui/3079)|[CLI](/t/resource-pools-snap-2-8-cli/3080) ~ [UI](/t/resource-pools-snap-2-8-ui/3081)|[CLI](/t/resource-pools-snap-2-9-cli/3082) ~ **UI**|
+|Snap|[CLI](/t/resource-pools-snap-2-7-cli/3078) ~ [UI](/t/resource-pools-snap-2-7-ui/3079)|[CLI](/t/resource-pools-snap-2-8-cli/3080) ~ [UI](/t/resource-pools-snap-2-8-ui/3081)|[CLI](/t/resource-pools-snap-2-9-cli/3082) ~ UI|
 |Packages|[CLI](/t/resource-pools-deb-2-7-cli/3084) ~ [UI](/t/resource-pools-deb-2-7-ui/3085)|[CLI](/t/resource-pools-deb-2-8-cli/3086) ~ [UI](/t/resource-pools-deb-2-8-ui/3087)|[CLI](/t/resource-pools-deb-2-9-cli/3088) ~ [UI](/t/resource-pools-deb-2-9-ui/3089)|
  snap-2-9-ui -->
 
