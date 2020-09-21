@@ -1,3 +1,4 @@
+<!-- flip -->
 <!-- deb-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
@@ -36,7 +37,7 @@ snap-2-8-cli -->
 <!-- snap-2-8-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/maas-documentation-snap-2-7-cli/2838) ~ [UI](/t/maas-documentation-snap-2-7-ui/2839)|[CLI](/t/maas-documentation-snap-2-8-cli/2840) ~ **UI**|[CLI](/t/maas-documentation-snap-2-9-cli/2842) ~ [UI](/t/maas-documentation-snap-2-9-ui/2843)|
+|Snap|[CLI](/t/maas-documentation-snap-2-7-cli/2838) ~ [UI](/t/maas-documentation-snap-2-7-ui/2839)|[CLI](/t/maas-documentation-snap-2-8-cli/2840) ~ UI|[CLI](/t/maas-documentation-snap-2-9-cli/2842) ~ [UI](/t/maas-documentation-snap-2-9-ui/2843)|
 |Packages|[CLI](/t/maas-documentation-deb-2-7-cli/2844) ~ [UI](/t/maas-documentation-deb-2-7-ui/2845)|[CLI](/t/maas-documentation-deb-2-8-cli/2846) ~ [UI](/t/maas-documentation-deb-2-8-ui/2847)|[CLI](/t/maas-documentation-deb-2-9-cli/2848) ~ [UI](/t/maas-documentation-deb-2-9-ui/2849)|
  snap-2-8-ui -->
 
@@ -368,9 +369,9 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 
 ### Operations
 
-- [Prometheus metrics](/t/prometheus-metrics-snap-2-8-ui/3021)
-- [Backup](/t/backup-snap-2-8-ui/2337)
-- [MAAS security](/t/hardening-your-maas-installation-snap-2-8-ui/2661)
+- [Prometheus metrics](/t/prometheus-metrics/813)
+- [Backup](/t/backup/792)
+- [MAAS security](/t/hardening-your-maas-installation/1381)
 - [Logging](/t/maas-logging-snap-2-8-ui/2865)
   - [Commissioning logs](/t/commissioning-logs-snap-2-8-ui/2493)
 - [User accounts](/t/user-accounts-snap-2-8-ui/3201)
@@ -482,18 +483,6 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 |https://discourse.maas.io/t/-/2331|/docs/deb/2.8/ui/availability-zones|
 |https://discourse.maas.io/t/-/2332|/docs/deb/2.9/cli/availability-zones|
 |https://discourse.maas.io/t/-/2333|/docs/deb/2.9/ui/availability-zones|
-|https://discourse.maas.io/t/-/2334|/docs/snap/2.7/cli/backup|
-|https://discourse.maas.io/t/-/2335|/docs/snap/2.7/ui/backup|
-|https://discourse.maas.io/t/-/2336|/docs/snap/2.8/cli/backup|
-|https://discourse.maas.io/t/-/2337|/docs/snap/2.8/ui/backup|
-|https://discourse.maas.io/t/-/2338|/docs/snap/2.9/cli/backup|
-|https://discourse.maas.io/t/-/2339|/docs/snap/2.9/ui/backup|
-|https://discourse.maas.io/t/-/2340|/docs/deb/2.7/cli/backup|
-|https://discourse.maas.io/t/-/2341|/docs/deb/2.7/ui/backup|
-|https://discourse.maas.io/t/-/2342|/docs/deb/2.8/cli/backup|
-|https://discourse.maas.io/t/-/2343|/docs/deb/2.8/ui/backup|
-|https://discourse.maas.io/t/-/2344|/docs/deb/2.9/cli/backup|
-|https://discourse.maas.io/t/-/2345|/docs/deb/2.9/ui/backup|
 |https://discourse.maas.io/t/-/2346|/docs/snap/2.7/cli/block-devices|
 |https://discourse.maas.io/t/-/2347|/docs/snap/2.7/ui/block-devices|
 |https://discourse.maas.io/t/-/2348|/docs/snap/2.8/cli/block-devices|
@@ -662,18 +651,6 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 |https://discourse.maas.io/t/-/2655|/docs/deb/2.8/ui/give-me-an-example-of-maas|
 |https://discourse.maas.io/t/-/2656|/docs/deb/2.9/cli/give-me-an-example-of-maas|
 |https://discourse.maas.io/t/-/2657|/docs/deb/2.9/ui/give-me-an-example-of-maas|
-|https://discourse.maas.io/t/-/2658|/docs/snap/2.7/cli/hardening-your-maas-installation|
-|https://discourse.maas.io/t/-/2659|/docs/snap/2.7/ui/hardening-your-maas-installation|
-|https://discourse.maas.io/t/-/2660|/docs/snap/2.8/cli/hardening-your-maas-installation|
-|https://discourse.maas.io/t/-/2661|/docs/snap/2.8/ui/hardening-your-maas-installation|
-|https://discourse.maas.io/t/-/2662|/docs/snap/2.9/cli/hardening-your-maas-installation|
-|https://discourse.maas.io/t/-/2663|/docs/snap/2.9/ui/hardening-your-maas-installation|
-|https://discourse.maas.io/t/-/2664|/docs/deb/2.7/cli/hardening-your-maas-installation|
-|https://discourse.maas.io/t/-/2665|/docs/deb/2.7/ui/hardening-your-maas-installation|
-|https://discourse.maas.io/t/-/2666|/docs/deb/2.8/cli/hardening-your-maas-installation|
-|https://discourse.maas.io/t/-/2667|/docs/deb/2.8/ui/hardening-your-maas-installation|
-|https://discourse.maas.io/t/-/2668|/docs/deb/2.9/cli/hardening-your-maas-installation|
-|https://discourse.maas.io/t/-/2669|/docs/deb/2.9/ui/hardening-your-maas-installation|
 |https://discourse.maas.io/t/-/2670|/docs/snap/2.7/cli/hardware-testing|
 |https://discourse.maas.io/t/-/2671|/docs/snap/2.7/ui/hardware-testing|
 |https://discourse.maas.io/t/-/2672|/docs/snap/2.8/cli/hardware-testing|
@@ -986,18 +963,6 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 |https://discourse.maas.io/t/-/3015|/docs/deb/2.8/ui/power-management|
 |https://discourse.maas.io/t/-/3016|/docs/deb/2.9/cli/power-management|
 |https://discourse.maas.io/t/-/3017|/docs/deb/2.9/ui/power-management|
-|https://discourse.maas.io/t/-/3018|/docs/snap/2.7/cli/prometheus-metrics|
-|https://discourse.maas.io/t/-/3019|/docs/snap/2.7/ui/prometheus-metrics|
-|https://discourse.maas.io/t/-/3020|/docs/snap/2.8/cli/prometheus-metrics|
-|https://discourse.maas.io/t/-/3021|/docs/snap/2.8/ui/prometheus-metrics|
-|https://discourse.maas.io/t/-/3022|/docs/snap/2.9/cli/prometheus-metrics|
-|https://discourse.maas.io/t/-/3023|/docs/snap/2.9/ui/prometheus-metrics|
-|https://discourse.maas.io/t/-/3024|/docs/deb/2.7/cli/prometheus-metrics|
-|https://discourse.maas.io/t/-/3025|/docs/deb/2.7/ui/prometheus-metrics|
-|https://discourse.maas.io/t/-/3026|/docs/deb/2.8/cli/prometheus-metrics|
-|https://discourse.maas.io/t/-/3027|/docs/deb/2.8/ui/prometheus-metrics|
-|https://discourse.maas.io/t/-/3028|/docs/deb/2.9/cli/prometheus-metrics|
-|https://discourse.maas.io/t/-/3029|/docs/deb/2.9/ui/prometheus-metrics|
 |https://discourse.maas.io/t/-/3030|/docs/snap/2.7/cli/proxy|
 |https://discourse.maas.io/t/-/3031|/docs/snap/2.7/ui/proxy|
 |https://discourse.maas.io/t/-/3032|/docs/snap/2.8/cli/proxy|
