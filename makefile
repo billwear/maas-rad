@@ -365,6 +365,18 @@ TARGET_DEPS += originals/maas-image-builder-snap-2-8-cli-2852.md
 TARGET_DEPS += originals/maas-image-builder-snap-2-8-ui-2853.md
 TARGET_DEPS += originals/maas-image-builder-snap-2-9-cli-2854.md
 TARGET_DEPS += originals/maas-image-builder-snap-2-9-ui-2855.md
+TARGET_DEPS += originals/maas-installation-deb-2-7-cli-3324.md
+TARGET_DEPS += originals/maas-installation-deb-2-7-ui-3325.md
+TARGET_DEPS += originals/maas-installation-deb-2-8-cli-3326.md
+TARGET_DEPS += originals/maas-installation-deb-2-8-ui-3327.md
+TARGET_DEPS += originals/maas-installation-deb-2-9-cli-3328.md
+TARGET_DEPS += originals/maas-installation-deb-2-9-ui-3329.md
+TARGET_DEPS += originals/maas-installation-snap-2-7-cli-3318.md
+TARGET_DEPS += originals/maas-installation-snap-2-7-ui-3319.md
+TARGET_DEPS += originals/maas-installation-snap-2-8-cli-3320.md
+TARGET_DEPS += originals/maas-installation-snap-2-8-ui-3321.md
+TARGET_DEPS += originals/maas-installation-snap-2-9-cli-3322.md
+TARGET_DEPS += originals/maas-installation-snap-2-9-ui-3323.md
 TARGET_DEPS += originals/maas-logging-deb-2-7-cli-2868.md
 TARGET_DEPS += originals/maas-logging-deb-2-7-ui-2869.md
 TARGET_DEPS += originals/maas-logging-deb-2-8-cli-2870.md
@@ -785,7 +797,71 @@ originals/rack-controllers-deb-2-9-ui-3065.md: rack-controllers.md
 	cp -p rack-controllers-snap-2-9-ui-3059.md originals
 	rm rack-controllers-snap-2-9-ui-3059.md
 	chmod 444 originals/*
- 
+
+originals/maas-installation-deb-2-7-cli-3324.md: maas-installation.md
+	chmod 644 originals/*
+	cp maas-installation.md maas-installation-deb-2-9-ui-3329.md
+	xpub push discourse -t deb-2-9-ui maas-installation-deb-2-9-ui-3329.md
+	xpub pull discourse 3329 3329
+	cp -p maas-installation-deb-2-9-ui-3329.md originals
+	rm maas-installation-deb-2-9-ui-3329.md
+	cp maas-installation.md maas-installation-deb-2-9-cli-3328.md
+	xpub push discourse -t deb-2-9-cli maas-installation-deb-2-9-cli-3328.md
+	xpub pull discourse 3328 3328
+	cp -p maas-installation-deb-2-9-cli-3328.md originals
+	rm maas-installation-deb-2-9-cli-3328.md
+	cp maas-installation.md maas-installation-deb-2-8-cli-3326.md
+	xpub push discourse -t deb-2-8-cli maas-installation-deb-2-8-cli-3326.md
+	xpub pull discourse 3326 3326
+	cp -p maas-installation-deb-2-8-cli-3326.md originals
+	rm maas-installation-deb-2-8-cli-3326.md
+	cp maas-installation.md maas-installation-deb-2-8-ui-3327.md
+	xpub push discourse -t deb-2-8-ui maas-installation-deb-2-8-ui-3327.md
+	xpub pull discourse 3327 3327
+	cp -p maas-installation-deb-2-8-ui-3327.md originals
+	rm maas-installation-deb-2-8-ui-3327.md
+	cp maas-installation.md maas-installation-deb-2-7-cli-3324.md
+	xpub push discourse -t deb-2-7-cli maas-installation-deb-2-7-cli-3324.md
+	xpub pull discourse 3324 3324
+	cp -p maas-installation-deb-2-7-cli-3324.md originals
+	rm maas-installation-deb-2-7-cli-3324.md
+	cp maas-installation.md maas-installation-snap-2-7-ui-3319.md
+	xpub push discourse -t snap-2-7-ui maas-installation-snap-2-7-ui-3319.md
+	xpub pull discourse 3319 3319
+	cp -p maas-installation-snap-2-7-ui-3319.md originals
+	rm maas-installation-snap-2-7-ui-3319.md
+	cp maas-installation.md maas-installation-snap-2-8-ui-3321.md
+	xpub push discourse -t snap-2-8-ui maas-installation-snap-2-8-ui-3321.md
+	xpub pull discourse 3321 3321
+	cp -p maas-installation-snap-2-8-ui-3321.md originals
+	rm maas-installation-snap-2-8-ui-3321.md
+	cp maas-installation.md maas-installation-deb-2-7-ui-3325.md
+	xpub push discourse -t deb-2-7-ui maas-installation-deb-2-7-ui-3325.md
+	xpub pull discourse 3325 3325
+	cp -p maas-installation-deb-2-7-ui-3325.md originals
+	rm maas-installation-deb-2-7-ui-3325.md
+	cp maas-installation.md maas-installation-snap-2-8-cli-3320.md
+	xpub push discourse -t snap-2-8-cli maas-installation-snap-2-8-cli-3320.md
+	xpub pull discourse 3320 3320
+	cp -p maas-installation-snap-2-8-cli-3320.md originals
+	rm maas-installation-snap-2-8-cli-3320.md
+	cp maas-installation.md maas-installation-snap-2-7-cli-3318.md
+	xpub push discourse -t snap-2-7-cli maas-installation-snap-2-7-cli-3318.md
+	xpub pull discourse 3318 3318
+	cp -p maas-installation-snap-2-7-cli-3318.md originals
+	rm maas-installation-snap-2-7-cli-3318.md
+	cp maas-installation.md maas-installation-snap-2-9-cli-3322.md
+	xpub push discourse -t snap-2-9-cli maas-installation-snap-2-9-cli-3322.md
+	xpub pull discourse 3322 3322
+	cp -p maas-installation-snap-2-9-cli-3322.md originals
+	rm maas-installation-snap-2-9-cli-3322.md
+	cp maas-installation.md maas-installation-snap-2-9-ui-3323.md
+	xpub push discourse -t snap-2-9-ui maas-installation-snap-2-9-ui-3323.md
+	xpub pull discourse 3323 3323
+	cp -p maas-installation-snap-2-9-ui-3323.md originals
+	rm maas-installation-snap-2-9-ui-3323.md
+	chmod 444 originals/*
+
 originals/subnet-management-deb-2-8-cli-3122.md: subnet-management.md
 	chmod 644 originals/*
 	cp subnet-management.md subnet-management-deb-2-8-cli-3122.md
@@ -4346,7 +4422,7 @@ originals/about-maas-deb-2-9-cli-2272.md: about-maas.md
 	rm about-maas-snap-2-7-ui-2263.md
 	chmod 444 originals/*
  
-originals/maas-documentation-snap-2-7-ui-2839.md: maas-documentation.md
+originals/maas-documentation-25.md: maas-documentation.md
 	chmod 644 originals/*
 	cp maas-documentation.md maas-documentation-snap-2-7-ui-2839.md
 	./clean-navigation.sh maas-documentation-snap-2-7-ui-2839.md
@@ -5015,3 +5091,99 @@ originals/disk-erasure-snap-2-7-cli-2610.md: disk-erasure.md
 	rm disk-erasure-deb-2-7-ui-2617.md
 	chmod 444 originals/*
  
+# originals/maas-installation-snap-2-7-cli-3318.md: maas-installation.md
+#	chmod 644 originals/*
+#	cp maas-installation.md maas-installation-snap-2-7-cli-3318.md
+#	xpub pull discourse 3318 3318
+#	cp -p maas-installation-snap-2-7-cli-3318.md originals
+#	rm maas-installation-snap-2-7-cli-3318.md
+#	chmod 444 originals/*
+
+# originals/maas-installation-snap-2-7-ui-3319.md: maas-installation.md
+#	chmod 644 originals/*
+#	cp maas-installation.md maas-installation-snap-2-7-ui-3319.md
+#	xpub pull discourse 3319 3319
+#	cp -p maas-installation-snap-2-7-ui-3319.md originals
+#	rm maas-installation-snap-2-7-ui-3319.md
+#	chmod 444 originals/*
+
+# originals/maas-installation-snap-2-8-cli-3320.md: maas-installation.md
+#	chmod 644 originals/*
+#	cp maas-installation.md maas-installation-snap-2-8-cli-3320.md
+#	xpub pull discourse 3320 3320
+#	cp -p maas-installation-snap-2-8-cli-3320.md originals
+#	rm maas-installation-snap-2-8-cli-3320.md
+#	chmod 444 originals/*
+
+# originals/maas-installation-snap-2-8-ui-3321.md: maas-installation.md
+#	chmod 644 originals/*
+#	cp maas-installation.md maas-installation-snap-2-8-ui-3321.md
+#	xpub pull discourse 3321 3321
+#	cp -p maas-installation-snap-2-8-ui-3321.md originals
+#	rm maas-installation-snap-2-8-ui-3321.md
+#	chmod 444 originals/*
+
+# originals/maas-installation-snap-2-9-cli-3322.md: maas-installation.md
+#	chmod 644 originals/*
+#	cp maas-installation.md maas-installation-snap-2-9-cli-3322.md
+#	xpub pull discourse 3322 3322
+#	cp -p maas-installation-snap-2-9-cli-3322.md originals
+#	rm maas-installation-snap-2-9-cli-3322.md
+#	chmod 444 originals/*
+
+# originals/maas-installation-snap-2-9-ui-3323.md: maas-installation.md
+#	chmod 644 originals/*
+#	cp maas-installation.md maas-installation-snap-2-9-ui-3323.md
+#	xpub pull discourse 3323 3323
+#	cp -p maas-installation-snap-2-9-ui-3323.md originals
+#	rm maas-installation-snap-2-9-ui-3323.md
+#	chmod 444 originals/*
+
+# originals/maas-installation-deb-2-7-cli-3324.md: maas-installation.md
+#	chmod 644 originals/*
+#	cp maas-installation.md maas-installation-deb-2-7-cli-3324.md
+#	xpub pull discourse 3324 3324
+#	cp -p maas-installation-deb-2-7-cli-3324.md originals
+#	rm maas-installation-deb-2-7-cli-3324.md
+#	chmod 444 originals/*
+
+# originals/maas-installation-deb-2-7-ui-3325.md: maas-installation.md
+#	chmod 644 originals/*
+#	cp maas-installation.md maas-installation-deb-2-7-ui-3325.md
+#	xpub pull discourse 3325 3325
+#	cp -p maas-installation-deb-2-7-ui-3325.md originals
+#	rm maas-installation-deb-2-7-ui-3325.md
+#	chmod 444 originals/*
+
+# originals/maas-installation-deb-2-8-cli-3326.md: maas-installation.md
+#	chmod 644 originals/*
+#	cp maas-installation.md maas-installation-deb-2-8-cli-3326.md
+#	xpub pull discourse 3326 3326
+#	cp -p maas-installation-deb-2-8-cli-3326.md originals
+#	rm maas-installation-deb-2-8-cli-3326.md
+#	chmod 444 originals/*
+
+# originals/maas-installation-deb-2-8-ui-3327.md: maas-installation.md
+#	chmod 644 originals/*
+#	cp maas-installation.md maas-installation-deb-2-8-ui-3327.md
+#	xpub pull discourse 3327 3327
+#	cp -p maas-installation-deb-2-8-ui-3327.md originals
+#	rm maas-installation-deb-2-8-ui-3327.md
+#	chmod 444 originals/*
+
+# originals/maas-installation-deb-2-9-cli-3328.md: maas-installation.md
+#	chmod 644 originals/*
+#	cp maas-installation.md maas-installation-deb-2-9-cli-3328.md
+#	xpub pull discourse 3328 3328
+#	cp -p maas-installation-deb-2-9-cli-3328.md originals
+#	rm maas-installation-deb-2-9-cli-3328.md
+#	chmod 444 originals/*
+
+# originals/maas-installation-deb-2-9-ui-3329.md: maas-installation.md
+#	chmod 644 originals/*
+#	cp maas-installation.md maas-installation-deb-2-9-ui-3329.md
+#	xpub pull discourse 3329 3329
+#	cp -p maas-installation-deb-2-9-ui-3329.md originals
+#	rm maas-installation-deb-2-9-ui-3329.md
+#	chmod 444 originals/*
+

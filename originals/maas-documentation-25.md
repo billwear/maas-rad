@@ -414,6 +414,18 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 | TOPIC | PATH |
 | -- | -- |
 |https://discourse.maas.io/t/-/1506|/docs/tips/tricks.and/traps/|
+|https://discourse.maas.io/t/-/3318|/docs/snap/2.7/cli/installation|
+|https://discourse.maas.io/t/-/3319|/docs/snap/2.7/ui/installation|
+|https://discourse.maas.io/t/-/3320|/docs/snap/2.8/cli/installation|
+|https://discourse.maas.io/t/-/3321|/docs/snap/2.8/ui/installation|
+|https://discourse.maas.io/t/-/3322|/docs/snap/2.9/cli/installation|
+|https://discourse.maas.io/t/-/3323|/docs/snap/2.9/ui/installation|
+|https://discourse.maas.io/t/-/3324|/docs/deb/2.7/cli/installation|
+|https://discourse.maas.io/t/-/3325|/docs/deb/2.7/ui/installation|
+|https://discourse.maas.io/t/-/3326|/docs/deb/2.8/cli/installation|
+|https://discourse.maas.io/t/-/3327|/docs/deb/2.8/ui/installation|
+|https://discourse.maas.io/t/-/3328|/docs/deb/2.9/cli/installation|
+|https://discourse.maas.io/t/-/3329|/docs/deb/2.9/ui/installation|
 |https://discourse.maas.io/t/-/2262|/docs/snap/2.7/cli/about-maas|
 |https://discourse.maas.io/t/-/2263|/docs/snap/2.7/ui/about-maas|
 |https://discourse.maas.io/t/-/2264|/docs/snap/2.8/cli/about-maas|

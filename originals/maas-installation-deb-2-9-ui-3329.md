@@ -207,9 +207,7 @@ With MAAS installed and initialised, you can now open the web UI in your browser
 With MAAS installed and initialised, you can now open the web UI in your browser and begin your [Configuration journey](/t/configuration-journey/2536).
  deb-2-9-cli -->
 
-<!-- deb-2-9-ui
 With MAAS installed and initialised, you can now open the web UI in your browser and begin your [Configuration journey](/t/configuration-journey/2537).
- deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 With MAAS installed and initialised, you can now open the web UI in your browser and begin your [Configuration journey](/t/configuration-journey/2526).
@@ -231,7 +229,9 @@ With MAAS installed and initialised, you can now open the web UI in your browser
 With MAAS installed and initialised, you can now open the web UI in your browser and begin your [Configuration journey](/t/configuration-journey/2530).
  snap-2-9-cli -->
 
+<!-- snap-2-9-ui
 With MAAS installed and initialised, you can now open the web UI in your browser and begin your [Configuration journey](/t/configuration-journey/2531).
+ snap-2-9-ui -->
 
 <h2 id="heading--example">Example of MAAS initialisation</h2>
 
