@@ -91,11 +91,11 @@ This article explains each of these kernels, and offers instructions and further
 
 #### Quick questions you may have:
 
-* [What is a general availability kernel?](/t/ubuntu-kernels/828#heading--general-availability-kernels)
-* [What is a hardware enablement kernel?](/t/ubuntu-kernels/828#heading--hardware-enablement-kernels)
-* [What is a pre-release hardware enablement kernel?](/t/ubuntu-kernels/828#heading--hardware-enablement-kernels-pre-release)
-* [What is a low latency kernel?](/t/ubuntu-kernels/828#heading--low-latency-kernels)
-* [How can I choose and configure my preferred kernel?](/t/ubuntu-kernels/828#heading--using-kernels)
+* [What is a general availability kernel?](#heading--general-availability-kernels)
+* [What is a hardware enablement kernel?](#heading--hardware-enablement-kernels)
+* [What is a pre-release hardware enablement kernel?](#heading--hardware-enablement-kernels-pre-release)
+* [What is a low latency kernel?](#heading--low-latency-kernels)
+* [How can I choose and configure my preferred kernel?](#heading--using-kernels)
 
 <h2 id="heading--general-availability-kernels">General availability kernels</h2>
 
@@ -123,7 +123,7 @@ In MAAS 2.1, starting with Xenial kernels, the notation has changed. The followi
 
 See [MAAS CLI](/t/cli-image-management/797#heading--hardware-enablement-hwe) for how to target specific HWE kernels when selecting install images.
 
-See [LTS Enablement Stack](https://wiki.ubuntu.com/Kernel/LTSEnablementStack) (Ubuntu wiki) for the latest information on HWE.
+See [LTS Enablement Stack^](https://wiki.ubuntu.com/Kernel/LTSEnablementStack) (Ubuntu wiki) for the latest information on HWE.
 
 <h2 id="heading--hardware-enablement-kernels-pre-release">Hardware enablement kernels (pre-release)</h2>
 
@@ -133,11 +133,11 @@ MAAS denotes the edge kernel like this: `hwe-<version>-edge`.
 
 So 'hwe-16.04' is considered older than 'hwe-16.04-edge'.
 
-See [Rolling LTS Enablement Stack](https://wiki.ubuntu.com/Kernel/RollingLTSEnablementStack#hwe-16.04-edge) (Ubuntu wiki) for more information.
+See [Rolling LTS Enablement Stack^](https://wiki.ubuntu.com/Kernel/RollingLTSEnablementStack#hwe-16.04-edge) (Ubuntu wiki) for more information.
 
 <h2 id="heading--low-latency-kernels">Low latency kernels</h2>
 
-The low-latency kernel is based on the GA kernel, but uses a more aggressive configuration to reduce latency. It is categorised as a soft real-time kernel. For more information, see [Criteria for real-time computing](https://en.wikipedia.org/wiki/Real-time_computing#Criteria_for_real-time_computing) (Wikipedia).
+The low-latency kernel is based on the GA kernel, but uses a more aggressive configuration to reduce latency. It is categorised as a soft real-time kernel. For more information, see [Criteria for real-time computing^](https://en.wikipedia.org/wiki/Real-time_computing#Criteria_for_real-time_computing) (Wikipedia).
 
 MAAS denotes a low latency kernel in a few ways:
 
@@ -174,5 +174,3 @@ To set a specific kernel during deployment, select a machine from the 'Machines'
 <a href="https://assets.ubuntu.com/v1/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png"></a>
 
 MAAS verifies that the specified kernel is available for the given Ubuntu release (series) before deploying the machine.
-
-<!-- LINKS -->

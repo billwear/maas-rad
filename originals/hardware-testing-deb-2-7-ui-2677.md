@@ -88,8 +88,8 @@ The majority of testing scripts only work with machines that are backed by physi
 
 #### Questions you may have: 
 
-* [How do I apply a hardware test?](/t/hardware-testing/826#heading--apply-a-hardware-test)
-* [What scripts are available for testing?](/t/hardware-testing/826#heading--included-scripts)
+* [How do I apply a hardware test?](#heading--apply-a-hardware-test)
+* [What scripts are available for testing?](#heading--included-scripts)
 
 <h2 id="heading--apply-a-hardware-test">Apply a hardware test</h2>
 
@@ -198,7 +198,48 @@ After either commissioning, testing, or installation has started, MAAS reports i
 
 You can access the verbatim output from any test by selecting a machine, selecting the 'Hardware tests' page and clicking on the 'Log view' link in the 'Results' column for the specific test.
 
-See [Commissioning and Hardware Testing Scripts](/t/commissioning-and-hardware-testing-scripts/833) for more details on how these scripts work and how you can write your own.
+<!-- deb-2-7-cli
+See [Commissioning and Hardware Testing Scripts](/t/commissioning-and-hardware-testing-scripts/2484) for more details on how these scripts work and how you can write your own.
+ deb-2-7-cli -->
 
-<!-- LINKS -->
-<!-- IMAGES -->
+See [Commissioning and Hardware Testing Scripts](/t/commissioning-and-hardware-testing-scripts/2485) for more details on how these scripts work and how you can write your own.
+
+<!-- deb-2-8-cli
+See [Commissioning and Hardware Testing Scripts](/t/commissioning-and-hardware-testing-scripts/2486) for more details on how these scripts work and how you can write your own.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+See [Commissioning and Hardware Testing Scripts](/t/commissioning-and-hardware-testing-scripts/2487) for more details on how these scripts work and how you can write your own.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+See [Commissioning and Hardware Testing Scripts](/t/commissioning-and-hardware-testing-scripts/2488) for more details on how these scripts work and how you can write your own.
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+See [Commissioning and Hardware Testing Scripts](/t/commissioning-and-hardware-testing-scripts/2489) for more details on how these scripts work and how you can write your own.
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+See [Commissioning and Hardware Testing Scripts](/t/commissioning-and-hardware-testing-scripts/2478) for more details on how these scripts work and how you can write your own.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+See [Commissioning and Hardware Testing Scripts](/t/commissioning-and-hardware-testing-scripts/2479) for more details on how these scripts work and how you can write your own.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+See [Commissioning and Hardware Testing Scripts](/t/commissioning-and-hardware-testing-scripts/2480) for more details on how these scripts work and how you can write your own.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+See [Commissioning and Hardware Testing Scripts](/t/commissioning-and-hardware-testing-scripts/2481) for more details on how these scripts work and how you can write your own.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+See [Commissioning and Hardware Testing Scripts](/t/commissioning-and-hardware-testing-scripts/2482) for more details on how these scripts work and how you can write your own.
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+See [Commissioning and Hardware Testing Scripts](/t/commissioning-and-hardware-testing-scripts/2483) for more details on how these scripts work and how you can write your own.
+ snap-2-9-ui -->

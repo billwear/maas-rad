@@ -1,191 +1,176 @@
 <!-- deb-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/region-controllers-snap-2-7-cli/3066) ~ [UI](/t/region-controllers-snap-2-7-ui/3067)|[CLI](/t/region-controllers-snap-2-8-cli/3068) ~ [UI](/t/region-controllers-snap-2-8-ui/3069)|[CLI](/t/region-controllers-snap-2-9-cli/3070) ~ [UI](/t/region-controllers-snap-2-9-ui/3071)|
-|Packages|CLI ~ [UI](/t/region-controllers-deb-2-7-ui/3073)|[CLI](/t/region-controllers-deb-2-8-cli/3074) ~ [UI](/t/region-controllers-deb-2-8-ui/3075)|[CLI](/t/region-controllers-deb-2-9-cli/3076) ~ [UI](/t/region-controllers-deb-2-9-ui/3077)|
+|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
+|Packages|CLI ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/region-controllers-snap-2-7-cli/3066) ~ [UI](/t/region-controllers-snap-2-7-ui/3067)|[CLI](/t/region-controllers-snap-2-8-cli/3068) ~ [UI](/t/region-controllers-snap-2-8-ui/3069)|[CLI](/t/region-controllers-snap-2-9-cli/3070) ~ [UI](/t/region-controllers-snap-2-9-ui/3071)|
-|Packages|[CLI](/t/region-controllers-deb-2-7-cli/3072) ~ UI|[CLI](/t/region-controllers-deb-2-8-cli/3074) ~ [UI](/t/region-controllers-deb-2-8-ui/3075)|[CLI](/t/region-controllers-deb-2-9-cli/3076) ~ [UI](/t/region-controllers-deb-2-9-ui/3077)|
+|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
+|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ UI|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/region-controllers-snap-2-7-cli/3066) ~ [UI](/t/region-controllers-snap-2-7-ui/3067)|[CLI](/t/region-controllers-snap-2-8-cli/3068) ~ [UI](/t/region-controllers-snap-2-8-ui/3069)|[CLI](/t/region-controllers-snap-2-9-cli/3070) ~ [UI](/t/region-controllers-snap-2-9-ui/3071)|
-|Packages|[CLI](/t/region-controllers-deb-2-7-cli/3072) ~ [UI](/t/region-controllers-deb-2-7-ui/3073)|CLI ~ [UI](/t/region-controllers-deb-2-8-ui/3075)|[CLI](/t/region-controllers-deb-2-9-cli/3076) ~ [UI](/t/region-controllers-deb-2-9-ui/3077)|
+|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
+|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|CLI ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/region-controllers-snap-2-7-cli/3066) ~ [UI](/t/region-controllers-snap-2-7-ui/3067)|[CLI](/t/region-controllers-snap-2-8-cli/3068) ~ [UI](/t/region-controllers-snap-2-8-ui/3069)|[CLI](/t/region-controllers-snap-2-9-cli/3070) ~ [UI](/t/region-controllers-snap-2-9-ui/3071)|
-|Packages|[CLI](/t/region-controllers-deb-2-7-cli/3072) ~ [UI](/t/region-controllers-deb-2-7-ui/3073)|[CLI](/t/region-controllers-deb-2-8-cli/3074) ~ UI|[CLI](/t/region-controllers-deb-2-9-cli/3076) ~ [UI](/t/region-controllers-deb-2-9-ui/3077)|
+|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
+|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ UI|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/region-controllers-snap-2-7-cli/3066) ~ [UI](/t/region-controllers-snap-2-7-ui/3067)|[CLI](/t/region-controllers-snap-2-8-cli/3068) ~ [UI](/t/region-controllers-snap-2-8-ui/3069)|[CLI](/t/region-controllers-snap-2-9-cli/3070) ~ [UI](/t/region-controllers-snap-2-9-ui/3071)|
-|Packages|[CLI](/t/region-controllers-deb-2-7-cli/3072) ~ [UI](/t/region-controllers-deb-2-7-ui/3073)|[CLI](/t/region-controllers-deb-2-8-cli/3074) ~ [UI](/t/region-controllers-deb-2-8-ui/3075)|CLI ~ [UI](/t/region-controllers-deb-2-9-ui/3077)|
+|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
+|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|CLI ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/region-controllers-snap-2-7-cli/3066) ~ [UI](/t/region-controllers-snap-2-7-ui/3067)|[CLI](/t/region-controllers-snap-2-8-cli/3068) ~ [UI](/t/region-controllers-snap-2-8-ui/3069)|[CLI](/t/region-controllers-snap-2-9-cli/3070) ~ [UI](/t/region-controllers-snap-2-9-ui/3071)|
-|Packages|[CLI](/t/region-controllers-deb-2-7-cli/3072) ~ [UI](/t/region-controllers-deb-2-7-ui/3073)|[CLI](/t/region-controllers-deb-2-8-cli/3074) ~ [UI](/t/region-controllers-deb-2-8-ui/3075)|[CLI](/t/region-controllers-deb-2-9-cli/3076) ~ UI|
+|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
+|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ UI|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|CLI ~ [UI](/t/region-controllers-snap-2-7-ui/3067)|[CLI](/t/region-controllers-snap-2-8-cli/3068) ~ [UI](/t/region-controllers-snap-2-8-ui/3069)|[CLI](/t/region-controllers-snap-2-9-cli/3070) ~ [UI](/t/region-controllers-snap-2-9-ui/3071)|
-|Packages|[CLI](/t/region-controllers-deb-2-7-cli/3072) ~ [UI](/t/region-controllers-deb-2-7-ui/3073)|[CLI](/t/region-controllers-deb-2-8-cli/3074) ~ [UI](/t/region-controllers-deb-2-8-ui/3075)|[CLI](/t/region-controllers-deb-2-9-cli/3076) ~ [UI](/t/region-controllers-deb-2-9-ui/3077)|
+|Snap|CLI ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
+|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
  snap-2-7-cli -->
 
-<!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/region-controllers-snap-2-7-cli/3066) ~ UI|[CLI](/t/region-controllers-snap-2-8-cli/3068) ~ [UI](/t/region-controllers-snap-2-8-ui/3069)|[CLI](/t/region-controllers-snap-2-9-cli/3070) ~ [UI](/t/region-controllers-snap-2-9-ui/3071)|
-|Packages|[CLI](/t/region-controllers-deb-2-7-cli/3072) ~ [UI](/t/region-controllers-deb-2-7-ui/3073)|[CLI](/t/region-controllers-deb-2-8-cli/3074) ~ [UI](/t/region-controllers-deb-2-8-ui/3075)|[CLI](/t/region-controllers-deb-2-9-cli/3076) ~ [UI](/t/region-controllers-deb-2-9-ui/3077)|
- snap-2-7-ui -->
+|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ UI|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
+|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/region-controllers-snap-2-7-cli/3066) ~ [UI](/t/region-controllers-snap-2-7-ui/3067)|CLI ~ [UI](/t/region-controllers-snap-2-8-ui/3069)|[CLI](/t/region-controllers-snap-2-9-cli/3070) ~ [UI](/t/region-controllers-snap-2-9-ui/3071)|
-|Packages|[CLI](/t/region-controllers-deb-2-7-cli/3072) ~ [UI](/t/region-controllers-deb-2-7-ui/3073)|[CLI](/t/region-controllers-deb-2-8-cli/3074) ~ [UI](/t/region-controllers-deb-2-8-ui/3075)|[CLI](/t/region-controllers-deb-2-9-cli/3076) ~ [UI](/t/region-controllers-deb-2-9-ui/3077)|
+|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|CLI ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
+|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/region-controllers-snap-2-7-cli/3066) ~ [UI](/t/region-controllers-snap-2-7-ui/3067)|[CLI](/t/region-controllers-snap-2-8-cli/3068) ~ UI|[CLI](/t/region-controllers-snap-2-9-cli/3070) ~ [UI](/t/region-controllers-snap-2-9-ui/3071)|
-|Packages|[CLI](/t/region-controllers-deb-2-7-cli/3072) ~ [UI](/t/region-controllers-deb-2-7-ui/3073)|[CLI](/t/region-controllers-deb-2-8-cli/3074) ~ [UI](/t/region-controllers-deb-2-8-ui/3075)|[CLI](/t/region-controllers-deb-2-9-cli/3076) ~ [UI](/t/region-controllers-deb-2-9-ui/3077)|
+|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ UI|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
+|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
  snap-2-8-ui -->
 
+<!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/region-controllers-snap-2-7-cli/3066) ~ [UI](/t/region-controllers-snap-2-7-ui/3067)|[CLI](/t/region-controllers-snap-2-8-cli/3068) ~ [UI](/t/region-controllers-snap-2-8-ui/3069)|CLI ~ [UI](/t/region-controllers-snap-2-9-ui/3071)|
-|Packages|[CLI](/t/region-controllers-deb-2-7-cli/3072) ~ [UI](/t/region-controllers-deb-2-7-ui/3073)|[CLI](/t/region-controllers-deb-2-8-cli/3074) ~ [UI](/t/region-controllers-deb-2-8-ui/3075)|[CLI](/t/region-controllers-deb-2-9-cli/3076) ~ [UI](/t/region-controllers-deb-2-9-ui/3077)|
+|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|CLI ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
+|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+ snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/region-controllers-snap-2-7-cli/3066) ~ [UI](/t/region-controllers-snap-2-7-ui/3067)|[CLI](/t/region-controllers-snap-2-8-cli/3068) ~ [UI](/t/region-controllers-snap-2-8-ui/3069)|[CLI](/t/region-controllers-snap-2-9-cli/3070) ~ UI|
-|Packages|[CLI](/t/region-controllers-deb-2-7-cli/3072) ~ [UI](/t/region-controllers-deb-2-7-ui/3073)|[CLI](/t/region-controllers-deb-2-8-cli/3074) ~ [UI](/t/region-controllers-deb-2-8-ui/3075)|[CLI](/t/region-controllers-deb-2-9-cli/3076) ~ [UI](/t/region-controllers-deb-2-9-ui/3077)|
+|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ UI|
+|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
  snap-2-9-ui -->
 
-A region controller manages communication with the user, via the Web UI/API, as well as managing the rack controller(s) in your system.  The MAAS postgres database is also managed by the region controller.  Typical region-level responsibilities include requesting that a rack controller boot a machine, and providing the ephemeral Ubuntu image needed to commission or enlist a machine.  
+MAAS supports four types of kernels for its Ubuntu machines.
 
-#### Quick questions you might have:
+-   General availability kernels
+-   Hardware enablement kernels
+-   Hardware enablement kernels (pre-release)
+-   Low latency kernels
 
-* [How do I set up PostgreSQL for the region?](#heading--postgresql-setup)
-* [How do I add a new region host?](#heading--adding-a-new-region-host)
-* [How can I improve region controller performance?](#heading--increasing-regiond-daemon-workers)
+This article explains each of these kernels, and offers instructions and further references regarding their use.
 
-<h2 id="heading--postgresql-setup">Set up PostgreSQL for the region</h2>
+#### Quick questions you may have:
 
-Any number of API servers (region controllers) can be present as long as each connects to the same PostgreSQL database and allows the required number of connections.
+* [What is a general availability kernel?](#heading--general-availability-kernels)
+* [What is a hardware enablement kernel?](#heading--hardware-enablement-kernels)
+* [What is a pre-release hardware enablement kernel?](#heading--hardware-enablement-kernels-pre-release)
+* [What is a low latency kernel?](#heading--low-latency-kernels)
+* [How can I choose and configure my preferred kernel?](#heading--using-kernels)
 
-On the primary database host, edit file <code>/etc/postgresql/9.5/main/pg_hba.conf</code> to allow the eventual secondary API server to contact the primary PostgreSQL database. Include the below line, replacing
-<code>$SECONDARY_API_SERVER_IP</code> with the IP address of the host that will contain the secondary API server:
+<h2 id="heading--general-availability-kernels">General availability kernels</h2>
 
-    host maasdb maas $SECONDARY_API_SERVER_IP/32 md5
+The *general availability* (GA) kernel is based on the *generic* kernel that ships with a new Ubuntu version. Subsequent fixes are applied regularly by the 'daily' *stream* used when setting up the global image source for MAAS.
 
-[note]
-The primary database and API servers often reside on the same host.
-[/note]
+MAAS denotes a GA kernel like this:
 
-Apply this change by restarting the database:
+`ga-<version>`: The GA kernel reflects the major kernel version of the shipped Ubuntu release. For example, 'ga-16.04' is based on the 'generic' 4.4 Ubuntu kernel. As per Ubuntu policy, a GA kernel will never have its major version upgraded until the underlying release is upgraded.
 
-    sudo systemctl restart postgresql
+<h2 id="heading--hardware-enablement-kernels">Hardware enablement kernels</h2>
 
-<h2 id="heading--adding-a-new-region-host">Add a new region host</h2>
+New hardware gets released all the time. If an Ubuntu host runs an older kernel, it's unlikely that MAAS can support the hardware. Canonical does make every effort to backport more recent kernels enabling more hardware. The acronym HWE stands for "HardWare Enablement."
 
-On a secondary host, add the new region controller by installing <code>maas-region-api</code>:
-
-    sudo apt install maas-region-api
-
-You will need the <code>/etc/maas/regiond.conf</code> file from the primary API server. Below, we assume it can be copied (scp) from the ‘ubuntu’ account home directory using password authentication (adjust otherwise). The <code>local_config_set</code> command will edit that file by pointing to the host that contains the primary PostgreSQL database. Do not worry: MAAS will rationalise the DNS (<code>bind9</code>) configuration options so that they match those used within MAAS:
-
-    sudo systemctl stop maas-regiond
-    sudo scp ubuntu@$PRIMARY_API_SERVER:regiond.conf /etc/maas/regiond.conf
-    sudo chown root:maas /etc/maas/regiond.conf
-    sudo chmod 640 /etc/maas/regiond.conf
-    sudo maas-region local_config_set --database-host $PRIMARY_PG_SERVER
-    sudo systemctl restart bind9
-    sudo systemctl start maas-regiond
-
-Check the log files for any errors:
-
-* <code>/var/log/maas/regiond.log</code></li>
-* <code>/var/log/maas/maas.log</code></li>
-* <code>/var/log/syslog</code></li>
-
-<h2 id="heading--increasing-regiond-daemon-workers">Improving region controller performance</h2>
+You also gain kernel improvements and new features when installing an HWE kernel.
 
 [note]
-This functionality is available starting from MAAS 2.4.
+There is the notion of an HWE *stack*, which refers to the window manager and kernel when the Ubuntu host is running a desktop environment. HWE stacks do not apply to MAAS since machines are provisioned strictly as non-graphical servers.
 [/note]
 
-The MAAS Region Controller is a daemon collection of 4 workers that are in charge of handling all the internals of MAAS. The regiond workers handle the UI, API and the internal communication between Region and Rack controllers.
+Note that these backported/HWE kernels are only available for LTS releases (e.g. Trusty, Xenial, etc.). For example, the first available HWE kernel for Ubuntu 16.04 LTS (Xenial) will be the GA kernel from Ubuntu 16.10 (Yakkety).
 
-In larger environments, which multiple rack controllers, you can easily improve performance within a region.  You can increase the number of workers, which allows faster (parallel) handling of internal communication between region and rack controllers.
+Before MAAS 2.1 on Xenial, HWE kernels are referred to by the notation `hwe-<release letter>`. So, to install the Yakkety HWE kernel on Xenial, the `hwe-y` kernel is used. By default, when using the web UI, MAAS imports all available HWE kernels along with its generic boot images. So if you are importinTrusty images are imported then the following HWE kernels are included: `hwe-u`, `hwe-v`, `hwe-w`, `hwe-x` (presuming the Xenial HWE kernel is available).
 
-<!-- snap-2-7-cli
-Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2682#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
-snap-2-7-cli -->
+In MAAS 2.1, starting with Xenial kernels, the notation has changed. The following is used to refer to the latest HWE kernel available for Xenial: `hwe-16.04`.
 
-<!-- snap-2-7-ui
-Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2683#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
-snap-2-7-ui -->
+See [MAAS CLI](/t/cli-image-management/797#heading--hardware-enablement-hwe) for how to target specific HWE kernels when selecting install images.
 
-<!-- snap-2-8-cli
-Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2684#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
-snap-2-8-cli -->
+See [LTS Enablement Stack^](https://wiki.ubuntu.com/Kernel/LTSEnablementStack) (Ubuntu wiki) for the latest information on HWE.
 
-<!-- snap-2-8-ui
-Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2685#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
-snap-2-8-ui -->
+<h2 id="heading--hardware-enablement-kernels-pre-release">Hardware enablement kernels (pre-release)</h2>
 
-Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2686#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
+The pre-release HWE kernel is known as the *edge* HWE kernel.
 
-<!-- snap-2-9-ui
-Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2687#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
-snap-2-9-ui -->
+MAAS denotes the edge kernel like this: `hwe-<version>-edge`.
 
-<!-- deb-2-7-cli
-Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2688#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
-deb-2-7-cli -->
+So 'hwe-16.04' is considered older than 'hwe-16.04-edge'.
 
-<!-- deb-2-7-ui
-Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2689#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
-deb-2-7-ui -->
+See [Rolling LTS Enablement Stack^](https://wiki.ubuntu.com/Kernel/RollingLTSEnablementStack#hwe-16.04-edge) (Ubuntu wiki) for more information.
 
-<!-- deb-2-8-cli
-Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2690#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
-deb-2-8-cli -->
+<h2 id="heading--low-latency-kernels">Low latency kernels</h2>
 
-<!-- deb-2-8-ui
-Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2691#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
-deb-2-8-ui -->
+The low-latency kernel is based on the GA kernel, but uses a more aggressive configuration to reduce latency. It is categorised as a soft real-time kernel. For more information, see [Criteria for real-time computing^](https://en.wikipedia.org/wiki/Real-time_computing#Criteria_for_real-time_computing) (Wikipedia).
 
-<!-- deb-2-9-cli
-Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2692#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
-deb-2-9-cli -->
+MAAS denotes a low latency kernel in a few ways:
 
-<!-- deb-2-9-ui
-Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/t/high-availability/2693#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.
-deb-2-9-ui -->
+-   `hwe-x-lowlatency`: the Xenial low latency HWE kernel for Trusty
+-   `ga-16.04-lowlatency`: the low latency GA kernel for Xenial
+-   `hwe-16.04-lowlatency`: the low latency HWE kernel for Xenial
 
-To increase the number of workers, simply edit <code>regiond.conf (/etc/maas/regiond.conf)</code> and set <code>num_workers</code>. For example:
+<h2 id="heading--using-kernels">Using kernels</h2>
 
-    [...]
-    num_workers: 8
+The kernel installed on a machine during deployment is, by default, the Ubuntu release's native kernel (GA). However, it is possible to tell MAAS to use a different kernel. Via the Web UI, MAAS can help you choose one of these kernels.  There are three different contexts for your choice:
 
-Keep in mind that adding too many workers may <em>reduce</em> performance. We recommended one worker per CPU, up to eight workers in total. Increasing beyond that is possible but use at your own risk.
+-   globally (default minimum enlistment and commissioning kernel)
+-   per machine (minimum deploy kernel)
+-   per machine during deployment (specific deploy kernel)
+
+You can also use the [MAAS CLI](/t/cli-kernel-management/799#heading--set-a-default-minimum-kernel-for-enlistment-and-commissioning) to make these choices.
+
+<h3 id="heading--default-minimum-kernel">Default minimum kernel</h3>
+
+To set the default minimum enlistment and commissioning kernel (based on Ubuntu release: GA kernel) for all machines visit the 'General' tab of the 'Settings' page and select a kernel in the 'Default Minimum Kernel Version' field of the *Commissioning* section. Don't forget to click 'Save'.
+
+<a href="https://assets.ubuntu.com/v1/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png"></a>
+
+<h3 id="heading--machine-minimum-kernel">Machine minimum kernel</h3>
+
+To set the minimum deploy kernel on a machine basis, click on a machine from the 'Machines' page of the web UI and switch to its 'Configuration' page. Click 'Edit' in the 'Machine configuration' section, select a kernel in the 'Minimum Kernel' field followed by 'Save changes'.
+
+<a href="https://assets.ubuntu.com/v1/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png"></a>
+
+<h3 id="heading--machine-kernel-during-deployment">Machine kernel during deployment</h3>
+
+To set a specific kernel during deployment, select a machine from the 'Machines' page and choose 'Deploy' under 'Take action'. Then choose a kernel from the (third) kernel field. Hit 'Deploy machine' to initiate the deployment.
+
+<a href="https://assets.ubuntu.com/v1/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png"></a>
+
+MAAS verifies that the specified kernel is available for the given Ubuntu release (series) before deploying the machine.

@@ -86,10 +86,10 @@ Network testing also includes customisable network testing and commissioning scr
 
 #### Quick questions you may have:
 
-* [How do I use network link testing?](/t/network-testing/1267#heading--network-link-testing)
-* [How can I detect slow network links?](/t/network-testing/1267#heading--slow-link-detection)
-* [How do I use network validation and testing scripts?](/t/network-testing/1267#heading--network-validation-scripts-and-testing)
-* [How can I customise network testing?](/t/network-testing/1267#heading--customisable-network-testing)
+* [How do I use network link testing?](#heading--network-link-testing)
+* [How can I detect slow network links?](#heading--slow-link-detection)
+* [How do I use network validation and testing scripts?](#heading--network-validation-scripts-and-testing)
+* [How can I customise network testing?](#heading--customisable-network-testing)
 
 <h2 id="heading--network-link-testing">Network link testing</h2>
 

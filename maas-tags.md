@@ -90,10 +90,10 @@ Tags are a convenient way to assign descriptive words to machines, interfaces, a
 
 #### Quick questions you may have:
 
-* [How are tags defined?](/t/maas-tags/834#heading--tag-definitions)
-* [How can I see and filter the tag list?](/t/maas-tags/834#heading--tag-listing-and-tags-as-search-filters)
-* [How do I see and change which tags are assigned?](/t/maas-tags/834#heading--tag-assignment)
-* [How do I manage tags?](/t/maas-tags/834#heading--tag-management)
+* [How are tags defined?](#heading--tag-definitions)
+* [How can I see and filter the tag list?](#heading--tag-listing-and-tags-as-search-filters)
+* [How do I see and change which tags are assigned?](#heading--tag-assignment)
+* [How do I manage tags?](#heading--tag-management)
 
 MAAS supports binding an XPath expressions to a tag using *tag definitions* (see below). This makes auto-assigning tags to matching hardware possible. For instance, you could tag machines that possess fast GPUs and then deploy software that used GPU-accelerated CUDA or OpenCL libraries.
 

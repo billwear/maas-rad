@@ -86,16 +86,16 @@ You have significant latitude when choosing the final storage configuration of a
 
 #### Quick questions you may have:
 
-* [How does UEFI booting work?](/t/storage/775#heading--uefi)
-* [What kind of storage layouts are available?](/t/storage/775#heading--layouts)
-* [How do I set storage layouts?](/t/storage/775#heading--setting-layouts)
-* [What storage modifications can I make at the filesystem level?](/t/storage/775#heading--final-storage-modifications)
+* [How does UEFI booting work?](#heading--uefi)
+* [What kind of storage layouts are available?](#heading--layouts)
+* [How do I set storage layouts?](#heading--setting-layouts)
+* [What storage modifications can I make at the filesystem level?](#heading--final-storage-modifications)
 * [How can I erase a disk?](/t/disk-erasure/774)
 
 A machine's storage is dependant upon the underlying system's disks, but its configuration (i.e., disk usage) is the result of a storage template. In MAAS, this template is called a layout, and MAAS applies it to a machine during commissioning.  Once a layout is applied, a regular user can make modifications to a machine at the filesystem level to arrive at the machine's final storage configuration.  When a machine is no longer needed, a user can choose from among several disk erasure types before releasing it.
 
 [note]
-MAAS supports storage configuration for CentOS and RHEL deployments. Support includes RAID, LVM, and custom partitioning with different file systems (ZFS and bcache excluded). This support requires a newer version of Curtin, [available as a PPA](https://launchpad.net/ubuntu/+source/curtin).
+MAAS supports storage configuration for CentOS and RHEL deployments. Support includes RAID, LVM, and custom partitioning with different file systems (ZFS and bcache excluded). This support requires a newer version of Curtin, [available as a PPA^](https://launchpad.net/ubuntu/+source/curtin).
 [/note]
 
 <h2 id="heading--uefi">UEFI</h2>
