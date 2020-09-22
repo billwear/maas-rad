@@ -1,4 +1,3 @@
-<!-- flip -->
 <!-- deb-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
@@ -37,7 +36,7 @@ snap-2-8-cli -->
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/maas-documentation-snap-2-7-cli/2838) ~ [UI](/t/maas-documentation-snap-2-7-ui/2839)|[CLI](/t/maas-documentation-snap-2-8-cli/2840) ~ UI|[CLI](/t/maas-documentation-snap-2-9-cli/2842) ~ [UI](/t/maas-documentation-snap-2-9-ui/2843)|
 |Packages|[CLI](/t/maas-documentation-deb-2-7-cli/2844) ~ [UI](/t/maas-documentation-deb-2-7-ui/2845)|[CLI](/t/maas-documentation-deb-2-8-cli/2846) ~ [UI](/t/maas-documentation-deb-2-8-ui/2847)|[CLI](/t/maas-documentation-deb-2-9-cli/2848) ~ [UI](/t/maas-documentation-deb-2-9-ui/2849)|
- snap-2-8-ui -->
+snap-2-8-ui -->
 
 <!-- deb-2-8-cli
 || 2.7 | 2.8 | 2.9|
@@ -211,7 +210,7 @@ snap-2-9-cli -->
 <a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a>
 
 *Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas-snap-2-8-ui/2649), our example datacentre.*
- snap-2-8-ui -->
+snap-2-8-ui -->
 
 <!-- snap-2-9-ui
 <a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a>
@@ -265,9 +264,7 @@ snap-2-9-cli -->
 
 <h2 id="heading--whats-new">New version of MAAS</h2>
 
-<!-- deb-2-8-cli deb-2-8-ui snap-2-8-cli snap-2-8-ui pre-rad
 - [What's new in 2.8](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
-deb-2-8-cli deb-2-8-ui snap-2-8-cli snap-2-8-ui pre-rad -->
 
 - [What's new in 2.7](https://discourse.maas.io/t/whats-new-in-maas-2-7/1306)
 

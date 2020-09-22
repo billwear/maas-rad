@@ -1,237 +1,170 @@
 <!-- deb-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|CLI ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/disk-erasure-snap-2-7-cli/2610) ~ [UI](/t/disk-erasure-snap-2-7-ui/2611)|[CLI](/t/disk-erasure-snap-2-8-cli/2612) ~ [UI](/t/disk-erasure-snap-2-8-ui/2613)|[CLI](/t/disk-erasure-snap-2-9-cli/2614) ~ [UI](/t/disk-erasure-snap-2-9-ui/2615)|
+|Packages|CLI ~ [UI](/t/disk-erasure-deb-2-7-ui/2617)|[CLI](/t/disk-erasure-deb-2-8-cli/2618) ~ [UI](/t/disk-erasure-deb-2-8-ui/2619)|[CLI](/t/disk-erasure-deb-2-9-cli/2620) ~ [UI](/t/disk-erasure-deb-2-9-ui/2621)|
  deb-2-7-cli -->
 
-<!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ UI|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
- deb-2-7-ui -->
+|Snap|[CLI](/t/disk-erasure-snap-2-7-cli/2610) ~ [UI](/t/disk-erasure-snap-2-7-ui/2611)|[CLI](/t/disk-erasure-snap-2-8-cli/2612) ~ [UI](/t/disk-erasure-snap-2-8-ui/2613)|[CLI](/t/disk-erasure-snap-2-9-cli/2614) ~ [UI](/t/disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](/t/disk-erasure-deb-2-7-cli/2616) ~ UI|[CLI](/t/disk-erasure-deb-2-8-cli/2618) ~ [UI](/t/disk-erasure-deb-2-8-ui/2619)|[CLI](/t/disk-erasure-deb-2-9-cli/2620) ~ [UI](/t/disk-erasure-deb-2-9-ui/2621)|
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|CLI ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/disk-erasure-snap-2-7-cli/2610) ~ [UI](/t/disk-erasure-snap-2-7-ui/2611)|[CLI](/t/disk-erasure-snap-2-8-cli/2612) ~ [UI](/t/disk-erasure-snap-2-8-ui/2613)|[CLI](/t/disk-erasure-snap-2-9-cli/2614) ~ [UI](/t/disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](/t/disk-erasure-deb-2-7-cli/2616) ~ [UI](/t/disk-erasure-deb-2-7-ui/2617)|CLI ~ [UI](/t/disk-erasure-deb-2-8-ui/2619)|[CLI](/t/disk-erasure-deb-2-9-cli/2620) ~ [UI](/t/disk-erasure-deb-2-9-ui/2621)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ UI|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/disk-erasure-snap-2-7-cli/2610) ~ [UI](/t/disk-erasure-snap-2-7-ui/2611)|[CLI](/t/disk-erasure-snap-2-8-cli/2612) ~ [UI](/t/disk-erasure-snap-2-8-ui/2613)|[CLI](/t/disk-erasure-snap-2-9-cli/2614) ~ [UI](/t/disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](/t/disk-erasure-deb-2-7-cli/2616) ~ [UI](/t/disk-erasure-deb-2-7-ui/2617)|[CLI](/t/disk-erasure-deb-2-8-cli/2618) ~ UI|[CLI](/t/disk-erasure-deb-2-9-cli/2620) ~ [UI](/t/disk-erasure-deb-2-9-ui/2621)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|CLI ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/disk-erasure-snap-2-7-cli/2610) ~ [UI](/t/disk-erasure-snap-2-7-ui/2611)|[CLI](/t/disk-erasure-snap-2-8-cli/2612) ~ [UI](/t/disk-erasure-snap-2-8-ui/2613)|[CLI](/t/disk-erasure-snap-2-9-cli/2614) ~ [UI](/t/disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](/t/disk-erasure-deb-2-7-cli/2616) ~ [UI](/t/disk-erasure-deb-2-7-ui/2617)|[CLI](/t/disk-erasure-deb-2-8-cli/2618) ~ [UI](/t/disk-erasure-deb-2-8-ui/2619)|CLI ~ [UI](/t/disk-erasure-deb-2-9-ui/2621)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ UI|
+|Snap|[CLI](/t/disk-erasure-snap-2-7-cli/2610) ~ [UI](/t/disk-erasure-snap-2-7-ui/2611)|[CLI](/t/disk-erasure-snap-2-8-cli/2612) ~ [UI](/t/disk-erasure-snap-2-8-ui/2613)|[CLI](/t/disk-erasure-snap-2-9-cli/2614) ~ [UI](/t/disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](/t/disk-erasure-deb-2-7-cli/2616) ~ [UI](/t/disk-erasure-deb-2-7-ui/2617)|[CLI](/t/disk-erasure-deb-2-8-cli/2618) ~ [UI](/t/disk-erasure-deb-2-8-ui/2619)|[CLI](/t/disk-erasure-deb-2-9-cli/2620) ~ UI|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|CLI ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|CLI ~ [UI](/t/disk-erasure-snap-2-7-ui/2611)|[CLI](/t/disk-erasure-snap-2-8-cli/2612) ~ [UI](/t/disk-erasure-snap-2-8-ui/2613)|[CLI](/t/disk-erasure-snap-2-9-cli/2614) ~ [UI](/t/disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](/t/disk-erasure-deb-2-7-cli/2616) ~ [UI](/t/disk-erasure-deb-2-7-ui/2617)|[CLI](/t/disk-erasure-deb-2-8-cli/2618) ~ [UI](/t/disk-erasure-deb-2-8-ui/2619)|[CLI](/t/disk-erasure-deb-2-9-cli/2620) ~ [UI](/t/disk-erasure-deb-2-9-ui/2621)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ UI|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/disk-erasure-snap-2-7-cli/2610) ~ UI|[CLI](/t/disk-erasure-snap-2-8-cli/2612) ~ [UI](/t/disk-erasure-snap-2-8-ui/2613)|[CLI](/t/disk-erasure-snap-2-9-cli/2614) ~ [UI](/t/disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](/t/disk-erasure-deb-2-7-cli/2616) ~ [UI](/t/disk-erasure-deb-2-7-ui/2617)|[CLI](/t/disk-erasure-deb-2-8-cli/2618) ~ [UI](/t/disk-erasure-deb-2-8-ui/2619)|[CLI](/t/disk-erasure-deb-2-9-cli/2620) ~ [UI](/t/disk-erasure-deb-2-9-ui/2621)|
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|CLI ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/disk-erasure-snap-2-7-cli/2610) ~ [UI](/t/disk-erasure-snap-2-7-ui/2611)|CLI ~ [UI](/t/disk-erasure-snap-2-8-ui/2613)|[CLI](/t/disk-erasure-snap-2-9-cli/2614) ~ [UI](/t/disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](/t/disk-erasure-deb-2-7-cli/2616) ~ [UI](/t/disk-erasure-deb-2-7-ui/2617)|[CLI](/t/disk-erasure-deb-2-8-cli/2618) ~ [UI](/t/disk-erasure-deb-2-8-ui/2619)|[CLI](/t/disk-erasure-deb-2-9-cli/2620) ~ [UI](/t/disk-erasure-deb-2-9-ui/2621)|
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ UI|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/disk-erasure-snap-2-7-cli/2610) ~ [UI](/t/disk-erasure-snap-2-7-ui/2611)|[CLI](/t/disk-erasure-snap-2-8-cli/2612) ~ UI|[CLI](/t/disk-erasure-snap-2-9-cli/2614) ~ [UI](/t/disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](/t/disk-erasure-deb-2-7-cli/2616) ~ [UI](/t/disk-erasure-deb-2-7-ui/2617)|[CLI](/t/disk-erasure-deb-2-8-cli/2618) ~ [UI](/t/disk-erasure-deb-2-8-ui/2619)|[CLI](/t/disk-erasure-deb-2-9-cli/2620) ~ [UI](/t/disk-erasure-deb-2-9-ui/2621)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|CLI ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/disk-erasure-snap-2-7-cli/2610) ~ [UI](/t/disk-erasure-snap-2-7-ui/2611)|[CLI](/t/disk-erasure-snap-2-8-cli/2612) ~ [UI](/t/disk-erasure-snap-2-8-ui/2613)|CLI ~ [UI](/t/disk-erasure-snap-2-9-ui/2615)|
+|Packages|[CLI](/t/disk-erasure-deb-2-7-cli/2616) ~ [UI](/t/disk-erasure-deb-2-7-ui/2617)|[CLI](/t/disk-erasure-deb-2-8-cli/2618) ~ [UI](/t/disk-erasure-deb-2-8-ui/2619)|[CLI](/t/disk-erasure-deb-2-9-cli/2620) ~ [UI](/t/disk-erasure-deb-2-9-ui/2621)|
  snap-2-9-cli -->
 
+<!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ UI|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/disk-erasure-snap-2-7-cli/2610) ~ [UI](/t/disk-erasure-snap-2-7-ui/2611)|[CLI](/t/disk-erasure-snap-2-8-cli/2612) ~ [UI](/t/disk-erasure-snap-2-8-ui/2613)|[CLI](/t/disk-erasure-snap-2-9-cli/2614) ~ UI|
+|Packages|[CLI](/t/disk-erasure-deb-2-7-cli/2616) ~ [UI](/t/disk-erasure-deb-2-7-ui/2617)|[CLI](/t/disk-erasure-deb-2-8-cli/2618) ~ [UI](/t/disk-erasure-deb-2-8-ui/2619)|[CLI](/t/disk-erasure-deb-2-9-cli/2620) ~ [UI](/t/disk-erasure-deb-2-9-ui/2621)|
+ snap-2-9-ui -->
 
-A rack controller can connect to multiple VLANs, each from a different network interface. This configuration provides a scaling factor that can help as a network architecture grows in size.
+Disk erasure pertains to the erasing of data on each of a machine's disks when the machine has been released (see [Release action](/t/concepts-and-terms/785#heading--release)) back into the pool of available machines. The user can choose from among three erasure types before confirming the Release action. A default erasure configuration can also be set.
 
-#### Quick questions you may have:
+<h2 id="heading--erasure-types">Erasure types</h2>
 
-<!-- deb-2-7-cli
-* [How does MAAS communication work?](/t/maas-communication/2832)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2688#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- deb-2-7-cli -->
+The three types of erasure types are:
 
-<!-- deb-2-7-ui
-* [How does MAAS communication work?](/t/maas-communication/2833)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2689#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- deb-2-7-ui -->
+-   Standard erase
+-   Secure erase
+-   Quick erase
 
-<!-- deb-2-8-cli
-* [How does MAAS communication work?](/t/maas-communication/2834)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2690#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- deb-2-8-cli -->
+Each of these are explained below.
 
-<!-- deb-2-8-ui
-* [How does MAAS communication work?](/t/maas-communication/2835)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2691#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- deb-2-8-ui -->
+<h3 id="heading--standard-erase">Standard erase</h3>
 
-<!-- deb-2-9-cli
-* [How does MAAS communication work?](/t/maas-communication/2836)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2692#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- deb-2-9-cli -->
+Overwrites all data with zeros.
 
-<!-- deb-2-9-ui
-* [How does MAAS communication work?](/t/maas-communication/2837)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2683#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- deb-2-9-ui -->
+<h3 id="heading--secure-erase">Secure erase</h3>
 
-<!-- snap-2-7-cli
-* [How does MAAS communication work?](/t/maas-communication/2826)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2682#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- snap-2-7-cli -->
+Although effectively equivalent to Standard erase, Secure erase is much faster because the disk's firmware performs the operation. Because of this, however, some disks may not be able to perform this erasure type (SCSI, SAS, and FC disks in particular).
 
-<!-- snap-2-7-ui
-* [How does MAAS communication work?](/t/maas-communication/2827)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2683#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- snap-2-7-ui -->
+<h3 id="heading--quick-erase">Quick erase</h3>
 
-<!-- snap-2-8-cli
-* [How does MAAS communication work?](/t/maas-communication/2828)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2684#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- snap-2-8-cli -->
+Same as Standard erase but only targets the first 1 MB and the last 1 MB of each disk. This removes the partition tables and/or superblock from the disk, making data recovery difficult but not impossible.
 
-<!-- snap-2-8-ui
-* [How does MAAS communication work?](/t/maas-communication/2829)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2685#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- snap-2-8-ui -->
+<h2 id="heading--default-configuration">Default configuration</h2>
 
-<!-- snap-2-9-cli
-* [How does MAAS communication work?](/t/maas-communication/2830)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2686#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- snap-2-9-cli -->
+A default erasure configuration can be set on the 'Settings' page by selecting the 'Storage' tab.
 
-* [How does MAAS communication work?](/t/maas-communication/2831)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2687#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
+<a href="https://assets.ubuntu.com/v1/4e90c4c7-installconfig-storage-erasure__defaults.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/4e90c4c7-installconfig-storage-erasure__defaults.png"></a>
 
-<h2 id="heading--install-a-rack-controller">Install a rack controller</h2>
+If option 'Erase machines' disks prior to releasing' is chosen then users will be compelled to use disk erasure. That option will be pre-filled in the machine's view and the user will be unable to remove the option.
 
-Installing a rack controller consists of installing the rack controller software and then registering the rack controller with the region API server.  When MAAS installs a rack controller on the same host as the region API server, registration occurs automatically.  Rack controllers can also be [added and registered manually](/t/cli-advanced-tasks/793#heading--install-a-rack-controller).
+With the above defaults, the machine's view will look like this when the Release action is chosen:
 
-Once registered, this extra rack controller will appear immediately alongside the primary controller in the web UI and begin to sync with it:
+<a href="https://assets.ubuntu.com/v1/66e1dcc2-installconfig-storage-erasure__defaults-node.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/66e1dcc2-installconfig-storage-erasure__defaults-node.png"></a>
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/0a5f1d374a3e53235a83eb157163be49016e63b5.png" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/0a5f1d374a3e53235a83eb157163be49016e63b5.png"></a> 
+Where 'secure erase' and 'quick erase' can then be configured by the user.
 
-<!-- deb-2-7-cli
-You can also [list and confirm](/t/cli-advanced-tasks/793#heading--list-rack-controllers) all registered rack controllers via the CLI.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2688) configurations.
- deb-2-7-cli -->
+<h2 id="heading--order-of-preference">Order of preference</h2>
 
-<!-- deb-2-7-ui
-You can also [list and confirm](/t/cli-advanced-tasks/793#heading--list-rack-controllers) all registered rack controllers via the CLI.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2689) configurations.
- deb-2-7-ui -->
+If all three options are checked when the machine is released the following order of preference is applied:
 
-<!-- deb-2-8-cli
-You can also [list and confirm](/t/cli-advanced-tasks/793#heading--list-rack-controllers) all registered rack controllers via the CLI.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2690) configurations.
- deb-2-8-cli -->
+1.  Use 'secure erase' if the disk supports it
+2.  If it does not then use 'quick erase'
 
-<!-- deb-2-8-ui
-You can also [list and confirm](/t/cli-advanced-tasks/793#heading--list-rack-controllers) all registered rack controllers via the CLI.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2691) configurations.
- deb-2-8-ui -->
+<!-- deb-2-7-cli deb-2-8-cli deb-2-9-cli snap-2-8-cli snap-2-9-cli snap-2-7-cli
 
-<!-- deb-2-9-cli
-You can also [list and confirm](/t/cli-advanced-tasks/793#heading--list-rack-controllers) all registered rack controllers via the CLI.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2692) configurations.
- deb-2-9-cli -->
+<h2>Erasure procedure</h2>
 
-<!-- deb-2-9-ui
-You can also [list and confirm](/t/cli-advanced-tasks/793#heading--list-rack-controllers) all registered rack controllers via the CLI.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2693) configurations.
- deb-2-9-ui -->
+When using the [MAAS CLI](/t/maas-cli/802), you can erase a disk when releasing an individual machine.  Note that this option is not available when releasing multiple machines, so you'll want to make sure you're using:
 
-<!-- snap-2-7-cli
-You can also [list and confirm](/t/cli-advanced-tasks/793#heading--list-rack-controllers) all registered rack controllers via the CLI.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2682) configurations.
- snap-2-7-cli -->
+```
+maas $PROFILE machine release...
+```
 
-<!-- snap-2-7-ui
-You can also [list and confirm](/t/cli-advanced-tasks/793#heading--list-rack-controllers) all registered rack controllers via the CLI.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2683) configurations.
- snap-2-7-ui -->
+and not:
 
-<!-- snap-2-8-cli
-You can also [list and confirm](/t/cli-advanced-tasks/793#heading--list-rack-controllers) all registered rack controllers via the CLI.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2684) configurations.
- snap-2-8-cli -->
+```
+maas $PROFILE machines release...
+```
 
-<!-- snap-2-8-ui
-You can also [list and confirm](/t/cli-advanced-tasks/793#heading--list-rack-controllers) all registered rack controllers via the CLI.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2685) configurations.
- snap-2-8-ui -->
+Note the difference in singular and plural "machine/machines" in the commands.  Releasing a machine requires that you have the `system_id` of the machine to be released, which you can obtain with a [basic machine list](/t/the-cli-cookbook/2218#heading--basic-machine-list):
 
-<!-- snap-2-9-cli
-You can also [list and confirm](/t/cli-advanced-tasks/793#heading--list-rack-controllers) all registered rack controllers via the CLI.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2686) configurations.
- snap-2-9-cli -->
+<a href="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a496ac76977909f3403160ca96a1bb7224e785f5.jpeg">
+</a>
 
-You can also [list and confirm](/t/cli-advanced-tasks/793#heading--list-rack-controllers) all registered rack controllers via the CLI.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2687) configurations.
+The basic form of the release command, when erasing disks on releasing, is:
 
-<div class="p-notification">
-<p class="p-notification__response">If you are using VM nodes, you must ensure that the new rack controller can communicate with the VM host.</p>
-</div>
+```
+maas $PROFILE machine release $SYSTEM_ID comment="some comment" erase=true [secure_erase=true ||/&& quick_erase=true]
+```
 
-<h2 id="heading--unregister-a-rack-controller">Unregister a rack controller</h2>
+Parameters `secure_erase` and `quick_erase` are both optional, although if you don't specify either of them, the entire disk will be overwritten with null bytes.  Note that this overwrite process is very slow.
 
-Most likely, you would only “unregister” an extra, unnecessary rack controller.  In this case, you need to <em>delete</em> it from the region API server; there is no ‘unregister’ command.
+Secure erasure uses the drive's secure erase feature, if it has one.  In some cases, this can be much faster than overwriting the entire drive.  Be aware, though, that some drives implement secure erasure as a complete drive overwrite, so this method may still be very slow.  Additionally, if you specify secure erasure and the drive doesn't have this feature, you'll get a complete overwrite anyway -- again, possibly very slow.
 
-To do so, navigate to the ‘Controllers’ page of the web UI. Enter the controller’s page by clicking on the machine you want to delete and select ‘Delete’ from the dropdown (and then ‘Delete controller’). MAAS will do the right thing if the controller is used for DHCP HA; that is, the DHCP HA needs to be disabled.
+Quick erasure wipes 2MB at the start and end of the drive to make recovery both inconvenient and unlikely to happen by accident.  Note, though, that quick erasure is not secure.
 
-Although similar, this is not the same as deletion. Here, you are deleting a machine that is a part of MAAS itself.
+<h3>Specifying both erasure types</h3>
 
-<div class="p-notification">
-<p class="p-notification__response">Unless you remove the software on this machine, rebooting it will cause the machine to re-instate itself as a rack controller. This behaviour may change with future versions of MAAS.</p>
-</div>
+If you're not sure whether the disk has secure erase features, the best way to handle that is to specify both erasure types:
+
+```
+maas $PROFILE machine release $SYSTEM_ID comment="some comment" erase=true secure_erase=true quick_erase=true
+```
+
+When you do that, MAAS will perform a secure erasure if the drive has that feature; if not, it will perform a quick erasure, thus avoiding a long drive overwrite.
+deb-2-7-cli deb-2-8-cli deb-2-9-cli snap-2-8-cli snap-2-9-cli snap-2-7-cli -->

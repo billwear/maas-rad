@@ -221,7 +221,7 @@ snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 For example, let's say that your [hospital](/t/give-me-an-example-of-maas-snap-2-8-ui/2649) has three key functions: Patient management, Accounting, and Facilities, each on their own VLAN.  Let's say that there are some situations in which you need to share data between all three of these functions.  To accomplish this, you can create a fabric that joins these three VLANS.  Since this fabric just makes it possible for these VLANs to communicate, you can manage the cross-VLAN access with additional software, or permissions, depending on your application software architecture.
-snap-2-9-ui -->
+snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 For example, let's say that your [hospital](/t/give-me-an-example-of-maas-snap-2-9-cli/2650) has three key functions: Patient management, Accounting, and Facilities, each on their own VLAN.  Let's say that there are some situations in which you need to share data between all three of these functions.  To accomplish this, you can create a fabric that joins these three VLANS.  Since this fabric just makes it possible for these VLANs to communicate, you can manage the cross-VLAN access with additional software, or permissions, depending on your application software architecture.

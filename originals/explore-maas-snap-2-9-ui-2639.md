@@ -84,13 +84,13 @@ You can get a feel for MAAS without committing real hardware by using virtual ma
 
 <h2 id="heading--installation">Installation</a></h2>
 
-We recommend testing MAAS with [libvirt](https://ubuntu.com/server/docs/virtualization-libvirt) and its VM/QEMU hypervisor driver. The majority of Linux distributions, including Ubuntu, support this tool. It is easy to install</a>, and MAAS natively supports power management of VMs created in libvirt. We also recommend that you install the GUI-based `virt-manager` to ease configuration, but you can use `libvirt` from the command line.
+We recommend testing MAAS with [libvirt^](https://ubuntu.com/server/docs/virtualization-libvirt) and its VM/QEMU hypervisor driver. The majority of Linux distributions, including Ubuntu, support this tool. It is easy to install</a>, and MAAS natively supports power management of VMs created in libvirt. We also recommend that you install the GUI-based `virt-manager` to ease configuration, but you can use `libvirt` from the command line.
 
 [note]
-MAAS also works in a Linux virtual machine running from Oracle’s [VirtualBox](https://www.virtualbox.org).  VirtualBox may be useful if you want to test MAAS from a Microsoft Windows or macOS environment.
+MAAS also works in a Linux virtual machine running from Oracle’s [VirtualBox^](https://www.virtualbox.org).  VirtualBox may be useful if you want to test MAAS from a Microsoft Windows or macOS environment.
 [/note]
 
-[Snaps](https://snapcraft.io/docs) are containerised software packages. To install MAAS from a snap simply enter the following:
+[Snaps^](https://snapcraft.io/docs) are containerised software packages. To install MAAS from a snap simply enter the following:
  
     $ sudo snap install maas --channel=2.8
 
@@ -169,4 +169,48 @@ At this point, MAAS is basically set up and running.  You can confirm this with 
 
 <h3>Next steps</h3>
 
-Once you have completed this process, you can access the web UI from the default URL (above) and begin your [configuration journey](/t/configuration-journey/781).
+<!-- deb-2-7-cli
+Once you have completed this process, you can access the web UI from the default URL (above) and begin your [configuration journey](/t/configuration-journey/2532).
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+Once you have completed this process, you can access the web UI from the default URL (above) and begin your [configuration journey](/t/configuration-journey/2533).
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+Once you have completed this process, you can access the web UI from the default URL (above) and begin your [configuration journey](/t/configuration-journey/2534).
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+Once you have completed this process, you can access the web UI from the default URL (above) and begin your [configuration journey](/t/configuration-journey/2535).
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+Once you have completed this process, you can access the web UI from the default URL (above) and begin your [configuration journey](/t/configuration-journey/2536).
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+Once you have completed this process, you can access the web UI from the default URL (above) and begin your [configuration journey](/t/configuration-journey/2537).
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+Once you have completed this process, you can access the web UI from the default URL (above) and begin your [configuration journey](/t/configuration-journey/2526).
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+Once you have completed this process, you can access the web UI from the default URL (above) and begin your [configuration journey](/t/configuration-journey/2527).
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+Once you have completed this process, you can access the web UI from the default URL (above) and begin your [configuration journey](/t/configuration-journey/2528).
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+Once you have completed this process, you can access the web UI from the default URL (above) and begin your [configuration journey](/t/configuration-journey/2529).
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+Once you have completed this process, you can access the web UI from the default URL (above) and begin your [configuration journey](/t/configuration-journey/2530).
+ snap-2-9-cli -->
+
+Once you have completed this process, you can access the web UI from the default URL (above) and begin your [configuration journey](/t/configuration-journey/2531).
