@@ -96,9 +96,9 @@ MAAS can only control most BMCs using IPv4.
 
 #### Quick questions you may have:
 
-* [What should I know about enabling IPv6?](/t/ipv6-addressing/761#heading--enable-ipv6)
-* [How do I configure an IPv6 subnet?](/t/ipv6-addressing/761#heading--configure-an-ipv6-subnet)
-* [What should I know about routing?](/t/ipv6-addressing/761#heading--routing)
+* [What should I know about enabling IPv6?](#heading--enable-ipv6)
+* [How do I configure an IPv6 subnet?](#heading--configure-an-ipv6-subnet)
+* [What should I know about routing?](#heading--routing)
 
 <h2 id="heading--enable-ipv6">Enable IPv6</h2>
 

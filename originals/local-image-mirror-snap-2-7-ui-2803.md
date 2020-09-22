@@ -84,9 +84,75 @@ Mirroring images is worthy of consideration.  The SimpleStreams protocol deliver
 
 #### Quick questions you may have:
 
-* [How do I set up a local mirror?](/t/local-image-mirror/752#heading--set-up-local-mirror)
-* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/751#heading--image-mirrors)
-* [How do I use a local mirror through the CLI?](/t/local-image-mirror/752#heading--local-mirror-with-cli)
+<!-- deb-2-7-cli
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3096#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3097#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3098#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3099#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3100#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3101#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3090#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ snap-2-7-cli -->
+
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3091#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+
+<!-- snap-2-8-cli
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3092#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3093#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3094#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3095#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ snap-2-9-ui -->
 
 <h2 id="heading--set-up-local-mirror">Setting up a local mirror</h2>
 

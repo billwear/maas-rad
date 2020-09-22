@@ -94,8 +94,8 @@ Configuring proxying with MAAS consists of enabling/disabling one of the above t
 
 #### Quick questions you may have:
 
-* [How and why should I create an internal proxy?](/t/proxy/763#heading--internal-proxy-maas-proxy)
-* [How and why should I create an external proxy?](/t/proxy/763#heading--configure-proxy)
+* [How and why should I create an internal proxy?](#heading--internal-proxy-maas-proxy)
+* [How and why should I create an external proxy?](#heading--configure-proxy)
 
 <h2 id="heading--internal-proxy-maas-proxy">Internal proxy (MAAS proxy)</h2>
 

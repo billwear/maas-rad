@@ -84,19 +84,87 @@ MAAS has a robust logging capability, which presents several different views, in
 
 #### Quick questions you may have:
 
-* [What are commissioning logs?](/t/commissioning-logs/1478)
-* [What is the syslog logging path?](/t/maas-logging/1468#heading--path)
-* [How do I use a remote syslog server?](/t/maas-logging/1468#heading--using-a-remote-syslog-server)
-* [What are test logs?](/t/test-logs/1479)
-<!-- * [What are machine logs?](/t/machine-logs/1480)
-* [What are event logs?](/t/event-logs/1481) -->
-<!-- * [What is the maas.log file?](/t/the-maas-log-file/1482)
-* [What is the rackd.log file?](/t/the-rackd-log-file/1483)
-* [What is the regiond.log file?](/t/the-regiond-log-file/1484)
-* [What is the HTTP access log file?](/t/the-http-access-log-file/1485)
-* [What is the HTTP error log file?](/t/the-http-error-log-file/1486)
-* [What are the proxy log files?](/t/the-proxy-log-files/1487)
-* [What are the MAAS rsyslog files?](/t/the-maas-rsyslog-files/1488) -->
+<!-- deb-2-7-cli
+* [What are commissioning logs?](/t/commissioning-logs/2496)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3132)
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+* [What are commissioning logs?](/t/commissioning-logs/2497)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3133)
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+* [What are commissioning logs?](/t/commissioning-logs/2498)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3134)
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+* [What are commissioning logs?](/t/commissioning-logs/2499)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3135)
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+* [What are commissioning logs?](/t/commissioning-logs/2500)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3136)
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+* [What are commissioning logs?](/t/commissioning-logs/2501)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3137)
+ deb-2-9-ui -->
+
+* [What are commissioning logs?](/t/commissioning-logs/2490)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3126)
+
+<!-- snap-2-7-ui
+* [What are commissioning logs?](/t/commissioning-logs/2491)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3127)
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+* [What are commissioning logs?](/t/commissioning-logs/2492)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3128)
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+* [What are commissioning logs?](/t/commissioning-logs/2493)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3129)
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+* [What are commissioning logs?](/t/commissioning-logs/2494)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3130)
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+* [What are commissioning logs?](/t/commissioning-logs/2495)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3131)
+ snap-2-9-ui -->
 
 The discussion of these logs and their contents can be very extensive, so each type of logging has its own documentation section, reachable from the left-hand menu -- or from the list of questions above.
 
@@ -119,3 +187,12 @@ Note that MAAS controllers' syslogs are not forwarded to the external syslog ser
 See [MAAS CLI](/t/cli-advanced-tasks/793#heading--add-or-update-a-remote-syslog-server) to learn how to add a remote syslog server using the CLI.
 
 <!-- LINKS -->
+<!-- * [What are machine logs?](/t/machine-logs/1480)
+* [What are event logs?](/t/event-logs/1481)
+* [What is the maas.log file?](/t/the-maas-log-file/1482)
+* [What is the rackd.log file?](/t/the-rackd-log-file/1483)
+* [What is the regiond.log file?](/t/the-regiond-log-file/1484)
+* [What is the HTTP access log file?](/t/the-http-access-log-file/1485)
+* [What is the HTTP error log file?](/t/the-http-error-log-file/1486)
+* [What are the proxy log files?](/t/the-proxy-log-files/1487)
+* [What are the MAAS rsyslog files?](/t/the-maas-rsyslog-files/1488) -->

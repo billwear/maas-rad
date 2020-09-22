@@ -86,14 +86,14 @@ The Machines and Devices pages contain a powerful interactive search bar that le
 
 Quick questions you may have:
 
-* [How can I do simple searches?](/t/interactive-search/819#heading--simple-searches)
-* [How can I do filtered searches?](/t/interactive-search/819#heading--filtered-searches)
-* [How can I create manual filters?](/t/interactive-search/819#heading--manual-filters)
-* [How do I set up exact matching?](/t/interactive-search/819#heading--exact-matching)
-* [How do I set up partial matching?](/t/interactive-search/819#heading--partial-matching)
-* [How can I include multiple search terms?](/t/interactive-search/819#heading--multiple-search-terms)
-* [What filter properties are available to me?](/t/interactive-search/819#heading--filter-properties)
-* [How can I search with the CLI?](/t/interactive-search/819#heading--cli)
+* [How can I do simple searches?](#heading--simple-searches)
+* [How can I do filtered searches?](#heading--filtered-searches)
+* [How can I create manual filters?](#heading--manual-filters)
+* [How do I set up exact matching?](#heading--exact-matching)
+* [How do I set up partial matching?](#heading--partial-matching)
+* [How can I include multiple search terms?](#heading--multiple-search-terms)
+* [What filter properties are available to me?](#heading--filter-properties)
+* [How can I search with the CLI?](#heading--cli)
 
 ---
 
@@ -181,5 +181,3 @@ pxe_mac:=9e:b0:e4:15:ae:1e
 <h2 id="heading--cli">CLI</h2>
 
 See [List nodes](/t/common-cli-tasks/794#heading--list-nodes) for more information about how to use the MAAS CLI to perform similar searches or [CLI](/t/maas-cli/802) for how to get started with the MAAS CLI.
-
-<!-- LINKS -->

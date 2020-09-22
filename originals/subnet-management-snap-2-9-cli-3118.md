@@ -84,10 +84,10 @@ The topic of subnet management pertains to whether or not MAAS is in full contro
 
 #### Quick questions you may have:
 
-* [What are managed subnets?](/t/subnet-management/766#heading--managed-subnets)
-* [What are unmanaged subnets?](/t/subnet-management/766#heading--unmanaged-subnets)
-* [What is IP address tracking?](/t/subnet-management/766#heading--ip-address-tracking)
-* [How do I control subnet management](/t/subnet-management/766#heading--controlling-subnet-management)
+* [What are managed subnets?](#heading--managed-subnets)
+* [What are unmanaged subnets?](#heading--unmanaged-subnets)
+* [What is IP address tracking?](#heading--ip-address-tracking)
+* [How do I control subnet management](#heading--controlling-subnet-management)
 
 <h2 id="heading--managed-subnets">Managed subnets</h2>
 
@@ -96,7 +96,51 @@ When you enable management for a subnet, MAAS will:
 -   Lease addresses for DHCP from a reserved dynamic IP range
 -   Assign static addresses not included in a reserved IP range, typically via 'Auto assign' IP allocation mode for a node.
 
-See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for an explanation of the two kinds of reserved IP ranges MAAS uses and [Post-commission configuration](/t/commission-machines/822#heading--post-commission-configuration) for information on IP allocation modes.
+<!-- deb-2-7-cli
+See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for an explanation of the two kinds of reserved IP ranges MAAS uses and [Post-commission configuration](/t/commission-machines/2472#heading--post-commission-configuration) for information on IP allocation modes.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for an explanation of the two kinds of reserved IP ranges MAAS uses and [Post-commission configuration](/t/commission-machines/2473#heading--post-commission-configuration) for information on IP allocation modes.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for an explanation of the two kinds of reserved IP ranges MAAS uses and [Post-commission configuration](/t/commission-machines/2474#heading--post-commission-configuration) for information on IP allocation modes.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for an explanation of the two kinds of reserved IP ranges MAAS uses and [Post-commission configuration](/t/commission-machines/2475#heading--post-commission-configuration) for information on IP allocation modes.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for an explanation of the two kinds of reserved IP ranges MAAS uses and [Post-commission configuration](/t/commission-machines/2476#heading--post-commission-configuration) for information on IP allocation modes.
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for an explanation of the two kinds of reserved IP ranges MAAS uses and [Post-commission configuration](/t/commission-machines/2477#heading--post-commission-configuration) for information on IP allocation modes.
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for an explanation of the two kinds of reserved IP ranges MAAS uses and [Post-commission configuration](/t/commission-machines/2466#heading--post-commission-configuration) for information on IP allocation modes.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for an explanation of the two kinds of reserved IP ranges MAAS uses and [Post-commission configuration](/t/commission-machines/2467#heading--post-commission-configuration) for information on IP allocation modes.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for an explanation of the two kinds of reserved IP ranges MAAS uses and [Post-commission configuration](/t/commission-machines/2468#heading--post-commission-configuration) for information on IP allocation modes.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for an explanation of the two kinds of reserved IP ranges MAAS uses and [Post-commission configuration](/t/commission-machines/2469#heading--post-commission-configuration) for information on IP allocation modes.
+ snap-2-8-ui -->
+
+See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for an explanation of the two kinds of reserved IP ranges MAAS uses and [Post-commission configuration](/t/commission-machines/2470#heading--post-commission-configuration) for information on IP allocation modes.
+
+<!-- snap-2-9-ui
+See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for an explanation of the two kinds of reserved IP ranges MAAS uses and [Post-commission configuration](/t/commission-machines/2471#heading--post-commission-configuration) for information on IP allocation modes.
+ snap-2-9-ui -->
 
 <h2 id="heading--unmanaged-subnets">Unmanaged subnets</h2>
 
@@ -115,5 +159,3 @@ See [MAAS CLI](/t/common-cli-tasks/794#heading--control-subnet-management) for h
 <h2 id="heading--ip-address-tracking">IP address tracking</h2>
 
 MAAS will keep track of all assigned addresses, regardless of whether they come from managed or unmanaged subnets.
-
-<!-- LINKS -->
