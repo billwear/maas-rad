@@ -717,6 +717,9 @@ TARGET_DEPS += originals/vmware-vmfs-datastores-snap-2-8-cli-3248.md
 TARGET_DEPS += originals/vmware-vmfs-datastores-snap-2-8-ui-3249.md
 TARGET_DEPS += originals/vmware-vmfs-datastores-snap-2-9-cli-3250.md
 TARGET_DEPS += originals/vmware-vmfs-datastores-snap-2-9-ui-3251.md
+TARGET_DEPS += originals/whats-new-in-maas-2-7-3335.md
+TARGET_DEPS += originals/whats-new-in-maas-2-8-3334.md
+TARGET_DEPS += originals/whats-new-in-maas-2-9-3336.md
 TARGET_DEPS += originals/writing-guide-747.md
 TARGET_DEPS += originals/zone-examples-deb-2-7-cli-3276.md
 TARGET_DEPS += originals/zone-examples-deb-2-7-ui-3277.md
@@ -797,6 +800,24 @@ originals/rack-controllers-deb-2-9-ui-3065.md: rack-controllers.md
 	cp -p rack-controllers-snap-2-9-ui-3059.md originals
 	rm rack-controllers-snap-2-9-ui-3059.md
 	chmod 444 originals/*
+
+originals/whats-new-in-maas-2-7-3335.md: whats-new-in-maas.md
+	chmod 644 originals/*
+	cp whats-new-in-maas.md whats-new-in-maas-2-7-3335.md
+	xpub push discourse -t deb-2-7-ui whats-new-in-maas-2-7-3335.md
+	xpub pull discourse 3335 3335
+	cp -p whats-new-in-maas-2-7-3335.md originals
+	rm whats-new-in-maas-2-7-3335.md
+	cp whats-new-in-maas.md whats-new-in-maas-2-8-3334.md
+	xpub push discourse -t deb-2-8-cli whats-new-in-maas-2-8-3334.md
+	xpub pull discourse 3334 3334
+	cp -p whats-new-in-maas-2-8-3334.md originals
+	rm whats-new-in-maas-2-8-3334.md
+	cp whats-new-in-maas.md whats-new-in-maas-2-9-3336.md
+	xpub push discourse -t deb-2-9-cli whats-new-in-maas-2-9-3336.md
+	xpub pull discourse 3336 3336
+	cp -p whats-new-in-maas-2-9-3336.md originals
+	rm whats-new-in-maas-2-9-3336.md
 
 originals/maas-installation-deb-2-7-cli-3324.md: maas-installation.md
 	chmod 644 originals/*
@@ -5185,5 +5206,29 @@ originals/disk-erasure-snap-2-7-cli-2610.md: disk-erasure.md
 #	xpub pull discourse 3329 3329
 #	cp -p maas-installation-deb-2-9-ui-3329.md originals
 #	rm maas-installation-deb-2-9-ui-3329.md
+#	chmod 444 originals/*
+
+# originals/whats-new-in-maas-2-8-3334.md: whats-new-in-maas.md
+#	chmod 644 originals/*
+#	cp whats-new-in-maas.md whats-new-in-maas-2-8-3334.md
+#	xpub pull discourse 3334 3334
+#	cp -p whats-new-in-maas-2-8-3334.md originals
+#	rm whats-new-in-maas-2-8-3334.md
+#	chmod 444 originals/*
+
+# originals/whats-new-in-maas-2-7-3335.md: whats-new-in-maas.md
+#	chmod 644 originals/*
+#	cp whats-new-in-maas.md whats-new-in-maas-2-7-3335.md
+#	xpub pull discourse 3335 3335
+#	cp -p whats-new-in-maas-2-7-3335.md originals
+#	rm whats-new-in-maas-2-7-3335.md
+#	chmod 444 originals/*
+
+# originals/whats-new-in-maas-2-9-3336.md: whats-new-in-maas.md
+#	chmod 644 originals/*
+#	cp whats-new-in-maas.md whats-new-in-maas-2-9-3336.md
+#	xpub pull discourse 3336 3336
+#	cp -p whats-new-in-maas-2-9-3336.md originals
+#	rm whats-new-in-maas-2-9-3336.md
 #	chmod 444 originals/*
 

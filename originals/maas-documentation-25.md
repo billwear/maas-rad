@@ -413,6 +413,9 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 [details=Mapping table]
 | TOPIC | PATH |
 | -- | -- |
+|https://discourse.maas.io/t/-/3335|/docs/2.7/release-notes|
+|https://discourse.maas.io/t/-/3334|/docs/2.8/release-notes|
+|https://discourse.maas.io/t/-/3336|/docs/2.9/release-notes|
 |https://discourse.maas.io/t/-/1506|/docs/tips/tricks.and/traps/|
 |https://discourse.maas.io/t/-/3318|/docs/snap/2.7/cli/installation|
 |https://discourse.maas.io/t/-/3319|/docs/snap/2.7/ui/installation|

@@ -80,14 +80,18 @@
 |Packages|[CLI](/t/power-management-deb-2-7-cli/3012) ~ [UI](/t/power-management-deb-2-7-ui/3013)|[CLI](/t/power-management-deb-2-8-cli/3014) ~ [UI](/t/power-management-deb-2-8-ui/3015)|[CLI](/t/power-management-deb-2-9-cli/3016) ~ [UI](/t/power-management-deb-2-9-ui/3017)|
  snap-2-9-ui -->
 
-To manage a machine, MAAS must be able to power cycle it, usually through the machine's [BMC](https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface#Baseboard_management_controller) card.  Until you configure the power type, a newly-added machine can't be enlisted and used by MAAS.
+To manage a machine, MAAS must be able to power cycle it, usually through the machine's [BMC^](https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface#Baseboard_management_controller) card.  Until you configure the power type, a newly-added machine can't be enlisted and used by MAAS.
 
 #### Quick questions you may have:
 
-* [How do I configure a machine's power type?](/t/power-management/830#heading--config-power-type)
-* [Can you give me an example of the virsh power type?](/t/power-management/830#heading--example-virsh-kvm-power-type)
-* [Which BMC drivers are supported?](/t/power-management/830#heading--bmc-driver-support)
+* [How do I configure a machine's power type?](#heading--config-power-type)
+* [Can you give me an example of the virsh power type?](#heading--example-virsh-kvm-power-type)
+* [Which BMC drivers are supported?](#heading--bmc-driver-support)
+<!--
+* [Show me a catalog of power types and their parameters.](#heading--power-type-catalog)
+-->
 
+<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9 ui
 <h2 id="heading--config-power-type">Configure a machine's power type</h2>
 
 To configure a machine's power type, click on the machine from the 'Machines' page of the web UI, then select its 'Configuration' tab. Scroll down until you find the Power configuration. If the power type is undefined, the following will be displayed:
@@ -95,6 +99,42 @@ To configure a machine's power type, click on the machine from the 'Machines' pa
 <a href="https://assets.ubuntu.com/v1/4fae5977-nodes-power-types__2.4_undefined.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/4fae5977-nodes-power-types__2.4_undefined.png"></a>
 
 Choose a type in the dropdown menu that corresponds to the machine's underlying machine's BMC card.
+
+<a href="https://assets.ubuntu.com/v1/b53c6613-nodes-power-types__2.4_selection.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/b53c6613-nodes-power-types__2.4_selection.png"></a>
+
+Fill in the resulting form; the information required will depends on the [power type](#heading--power-type-catalog).
+
+Click 'Save changes' to finish. Once that's done, MAAS performs a power check on the machine. A successful power check is a good indication that MAAS can properly communicate with the machine, that is, it should quickly result in a power status of "Power off". A failed attempt will show:
+
+<a href="https://assets.ubuntu.com/v1/3bd5e93b-nodes-power-types__2.4_power-error.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/3bd5e93b-nodes-power-types__2.4_power-error.png"></a>
+
+If you see this error, double-check your entered values by editing the power type, or  consider another power type altogether.
+
+Another possible cause for this error may be the networking: traffic may be getting filtered between the rack controller and the BMC card.
+
+<h2 id="heading--example-virsh-kvm-power-type">An example: the Virsh power type</h2>
+
+Consider a machine backed by VM. Below, a 'Power type' of `Virsh` has been selected, and the 'Power address' of `qemu+ssh://ubuntu@192.168.1.2/system` has been entered (replace values as appropriate).  The value of 'Power ID' is the VM domain (guest) name, here `node2`.
+
+<a href="https://assets.ubuntu.com/v1/c75e00a8-nodes-power-types__2.4_example-virsh.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/c75e00a8-nodes-power-types__2.4_example-virsh.png"></a>
+
+[note]
+The machine's hostname -- according to MAAS -- is a randomly chosen string (here `dear.ant`). You should change this hostname to something descriptive, that helps you remember why this machine is in your MAAS network.
+[/note]
+snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
+
+<!-- zork -->
+
+<h2 id="heading--config-power-type">Configure a machine's power type</h2>
+
+To (re)configure a machine's power type, first find the machine's $SYSTEM_ID with the [basic machine-list](/t/the-cli-cookbook/2218#heading--basic-machine-list) recipe.  Next, use the [MAAS CLI](/t/maas-cli/802) command `maas machines...` to (re)set the machine's power type, like this:
+
+    maas $PROFILE machine update $SYSTEM_ID power_type="$POWER_TYPE"
+
+where $POWER_TYPE can have the following values:
+
+
+
 
 <a href="https://assets.ubuntu.com/v1/b53c6613-nodes-power-types__2.4_selection.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/b53c6613-nodes-power-types__2.4_selection.png"></a>
 
@@ -116,7 +156,6 @@ Consider a machine backed by VM. Below, a 'Power type' of `Virsh` has been selec
 
 [note]
 The machine's hostname -- according to MAAS -- is a randomly chosen string (here `dear.ant`). You should change this hostname to something descriptive, that helps you remember why this machine is in your MAAS network.
-[/note]
 
 <h2 id="heading--bmc-driver-support">Which BMC drivers are supported</h2>
 
@@ -290,3 +329,20 @@ In the context of MAAS, the BMC is generally controlled by SNMP commands.  Any g
 </table>
 
 `*` The 'Facebook's Wedge' OpenBMC power driver is considered experimental at this time.
+
+<!--
+<h2 id="heading--power-type-catalog">Power type catalog</h2>
+
+As you can see above, there are many power types available to MAAS users, and each power type has its own particular parameters that must be supplied -- some of them optional.  This catalog details each of these types to help you understand and gather the information needed to enable power on your machines.
+
+#### Power types covered here:
+
+* [American Power Conversion (APC) PDU](#heading--apu) ([website^](https://www.apc.com/us/en/))
+
+<h3 id="heading--apu">American Power Conversion (APC) PDU</h3>
+
+1. Select "American Power Conversion (APC) PDU" from the dropdown menu.
+2. Enter the IP address of the APC PDU (required).
+3. Enter the APC PDU node outlet number (1-16, required).
+4. Enter the power on outlet delay, in seconds (optional).
+-->

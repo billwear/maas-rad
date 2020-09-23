@@ -68,10 +68,12 @@ snap-2-9-cli -->
 |Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
 snap-2-9-ui -->
 
+<!-- deb-2-9-cli
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
 |Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|CLI ~  [UI](/t/whats-new-in-maas-2-9/3336)|
+deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 || 2.7 | 2.8 | 2.9|
@@ -172,6 +174,7 @@ A number of bug fixes (see the [list in Launchpad (external link)](https://bugs.
 snap-2-7 snap-2-7-ui deb-2-7 deb-2-7-ui -->
 
 <!-- CONTRIBUTORS: ADD YOUR MAAS 2.9 RELEASE NOTES TO THIS SECTION vv -->
+<!-- snap-2-9-cli snap-2-9-ui deb-2-9-cli deb-2-9-ui
 <h2>MAAS 2.9 BETA release notes</h2>
 
 Following on from MAAS 2.8, we are happy to announce that MAAS 2.9 Beta4 is now available. This pending release should feature some critical bug fixes, along with some exciting new features.
@@ -242,6 +245,7 @@ This release will include offline documentation for those users whose MAAS insta
   * Logging has been added to 20-maas-01-install-lldpd  (commissioning log output).
   * Logging added to 20-maas-02-dhcp-unconfigured-ifaces (commissioning log output).
   * `user_data` can now be input directly into the UI.
+snap-2-9-cli snap-2-9-ui deb-2-9-cli deb-2-9-ui -->
 
 <!-- snap-2-8-cli snap-2-8-ui deb-2-8-cli deb-2-8-ui
 <h2>MAAS 2.8 release notes</h2>
