@@ -489,7 +489,7 @@ After entering your password, the snap will download and install from the 2.9 Be
 
 If you want to upgrade from a 2.8 snap to 2.9 Beta, and you are using a `region+rack` configuration, use this command:
 
-    $ sudo snap refresh --channel=2.9 maas
+    $ sudo snap refresh --channel=2.9/beta maas
 
 After entering your password, the snap will refresh from the 2.9 Beta channel.  You will **not** need to re-initialize MAAS.
 
