@@ -1,83 +1,83 @@
 <!-- deb-2-7
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
-|Packages|CLI ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
+|Snap|CLI ~ UI|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
+|Packages|CLI ~ UI|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
 deb-2-7 -->
 
 <!-- snap-2-7
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|CLI ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3335) ~ [UI](/t/whats-new-in-maas/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
-|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
+|Snap|CLI ~ UI|[CLI](/t/whats-new-in-maas-2-8/3335) ~ [UI](/t/whats-new-in-maas/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
+|Packages|CLI ~ UI|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
 snap-2-7 -->
 
 <!-- snap-2-7-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ UI|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
-|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
+|Snap|CLI ~ UI|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
+|Packages|CLI ~ UI|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
 snap-2-7-ui -->
 
 <!-- deb-2-7-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
-|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ UI|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
+|Snap|CLI ~ UI|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
+|Packages|CLI ~ UI|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
 deb-2-7-ui -->
 
 <!-- snap-2-8-cli
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335) | CLI ~ [UI](/t/whats-new-in-maas-2-8/3334) |[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336) |
-|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335) |[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334) |[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336) |
+|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335) | CLI ~ UI |[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336) |
+|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335) |CLI ~ UI |[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336) |
 snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ UI|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
-|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
+|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|CLI ~ UI|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
+|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|CLI ~ UI|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
 snap-2-8-ui -->
 
 <!-- deb-2-8-cli
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
-|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|CLI ~  [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
+|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|CLI ~ UI|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
+|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|CLI ~  UI|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
 deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
-|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ UI|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
+|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|CLI ~ UI|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
+|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|CLI ~ UI|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
 deb-2-8-ui -->
 
 <!-- snap-2-9-cli
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|CLI ~  [UI](/t/whats-new-in-maas-2-9/3336)|
-|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
+|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|CLI ~  UI|
+|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|CLI ~ UI|
 snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ UI|
-|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
+|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|CLI ~ UI|
+|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|CLI ~ UI|
 snap-2-9-ui -->
 
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
-|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|CLI ~  [UI](/t/whats-new-in-maas-2-9/3336)|
+|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|CLI ~ UI|
+|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|CLI ~ UI|
 
 <!-- deb-2-9-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ [UI](/t/whats-new-in-maas-2-9/3336)|
-|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|[CLI](/t/whats-new-in-maas-2-9/3336) ~ UI|
+|Snap|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|CLI ~ UI|
+|Packages|[CLI](/t/whats-new-in-maas-2-7/3335) ~ [UI](/t/whats-new-in-maas-2-7/3335)|[CLI](/t/whats-new-in-maas-2-8/3334) ~ [UI](/t/whats-new-in-maas-2-8/3334)|CLI ~ UI|
 deb-2-9-ui -->
 
 <!-- snap-2-7 snap-2-7-ui deb-2-7 deb-2-7-ui
@@ -174,7 +174,7 @@ snap-2-7 snap-2-7-ui deb-2-7 deb-2-7-ui -->
 <!-- CONTRIBUTORS: ADD YOUR MAAS 2.9 RELEASE NOTES TO THIS SECTION vv -->
 <h2>MAAS 2.9 BETA release notes</h2>
 
-Following on from MAAS 2.8, we are happy to announce that MAAS 2.9 Beta4 is now available. This pending release should feature some critical bug fixes, along with some exciting new features.
+Following on from MAAS 2.8, we are happy to announce that MAAS 2.9 Beta3 is now available. This pending release should feature some critical bug fixes, along with some exciting new features.
 
 [note]
 NOTE that this is currently a Beta release, so there will be bugs, instabilities, and missing features. Please remember to [file a bug^](https://bugs.launchpad.net/maas/+filebug) if you find one, and please interact with the developers on [discourse^](https://discourse.maas.io/).
@@ -182,13 +182,14 @@ NOTE that this is currently a Beta release, so there will be bugs, instabilities
 
 <h4>Quick questions you may have:</h4>
 
-- [What are the new features & fixes for 2.8?](#heading--release-notes)
+- [What are the new features & fixes for 2.9?](#heading--release-notes)
 - [What known issues should I be aware of?](#heading--known-issues)
-- [How do I install MAAS 2.9 Beta?](#heading--installation)
-- [How do I upgrade my MAAS 2.8 snap to a MAAS 2.9 Beta snap?](#heading--upgrade-maas-snap)
+- [How do I install MAAS 2.9 Beta?](/t/maas-installation-snap-2-9-ui/3323)
+- [How do I upgrade my MAAS 2.8 snap to a MAAS 2.9 Beta snap?](/t/maas-installation-snap-2-9-ui/3323#heading--upgrade-maas-snap)
+- [How do I install MAAS 2.9 Beta from packages?](/t/maas-installation-deb-2-9-ui/3329)
 - [What bugs are fixed so far in this release?](#heading--bug-fixes)
 
-<h2 id="heading--release-notes">New features in 2.9 Beta4</h2>
+<h2 id="heading--release-notes">New features in 2.9 Beta3</h2>
 
 ### Reader Adaptive Documentation (RAD)
 This release features Reader Adaptive Documentation, which allows you to adapt individual pages to your install method (Snap vs. Deb), version (2.7/2.8/2.9), and preferred interface (CLI/UI).  This documentation is rolling out in phases prior to the release, and is currently [active and usable^](https://maas.io/docs).  Note that these docs are still under active development, hence should be considered Beta until the final release, although everything for the current active version (2.8) should be correct and reliable.
@@ -196,52 +197,70 @@ This release features Reader Adaptive Documentation, which allows you to adapt i
 ### Offline documentation
 This release will include offline documentation for those users whose MAAS installations reside behind firewalls, unable to access the online documentation.  They are currently in a very rough Beta state, but should start showing up in the releases shortly.  Note that, going forward, all links that are not part of the offline documentation set are marked with a caret, like this, [Google^](https://www.google.com), when they refer to a site that can't be reached without Internet access.
 
+### BMC improvements
+
+Beta 3 (18 September 2020) - A number of substantial improvements to BMC usage have been released, including the following:
+
+*  IPMI, HP Moonshot, and Facebook Wedge BMC detection and configuration scripts have been migrated to the commissioning script `30-maas-01-bmc-config `.
+* BMC detection and configuration are now logged to commissioning results.
+* If BMC configuration is skipped a ScriptResult will log this result, and indicate which user chose to skip the configuration step.
+
+### IPMI power driver upgrades
+
+Beta 3 (18 September 2020) - Three new configuration options have been added to the IPMI power driver, including:
+
+* K_g - The BMC Key of the IPMI device. Used to encrypt all traffic to and from the device during communication.
+* Cipher Suite ID - The cipher suite to use when communicating with the IPMI BMC. Only 3, 8, 12, and 17 are available as only those enable ciphers for authentication, integrity, and confidentiality. Defaults to 3, freeipmi-tools default. See http://fish2.com/ipmi/bp.pdf for more information.
+* Privilege Level - The IPMI privilege level to use when communicating with the BMC. Defaults to OPERATOR.
+
+### Improvements in enlistment scripting
+
+Beta 2 (11 September 2020) - Script flow and capabilities have been improved in the following ways:
+
+* `maas-run-remote-scripts` can now enlist machines.
+* Enlistment `user_data` scripts have been removed.
+* The metadata endpoints `http://<MAAS>:5240/<latest or 2012-03-01>/` and `http://<MAAS>:5240/<latest or 2012-03-01>/meta-data/` are now available anonymously for use during enlistment.
+
+### Major improvements to commissioning script capabilities
+
+Beta 1 (08 September 2020) - The following major changes were made to commissioning script flow and capabilities:
+
+* Commissioning scripts can now send BMC configuration data:
+* Commissioning scripts can now be used to configure BMC data. 
+* The environment variable BMC_CONFIG_PATH is passed to serially run commissioning scripts.   
+* These scripts may write BMC power credentials to BMC_CONFIG_PATH in a YAML format where each key is the power parameter. 
+* If the commissioning script returns 0, it will be sent to MAAS. 
+* The first script to write BMC_CONFIG_PATH is the only script that may configure the BMC, allowing you to override MAAS's builtin BMC detection.
+* All builtin commissioning scripts have been migrated into the database.
+
+### Commissioning script reordering
+
+Beta 1 (08 September 2020) - Commissioning scripts have been reordered and some are now set to run in parallel. You can now easily set a script to run before the builtin MAAS commissioning scripts.  Here are the changes:
+
+* 00-maas-03-install-lldpd -> 20-maas-01-install-lldpd
+* 00-maas-05-dhcp-unconfigured-ifaces -> 20-maas-02-dhcp-unconfigured-ifaces
+* 99-maas-05-kernel-cmdline -> maas -kernel-cmdline
+* 00-maas-00-support-info -> maas-support-info(now runs in parallel)
+* 00-maas-01-lshw -> maas-lshw(now runs in parallel)
+* 00-maas-04-list-modaliases -> maas-list-modaliases(now runs in parallel)
+* 00-maas-06-get-fruid-api-data -> maas-get-fruid-api-data(now runs in parallel)
+* 00-maas-08-serial-ports -> maas-serial-ports(now runs in parallel)
+* 99-maas-01-capture-lldp -> maas-capture-lldp(now runs in parallel)
+  
+### Improvements in commissioning speed and logging
+
+Beta 1 (08 September 2020) - The following improvements have been made to speed up the commissioning process, mostly by running scripts in parallel (see above):
+
+* Commissioning should now take 60s.
+* Logging has been added to 20-maas-01-install-lldpd  (commissioning log output).
+* Logging added to 20-maas-02-dhcp-unconfigured-ifaces (commissioning log output).
+* `user_data` can now be input directly into the UI.
+
 <h2 id="heading--bug-fixes">Bug fixes</h2>
 
 <h2 id="heading--2-8-known-issues">Known issues</h2>
 
 * **RAD LHS menu:** There is a known issue with the Reader Adaptive Documentation left-hand-side menu (navigation), in that the menu links cannot currently be adapted to the RAD parameters.  This means that selecting a different page in the LHS menu will take you the the RAD for the current recommended version (in this case, Snap/2.8/UI).  Every page that is different in RAD, though, should present you with a top menu, so that you can choose the RAD parameters matching your own preferences. 
-
-* BMC improvements: Beta 3 (18 September 2020) - A number of substantial improvements to BMC usage have been released, including the following:
-  *  IPMI, HP Moonshot, and Facebook Wedge BMC detection and configuration scripts have been migrated to the commissioning script `30-maas-01-bmc-config `.
-  * BMC detection and configuration are now logged to commissioning results.
-  * If BMC configuration is skipped a ScriptResult will log this result, and indicate which user chose to skip the configuration step.
-
-* IPMI power driver upgrades: Beta 3 (18 September 2020) - Three new configuration options have been added to the IPMI power driver, including:
-  * K_g - The BMC Key of the IPMI device. Used to encrypt all traffic to and from the device during communication.
-  * Cipher Suite ID - The cipher suite to use when communicating with the IPMI BMC. Only 3, 8, 12, and 17 are available as only those enable ciphers for authentication, integrity, and confidentiality. Defaults to 3, freeipmi-tools default. See http://fish2.com/ipmi/bp.pdf for more information.
-  * Privilege Level - The IPMI privilege level to use when communicating with the BMC. Defaults to OPERATOR.
-
-* Improvements in enlistment scripting: Beta 2 (11 September 2020) - Script flow and capabilities have been improved in the following ways:
-  * `maas-run-remote-scripts` can now enlist machines.
-  * Enlistment `user_data` scripts have been removed.
-  * The metadata endpoints `http://<MAAS>:5240/<latest or 2012-03-01>/` and `http://<MAAS>:5240/<latest or 2012-03-01>/meta-data/` are now available anonymously for use during enlistment.
-
-* Major improvements to commissioning script capabilities: Beta 1 (08 September 2020) - The following major changes were made to commissioning script flow and capabilities:
-  * Commissioning scripts can now send BMC configuration data:
-  * Commissioning scripts can now be used to configure BMC data. 
-  * The environment variable BMC_CONFIG_PATH is passed to serially run commissioning scripts.   
-  * These scripts may write BMC power credentials to BMC_CONFIG_PATH in a YAML format where each key is the power parameter. 
-  * If the commissioning script returns 0, it will be sent to MAAS. 
-  * The first script to write BMC_CONFIG_PATH is the only script that may configure the BMC, allowing you to override MAAS's builtin BMC detection.
-  * All builtin commissioning scripts have been migrated into the database.
-
-* Commissioning script reordering: Beta 1 (08 September 2020) - Commissioning scripts have been reordered and some are now set to run in parallel. You can now easily set a script to run before the builtin MAAS commissioning scripts.  Here are the changes:
-  * 00-maas-03-install-lldpd -> 20-maas-01-install-lldpd
-  * 00-maas-05-dhcp-unconfigured-ifaces -> 20-maas-02-dhcp-unconfigured-ifaces
-  * 99-maas-05-kernel-cmdline -> maas -kernel-cmdline
-  * 00-maas-00-support-info -> maas-support-info(now runs in parallel)
-  * 00-maas-01-lshw -> maas-lshw(now runs in parallel)
-  * 00-maas-04-list-modaliases -> maas-list-modaliases(now runs in parallel)
-  * 00-maas-06-get-fruid-api-data -> maas-get-fruid-api-data(now runs in parallel)
-  * 00-maas-08-serial-ports -> maas-serial-ports(now runs in parallel)
-  * 99-maas-01-capture-lldp -> maas-capture-lldp(now runs in parallel)
-  
-* Improvements in commissioning speed and logging:  Beta 1 (08 September 2020) - The following improvements have been made to speed up the commissioning process, mostly by running scripts in parallel (see above):
-  * Commissioning should now take 60s.
-  * Logging has been added to 20-maas-01-install-lldpd  (commissioning log output).
-  * Logging added to 20-maas-02-dhcp-unconfigured-ifaces (commissioning log output).
-  * `user_data` can now be input directly into the UI.
 
 <!-- snap-2-8-cli snap-2-8-ui deb-2-8-cli deb-2-8-ui
 <h2>MAAS 2.8 release notes</h2>
@@ -250,12 +269,12 @@ Following on from MAAS 2.7, we are happy to announce that MAAS 2.8 is now availa
 
 <h4>Quick questions you may have:</h4>
 
-- [Where are the release notes for 2.7?](/t/historical-release-notes/835)
-- [What are the new features & fixes for 2.8?](/t/whats-new-in-maas-2-8/1655#heading--2-8-release-notes)
-- [What known issues should I be aware of?](/t/whats-new-in-maas-2-8/1655#heading--2-8-known-issues)
-- [How do I install MAAS 2.8 as a snap?](https://discourse.maas.io/t/maas-installation-from-a-snap/773)
-- [How do I upgrade my MAAS 2.7 snap to a MAAS 2.8 snap?](https://discourse.maas.io/t/maas-installation-from-a-snap/773#heading--upgrade-maas-snap)
-- [What bugs were fixed in this release?](/t/whats-new-in-maas-2-8/1655#heading--bug-fixes)
+- [What are the new features & fixes for 2.8?](#heading--2-8-release-notes)
+- [What known issues should I be aware of?](#heading--2-8-known-issues)
+- [How do I install MAAS 2.8 as a snap?](/t/maas-installation-snap-2-8-ui/3312)
+- [How do I upgrade my MAAS 2.7 snap to a MAAS 2.8 snap?](/t/maas-installation-snap-2-8-ui/3312#heading--upgrade-maas-snap)
+- [How do I install MAAS 2.8 from packages?](/t/maas-installation-deb-2-8-ui/3327)
+- [What bugs were fixed in this release?](#heading--bug-fixes)
 
 <h2 id="heading--2-8-release-notes">LXD-based VM host support (Beta)</h2>
 

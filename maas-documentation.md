@@ -306,7 +306,7 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 - [About MAAS](/t/about-maas-snap-2-8-ui/2265)
 - ["Give me an example"](/t/give-me-an-example-of-maas-snap-2-8-ui/2649)
 - [Explore MAAS](/t/explore-maas-snap-2-8-ui/2637)
-- [What's new in 2.8](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
+- [What's new in 2.8](/t/whats-new-in-maas-2-8/3334)
 - [Quick start](https://maas.io/install)
 
 ### Installing MAAS
@@ -410,7 +410,7 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
   - [Upgrade from 2.3 to 2.4](/t/upgrade-2-3-to-2-4-from-ubuntu-16-04/777)
   - [Upgrade from 1.9 to 2.x](/t/upgrade-from-1-9-to-2-x/778)
 
-### [Release notes](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
+### [Release notes](https://discourse.maas.io/t/whats-new-in-maas-2-8/3334)
 
 ### [Help improve these docs](/t/writing-guide/747)
 
