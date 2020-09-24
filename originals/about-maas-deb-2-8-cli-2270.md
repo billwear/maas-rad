@@ -87,7 +87,7 @@ MAAS is an open-source tool that lets you build a data centre from bare-metal se
 
 * [What is MAAS?](#heading--what-is-maas)
 * [What does MAAS offer me?](#heading--what-maas-offers)
-* [Can MAAS colocate key components to conserve  resources?](#heading--colocation-of-key-components)
+* [Can MAAS co-locate key components to conserve  resources?](#heading--colocation-of-key-components)
 * [How does MAAS work?](#heading--how-maas-works)
 
 <h2 id="heading--what-is-maas">What is MAAS?</h2>
@@ -157,7 +157,7 @@ Please note that Windows and RHEL images require [Ubuntu Advantage](https://www.
 
 <h3 id="heading--colocation-of-key-components">Colocation of key components</h3>
 
-MAAS relies on two key components: the *region controller* and the *rack controller*. The region controller handles operator requests; the rack controller provides high-bandwidth services to multiple racks. In essence, rack controllers manage racks, while the region controller manages the data centre. We generally recommended installing both controllers on the same system.  The default MAAS install delivers this colocated configuration automatically. This all-in-one solution also provides DHCP. 
+MAAS relies on two key components: the *region controller* and the *rack controller*. The region controller handles operator requests; the rack controller provides high-bandwidth services to multiple racks. In essence, rack controllers manage racks, while the region controller manages the data centre. We generally recommended installing both controllers on the same system.  The default MAAS install delivers this co-located configuration automatically. This all-in-one solution also provides DHCP. 
 
 <!-- deb-2-7-cli
 See [Concepts and terms](/t/concepts-and-terms/785#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-deb-2-7-cli/2688), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-deb-2-7-cli/2904) will cause problems.
@@ -289,4 +289,4 @@ When acquiring machines from the API/CLI, you can specify requirements ("constra
 
 An acquired MAAS machine is more flexible than a virtual instance in a cloud. You have complete control, including hardware drivers and root access. If you want to upgrade the BIOS, for example, you can allocate a machine to yourself and complete the upgrade.  Once you have completed the upgrade, you can send the machine back to the pool.
 
-Note that [Juju](https://jaas.ai/docs/maas-cloud) is designed to work with MAAS. MAAS becomes a backend Juju resource pool with all functionality fully available. For instance, if Juju removes a machine, then MAAS will release that machine to the pool.  With Juju, MAAS can become an integral part of your data centre strategy and operations.
+Note that [Juju](https://jaas.ai/docs/maas-cloud) is designed to work with MAAS. MAAS becomes a back-end Juju resource pool with all functionality fully available. For instance, if Juju removes a machine, then MAAS will release that machine to the pool.  With Juju, MAAS can become an integral part of your data centre strategy and operations.

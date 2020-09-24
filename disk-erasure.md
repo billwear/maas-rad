@@ -164,11 +164,16 @@ Quick erasure wipes 2MB at the start and end of the drive to make recovery both 
 
 <h3>Specifying both erasure types</h3>
 
-If you're not sure whether the disk has secure erase features, the best way to handle that is to specify both erasure types:
+If you specify both erasure types, like this:
 
 ```
 maas $PROFILE machine release $SYSTEM_ID comment="some comment" erase=true secure_erase=true quick_erase=true
 ```
 
-When you do that, MAAS will perform a secure erasure if the drive has that feature; if not, it will perform a quick erasure, thus avoiding a long drive overwrite.
+then MAAS will perform a secure erasure if the drive has that feature; if not, it will perform a quick erasure.  Of course, if you're concerned about completely erasing the drive, and you're not sure whether the disk has secure erase features, the best way to handle that is to specify nothing, and allow the full disk to be overwritten by null bytes:
+
+```
+maas $PROFILE machine release $SYSTEM_ID comment="some comment" erase=true
+```
+
 deb-2-7-cli deb-2-8-cli deb-2-9-cli snap-2-8-cli snap-2-9-cli snap-2-7-cli -->

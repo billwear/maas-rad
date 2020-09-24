@@ -101,7 +101,7 @@ The next step involves initialising MAAS with a *run mode*. Selecting one of the
 | `region`      | X      |      |          | Region API server only                |
 | `rack`        |        | X    |          | Rack controller only                  |
 | `region+rack` | X      | X    |          | Region API server and rack controller |
-| `none`        |        |      |          | Deinitializes MAAS and stops services |
+| `none`        |        |      |          | Reinitialises MAAS and stops services |
 
 [note type="Warning" status="all mode being deprecated"]
 Configuring the MAAS snap in "all" mode will be [deprecated in MAAS version 2.8.0 and removed in MAAS version 2.9.0](https://maas.io/deprecations/MD1).
@@ -137,7 +137,7 @@ You will use the username and password to access the web UI.  If you enter a [La
 
 All run modes (except `none`) prompt for a MAAS URL, interpreted differently depending on the mode:
 
--   `all`, `region+rack`: Used to create a new region controller as well as to tell the rack controller how to find the region connntroller.
+-   `all`, `region+rack`: Used to create a new region controller as well as to tell the rack controller how to find the region controller.
 -   `region`: Used to create a new region controller.
 -   `rack`: Used to locate the region controller.
 
@@ -163,7 +163,7 @@ sudo maas init --help
 
 <h2 id="heading--configuration-verification">Configuration verification</h2>
 
-After a *snap* installation of MAAS, you can verifiy the currently-running configuration with:
+After a *snap* installation of MAAS, you can verify the currently-running configuration with:
 
 ``` bash
 sudo maas config
@@ -214,7 +214,7 @@ snap-2-7-cli -->
 <!-- snap-2-8-ui snap-2-8-cli
 MAAS can be installed in either of two configurations:  test or production.  The test configuration uses a small PostgreSQL database (in a separate snap), designed for use with MAAS. The full-up production configuration uses a separate PostgreSQL database for performance and scalability.  This article will walk you through both install methods.
 
-* [How do I install (but not initialize) the MAAS snap?](#heading--install-maas-snap)
+* [How do I install (but not initialise) the MAAS snap?](#heading--install-maas-snap)
 * [How do I upgrade my 2.7 snap to version 2.8?](#heading--upgrade-maas-snap)
 * [What are MAAS initialisation modes?](#heading--maas-init-modes)
 * [How do I initialise MAAS for a test or proof-of-concept configuration?](#heading--init-poc)
@@ -246,7 +246,7 @@ If you want to upgrade from a 2.7 snap to 2.8, and you are using a `region+rack`
 
     $ sudo snap refresh --channel=2.8 maas
 
-After entering your password, the snap will refresh from the 2.8 channel.  You will **not** need to re-initialize MAAS.
+After entering your password, the snap will refresh from the 2.8 channel.  You will **not** need to re-initialise MAAS.
 
 If you are using a multi-node maas deployment with separate regions and racks, you should first run the upgrade command above for rack nodes, then for region nodes.
 
@@ -260,7 +260,7 @@ MAAS supports the following modes, which dictate what services will run on the l
 | `region`      | X      |      |          | Region API server only                |
 | `rack`        |        | X    |          | Rack controller only                  |
 | `region+rack` | X      | X    |          | Region API server and rack controller |
-| `none`        |        |      |          | Deinitializes MAAS and stops services |
+| `none`        |        |      |          | Reinitialises MAAS and stops services |
 
 [note type="Warning" status="all mode being deprecated"]
 The MAAS initialisation mode "all" is [deprecated in MAAS version 2.8.0 and will be removed in MAAS version 2.9.0^](https://maas.io/deprecations/MD1).
@@ -307,7 +307,7 @@ Note that this step installs a a running PostgreSQL and a MAAS-ready database in
 
     postgres=# \l
 
-This will produce a list of databases, one of which will be `maasdb`, owned by `maas`.  Note that this database is still empty because MAAS is not yet initialized and, hence, is not yet using the database.  Once this is done, you can run the `maas init` command:
+This will produce a list of databases, one of which will be `maasdb`, owned by `maas`.  Note that this database is still empty because MAAS is not yet initialised and, hence, is not yet using the database.  Once this is done, you can run the `maas init` command:
 
     sudo maas init region+rack --database-uri maas-test-db:///
 
@@ -465,7 +465,7 @@ snap-2-8-ui snap-2-8-cli -->
 <!-- snap-2-9-ui snap-2-9-cli
 MAAS Beta can be installed in either of two configurations:  test or production.  The test configuration uses a small PostgreSQL database (in a separate snap), designed for use with MAAS. The full-up production configuration uses a separate PostgreSQL database for performance and scalability.  This article will walk you through both install methods.
 
-* [How do I install (but not initialize) the MAAS 2.9 Beta snap?](#heading--install-maas-snap)
+* [How do I install (but not initialise) the MAAS 2.9 Beta snap?](#heading--install-maas-snap)
 * [How do I upgrade my 2.8 snap to version 2.9 Beta?](#heading--upgrade-maas-snap)
 * [What are MAAS initialisation modes?](#heading--maas-init-modes)
 * [How do I initialise MAAS for a test or proof-of-concept configuration?](#heading--init-poc)
@@ -497,7 +497,7 @@ If you want to upgrade from a 2.8 snap to 2.9 Beta, and you are using a `region+
 
     $ sudo snap refresh --channel=2.9/beta maas
 
-After entering your password, the snap will refresh from the 2.9 Beta channel.  You will **not** need to re-initialize MAAS.
+After entering your password, the snap will refresh from the 2.9 Beta channel.  You will **not** need to re-initialise MAAS.
 
 [note]
 Remember that 2.9 is a Beta version, and hence may be unstable or present bugs.  Please be sure to [file any bugs^](https://bugs.launchpad.net/maas/+filebug) you find, and please feel free to interact with the development team via [discourse^](https://discourse.maas.io/).
@@ -514,7 +514,7 @@ MAAS supports the following modes, which dictate what services will run on the l
 | `region`      | X      |      |          | Region API server only                |
 | `rack`        |        | X    |          | Rack controller only                  |
 | `region+rack` | X      | X    |          | Region API server and rack controller |
-| `none`        |        |      |          | Deinitializes MAAS and stops services |
+| `none`        |        |      |          | Reinitialises MAAS and stops services |
 
 <h2 id="heading--init-poc">Initialising MAAS as a test configuration</h2>
 
@@ -557,7 +557,7 @@ Note that this step installs a a running PostgreSQL and a MAAS-ready database in
 
     postgres=# \l
 
-This will produce a list of databases, one of which will be `maasdb`, owned by `maas`.  Note that this database is still empty because MAAS is not yet initialized and, hence, is not yet using the database.  Once this is done, you can run the `maas init` command:
+This will produce a list of databases, one of which will be `maasdb`, owned by `maas`.  Note that this database is still empty because MAAS is not yet initialised and, hence, is not yet using the database.  Once this is done, you can run the `maas init` command:
 
     sudo maas init region+rack --database-uri maas-test-db:///
 

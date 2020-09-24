@@ -97,7 +97,9 @@ This article explains each of these kernels, and offers instructions and further
 * [What is a hardware enablement kernel?](#heading--hardware-enablement-kernels)
 * [What is a pre-release hardware enablement kernel?](#heading--hardware-enablement-kernels-pre-release)
 * [What is a low latency kernel?](#heading--low-latency-kernels)
-* [How can I choose and configure my preferred kernel?](#heading--using-kernels)
+* [How do I set a minimum kernel for enlistment and commisioning?](#heading--set-a-default-minimum-kernel-for-enlistment-and-commissioning)
+* [How to I set a minimum deploy kernel for a machine?](#heading--set-a-minimum-deploy-kernel-for-a-machine)
+* [How do I set a specific kernel during machine deployment?](#heading--set-a-specific-kernel-during-machine-deployment)
 
 <h2 id="heading--general-availability-kernels">General availability kernels</h2>
 
@@ -122,8 +124,6 @@ Note that these backported/HWE kernels are only available for LTS releases (e.g.
 Before MAAS 2.1 on Xenial, HWE kernels are referred to by the notation `hwe-<release letter>`. So, to install the Yakkety HWE kernel on Xenial, the `hwe-y` kernel is used. By default, when using the web UI, MAAS imports all available HWE kernels along with its generic boot images. So if you are importinTrusty images are imported then the following HWE kernels are included: `hwe-u`, `hwe-v`, `hwe-w`, `hwe-x` (presuming the Xenial HWE kernel is available).
 
 In MAAS 2.1, starting with Xenial kernels, the notation has changed. The following is used to refer to the latest HWE kernel available for Xenial: `hwe-16.04`.
-
-See [MAAS CLI](/t/cli-image-management/797#heading--hardware-enablement-hwe) for how to target specific HWE kernels when selecting install images.
 
 See [LTS Enablement Stack^](https://wiki.ubuntu.com/Kernel/LTSEnablementStack) (Ubuntu wiki) for the latest information on HWE.
 
@@ -155,24 +155,82 @@ The kernel installed on a machine during deployment is, by default, the Ubuntu r
 -   per machine (minimum deploy kernel)
 -   per machine during deployment (specific deploy kernel)
 
-You can also use the [MAAS CLI](/t/cli-kernel-management/799#heading--set-a-default-minimum-kernel-for-enlistment-and-commissioning) to make these choices.
-
-<h3 id="heading--default-minimum-kernel">Default minimum kernel</h3>
+<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
+<h2 id="heading--set-a-default-minimum-kernel-for-enlistment-and-commissioning">Set a default minimum kernel for enlistment and commissioning</h2>
 
 To set the default minimum enlistment and commissioning kernel (based on Ubuntu release: GA kernel) for all machines visit the 'General' tab of the 'Settings' page and select a kernel in the 'Default Minimum Kernel Version' field of the *Commissioning* section. Don't forget to click 'Save'.
 
 <a href="https://assets.ubuntu.com/v1/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png"></a>
 
-<h3 id="heading--machine-minimum-kernel">Machine minimum kernel</h3>
+<h2 id="heading--set-a-minimum-deploy-kernel-for-a-machine">Set a minimum deploy kernel for a machine</h2>
 
 To set the minimum deploy kernel on a machine basis, click on a machine from the 'Machines' page of the web UI and switch to its 'Configuration' page. Click 'Edit' in the 'Machine configuration' section, select a kernel in the 'Minimum Kernel' field followed by 'Save changes'.
 
 <a href="https://assets.ubuntu.com/v1/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png"></a>
 
-<h3 id="heading--machine-kernel-during-deployment">Machine kernel during deployment</h3>
+<h2 id="heading--set-a-specific-kernel-during-machine-deployment">Set a specific kernel during machine deployment</h2>
 
 To set a specific kernel during deployment, select a machine from the 'Machines' page and choose 'Deploy' under 'Take action'. Then choose a kernel from the (third) kernel field. Hit 'Deploy machine' to initiate the deployment.
 
 <a href="https://assets.ubuntu.com/v1/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png"></a>
 
 MAAS verifies that the specified kernel is available for the given Ubuntu release (series) before deploying the machine.
+snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
+
+<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
+<h2 id="heading--set-a-default-minimum-kernel-for-enlistment-and-commissioning">Set a default minimum kernel for enlistment and commissioning</h2>
+
+To set a default minimum kernel for all new and commissioned machines:
+
+``` bash
+maas $PROFILE maas set-config name=default_min_hwe_kernel value=$KERNEL
+```
+
+For example, to set it to the 16.04 GA kernel:
+
+``` bash
+maas $PROFILE maas set-config name=default_min_hwe_kernel value=ga-16.04
+```
+
+[note]
+The command option `default_min_hwe_kernel` appears to apply to only HWE kernels but this is not the case.
+[/note]
+
+<h2 id="heading--set-a-minimum-deploy-kernel-for-a-machine">Set a minimum deploy kernel for a machine</h2>
+
+To set the minimum deploy kernel on a per-machine basis:
+
+``` bash
+maas $PROFILE machine update $SYSTEM_ID min_hwe_kernel=$HWE_KERNEL
+```
+
+For example, to set it to the HWE 16.04 kernel:
+
+``` bash
+maas $PROFILE machine update $SYSTEM_ID min_hwe_kernel=hwe-16.04
+```
+
+[note]
+The command option `default_min_hwe_kernel` appears to apply to only HWE kernels but this is not the case.
+[/note]
+
+<h2 id="heading--set-a-specific-kernel-during-machine-deployment">Set a specific kernel during machine deployment</h2>
+
+To set a specific kernel during the deployment of a machine:
+
+``` bash
+maas $PROFILE machine deploy $SYSTEM_ID distro_series=$SERIES hwe_kernel=$KERNEL
+```
+
+The operation will fail if the kernel specified by `hwe_kernel` is older than the kernel (possibly) given by `default_min_hwe_kernel`. Similarly, it will not work if the kernel is not available for the given distro series (such as 'hwe-16.10' for 'xenial').
+
+For example, to deploy a Xenial node with the HWE 16.04 edge kernel:
+
+``` bash
+maas $PROFILE machine deploy $SYSTEM_ID distro_series=xenial hwe_kernel=hwe-16.04-edge
+```
+
+[note]
+The command option `hwe_kernel` appears to apply to only HWE kernels but this is not the case.
+[/note]
+snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
