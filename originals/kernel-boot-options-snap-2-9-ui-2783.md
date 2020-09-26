@@ -80,7 +80,7 @@
 |Snap|[CLI](/t/kernel-boot-options-snap-2-7-cli/2778) ~ [UI](/t/kernel-boot-options-snap-2-7-ui/2779)|[CLI](/t/kernel-boot-options-snap-2-8-cli/2780) ~ [UI](/t/kernel-boot-options-snap-2-8-ui/2781)|[CLI](/t/kernel-boot-options-snap-2-9-cli/2782) ~ UI|
 |Packages|[CLI](/t/kernel-boot-options-deb-2-7-cli/2784) ~ [UI](/t/kernel-boot-options-deb-2-7-ui/2785)|[CLI](/t/kernel-boot-options-deb-2-8-cli/2786) ~ [UI](/t/kernel-boot-options-deb-2-8-ui/2787)|[CLI](/t/kernel-boot-options-deb-2-9-cli/2788) ~ [UI](/t/kernel-boot-options-deb-2-9-ui/2789)|
 
-MAAS can specify kernel boot options to machines on both a global basis and a per-machine basis. A full catalog of available options can be found in the [Linux kernel parameters list^](https://www.kernel.org/doc/html/latest/admin-guide/kernel-parameters.html) at [kernel.org^](https://www.kernel.org).
+MAAS can specify kernel boot options to machines on both a global basis (UI and CLI) and a per-machine basis (CLI-only). A full catalogue of available options can be found in the [Linux kernel parameters list^](https://www.kernel.org/doc/html/latest/admin-guide/kernel-parameters.html) at [kernel.org^](https://www.kernel.org).
 
 
 <h2 id="heading--global-kernel-boot-options">Global kernel boot options</h2>

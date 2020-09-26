@@ -1,4 +1,4 @@
-<!-- deb-2-7-cli
+<<!-- deb-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
@@ -97,7 +97,7 @@ This article explains each of these kernels, and offers instructions and further
 * [What is a hardware enablement kernel?](#heading--hardware-enablement-kernels)
 * [What is a pre-release hardware enablement kernel?](#heading--hardware-enablement-kernels-pre-release)
 * [What is a low latency kernel?](#heading--low-latency-kernels)
-* [How do I set a minimum kernel for enlistment and commisioning?](#heading--set-a-default-minimum-kernel-for-enlistment-and-commissioning)
+* [How do I set a minimum kernel for enlistment and commissioning?](#heading--set-a-default-minimum-kernel-for-enlistment-and-commissioning)
 * [How to I set a minimum deploy kernel for a machine?](#heading--set-a-minimum-deploy-kernel-for-a-machine)
 * [How do I set a specific kernel during machine deployment?](#heading--set-a-specific-kernel-during-machine-deployment)
 
@@ -111,7 +111,7 @@ MAAS denotes a GA kernel like this:
 
 <h2 id="heading--hardware-enablement-kernels">Hardware enablement kernels</h2>
 
-New hardware gets released all the time. If an Ubuntu host runs an older kernel, it's unlikely that MAAS can support the hardware. Canonical does make every effort to backport more recent kernels enabling more hardware. The acronym HWE stands for "HardWare Enablement."
+New hardware gets released all the time. If an Ubuntu host runs an older kernel, it's unlikely that MAAS can support the hardware. Canonical does make every effort to back-port more recent kernels enabling more hardware. The acronym HWE stands for "Hardware Enablement."
 
 You also gain kernel improvements and new features when installing an HWE kernel.
 
@@ -119,9 +119,9 @@ You also gain kernel improvements and new features when installing an HWE kernel
 There is the notion of an HWE *stack*, which refers to the window manager and kernel when the Ubuntu host is running a desktop environment. HWE stacks do not apply to MAAS since machines are provisioned strictly as non-graphical servers.
 [/note]
 
-Note that these backported/HWE kernels are only available for LTS releases (e.g. Trusty, Xenial, etc.). For example, the first available HWE kernel for Ubuntu 16.04 LTS (Xenial) will be the GA kernel from Ubuntu 16.10 (Yakkety).
+Note that these back-ported/HWE kernels are only available for LTS releases (e.g. Trusty, Xenial, etc.). For example, the first available HWE kernel for Ubuntu 16.04 LTS (Xenial) will be the GA kernel from Ubuntu 16.10 (Yakkety).
 
-Before MAAS 2.1 on Xenial, HWE kernels are referred to by the notation `hwe-<release letter>`. So, to install the Yakkety HWE kernel on Xenial, the `hwe-y` kernel is used. By default, when using the web UI, MAAS imports all available HWE kernels along with its generic boot images. So if you are importinTrusty images are imported then the following HWE kernels are included: `hwe-u`, `hwe-v`, `hwe-w`, `hwe-x` (presuming the Xenial HWE kernel is available).
+Before MAAS 2.1 on Xenial, HWE kernels are referred to by the notation `hwe-<release letter>`. So, to install the Yakkety HWE kernel on Xenial, the `hwe-y` kernel is used. By default, when using the web UI, MAAS imports all available HWE kernels along with its generic boot images. So if you are importing Trusty images, then the following HWE kernels are included: `hwe-u`, `hwe-v`, `hwe-w`, `hwe-x` (presuming the Xenial HWE kernel is available).
 
 In MAAS 2.1, starting with Xenial kernels, the notation has changed. The following is used to refer to the latest HWE kernel available for Xenial: `hwe-16.04`.
 
