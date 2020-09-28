@@ -1,6 +1,6 @@
 The following recipes may help you make better use of the [MAAS CLI](/t/maas-cli/802).  Each recipe includes the relevant CLI command sequence, with the results processed through `jq` and other relevant command-line utilities to produce cleaner output.  Understand that this material isn't meant to replace the CLI, just to give you some hints about using it.
 
-#### Catalog of recipes:
+#### Catalogue of recipes:
 
 * [Basic machine list](/t/the-cli-cookbook/2218#heading--basic-machine-list)
   * [sorted by machine name](/t/the-cli-cookbook/2218#heading--sorted-by-machine-name)
@@ -156,7 +156,7 @@ Remember to:
 
 <details><summary>Also, be aware of how multiple lines are parsed by the shell:</summary>
 
-* Quoted sections, such as the long command generally following `jq`, need no special accomodations to break lines.  You can break the lines anywhere that's convenient for you, as long as you maintain at least a single space between "words."  
+* Quoted sections, such as the long command generally following `jq`, need no special accommodations to break lines.  You can break the lines anywhere that's convenient for you, as long as you maintain at least a single space between "words."  
 
 * Any non-quoted section (i.e., part of a shell command) must have a `\` at the end of each line, before a continuation line.
 
@@ -350,9 +350,9 @@ So if your desired VM host is ID 4, you'd type:
 lsmm --vmhost -c 4
 ```
 
-<h2>Recipies for creating MAAS machines</h2>
+<h2>Recipes for creating MAAS machines</h2>
 
-The following scripts walk you through creating MAAS machines of various types.  In these simple recipes, there's **no validation** of input, so use at your own risk -- although it would be trivial to add validation for your favorite machine types.
+The following scripts walk you through creating MAAS machines of various types.  In these simple recipes, there's **no validation** of input, so use at your own risk -- although it would be trivial to add validation for your favourite machine types.
 
 <h3 id="heading--make-machines">Make a libvirt VM</h3>
 

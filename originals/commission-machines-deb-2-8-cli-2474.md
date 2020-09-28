@@ -146,7 +146,7 @@ Once commissioned, you may consider [creating or applying a tag](/t/maas-tags/83
 
 <h3 id="heading--numa-sriov-commissioning">Commission NUMA and SR-IOV nodes</h3>
 
-If you are using the NUMA architecture, MAAS version 2.7 guarantees that machines are assigned to a single NUMA node that contains all the machine's resoures.  Note that you must recommission NUMA/SR-IOV machines that were previously commissioned under version 2.6 or earlier.
+If you are using the NUMA architecture, MAAS version 2.7 guarantees that machines are assigned to a single NUMA node that contains all the machine's resources.  Note that you must recommission NUMA/SR-IOV machines that were previously commissioned under version 2.6 or earlier.
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/7b47235ff57a570ccba6a6ed09186a3d7483f5a4.png" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/7b47235ff57a570ccba6a6ed09186a3d7483f5a4.png"></a> 
 
@@ -156,7 +156,7 @@ When using these nodes, you can specify a node index for interfaces and physical
 
 When a machine boots, MAAS first instructs it to run cloud-init to set up SSH keys (during commissioning only), set up NTP, and execute a script that runs other commissioning scripts.  Currently, the sequence of MAAS-provided commissioning scripts proceeds like this:
 
-* 00-maas-00-support-info: MAAS gathers information that helps to identify and characterize the machine for debugging purposes, such as the kernel, versioning of various components, etc.
+* 00-maas-00-support-info: MAAS gathers information that helps to identify and characterise the machine for debugging purposes, such as the kernel, versioning of various components, etc.
 
 * 00-maas-01-lshw: this script pulls system BIOS and vendor info, and generates user-defined tags for later use.
 
@@ -166,7 +166,7 @@ When a machine boots, MAAS first instructs it to run cloud-init to set up SSH ke
 
 * 00-maas-04-list-modaliases: this script figures out what hardware modules are loaded, providing a way to autorun certain scripts based on which modules are loaded.
 
-* 00-maas-05-dhcp-unconfigured-ifaces: MAAS will want to know all the ways the machine is connected to the network.  Only PXE comes online during boot; this script brings all the other networks online so they can be recognized.
+* 00-maas-05-dhcp-unconfigured-ifaces: MAAS will want to know all the ways the machine is connected to the network.  Only PXE comes online during boot; this script brings all the other networks online so they can be recognised.
 
 * 00-maas-06-get-fruid-api-data: this script gathers information for the Facebook wedge power type.
 

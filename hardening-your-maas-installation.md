@@ -82,7 +82,7 @@
 |Packages|[CLI](/t/hardening-your-maas-installation-deb-2-7-cli/2664) ~ [UI](/t/hardening-your-maas-installation-deb-2-7-ui/2665)|[CLI](/t/hardening-your-maas-installation-deb-2-8-cli/2666) ~ [UI](/t/hardening-your-maas-installation-deb-2-8-ui/2667)|[CLI](/t/hardening-your-maas-installation-deb-2-9-cli/2668) ~ [UI](/t/hardening-your-maas-installation-deb-2-9-ui/2669)|
  snap-2-9-ui -->
 
-As a MAAS administrator, you have the important responsibilty of hardening your installation to help repudiate attacks and malicious actors.  While there are too many variables to make meaningful suggestions for your deployed machines, there are a number of steps you can take to improve the overall security of your MASS setup.  This article provides a few suggestions.
+As a MAAS administrator, you have the important responsibility of hardening your installation to help repudiate attacks and malicious actors.  While there are too many variables to make meaningful suggestions for your deployed machines, there are a number of steps you can take to improve the overall security of your MASS setup.  This article provides a few suggestions.
 
 #### Quick questions you may have:
 
@@ -140,7 +140,7 @@ You could then follow that with commands similar to these:
     sudo ufw allow 5250:5270/tcp
     sudo ufw allow 5250:5270/udp
 
-Recognize that your particular configuration and version may vary, so consult the appropriate firewall manual pages for your specific MAAS host system.
+Recognise that your particular configuration and version may vary, so consult the appropriate firewall manual pages for your specific MAAS host system.
 
 <h2 id="heading--tls">Configure a TLS-terminating load balancer</h2>
 
@@ -228,13 +228,13 @@ There are four categories of log files that you can use to help identify securit
 * MAAS log files
 * system log files
 
-This section will offer some advice, as well as links to more detailed infromation on these categories.
+This section will offer some advice, as well as links to more detailed information on these categories.
 
 <h3 id="heading--firewall-logs-subsection">Firewall logs</h3>
 
 The Ubuntu firewall, [UFW (external link)](https://wiki.ubuntu.com/UncomplicatedFirewall), is a front-end for [iptables (external link)](https://help.ubuntu.com/community/IptablesHowTo), so the UFW log output is very similar to what you'll encounter in iptables itself.  If you want to secure your MAAS installation, it's very important to periodically review your UFW logs, found in `/var/log/ufw*`.
 
-Learning to recognize issues in the UFW/iptables log is an art form, so we're not going to give an extended tutorial here.  Still, there are some key indicators that might help you spot security issues.
+Learning to recognise issues in the UFW/iptables log is an art form, so we're not going to give an extended tutorial here.  Still, there are some key indicators that might help you spot security issues.
 
 You might look for something probing a port that's not supporting an application service.  Attackers use port scanners to look for openings.  You might see entries like these:
 
@@ -265,7 +265,7 @@ Look for source-routed packets, that is, packets with a source address internal 
 
 Review the IP addresses that are being rejected and dropped.  Try to identify them with a `ping -a <IP address>`.  Spoofed addresses won't have an owner (and you can block them).  Real addresses have a [whois (external link)](http://www.internic.net/whois.html) entry, so it's possible you can contact the ISP to report and resolve this issue.
 
-There are many other firewall log analysis techniques, and a number of good open-source and commercial log analysis programs.  If you decide to analyze directly, though, you're basically looking for blocked connection issues, connections to (potentially) open ports you're not using, and suspicious-looking outbound connections.
+There are many other firewall log analysis techniques, and a number of good open-source and commercial log analysis programs.  If you decide to analyse directly, though, you're basically looking for blocked connection issues, connections to (potentially) open ports you're not using, and suspicious-looking outbound connections.
 
 <h3 id="heading--web-server-logs-subsection">Web server logs</h3>
 
@@ -277,7 +277,7 @@ Detecting malicious activity directed toward your Web server is best done with a
 
 Web server log analysis is also an art form, so we don't plan to offer a comprehensive tutorial here, but here are few examples of things to look for in your logs:
 
-* multiple requests in less than one second, or some other appropriate timeframe.
+* multiple requests in less than one second, or some other appropriate time-frame.
 
 * multiple secure/login page accesses in a one-minute window, especially when they fail.
 

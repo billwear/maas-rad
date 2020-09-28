@@ -5,7 +5,7 @@ The following is a list of kernel tasks that you can perform with the MAAS CLI.
 * [What should I know about Ubuntu kernels on MAAS?](/t/ubuntu-kernels/828)
 * [What kernel boot options are available?](/t/kernel-boot-options/827)
 * [How do I get started with the MAAS CLI?](/t/maas-cli/802)
-* [How do I set a minimum kernel for enlistment and commisioning?](/t/cli-kernel-management/799#heading--set-a-default-minimum-kernel-for-enlistment-and-commissioning)
+* [How do I set a minimum kernel for enlistment and commissioning?](/t/cli-kernel-management/799#heading--set-a-default-minimum-kernel-for-enlistment-and-commissioning)
 * [How to I set a minimum deploy kernel for a machine?](/t/cli-kernel-management/799#heading--set-a-minimum-deploy-kernel-for-a-machine)
 * [How do I set a specific kernel during machine deployment?](/t/cli-kernel-management/799#heading--set-a-specific-kernel-during-machine-deployment)
 

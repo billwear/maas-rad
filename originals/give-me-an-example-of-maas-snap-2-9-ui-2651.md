@@ -99,7 +99,51 @@ You'll need to start with a little network thinking (and design).  Talking throu
 <tr><td>Food service</td><td>Instrumentation</td><td>Information technology</td></tr>
 </table>
 
-You can handle this lowest level with individual [machines](/t/introduction-to-machines/829).  With MAAS, you'll be able to modify how many machines are performing which functions, somewhat on-the-fly, but let's assume that you start by creating (at least) one VM for each function.  Since you can reassign machines at will, you aren't going to name them for their functions; instead, you're just going to use the MAC address of each machine to uniquely identify it.
+<!-- deb-2-7-cli
+You can handle this lowest level with individual [machines](/t/machines/2736).  With MAAS, you'll be able to modify how many machines are performing which functions, somewhat on-the-fly, but let's assume that you start by creating (at least) one VM for each function.  Since you can reassign machines at will, you aren't going to name them for their functions; instead, you're just going to use the MAC address of each machine to uniquely identify it.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+You can handle this lowest level with individual [machines](/t/machines/2737).  With MAAS, you'll be able to modify how many machines are performing which functions, somewhat on-the-fly, but let's assume that you start by creating (at least) one VM for each function.  Since you can reassign machines at will, you aren't going to name them for their functions; instead, you're just going to use the MAC address of each machine to uniquely identify it.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+You can handle this lowest level with individual [machines](/t/machines/2738).  With MAAS, you'll be able to modify how many machines are performing which functions, somewhat on-the-fly, but let's assume that you start by creating (at least) one VM for each function.  Since you can reassign machines at will, you aren't going to name them for their functions; instead, you're just going to use the MAC address of each machine to uniquely identify it.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+You can handle this lowest level with individual [machines](/t/machines/2738).  With MAAS, you'll be able to modify how many machines are performing which functions, somewhat on-the-fly, but let's assume that you start by creating (at least) one VM for each function.  Since you can reassign machines at will, you aren't going to name them for their functions; instead, you're just going to use the MAC address of each machine to uniquely identify it.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+You can handle this lowest level with individual [machines](/t/machines/2739).  With MAAS, you'll be able to modify how many machines are performing which functions, somewhat on-the-fly, but let's assume that you start by creating (at least) one VM for each function.  Since you can reassign machines at will, you aren't going to name them for their functions; instead, you're just going to use the MAC address of each machine to uniquely identify it.
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+You can handle this lowest level with individual [machines](/t/machines/2740).  With MAAS, you'll be able to modify how many machines are performing which functions, somewhat on-the-fly, but let's assume that you start by creating (at least) one VM for each function.  Since you can reassign machines at will, you aren't going to name them for their functions; instead, you're just going to use the MAC address of each machine to uniquely identify it.
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+You can handle this lowest level with individual [machines](/t/machines/2730).  With MAAS, you'll be able to modify how many machines are performing which functions, somewhat on-the-fly, but let's assume that you start by creating (at least) one VM for each function.  Since you can reassign machines at will, you aren't going to name them for their functions; instead, you're just going to use the MAC address of each machine to uniquely identify it.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+You can handle this lowest level with individual [machines](/t/machines/2731).  With MAAS, you'll be able to modify how many machines are performing which functions, somewhat on-the-fly, but let's assume that you start by creating (at least) one VM for each function.  Since you can reassign machines at will, you aren't going to name them for their functions; instead, you're just going to use the MAC address of each machine to uniquely identify it.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+You can handle this lowest level with individual [machines](/t/machines/2732).  With MAAS, you'll be able to modify how many machines are performing which functions, somewhat on-the-fly, but let's assume that you start by creating (at least) one VM for each function.  Since you can reassign machines at will, you aren't going to name them for their functions; instead, you're just going to use the MAC address of each machine to uniquely identify it.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+You can handle this lowest level with individual [machines](/t/machines/2733).  With MAAS, you'll be able to modify how many machines are performing which functions, somewhat on-the-fly, but let's assume that you start by creating (at least) one VM for each function.  Since you can reassign machines at will, you aren't going to name them for their functions; instead, you're just going to use the MAC address of each machine to uniquely identify it.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+You can handle this lowest level with individual [machines](/t/machines/2734).  With MAAS, you'll be able to modify how many machines are performing which functions, somewhat on-the-fly, but let's assume that you start by creating (at least) one VM for each function.  Since you can reassign machines at will, you aren't going to name them for their functions; instead, you're just going to use the MAC address of each machine to uniquely identify it.
+ snap-2-9-cli -->
+
+You can handle this lowest level with individual [machines](/t/machines/2735).  With MAAS, you'll be able to modify how many machines are performing which functions, somewhat on-the-fly, but let's assume that you start by creating (at least) one VM for each function.  Since you can reassign machines at will, you aren't going to name them for their functions; instead, you're just going to use the MAC address of each machine to uniquely identify it.
 
 <details>
 <summary>
@@ -183,7 +227,51 @@ No need to create a lot of VMs for this example (unless you just want to do so).
 
 <h3>Manually adding machines</h3>
 
-Once you've created the necessary VMs, you'll want to [manually add machines](/t/add-machines/821#heading--add-a-node-manually) to MAAS that correspond to your VMs.
+<!-- deb-2-7-cli
+Once you've created the necessary VMs, you'll want to [manually add machines](/t/add-machines/2280#heading--add-a-node-manually) to MAAS that correspond to your VMs.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+Once you've created the necessary VMs, you'll want to [manually add machines](/t/add-machines/2281#heading--add-a-node-manually) to MAAS that correspond to your VMs.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+Once you've created the necessary VMs, you'll want to [manually add machines](/t/add-machines/2282#heading--add-a-node-manually) to MAAS that correspond to your VMs.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+Once you've created the necessary VMs, you'll want to [manually add machines](/t/add-machines/2283#heading--add-a-node-manually) to MAAS that correspond to your VMs.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+Once you've created the necessary VMs, you'll want to [manually add machines](/t/add-machines/2284#heading--add-a-node-manually) to MAAS that correspond to your VMs.
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+Once you've created the necessary VMs, you'll want to [manually add machines](/t/add-machines/2285#heading--add-a-node-manually) to MAAS that correspond to your VMs.
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+Once you've created the necessary VMs, you'll want to [manually add machines](/t/add-machines/2274#heading--add-a-node-manually) to MAAS that correspond to your VMs.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+Once you've created the necessary VMs, you'll want to [manually add machines](/t/add-machines/2275#heading--add-a-node-manually) to MAAS that correspond to your VMs.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+Once you've created the necessary VMs, you'll want to [manually add machines](/t/add-machines/2276#heading--add-a-node-manually) to MAAS that correspond to your VMs.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+Once you've created the necessary VMs, you'll want to [manually add machines](/t/add-machines/2277#heading--add-a-node-manually) to MAAS that correspond to your VMs.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+Once you've created the necessary VMs, you'll want to [manually add machines](/t/add-machines/2278#heading--add-a-node-manually) to MAAS that correspond to your VMs.
+ snap-2-9-cli -->
+
+Once you've created the necessary VMs, you'll want to [manually add machines](/t/add-machines/2279#heading--add-a-node-manually) to MAAS that correspond to your VMs.
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/91679cd615868eda4654541a68e59de57328ddfa.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/91679cd615868eda4654541a68e59de57328ddfa.jpeg"></a> 
 
@@ -215,7 +303,51 @@ When finished, the commissioned machines with be at the "Ready" state.
 
 <h2>Tags</h2>
 
-Assigning machines to specific functions is something you can do after you [commission](/t/commission-machines/822) and [deploy](/t/deploy-machines/825) them.  (Later on, we'll discuss ways to load user apps and data onto the machines using the MAAS API.) Once you've got machines running apps, you want to keep up-to-date about which machine is doing what, when you're looking at the machine list.  You'll want to assign [tags](/t/maas-tags/834) to machines.  
+<!-- deb-2-7-cli
+Assigning machines to specific functions is something you can do after you [commission](/t/commission-machines/2472) and [deploy](/t/deploy-machines/2604) them.  (Later on, we'll discuss ways to load user apps and data onto the machines using the MAAS API.) Once you've got machines running apps, you want to keep up-to-date about which machine is doing what, when you're looking at the machine list.  You'll want to assign [tags](/t/maas-tags/2892) to machines.  
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+Assigning machines to specific functions is something you can do after you [commission](/t/commission-machines/2473) and [deploy](/t/deploy-machines/2605) them.  (Later on, we'll discuss ways to load user apps and data onto the machines using the MAAS API.) Once you've got machines running apps, you want to keep up-to-date about which machine is doing what, when you're looking at the machine list.  You'll want to assign [tags](/t/maas-tags/2893) to machines.  
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+Assigning machines to specific functions is something you can do after you [commission](/t/commission-machines/2474) and [deploy](/t/deploy-machines/2606) them.  (Later on, we'll discuss ways to load user apps and data onto the machines using the MAAS API.) Once you've got machines running apps, you want to keep up-to-date about which machine is doing what, when you're looking at the machine list.  You'll want to assign [tags](/t/maas-tags/2894) to machines.  
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+Assigning machines to specific functions is something you can do after you [commission](/t/commission-machines/2475) and [deploy](/t/deploy-machines/2607) them.  (Later on, we'll discuss ways to load user apps and data onto the machines using the MAAS API.) Once you've got machines running apps, you want to keep up-to-date about which machine is doing what, when you're looking at the machine list.  You'll want to assign [tags](/t/maas-tags/2895) to machines.  
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+Assigning machines to specific functions is something you can do after you [commission](/t/commission-machines/2476) and [deploy](/t/deploy-machines/2608) them.  (Later on, we'll discuss ways to load user apps and data onto the machines using the MAAS API.) Once you've got machines running apps, you want to keep up-to-date about which machine is doing what, when you're looking at the machine list.  You'll want to assign [tags](/t/maas-tags/2896) to machines.  
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+Assigning machines to specific functions is something you can do after you [commission](/t/commission-machines/2477) and [deploy](/t/deploy-machines/2609) them.  (Later on, we'll discuss ways to load user apps and data onto the machines using the MAAS API.) Once you've got machines running apps, you want to keep up-to-date about which machine is doing what, when you're looking at the machine list.  You'll want to assign [tags](/t/maas-tags/2897) to machines.  
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+Assigning machines to specific functions is something you can do after you [commission](/t/commission-machines/2466) and [deploy](/t/deploy-machines/2598) them.  (Later on, we'll discuss ways to load user apps and data onto the machines using the MAAS API.) Once you've got machines running apps, you want to keep up-to-date about which machine is doing what, when you're looking at the machine list.  You'll want to assign [tags](/t/maas-tags/2886) to machines.  
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+Assigning machines to specific functions is something you can do after you [commission](/t/commission-machines/2467) and [deploy](/t/deploy-machines/2599) them.  (Later on, we'll discuss ways to load user apps and data onto the machines using the MAAS API.) Once you've got machines running apps, you want to keep up-to-date about which machine is doing what, when you're looking at the machine list.  You'll want to assign [tags](/t/maas-tags/2887) to machines.  
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+Assigning machines to specific functions is something you can do after you [commission](/t/commission-machines/2468) and [deploy](/t/deploy-machines/2600) them.  (Later on, we'll discuss ways to load user apps and data onto the machines using the MAAS API.) Once you've got machines running apps, you want to keep up-to-date about which machine is doing what, when you're looking at the machine list.  You'll want to assign [tags](/t/maas-tags/2888) to machines.  
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+Assigning machines to specific functions is something you can do after you [commission](/t/commission-machines/2469) and [deploy](/t/deploy-machines/2601) them.  (Later on, we'll discuss ways to load user apps and data onto the machines using the MAAS API.) Once you've got machines running apps, you want to keep up-to-date about which machine is doing what, when you're looking at the machine list.  You'll want to assign [tags](/t/maas-tags/2889) to machines.  
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+Assigning machines to specific functions is something you can do after you [commission](/t/commission-machines/2470) and [deploy](/t/deploy-machines/2602) them.  (Later on, we'll discuss ways to load user apps and data onto the machines using the MAAS API.) Once you've got machines running apps, you want to keep up-to-date about which machine is doing what, when you're looking at the machine list.  You'll want to assign [tags](/t/maas-tags/2890) to machines.  
+ snap-2-9-cli -->
+
+Assigning machines to specific functions is something you can do after you [commission](/t/commission-machines/2471) and [deploy](/t/deploy-machines/2603) them.  (Later on, we'll discuss ways to load user apps and data onto the machines using the MAAS API.) Once you've got machines running apps, you want to keep up-to-date about which machine is doing what, when you're looking at the machine list.  You'll want to assign [tags](/t/maas-tags/2891) to machines.  
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/2ea0827b9ef327b59ad722215d556969218cc22f.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/2ea0827b9ef327b59ad722215d556969218cc22f.jpeg"></a> 
 
@@ -268,7 +400,51 @@ As you look at the list of functions you've created, and talk more with the staf
 <tr><td>Instrumentation</td><td>Information technology</td><td></td></tr>
 </table>
 
-You're aware that the number of machines you'll need use for each of the individual functions with vary according to real-world events in the hospital.  Still, you'd prefer to budget machines for these different functions, so that you know you can meet the needs of each.  The easiest way to handle this?  Creating [resource pools](/t/resource-pools/831) and naming them after the (new) top-level headings in your outline.  That way, you can reserve some number of machines for those functions, learning over time the right number of machines to allocate to each activity.
+<!-- deb-2-7-cli
+You're aware that the number of machines you'll need use for each of the individual functions with vary according to real-world events in the hospital.  Still, you'd prefer to budget machines for these different functions, so that you know you can meet the needs of each.  The easiest way to handle this?  Creating [resource pools](/t/resource-pools/3084) and naming them after the (new) top-level headings in your outline.  That way, you can reserve some number of machines for those functions, learning over time the right number of machines to allocate to each activity.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+You're aware that the number of machines you'll need use for each of the individual functions with vary according to real-world events in the hospital.  Still, you'd prefer to budget machines for these different functions, so that you know you can meet the needs of each.  The easiest way to handle this?  Creating [resource pools](/t/resource-pools/3085) and naming them after the (new) top-level headings in your outline.  That way, you can reserve some number of machines for those functions, learning over time the right number of machines to allocate to each activity.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+You're aware that the number of machines you'll need use for each of the individual functions with vary according to real-world events in the hospital.  Still, you'd prefer to budget machines for these different functions, so that you know you can meet the needs of each.  The easiest way to handle this?  Creating [resource pools](/t/resource-pools/3086) and naming them after the (new) top-level headings in your outline.  That way, you can reserve some number of machines for those functions, learning over time the right number of machines to allocate to each activity.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+You're aware that the number of machines you'll need use for each of the individual functions with vary according to real-world events in the hospital.  Still, you'd prefer to budget machines for these different functions, so that you know you can meet the needs of each.  The easiest way to handle this?  Creating [resource pools](/t/resource-pools/3087) and naming them after the (new) top-level headings in your outline.  That way, you can reserve some number of machines for those functions, learning over time the right number of machines to allocate to each activity.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+You're aware that the number of machines you'll need use for each of the individual functions with vary according to real-world events in the hospital.  Still, you'd prefer to budget machines for these different functions, so that you know you can meet the needs of each.  The easiest way to handle this?  Creating [resource pools](/t/resource-pools/3088) and naming them after the (new) top-level headings in your outline.  That way, you can reserve some number of machines for those functions, learning over time the right number of machines to allocate to each activity.
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+You're aware that the number of machines you'll need use for each of the individual functions with vary according to real-world events in the hospital.  Still, you'd prefer to budget machines for these different functions, so that you know you can meet the needs of each.  The easiest way to handle this?  Creating [resource pools](/t/resource-pools/3089) and naming them after the (new) top-level headings in your outline.  That way, you can reserve some number of machines for those functions, learning over time the right number of machines to allocate to each activity.
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+You're aware that the number of machines you'll need use for each of the individual functions with vary according to real-world events in the hospital.  Still, you'd prefer to budget machines for these different functions, so that you know you can meet the needs of each.  The easiest way to handle this?  Creating [resource pools](/t/resource-pools/3078) and naming them after the (new) top-level headings in your outline.  That way, you can reserve some number of machines for those functions, learning over time the right number of machines to allocate to each activity.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+You're aware that the number of machines you'll need use for each of the individual functions with vary according to real-world events in the hospital.  Still, you'd prefer to budget machines for these different functions, so that you know you can meet the needs of each.  The easiest way to handle this?  Creating [resource pools](/t/resource-pools/3079) and naming them after the (new) top-level headings in your outline.  That way, you can reserve some number of machines for those functions, learning over time the right number of machines to allocate to each activity.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+You're aware that the number of machines you'll need use for each of the individual functions with vary according to real-world events in the hospital.  Still, you'd prefer to budget machines for these different functions, so that you know you can meet the needs of each.  The easiest way to handle this?  Creating [resource pools](/t/resource-pools/3080) and naming them after the (new) top-level headings in your outline.  That way, you can reserve some number of machines for those functions, learning over time the right number of machines to allocate to each activity.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+You're aware that the number of machines you'll need use for each of the individual functions with vary according to real-world events in the hospital.  Still, you'd prefer to budget machines for these different functions, so that you know you can meet the needs of each.  The easiest way to handle this?  Creating [resource pools](/t/resource-pools/3081) and naming them after the (new) top-level headings in your outline.  That way, you can reserve some number of machines for those functions, learning over time the right number of machines to allocate to each activity.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+You're aware that the number of machines you'll need use for each of the individual functions with vary according to real-world events in the hospital.  Still, you'd prefer to budget machines for these different functions, so that you know you can meet the needs of each.  The easiest way to handle this?  Creating [resource pools](/t/resource-pools/3082) and naming them after the (new) top-level headings in your outline.  That way, you can reserve some number of machines for those functions, learning over time the right number of machines to allocate to each activity.
+ snap-2-9-cli -->
+
+You're aware that the number of machines you'll need use for each of the individual functions with vary according to real-world events in the hospital.  Still, you'd prefer to budget machines for these different functions, so that you know you can meet the needs of each.  The easiest way to handle this?  Creating [resource pools](/t/resource-pools/3083) and naming them after the (new) top-level headings in your outline.  That way, you can reserve some number of machines for those functions, learning over time the right number of machines to allocate to each activity.
 
 <details>
 <summary><em>Try it!</em></summary>

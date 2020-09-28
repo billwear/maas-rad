@@ -83,52 +83,52 @@
 # Introduction
 
 <!-- deb-2-7-cli
-MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customizing Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2592).
+MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customising Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2592).
  deb-2-7-cli -->
 
-MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customizing Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2593).
+MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customising Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2593).
 
 <!-- deb-2-8-cli
-MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customizing Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2594).
+MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customising Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2594).
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customizing Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2595).
+MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customising Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2595).
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customizing Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2596).
+MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customising Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2596).
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
-MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customizing Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2597).
+MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customising Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2597).
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
-MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customizing Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2586).
+MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customising Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2586).
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
-MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customizing Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2587).
+MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customising Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2587).
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
-MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customizing Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2588).
+MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customising Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2588).
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
-MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customizing Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2589).
+MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customising Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2589).
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
-MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customizing Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2590).
+MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customising Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2590).
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
-MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customizing Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2591).
+MAAS supports deploying custom DD or TGZ images. Canonical provides both [lp:maas-image-builder^](https://launchpad.net/maas-image-builder) and [gh:canonical/packer-maas^](https://github.com/canonical/packer-maas) to support creating custom images however these tools do not currently support Ubuntu. Instead Canonical suggests customising Ubuntu using [cloud-init user_data](https://discourse.maas.io/t/customizing-maas-deployments-with-cloud-init/165) or [Curtin preseed data](/t/custom-machine-setup/2591).
  snap-2-9-ui -->
 
-# Why customized Ubuntu deployments aren't supported
+# Why customised Ubuntu deployments aren't supported
 When the [MAAS stream^](https://images.maas.io/ephemeral-v3/daily/) is generated by [lp:maas-images^](https://launchpad.net/maas-images) it starts by downloading the base SquashFS rootfs from cloud-images.ubuntu.com that is used for all clouds. The SquashFS does not contain a kernel so [lp:maas-images^](https://launchpad.net/maas-images) mounts the SquashFS with an overlay and chroots in. It then  installs a kernel and extra initramfs scripts from the cloud-initramfs-rooturl and cloud-initramfs-copymods packages to allow network booting. Once everything is installed the kernel and newly generated initramfs are pulled out of the overlay and everything is unmounted. [lp:maas-images^](https://launchpad.net/maas-images) provides the unmodified SquashFS, installed kernel, and generated initramfs as separate files on images.maas.io.
 
 MAAS uses the kernel, initramfs, and SquashFS to perform network booting which allows commissioning, testing, and deployments. When deploying Ubuntu MAAS uses the same version of Ubuntu to network boot into and perform the deployment. This ensures there are no compatibility issues. Other operating systems use the Ubuntu version selected for the ephemeral environment for deployment.
@@ -138,7 +138,7 @@ Currently MAAS only allows custom images to be loaded as a single TGZ or DD.GZ, 
 # Warnings on creating a custom Ubuntu image
 1. Custom images are always deployed with the ephemeral operating system. This can cause hard to debug errors. For example CentOS 6 can only be deployed by Ubuntu Xenial due to advances in the ext4 filesystem.
 2. MAAS will still install and configure the GA kernel. If your custom image contains a kernel it most likely won't be used. MAAS will not allow you to select which kernel(GA, HWE, lowlatency, etc) when deploying a custom Ubuntu image.
-3. All GNU/Linux custom images should be created as a TGZ to enable storage customization. When a DD.GZ is used MAAS/Curtin simply writes the file to the filesystem.
+3. All GNU/Linux custom images should be created as a TGZ to enable storage customisation. When a DD.GZ is used MAAS/Curtin simply writes the file to the filesystem.
 
 # How to create a custom Ubuntu image for MAAS
 
@@ -163,7 +163,7 @@ Note: LXD may prevent device files from being created when extracting the rootfs
    `sudo cp /etc/resolv.conf /tmp/work/etc/`
 5. Chroot in
     `sudo chroot /tmp/work /bin/bash`
-6. Customize image
+6. Customise image
     `apt update`
     `apt dist-upgrade`
    `apt install emacs-nox jq tree`

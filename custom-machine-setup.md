@@ -132,12 +132,12 @@ During machine [enlistment](/t/add-machines/2279#heading--enlistment), [deployme
 
 #### Quick questions you may have:
 
-* [How do I customize machine setup with curtin?](#heading--curtin)
-* [How do I customize machine setup with cloud-init?](#heading--cloud-init)
+* [How do I customise machine setup with curtin?](#heading--curtin)
+* [How do I customise machine setup with cloud-init?](#heading--cloud-init)
 
 Customisation in MAAS happens in two ways:
 
-1.  [Curtin^](https://launchpad.net/curtin), a preseeding system similar to Kickstart or d-i (Debian Installer), applies customisations during operating system (OS) image installation. MAAS performs these changes on deployment, during OS installation, but before the machine reboots into the installed OS. Curtin customisations are perfect for administrators who want their deployments to have identical setups all the time, every time. [This blog post^](https://blog.ubuntu.com/2017/06/02/customising-maas-installs) contains an excellent high-level overview of custom MAAS installs using Curtin.
+1.  [Curtin^](https://launchpad.net/curtin), a preseeding system similar to Kickstart or d-i (Debian Installer), applies customisation during operating system (OS) image installation. MAAS performs these changes on deployment, during OS installation, but before the machine reboots into the installed OS. Curtin customisations are perfect for administrators who want their deployments to have identical setups all the time, every time. [This blog post^](https://blog.ubuntu.com/2017/06/02/customising-maas-installs) contains an excellent high-level overview of custom MAAS installs using Curtin.
 2.  [Cloud-init^](https://launchpad.net/cloud-init), a system for setting up machines immediately after instantiation. cloud-init applies customisations after the first boot, when MAAS changes a machine's status to 'Deployed.' Customisations are per-instances, meaning that user-supplied scripts must be re-specified on redeployment. Cloud-init customisations are the best way for MAAS users to customise their deployments, similar to how the various cloud services prepare VMs when launching instances.
 
 <h2 id="heading--curtin">Curtin</h2>
@@ -191,7 +191,7 @@ For example, to create a generic configuration template for Ubuntu 16.04 Xenial 
 To create the equivalent template for curtin_userdata, the file would be called `curtin_userdata_ubuntu_amd64_generic_xenial_node`.
 
 [note]
-Any file targetting a specific machine will replace the values and configuration held within any generic files. If those values are needed, you will need to copy these generic template values into your new file.
+Any file targeting a specific machine will replace the values and configuration held within any generic files. If those values are needed, you will need to copy these generic template values into your new file.
 [/note]
 
 <h3 id="heading--configuration">Configuration</h3>
@@ -272,11 +272,11 @@ After MAAS deploys the machine, you'll find `/ssh-key-import.log` on the machine
 <!--  snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui 
 <h3 id="heading--cloud-init-ui">Customising cloud-init with the UI (v2.9++)</h3>
 
-It's easy to customize cloud-init via the web UI.  When you've selected a machine and choose 'Take action >> Deploy,' you'll be presented with the following screen:
+It's easy to customise cloud-init via the web UI.  When you've selected a machine and choose 'Take action >> Deploy,' you'll be presented with the following screen:
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/4cb95189de94d0f478ac899c05fbdbe038607f14.jpeg"><img src="https://discourse.maas.io/uploads/default/original/1X/4cb95189de94d0f478ac899c05fbdbe038607f14.jpeg"></a>
 
-Select a viable release (in this case, "Ubuntu 18.04...") and check the box labeled "Cloud-init user-data...":
+Select a viable release (in this case, "Ubuntu 18.04...") and check the box labelled "Cloud-init user-data...":
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/12d98a2c14671c02ef61a5e87c1eda19956b0afb.jpeg"><img src="https://discourse.maas.io/uploads/default/original/1X/12d98a2c14671c02ef61a5e87c1eda19956b0afb.jpeg"></a>
 

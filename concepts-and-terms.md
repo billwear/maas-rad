@@ -210,7 +210,7 @@ These patch cords essentially acted like a VLAN, allowing only the subscribers w
 
 But the switchboard only covered one exchange, that is, one three-digit phone number prefix.  If a subscriber wanted to conference someone from another exchange, there had to be patch from one exchange to another.  This was handled by a long-distance operator.  Each exchange had a more robust outgoing line, called a "trunk line," that connected exchanges in some central place.  The long-distance operators could bridge trunks in a specific way, involving a local operator in each of the "bridged" exchanges.
 
-By now, you're probably starting to recognize a lot of network terms, which is completely appropriate.  Almost all modern networking technology originated in the telephone system.
+By now, you're probably starting to recognise a lot of network terms, which is completely appropriate.  Almost all modern networking technology originated in the telephone system.
 
 Now imagine that you want to conference in six people, two in each of three distant exchanges.  Each exchange operator had to patch two numbers and a trunk line.  The long-distance operator had to patch three trunks in a specific way that prevented the conversation from going out to all numbers attached to the trunk.  
 
@@ -397,7 +397,7 @@ This action allows the user to select and run scripts to test a machine's underl
 
 <h3 id="heading--unlock">Unlock</h3>
 
-This action eleases a machine from a locked state.
+This action releases a machine from a locked state.
 
 <h2 id="heading--machine-statuses">Node statuses</h2>
 
@@ -527,11 +527,11 @@ See [Launchpad PPAs](https://help.launchpad.net/Packaging/PPA) for more informat
 
 <h2 id="heading--network-tutorial">Brief network tutorial</h2>
 
-The following is a brief network tutorial, provided as a tool to synchronize understanding.  Note that this tutorial covers mostly those terms routinely needed in the course of using MAAS.
+The following is a brief network tutorial, provided as a tool to synchronise understanding.  Note that this tutorial covers mostly those terms routinely needed in the course of using MAAS.
 
 <h3 id="heading--dhcp">DHCP</h3>
 
-The Dynamic Host Control Protocol is a network management system in which a server (or group of servers) dynamically assigns IP addresses and other network parameters to a network device.  This network device may or may not have the capability to provide its own IP address, although to take advantage of DHCP, the device must have been configured to seek out a DHCP server and accept an assigned IP address.  Typically, a network adminstrator defines a range of reserved IP addresses from which the DHCP server can pull when assigning addresses.
+The Dynamic Host Control Protocol is a network management system in which a server (or group of servers) dynamically assigns IP addresses and other network parameters to a network device.  This network device may or may not have the capability to provide its own IP address, although to take advantage of DHCP, the device must have been configured to seek out a DHCP server and accept an assigned IP address.  Typically, a network administrator defines a range of reserved IP addresses from which the DHCP server can pull when assigning addresses.
 
 DHCP operates using the "DORA" model: Discovery, Offer, Request, and Acknowledge:
 
@@ -555,7 +555,7 @@ A server is a node that provides shared resources to clients via a network.  If 
 
 <h3 id="heading--network-interface">Network interface</h3>
 
-A network interface, often referred to as a "network interface card" or NIC, is either a separate physical card connected to a node, a set of circuits embedded on a node's motherboard, or a radio transceiver attached to a node in some way.  All network connections require a NIC.  The terms "port" and "adapter" are also used to refer to a network interface.
+A network interface, often referred to as a "network interface card" or NIC, is either a separate physical card connected to a node, a set of circuits embedded on a node's motherboard, or a radio transceiver attached to a node in some way.  All network connections require a NIC.  The terms "port" and "adaptor" are also used to refer to a network interface.
 
 <h3 id="heading--mac-address">MAC address</h3>
 
@@ -563,10 +563,10 @@ A MAC or "media access control" address is a unique address or "physical address
 
 <h3 id="heading--network-cable">Network cable</h3>
 
-Network cables are special cables that connect non-wireless-based nodes.  They consiste of our pairs of insulated, 24-gauge wire, color-coded (solid/striped), usually in four colors: blue, green, orange, and brown.  The matching color pairs are twisted together, each pair at a different turn rate to prevent electromagnetic interference between pairs.
+Network cables are special cables that connect non-wireless-based nodes.  They consist of our pairs of insulated, 24-gauge wire, colour-coded (solid/striped), usually in four colours: blue, green, orange, and brown.  The matching colour pairs are twisted together, each pair at a different turn rate to prevent electromagnetic interference between pairs.
 These twists must be maintained all the way up to the (RJ45) connector.
 
-Even with insulation, careful twisting, and connector-termination, natural losses in the cable cause the network signals to become too weak to maintain reliable data rates after a certain length.  In the case of Cat 5e cable, the maximum cable lenth is 100 meters to maintain 1Gb per second.  For Cat 6, the max length to maintain 10Gb per second is 55 meters.  These limits are overcome with [repeaters](/t/concepts-and-terms/785#heading--repeater), which amplify the signal and relay it to the next repeater or NIC.
+Even with insulation, careful twisting, and connector-termination, natural losses in the cable cause the network signals to become too weak to maintain reliable data rates after a certain length.  In the case of Cat 5e cable, the maximum cable length is 100 meters to maintain 1Gb per second.  For Cat 6, the max length to maintain 10Gb per second is 55 meters.  These limits are overcome with [repeaters](/t/concepts-and-terms/785#heading--repeater), which amplify the signal and relay it to the next repeater or NIC.
 
 <h3 id="heading--repeater">Repeater</h3>
 

@@ -27,7 +27,7 @@ The tags should generally be self-explantory.  For example, the tag above refers
 
 <h2 id="heading--contribution-overview">Contribution overview</h2>
 
-Once you have permission to edit the doc, you can modify any article by choosing the link at the bottom, entitled, "Help improve this document in the forum."  Recognize that what you change will be posted instantly.  Check your work carefully before saving your edits!
+Once you have permission to edit the doc, you can modify any article by choosing the link at the bottom, entitled, "Help improve this document in the forum."  Recognise that what you change will be posted instantly.  Check your work carefully before saving your edits!
 
 Some questions to ask yourself as you are contributing:
 
@@ -174,7 +174,7 @@ A negative note that should include a title.
 
 <h2 id="heading--comments">Comments</h2>
 
-Occasionally it may be appropriate to include a comment to explain or organize some text. This ends up as an HTML comment -- which can be read online, even if only in the browser inspection window -- so take it seriously:
+Occasionally it may be appropriate to include a comment to explain or organise some text. This ends up as an HTML comment -- which can be read online, even if only in the browser inspection window -- so take it seriously:
 
 ```
 <!--
@@ -233,6 +233,6 @@ this is yet another hidden level
 </details>
 </details>
 
-<h2 id="heading--capitalization">Capitalization</h2>
+<h2 id="heading--capitalization">Capitalisation</h2>
 
-Do not use a "Caps Everywhere" style. It is only used in level one headers and the title metadata. References (visible text) to these page titles (including the navigation) should just capitalize the first letter. Obviously, this does not pertain to words that should always be capitalized according to basic grammar rules (e.g. acronyms, proper nouns).
+Do not use a "Caps Everywhere" style. It is only used in level one headers and the title metadata. References (visible text) to these page titles (including the navigation) should just capitalise the first letter. Obviously, this does not pertain to words that should always be capitalised according to basic grammar rules (e.g. acronyms, proper nouns).

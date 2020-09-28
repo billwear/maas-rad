@@ -107,11 +107,11 @@ To begin searching, enter your search text. As you type, MAAS will update search
 
 <h2 id="heading--filtered-searches">Filtered searches</h2>
 
-Filter your searches to major categories by selecting one from the Filters dropdown menu next to the search bar.
+Filter your searches to major categories by selecting one from the Filters drop-down menu next to the search bar.
 
 <a href="https://assets.ubuntu.com/v1/6ac5b4ec-manage-search__2.5_filters.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/6ac5b4ec-manage-search__2.5_filters.png"></a>
 
-For example, to find all "New" machines containing the name or tag 'quail', select Status/New from the dropdown Filters menu, and then type the word 'quail' next to it:
+For example, to find all "New" machines containing the name or tag 'quail', select Status/New from the drop-down Filters menu, and then type the word 'quail' next to it:
 
 <a href="https://assets.ubuntu.com/v1/7b5d8e86-manage-search__2.5_filtered-search.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/7b5d8e86-manage-search__2.5_filtered-search.png"></a>
 
@@ -150,7 +150,7 @@ MAAS uses boolean AND logic to evaluate multiple search terms. For example, when
 
 <h4 id="heading--filter-properties">Filter properties</h4>
 
-In addition to the major filtering categories available in the Filter dropdown menu, the following machine properties are available as filters:
+In addition to the major filtering categories available in the Filter drop-down menu, the following machine properties are available as filters:
 
 -   architecture
 -   cores

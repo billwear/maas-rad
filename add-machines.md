@@ -326,7 +326,7 @@ The fields on the "Add machine" screen are as follows:
 
 * **Architecture**: This field refers to the architecture of the machine being added.
 
-* **Minimum Kernal**: This field supplies a dropdown of possible kernels available for deployment on this machine.
+* **Minimum Kernel**: This field supplies a drop-down of possible kernels available for deployment on this machine.
 
 * **Zone**: This field allows you to set the availability zone, selected from AZs that you have already created (if any).
 
@@ -336,11 +336,11 @@ The fields on the "Add machine" screen are as follows:
 deb-2-7-ui snap-2-7-ui -->
 
 <!-- snap-2-7-ui 
-type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3007) for details on the availabile power types and the relevant parameters for each type.
+type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3007) for details on the available power types and the relevant parameters for each type.
 snap-2-7-ui -->
 
 <!-- deb-2-7-ui 
-type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3103) for details on the availabile power types and the relevant parameters for each type.
+type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3103) for details on the available power types and the relevant parameters for each type.
 deb-2-7-ui -->
 
 <!-- deb-2-8-ui snap-2-8-ui deb-2-9-ui snap-2-9-ui
@@ -358,7 +358,7 @@ The fields on the "Add machine" screen are as follows:
 
 * **Architecture**: This field refers to the architecture of the machine being added.
 
-* **Minimum Kernal**: This field supplies a dropdown of possible kernels available for deployment on this machine.
+* **Minimum Kernel**: This field supplies a drop-down of possible kernels available for deployment on this machine.
 
 * **Zone**: This field allows you to set the availability zone, selected from AZs that you have already created (if any).
 
@@ -368,19 +368,19 @@ The fields on the "Add machine" screen are as follows:
 deb-2-8-ui snap-2-8-ui deb-2-9-ui snap-2-9-ui -->
 
 <!-- deb-2-8-ui
-* **Power type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3015) for details on the availabile power types and the relevant parameters for each type.
+* **Power type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3015) for details on the available power types and the relevant parameters for each type.
  deb-2-8-ui -->
 
 <!-- deb-2-9-ui
-* **Power type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3017) for details on the availabile power types and the relevant parameters for each type.
+* **Power type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3017) for details on the available power types and the relevant parameters for each type.
  deb-2-9-ui -->
 
 <!-- snap-2-8-ui
-* **Power type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3007) for details on the availabile power types and the relevant parameters for each type.
+* **Power type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3007) for details on the available power types and the relevant parameters for each type.
  snap-2-8-ui -->
 
 <!-- snap-2-9-ui
-* **Power type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3009) for details on the availabile power types and the relevant parameters for each type.
+* **Power type**: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3009) for details on the available power types and the relevant parameters for each type.
  snap-2-9-ui -->
 
 <!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
@@ -429,40 +429,40 @@ The variable fields in the `machines create` command (the `$...` items) are as f
 snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
 
 <!-- deb-2-7-cli
-* `$POWER_TYPE`: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3012) for details on the availabile power types and the relevant parameters for each type. In this example, we've used a "virsh" power type (a libvirt KVM), but your choice will depend on your hardware.
+* `$POWER_TYPE`: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3012) for details on the available power types and the relevant parameters for each type. In this example, we've used a "virsh" power type (a libvirt KVM), but your choice will depend on your hardware.
  deb-2-7-cli -->
 
 <!-- deb-2-8-cli
-* `$POWER_TYPE`: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3014) for details on the availabile power types and the relevant parameters for each type. In this example, we've used a "virsh" power type (a libvirt KVM), but your choice will depend on your hardware.
+* `$POWER_TYPE`: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3014) for details on the available power types and the relevant parameters for each type. In this example, we've used a "virsh" power type (a libvirt KVM), but your choice will depend on your hardware.
  deb-2-8-cli -->
 
 <!-- deb-2-9-cli
-* `$POWER_TYPE`: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3016) for details on the availabile power types and the relevant parameters for each type. In this example, we've used a "virsh" power type (a libvirt KVM), but your choice will depend on your hardware.
+* `$POWER_TYPE`: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3016) for details on the available power types and the relevant parameters for each type. In this example, we've used a "virsh" power type (a libvirt KVM), but your choice will depend on your hardware.
  deb-2-9-cli -->
 
 <!-- snap-2-7-cli
-* `$POWER_TYPE`: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3006) for details on the availabile power types and the relevant parameters for each type. In this example, we've used a "virsh" power type (a libvirt KVM), but your choice will depend on your hardware.
+* `$POWER_TYPE`: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3006) for details on the available power types and the relevant parameters for each type. In this example, we've used a "virsh" power type (a libvirt KVM), but your choice will depend on your hardware.
  snap-2-7-cli -->
 
 <!-- snap-2-8-cli
-* `$POWER_TYPE`: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3008) for details on the availabile power types and the relevant parameters for each type. In this example, we've used a "virsh" power type (a libvirt KVM), but your choice will depend on your hardware.
+* `$POWER_TYPE`: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3008) for details on the available power types and the relevant parameters for each type. In this example, we've used a "virsh" power type (a libvirt KVM), but your choice will depend on your hardware.
  snap-2-8-cli -->
 
 <!-- snap-2-9-cli
-* `$POWER_TYPE`: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3010) for details on the availabile power types and the relevant parameters for each type. In this example, we've used a "virsh" power type (a libvirt KVM), but your choice will depend on your hardware.
+* `$POWER_TYPE`: You must select the power type supported by the machine you are adding, and fill in additional required fields that appear.  See [Power management](/t/power-management/3010) for details on the available power types and the relevant parameters for each type. In this example, we've used a "virsh" power type (a libvirt KVM), but your choice will depend on your hardware.
  snap-2-9-cli -->
 
 <!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
 * `$POWER_ID`: This is generally the UUID of the machine being added.
 
-* `$POWER_ADDRESS/$POWER_PASSWORD`: In the case of a KVM, these are the only parameters that need to be entered.  See [Power types](https://maas.io/docs/api#power-types) in the API reference for details on the availabile power types and the relevant parameters for each type.
+* `$POWER_ADDRESS/$POWER_PASSWORD`: In the case of a KVM, these are the only parameters that need to be entered.  See [Power types](https://maas.io/docs/api#power-types) in the API reference for details on the available power types and the relevant parameters for each type.
 snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
 
 Normally, when you add a machine manually, MAAS will immediately attempt to commission the machine. Note that you will need to configure the underlying machine to boot over the network, or commissioning will fail. MAAS cannot handle this configuration for you.  While the correct method for configuring network boot depends heavily on your server, there are a couple of common elements:
 
 * The network card on your server must be able to support PXE, i.e., your NIC -- whether independent or integrated on a motherboard -- must have a boot PROM that supports network booting.  You'll need to consult the documentation for the machine in question to determine this.
 
-* You usually have to interrupt the boot process and enter the BIOS/UEFI menu to configure the network cards's PXE stack.  Again, you may need to consult your machine's documentation to pin down this step.
+* You usually have to interrupt the boot process and enter the BIOS/UEFI menu to configure the network card's PXE stack.  Again, you may need to consult your machine's documentation to pin down this step.
 
 Additional steps will vary widely by machine type and architecture.
 

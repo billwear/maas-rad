@@ -1,4 +1,4 @@
-This page presents a list of common tasks that you can perform via the MAAS CLI. See [MAAS CLI](/t/maas-cli/802) for instructions to help get you started with the CLI.
+This page presents a list of many common tasks that you can perform via the MAAS CLI. See [MAAS CLI](/t/maas-cli/802) for instructions to help get you started with the CLI.
 
 #### Quick questions you may have:
 

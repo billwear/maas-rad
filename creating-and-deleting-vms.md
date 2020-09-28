@@ -82,7 +82,7 @@
 |Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
  snap-2-9-ui -->
 
-If you have created a VM host, you will want to create and delete virtual machines (VMs); this article explains how to do so.
+If you have already created a VM host, you will want to create and delete virtual machines (VMs); this article explains how to do so.
 
 #### Quick questions you may have:
 

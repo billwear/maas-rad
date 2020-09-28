@@ -492,6 +492,12 @@ pull_list = [
     3307,
     3309,
     3311,
+    3316,
+    3293,
+    3344,
+    3347,
+    3351,
+    3352,
 ]
 
 dc_open = []
@@ -586,7 +592,7 @@ for x in pull_list:
         topic_attr.append(
             "["
             + str(x)
-            + "](https:/discourse.maas.io/t/"
+            + "](https://discourse.maas.io/t/"
             + topic_slug
             + "/"
             + str(x)
@@ -606,7 +612,7 @@ for x in pull_list:
         topic_attr.append(
             "["
             + str(x)
-            + "](https:/discourse.maas.io/t/"
+            + "](https://discourse.maas.io/t/"
             + topic_slug
             + "/"
             + str(x)
@@ -624,7 +630,7 @@ for x in pull_list:
     topic_attr.append(
         "["
         + str(x)
-        + "](https:/discourse.maas.io/t/"
+        + "](https://discourse.maas.io/t/"
         + topic_slug
         + "/"
         + str(x)
@@ -637,7 +643,7 @@ for x in pull_list:
     dc_open.append(topic_attr)
 
 # open the discourse statistics file
-fc = open("discourse-statistics-1515-.md", "w")
+fc = open("discourse-statistics-1515.md", "w")
 
 # print the current time
 now = datetime.today()

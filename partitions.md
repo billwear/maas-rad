@@ -119,7 +119,7 @@ Machine-readable output follows:
 
 To view the metadata for a specific partition on a block device, rather than all partitions, use the singular 'partition' API call with an endpoint:
 
-``` basg
+``` bash
 maas admin partition read <node-id> 10 9
 ```
 

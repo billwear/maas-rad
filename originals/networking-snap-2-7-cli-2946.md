@@ -90,7 +90,7 @@ To access the main networking view visit the 'Subnets' page:
 
 Due to the nature of this example, we re-use elements like fabrics, VLANs, subnets, and spaces.  MAAS can automatically detect these elements -- here there are two fabrics, one VLAN, five subnets, and two spaces -- but if MAAS doesn't find them, they can be added manually using the 'Add' button.
 
-This main view can also be filtered either by fabrics or by spaces through the use of the 'Group by' dropdown.
+This main view can also be filtered either by fabrics or by spaces through the use of the 'Group by' drop-down.
 
 <!-- deb-2-7-cli
 Fabrics, VLANs, and spaces do not require much configuration beyond names and descriptions. You can change the MTU for a VLAN, as well as [enable DHCP](/t/managing-dhcp/2904#heading--enabling-dhcp) (see 'Take action' button).  None of these options requires detailed instruction. A subnet, on the other hand, provides a number of configuration options relevant to the day-to-day operation of MAAS.

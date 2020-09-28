@@ -80,7 +80,7 @@
 |Packages|[CLI](/t/vm-host-storage-pools-deb-2-7-cli/3228) ~ [UI](/t/vm-host-storage-pools-deb-2-7-ui/3229)|[CLI](/t/vm-host-storage-pools-deb-2-8-cli/3230) ~ [UI](/t/vm-host-storage-pools-deb-2-8-ui/3231)|[CLI](/t/vm-host-storage-pools-deb-2-9-cli/3232) ~ [UI](/t/vm-host-storage-pools-deb-2-9-ui/3233)|
  snap-2-9-ui -->
 
-"Storage pools” are storage resources managed by a VM host. A storage pool is a given amount of storage set aside for use by VMs. A pool can be organized into storage volumes, assigned to VMs as individual block devices. More information is available for both [libvirt](https://libvirt.org/storage.html) and [LXD](https://lxd.readthedocs.io/en/latest/storage/) storage pools.
+"Storage pools” are storage resources managed by a VM host. A storage pool is a given amount of storage set aside for use by VMs. A pool can be organised into storage volumes, assigned to VMs as individual block devices. More information is available for both [libvirt](https://libvirt.org/storage.html) and [LXD](https://lxd.readthedocs.io/en/latest/storage/) storage pools.
 
 [note]
 For the Beta version of LXD VM hosts, each VM can be assigned a single block device from the storage pool.

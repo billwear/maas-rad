@@ -1087,7 +1087,7 @@ originals/troubleshooting-837.md: troubleshooting.md
 originals/cli-commissioning-and-hardware-testing-scripts-832.md: cli-commissioning-and-hardware-testing-scripts.md
 	chmod 644 originals/*
 	cp cli-commissioning-and-hardware-testing-scripts.md cli-commissioning-and-hardware-testing-scripts-832.md
-	xpub push discourse  cli-commissioning-and-hardware-testing-scripts-832.mdd
+	xpub push discourse cli-commissioning-and-hardware-testing-scripts-832.md
 	xpub pull discourse 832 832
 	cp -p cli-commissioning-and-hardware-testing-scripts-832.md originals
 	rm cli-commissioning-and-hardware-testing-scripts-832.md

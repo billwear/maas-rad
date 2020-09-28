@@ -266,7 +266,7 @@ snap-2-8-ui -->
 
 - [What's new in 2.8](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
 
-<!-- deb-2-7-cli deb-2-7-ui snap-2-7-cli snap-2-7-ui
+<!-- deb-2-7-cli deb-2-7-ui snap-2-7-cli snap-2-7-uil
 <h2 id="heading--whats-new">New version of MAAS</h2>
 
 - [What's new in 2.7](https://discourse.maas.io/t/whats-new-in-maas-2-7/1306)
