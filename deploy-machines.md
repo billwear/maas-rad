@@ -248,15 +248,15 @@ The action remains useful in terms of reserving a machine for later use. To acqu
 <!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
 To acquire/allocate a node with the web UI, select a machine which is in the "Ready" state, and drop down the "Take action" menu:
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/1348412f3e5c2dfc334e073da5d4c804785a7ac4.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/1348412f3e5c2dfc334e073da5d4c804785a7ac4.jpeg"></a>
+<a href="https://discourse.maas.io/uploads/default/original/1X/3724346e052c865f4e865d1caf2778b115f0798f.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/3724346e052c865f4e865d1caf2778b115f0798f.jpeg"></a>
 
 Select "Acquire" from the drop-down menu, which will bring you to a confirmation screen:
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/d4151b1acabb507848a80cd90a3d17f340a7c3f2.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/d4151b1acabb507848a80cd90a3d17f340a7c3f2.jpeg"></a>
+<a href="https://discourse.maas.io/uploads/default/original/1X/a0ece8bf58c03db3c89ad71afcaeb9101bd34e24.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a0ece8bf58c03db3c89ad71afcaeb9101bd34e24.jpeg"></a>
 
 MAAS will acquire the selected machine; you can now find it in the list of "Allocated" machines:
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/34c1237a8de045ac0befce3f809ab36cb1ba0cb8.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/34c1237a8de045ac0befce3f809ab36cb1ba0cb8.jpeg"></a>
+<a href="https://discourse.maas.io/uploads/default/original/1X/a2bdb8b7b7c5705daee14bdea5caed223537917d.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a2bdb8b7b7c5705daee14bdea5caed223537917d.jpeg"></a>
 snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
 
 <!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli

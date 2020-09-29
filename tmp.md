@@ -1,261 +1,442 @@
 <!-- deb-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
-|Packages|CLI ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|CLI ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
-|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ UI|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ UI|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
-|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|CLI ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|CLI ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
-|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ UI|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ UI|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
-|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|CLI ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|CLI ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
-|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ UI|
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ UI|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|CLI ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
-|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+|Snap|CLI ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ UI|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
-|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ UI|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
  snap-2-7-ui -->
 
+<!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|CLI ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
-|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|CLI ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
+ snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ UI|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
-|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ UI|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|CLI ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
-|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|CLI ~ [UI](/t/deploy-machines-snap-2-9-ui/2603)|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
  snap-2-9-cli -->
 
-<!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ UI|
-|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
- snap-2-9-ui -->
+|Snap|[CLI](/t/deploy-machines-snap-2-7-cli/2598) ~ [UI](/t/deploy-machines-snap-2-7-ui/2599)|[CLI](/t/deploy-machines-snap-2-8-cli/2600) ~ [UI](/t/deploy-machines-snap-2-8-ui/2601)|[CLI](/t/deploy-machines-snap-2-9-cli/2602) ~ UI|
+|Packages|[CLI](/t/deploy-machines-deb-2-7-cli/2604) ~ [UI](/t/deploy-machines-deb-2-7-ui/2605)|[CLI](/t/deploy-machines-deb-2-8-cli/2606) ~ [UI](/t/deploy-machines-deb-2-8-ui/2607)|[CLI](/t/deploy-machines-deb-2-9-cli/2608) ~ [UI](/t/deploy-machines-deb-2-9-ui/2609)|
 
-If you have already created a VM host, you will want to create and delete virtual machines (VMs); this article explains how to do so.
+<!-- deb-2-7-cli
+Once a machine has been commissioned (see [Commission machines](/t/commission-machines/2472)) the next logical step is to deploy it. Deploying a machine means, effectively, to install an operating system on it.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+Once a machine has been commissioned (see [Commission machines](/t/commission-machines/2473)) the next logical step is to deploy it. Deploying a machine means, effectively, to install an operating system on it.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+Once a machine has been commissioned (see [Commission machines](/t/commission-machines/2474)) the next logical step is to deploy it. Deploying a machine means, effectively, to install an operating system on it.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+Once a machine has been commissioned (see [Commission machines](/t/commission-machines/2475)) the next logical step is to deploy it. Deploying a machine means, effectively, to install an operating system on it.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+Once a machine has been commissioned (see [Commission machines](/t/commission-machines/2476)) the next logical step is to deploy it. Deploying a machine means, effectively, to install an operating system on it.
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+Once a machine has been commissioned (see [Commission machines](/t/commission-machines/2477)) the next logical step is to deploy it. Deploying a machine means, effectively, to install an operating system on it.
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+Once a machine has been commissioned (see [Commission machines](/t/commission-machines/2466)) the next logical step is to deploy it. Deploying a machine means, effectively, to install an operating system on it.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+Once a machine has been commissioned (see [Commission machines](/t/commission-machines/2467)) the next logical step is to deploy it. Deploying a machine means, effectively, to install an operating system on it.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+Once a machine has been commissioned (see [Commission machines](/t/commission-machines/2468)) the next logical step is to deploy it. Deploying a machine means, effectively, to install an operating system on it.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+Once a machine has been commissioned (see [Commission machines](/t/commission-machines/2469)) the next logical step is to deploy it. Deploying a machine means, effectively, to install an operating system on it.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+Once a machine has been commissioned (see [Commission machines](/t/commission-machines/2470)) the next logical step is to deploy it. Deploying a machine means, effectively, to install an operating system on it.
+ snap-2-9-cli -->
+
+Once a machine has been commissioned (see [Commission machines](/t/commission-machines/2471)) the next logical step is to deploy it. Deploying a machine means, effectively, to install an operating system on it.
 
 #### Quick questions you may have:
 
-<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
-* [How do I add a VM?](#heading--add-vm-from-ui)
-* [How do I delete a VM?](#heading--delete-a-machine)
+* [How and why do I acquire a machine?](#heading--acquire)
+* [How do I deploy a machine?](#heading--deploy)
 
-<h2 id="heading--add-vm-from-ui">Adding a VM from the Web UI</h2>
+The agent that triggers deployment may vary. For instance, if the machines are destined to run complex, inter-related services that scale up or down frequently, like a "cloud" resource, then [Juju](https://jujucharms.com/docs/stable/about-juju) is the recommended deployment agent. Juju will also install and configure services on the deployed machines. If you want to use MAAS to install a base operating system and work on the machines manually, then you can deploy a machine directly with MAAS.
 
-While on VM host's details view, select 'Compose' from the 'Take action' drop-down menu to compose a machine.
+<!-- deb-2-7-cli
+Machines deployed with MAAS will also be ready to accept connections via SSH, to the 'ubuntu' user account.  This connection assumes that you have imported an SSH key has to your MAAS account. This is explained in [SSH keys](/t/user-accounts/3204#heading--ssh-keys).
+ deb-2-7-cli -->
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/937726bb839eefb28e9297e8f97bd48556c1014c.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/937726bb839eefb28e9297e8f97bd48556c1014c.jpeg"></a> 
+<!-- deb-2-7-ui
+Machines deployed with MAAS will also be ready to accept connections via SSH, to the 'ubuntu' user account.  This connection assumes that you have imported an SSH key has to your MAAS account. This is explained in [SSH keys](/t/user-accounts/3205#heading--ssh-keys).
+ deb-2-7-ui -->
 
-You can choose which storage pool to use from a drop-down list. 
+<!-- deb-2-8-cli
+Machines deployed with MAAS will also be ready to accept connections via SSH, to the 'ubuntu' user account.  This connection assumes that you have imported an SSH key has to your MAAS account. This is explained in [SSH keys](/t/user-accounts/3206#heading--ssh-keys).
+ deb-2-8-cli -->
 
-Click the 'Compose machine' button when you're finished. MAAS will present the VM host detail view. In a few moments, your new machine will be auto-commissioned. The 'Machines' page will reflect this as well.
+<!-- deb-2-8-ui
+Machines deployed with MAAS will also be ready to accept connections via SSH, to the 'ubuntu' user account.  This connection assumes that you have imported an SSH key has to your MAAS account. This is explained in [SSH keys](/t/user-accounts/3207#heading--ssh-keys).
+ deb-2-8-ui -->
 
-MAAS will deduct the new machine's resources from the VM host's resources:
+<!-- deb-2-9-cli
+Machines deployed with MAAS will also be ready to accept connections via SSH, to the 'ubuntu' user account.  This connection assumes that you have imported an SSH key has to your MAAS account. This is explained in [SSH keys](/t/user-accounts/3208#heading--ssh-keys).
+ deb-2-9-cli -->
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/3b621ab0e7b4f6a86963d2b7c50b677b815956ab.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/3b621ab0e7b4f6a86963d2b7c50b677b815956ab.jpeg"></a> 
+<!-- deb-2-9-ui
+Machines deployed with MAAS will also be ready to accept connections via SSH, to the 'ubuntu' user account.  This connection assumes that you have imported an SSH key has to your MAAS account. This is explained in [SSH keys](/t/user-accounts/3209#heading--ssh-keys).
+ deb-2-9-ui -->
 
-<h2 id="heading--delete-a-machine">Deleting a VM from the Web UI</h2>
+<!-- snap-2-7-cli
+Machines deployed with MAAS will also be ready to accept connections via SSH, to the 'ubuntu' user account.  This connection assumes that you have imported an SSH key has to your MAAS account. This is explained in [SSH keys](/t/user-accounts/3198#heading--ssh-keys).
+ snap-2-7-cli -->
 
-To delete a VM, delete it as you would any other MAAS machine. Select the desired machine from the list of machines and select 'Delete' from the 'Take Action' menu.
+<!-- snap-2-7-ui
+Machines deployed with MAAS will also be ready to accept connections via SSH, to the 'ubuntu' user account.  This connection assumes that you have imported an SSH key has to your MAAS account. This is explained in [SSH keys](/t/user-accounts/3199#heading--ssh-keys).
+ snap-2-7-ui -->
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/34d3f5fcd8a86bfa827bab5383209ea9ca117f50.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/34d3f5fcd8a86bfa827bab5383209ea9ca117f50.jpeg"></a> 
-snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
+<!-- snap-2-8-cli
+Machines deployed with MAAS will also be ready to accept connections via SSH, to the 'ubuntu' user account.  This connection assumes that you have imported an SSH key has to your MAAS account. This is explained in [SSH keys](/t/user-accounts/3200#heading--ssh-keys).
+ snap-2-8-cli -->
 
-* [How do I add a VM?](#heading--adding-a-vm-from-the-cli)
-* [How do I set resources while adding a VM?](#heading--set-resources)
-* [How do I set the architecture while adding a VM?](#heading--architecture)
-* [How do I set storage while adding a VM?](#heading--storage)
-* [How do I specify interfaces while adding a VM?](#heading--interfaces)
-* [How do I find a VM host ID?](#heading--find-vm-host-ids)
-* [How do I delete a VM?](#heading--delete-a-vm)
+<!-- snap-2-8-ui
+Machines deployed with MAAS will also be ready to accept connections via SSH, to the 'ubuntu' user account.  This connection assumes that you have imported an SSH key has to your MAAS account. This is explained in [SSH keys](/t/user-accounts/3201#heading--ssh-keys).
+ snap-2-8-ui -->
 
-<h2 id="heading--adding-a-vm-from-the-cli">Adding a VM from the CLI</h2>
+<!-- snap-2-9-cli
+Machines deployed with MAAS will also be ready to accept connections via SSH, to the 'ubuntu' user account.  This connection assumes that you have imported an SSH key has to your MAAS account. This is explained in [SSH keys](/t/user-accounts/3202#heading--ssh-keys).
+ snap-2-9-cli -->
 
-To compose a basic VM:
-
-    maas $PROFILE vm-host compose $VM_HOST_ID
-
-Example output for default composing:
-
-    {
-        "system_id": "73yxmc",
-        "resource_uri": "/MAAS/api/2.0/machines/73yxmc/"
-    }
-
-<h3 id="heading--set-resources">Set resources while adding a VM</h3>
-
-Compose with resources specified:
-
-    maas $PROFILE vm-host compose $VM_HOST_ID $RESOURCES
-
-Where $RESOURCES is a space-separated list of constraints:
-
-* *cores=* requested cores
-* *cpu_speed=* requested minimum cpu speed in MHz
-* *memory=* requested memory in MB
-* *architecture=* See [Architecture](#heading--architecture) below 
-* *storage=* See [Storage](#heading--storage) below
-* *interfaces=* See [Interfaces](#heading--interfaces) below
-
-<h3 id="heading--architecture">Setting the architecture while adding a VM</h3>
-
-To list available architectures:
-
-    maas $PROFILE boot-resources read
-
-Then, for example:
-
-    maas $PROFILE vm-host compose $VM_HOST_ID \
-        cores=40 cpu_speed=2000 memory=7812 architecture="amd64/generic"
-
-<h3 id="heading--storage">Setting storage parameters while adding a VM</h3>
-
-Storage parameters look like this:
-
-    storage="<label>:<size in GB>(<storage pool name>),<label>:<size in GB>(<storage pool name>)"
-
-For example, to compose a machine with the following disks:
-
--   32 GB disk from storage pool `pool1`
--   64 GB disk from storage pool `pool2`
-
-where we want the first disk to be a bootable root partition `/` and the second to be a home directory.
-
-First, create the VM:
-
-    maas $PROFILE vm-host compose $VM_HOST_ID "storage=mylabel:32(pool1),mylabel:64(pool2)"
-
-Note that the labels, here `mylabel`, are an ephemeral convenience that you might find useful in scripting MAAS actions.
-
-MAAS will create a VM with 2 disks, `/dev/vda` (32 GB) and `/dev/vdb` (64 GB). After MAAS enlists, commissions and acquires the machine, you can edit the disks before deploying to suit your needs. For example, we'll set a boot, root, and home partition.
-
-We'll start by deleting the `/` partition MAAS created because we want a separate `/boot` partition to demonstrate how yo.
-
-    maas admin partition delete $VM_HOST_ID $DISK1_ID $PARTITION_ID
+Machines deployed with MAAS will also be ready to accept connections via SSH, to the 'ubuntu' user account.  This connection assumes that you have imported an SSH key has to your MAAS account. This is explained in [SSH keys](/t/user-accounts/3203#heading--ssh-keys).
 
 [note]
-To find `$DISK1_ID` and `$PARTITION_ID`, use `maas admin machine read $VM_HOST_ID`.
+Juju adds SSH keys to machines under its control.
 [/note]
 
-Now, create a boot partition (~512MB):
+<!-- deb-2-7-cli
+MAAS also supports machine customisation with a process called "preseeding." For more information about customising machines, see [Custom machine setup](/t/custom-machine-setup/2592).
+ deb-2-7-cli -->
 
-    maas admin partitions create $VM_HOST_ID $DISK1_ID size=512000000 bootable=True
+<!-- deb-2-7-ui
+MAAS also supports machine customisation with a process called "preseeding." For more information about customising machines, see [Custom machine setup](/t/custom-machine-setup/2593).
+ deb-2-7-ui -->
 
-We'll use the remaining space for the root partition, so create another without specifying size:
+<!-- deb-2-8-cli
+MAAS also supports machine customisation with a process called "preseeding." For more information about customising machines, see [Custom machine setup](/t/custom-machine-setup/2594).
+ deb-2-8-cli -->
 
-    maas admin partitions create $VM_HOST_ID $DISK1_ID
+<!-- deb-2-8-ui
+MAAS also supports machine customisation with a process called "preseeding." For more information about customising machines, see [Custom machine setup](/t/custom-machine-setup/2595).
+ deb-2-8-ui -->
 
-Finally, create a partition to use as the home directory. Here we'll use the entire space:
+<!-- deb-2-9-cli
+MAAS also supports machine customisation with a process called "preseeding." For more information about customising machines, see [Custom machine setup](/t/custom-machine-setup/2596).
+ deb-2-9-cli -->
 
-    maas admin partitions create $VM_HOST_ID $DISK2_ID
+<!-- deb-2-9-ui
+MAAS also supports machine customisation with a process called "preseeding." For more information about customising machines, see [Custom machine setup](/t/custom-machine-setup/2597).
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+MAAS also supports machine customisation with a process called "preseeding." For more information about customising machines, see [Custom machine setup](/t/custom-machine-setup/2586).
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+MAAS also supports machine customisation with a process called "preseeding." For more information about customising machines, see [Custom machine setup](/t/custom-machine-setup/2587).
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+MAAS also supports machine customisation with a process called "preseeding." For more information about customising machines, see [Custom machine setup](/t/custom-machine-setup/2588).
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+MAAS also supports machine customisation with a process called "preseeding." For more information about customising machines, see [Custom machine setup](/t/custom-machine-setup/2589).
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+MAAS also supports machine customisation with a process called "preseeding." For more information about customising machines, see [Custom machine setup](/t/custom-machine-setup/2590).
+ snap-2-9-cli -->
+
+MAAS also supports machine customisation with a process called "preseeding." For more information about customising machines, see [Custom machine setup](/t/custom-machine-setup/2591).
+
+<h2 id="heading--acquire">Acquire</h2>
+
+Acquiring ("allocating") a machine reserves the machine for the exclusive use of the acquiring process. The machine is no longer available to any other process, including another MAAS instance, or a process such as [Juju](https://jujucharms.com/docs/stable/about-juju).
+
+Before deploying a machine, MAAS must acquire it (status 'Allocated'). When deploying from the web UI, this action is performed automatically (and invisibly).
+
+The action remains useful in terms of reserving a machine for later use. To acquire a machine explicitly select the machine and apply the 'Acquire' action.
+
+To acquire/allocate a node with the web UI, select a machine which is in the "Ready" state, and drop down the "Take action" menu:
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/3724346e052c865f4e865d1caf2778b115f0798f.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/3724346e052c865f4e865d1caf2778b115f0798f.jpeg"></a>
+
+Select "Acquire" from the drop-down menu, which will bring you to a confirmation screen:
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/a0ece8bf58c03db3c89ad71afcaeb9101bd34e24.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a0ece8bf58c03db3c89ad71afcaeb9101bd34e24.jpeg"></a>
+
+MAAS will acquire the selected machine; you can now find it in the list of "Allocated" machines:
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/a2bdb8b7b7c5705daee14bdea5caed223537917d.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a2bdb8b7b7c5705daee14bdea5caed223537917d.jpeg"></a>
+
+<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
+
+To acquire/allocate a random node:
+
+``` bash
+maas $PROFILE machines allocate
+```
+
+To acquire/allocate a specific node:
+
+``` bash
+maas $PROFILE machines allocate system_id=$SYSTEM_ID
+```
+
+snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
 
 [note]
-To find `$DISK2_ID`, use `maas admin machine read $VM_HOST_ID`.
+To acquire a node, it must have a status of 'Ready'.
 [/note]
 
-Now, format the partitions. This requires three commands:
+<h2 id="heading--deploy">Deploy</h2>
 
-    maas admin partition format $VM_HOST_ID $DISK1_ID $BOOT_PARTITION_ID fstype=ext2
-    maas admin partition format $VM_HOST_ID $DISK1_ID $ROOT_PARTITION_ID fstype=ext4
-    maas admin partition format $VM_HOST_ID $DISK2_ID $HOME_PARTITION_ID fstype=ext4
+To deploy, you must configure the underlying machine to netboot.  Such a machine will undergo the following process:
+
+1.  DHCP server is contacted
+2.  kernel and initrd are received over TFTP
+3.  machine boots
+4.  initrd mounts a Squashfs image ephemerally over HTTP
+5.  cloud-init triggers deployment process
+    1.  curtin installation script runs
+    2.  Squashfs image (same as above) is placed on disk
+
+<!-- deb-2-7-cli
+[note]
+The curtin installer uses an image-based method and is now the only installer used by MAAS. Although the older debian-installer method has been removed, curtin continues to support preseed files. For more information about customising machines see [Custom machine setup](/t/custom-machine-setup/2592).
+[/note]
+
+Before deploying, you should:
+
+-   review and possibly set the [Ubuntu kernels](/t/ubuntu-kernels/3180) and the [Kernel boot options](/t/kernel-boot-options/2784) that will get used by deployed machines.
+-   ensure any pertinent SSH keys are imported (see [SSH keys](/t/user-accounts/3204#heading--ssh-keys)) to MAAS so it can connect to deployed machines.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+[note]
+The curtin installer uses an image-based method and is now the only installer used by MAAS. Although the older debian-installer method has been removed, curtin continues to support preseed files. For more information about customising machines see [Custom machine setup](/t/custom-machine-setup/2593).
+[/note]
+
+Before deploying, you should:
+
+-   review and possibly set the [Ubuntu kernels](/t/ubuntu-kernels/3181) and the [Kernel boot options](/t/kernel-boot-options/2785) that will get used by deployed machines.
+-   ensure any pertinent SSH keys are imported (see [SSH keys](/t/user-accounts/3205#heading--ssh-keys)) to MAAS so it can connect to deployed machines.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+[note]
+The curtin installer uses an image-based method and is now the only installer used by MAAS. Although the older debian-installer method has been removed, curtin continues to support preseed files. For more information about customising machines see [Custom machine setup](/t/custom-machine-setup/2594).
+[/note]
+
+Before deploying, you should:
+
+-   review and possibly set the [Ubuntu kernels](/t/ubuntu-kernels/3182) and the [Kernel boot options](/t/kernel-boot-options/2786) that will get used by deployed machines.
+-   ensure any pertinent SSH keys are imported (see [SSH keys](/t/user-accounts/3206#heading--ssh-keys)) to MAAS so it can connect to deployed machines.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+[note]
+The curtin installer uses an image-based method and is now the only installer used by MAAS. Although the older debian-installer method has been removed, curtin continues to support preseed files. For more information about customising machines see [Custom machine setup](/t/custom-machine-setup/2595).
+[/note]
+
+Before deploying, you should:
+
+-   review and possibly set the [Ubuntu kernels](/t/ubuntu-kernels/3183) and the [Kernel boot options](/t/kernel-boot-options/2787) that will get used by deployed machines.
+-   ensure any pertinent SSH keys are imported (see [SSH keys](/t/user-accounts/3207#heading--ssh-keys)) to MAAS so it can connect to deployed machines.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+[note]
+The curtin installer uses an image-based method and is now the only installer used by MAAS. Although the older debian-installer method has been removed, curtin continues to support preseed files. For more information about customising machines see [Custom machine setup](/t/custom-machine-setup/2596).
+[/note]
+
+Before deploying, you should:
+
+-   review and possibly set the [Ubuntu kernels](/t/ubuntu-kernels/3184) and the [Kernel boot options](/t/kernel-boot-options/2788) that will get used by deployed machines.
+-   ensure any pertinent SSH keys are imported (see [SSH keys](/t/user-accounts/3208#heading--ssh-keys)) to MAAS so it can connect to deployed machines.
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+[note]
+The curtin installer uses an image-based method and is now the only installer used by MAAS. Although the older debian-installer method has been removed, curtin continues to support preseed files. For more information about customising machines see [Custom machine setup](/t/custom-machine-setup/2597).
+[/note]
+
+Before deploying, you should:
+
+-   review and possibly set the [Ubuntu kernels](/t/ubuntu-kernels/3185) and the [Kernel boot options](/t/kernel-boot-options/2789) that will get used by deployed machines.
+-   ensure any pertinent SSH keys are imported (see [SSH keys](/t/user-accounts/3209#heading--ssh-keys)) to MAAS so it can connect to deployed machines.
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+[note]
+The curtin installer uses an image-based method and is now the only installer used by MAAS. Although the older debian-installer method has been removed, curtin continues to support preseed files. For more information about customising machines see [Custom machine setup](/t/custom-machine-setup/2586).
+[/note]
+
+Before deploying, you should:
+
+-   review and possibly set the [Ubuntu kernels](/t/ubuntu-kernels/3174) and the [Kernel boot options](/t/kernel-boot-options/2778) that will get used by deployed machines.
+-   ensure any pertinent SSH keys are imported (see [SSH keys](/t/user-accounts/3198#heading--ssh-keys)) to MAAS so it can connect to deployed machines.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+[note]
+The curtin installer uses an image-based method and is now the only installer used by MAAS. Although the older debian-installer method has been removed, curtin continues to support preseed files. For more information about customising machines see [Custom machine setup](/t/custom-machine-setup/2587).
+[/note]
+
+Before deploying, you should:
+
+-   review and possibly set the [Ubuntu kernels](/t/ubuntu-kernels/3175) and the [Kernel boot options](/t/kernel-boot-options/2779) that will get used by deployed machines.
+-   ensure any pertinent SSH keys are imported (see [SSH keys](/t/user-accounts/3199#heading--ssh-keys)) to MAAS so it can connect to deployed machines.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+[note]
+The curtin installer uses an image-based method and is now the only installer used by MAAS. Although the older debian-installer method has been removed, curtin continues to support preseed files. For more information about customising machines see [Custom machine setup](/t/custom-machine-setup/2588).
+[/note]
+
+Before deploying, you should:
+
+-   review and possibly set the [Ubuntu kernels](/t/ubuntu-kernels/3176) and the [Kernel boot options](/t/kernel-boot-options/2780) that will get used by deployed machines.
+-   ensure any pertinent SSH keys are imported (see [SSH keys](/t/user-accounts/3200#heading--ssh-keys)) to MAAS so it can connect to deployed machines.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+[note]
+The curtin installer uses an image-based method and is now the only installer used by MAAS. Although the older debian-installer method has been removed, curtin continues to support preseed files. For more information about customising machines see [Custom machine setup](/t/custom-machine-setup/2589).
+[/note]
+
+Before deploying, you should:
+
+-   review and possibly set the [Ubuntu kernels](/t/ubuntu-kernels/3177) and the [Kernel boot options](/t/kernel-boot-options/2781) that will get used by deployed machines.
+-   ensure any pertinent SSH keys are imported (see [SSH keys](/t/user-accounts/3201#heading--ssh-keys)) to MAAS so it can connect to deployed machines.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+[note]
+The curtin installer uses an image-based method and is now the only installer used by MAAS. Although the older debian-installer method has been removed, curtin continues to support preseed files. For more information about customising machines see [Custom machine setup](/t/custom-machine-setup/2590).
+[/note]
+
+Before deploying, you should:
+
+-   review and possibly set the [Ubuntu kernels](/t/ubuntu-kernels/3178) and the [Kernel boot options](/t/kernel-boot-options/2782) that will get used by deployed machines.
+-   ensure any pertinent SSH keys are imported (see [SSH keys](/t/user-accounts/3202#heading--ssh-keys)) to MAAS so it can connect to deployed machines.
+ snap-2-9-cli -->
 
 [note]
-To find the partition IDs, use `maas admin partitions read $VM_HOST_ID $DISK1_ID` and `maas admin partitions read $VM_HOST_ID $DISK2_ID`
+The curtin installer uses an image-based method and is now the only installer used by MAAS. Although the older debian-installer method has been removed, curtin continues to support preseed files. For more information about customising machines see [Custom machine setup](/t/custom-machine-setup/2591).
 [/note]
 
-Before you can deploy the machine with our partition layout, you need to mount the new partitions. Here, we'll do that in three commands:
+Before deploying, you should:
 
-    maas admin partition mount $SYSTEM_ID $DISK1_ID $BOOT_PARTITION_ID     "mount_point=/boot"
-    maas admin partition mount $SYSTEM_ID $DISK1_ID $ROOT_PARTITION_ID "mount_point=/"
-    maas admin partition mount $SYSTEM_ID $DISK2_ID $HOME_PARTITION_ID "mount_point=/home"
+-   review and possibly set the [Ubuntu kernels](/t/ubuntu-kernels/3179) and the [Kernel boot options](/t/kernel-boot-options/2783) that will get used by deployed machines.
+-   ensure any pertinent SSH keys are imported (see [SSH keys](/t/user-accounts/3203#heading--ssh-keys)) to MAAS so it can connect to deployed machines.
 
-Finally, we deploy the machine. MAAS will use the partitions as we have defined them, similar to a normal Ubuntu desktop install:
+To deploy directly from MAAS, select one or more machine(s) and press the 'Deploy' button.
 
-    maas admin machine deploy $SYSTEM_ID
+<a href="https://assets.ubuntu.com/v1/56958753-nodes-deploy__2.4_deploy.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/56958753-nodes-deploy__2.4_deploy.png"></a>
 
-<h3 id="heading--interfaces">Specifying interfaces while adding a VM</h3>
+You then have the option of deviating from the default OS, release, and kernel. When ready, press 'Deploy X machine(s)' (where 'X' is the number of machines selected).
 
-Using the `interfaces` constraint, you can compose virtual machines with interfaces, allowing the selection of VM host NICs.
+<a href="https://assets.ubuntu.com/v1/d65b9884-nodes-deploy__2.6-deploy-confirm.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/d65b9884-nodes-deploy__2.6-deploy-confirm.png"></a>
 
-If you don't specify an `interfaces` constraint, MAAS maintains backward compatibility by checking for a `maas` network, then a `default` network to which to connect the virtual machine.
+While a machine is deploying its status will change to Deploying to 'OS', where 'OS' is the name of the OS being deployed (e.g. 'Deploying to Ubuntu 16.04 LTS').
 
-If you specify an `interfaces` constraint, MAAS creates a `bridge` or `macvlan` attachment to the networks that match the given constraint. MAAS prefers `bridge` interface attachments when possible since this typically results in successful communication.
+Once a machine has finished deploying its status will change to just the name of the OS (e.g. 'Ubuntu 18.04 LTS').
 
-Consider the following interfaces constraint:
+<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
+To deploy a node:
 
-    interfaces=eth0:space=maas,eth1:space=storage
+``` bash
+maas $PROFILE machine deploy $SYSTEM_ID
+```
 
-Assuming you deploy the VM host on a machine or controller with access to the `maas` and `storage` [spaces](/t/concepts-and-terms/785#heading--spaces), MAAS will create an `eth0` interface bound to the `maas` space and an `eth1` interface bound to the `storage` space.
+To deploy a node as a KVM host:
 
-Another example tells MAAS to assign unallocated IP addresses:
+``` bash
+maas $PROFILE machine deploy $SYSTEM_ID install_kvm=True
+```
 
-    interfaces=eth0:ip=172.16.99.42
-
-MAAS automatically converts the `ip` constraint to a VLAN constraint (matching the VLAN which corresponds to the subnet can be found -- e.g. `172.16.99.0/24`.) and assigns the IP address to the newly-composed machine upon allocation.
-
-See the Machines [MAAS API documentation](https://maas.io/docs/api#machines) for a list of all constraint keys.
-
-<h3 id="heading--find-vm-host-ids">Find VM host IDs</h3>
-
-Here's a simple way to find a VM host's ID by name using `jq`:
-
-    maas $PROFILE vm-hosts read | jq '.[] | select (.name=="MyVMHost") | .name, .id'
-
-Example output:
-
-    "MyVMHost"
-    1
-
-<h2 id="heading--delete-a-vm">Deleting a VM with the CLI</h2>
-
-    maas $PROFILE machine delete $SYSTEM_ID
-
-After you delete a machine, its resources will be available for other VMs.
+[note]
+To deploy with the CLI, the node must have a status of 'Allocated'. See 'Acquire a node' above.
+[/note]
+snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
