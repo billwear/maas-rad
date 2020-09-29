@@ -98,19 +98,15 @@ This article gives specific instructions about creating and managing IP ranges.
 
 To create a range with the web UI, choose the "Subnets" option across the top:
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/bc68a7d50eecf2a46ac6cdb74040936b285e4a2d.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/bc68a7d50eecf2a46ac6cdb74040936b285e4a2d.jpeg"></a>
+<a href=https://discourse.maas.io/uploads/default/original/1X/2bc3b241b917325dac57a42771a0f9cfeb411bde.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/2bc3b241b917325dac57a42771a0f9cfeb411bde.jpeg"></a>
 
 In the "SUBNET" column, choose the subnet for which you want to create an IP range(s):
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/b2fa0def50200fcde467235fcaeb4470fa50f63c.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/b2fa0def50200fcde467235fcaeb4470fa50f63c.jpeg"></a>
+<a href="https://discourse.maas.io/uploads/default/original/1X/051bf1e56a31c7e7dcb196b12ddf55435b3f0571.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/051bf1e56a31c7e7dcb196b12ddf55435b3f0571.jpeg"></a>
 
-Scroll down to "Reserved ranges" on the subnet screen:
+Scroll down to "Reserved ranges" on the subnet screen and click on the "Reserve range" drop-down:
 
-<a href="https://discourse.maas.io/uploads/default/original/1X/1e983cf98b9a1bf21f647ccb8a2f48b9e1722875.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/1e983cf98b9a1bf21f647ccb8a2f48b9e1722875.jpeg"></a>
-
-Click on the "Reserve range" drop-down:
-
-<a href="https://discourse.maas.io/uploads/default/original/1X/8064d9be2f992ea714487c67c4efb8ff3f4e1289.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/8064d9be2f992ea714487c67c4efb8ff3f4e1289.jpeg"></a>
+<a href="https://discourse.maas.io/uploads/default/original/1X/a76e24de7c65d3553f853bc2b6a96671d756651b.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a76e24de7c65d3553f853bc2b6a96671d756651b.jpeg"></a>
 
 
 <!-- deb-2-7-ui

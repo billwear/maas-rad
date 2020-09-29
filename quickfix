@@ -1,0 +1,13 @@
+#!/bin/bash
+cp backup.md originals/backup-deb-2-7-cli-2340.md
+cp backup.md originals/backup-deb-2-7-ui-2341.md
+cp backup.md originals/backup-deb-2-8-cli-2342.md
+cp backup.md originals/backup-deb-2-8-cli-2343.md
+cp backup.md originals/backup-deb-2-9-cli-2344.md
+cp backup.md originals/backup-deb-2-9-cli-2345.md
+cp backup.md originals/backup-snap-2-7-cli-2334.md
+cp backup.md originals/backup-snap-2-7-ui-2335.md
+cp backup.md originals/backup-snap-2-8-cli-2336.md
+cp backup.md originals/backup-snap-2-8-ui-2337.md
+cp backup.md originals/backup-snap-2-9-cli-2338.md
+cp backup.md originals/backup-snap-2-9-ui-2339.md

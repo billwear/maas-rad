@@ -54,12 +54,10 @@
 |Packages|[CLI](/t/prometheus-metrics-deb-2-7-cli/3024) ~ [UI](/t/prometheus-metrics-deb-2-7-ui/3025)|[CLI](/t/prometheus-metrics-deb-2-8-cli/3026) ~ [UI](/t/prometheus-metrics-deb-2-8-ui/3027)|[CLI](/t/prometheus-metrics-deb-2-9-cli/3028) ~ [UI](/t/prometheus-metrics-deb-2-9-ui/3029)|
  snap-2-7-ui -->
 
-<!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/prometheus-metrics-snap-2-7-cli/3018) ~ [UI](/t/prometheus-metrics-snap-2-7-ui/3019)|CLI ~ [UI](/t/prometheus-metrics-snap-2-8-ui/3021)|[CLI](/t/prometheus-metrics-snap-2-9-cli/3022) ~ [UI](/t/prometheus-metrics-snap-2-9-ui/3023)|
 |Packages|[CLI](/t/prometheus-metrics-deb-2-7-cli/3024) ~ [UI](/t/prometheus-metrics-deb-2-7-ui/3025)|[CLI](/t/prometheus-metrics-deb-2-8-cli/3026) ~ [UI](/t/prometheus-metrics-deb-2-8-ui/3027)|[CLI](/t/prometheus-metrics-deb-2-9-cli/3028) ~ [UI](/t/prometheus-metrics-deb-2-9-ui/3029)|
- snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
@@ -75,10 +73,12 @@
 |Packages|[CLI](/t/prometheus-metrics-deb-2-7-cli/3024) ~ [UI](/t/prometheus-metrics-deb-2-7-ui/3025)|[CLI](/t/prometheus-metrics-deb-2-8-cli/3026) ~ [UI](/t/prometheus-metrics-deb-2-8-ui/3027)|[CLI](/t/prometheus-metrics-deb-2-9-cli/3028) ~ [UI](/t/prometheus-metrics-deb-2-9-ui/3029)|
  snap-2-9-cli -->
 
+<!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/prometheus-metrics-snap-2-7-cli/3018) ~ [UI](/t/prometheus-metrics-snap-2-7-ui/3019)|[CLI](/t/prometheus-metrics-snap-2-8-cli/3020) ~ [UI](/t/prometheus-metrics-snap-2-8-ui/3021)|[CLI](/t/prometheus-metrics-snap-2-9-cli/3022) ~ UI|
 |Packages|[CLI](/t/prometheus-metrics-deb-2-7-cli/3024) ~ [UI](/t/prometheus-metrics-deb-2-7-ui/3025)|[CLI](/t/prometheus-metrics-deb-2-8-cli/3026) ~ [UI](/t/prometheus-metrics-deb-2-8-ui/3027)|[CLI](/t/prometheus-metrics-deb-2-9-cli/3028) ~ [UI](/t/prometheus-metrics-deb-2-9-ui/3029)|
+ snap-2-9-ui -->
 
 MAAS services can provide [Prometheus^](https://prometheus.io/) endpoints for collecting performance metrics.  These include:
 
