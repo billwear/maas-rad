@@ -1,86 +1,84 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/ip-ranges-snap-2-7-cli/2754) ~ [UI](/t/ip-ranges-snap-2-7-ui/2755)|[CLI](/t/ip-ranges-snap-2-8-cli/2756) ~ [UI](/t/ip-ranges-snap-2-8-ui/2757)|[CLI](/t/ip-ranges-snap-2-9-cli/2758) ~ [UI](/t/ip-ranges-snap-2-9-ui/2759)|
+|Packages|CLI ~ [UI](/t/ip-ranges-deb-2-7-ui/2761)|[CLI](/t/ip-ranges-deb-2-8-cli/2762) ~ [UI](/t/ip-ranges-deb-2-8-ui/2763)|[CLI](/t/ip-ranges-deb-2-9-cli/2764) ~ [UI](/t/ip-ranges-deb-2-9-ui/2765)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/ip-ranges-snap-2-7-cli/2754) ~ [UI](/t/ip-ranges-snap-2-7-ui/2755)|[CLI](/t/ip-ranges-snap-2-8-cli/2756) ~ [UI](/t/ip-ranges-snap-2-8-ui/2757)|[CLI](/t/ip-ranges-snap-2-9-cli/2758) ~ [UI](/t/ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](/t/ip-ranges-deb-2-7-cli/2760) ~ UI|[CLI](/t/ip-ranges-deb-2-8-cli/2762) ~ [UI](/t/ip-ranges-deb-2-8-ui/2763)|[CLI](/t/ip-ranges-deb-2-9-cli/2764) ~ [UI](/t/ip-ranges-deb-2-9-ui/2765)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/ip-ranges-snap-2-7-cli/2754) ~ [UI](/t/ip-ranges-snap-2-7-ui/2755)|[CLI](/t/ip-ranges-snap-2-8-cli/2756) ~ [UI](/t/ip-ranges-snap-2-8-ui/2757)|[CLI](/t/ip-ranges-snap-2-9-cli/2758) ~ [UI](/t/ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](/t/ip-ranges-deb-2-7-cli/2760) ~ [UI](/t/ip-ranges-deb-2-7-ui/2761)|CLI ~ [UI](/t/ip-ranges-deb-2-8-ui/2763)|[CLI](/t/ip-ranges-deb-2-9-cli/2764) ~ [UI](/t/ip-ranges-deb-2-9-ui/2765)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/ip-ranges-snap-2-7-cli/2754) ~ [UI](/t/ip-ranges-snap-2-7-ui/2755)|[CLI](/t/ip-ranges-snap-2-8-cli/2756) ~ [UI](/t/ip-ranges-snap-2-8-ui/2757)|[CLI](/t/ip-ranges-snap-2-9-cli/2758) ~ [UI](/t/ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](/t/ip-ranges-deb-2-7-cli/2760) ~ [UI](/t/ip-ranges-deb-2-7-ui/2761)|[CLI](/t/ip-ranges-deb-2-8-cli/2762) ~ UI|[CLI](/t/ip-ranges-deb-2-9-cli/2764) ~ [UI](/t/ip-ranges-deb-2-9-ui/2765)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/ip-ranges-snap-2-7-cli/2754) ~ [UI](/t/ip-ranges-snap-2-7-ui/2755)|[CLI](/t/ip-ranges-snap-2-8-cli/2756) ~ [UI](/t/ip-ranges-snap-2-8-ui/2757)|[CLI](/t/ip-ranges-snap-2-9-cli/2758) ~ [UI](/t/ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](/t/ip-ranges-deb-2-7-cli/2760) ~ [UI](/t/ip-ranges-deb-2-7-ui/2761)|[CLI](/t/ip-ranges-deb-2-8-cli/2762) ~ [UI](/t/ip-ranges-deb-2-8-ui/2763)|CLI ~ [UI](/t/ip-ranges-deb-2-9-ui/2765)|
+ deb-2-9-cli -->
 
-<!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/ip-ranges-snap-2-7-cli/2754) ~ [UI](/t/ip-ranges-snap-2-7-ui/2755)|[CLI](/t/ip-ranges-snap-2-8-cli/2756) ~ [UI](/t/ip-ranges-snap-2-8-ui/2757)|[CLI](/t/ip-ranges-snap-2-9-cli/2758) ~ [UI](/t/ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](/t/ip-ranges-deb-2-7-cli/2760) ~ [UI](/t/ip-ranges-deb-2-7-ui/2761)|[CLI](/t/ip-ranges-deb-2-8-cli/2762) ~ [UI](/t/ip-ranges-deb-2-8-ui/2763)|[CLI](/t/ip-ranges-deb-2-9-cli/2764) ~ UI|
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|CLI ~ [UI](/t/ip-ranges-snap-2-7-ui/2755)|[CLI](/t/ip-ranges-snap-2-8-cli/2756) ~ [UI](/t/ip-ranges-snap-2-8-ui/2757)|[CLI](/t/ip-ranges-snap-2-9-cli/2758) ~ [UI](/t/ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](/t/ip-ranges-deb-2-7-cli/2760) ~ [UI](/t/ip-ranges-deb-2-7-ui/2761)|[CLI](/t/ip-ranges-deb-2-8-cli/2762) ~ [UI](/t/ip-ranges-deb-2-8-ui/2763)|[CLI](/t/ip-ranges-deb-2-9-cli/2764) ~ [UI](/t/ip-ranges-deb-2-9-ui/2765)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/ip-ranges-snap-2-7-cli/2754) ~ UI|[CLI](/t/ip-ranges-snap-2-8-cli/2756) ~ [UI](/t/ip-ranges-snap-2-8-ui/2757)|[CLI](/t/ip-ranges-snap-2-9-cli/2758) ~ [UI](/t/ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](/t/ip-ranges-deb-2-7-cli/2760) ~ [UI](/t/ip-ranges-deb-2-7-ui/2761)|[CLI](/t/ip-ranges-deb-2-8-cli/2762) ~ [UI](/t/ip-ranges-deb-2-8-ui/2763)|[CLI](/t/ip-ranges-deb-2-9-cli/2764) ~ [UI](/t/ip-ranges-deb-2-9-ui/2765)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/ip-ranges-snap-2-7-cli/2754) ~ [UI](/t/ip-ranges-snap-2-7-ui/2755)|CLI ~ [UI](/t/ip-ranges-snap-2-8-ui/2757)|[CLI](/t/ip-ranges-snap-2-9-cli/2758) ~ [UI](/t/ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](/t/ip-ranges-deb-2-7-cli/2760) ~ [UI](/t/ip-ranges-deb-2-7-ui/2761)|[CLI](/t/ip-ranges-deb-2-8-cli/2762) ~ [UI](/t/ip-ranges-deb-2-8-ui/2763)|[CLI](/t/ip-ranges-deb-2-9-cli/2764) ~ [UI](/t/ip-ranges-deb-2-9-ui/2765)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/ip-ranges-snap-2-7-cli/2754) ~ [UI](/t/ip-ranges-snap-2-7-ui/2755)|[CLI](/t/ip-ranges-snap-2-8-cli/2756) ~ UI|[CLI](/t/ip-ranges-snap-2-9-cli/2758) ~ [UI](/t/ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](/t/ip-ranges-deb-2-7-cli/2760) ~ [UI](/t/ip-ranges-deb-2-7-ui/2761)|[CLI](/t/ip-ranges-deb-2-8-cli/2762) ~ [UI](/t/ip-ranges-deb-2-8-ui/2763)|[CLI](/t/ip-ranges-deb-2-9-cli/2764) ~ [UI](/t/ip-ranges-deb-2-9-ui/2765)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/ip-ranges-snap-2-7-cli/2754) ~ [UI](/t/ip-ranges-snap-2-7-ui/2755)|[CLI](/t/ip-ranges-snap-2-8-cli/2756) ~ [UI](/t/ip-ranges-snap-2-8-ui/2757)|CLI ~ [UI](/t/ip-ranges-snap-2-9-ui/2759)|
+|Packages|[CLI](/t/ip-ranges-deb-2-7-cli/2760) ~ [UI](/t/ip-ranges-deb-2-7-ui/2761)|[CLI](/t/ip-ranges-deb-2-8-cli/2762) ~ [UI](/t/ip-ranges-deb-2-8-ui/2763)|[CLI](/t/ip-ranges-deb-2-9-cli/2764) ~ [UI](/t/ip-ranges-deb-2-9-ui/2765)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/ip-ranges-snap-2-7-cli/2754) ~ [UI](/t/ip-ranges-snap-2-7-ui/2755)|[CLI](/t/ip-ranges-snap-2-8-cli/2756) ~ [UI](/t/ip-ranges-snap-2-8-ui/2757)|[CLI](/t/ip-ranges-snap-2-9-cli/2758) ~ UI|
+|Packages|[CLI](/t/ip-ranges-deb-2-7-cli/2760) ~ [UI](/t/ip-ranges-deb-2-7-ui/2761)|[CLI](/t/ip-ranges-deb-2-8-cli/2762) ~ [UI](/t/ip-ranges-deb-2-8-ui/2763)|[CLI](/t/ip-ranges-deb-2-9-cli/2764) ~ [UI](/t/ip-ranges-deb-2-9-ui/2765)|
+ snap-2-9-ui -->
 
 In MAAS-managed networks, you can further manage your subnets with a reserved range of IP addresses.  You can reserve IP addresses by adding one or more reserved ranges to a subnet configuration. You can define two types of ranges: reserved ranges and reserved dynamic ranges.  
 

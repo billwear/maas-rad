@@ -1,101 +1,99 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/storage-snap-2-7-cli/3102) ~ [UI](/t/storage-snap-2-7-ui/3103)|[CLI](/t/storage-snap-2-8-cli/3104) ~ [UI](/t/storage-snap-2-8-ui/3105)|[CLI](/t/storage-snap-2-9-cli/3106) ~ [UI](/t/storage-snap-2-9-ui/3107)|
+|Packages|CLI ~ [UI](/t/storage-deb-2-7-ui/3109)|[CLI](/t/storage-deb-2-8-cli/3110) ~ [UI](/t/storage-deb-2-8-ui/3111)|[CLI](/t/storage-deb-2-9-cli/3112) ~ [UI](/t/storage-deb-2-9-ui/3113)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/storage-snap-2-7-cli/3102) ~ [UI](/t/storage-snap-2-7-ui/3103)|[CLI](/t/storage-snap-2-8-cli/3104) ~ [UI](/t/storage-snap-2-8-ui/3105)|[CLI](/t/storage-snap-2-9-cli/3106) ~ [UI](/t/storage-snap-2-9-ui/3107)|
+|Packages|[CLI](/t/storage-deb-2-7-cli/3108) ~ UI|[CLI](/t/storage-deb-2-8-cli/3110) ~ [UI](/t/storage-deb-2-8-ui/3111)|[CLI](/t/storage-deb-2-9-cli/3112) ~ [UI](/t/storage-deb-2-9-ui/3113)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/storage-snap-2-7-cli/3102) ~ [UI](/t/storage-snap-2-7-ui/3103)|[CLI](/t/storage-snap-2-8-cli/3104) ~ [UI](/t/storage-snap-2-8-ui/3105)|[CLI](/t/storage-snap-2-9-cli/3106) ~ [UI](/t/storage-snap-2-9-ui/3107)|
+|Packages|[CLI](/t/storage-deb-2-7-cli/3108) ~ [UI](/t/storage-deb-2-7-ui/3109)|CLI ~ [UI](/t/storage-deb-2-8-ui/3111)|[CLI](/t/storage-deb-2-9-cli/3112) ~ [UI](/t/storage-deb-2-9-ui/3113)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/storage-snap-2-7-cli/3102) ~ [UI](/t/storage-snap-2-7-ui/3103)|[CLI](/t/storage-snap-2-8-cli/3104) ~ [UI](/t/storage-snap-2-8-ui/3105)|[CLI](/t/storage-snap-2-9-cli/3106) ~ [UI](/t/storage-snap-2-9-ui/3107)|
+|Packages|[CLI](/t/storage-deb-2-7-cli/3108) ~ [UI](/t/storage-deb-2-7-ui/3109)|[CLI](/t/storage-deb-2-8-cli/3110) ~ UI|[CLI](/t/storage-deb-2-9-cli/3112) ~ [UI](/t/storage-deb-2-9-ui/3113)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/storage-snap-2-7-cli/3102) ~ [UI](/t/storage-snap-2-7-ui/3103)|[CLI](/t/storage-snap-2-8-cli/3104) ~ [UI](/t/storage-snap-2-8-ui/3105)|[CLI](/t/storage-snap-2-9-cli/3106) ~ [UI](/t/storage-snap-2-9-ui/3107)|
+|Packages|[CLI](/t/storage-deb-2-7-cli/3108) ~ [UI](/t/storage-deb-2-7-ui/3109)|[CLI](/t/storage-deb-2-8-cli/3110) ~ [UI](/t/storage-deb-2-8-ui/3111)|CLI ~ [UI](/t/storage-deb-2-9-ui/3113)|
+ deb-2-9-cli -->
 
 <!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/storage-snap-2-7-cli/3102) ~ [UI](/t/storage-snap-2-7-ui/3103)|[CLI](/t/storage-snap-2-8-cli/3104) ~ [UI](/t/storage-snap-2-8-ui/3105)|[CLI](/t/storage-snap-2-9-cli/3106) ~ [UI](/t/storage-snap-2-9-ui/3107)|
+|Packages|[CLI](/t/storage-deb-2-7-cli/3108) ~ [UI](/t/storage-deb-2-7-ui/3109)|[CLI](/t/storage-deb-2-8-cli/3110) ~ [UI](/t/storage-deb-2-8-ui/3111)|[CLI](/t/storage-deb-2-9-cli/3112) ~ UI|
+ deb-2-9-ui -->
+
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|CLI ~ [UI](/t/storage-snap-2-7-ui/3103)|[CLI](/t/storage-snap-2-8-cli/3104) ~ [UI](/t/storage-snap-2-8-ui/3105)|[CLI](/t/storage-snap-2-9-cli/3106) ~ [UI](/t/storage-snap-2-9-ui/3107)|
+|Packages|[CLI](/t/storage-deb-2-7-cli/3108) ~ [UI](/t/storage-deb-2-7-ui/3109)|[CLI](/t/storage-deb-2-8-cli/3110) ~ [UI](/t/storage-deb-2-8-ui/3111)|[CLI](/t/storage-deb-2-9-cli/3112) ~ [UI](/t/storage-deb-2-9-ui/3113)|
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/storage-snap-2-7-cli/3102) ~ UI|[CLI](/t/storage-snap-2-8-cli/3104) ~ [UI](/t/storage-snap-2-8-ui/3105)|[CLI](/t/storage-snap-2-9-cli/3106) ~ [UI](/t/storage-snap-2-9-ui/3107)|
+|Packages|[CLI](/t/storage-deb-2-7-cli/3108) ~ [UI](/t/storage-deb-2-7-ui/3109)|[CLI](/t/storage-deb-2-8-cli/3110) ~ [UI](/t/storage-deb-2-8-ui/3111)|[CLI](/t/storage-deb-2-9-cli/3112) ~ [UI](/t/storage-deb-2-9-ui/3113)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/storage-snap-2-7-cli/3102) ~ [UI](/t/storage-snap-2-7-ui/3103)|CLI ~ [UI](/t/storage-snap-2-8-ui/3105)|[CLI](/t/storage-snap-2-9-cli/3106) ~ [UI](/t/storage-snap-2-9-ui/3107)|
+|Packages|[CLI](/t/storage-deb-2-7-cli/3108) ~ [UI](/t/storage-deb-2-7-ui/3109)|[CLI](/t/storage-deb-2-8-cli/3110) ~ [UI](/t/storage-deb-2-8-ui/3111)|[CLI](/t/storage-deb-2-9-cli/3112) ~ [UI](/t/storage-deb-2-9-ui/3113)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/storage-snap-2-7-cli/3102) ~ [UI](/t/storage-snap-2-7-ui/3103)|[CLI](/t/storage-snap-2-8-cli/3104) ~ UI|[CLI](/t/storage-snap-2-9-cli/3106) ~ [UI](/t/storage-snap-2-9-ui/3107)|
+|Packages|[CLI](/t/storage-deb-2-7-cli/3108) ~ [UI](/t/storage-deb-2-7-ui/3109)|[CLI](/t/storage-deb-2-8-cli/3110) ~ [UI](/t/storage-deb-2-8-ui/3111)|[CLI](/t/storage-deb-2-9-cli/3112) ~ [UI](/t/storage-deb-2-9-ui/3113)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/storage-snap-2-7-cli/3102) ~ [UI](/t/storage-snap-2-7-ui/3103)|[CLI](/t/storage-snap-2-8-cli/3104) ~ [UI](/t/storage-snap-2-8-ui/3105)|CLI ~ [UI](/t/storage-snap-2-9-ui/3107)|
+|Packages|[CLI](/t/storage-deb-2-7-cli/3108) ~ [UI](/t/storage-deb-2-7-ui/3109)|[CLI](/t/storage-deb-2-8-cli/3110) ~ [UI](/t/storage-deb-2-8-ui/3111)|[CLI](/t/storage-deb-2-9-cli/3112) ~ [UI](/t/storage-deb-2-9-ui/3113)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/storage-snap-2-7-cli/3102) ~ [UI](/t/storage-snap-2-7-ui/3103)|[CLI](/t/storage-snap-2-8-cli/3104) ~ [UI](/t/storage-snap-2-8-ui/3105)|[CLI](/t/storage-snap-2-9-cli/3106) ~ UI|
+|Packages|[CLI](/t/storage-deb-2-7-cli/3108) ~ [UI](/t/storage-deb-2-7-ui/3109)|[CLI](/t/storage-deb-2-8-cli/3110) ~ [UI](/t/storage-deb-2-8-ui/3111)|[CLI](/t/storage-deb-2-9-cli/3112) ~ [UI](/t/storage-deb-2-9-ui/3113)|
+ snap-2-9-ui -->
 
 You have significant latitude when choosing the final storage configuration of a deployed machine. MAAS supports traditional disk partitioning, as well as more complex options such as LVM, RAID, and bcache. MAAS also supports UEFI as a boot mechanism.  This article explains boot mechanisms and layouts, and offers some advice on how to configure layouts and manage storage.
 
 #### Quick questions you may have:
 
-* [How does UEFI booting work?](/t/storage/775#heading--uefi)
-* [What kind of storage layouts are available?](/t/storage/775#heading--layouts)
-* [How do I set storage layouts?](/t/storage/775#heading--setting-layouts)
-* [What storage modifications can I make at the filesystem level?](/t/storage/775#heading--final-storage-modifications)
+* [How does UEFI booting work?](#heading--uefi)
+* [What kind of storage layouts are available?](#heading--layouts)
+* [How do I set storage layouts?](#heading--setting-layouts)
+* [What storage modifications can I make at the filesystem level?](#heading--final-storage-modifications)
 * [How can I erase a disk?](/t/disk-erasure/774)
 
 A machine's storage is dependant upon the underlying system's disks, but its configuration (i.e., disk usage) is the result of a storage template. In MAAS, this template is called a layout, and MAAS applies it to a machine during commissioning.  Once a layout is applied, a regular user can make modifications to a machine at the filesystem level to arrive at the machine's final storage configuration.  When a machine is no longer needed, a user can choose from among several disk erasure types before releasing it.
 
 [note]
-MAAS supports storage configuration for CentOS and RHEL deployments. Support includes RAID, LVM, and custom partitioning with different file systems (ZFS and bcache excluded). This support requires a newer version of Curtin, [available as a PPA](https://launchpad.net/ubuntu/+source/curtin).
+MAAS supports storage configuration for CentOS and RHEL deployments. Support includes RAID, LVM, and custom partitioning with different file systems (ZFS and bcache excluded). This support requires a newer version of Curtin, [available as a PPA^](https://launchpad.net/ubuntu/+source/curtin).
 [/note]
 
 <h2 id="heading--uefi">UEFI</h2>

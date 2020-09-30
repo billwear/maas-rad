@@ -1,100 +1,92 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|CLI ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ UI|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|CLI ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ UI|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|CLI ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+ deb-2-9-cli -->
 
 <!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ UI|
+ deb-2-9-ui -->
 
-If you have created a VM host, you will want to create and delete virtual machines (VMs).  You can use either the CLI or the UI for these operations; this article explains how.
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|CLI ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ UI|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+ snap-2-7-ui -->
+
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|CLI ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ UI|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|CLI ~ [UI](/t/creating-and-deleting-vms-snap-2-9-ui/2579)|
+|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ UI|
+|Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
+ snap-2-9-ui -->
+
+If you have created a VM host, you will want to create and delete virtual machines (VMs); this article explains how to do so.
 
 #### Quick questions you may have:
 
-* [How do I add a VM from the Web UI?](/t/creating-and-deleting-vms/806#heading--add-vm-from-ui)
-* [How do I add a VM from the CLI?](/t/creating-and-deleting-vms/806#heading--adding-a-vm-from-the-cli)
-* [How do I set resources while adding a VM?](/t/creating-and-deleting-vms/806#heading--set-resources)
-* [How do I set the architecture while adding a VM?](/t/creating-and-deleting-vms/806#heading--architecture)
-* [How do I set storage while adding a VM?](/t/creating-and-deleting-vms/806#heading--storage)
-* [How do I specify interfaces while adding a VM?](/t/creating-and-deleting-vms/806#heading--interfaces)
-* [How do I find a VM host ID with the CLI?](/t/creating-and-deleting-vms/806#heading--find-vm-host-ids)
-* [How do I delete a VM from the Web UI?](/t/creating-and-deleting-vms/806#heading--delete-a-machine)
-* [How do I delete a VM with the CLI?](/t/creating-and-deleting-vms/806#heading--delete-a-vm)
+<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
+* [How do I add a VM?](#heading--add-vm-from-ui)
+* [How do I delete a VM?](#heading--delete-a-machine)
 
 <h2 id="heading--add-vm-from-ui">Adding a VM from the Web UI</h2>
 
@@ -109,6 +101,21 @@ Click the 'Compose machine' button when you're finished. MAAS will present the V
 MAAS will deduct the new machine's resources from the VM host's resources:
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/3b621ab0e7b4f6a86963d2b7c50b677b815956ab.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/3b621ab0e7b4f6a86963d2b7c50b677b815956ab.jpeg"></a> 
+
+<h2 id="heading--delete-a-machine">Deleting a VM from the Web UI</h2>
+
+To delete a VM, delete it as you would any other MAAS machine. Select the desired machine from the list of machines and select 'Delete' from the 'Take Action' menu.
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/34d3f5fcd8a86bfa827bab5383209ea9ca117f50.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/34d3f5fcd8a86bfa827bab5383209ea9ca117f50.jpeg"></a> 
+snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
+
+* [How do I add a VM?](#heading--adding-a-vm-from-the-cli)
+* [How do I set resources while adding a VM?](#heading--set-resources)
+* [How do I set the architecture while adding a VM?](#heading--architecture)
+* [How do I set storage while adding a VM?](#heading--storage)
+* [How do I specify interfaces while adding a VM?](#heading--interfaces)
+* [How do I find a VM host ID?](#heading--find-vm-host-ids)
+* [How do I delete a VM?](#heading--delete-a-vm)
 
 <h2 id="heading--adding-a-vm-from-the-cli">Adding a VM from the CLI</h2>
 
@@ -246,12 +253,6 @@ Example output:
 
     "MyVMHost"
     1
-
-<h2 id="heading--delete-a-machine">Deleting a VM from the Web UI</h2>
-
-To delete a VM, delete it as you would any other MAAS machine. Select the desired machine from the list of machines and select 'Delete' from the 'Take Action' menu.
-
-<a href="https://discourse.maas.io/uploads/default/original/1X/34d3f5fcd8a86bfa827bab5383209ea9ca117f50.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/34d3f5fcd8a86bfa827bab5383209ea9ca117f50.jpeg"></a> 
 
 <h2 id="heading--delete-a-vm">Deleting a VM with the CLI</h2>
 

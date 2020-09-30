@@ -2,167 +2,83 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
-|Packages|**CLI** ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
+|Packages|CLI ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
-|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ |**UI**|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
+|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ UI|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
-|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)||**CLI** ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
+|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|CLI ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
-|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ |**UI**|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
+|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ UI|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
-|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)||**CLI** ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
+|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|CLI ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
-|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ |**UI**|
+|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ UI|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|**CLI** ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
+|Snap|CLI ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
 |Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ |**UI**|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
+|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ UI|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
 |Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)||**CLI** ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
+|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|CLI ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
 |Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ |**UI**|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
+|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ UI|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
 |Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)||**CLI** ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
+|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|CLI ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
 |Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ |**UI**|
-|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
- snap-2-9-ui -->
-
-<!-- deb-2-7-cli
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
-|Packages|**CLI** ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
- deb-2-7-cli -->
-
-<!-- deb-2-7-ui
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
-|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ |**UI**|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
- deb-2-7-ui -->
-
-<!-- deb-2-8-cli
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
-|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)||**CLI** ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
- deb-2-8-cli -->
-
-<!-- deb-2-8-ui
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
-|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ |**UI**|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
- deb-2-8-ui -->
-
-<!-- deb-2-9-cli
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
-|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)||**CLI** ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
- deb-2-9-cli -->
-
-<!-- deb-2-9-ui
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
-|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ |**UI**|
- deb-2-9-ui -->
-
-<!-- snap-2-7-cli
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|**CLI** ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
-|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
- snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ |**UI**|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
-|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
- snap-2-7-ui -->
-
-<!-- snap-2-8-cli
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)||**CLI** ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
-|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
- snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ |**UI**|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
-|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
- snap-2-8-ui -->
-
-<!-- snap-2-9-cli
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)||**CLI** ~ [UI](/t/ipv6-addressing-snap-2-9-ui/2771)|
-|Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
- snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ |**UI**|
+|Snap|[CLI](/t/ipv6-addressing-snap-2-7-cli/2766) ~ [UI](/t/ipv6-addressing-snap-2-7-ui/2767)|[CLI](/t/ipv6-addressing-snap-2-8-cli/2768) ~ [UI](/t/ipv6-addressing-snap-2-8-ui/2769)|[CLI](/t/ipv6-addressing-snap-2-9-cli/2770) ~ UI|
 |Packages|[CLI](/t/ipv6-addressing-deb-2-7-cli/2772) ~ [UI](/t/ipv6-addressing-deb-2-7-ui/2773)|[CLI](/t/ipv6-addressing-deb-2-8-cli/2774) ~ [UI](/t/ipv6-addressing-deb-2-8-ui/2775)|[CLI](/t/ipv6-addressing-deb-2-9-cli/2776) ~ [UI](/t/ipv6-addressing-deb-2-9-ui/2777)|
  snap-2-9-ui -->
 
@@ -180,9 +96,9 @@ MAAS can only control most BMCs using IPv4.
 
 #### Quick questions you may have:
 
-* [What should I know about enabling IPv6?](/t/ipv6-addressing/761#heading--enable-ipv6)
-* [How do I configure an IPv6 subnet?](/t/ipv6-addressing/761#heading--configure-an-ipv6-subnet)
-* [What should I know about routing?](/t/ipv6-addressing/761#heading--routing)
+* [What should I know about enabling IPv6?](#heading--enable-ipv6)
+* [How do I configure an IPv6 subnet?](#heading--configure-an-ipv6-subnet)
+* [What should I know about routing?](#heading--routing)
 
 <h2 id="heading--enable-ipv6">Enable IPv6</h2>
 

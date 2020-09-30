@@ -1,0 +1,192 @@
+## Navigation
+
+### [Introduction](/t/maas-documentation/25)
+
+<!-- pre-rad
+- [About MAAS](/t/what-is-maas/840)
+- ["Give me an example"](/t/give-me-an-example-of-maas/1314)
+- [Explore MAAS](/t/explore-maas/787)
+- [What's new in 2.8](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
+- [Quick start](https://maas.io/install)
+
+### Installing MAAS
+
+- [Requirements](/t/what-is-maas/789)
+- [Installation](https://maas.io/docs/install-from-a-snap)
+- [Configuration journey](https://maas.io/docs/configuration-journey)
+
+### [Controllers](/t/introduction-to-controllers/786)
+
+- [Communication](/t/maas-communication/783)
+- [Rack controllers](/t/rack-controller/771)
+- [Region controllers](/t/region-controller/772)
+- [High availability](/t/high-availability/804)
+
+### [Machines](/t/node-overview/829)
+
+- [Add machines](/t/add-nodes/821)
+- [Power management](/t/bmc-power-types/830)
+- [Commission machines](/t/commission-nodes/822)
+- Testing
+  - [Hardware testing](/t/hardware-testing/826)
+  - [Network testing](/t/network-testing/1267)
+  - [Commissioning and hardware testing scripts](/t/commissioning-and-hardware-testing-scripts/833)
+- [Deploy machines](/t/deploy-nodes/825)
+- [Tags](/t/tags/834)
+- [Custom machine setup](/t/custom-node-setup-preseed/824)
+- [Kernel boot options](/t/kernel-boot-options/827)
+- [Resource pools](/t/resource-pools/831)
+- [Storage](/t/storage/775)
+- [VMware VMFS datastores](/t/vmware-vmfs-datastores/780)
+- [Ubuntu kernels](/t/ubuntu-kernels/828)
+
+### [Images](/t/images/754)
+
+- [Select and import images](/t/select-and-import-images/751)
+- [Local image mirror](/t/local-image-mirror/752)
+- [VMWare images](/t/vmware-images/753)
+
+### [Networking](/t/networking/768)
+
+- [Subnet management](/t/subnet-management/766)
+- [DHCP](/t/dhcp/759)
+- [IP ranges](/t/ip-ranges/760)
+- [Proxy](/t/proxy/763)
+- [NTP](/t/ntp/762)
+- [Network discovery](/t/network-discovery/758)
+- [IPv6](/t/ipv6/761)
+- [SSL](/t/ssl/764)
+- [STP](/t/stp/765)
+- [Availability zones (AZs)](/t/availability-zones/820)
+
+### [VM hosting](/t/introduction-to-vm-hosting/1524)
+
+- [VM host networking](/t/vm-host-networking/1526)
+- [Add a VM host](https://discourse.maas.io/t/adding-a-vm-host/1549)
+- [VM host storage pools](/t/vm-host-storage-pools/1525)
+- [Creating and deleting VMs](/t/creating-and-deleting-new-vms/806)
+
+### Operations
+
+- [Prometheus metrics](/t/prometheus-metrics/813)
+- [Backup](/t/backup/792)
+- [MAAS security](/t/hardening-your-maas-installation/1381)
+- [Logging](/t/maas-logging/1468)
+  - [Commissioning logs](/t/commissioning-logs/1478)
+- [User accounts](/t/user-accounts/790)
+- [Interactive search](/t/interactive-search/819)
+ pre-rad -->
+
+<!-- snap-2-8-ui
+- [About MAAS](/t/about-maas-snap-2-8-ui/2265)
+- ["Give me an example"](/t/give-me-an-example-of-maas-snap-2-8-ui/2649)
+- [Explore MAAS](/t/explore-maas-snap-2-8-ui/2637)
+- [What's new in 2.8](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
+- [Quick start](https://maas.io/install)
+
+### Installing MAAS
+
+- [Requirements](/t/maas-requirements-snap-2-8-ui/2877)
+- [Installation](https://maas.io/docs/install-from-a-snap)
+- [Configuration journey](/t/configuration-journey-snap-2-8-ui/2529)
+
+### [Controllers](/t/controllers-snap-2-8-ui/2721)
+
+- [Communication](/t/maas-communication-snap-2-8-ui/2829)
+- [Rack controllers](/t/rack-controllers-snap-2-8-ui/3057)
+- [Region controllers](/t/region-controllers-snap-2-8-ui/3069)
+- [High availability](/t/high-availability-snap-2-8-ui/2685)
+
+### [Machines](/t/machines-snap-2-8-ui/2733)
+
+- [Add machines](/t/add-machines-snap-2-8-ui/2277)
+- [Power management](/t/power-management-snap-2-8-ui/3009)
+- [Commission machines](/t/commission-machines-snap-2-8-ui/2469)
+- Testing
+  - [Hardware testing](/t/hardware-testing-snap-2-8-ui/2673)
+  - [Network testing](/t/network-testing-snap-2-8-ui/2937)
+  - [Commissioning and hardware testing scripts](/t/commissioning-and-hardware-testing-scripts-snap-2-8-ui/2481)
+- [Deploy machines](/t/deploy-machines-snap-2-8-ui/2601)
+- [Tags](/t/maas-tags-snap-2-8-ui/2889)
+- [Custom machine setup](/t/custom-machine-setup-snap-2-8-ui/2589)
+- [Kernel boot options](/t/kernel-boot-options-snap-2-8-ui/2781)
+- [Resource pools]()
+- [Storage](/t/storage-snap-2-8-ui/3105)
+- [VMware VMFS datastores](/t/vmware-vmfs-datastores-snap-2-8-ui/3249)
+- [Ubuntu kernels](/t/ubuntu-kernels-snap-2-8-ui/3177)
+
+### [Images](/t/images-snap-2-8-ui/2697)
+
+- [Select and import images](/t/select-and-import-images-snap-2-8-ui/3093)
+- [Local image mirror](/t/local-image-mirror-snap-2-8-ui/2805)
+- [VMWare images](/t/vmware-images-snap-2-8-ui/3237)
+
+### [Networking](/t/networking-snap-2-8-ui/2949)
+
+- [Subnet management](/t/subnet-management-snap-2-8-ui/3117)
+- [DHCP](/t/managing-dhcp-snap-2-8-ui/2901)
+- [IP ranges](/t/ip-ranges-snap-2-8-ui/2757)
+- [Proxy](/t/proxy-snap-2-8-ui/3033)
+- [NTP](/t/ntp-services-snap-2-8-ui/2961)
+- [Network discovery](/t/network-discovery-snap-2-8-ui/2925)
+- [IPv6](/t/ipv6-addressing-snap-2-8-ui/2769)
+- [SSL](/t/configuring-tls-encryption-snap-2-8-ui/2541)
+- [STP](/t/managing-stp-snap-2-8-ui/2913)
+- [Availability zones (AZs)](/t/availability-zones-snap-2-8-ui/2325)
+
+### [VM hosting](/t/vm-hosting-snap-2-8-ui/2745)
+
+- [VM host networking](/t/vm-host-networking-snap-2-8-ui/3213)
+- [Add a VM host](/t/adding-a-vm-host-snap-2-8-ui/2289)
+- [VM host storage pools](/t/vm-host-storage-pools-snap-2-8-ui/3225)
+- [Creating and deleting VMs](/t/creating-and-deleting-vms-snap-2-8-ui/2577)
+
+### Operations
+
+- [Prometheus metrics](/t/prometheus-metrics-snap-2-8-ui/3021)
+- [Backup](/t/backup-snap-2-8-ui/2337)
+- [MAAS security](/t/hardening-your-maas-installation-snap-2-8-ui/2661)
+- [Logging](/t/maas-logging-snap-2-8-ui/2865)
+  - [Commissioning logs](/t/commissioning-logs-snap-2-8-ui/2493)
+- [User accounts](/t/user-accounts-snap-2-8-ui/3201)
+- [Interactive search](/t/interactive-search-snap-2-8-ui/2709)
+ snap-2-8-ui -->
+
+### [Concepts & terms](/t/concepts-and-terms/785)
+- [Brief network tutorial](/t/concepts-and-terms/785#heading--network-tutorial)
+
+### [CLI](/t/maas-cli/802)
+
+- [The CLI cookbook](/t/the-cli-cookbook/2218/)
+- [Common tasks](/t/common-cli-tasks/794)
+- [Audit event logs](/t/audit-event-logs/791)
+- [Kernel management](/t/cli-kernel-management/799)
+- [Image management](/t/cli-image-management/797)
+- [Interface management](/t/cli-interface-management/798)
+- [Tag management](/t/cli-tag-management/801)
+- [Resource pool management](/t/cli-resource-pool-management/800)
+- [DHCP snippet management](/t/cli-dhcp-snippet-management/796)
+- [Commissioning and hardware testing scripts](/t/cli-commissioning-and-hardware-testing-scripts/832)
+- [Advanced tasks](/t/advanced-cli-tasks/793)
+- [Composable hardware](/t/cli-composable-machines-management/795)
+- [API client](/t/api-client/810)
+
+### [API documentation](https://maas.io/docs/api)
+
+- [API authentication](/t/api-authentication/742)
+
+### [Troubleshoot](/t/troubleshooting/837)
+
+- [Getting help](/t/getting-help/838)
+- [Tips, tricks, and traps](/t/tips-tricks-and-traps/1506)
+- [Non-snap MAAS installs](/t/non-snap-maas-installs/1308)
+- [MAAS 2.5 (and earlier) documentation](https://old-docs.maas.io/2.5/en/)
+- [Upgrading MAAS](/t/upgrading-maas/779)
+  - [Upgrade from 2.3 to 2.4](/t/upgrade-2-3-to-2-4-from-ubuntu-16-04/777)
+  - [Upgrade from 1.9 to 2.x](/t/upgrade-from-1-9-to-2-x/778)
+
+### [Release notes](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
+
+### [Help improve these docs](/t/writing-guide/747)
+
+### [Contact us](/t/contact-us/743)

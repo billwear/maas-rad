@@ -1,86 +1,84 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/interactive-search-snap-2-7-cli/2706) ~ [UI](/t/interactive-search-snap-2-7-ui/2707)|[CLI](/t/interactive-search-snap-2-8-cli/2708) ~ [UI](/t/interactive-search-snap-2-8-ui/2709)|[CLI](/t/interactive-search-snap-2-9-cli/2710) ~ [UI](/t/interactive-search-snap-2-9-ui/2711)|
+|Packages|CLI ~ [UI](/t/interactive-search-deb-2-7-ui/2713)|[CLI](/t/interactive-search-deb-2-8-cli/2714) ~ [UI](/t/interactive-search-deb-2-8-ui/2715)|[CLI](/t/interactive-search-deb-2-9-cli/2716) ~ [UI](/t/interactive-search-deb-2-9-ui/2717)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/interactive-search-snap-2-7-cli/2706) ~ [UI](/t/interactive-search-snap-2-7-ui/2707)|[CLI](/t/interactive-search-snap-2-8-cli/2708) ~ [UI](/t/interactive-search-snap-2-8-ui/2709)|[CLI](/t/interactive-search-snap-2-9-cli/2710) ~ [UI](/t/interactive-search-snap-2-9-ui/2711)|
+|Packages|[CLI](/t/interactive-search-deb-2-7-cli/2712) ~ UI|[CLI](/t/interactive-search-deb-2-8-cli/2714) ~ [UI](/t/interactive-search-deb-2-8-ui/2715)|[CLI](/t/interactive-search-deb-2-9-cli/2716) ~ [UI](/t/interactive-search-deb-2-9-ui/2717)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/interactive-search-snap-2-7-cli/2706) ~ [UI](/t/interactive-search-snap-2-7-ui/2707)|[CLI](/t/interactive-search-snap-2-8-cli/2708) ~ [UI](/t/interactive-search-snap-2-8-ui/2709)|[CLI](/t/interactive-search-snap-2-9-cli/2710) ~ [UI](/t/interactive-search-snap-2-9-ui/2711)|
+|Packages|[CLI](/t/interactive-search-deb-2-7-cli/2712) ~ [UI](/t/interactive-search-deb-2-7-ui/2713)|CLI ~ [UI](/t/interactive-search-deb-2-8-ui/2715)|[CLI](/t/interactive-search-deb-2-9-cli/2716) ~ [UI](/t/interactive-search-deb-2-9-ui/2717)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/interactive-search-snap-2-7-cli/2706) ~ [UI](/t/interactive-search-snap-2-7-ui/2707)|[CLI](/t/interactive-search-snap-2-8-cli/2708) ~ [UI](/t/interactive-search-snap-2-8-ui/2709)|[CLI](/t/interactive-search-snap-2-9-cli/2710) ~ [UI](/t/interactive-search-snap-2-9-ui/2711)|
+|Packages|[CLI](/t/interactive-search-deb-2-7-cli/2712) ~ [UI](/t/interactive-search-deb-2-7-ui/2713)|[CLI](/t/interactive-search-deb-2-8-cli/2714) ~ UI|[CLI](/t/interactive-search-deb-2-9-cli/2716) ~ [UI](/t/interactive-search-deb-2-9-ui/2717)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/interactive-search-snap-2-7-cli/2706) ~ [UI](/t/interactive-search-snap-2-7-ui/2707)|[CLI](/t/interactive-search-snap-2-8-cli/2708) ~ [UI](/t/interactive-search-snap-2-8-ui/2709)|[CLI](/t/interactive-search-snap-2-9-cli/2710) ~ [UI](/t/interactive-search-snap-2-9-ui/2711)|
+|Packages|[CLI](/t/interactive-search-deb-2-7-cli/2712) ~ [UI](/t/interactive-search-deb-2-7-ui/2713)|[CLI](/t/interactive-search-deb-2-8-cli/2714) ~ [UI](/t/interactive-search-deb-2-8-ui/2715)|CLI ~ [UI](/t/interactive-search-deb-2-9-ui/2717)|
+ deb-2-9-cli -->
 
 <!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/interactive-search-snap-2-7-cli/2706) ~ [UI](/t/interactive-search-snap-2-7-ui/2707)|[CLI](/t/interactive-search-snap-2-8-cli/2708) ~ [UI](/t/interactive-search-snap-2-8-ui/2709)|[CLI](/t/interactive-search-snap-2-9-cli/2710) ~ [UI](/t/interactive-search-snap-2-9-ui/2711)|
+|Packages|[CLI](/t/interactive-search-deb-2-7-cli/2712) ~ [UI](/t/interactive-search-deb-2-7-ui/2713)|[CLI](/t/interactive-search-deb-2-8-cli/2714) ~ [UI](/t/interactive-search-deb-2-8-ui/2715)|[CLI](/t/interactive-search-deb-2-9-cli/2716) ~ UI|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|CLI ~ [UI](/t/interactive-search-snap-2-7-ui/2707)|[CLI](/t/interactive-search-snap-2-8-cli/2708) ~ [UI](/t/interactive-search-snap-2-8-ui/2709)|[CLI](/t/interactive-search-snap-2-9-cli/2710) ~ [UI](/t/interactive-search-snap-2-9-ui/2711)|
+|Packages|[CLI](/t/interactive-search-deb-2-7-cli/2712) ~ [UI](/t/interactive-search-deb-2-7-ui/2713)|[CLI](/t/interactive-search-deb-2-8-cli/2714) ~ [UI](/t/interactive-search-deb-2-8-ui/2715)|[CLI](/t/interactive-search-deb-2-9-cli/2716) ~ [UI](/t/interactive-search-deb-2-9-ui/2717)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/interactive-search-snap-2-7-cli/2706) ~ UI|[CLI](/t/interactive-search-snap-2-8-cli/2708) ~ [UI](/t/interactive-search-snap-2-8-ui/2709)|[CLI](/t/interactive-search-snap-2-9-cli/2710) ~ [UI](/t/interactive-search-snap-2-9-ui/2711)|
+|Packages|[CLI](/t/interactive-search-deb-2-7-cli/2712) ~ [UI](/t/interactive-search-deb-2-7-ui/2713)|[CLI](/t/interactive-search-deb-2-8-cli/2714) ~ [UI](/t/interactive-search-deb-2-8-ui/2715)|[CLI](/t/interactive-search-deb-2-9-cli/2716) ~ [UI](/t/interactive-search-deb-2-9-ui/2717)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/interactive-search-snap-2-7-cli/2706) ~ [UI](/t/interactive-search-snap-2-7-ui/2707)|CLI ~ [UI](/t/interactive-search-snap-2-8-ui/2709)|[CLI](/t/interactive-search-snap-2-9-cli/2710) ~ [UI](/t/interactive-search-snap-2-9-ui/2711)|
+|Packages|[CLI](/t/interactive-search-deb-2-7-cli/2712) ~ [UI](/t/interactive-search-deb-2-7-ui/2713)|[CLI](/t/interactive-search-deb-2-8-cli/2714) ~ [UI](/t/interactive-search-deb-2-8-ui/2715)|[CLI](/t/interactive-search-deb-2-9-cli/2716) ~ [UI](/t/interactive-search-deb-2-9-ui/2717)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/interactive-search-snap-2-7-cli/2706) ~ [UI](/t/interactive-search-snap-2-7-ui/2707)|[CLI](/t/interactive-search-snap-2-8-cli/2708) ~ UI|[CLI](/t/interactive-search-snap-2-9-cli/2710) ~ [UI](/t/interactive-search-snap-2-9-ui/2711)|
+|Packages|[CLI](/t/interactive-search-deb-2-7-cli/2712) ~ [UI](/t/interactive-search-deb-2-7-ui/2713)|[CLI](/t/interactive-search-deb-2-8-cli/2714) ~ [UI](/t/interactive-search-deb-2-8-ui/2715)|[CLI](/t/interactive-search-deb-2-9-cli/2716) ~ [UI](/t/interactive-search-deb-2-9-ui/2717)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/interactive-search-snap-2-7-cli/2706) ~ [UI](/t/interactive-search-snap-2-7-ui/2707)|[CLI](/t/interactive-search-snap-2-8-cli/2708) ~ [UI](/t/interactive-search-snap-2-8-ui/2709)|CLI ~ [UI](/t/interactive-search-snap-2-9-ui/2711)|
+|Packages|[CLI](/t/interactive-search-deb-2-7-cli/2712) ~ [UI](/t/interactive-search-deb-2-7-ui/2713)|[CLI](/t/interactive-search-deb-2-8-cli/2714) ~ [UI](/t/interactive-search-deb-2-8-ui/2715)|[CLI](/t/interactive-search-deb-2-9-cli/2716) ~ [UI](/t/interactive-search-deb-2-9-ui/2717)|
+ snap-2-9-cli -->
+
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/interactive-search-snap-2-7-cli/2706) ~ [UI](/t/interactive-search-snap-2-7-ui/2707)|[CLI](/t/interactive-search-snap-2-8-cli/2708) ~ [UI](/t/interactive-search-snap-2-8-ui/2709)|[CLI](/t/interactive-search-snap-2-9-cli/2710) ~ UI|
+|Packages|[CLI](/t/interactive-search-deb-2-7-cli/2712) ~ [UI](/t/interactive-search-deb-2-7-ui/2713)|[CLI](/t/interactive-search-deb-2-8-cli/2714) ~ [UI](/t/interactive-search-deb-2-8-ui/2715)|[CLI](/t/interactive-search-deb-2-9-cli/2716) ~ [UI](/t/interactive-search-deb-2-9-ui/2717)|
 
 The Machines and Devices pages contain a powerful interactive search bar that lets you filter machines and devices.  This article is designed to help you understand how to use this resource.
 
@@ -88,14 +86,14 @@ The Machines and Devices pages contain a powerful interactive search bar that le
 
 Quick questions you may have:
 
-* [How can I do simple searches?](/t/interactive-search/819#heading--simple-searches)
-* [How can I do filtered searches?](/t/interactive-search/819#heading--filtered-searches)
-* [How can I create manual filters?](/t/interactive-search/819#heading--manual-filters)
-* [How do I set up exact matching?](/t/interactive-search/819#heading--exact-matching)
-* [How do I set up partial matching?](/t/interactive-search/819#heading--partial-matching)
-* [How can I include multiple search terms?](/t/interactive-search/819#heading--multiple-search-terms)
-* [What filter properties are available to me?](/t/interactive-search/819#heading--filter-properties)
-* [How can I search with the CLI?](/t/interactive-search/819#heading--cli)
+* [How can I do simple searches?](#heading--simple-searches)
+* [How can I do filtered searches?](#heading--filtered-searches)
+* [How can I create manual filters?](#heading--manual-filters)
+* [How do I set up exact matching?](#heading--exact-matching)
+* [How do I set up partial matching?](#heading--partial-matching)
+* [How can I include multiple search terms?](#heading--multiple-search-terms)
+* [What filter properties are available to me?](#heading--filter-properties)
+* [How can I search with the CLI?](#heading--cli)
 
 ---
 
@@ -183,5 +181,3 @@ pxe_mac:=9e:b0:e4:15:ae:1e
 <h2 id="heading--cli">CLI</h2>
 
 See [List nodes](/t/common-cli-tasks/794#heading--list-nodes) for more information about how to use the MAAS CLI to perform similar searches or [CLI](/t/maas-cli/802) for how to get started with the MAAS CLI.
-
-<!-- LINKS -->

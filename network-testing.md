@@ -2,83 +2,83 @@
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/network-testing-snap-2-7-cli/2934) ~ [UI](/t/network-testing-snap-2-7-ui/2935)|[CLI](/t/network-testing-snap-2-8-cli/2936) ~ [UI](/t/network-testing-snap-2-8-ui/2937)|[CLI](/t/network-testing-snap-2-9-cli/2938) ~ [UI](/t/network-testing-snap-2-9-ui/2939)|
-|Packages|**CLI** ~ [UI](/t/network-testing-deb-2-7-ui/2941)|[CLI](/t/network-testing-deb-2-8-cli/2942) ~ [UI](/t/network-testing-deb-2-8-ui/2943)|[CLI](/t/network-testing-deb-2-9-cli/2944) ~ [UI](/t/network-testing-deb-2-9-ui/2945)|
+|Packages|CLI ~ [UI](/t/network-testing-deb-2-7-ui/2941)|[CLI](/t/network-testing-deb-2-8-cli/2942) ~ [UI](/t/network-testing-deb-2-8-ui/2943)|[CLI](/t/network-testing-deb-2-9-cli/2944) ~ [UI](/t/network-testing-deb-2-9-ui/2945)|
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/network-testing-snap-2-7-cli/2934) ~ [UI](/t/network-testing-snap-2-7-ui/2935)|[CLI](/t/network-testing-snap-2-8-cli/2936) ~ [UI](/t/network-testing-snap-2-8-ui/2937)|[CLI](/t/network-testing-snap-2-9-cli/2938) ~ [UI](/t/network-testing-snap-2-9-ui/2939)|
-|Packages|[CLI](/t/network-testing-deb-2-7-cli/2940) ~ |**UI**|[CLI](/t/network-testing-deb-2-8-cli/2942) ~ [UI](/t/network-testing-deb-2-8-ui/2943)|[CLI](/t/network-testing-deb-2-9-cli/2944) ~ [UI](/t/network-testing-deb-2-9-ui/2945)|
+|Packages|[CLI](/t/network-testing-deb-2-7-cli/2940) ~ UI|[CLI](/t/network-testing-deb-2-8-cli/2942) ~ [UI](/t/network-testing-deb-2-8-ui/2943)|[CLI](/t/network-testing-deb-2-9-cli/2944) ~ [UI](/t/network-testing-deb-2-9-ui/2945)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/network-testing-snap-2-7-cli/2934) ~ [UI](/t/network-testing-snap-2-7-ui/2935)|[CLI](/t/network-testing-snap-2-8-cli/2936) ~ [UI](/t/network-testing-snap-2-8-ui/2937)|[CLI](/t/network-testing-snap-2-9-cli/2938) ~ [UI](/t/network-testing-snap-2-9-ui/2939)|
-|Packages|[CLI](/t/network-testing-deb-2-7-cli/2940) ~ [UI](/t/network-testing-deb-2-7-ui/2941)||**CLI** ~ [UI](/t/network-testing-deb-2-8-ui/2943)|[CLI](/t/network-testing-deb-2-9-cli/2944) ~ [UI](/t/network-testing-deb-2-9-ui/2945)|
+|Packages|[CLI](/t/network-testing-deb-2-7-cli/2940) ~ [UI](/t/network-testing-deb-2-7-ui/2941)|CLI ~ [UI](/t/network-testing-deb-2-8-ui/2943)|[CLI](/t/network-testing-deb-2-9-cli/2944) ~ [UI](/t/network-testing-deb-2-9-ui/2945)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/network-testing-snap-2-7-cli/2934) ~ [UI](/t/network-testing-snap-2-7-ui/2935)|[CLI](/t/network-testing-snap-2-8-cli/2936) ~ [UI](/t/network-testing-snap-2-8-ui/2937)|[CLI](/t/network-testing-snap-2-9-cli/2938) ~ [UI](/t/network-testing-snap-2-9-ui/2939)|
-|Packages|[CLI](/t/network-testing-deb-2-7-cli/2940) ~ [UI](/t/network-testing-deb-2-7-ui/2941)|[CLI](/t/network-testing-deb-2-8-cli/2942) ~ |**UI**|[CLI](/t/network-testing-deb-2-9-cli/2944) ~ [UI](/t/network-testing-deb-2-9-ui/2945)|
+|Packages|[CLI](/t/network-testing-deb-2-7-cli/2940) ~ [UI](/t/network-testing-deb-2-7-ui/2941)|[CLI](/t/network-testing-deb-2-8-cli/2942) ~ UI|[CLI](/t/network-testing-deb-2-9-cli/2944) ~ [UI](/t/network-testing-deb-2-9-ui/2945)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/network-testing-snap-2-7-cli/2934) ~ [UI](/t/network-testing-snap-2-7-ui/2935)|[CLI](/t/network-testing-snap-2-8-cli/2936) ~ [UI](/t/network-testing-snap-2-8-ui/2937)|[CLI](/t/network-testing-snap-2-9-cli/2938) ~ [UI](/t/network-testing-snap-2-9-ui/2939)|
-|Packages|[CLI](/t/network-testing-deb-2-7-cli/2940) ~ [UI](/t/network-testing-deb-2-7-ui/2941)|[CLI](/t/network-testing-deb-2-8-cli/2942) ~ [UI](/t/network-testing-deb-2-8-ui/2943)||**CLI** ~ [UI](/t/network-testing-deb-2-9-ui/2945)|
+|Packages|[CLI](/t/network-testing-deb-2-7-cli/2940) ~ [UI](/t/network-testing-deb-2-7-ui/2941)|[CLI](/t/network-testing-deb-2-8-cli/2942) ~ [UI](/t/network-testing-deb-2-8-ui/2943)|CLI ~ [UI](/t/network-testing-deb-2-9-ui/2945)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/network-testing-snap-2-7-cli/2934) ~ [UI](/t/network-testing-snap-2-7-ui/2935)|[CLI](/t/network-testing-snap-2-8-cli/2936) ~ [UI](/t/network-testing-snap-2-8-ui/2937)|[CLI](/t/network-testing-snap-2-9-cli/2938) ~ [UI](/t/network-testing-snap-2-9-ui/2939)|
-|Packages|[CLI](/t/network-testing-deb-2-7-cli/2940) ~ [UI](/t/network-testing-deb-2-7-ui/2941)|[CLI](/t/network-testing-deb-2-8-cli/2942) ~ [UI](/t/network-testing-deb-2-8-ui/2943)|[CLI](/t/network-testing-deb-2-9-cli/2944) ~ |**UI**|
+|Packages|[CLI](/t/network-testing-deb-2-7-cli/2940) ~ [UI](/t/network-testing-deb-2-7-ui/2941)|[CLI](/t/network-testing-deb-2-8-cli/2942) ~ [UI](/t/network-testing-deb-2-8-ui/2943)|[CLI](/t/network-testing-deb-2-9-cli/2944) ~ UI|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|**CLI** ~ [UI](/t/network-testing-snap-2-7-ui/2935)|[CLI](/t/network-testing-snap-2-8-cli/2936) ~ [UI](/t/network-testing-snap-2-8-ui/2937)|[CLI](/t/network-testing-snap-2-9-cli/2938) ~ [UI](/t/network-testing-snap-2-9-ui/2939)|
+|Snap|CLI ~ [UI](/t/network-testing-snap-2-7-ui/2935)|[CLI](/t/network-testing-snap-2-8-cli/2936) ~ [UI](/t/network-testing-snap-2-8-ui/2937)|[CLI](/t/network-testing-snap-2-9-cli/2938) ~ [UI](/t/network-testing-snap-2-9-ui/2939)|
 |Packages|[CLI](/t/network-testing-deb-2-7-cli/2940) ~ [UI](/t/network-testing-deb-2-7-ui/2941)|[CLI](/t/network-testing-deb-2-8-cli/2942) ~ [UI](/t/network-testing-deb-2-8-ui/2943)|[CLI](/t/network-testing-deb-2-9-cli/2944) ~ [UI](/t/network-testing-deb-2-9-ui/2945)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/network-testing-snap-2-7-cli/2934) ~ |**UI**|[CLI](/t/network-testing-snap-2-8-cli/2936) ~ [UI](/t/network-testing-snap-2-8-ui/2937)|[CLI](/t/network-testing-snap-2-9-cli/2938) ~ [UI](/t/network-testing-snap-2-9-ui/2939)|
+|Snap|[CLI](/t/network-testing-snap-2-7-cli/2934) ~ UI|[CLI](/t/network-testing-snap-2-8-cli/2936) ~ [UI](/t/network-testing-snap-2-8-ui/2937)|[CLI](/t/network-testing-snap-2-9-cli/2938) ~ [UI](/t/network-testing-snap-2-9-ui/2939)|
 |Packages|[CLI](/t/network-testing-deb-2-7-cli/2940) ~ [UI](/t/network-testing-deb-2-7-ui/2941)|[CLI](/t/network-testing-deb-2-8-cli/2942) ~ [UI](/t/network-testing-deb-2-8-ui/2943)|[CLI](/t/network-testing-deb-2-9-cli/2944) ~ [UI](/t/network-testing-deb-2-9-ui/2945)|
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/network-testing-snap-2-7-cli/2934) ~ [UI](/t/network-testing-snap-2-7-ui/2935)||**CLI** ~ [UI](/t/network-testing-snap-2-8-ui/2937)|[CLI](/t/network-testing-snap-2-9-cli/2938) ~ [UI](/t/network-testing-snap-2-9-ui/2939)|
+|Snap|[CLI](/t/network-testing-snap-2-7-cli/2934) ~ [UI](/t/network-testing-snap-2-7-ui/2935)|CLI ~ [UI](/t/network-testing-snap-2-8-ui/2937)|[CLI](/t/network-testing-snap-2-9-cli/2938) ~ [UI](/t/network-testing-snap-2-9-ui/2939)|
 |Packages|[CLI](/t/network-testing-deb-2-7-cli/2940) ~ [UI](/t/network-testing-deb-2-7-ui/2941)|[CLI](/t/network-testing-deb-2-8-cli/2942) ~ [UI](/t/network-testing-deb-2-8-ui/2943)|[CLI](/t/network-testing-deb-2-9-cli/2944) ~ [UI](/t/network-testing-deb-2-9-ui/2945)|
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/network-testing-snap-2-7-cli/2934) ~ [UI](/t/network-testing-snap-2-7-ui/2935)|[CLI](/t/network-testing-snap-2-8-cli/2936) ~ |**UI**|[CLI](/t/network-testing-snap-2-9-cli/2938) ~ [UI](/t/network-testing-snap-2-9-ui/2939)|
+|Snap|[CLI](/t/network-testing-snap-2-7-cli/2934) ~ [UI](/t/network-testing-snap-2-7-ui/2935)|[CLI](/t/network-testing-snap-2-8-cli/2936) ~ UI|[CLI](/t/network-testing-snap-2-9-cli/2938) ~ [UI](/t/network-testing-snap-2-9-ui/2939)|
 |Packages|[CLI](/t/network-testing-deb-2-7-cli/2940) ~ [UI](/t/network-testing-deb-2-7-ui/2941)|[CLI](/t/network-testing-deb-2-8-cli/2942) ~ [UI](/t/network-testing-deb-2-8-ui/2943)|[CLI](/t/network-testing-deb-2-9-cli/2944) ~ [UI](/t/network-testing-deb-2-9-ui/2945)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/network-testing-snap-2-7-cli/2934) ~ [UI](/t/network-testing-snap-2-7-ui/2935)|[CLI](/t/network-testing-snap-2-8-cli/2936) ~ [UI](/t/network-testing-snap-2-8-ui/2937)||**CLI** ~ [UI](/t/network-testing-snap-2-9-ui/2939)|
+|Snap|[CLI](/t/network-testing-snap-2-7-cli/2934) ~ [UI](/t/network-testing-snap-2-7-ui/2935)|[CLI](/t/network-testing-snap-2-8-cli/2936) ~ [UI](/t/network-testing-snap-2-8-ui/2937)|CLI ~ [UI](/t/network-testing-snap-2-9-ui/2939)|
 |Packages|[CLI](/t/network-testing-deb-2-7-cli/2940) ~ [UI](/t/network-testing-deb-2-7-ui/2941)|[CLI](/t/network-testing-deb-2-8-cli/2942) ~ [UI](/t/network-testing-deb-2-8-ui/2943)|[CLI](/t/network-testing-deb-2-9-cli/2944) ~ [UI](/t/network-testing-deb-2-9-ui/2945)|
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/network-testing-snap-2-7-cli/2934) ~ [UI](/t/network-testing-snap-2-7-ui/2935)|[CLI](/t/network-testing-snap-2-8-cli/2936) ~ [UI](/t/network-testing-snap-2-8-ui/2937)|[CLI](/t/network-testing-snap-2-9-cli/2938) ~ |**UI**|
+|Snap|[CLI](/t/network-testing-snap-2-7-cli/2934) ~ [UI](/t/network-testing-snap-2-7-ui/2935)|[CLI](/t/network-testing-snap-2-8-cli/2936) ~ [UI](/t/network-testing-snap-2-8-ui/2937)|[CLI](/t/network-testing-snap-2-9-cli/2938) ~ UI|
 |Packages|[CLI](/t/network-testing-deb-2-7-cli/2940) ~ [UI](/t/network-testing-deb-2-7-ui/2941)|[CLI](/t/network-testing-deb-2-8-cli/2942) ~ [UI](/t/network-testing-deb-2-8-ui/2943)|[CLI](/t/network-testing-deb-2-9-cli/2944) ~ [UI](/t/network-testing-deb-2-9-ui/2945)|
  snap-2-9-ui -->
 
@@ -88,10 +88,10 @@ Network testing also includes customisable network testing and commissioning scr
 
 #### Quick questions you may have:
 
-* [How do I use network link testing?](/t/network-testing/1267#heading--network-link-testing)
-* [How can I detect slow network links?](/t/network-testing/1267#heading--slow-link-detection)
-* [How do I use network validation and testing scripts?](/t/network-testing/1267#heading--network-validation-scripts-and-testing)
-* [How can I customise network testing?](/t/network-testing/1267#heading--customisable-network-testing)
+* [How do I use network link testing?](#heading--network-link-testing)
+* [How can I detect slow network links?](#heading--slow-link-detection)
+* [How do I use network validation and testing scripts?](#heading--network-validation-scripts-and-testing)
+* [How can I customise network testing?](#heading--customisable-network-testing)
 
 <h2 id="heading--network-link-testing">Network link testing</h2>
 

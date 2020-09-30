@@ -1,102 +1,100 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/machines-snap-2-7-cli/2730) ~ [UI](/t/machines-snap-2-7-ui/2731)|[CLI](/t/machines-snap-2-8-cli/2732) ~ [UI](/t/machines-snap-2-8-ui/2733)|[CLI](/t/machines-snap-2-9-cli/2734) ~ [UI](/t/machines-snap-2-9-ui/2735)|
+|Packages|CLI ~ [UI](/t/machines-deb-2-7-ui/2737)|[CLI](/t/machines-deb-2-8-cli/2738) ~ [UI](/t/machines-deb-2-8-ui/2739)|[CLI](/t/machines-deb-2-9-cli/2740) ~ [UI](/t/machines-deb-2-9-ui/2741)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/machines-snap-2-7-cli/2730) ~ [UI](/t/machines-snap-2-7-ui/2731)|[CLI](/t/machines-snap-2-8-cli/2732) ~ [UI](/t/machines-snap-2-8-ui/2733)|[CLI](/t/machines-snap-2-9-cli/2734) ~ [UI](/t/machines-snap-2-9-ui/2735)|
+|Packages|[CLI](/t/machines-deb-2-7-cli/2736) ~ UI|[CLI](/t/machines-deb-2-8-cli/2738) ~ [UI](/t/machines-deb-2-8-ui/2739)|[CLI](/t/machines-deb-2-9-cli/2740) ~ [UI](/t/machines-deb-2-9-ui/2741)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/machines-snap-2-7-cli/2730) ~ [UI](/t/machines-snap-2-7-ui/2731)|[CLI](/t/machines-snap-2-8-cli/2732) ~ [UI](/t/machines-snap-2-8-ui/2733)|[CLI](/t/machines-snap-2-9-cli/2734) ~ [UI](/t/machines-snap-2-9-ui/2735)|
+|Packages|[CLI](/t/machines-deb-2-7-cli/2736) ~ [UI](/t/machines-deb-2-7-ui/2737)|CLI ~ [UI](/t/machines-deb-2-8-ui/2739)|[CLI](/t/machines-deb-2-9-cli/2740) ~ [UI](/t/machines-deb-2-9-ui/2741)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/machines-snap-2-7-cli/2730) ~ [UI](/t/machines-snap-2-7-ui/2731)|[CLI](/t/machines-snap-2-8-cli/2732) ~ [UI](/t/machines-snap-2-8-ui/2733)|[CLI](/t/machines-snap-2-9-cli/2734) ~ [UI](/t/machines-snap-2-9-ui/2735)|
+|Packages|[CLI](/t/machines-deb-2-7-cli/2736) ~ [UI](/t/machines-deb-2-7-ui/2737)|[CLI](/t/machines-deb-2-8-cli/2738) ~ UI|[CLI](/t/machines-deb-2-9-cli/2740) ~ [UI](/t/machines-deb-2-9-ui/2741)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/machines-snap-2-7-cli/2730) ~ [UI](/t/machines-snap-2-7-ui/2731)|[CLI](/t/machines-snap-2-8-cli/2732) ~ [UI](/t/machines-snap-2-8-ui/2733)|[CLI](/t/machines-snap-2-9-cli/2734) ~ [UI](/t/machines-snap-2-9-ui/2735)|
+|Packages|[CLI](/t/machines-deb-2-7-cli/2736) ~ [UI](/t/machines-deb-2-7-ui/2737)|[CLI](/t/machines-deb-2-8-cli/2738) ~ [UI](/t/machines-deb-2-8-ui/2739)|CLI ~ [UI](/t/machines-deb-2-9-ui/2741)|
+ deb-2-9-cli -->
 
-<!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/machines-snap-2-7-cli/2730) ~ [UI](/t/machines-snap-2-7-ui/2731)|[CLI](/t/machines-snap-2-8-cli/2732) ~ [UI](/t/machines-snap-2-8-ui/2733)|[CLI](/t/machines-snap-2-9-cli/2734) ~ [UI](/t/machines-snap-2-9-ui/2735)|
+|Packages|[CLI](/t/machines-deb-2-7-cli/2736) ~ [UI](/t/machines-deb-2-7-ui/2737)|[CLI](/t/machines-deb-2-8-cli/2738) ~ [UI](/t/machines-deb-2-8-ui/2739)|[CLI](/t/machines-deb-2-9-cli/2740) ~ UI|
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|CLI ~ [UI](/t/machines-snap-2-7-ui/2731)|[CLI](/t/machines-snap-2-8-cli/2732) ~ [UI](/t/machines-snap-2-8-ui/2733)|[CLI](/t/machines-snap-2-9-cli/2734) ~ [UI](/t/machines-snap-2-9-ui/2735)|
+|Packages|[CLI](/t/machines-deb-2-7-cli/2736) ~ [UI](/t/machines-deb-2-7-ui/2737)|[CLI](/t/machines-deb-2-8-cli/2738) ~ [UI](/t/machines-deb-2-8-ui/2739)|[CLI](/t/machines-deb-2-9-cli/2740) ~ [UI](/t/machines-deb-2-9-ui/2741)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/machines-snap-2-7-cli/2730) ~ UI|[CLI](/t/machines-snap-2-8-cli/2732) ~ [UI](/t/machines-snap-2-8-ui/2733)|[CLI](/t/machines-snap-2-9-cli/2734) ~ [UI](/t/machines-snap-2-9-ui/2735)|
+|Packages|[CLI](/t/machines-deb-2-7-cli/2736) ~ [UI](/t/machines-deb-2-7-ui/2737)|[CLI](/t/machines-deb-2-8-cli/2738) ~ [UI](/t/machines-deb-2-8-ui/2739)|[CLI](/t/machines-deb-2-9-cli/2740) ~ [UI](/t/machines-deb-2-9-ui/2741)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/machines-snap-2-7-cli/2730) ~ [UI](/t/machines-snap-2-7-ui/2731)|CLI ~ [UI](/t/machines-snap-2-8-ui/2733)|[CLI](/t/machines-snap-2-9-cli/2734) ~ [UI](/t/machines-snap-2-9-ui/2735)|
+|Packages|[CLI](/t/machines-deb-2-7-cli/2736) ~ [UI](/t/machines-deb-2-7-ui/2737)|[CLI](/t/machines-deb-2-8-cli/2738) ~ [UI](/t/machines-deb-2-8-ui/2739)|[CLI](/t/machines-deb-2-9-cli/2740) ~ [UI](/t/machines-deb-2-9-ui/2741)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/machines-snap-2-7-cli/2730) ~ [UI](/t/machines-snap-2-7-ui/2731)|[CLI](/t/machines-snap-2-8-cli/2732) ~ UI|[CLI](/t/machines-snap-2-9-cli/2734) ~ [UI](/t/machines-snap-2-9-ui/2735)|
+|Packages|[CLI](/t/machines-deb-2-7-cli/2736) ~ [UI](/t/machines-deb-2-7-ui/2737)|[CLI](/t/machines-deb-2-8-cli/2738) ~ [UI](/t/machines-deb-2-8-ui/2739)|[CLI](/t/machines-deb-2-9-cli/2740) ~ [UI](/t/machines-deb-2-9-ui/2741)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/machines-snap-2-7-cli/2730) ~ [UI](/t/machines-snap-2-7-ui/2731)|[CLI](/t/machines-snap-2-8-cli/2732) ~ [UI](/t/machines-snap-2-8-ui/2733)|CLI ~ [UI](/t/machines-snap-2-9-ui/2735)|
+|Packages|[CLI](/t/machines-deb-2-7-cli/2736) ~ [UI](/t/machines-deb-2-7-ui/2737)|[CLI](/t/machines-deb-2-8-cli/2738) ~ [UI](/t/machines-deb-2-8-ui/2739)|[CLI](/t/machines-deb-2-9-cli/2740) ~ [UI](/t/machines-deb-2-9-ui/2741)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/machines-snap-2-7-cli/2730) ~ [UI](/t/machines-snap-2-7-ui/2731)|[CLI](/t/machines-snap-2-8-cli/2732) ~ [UI](/t/machines-snap-2-8-ui/2733)|[CLI](/t/machines-snap-2-9-cli/2734) ~ UI|
+|Packages|[CLI](/t/machines-deb-2-7-cli/2736) ~ [UI](/t/machines-deb-2-7-ui/2737)|[CLI](/t/machines-deb-2-8-cli/2738) ~ [UI](/t/machines-deb-2-8-ui/2739)|[CLI](/t/machines-deb-2-9-cli/2740) ~ [UI](/t/machines-deb-2-9-ui/2741)|
+ snap-2-9-ui -->
 
 Machines are the heart of MAAS. They are the backbone of your data centre application(s), providing the functions that are relevant to your customers. MAAS manages their transit through a life-cycle, from adding and enlistment, through commissioning, allocation, and deployment, finally being released back to the pool, or retired altogether.  You can move them around, create redundant versions (even in other geographies you can access), and basically rearrange them to the extent that your network allows.
 
 #### Quick questions you may have:
 
-* [How are the machine states and actions related?](/t/introduction-to-machines/829#heading--machine-life-cycle)
-* [How can I view the machine list?](/t/introduction-to-machines/829#heading--machine-list)
-* [How can I view a machine summary?](/t/introduction-to-machines/829#heading--machine-summary) 
-* [How can I view machine details?](/t/introduction-to-machines/829#heading--node-details)
-* [Where can I find network info for a machine?](/t/introduction-to-machines/829#heading--machine-interfaces-h3)
-* [Where can I find storage info for a machine?](/t/introduction-to-machines/829#heading--machine-storage-h3)
-* [Where can I find the commissioning log for a machine?](/t/introduction-to-machines/829#heading--commissioning-log-h3)
-* [Where can I find machine hardware & test logs?](/t/introduction-to-machines/829#heading--hardware-tests-h3)
-* [Where can I find raw log output for a machine?](/t/introduction-to-machines/829#heading--raw-log-output-h3)
-* [Where can I find a machine's event log?](/t/introduction-to-machines/829#heading--event-logs-h3)
-* [Where can I find machine configuration info?](/t/introduction-to-machines/829#heading--machine-config-h3)
+* [How are the machine states and actions related?](#heading--machine-life-cycle)
+* [How can I view the machine list?](#heading--machine-list)
+* [How can I view a machine summary?](#heading--machine-summary) 
+* [How can I view machine details?](#heading--node-details)
+* [Where can I find network info for a machine?](#heading--machine-interfaces-h3)
+* [Where can I find storage info for a machine?](#heading--machine-storage-h3)
+* [Where can I find the commissioning log for a machine?](#heading--commissioning-log-h3)
+* [Where can I find machine hardware & test logs?](#heading--hardware-tests-h3)
+* [Where can I find raw log output for a machine?](#heading--raw-log-output-h3)
+* [Where can I find a machine's event log?](#heading--event-logs-h3)
+* [Where can I find machine configuration info?](#heading--machine-config-h3)
 
 For example, in the illustration below, you see a typical small hospital data centre, including servers ready and allocated for functions like Pharmacy, Orders, Charts, and so on:
 
@@ -236,7 +234,51 @@ And you can watch the results under the "Tests" option in the Machine menu:
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/89d287347928d6adb039ca582d4a94c3b54588e1.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/89d287347928d6adb039ca582d4a94c3b54588e1.jpeg"></a> 
 
-The rest of the cards on the Machine summary are either self-explanatory, or they're covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu's "Machines" option.  Incidentally, you can learn more about testing by visiting the [Hardware testing](/t/hardware-testing/826) page.
+<!-- deb-2-7-cli
+The rest of the cards on the Machine summary are either self-explanatory, or they're covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu's "Machines" option.  Incidentally, you can learn more about testing by visiting the [Hardware testing](/t/hardware-testing/2676) page.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+The rest of the cards on the Machine summary are either self-explanatory, or they're covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu's "Machines" option.  Incidentally, you can learn more about testing by visiting the [Hardware testing](/t/hardware-testing/2677) page.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+The rest of the cards on the Machine summary are either self-explanatory, or they're covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu's "Machines" option.  Incidentally, you can learn more about testing by visiting the [Hardware testing](/t/hardware-testing/2678) page.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+The rest of the cards on the Machine summary are either self-explanatory, or they're covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu's "Machines" option.  Incidentally, you can learn more about testing by visiting the [Hardware testing](/t/hardware-testing/2679) page.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+The rest of the cards on the Machine summary are either self-explanatory, or they're covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu's "Machines" option.  Incidentally, you can learn more about testing by visiting the [Hardware testing](/t/hardware-testing/2680) page.
+ deb-2-9-cli -->
+
+The rest of the cards on the Machine summary are either self-explanatory, or they're covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu's "Machines" option.  Incidentally, you can learn more about testing by visiting the [Hardware testing](/t/hardware-testing/2681) page.
+
+<!-- snap-2-7-cli
+The rest of the cards on the Machine summary are either self-explanatory, or they're covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu's "Machines" option.  Incidentally, you can learn more about testing by visiting the [Hardware testing](/t/hardware-testing/2670) page.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+The rest of the cards on the Machine summary are either self-explanatory, or they're covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu's "Machines" option.  Incidentally, you can learn more about testing by visiting the [Hardware testing](/t/hardware-testing/2671) page.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+The rest of the cards on the Machine summary are either self-explanatory, or they're covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu's "Machines" option.  Incidentally, you can learn more about testing by visiting the [Hardware testing](/t/hardware-testing/2672) page.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+The rest of the cards on the Machine summary are either self-explanatory, or they're covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu's "Machines" option.  Incidentally, you can learn more about testing by visiting the [Hardware testing](/t/hardware-testing/2673) page.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+The rest of the cards on the Machine summary are either self-explanatory, or they're covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu's "Machines" option.  Incidentally, you can learn more about testing by visiting the [Hardware testing](/t/hardware-testing/2674) page.
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+The rest of the cards on the Machine summary are either self-explanatory, or they're covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu's "Machines" option.  Incidentally, you can learn more about testing by visiting the [Hardware testing](/t/hardware-testing/2675) page.
+ snap-2-9-ui -->
 
 <h3 id="heading--machine-interfaces-h3">Find network info for a machine</h3>
 
@@ -248,7 +290,52 @@ In the case of this deployed machine, there are not many editing options.  If th
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/01d53759105647d71786154e99ff210f8c71d2e7.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/01d53759105647d71786154e99ff210f8c71d2e7.jpeg"></a> 
 
-Options on this tab are described in the introduction to [Networking](/t/networking/768) article in this documentation set.
+<!-- deb-2-7-cli
+Options on this tab are described in the introduction to [Networking](/t/networking/2952) article in this documentation set.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+Options on this tab are described in the introduction to [Networking](/t/networking/2953) article in this documentation set.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+Options on this tab are described in the introduction to [Networking](/t/networking/2954) article in this documentation set.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+Options on this tab are described in the introduction to [Networking](/t/networking/2955) article in this documentation set.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+Options on this tab are described in the introduction to [Networking](/t/networking/2956) article in this documentation set.
+ deb-2-9-cli -->
+
+Options on this tab are described in the introduction to [Networking](/t/networking/2957) article in this documentation set.
+
+<!-- snap-2-7-cli
+Options on this tab are described in the introduction to [Networking](/t/networking/2946) article in this documentation set.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+Options on this tab are described in the introduction to [Networking](/t/networking/2947) article in this documentation set.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+Options on this tab are described in the introduction to [Networking](/t/networking/2948) article in this documentation set.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+Options on this tab are described in the introduction to [Networking](/t/networking/2949) article in this documentation set.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+Options on this tab are described in the introduction to [Networking](/t/networking/2950) article in this documentation set.
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+Options on this tab are described in the introduction to [Networking](/t/networking/2951) article in this documentation set.
+ snap-2-9-ui -->
+
 
 <h3 id="heading--machine-storage-h3">Find storage info for a machine</h3>
 
@@ -256,7 +343,51 @@ The Storage tab on the machine list brings up a form that allows you to view/edi
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/9dc30aedf5ed173bb7b474910fa9939f7f066c95.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/9dc30aedf5ed173bb7b474910fa9939f7f066c95.jpeg"></a> 
 
-This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article [Storage](/t/storage/775) for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.
+<!-- deb-2-7-cli
+This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article [Storage](/t/storage/3108) for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article [Storage](/t/storage/3109) for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article [Storage](/t/storage/3110) for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article [Storage](/t/storage/3111) for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article [Storage](/t/storage/3112) for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.
+ deb-2-9-cli -->
+
+This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article [Storage](/t/storage/3113) for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.
+
+<!-- snap-2-7-cli
+This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article [Storage](/t/storage/3102) for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article [Storage](/t/storage/3103) for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article [Storage](/t/storage/3104) for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article [Storage](/t/storage/3105) for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article [Storage](/t/storage/3106) for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article [Storage](/t/storage/3107) for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.
+ snap-2-9-ui -->
 
 <h3 id="heading--commissioning-log-h3">Find the commissioning log for you</h3>
 
@@ -268,7 +399,51 @@ Clicking on any of the "View log" links will take you to specific, detailed logs
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/13fce404b9bb304e08a7c5de5a395c514e98b9b0.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/13fce404b9bb304e08a7c5de5a395c514e98b9b0.jpeg"></a> 
 
-These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on [Logging](/t/maas-logging/1468) for more details on how to read and interpret these logs.
+<!-- deb-2-7-cli
+These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on [Logging](/t/maas-logging/2868) for more details on how to read and interpret these logs.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on [Logging](/t/maas-logging/2869) for more details on how to read and interpret these logs.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on [Logging](/t/maas-logging/2870) for more details on how to read and interpret these logs.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on [Logging](/t/maas-logging/2871) for more details on how to read and interpret these logs.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on [Logging](/t/maas-logging/2872) for more details on how to read and interpret these logs.
+ deb-2-9-cli -->
+
+These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on [Logging](/t/maas-logging/2873) for more details on how to read and interpret these logs.
+
+<!-- snap-2-7-cli
+These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on [Logging](/t/maas-logging/2862) for more details on how to read and interpret these logs.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on [Logging](/t/maas-logging/2863) for more details on how to read and interpret these logs.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on [Logging](/t/maas-logging/2864) for more details on how to read and interpret these logs.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on [Logging](/t/maas-logging/2865) for more details on how to read and interpret these logs.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on [Logging](/t/maas-logging/2866) for more details on how to read and interpret these logs.
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on [Logging](/t/maas-logging/2867) for more details on how to read and interpret these logs.
+ snap-2-9-ui -->
 
 <h3 id="heading--hardware-tests-h3">Find machine hardware & test logs</h3>
 
@@ -280,7 +455,51 @@ You can view the summary report, or click on a "View log" link to get details on
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/8113eba28a3f08279ff2b5f7593e30db05d00824.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/8113eba28a3f08279ff2b5f7593e30db05d00824.jpeg"></a> 
 
-The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on [Hardware testing](/t/hardware-testing/826).
+<!-- deb-2-7-cli
+The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on [Hardware testing](/t/hardware-testing/2676).
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on [Hardware testing](/t/hardware-testing/2677).
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on [Hardware testing](/t/hardware-testing/2678).
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on [Hardware testing](/t/hardware-testing/2679).
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on [Hardware testing](/t/hardware-testing/2680).
+ deb-2-9-cli -->
+
+The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on [Hardware testing](/t/hardware-testing/2681).
+
+<!-- snap-2-7-cli
+The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on [Hardware testing](/t/hardware-testing/2670).
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on [Hardware testing](/t/hardware-testing/2671).
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on [Hardware testing](/t/hardware-testing/2672).
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on [Hardware testing](/t/hardware-testing/2673).
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on [Hardware testing](/t/hardware-testing/2674).
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on [Hardware testing](/t/hardware-testing/2675).
+ snap-2-9-ui -->
 
 <h3 id="heading--raw-log-output-h3">Find raw log output for a machine</h3>
 
@@ -288,7 +507,51 @@ The "Logs" tab shows raw log output, switchable between YAML and XML formats:
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/02b4bc35c8985fe0b954d8deb0afba18866cfe66.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/02b4bc35c8985fe0b954d8deb0afba18866cfe66.jpeg"></a> 
 
-Help interpreting these logs can be found under the [Logging](/t/maas-logging/1468) section of this documentation.
+<!-- deb-2-7-cli
+Help interpreting these logs can be found under the [Logging](/t/maas-logging/2868) section of this documentation.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+Help interpreting these logs can be found under the [Logging](/t/maas-logging/2869) section of this documentation.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+Help interpreting these logs can be found under the [Logging](/t/maas-logging/2870) section of this documentation.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+Help interpreting these logs can be found under the [Logging](/t/maas-logging/2871) section of this documentation.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+Help interpreting these logs can be found under the [Logging](/t/maas-logging/2872) section of this documentation.
+ deb-2-9-cli -->
+
+Help interpreting these logs can be found under the [Logging](/t/maas-logging/2873) section of this documentation.
+
+<!-- snap-2-7-cli
+Help interpreting these logs can be found under the [Logging](/t/maas-logging/2862) section of this documentation.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+Help interpreting these logs can be found under the [Logging](/t/maas-logging/2863) section of this documentation.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+Help interpreting these logs can be found under the [Logging](/t/maas-logging/2864) section of this documentation.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+Help interpreting these logs can be found under the [Logging](/t/maas-logging/2865) section of this documentation.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+Help interpreting these logs can be found under the [Logging](/t/maas-logging/2866) section of this documentation.
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+Help interpreting these logs can be found under the [Logging](/t/maas-logging/2867) section of this documentation.
+ snap-2-9-ui -->
 
 <h3 id="heading--event-logs-h3">Find a machine's event logs</h3>
 
@@ -296,7 +559,51 @@ The "Event" tab displays a list ot timestamped status updates for events and act
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/114ada7188f8ebf12883a54c0976ad8abda1d211.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/114ada7188f8ebf12883a54c0976ad8abda1d211.jpeg"></a> 
 
-There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the [Logging](/t/maas-logging/1468) section of this documentation.
+<!-- deb-2-7-cli
+There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the [Logging](/t/maas-logging/2868) section of this documentation.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the [Logging](/t/maas-logging/2869) section of this documentation.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the [Logging](/t/maas-logging/2870) section of this documentation.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the [Logging](/t/maas-logging/2871) section of this documentation.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the [Logging](/t/maas-logging/2872) section of this documentation.
+ deb-2-9-cli -->
+
+There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the [Logging](/t/maas-logging/2873) section of this documentation.
+
+<!-- snap-2-7-cli
+There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the [Logging](/t/maas-logging/2862) section of this documentation.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the [Logging](/t/maas-logging/2863) section of this documentation.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the [Logging](/t/maas-logging/2864) section of this documentation.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the [Logging](/t/maas-logging/2865) section of this documentation.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the [Logging](/t/maas-logging/2866) section of this documentation.
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the [Logging](/t/maas-logging/2867) section of this documentation.
+ snap-2-9-ui -->
 
 <h3 id="heading--machine-config-h3">Find machine configuration info</h3>
 
@@ -313,7 +620,51 @@ After entering the correct password and recycling things, the problem goes away:
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/635e27e87bcac0c3cb3ce3085bd2fa55f60ff137.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/635e27e87bcac0c3cb3ce3085bd2fa55f60ff137.jpeg"></a> 
 
-More information on Power configuration will be found in the [Power management](/t/power-management/830) section of this documentation.
+<!-- deb-2-7-cli
+More information on Power configuration will be found in the [Power management](/t/power-management/3012) section of this documentation.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+More information on Power configuration will be found in the [Power management](/t/power-management/3013) section of this documentation.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+More information on Power configuration will be found in the [Power management](/t/power-management/3014) section of this documentation.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+More information on Power configuration will be found in the [Power management](/t/power-management/3015) section of this documentation.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+More information on Power configuration will be found in the [Power management](/t/power-management/3016) section of this documentation.
+ deb-2-9-cli -->
+
+More information on Power configuration will be found in the [Power management](/t/power-management/3017) section of this documentation.
+
+<!-- snap-2-7-cli
+More information on Power configuration will be found in the [Power management](/t/power-management/3006) section of this documentation.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+More information on Power configuration will be found in the [Power management](/t/power-management/3007) section of this documentation.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+More information on Power configuration will be found in the [Power management](/t/power-management/3008) section of this documentation.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+More information on Power configuration will be found in the [Power management](/t/power-management/3009) section of this documentation.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+More information on Power configuration will be found in the [Power management](/t/power-management/3010) section of this documentation.
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+More information on Power configuration will be found in the [Power management](/t/power-management/3011) section of this documentation.
+ snap-2-9-ui -->
 
 <h2>Summary</h2>
 

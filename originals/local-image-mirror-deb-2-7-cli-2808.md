@@ -1,94 +1,158 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
-<!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/local-image-mirror-snap-2-7-cli/2802) ~ [UI](/t/local-image-mirror-snap-2-7-ui/2803)|[CLI](/t/local-image-mirror-snap-2-8-cli/2804) ~ [UI](/t/local-image-mirror-snap-2-8-ui/2805)|[CLI](/t/local-image-mirror-snap-2-9-cli/2806) ~ [UI](/t/local-image-mirror-snap-2-9-ui/2807)|
+|Packages|CLI ~ [UI](/t/local-image-mirror-deb-2-7-ui/2809)|[CLI](/t/local-image-mirror-deb-2-8-cli/2810) ~ [UI](/t/local-image-mirror-deb-2-8-ui/2811)|[CLI](/t/local-image-mirror-deb-2-9-cli/2812) ~ [UI](/t/local-image-mirror-deb-2-9-ui/2813)|
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/local-image-mirror-snap-2-7-cli/2802) ~ [UI](/t/local-image-mirror-snap-2-7-ui/2803)|[CLI](/t/local-image-mirror-snap-2-8-cli/2804) ~ [UI](/t/local-image-mirror-snap-2-8-ui/2805)|[CLI](/t/local-image-mirror-snap-2-9-cli/2806) ~ [UI](/t/local-image-mirror-snap-2-9-ui/2807)|
+|Packages|[CLI](/t/local-image-mirror-deb-2-7-cli/2808) ~ UI|[CLI](/t/local-image-mirror-deb-2-8-cli/2810) ~ [UI](/t/local-image-mirror-deb-2-8-ui/2811)|[CLI](/t/local-image-mirror-deb-2-9-cli/2812) ~ [UI](/t/local-image-mirror-deb-2-9-ui/2813)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/local-image-mirror-snap-2-7-cli/2802) ~ [UI](/t/local-image-mirror-snap-2-7-ui/2803)|[CLI](/t/local-image-mirror-snap-2-8-cli/2804) ~ [UI](/t/local-image-mirror-snap-2-8-ui/2805)|[CLI](/t/local-image-mirror-snap-2-9-cli/2806) ~ [UI](/t/local-image-mirror-snap-2-9-ui/2807)|
+|Packages|[CLI](/t/local-image-mirror-deb-2-7-cli/2808) ~ [UI](/t/local-image-mirror-deb-2-7-ui/2809)|CLI ~ [UI](/t/local-image-mirror-deb-2-8-ui/2811)|[CLI](/t/local-image-mirror-deb-2-9-cli/2812) ~ [UI](/t/local-image-mirror-deb-2-9-ui/2813)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/local-image-mirror-snap-2-7-cli/2802) ~ [UI](/t/local-image-mirror-snap-2-7-ui/2803)|[CLI](/t/local-image-mirror-snap-2-8-cli/2804) ~ [UI](/t/local-image-mirror-snap-2-8-ui/2805)|[CLI](/t/local-image-mirror-snap-2-9-cli/2806) ~ [UI](/t/local-image-mirror-snap-2-9-ui/2807)|
+|Packages|[CLI](/t/local-image-mirror-deb-2-7-cli/2808) ~ [UI](/t/local-image-mirror-deb-2-7-ui/2809)|[CLI](/t/local-image-mirror-deb-2-8-cli/2810) ~ UI|[CLI](/t/local-image-mirror-deb-2-9-cli/2812) ~ [UI](/t/local-image-mirror-deb-2-9-ui/2813)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/local-image-mirror-snap-2-7-cli/2802) ~ [UI](/t/local-image-mirror-snap-2-7-ui/2803)|[CLI](/t/local-image-mirror-snap-2-8-cli/2804) ~ [UI](/t/local-image-mirror-snap-2-8-ui/2805)|[CLI](/t/local-image-mirror-snap-2-9-cli/2806) ~ [UI](/t/local-image-mirror-snap-2-9-ui/2807)|
+|Packages|[CLI](/t/local-image-mirror-deb-2-7-cli/2808) ~ [UI](/t/local-image-mirror-deb-2-7-ui/2809)|[CLI](/t/local-image-mirror-deb-2-8-cli/2810) ~ [UI](/t/local-image-mirror-deb-2-8-ui/2811)|CLI ~ [UI](/t/local-image-mirror-deb-2-9-ui/2813)|
+ deb-2-9-cli -->
 
 <!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/local-image-mirror-snap-2-7-cli/2802) ~ [UI](/t/local-image-mirror-snap-2-7-ui/2803)|[CLI](/t/local-image-mirror-snap-2-8-cli/2804) ~ [UI](/t/local-image-mirror-snap-2-8-ui/2805)|[CLI](/t/local-image-mirror-snap-2-9-cli/2806) ~ [UI](/t/local-image-mirror-snap-2-9-ui/2807)|
+|Packages|[CLI](/t/local-image-mirror-deb-2-7-cli/2808) ~ [UI](/t/local-image-mirror-deb-2-7-ui/2809)|[CLI](/t/local-image-mirror-deb-2-8-cli/2810) ~ [UI](/t/local-image-mirror-deb-2-8-ui/2811)|[CLI](/t/local-image-mirror-deb-2-9-cli/2812) ~ UI|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|CLI ~ [UI](/t/local-image-mirror-snap-2-7-ui/2803)|[CLI](/t/local-image-mirror-snap-2-8-cli/2804) ~ [UI](/t/local-image-mirror-snap-2-8-ui/2805)|[CLI](/t/local-image-mirror-snap-2-9-cli/2806) ~ [UI](/t/local-image-mirror-snap-2-9-ui/2807)|
+|Packages|[CLI](/t/local-image-mirror-deb-2-7-cli/2808) ~ [UI](/t/local-image-mirror-deb-2-7-ui/2809)|[CLI](/t/local-image-mirror-deb-2-8-cli/2810) ~ [UI](/t/local-image-mirror-deb-2-8-ui/2811)|[CLI](/t/local-image-mirror-deb-2-9-cli/2812) ~ [UI](/t/local-image-mirror-deb-2-9-ui/2813)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/local-image-mirror-snap-2-7-cli/2802) ~ UI|[CLI](/t/local-image-mirror-snap-2-8-cli/2804) ~ [UI](/t/local-image-mirror-snap-2-8-ui/2805)|[CLI](/t/local-image-mirror-snap-2-9-cli/2806) ~ [UI](/t/local-image-mirror-snap-2-9-ui/2807)|
+|Packages|[CLI](/t/local-image-mirror-deb-2-7-cli/2808) ~ [UI](/t/local-image-mirror-deb-2-7-ui/2809)|[CLI](/t/local-image-mirror-deb-2-8-cli/2810) ~ [UI](/t/local-image-mirror-deb-2-8-ui/2811)|[CLI](/t/local-image-mirror-deb-2-9-cli/2812) ~ [UI](/t/local-image-mirror-deb-2-9-ui/2813)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/local-image-mirror-snap-2-7-cli/2802) ~ [UI](/t/local-image-mirror-snap-2-7-ui/2803)|CLI ~ [UI](/t/local-image-mirror-snap-2-8-ui/2805)|[CLI](/t/local-image-mirror-snap-2-9-cli/2806) ~ [UI](/t/local-image-mirror-snap-2-9-ui/2807)|
+|Packages|[CLI](/t/local-image-mirror-deb-2-7-cli/2808) ~ [UI](/t/local-image-mirror-deb-2-7-ui/2809)|[CLI](/t/local-image-mirror-deb-2-8-cli/2810) ~ [UI](/t/local-image-mirror-deb-2-8-ui/2811)|[CLI](/t/local-image-mirror-deb-2-9-cli/2812) ~ [UI](/t/local-image-mirror-deb-2-9-ui/2813)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/local-image-mirror-snap-2-7-cli/2802) ~ [UI](/t/local-image-mirror-snap-2-7-ui/2803)|[CLI](/t/local-image-mirror-snap-2-8-cli/2804) ~ UI|[CLI](/t/local-image-mirror-snap-2-9-cli/2806) ~ [UI](/t/local-image-mirror-snap-2-9-ui/2807)|
+|Packages|[CLI](/t/local-image-mirror-deb-2-7-cli/2808) ~ [UI](/t/local-image-mirror-deb-2-7-ui/2809)|[CLI](/t/local-image-mirror-deb-2-8-cli/2810) ~ [UI](/t/local-image-mirror-deb-2-8-ui/2811)|[CLI](/t/local-image-mirror-deb-2-9-cli/2812) ~ [UI](/t/local-image-mirror-deb-2-9-ui/2813)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/local-image-mirror-snap-2-7-cli/2802) ~ [UI](/t/local-image-mirror-snap-2-7-ui/2803)|[CLI](/t/local-image-mirror-snap-2-8-cli/2804) ~ [UI](/t/local-image-mirror-snap-2-8-ui/2805)|CLI ~ [UI](/t/local-image-mirror-snap-2-9-ui/2807)|
+|Packages|[CLI](/t/local-image-mirror-deb-2-7-cli/2808) ~ [UI](/t/local-image-mirror-deb-2-7-ui/2809)|[CLI](/t/local-image-mirror-deb-2-8-cli/2810) ~ [UI](/t/local-image-mirror-deb-2-8-ui/2811)|[CLI](/t/local-image-mirror-deb-2-9-cli/2812) ~ [UI](/t/local-image-mirror-deb-2-9-ui/2813)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/local-image-mirror-snap-2-7-cli/2802) ~ [UI](/t/local-image-mirror-snap-2-7-ui/2803)|[CLI](/t/local-image-mirror-snap-2-8-cli/2804) ~ [UI](/t/local-image-mirror-snap-2-8-ui/2805)|[CLI](/t/local-image-mirror-snap-2-9-cli/2806) ~ UI|
+|Packages|[CLI](/t/local-image-mirror-deb-2-7-cli/2808) ~ [UI](/t/local-image-mirror-deb-2-7-ui/2809)|[CLI](/t/local-image-mirror-deb-2-8-cli/2810) ~ [UI](/t/local-image-mirror-deb-2-8-ui/2811)|[CLI](/t/local-image-mirror-deb-2-9-cli/2812) ~ [UI](/t/local-image-mirror-deb-2-9-ui/2813)|
+ snap-2-9-ui -->
 
 Mirroring images is worthy of consideration.  The SimpleStreams protocol delivers Images to MAAS, which is especially useful when your Internet link is slow or unreliable. In this mirrored configuration, images will be instantly available when MAAS requests them.
 
 #### Quick questions you may have:
 
-* [How do I set up a local mirror?](/t/local-image-mirror/752#heading--set-up-local-mirror)
-* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/751#heading--image-mirrors)
-* [How do I use a local mirror through the CLI?](/t/local-image-mirror/752#heading--local-mirror-with-cli)
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3096#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+
+<!-- deb-2-7-ui
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3097#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3098#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3099#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3100#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3101#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3090#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3091#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3092#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3093#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3094#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+* [How do I set up a local mirror?](#heading--set-up-local-mirror)
+* [How do I configure MAAS to use the local mirror?](/t/select-and-import-images/3095#heading--image-mirrors)
+* [How do I use a local mirror through the CLI?](#heading--local-mirror-with-cli)
+ snap-2-9-ui -->
 
 <h2 id="heading--set-up-local-mirror">Setting up a local mirror</h2>
 

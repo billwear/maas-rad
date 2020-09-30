@@ -1,86 +1,84 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/maas-tags-snap-2-7-cli/2886) ~ [UI](/t/maas-tags-snap-2-7-ui/2887)|[CLI](/t/maas-tags-snap-2-8-cli/2888) ~ [UI](/t/maas-tags-snap-2-8-ui/2889)|[CLI](/t/maas-tags-snap-2-9-cli/2890) ~ [UI](/t/maas-tags-snap-2-9-ui/2891)|
+|Packages|CLI ~ [UI](/t/maas-tags-deb-2-7-ui/2893)|[CLI](/t/maas-tags-deb-2-8-cli/2894) ~ [UI](/t/maas-tags-deb-2-8-ui/2895)|[CLI](/t/maas-tags-deb-2-9-cli/2896) ~ [UI](/t/maas-tags-deb-2-9-ui/2897)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/maas-tags-snap-2-7-cli/2886) ~ [UI](/t/maas-tags-snap-2-7-ui/2887)|[CLI](/t/maas-tags-snap-2-8-cli/2888) ~ [UI](/t/maas-tags-snap-2-8-ui/2889)|[CLI](/t/maas-tags-snap-2-9-cli/2890) ~ [UI](/t/maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](/t/maas-tags-deb-2-7-cli/2892) ~ UI|[CLI](/t/maas-tags-deb-2-8-cli/2894) ~ [UI](/t/maas-tags-deb-2-8-ui/2895)|[CLI](/t/maas-tags-deb-2-9-cli/2896) ~ [UI](/t/maas-tags-deb-2-9-ui/2897)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/maas-tags-snap-2-7-cli/2886) ~ [UI](/t/maas-tags-snap-2-7-ui/2887)|[CLI](/t/maas-tags-snap-2-8-cli/2888) ~ [UI](/t/maas-tags-snap-2-8-ui/2889)|[CLI](/t/maas-tags-snap-2-9-cli/2890) ~ [UI](/t/maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](/t/maas-tags-deb-2-7-cli/2892) ~ [UI](/t/maas-tags-deb-2-7-ui/2893)|CLI ~ [UI](/t/maas-tags-deb-2-8-ui/2895)|[CLI](/t/maas-tags-deb-2-9-cli/2896) ~ [UI](/t/maas-tags-deb-2-9-ui/2897)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/maas-tags-snap-2-7-cli/2886) ~ [UI](/t/maas-tags-snap-2-7-ui/2887)|[CLI](/t/maas-tags-snap-2-8-cli/2888) ~ [UI](/t/maas-tags-snap-2-8-ui/2889)|[CLI](/t/maas-tags-snap-2-9-cli/2890) ~ [UI](/t/maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](/t/maas-tags-deb-2-7-cli/2892) ~ [UI](/t/maas-tags-deb-2-7-ui/2893)|[CLI](/t/maas-tags-deb-2-8-cli/2894) ~ UI|[CLI](/t/maas-tags-deb-2-9-cli/2896) ~ [UI](/t/maas-tags-deb-2-9-ui/2897)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/maas-tags-snap-2-7-cli/2886) ~ [UI](/t/maas-tags-snap-2-7-ui/2887)|[CLI](/t/maas-tags-snap-2-8-cli/2888) ~ [UI](/t/maas-tags-snap-2-8-ui/2889)|[CLI](/t/maas-tags-snap-2-9-cli/2890) ~ [UI](/t/maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](/t/maas-tags-deb-2-7-cli/2892) ~ [UI](/t/maas-tags-deb-2-7-ui/2893)|[CLI](/t/maas-tags-deb-2-8-cli/2894) ~ [UI](/t/maas-tags-deb-2-8-ui/2895)|CLI ~ [UI](/t/maas-tags-deb-2-9-ui/2897)|
+ deb-2-9-cli -->
 
 <!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/maas-tags-snap-2-7-cli/2886) ~ [UI](/t/maas-tags-snap-2-7-ui/2887)|[CLI](/t/maas-tags-snap-2-8-cli/2888) ~ [UI](/t/maas-tags-snap-2-8-ui/2889)|[CLI](/t/maas-tags-snap-2-9-cli/2890) ~ [UI](/t/maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](/t/maas-tags-deb-2-7-cli/2892) ~ [UI](/t/maas-tags-deb-2-7-ui/2893)|[CLI](/t/maas-tags-deb-2-8-cli/2894) ~ [UI](/t/maas-tags-deb-2-8-ui/2895)|[CLI](/t/maas-tags-deb-2-9-cli/2896) ~ UI|
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|CLI ~ [UI](/t/maas-tags-snap-2-7-ui/2887)|[CLI](/t/maas-tags-snap-2-8-cli/2888) ~ [UI](/t/maas-tags-snap-2-8-ui/2889)|[CLI](/t/maas-tags-snap-2-9-cli/2890) ~ [UI](/t/maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](/t/maas-tags-deb-2-7-cli/2892) ~ [UI](/t/maas-tags-deb-2-7-ui/2893)|[CLI](/t/maas-tags-deb-2-8-cli/2894) ~ [UI](/t/maas-tags-deb-2-8-ui/2895)|[CLI](/t/maas-tags-deb-2-9-cli/2896) ~ [UI](/t/maas-tags-deb-2-9-ui/2897)|
+ snap-2-7-cli -->
+
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/maas-tags-snap-2-7-cli/2886) ~ UI|[CLI](/t/maas-tags-snap-2-8-cli/2888) ~ [UI](/t/maas-tags-snap-2-8-ui/2889)|[CLI](/t/maas-tags-snap-2-9-cli/2890) ~ [UI](/t/maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](/t/maas-tags-deb-2-7-cli/2892) ~ [UI](/t/maas-tags-deb-2-7-ui/2893)|[CLI](/t/maas-tags-deb-2-8-cli/2894) ~ [UI](/t/maas-tags-deb-2-8-ui/2895)|[CLI](/t/maas-tags-deb-2-9-cli/2896) ~ [UI](/t/maas-tags-deb-2-9-ui/2897)|
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/maas-tags-snap-2-7-cli/2886) ~ [UI](/t/maas-tags-snap-2-7-ui/2887)|CLI ~ [UI](/t/maas-tags-snap-2-8-ui/2889)|[CLI](/t/maas-tags-snap-2-9-cli/2890) ~ [UI](/t/maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](/t/maas-tags-deb-2-7-cli/2892) ~ [UI](/t/maas-tags-deb-2-7-ui/2893)|[CLI](/t/maas-tags-deb-2-8-cli/2894) ~ [UI](/t/maas-tags-deb-2-8-ui/2895)|[CLI](/t/maas-tags-deb-2-9-cli/2896) ~ [UI](/t/maas-tags-deb-2-9-ui/2897)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/maas-tags-snap-2-7-cli/2886) ~ [UI](/t/maas-tags-snap-2-7-ui/2887)|[CLI](/t/maas-tags-snap-2-8-cli/2888) ~ UI|[CLI](/t/maas-tags-snap-2-9-cli/2890) ~ [UI](/t/maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](/t/maas-tags-deb-2-7-cli/2892) ~ [UI](/t/maas-tags-deb-2-7-ui/2893)|[CLI](/t/maas-tags-deb-2-8-cli/2894) ~ [UI](/t/maas-tags-deb-2-8-ui/2895)|[CLI](/t/maas-tags-deb-2-9-cli/2896) ~ [UI](/t/maas-tags-deb-2-9-ui/2897)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/maas-tags-snap-2-7-cli/2886) ~ [UI](/t/maas-tags-snap-2-7-ui/2887)|[CLI](/t/maas-tags-snap-2-8-cli/2888) ~ [UI](/t/maas-tags-snap-2-8-ui/2889)|CLI ~ [UI](/t/maas-tags-snap-2-9-ui/2891)|
+|Packages|[CLI](/t/maas-tags-deb-2-7-cli/2892) ~ [UI](/t/maas-tags-deb-2-7-ui/2893)|[CLI](/t/maas-tags-deb-2-8-cli/2894) ~ [UI](/t/maas-tags-deb-2-8-ui/2895)|[CLI](/t/maas-tags-deb-2-9-cli/2896) ~ [UI](/t/maas-tags-deb-2-9-ui/2897)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/maas-tags-snap-2-7-cli/2886) ~ [UI](/t/maas-tags-snap-2-7-ui/2887)|[CLI](/t/maas-tags-snap-2-8-cli/2888) ~ [UI](/t/maas-tags-snap-2-8-ui/2889)|[CLI](/t/maas-tags-snap-2-9-cli/2890) ~ UI|
+|Packages|[CLI](/t/maas-tags-deb-2-7-cli/2892) ~ [UI](/t/maas-tags-deb-2-7-ui/2893)|[CLI](/t/maas-tags-deb-2-8-cli/2894) ~ [UI](/t/maas-tags-deb-2-8-ui/2895)|[CLI](/t/maas-tags-deb-2-9-cli/2896) ~ [UI](/t/maas-tags-deb-2-9-ui/2897)|
+ snap-2-9-ui -->
 
 Tags are a convenient way to assign descriptive words to machines, interfaces, and storage devices. Using MAAS tags, you can easily select machines that meet certain criteria, helping you to remember that you've defined or reserved certain machines for certain functions. 
 
@@ -90,10 +88,10 @@ Tags are a convenient way to assign descriptive words to machines, interfaces, a
 
 #### Quick questions you may have:
 
-* [How are tags defined?](/t/maas-tags/834#heading--tag-definitions)
-* [How can I see and filter the tag list?](/t/maas-tags/834#heading--tag-listing-and-tags-as-search-filters)
-* [How do I see and change which tags are assigned?](/t/maas-tags/834#heading--tag-assignment)
-* [How do I manage tags?](/t/maas-tags/834#heading--tag-management)
+* [How are tags defined?](#heading--tag-definitions)
+* [How can I see and filter the tag list?](#heading--tag-listing-and-tags-as-search-filters)
+* [How do I see and change which tags are assigned?](#heading--tag-assignment)
+* [How do I manage tags?](#heading--tag-management)
 
 MAAS supports binding an XPath expressions to a tag using *tag definitions* (see below). This makes auto-assigning tags to matching hardware possible. For instance, you could tag machines that possess fast GPUs and then deploy software that used GPU-accelerated CUDA or OpenCL libraries.
 

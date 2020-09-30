@@ -22,7 +22,10 @@ for name in glob.glob("*.md"):
         # peel off the topic
         topic = rbase.split("-")[-1]
         tagcloud = rbase.split("-")[-5:-1]
-        tag = tagcloud[0] + "-" + tagcloud[1] + "-" + tagcloud[2] + "-" + tagcloud[3]
+        try:
+            tag = tagcloud[0] + "-" + tagcloud[1] + "-" + tagcloud[2] + "-" + tagcloud[3]
+        except:
+            continue
 
         # fix the topic name
         last_char_index = rbase.rfind("-")
@@ -36,6 +39,9 @@ for name in glob.glob("*.md"):
     rad_element.sort()
     rad_tag.sort()
 
+    # debug print
+    print(target)
+    
     # clear the rad block buffer
     rad_block = ""
 
@@ -64,7 +70,7 @@ for name in glob.glob("*.md"):
         else:
             rad_block += "|[" + rad_element[6][1] + "](/t/" + rad_element[6][2] + ") ~ "
         if rad_block_counter == 8:
-            rad_block += "|**UI**|"
+            rad_block += "**UI**|"
         else:
             rad_block += "[" + rad_element[7][1] + "](/t/" + rad_element[7][2] + ")|"
         if rad_block_counter == 9:
@@ -72,7 +78,7 @@ for name in glob.glob("*.md"):
         else:
             rad_block += "[" + rad_element[8][1] + "](/t/" + rad_element[8][2] + ") ~ "
         if rad_block_counter == 10:
-            rad_block += "|**UI**|"
+            rad_block += "**UI**|"
         else:
             rad_block += "[" + rad_element[9][1] + "](/t/" + rad_element[9][2] + ")|"
         if rad_block_counter == 11:
@@ -82,8 +88,9 @@ for name in glob.glob("*.md"):
                 "[" + rad_element[10][1] + "](/t/" + rad_element[10][2] + ") ~ "
             )
         if rad_block_counter == 12:
-            rad_block += "|**UI**|\n"
+            rad_block += "**UI**|\n"
         else:
+            print(rad_element)
             rad_block += (
                 "[" + rad_element[11][1] + "](/t/" + rad_element[11][2] + ")|\n"
             )
@@ -93,7 +100,7 @@ for name in glob.glob("*.md"):
         else:
             rad_block += "|[" + rad_element[0][1] + "](/t/" + rad_element[0][2] + ") ~ "
         if rad_block_counter == 2:
-            rad_block += "|**UI**|"
+            rad_block += "**UI**|"
         else:
             rad_block += "[" + rad_element[1][1] + "](/t/" + rad_element[1][2] + ")|"
         if rad_block_counter == 3:
@@ -101,7 +108,7 @@ for name in glob.glob("*.md"):
         else:
             rad_block += "[" + rad_element[2][1] + "](/t/" + rad_element[2][2] + ") ~ "
         if rad_block_counter == 4:
-            rad_block += "|**UI**|"
+            rad_block += "**UI**|"
         else:
             rad_block += "[" + rad_element[3][1] + "](/t/" + rad_element[3][2] + ")|"
         if rad_block_counter == 5:
@@ -109,7 +116,7 @@ for name in glob.glob("*.md"):
         else:
             rad_block += "[" + rad_element[4][1] + "](/t/" + rad_element[4][2] + ") ~ "
         if rad_block_counter == 6:
-            rad_block += "|**UI**|\n"
+            rad_block += "**UI**|\n"
         else:
             rad_block += "[" + rad_element[5][1] + "](/t/" + rad_element[5][2] + ")|\n"
 

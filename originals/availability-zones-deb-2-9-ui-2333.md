@@ -1,98 +1,141 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
+<!-- flip -->
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|CLI ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ UI|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|CLI ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ UI|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|CLI ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
+ deb-2-9-cli -->
 
-<!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ UI|
 
-An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/784) for more details.
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|CLI ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ UI|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|CLI ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ UI|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|CLI ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ UI|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
+ snap-2-9-ui -->
+
+<!-- deb-2-7-cli
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3276) for more details.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3277) for more details.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3278) for more details.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3279) for more details.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3280) for more details.
+ deb-2-9-cli -->
+
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3281) for more details.
+
+<!-- snap-2-7-cli
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3270) for more details.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3271) for more details.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3272) for more details.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3273) for more details.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3274) for more details.
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3275) for more details.
+ snap-2-9-ui -->
 
 A newly installed MAAS comes with a default zone which initially contains all nodes. You cannot remove the 'default' zone or change its name, but you can create new zones and assign machine to them.  You can safely ignore this article if you're not interested in leveraging zones.
 
 #### Quick questions you may have:
 
-* [How do I add an availability zone?](/t/availability-zones/820#heading--add-a-zone)
-* [How do I edit an existing availability zone?](/t/availability-zones/820#heading--edit-a-zone)
-* [How do I delete an existing availability zone?](/t/availability-zones/820#heading--delete-a-zone)
-* [How do I assign a machine to an availability zone?](/t/availability-zones/820#heading--assign-a-node-to-a-zone)
-* [How do I allocate a machine in a particular zone?](/t/availability-zones/820#heading--allocate-a-node-in-a-zone)
+* [How do I add an availability zone?](#heading--add-a-zone)
+* [How do I edit an existing availability zone?](#heading--edit-a-zone)
+* [How do I delete an existing availability zone?](#heading--delete-a-zone)
+* [How do I assign a machine to an availability zone?](#heading--assign-a-node-to-a-zone)
+* [How do I allocate a machine in a particular zone?](#heading--allocate-a-node-in-a-zone)
 
 <h2 id="heading--add-a-zone">Add a zone</h2>
 

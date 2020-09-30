@@ -1,81 +1,84 @@
+<!-- flip -->
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|**CLI** ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
+|Snap|CLI ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
 |Packages|[CLI](/t/about-maas-deb-2-7-cli/2268) ~ [UI](/t/about-maas-deb-2-7-ui/2269)|[CLI](/t/about-maas-deb-2-8-cli/2270) ~ [UI](/t/about-maas-deb-2-8-ui/2271)|[CLI](/t/about-maas-deb-2-9-cli/2272) ~ [UI](/t/about-maas-deb-2-9-ui/2273)|
-snap-2-7-cli -->
+snap-2-7-cli  -->
+
+<!-- deb-2-7-cli
+|| 2.7 | 2.8 | 2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](about-maas-snap-2-7-cli/2262) ~ [UI](/t/about-maas-snap-2-7-ui/2263) |[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265) |[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
+|Packages|CLI ~  [UI](/t/about-maas-deb-2-7-ui/2269)|[CLI](/t/about-maas-deb-2-8-cli/2270) ~ [UI](/t/about-maas-deb-2-8-ui/2271)|[CLI](/t/about-maas-deb-2-9-cli/2272) ~ [UI](/t/about-maas-deb-2-9-ui/2273)|
+deb-2-7-cli -->
 
 <!-- snap-2-7-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/about-maas-snap-2-7-cli/2838) ~ **UI**|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
+|Snap|[CLI](/t/about-maas-snap-2-7-cli/2262) ~ UI|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
 |Packages|[CLI](/t/about-maas-deb-2-7-cli/2268) ~ [UI](/t/about-maas-deb-2-7-ui/2269)|[CLI](/t/about-maas-deb-2-8-cli/2270) ~ [UI](/t/about-maas-deb-2-8-ui/2271)|[CLI](/t/about-maas-deb-2-9-cli/2272) ~ [UI](/t/about-maas-deb-2-9-ui/2273)|
 snap-2-7-ui -->
 
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](about-maas-snap-2-7-cli/2838) ~ [UI](/t/about-maas-snap-2-7-ui/2263) |[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265) |[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
-|Packages|**CLI** ~  [UI](/t/about-maas-deb-2-7-ui/2269)|[CLI](/t/about-maas-deb-2-8-cli/2270) ~ [UI](/t/about-maas-deb-2-8-ui/2271)|[CLI](/t/about-maas-deb-2-9-cli/2272) ~ [UI](/t/about-maas-deb-2-9-ui/2273)|
+|Snap|[CLI](about-maas-snap-2-7-cli/2262) ~ [UI](/t/about-maas-snap-2-7-ui/2263) |[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265) |[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
+|Packages|[CLI](/t/about-maas-deb-2-7-cli/2268) ~  [UI](/t/about-maas-deb-2-7-ui/2269)|CLI ~ [UI](/t/about-maas-deb-2-8-ui/2271)|[CLI](/t/about-maas-deb-2-9-cli/2272) ~ [UI](/t/about-maas-deb-2-9-ui/2273)|
 
 <!-- deb-2-7-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](about-maas-snap-2-7-cli/2838) ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
-|Packages|[CLI](/t/about-maas-deb-2-7-cli/2268) ~ **UI**|[CLI](/t/about-maas-deb-2-8-cli/2270) ~ [UI](/t/about-maas-deb-2-8-ui/2271)|[CLI](/t/about-maas-deb-2-9-cli/2272) ~ [UI](/t/about-maas-deb-2-9-ui/2273)|
+|Snap|[CLI](about-maas-snap-2-7-cli/2262) ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
+|Packages|[CLI](/t/about-maas-deb-2-7-cli/2268) ~ UI|[CLI](/t/about-maas-deb-2-8-cli/2270) ~ [UI](/t/about-maas-deb-2-8-ui/2271)|[CLI](/t/about-maas-deb-2-9-cli/2272) ~ [UI](/t/about-maas-deb-2-9-ui/2273)|
 deb-2-7-ui -->
 
 <!-- snap-2-8-cli
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/about-maas-snap-2-7-cli/2838) ~ [UI](/t/about-maas-snap-2-7-ui/2263) | **CLI** / [UI](/t/about-maas-snap-2-8-ui/2265) |[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267) |
+|Snap|[CLI](/t/about-maas-snap-2-7-cli/2262) ~ [UI](/t/about-maas-snap-2-7-ui/2263) | CLI ~ [UI](/t/about-maas-snap-2-8-ui/2265) |[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267) |
 |Packages|[CLI](/t/about-maas-deb-2-7-cli/2268) ~ [UI](/t/about-maas-deb-2-7-ui/2269) |[CLI](/t/about-maas-deb-2-8-cli/2270) ~ [UI](/t/about-maas-deb-2-8-ui/2271) |[CLI](/t/about-maas-deb-2-9-cli/2272) ~ [UI](/t/about-maas-deb-2-9-ui/2273) |
 snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/about-maas-snap-2-7-cli/2838) ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ **UI**|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
+|Snap|[CLI](/t/about-maas-snap-2-7-cli/2262) ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ UI|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
 |Packages|[CLI](/t/about-maas-deb-2-7-cli/2268) ~ [UI](/t/about-maas-deb-2-7-ui/2269)|[CLI](/t/about-maas-deb-2-8-cli/2270) ~ [UI](/t/about-maas-deb-2-8-ui/2271)|[CLI](/t/about-maas-deb-2-9-cli/2272) ~ [UI](/t/about-maas-deb-2-9-ui/2273)|
 snap-2-8-ui -->
-
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/about-maas-snap-2-7-cli/2838) ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
-|Packages|[CLI](/t/about-maas-deb-2-7-cli/2268) ~ [UI](/t/about-maas-deb-2-7-ui/2269)|**CLI** ~  [UI](/t/about-maas-deb-2-8-ui/2271)|[CLI](/t/about-maas-deb-2-9-cli/2272) ~ [UI](/t/about-maas-deb-2-9-ui/2273)|
 
 <!-- deb-2-8-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/about-maas-snap-2-7-cli/2838) ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
-|Packages|[CLI](/t/about-maas-deb-2-7-cli/2268) ~ [UI](/t/about-maas-deb-2-7-ui/2269)|[CLI](/t/about-maas-deb-2-8-cli/2270) ~ **UI**|[CLI](/t/about-maas-deb-2-9-cli/2272) ~ [UI](/t/about-maas-deb-2-9-ui/2273)|
+|Snap|[CLI](/t/about-maas-snap-2-7-cli/2262) ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
+|Packages|[CLI](/t/about-maas-deb-2-7-cli/2268) ~ [UI](/t/about-maas-deb-2-7-ui/2269)|[CLI](/t/about-maas-deb-2-8-cli/2270) ~ UI|[CLI](/t/about-maas-deb-2-9-cli/2272) ~ [UI](/t/about-maas-deb-2-9-ui/2273)|
 deb-2-8-ui -->
 
 <!-- snap-2-9-cli
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/about-maas-snap-2-7-cli/2838) ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|**CLI** ~  [UI](/t/about-maas-snap-2-9-ui/2267)|
+|Snap|[CLI](/t/about-maas-snap-2-7-cli/2262) ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|CLI ~  [UI](/t/about-maas-snap-2-9-ui/2267)|
 |Packages|[CLI](/t/about-maas-deb-2-7-cli/2268) ~ [UI](/t/about-maas-deb-2-7-ui/2269)|[CLI](/t/about-maas-deb-2-8-cli/2270) ~ [UI](/t/about-maas-deb-2-8-ui/2271)|[CLI](/t/about-maas-deb-2-9-cli/2272) ~ [UI](/t/about-maas-deb-2-9-ui/2273)|
 snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/about-maas-snap-2-7-cli/2838) ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ **UI**|
+|Snap|[CLI](/t/about-maas-snap-2-7-cli/2262) ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ UI|
 |Packages|[CLI](/t/about-maas-deb-2-7-cli/2268) ~ [UI](/t/about-maas-deb-2-7-ui/2269)|[CLI](/t/about-maas-deb-2-8-cli/2270) ~ [UI](/t/about-maas-deb-2-8-ui/2271)|[CLI](/t/about-maas-deb-2-9-cli/2272) ~ [UI](/t/about-maas-deb-2-9-ui/2273)|
 snap-2-9-ui -->
 
 <!-- deb-2-9-cli
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/about-maas-snap-2-7-cli/2838) ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
-|Packages|[CLI](/t/about-maas-deb-2-7-cli/2268) ~ [UI](/t/about-maas-deb-2-7-ui/2269)|[CLI](/t/about-maas-deb-2-8-cli/2270) ~ [UI](/t/about-maas-deb-2-8-ui/2271)|**CLI** ~  [UI](/t/about-maas-deb-2-9-ui/2273)|
+|Snap|[CLI](/t/about-maas-snap-2-7-cli/2262) ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
+|Packages|[CLI](/t/about-maas-deb-2-7-cli/2268) ~ [UI](/t/about-maas-deb-2-7-ui/2269)|[CLI](/t/about-maas-deb-2-8-cli/2270) ~ [UI](/t/about-maas-deb-2-8-ui/2271)|CLI ~  [UI](/t/about-maas-deb-2-9-ui/2273)|
 deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 || 2.7 | 2.8 | 2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/about-maas-snap-2-7-cli/2838) ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
-|Packages|[CLI](/t/about-maas-deb-2-7-cli/2268) ~ [UI](/t/about-maas-deb-2-7-ui/2269)|[CLI](/t/about-maas-deb-2-8-cli/2270) ~ [UI](/t/about-maas-deb-2-8-ui/2271)|[CLI](/t/about-maas-deb-2-9-cli/2272) ~ **UI**|
+|Snap|[CLI](/t/about-maas-snap-2-7-cli/2262) ~ [UI](/t/about-maas-snap-2-7-ui/2263)|[CLI](/t/about-maas-snap-2-8-cli/2264) ~ [UI](/t/about-maas-snap-2-8-ui/2265)|[CLI](/t/about-maas-snap-2-9-cli/2266) ~ [UI](/t/about-maas-snap-2-9-ui/2267)|
+|Packages|[CLI](/t/about-maas-deb-2-7-cli/2268) ~ [UI](/t/about-maas-deb-2-7-ui/2269)|[CLI](/t/about-maas-deb-2-8-cli/2270) ~ [UI](/t/about-maas-deb-2-8-ui/2271)|[CLI](/t/about-maas-deb-2-9-cli/2272) ~ UI|
 deb-2-9-ui -->
 
 MAAS is an open-source tool that lets you build a data centre from bare-metal servers. You can discover, commission, deploy, and dynamically reconfigure a large network of individual units.  MAAS converts your hardware investment into a cohesive, flexible, distributed data centre, with a minimum of time and effort.
@@ -84,7 +87,7 @@ MAAS is an open-source tool that lets you build a data centre from bare-metal se
 
 * [What is MAAS?](#heading--what-is-maas)
 * [What does MAAS offer me?](#heading--what-maas-offers)
-* [Can MAAS colocate key components to conserve  resources?](#heading--colocation-of-key-components)
+* [Can MAAS co-locate key components to conserve  resources?](#heading--colocation-of-key-components)
 * [How does MAAS work?](#heading--how-maas-works)
 
 <h2 id="heading--what-is-maas">What is MAAS?</h2>
@@ -144,7 +147,7 @@ These tools can be controlled from a [CLI](/t/maas-cli/802) driven by a REST API
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/40fdae53957095e5a830458dc5c7a62ea5d78c10.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/40fdae53957095e5a830458dc5c7a62ea5d78c10.jpeg"></a> 
 
-*Listing generated with [lsmm -t](/t/the-cli-cookbook/2218#heading--lsmm-t), a recipe in our [CLI cookbook](/t/the-cli-cookbook/2218) page.
+*Listing generated with [tagged machine list](/t/the-cli-cookbook/2218#heading--lsmm-t), a recipe in our [CLI cookbook](/t/the-cli-cookbook/2218) page.
 
 MAAS works with any system configuration tools. Both the [Chef](https://www.chef.io/chef) and [Juju](https://jaas.ai/) teams recommend MAAS as a physical provisioning system.
 
@@ -154,52 +157,52 @@ Please note that Windows and RHEL images require [Ubuntu Advantage](https://www.
 
 <h3 id="heading--colocation-of-key-components">Colocation of key components</h3>
 
-MAAS relies on two key components: the *region controller* and the *rack controller*. The region controller handles operator requests; the rack controller provides high-bandwidth services to multiple racks. In essence, rack controllers manage racks, while the region controller manages the data centre. We generally recommended installing both controllers on the same system.  The default MAAS install delivers this colocated configuration automatically. This all-in-one solution also provides DHCP. 
+MAAS relies on two key components: the *region controller* and the *rack controller*. The region controller handles operator requests; the rack controller provides high-bandwidth services to multiple racks. In essence, rack controllers manage racks, while the region controller manages the data centre. We generally recommended installing both controllers on the same system.  The default MAAS install delivers this co-located configuration automatically. This all-in-one solution also provides DHCP. 
 
 <!-- deb-2-7-cli
-See [Concepts and terms](/t/concepts-and-terms-deb-2-7-cli/2520#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-deb-2-7-cli/2688), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-deb-2-7-cli/2904) will cause problems.
+See [Concepts and terms](/t/concepts-and-terms/785#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-deb-2-7-cli/2688), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-deb-2-7-cli/2904) will cause problems.
 deb-2-7-cli  -->
 
 <!-- deb-2-7-ui
-See [Concepts and terms](/t/concepts-and-terms-deb-2-7-ui/2521#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-deb-2-7-ui/2689), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-deb-2-7-ui/2905) will cause problems.
+See [Concepts and terms](/t/concepts-and-terms/785#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-deb-2-7-ui/2689), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-deb-2-7-ui/2905) will cause problems.
 deb-2-7-ui  -->
 
-See [Concepts and terms](/t/concepts-and-terms-deb-2-8-cli/2522#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-deb-2-8-cli/2690), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-deb-2-8-cli/2906) will cause problems.
+See [Concepts and terms](/t/concepts-and-terms/785#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-deb-2-8-cli/2690), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-deb-2-8-cli/2906) will cause problems.
 
 <!-- deb-2-8-ui
-See [Concepts and terms](/t/concepts-and-terms-deb-2-8-ui/2523#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-deb-2-8-ui/2691), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-deb-2-8-ui/2907) will cause problems.
+See [Concepts and terms](/t/concepts-and-terms/785#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-deb-2-8-ui/2691), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-deb-2-8-ui/2907) will cause problems.
 deb-2-8-ui  -->
 
 <!-- deb-2-9-cli
-See [Concepts and terms](/t/concepts-and-terms-deb-2-9-cli/2524#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-deb-2-9-cli/2692), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-deb-2-9-cli/2908) will cause problems.
+See [Concepts and terms](/t/concepts-and-terms/785#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-deb-2-9-cli/2692), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-deb-2-9-cli/2908) will cause problems.
 deb-2-9-cli  -->
 
 <!-- deb-2-9-ui
-See [Concepts and terms](/t/concepts-and-terms-deb-2-9-ui/2525#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-deb-2-9-ui/2693), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-deb-2-9-ui/2909) will cause problems.
+See [Concepts and terms](/t/concepts-and-terms/785#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-deb-2-9-ui/2693), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-deb-2-9-ui/2909) will cause problems.
 deb-2-9-ui  -->
 
 <!-- snap-2-7-cli
-See [Concepts and terms](/t/concepts-and-terms-snap-2-7-cli/2514#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-snap-2-7-cli/2682), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-snap-2-7-cli/2898) will cause problems.
+See [Concepts and terms](/t/concepts-and-terms/785#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-snap-2-7-cli/2682), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-snap-2-7-cli/2898) will cause problems.
 snap-2-7-cli  -->
 
 <!-- snap-2-7-ui
-See [Concepts and terms](/t/concepts-and-terms-snap-2-7-ui/2515#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-snap-2-7-ui/2683), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-snap-2-7-ui/2899) will cause problems.
+See [Concepts and terms](/t/concepts-and-terms/785#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-snap-2-7-ui/2683), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-snap-2-7-ui/2899) will cause problems.
 snap-2-7-ui  -->
 
 <!-- snap-2-8-cli
-See [Concepts and terms](/t/concepts-and-terms-snap-2-8-cli/2516#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-snap-2-8-cli/2684), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-snap-2-8-cli/2900) will cause problems.
+See [Concepts and terms](/t/concepts-and-terms/785#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-snap-2-8-cli/2684), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-snap-2-8-cli/2900) will cause problems.
 snap-2-8-cli  -->
 
 <!-- snap-2-8-ui
-See [Concepts and terms](/t/concepts-and-terms-snap-2-8-ui/2517#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-snap-2-8-ui/2685), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-snap-2-8-ui/2901) will cause problems.
+See [Concepts and terms](/t/concepts-and-terms/785#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-snap-2-8-ui/2685), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-snap-2-8-ui/2901) will cause problems.
 snap-2-8-ui  -->
 
 <!-- snap-2-9-cli
-See [Concepts and terms](/t/concepts-and-terms-snap-2-9-cli/2518#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-snap-2-9-cli/2686), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-snap-2-9-cli/2902) will cause problems.
+See [Concepts and terms](/t/concepts-and-terms/785#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-snap-2-9-cli/2686), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-snap-2-9-cli/2902) will cause problems.
 snap-2-9-cli  -->
 
 <!-- snap-2-9-ui
-See [Concepts and terms](/t/concepts-and-terms-snap-2-9-ui/2519#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-snap-2-9-ui/2687), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-snap-2-9-ui/2903) will cause problems.
+See [Concepts and terms](/t/concepts-and-terms/785#heading--controllers) for a deeper understanding of these components. Note that in special cases, such as [high availability or load balancing](/t/high-availability-snap-2-9-ui/2687), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp-snap-2-9-ui/2903) will cause problems.
 snap-2-9-ui  -->
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/3ad2b128fbc034e9f575f21c0415a6e6c55baea3.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/3ad2b128fbc034e9f575f21c0415a6e6c55baea3.jpeg"></a>
@@ -286,4 +289,4 @@ When acquiring machines from the API/CLI, you can specify requirements ("constra
 
 An acquired MAAS machine is more flexible than a virtual instance in a cloud. You have complete control, including hardware drivers and root access. If you want to upgrade the BIOS, for example, you can allocate a machine to yourself and complete the upgrade.  Once you have completed the upgrade, you can send the machine back to the pool.
 
-Note that [Juju](https://jaas.ai/docs/maas-cloud) is designed to work with MAAS. MAAS becomes a backend Juju resource pool with all functionality fully available. For instance, if Juju removes a machine, then MAAS will release that machine to the pool.  With Juju, MAAS can become an integral part of your data centre strategy and operations.
+Note that [Juju](https://jaas.ai/docs/maas-cloud) is designed to work with MAAS. MAAS becomes a back-end Juju resource pool with all functionality fully available. For instance, if Juju removes a machine, then MAAS will release that machine to the pool.  With Juju, MAAS can become an integral part of your data centre strategy and operations.

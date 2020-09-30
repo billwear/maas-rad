@@ -483,8 +483,16 @@ pull_list = [
     2247,
     3286,
     3282,
-    3283
-    ]
+    3283,
+    3284,
+    3287,
+    3297,
+    3302,
+    3305,
+    3307,
+    3309,
+    3311,
+]
 
 dc_open = []
 dc_closed = []
@@ -508,15 +516,15 @@ cfile.close()
 for x in pull_list:
 
     print("pulling ", x)
-    
+
     topic_attr = []
-    
+
     # sleep for 2.5 seconds - prevents discourse DDOS rejection
     time.sleep(2.5)
 
     # quiet it down some (write stderr to log)
-    logfile = open("dcstat.log","w")
-    
+    logfile = open("dcstat.log", "w")
+
     # run the shell command to get the topic and retain the result
     proc = subprocess.Popen(
         [
@@ -532,18 +540,18 @@ for x in pull_list:
             config_data["base_url"] + "/t/{" + str(x) + "}.json",
         ],
         stdout=subprocess.PIPE,
-        stderr=logfile
+        stderr=logfile,
     )
 
     # read the result into a usable buffer
     output = proc.stdout.read()
-    
+
     # convert the result to json; if it fails, skip this record
     try:
         topic_json = json.loads(output)
     except:
         continue
-    
+
     # skip deleted topics
     try:
         deleted_at = topic_json["deleted_at"]
@@ -551,16 +559,16 @@ for x in pull_list:
         continue
     if deleted_at:
         continue
-    
+
     # who was the last poster (helps understand age / urgency)
     last_poster = topic_json["details"]["last_poster"]["username"]
-    
+
     # increment the total posts
     total_posts += 1
-    
+
     # extract the topic "slug" from the topic json
     topic_slug = topic_json["post_stream"]["posts"][0]["topic_slug"]
-    
+
     # extract the last updated time from the topic json, because we'll
     # set the file's modification time to this value
     updated_at = topic_json["post_stream"]["posts"][0]["updated_at"]
@@ -568,10 +576,10 @@ for x in pull_list:
     modtime_local = pytz.utc.localize(modtime_zulu).astimezone(None)
     modtime = datetime.strftime(modtime_local, "%d %b %Y @ %H:%M")
     modword = datetime.strftime(modtime_local, "%Y%m%d%H%M%S")
-    
+
     # is this topic closed?
     closed = topic_json["closed"]
-    
+
     # put info in the closed list
     if closed == True:
         closed_posts += 1
@@ -590,7 +598,7 @@ for x in pull_list:
         topic_attr.append(last_poster)
         dc_closed.append(topic_attr)
         continue
-    
+
     # is this topic in progress? (if there is more than one participant)
     inprogress = topic_json["participant_count"]
     if int(inprogress) > 1:
@@ -610,7 +618,7 @@ for x in pull_list:
         topic_attr.append(last_poster)
         dc_ip.append(topic_attr)
         continue
-    
+
     # so this post must be "open"
     open_posts += 1
     topic_attr.append(
@@ -627,10 +635,10 @@ for x in pull_list:
     topic_attr.append(str(modword))
     topic_attr.append(last_poster)
     dc_open.append(topic_attr)
-    
+
 # open the discourse statistics file
 fc = open("discourse-statistics-1515-.md", "w")
-    
+
 # print the current time
 now = datetime.today()
 nowtime = datetime.strftime(now, "%d %b %Y @ %H:%M")
@@ -671,7 +679,7 @@ fc.write("| Post | Last poster | Status | Posted |\n")
 fc.write("|:-----|:-----|:-----|:-----|\n")
 for x in dc_open:
     fc.write("| " + x[0] + " | " + x[4] + " | " + x[1] + " | " + x[2] + " |\n")
-    
+
 # print i/p posts
 dc_ip.sort(key=lambda x: x[3])
 fc.write("\n### Posts in progress\n")
@@ -679,7 +687,7 @@ fc.write("| Post | Last poster | Status | Last poster |\n")
 fc.write("|:-----|:-----|:-----|:-----|\n")
 for x in dc_ip:
     fc.write("| " + x[0] + " | " + x[4] + " | " + x[1] + " | " + x[2] + " |\n")
-    
+
 # print closed posts
 dc_closed.sort(key=lambda x: x[3])
 fc.write("\n### Closed posts\n")
@@ -687,6 +695,5 @@ fc.write("| Post | Last poster | Status | Closed |\n")
 fc.write("|:-----|:-----|:-----|:-----|\n")
 for x in dc_closed:
     fc.write("| " + x[0] + " | " + x[4] + " | " + x[1] + " | " + x[2] + " |\n")
-    
-fc.close()
 
+fc.close()

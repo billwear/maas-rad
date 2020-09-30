@@ -1,92 +1,90 @@
-<!-- snap-2-7-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-7-ui -->
-
 <!-- deb-2-7-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-cli -->
+|Snap|[CLI](/t/give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](/t/give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](/t/give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](/t/give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](/t/give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](/t/give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|CLI ~ [UI](/t/give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](/t/give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](/t/give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](/t/give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](/t/give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-7-ui -->
-
-<!-- snap-2-8-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-8-ui -->
+|Snap|[CLI](/t/give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](/t/give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](/t/give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](/t/give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](/t/give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](/t/give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](/t/give-me-an-example-of-maas-deb-2-7-cli/2652) ~ UI|[CLI](/t/give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](/t/give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](/t/give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](/t/give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-cli -->
+|Snap|[CLI](/t/give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](/t/give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](/t/give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](/t/give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](/t/give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](/t/give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](/t/give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](/t/give-me-an-example-of-maas-deb-2-7-ui/2653)|CLI ~ [UI](/t/give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](/t/give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](/t/give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-8-ui -->
-
-<!-- snap-2-9-cli
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-|| 2.7 | 2.8 | 2.9|
-|-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; <big>**UI**</big> &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-snap-2-9-ui -->
+|Snap|[CLI](/t/give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](/t/give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](/t/give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](/t/give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](/t/give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](/t/give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](/t/give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](/t/give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](/t/give-me-an-example-of-maas-deb-2-8-cli/2654) ~ UI|[CLI](/t/give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](/t/give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;<big>**CLI**</big> &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-cli -->
+|Snap|[CLI](/t/give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](/t/give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](/t/give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](/t/give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](/t/give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](/t/give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](/t/give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](/t/give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](/t/give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](/t/give-me-an-example-of-maas-deb-2-8-ui/2655)|CLI ~ [UI](/t/give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ deb-2-9-cli -->
 
-<!-- deb-2-9-ui
-|| 2.7 | 2.8 | 2.9|
+||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-| <small>Snap</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-| <small>Packages</small> | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; | &nbsp; &nbsp;[CLI](/t/rad-menu-testing/2245) &nbsp; &nbsp; [UI](/t/rad-menu-testing/2245) &nbsp; &nbsp; |
-deb-2-9-ui -->
+|Snap|[CLI](/t/give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](/t/give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](/t/give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](/t/give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](/t/give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](/t/give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](/t/give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](/t/give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](/t/give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](/t/give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](/t/give-me-an-example-of-maas-deb-2-9-cli/2656) ~ UI|
+
+<!-- snap-2-7-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|CLI ~ [UI](/t/give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](/t/give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](/t/give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](/t/give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](/t/give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](/t/give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](/t/give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](/t/give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](/t/give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](/t/give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](/t/give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/give-me-an-example-of-maas-snap-2-7-cli/2646) ~ UI|[CLI](/t/give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](/t/give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](/t/give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](/t/give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](/t/give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](/t/give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](/t/give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](/t/give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](/t/give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](/t/give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](/t/give-me-an-example-of-maas-snap-2-7-ui/2647)|CLI ~ [UI](/t/give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](/t/give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](/t/give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](/t/give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](/t/give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](/t/give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](/t/give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](/t/give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](/t/give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](/t/give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](/t/give-me-an-example-of-maas-snap-2-8-cli/2648) ~ UI|[CLI](/t/give-me-an-example-of-maas-snap-2-9-cli/2650) ~ [UI](/t/give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](/t/give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](/t/give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](/t/give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](/t/give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](/t/give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](/t/give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](/t/give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](/t/give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](/t/give-me-an-example-of-maas-snap-2-8-ui/2649)|CLI ~ [UI](/t/give-me-an-example-of-maas-snap-2-9-ui/2651)|
+|Packages|[CLI](/t/give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](/t/give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](/t/give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](/t/give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](/t/give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](/t/give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+||2.7|2.8|2.9|
+|-----:|:-----:|:-----:|:-----:|
+|Snap|[CLI](/t/give-me-an-example-of-maas-snap-2-7-cli/2646) ~ [UI](/t/give-me-an-example-of-maas-snap-2-7-ui/2647)|[CLI](/t/give-me-an-example-of-maas-snap-2-8-cli/2648) ~ [UI](/t/give-me-an-example-of-maas-snap-2-8-ui/2649)|[CLI](/t/give-me-an-example-of-maas-snap-2-9-cli/2650) ~ UI|
+|Packages|[CLI](/t/give-me-an-example-of-maas-deb-2-7-cli/2652) ~ [UI](/t/give-me-an-example-of-maas-deb-2-7-ui/2653)|[CLI](/t/give-me-an-example-of-maas-deb-2-8-cli/2654) ~ [UI](/t/give-me-an-example-of-maas-deb-2-8-ui/2655)|[CLI](/t/give-me-an-example-of-maas-deb-2-9-cli/2656) ~ [UI](/t/give-me-an-example-of-maas-deb-2-9-ui/2657)|
+ snap-2-9-ui -->
 
 An evolving example may be useful to introduce you to MAAS, and it doesn't have to be comprehensive --  just coherent and plausible.  This example will continue to expand and update over time.
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg" target = "_blank"><img  src="https://discourse.maas.io/uploads/default/original/1X/18456dbd3fbfec14eddd044816fd0719692282da.jpeg"></a> 
 
-So imagine that you're the IT administrator for a new, 100-bed hospital that's under construction, intended to serve a suburban community of 5,000 people.  Call it "Metaphorical General Hospital" (MGH).   Your job is to design a flexible datacentre for this facility.  You've decided to start with MAAS as your tool of choice, and for this planning exercise, you'll use VMs in a VM host.
+So imagine that you're the IT administrator for a new, 100-bed hospital that's under construction, intended to serve a suburban community of 5,000 people.  Call it "Metaphorical General Hospital" (MGH).   Your job is to design a flexible data centre for this facility.  You've decided to start with MAAS as your tool of choice, and for this planning exercise, you'll use VMs in a VM host.
 
 <h2>Machines</h2>
 
@@ -159,7 +157,7 @@ Assuming you've [installed libvirt](https://help.ubuntu.com/lts/serverguide/libv
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/26fe981020c03e46c81e2bceed840bea7b2f14d6.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/26fe981020c03e46c81e2bceed840bea7b2f14d6.jpeg"></a> 
 
-13. You'll next select the dropdown arrow next to the "on/off" menu bar option and select "Force reset," then answer the prompt in the affirmative:
+13. You'll next select the drop-down arrow next to the "on/off" menu bar option and select "Force reset," then answer the prompt in the affirmative:
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/537a485f0ff014aeb82afc71bc09b2988bf5cb56.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/537a485f0ff014aeb82afc71bc09b2988bf5cb56.jpeg"></a> 
 
@@ -231,7 +229,7 @@ You'll want to click on the machine name (in this case, the MAC address), and th
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/c31a50cebf68c8c5fbfbbe0115bb5c1daeb84ae8.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/c31a50cebf68c8c5fbfbbe0115bb5c1daeb84ae8.jpeg"></a> 
 
-Click on "Edit," and then add a tag name to the "Tags" field.  Tags are automatically remembered by MAAS, so the next time you want to enter the same tag, an autocomplete field will appear, as shown below:
+Click on "Edit," and then add a tag name to the "Tags" field.  Tags are automatically remembered by MAAS, so the next time you want to enter the same tag, an auto-complete field will appear, as shown below:
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/39a0e2f01ba7f3dc141bcf57c09b4e62f737525d.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/39a0e2f01ba7f3dc141bcf57c09b4e62f737525d.jpeg"></a> 
 
@@ -241,7 +239,7 @@ Select "Save changes" to add the tag(s) to the machine.  When you return to the 
 
 </details>
 
-Tags can will help you keep up with which machine(s) are covering which functions as you apply your apps.  You can search and filter by tags, and you can utilize tags from within the API, as well.
+Tags can will help you keep up with which machine(s) are covering which functions as you apply your apps.  You can search and filter by tags, and you can utilise tags from within the API, as well.
 
 <h2>Resource pools</h2>
 
@@ -275,7 +273,7 @@ You're aware that the number of machines you'll need use for each of the individ
 <details>
 <summary><em>Try it!</em></summary>
 
-Notice at the top of the machine list, there is a tab labeled, "Resource pools:"
+Notice at the top of the machine list, there is a tab labelled, "Resource pools:"
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/f7d4c52a176f53f29a0c1ac3190e7abb563dc993.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/f7d4c52a176f53f29a0c1ac3190e7abb563dc993.jpeg"></a> 
 
@@ -291,7 +289,7 @@ Fill in the fields for "Name" (which is a required field, with no spaces), and f
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/9da1e1c703818ac133db81082e1f3b01a72fb3e9.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/9da1e1c703818ac133db81082e1f3b01a72fb3e9.jpeg"></a> 
 
-Click on "Add pool" to add this resource pool to the list, then click on "Machines" to return to the machine list.  Once there, it's simple to add machines to a particular pool.   In the column marked "POOL/NOTE," you'll see that your machines are in the "default" pool when created.  If you click on "default" there, you'll bring up a dropdown of already-created resource pools:
+Click on "Add pool" to add this resource pool to the list, then click on "Machines" to return to the machine list.  Once there, it's simple to add machines to a particular pool.   In the column marked "POOL/NOTE," you'll see that your machines are in the "default" pool when created.  If you click on "default" there, you'll bring up a drop-down of already-created resource pools:
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/f373606dcd50c96a35af932379830f101d4a77e0.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/f373606dcd50c96a35af932379830f101d4a77e0.jpeg"></a> 
 
@@ -320,7 +318,7 @@ You can edit notes by clicking on a machine name in the machine list, switching 
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/a9d61f28a4ada7d97ff6f896d2f1e8e719ad680b.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a9d61f28a4ada7d97ff6f896d2f1e8e719ad680b.jpeg"></a> 
 
-From here, you can add freeform text into the "Note" field:
+From here, you can add free-form text into the "Note" field:
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/f8d647daffa9b3210fb99d440107a58e539a6c35.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/f8d647daffa9b3210fb99d440107a58e539a6c35.jpeg"></a> 
 
@@ -332,7 +330,7 @@ When you save the changes and return to the machine list, you'll notice that the
 
 <h2>VLANs</h2>
 
-Looking over your design, you notice that some of these resource pools must have their network traffic "firewalled" from others -- for example, Provider services and Nursing services shouldn't be readily visible to Staff compensation or Food service.  Likewise, the relevant monitoring agencies require that facilities manage medications as a separate activity. The traditional way to separate these networks (other than creating entirely *separate* networks) would be a VLAN.  Luckily, MAAS supports multiple VLANS.  Adding one higher level to your design, you find yourself with this updated network topology:
+Looking over your design, you notice that some of these resource pools must have their network traffic "fire-walled" from others -- for example, Provider services and Nursing services shouldn't be readily visible to Staff compensation or Food service.  Likewise, the relevant monitoring agencies require that facilities manage medications as a separate activity. The traditional way to separate these networks (other than creating entirely *separate* networks) would be a VLAN.  Luckily, MAAS supports multiple VLANS.  Adding one higher level to your design, you find yourself with this updated network topology:
 
 <table width="100%">
 <tr><td><strong>Caregiver services</strong></td><td></td></tr>
@@ -358,11 +356,11 @@ Each of these higher-level groupings is ideal for a VLAN, so you create six of t
 
 Adding a functional VLAN requires some additional (common) networking aspects, which we'll cover later.  In the meantime, though, here's the short version of adding and naming the VLAN itself.  
 
-From anywhere on the MAAS page, select "Subnets" from the top menubar, which brings you to this screen:
+From anywhere on the MAAS page, select "Subnets" from the top menu-bar, which brings you to this screen:
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/befd3a3eb5987d412477d0a076d16a50e81dae30.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/befd3a3eb5987d412477d0a076d16a50e81dae30.jpeg"></a> 
 
-Using the "Add" dropdown, select "VLAN:"
+Using the "Add" drop-down, select "VLAN:"
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/dbdea7bec608d14e89da82cfdea87df3f93855dd.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/dbdea7bec608d14e89da82cfdea87df3f93855dd.jpeg"></a> 
 
@@ -398,7 +396,7 @@ You want to incorporate these highest-level groupings into your network, but how
 <details>
 <summary><em>Try it!</em></summary>
 
-You can add a fabric by selecting the "Subnets" tab, clicking on the "Add" dropdown, and choosing "Fabric:"
+You can add a fabric by selecting the "Subnets" tab, clicking on the "Add" drop-down, and choosing "Fabric:"
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/509e9696919e69cfc57602a6228425a472b3ac1d.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/509e9696919e69cfc57602a6228425a472b3ac1d.jpeg"></a> 
 
@@ -414,7 +412,7 @@ Next, you'll want to assign your VLANs to this fabric.  Begin by clicking on any
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/ecca590663b90106b144c003851732a16acd5220.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/ecca590663b90106b144c003851732a16acd5220.jpeg"></a> 
 
-You can click "Edit" and choose the desired fabric from the dropdown list:
+You can click "Edit" and choose the desired fabric from the drop-down list:
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/6f6e2bff0d67dc02d33800e5cc1d60db24fb398a.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/6f6e2bff0d67dc02d33800e5cc1d60db24fb398a.jpeg"></a> 
 
