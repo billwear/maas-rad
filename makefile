@@ -3242,7 +3242,7 @@ originals/language-details-contributing-to-maas-docs-snap-2-8-ui-2793.md: langua
 	rm language-details-contributing-to-maas-docs-deb-2-9-ui-2801.md
 	chmod 444 originals/*
  
-originals/hardening-your-maas-installation-1381.md: hardening-your-maas-installation.md
+originals/hardening-your-maas-installation-deb-2-7-cli-2664.md: hardening-your-maas-installation.md
 	chmod 644 originals/*
 	cp hardening-your-maas-installation.md hardening-your-maas-installation-deb-2-7-cli-2664.md
 	xpub push discourse -t deb-2-7-cli hardening-your-maas-installation-deb-2-7-cli-2664.md

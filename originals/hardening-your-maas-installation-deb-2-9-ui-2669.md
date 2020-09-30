@@ -80,16 +80,16 @@
 |Packages|[CLI](/t/hardening-your-maas-installation-deb-2-7-cli/2664) ~ [UI](/t/hardening-your-maas-installation-deb-2-7-ui/2665)|[CLI](/t/hardening-your-maas-installation-deb-2-8-cli/2666) ~ [UI](/t/hardening-your-maas-installation-deb-2-8-ui/2667)|[CLI](/t/hardening-your-maas-installation-deb-2-9-cli/2668) ~ [UI](/t/hardening-your-maas-installation-deb-2-9-ui/2669)|
  snap-2-9-ui -->
 
-As a MAAS administrator, you have the important responsibilty of hardening your installation to help repudiate attacks and malicious actors.  While there are too many variables to make meaningful suggestions for your deployed machines, there are a number of steps you can take to improve the overall security of your MASS setup.  This article provides a few suggestions.
+As a MAAS administrator, you have the important responsibility of hardening your installation to help repudiate attacks and malicious actors.  While there are too many variables to make meaningful suggestions for your deployed machines, there are a number of steps you can take to improve the overall security of your MASS setup.  This article provides a few suggestions.
 
 #### Quick questions you may have:
 
-* [How do I setup a firewall for MAAS?](/t/hardening-your-maas-installation/1381#heading--firewalls)
-* [How do I configure a TLS-terminating load balancer (and what's the impact on my MAAS setup?)](/t/hardening-your-maas-installation/1381#heading--tls)
-* [How do I use logs to identify security issues?](/t/hardening-your-maas-installation/1381#heading--using-logs-for-security)
-* [How do I implement PostgreSQL security?](/t/hardening-your-maas-installation/1381#heading--postgres-security)
-* [What else can I do to harden MAAS?](/t/hardening-your-maas-installation/1381#heading--what-else-to-do)
-* [Whom do I contact for MAAS security consulting?](/t/hardening-your-maas-installation/1381#heading--security-consulting)
+* [How do I setup a firewall for MAAS?](#heading--firewalls)
+* [How do I configure a TLS-terminating load balancer (and what's the impact on my MAAS setup?)](#heading--tls)
+* [How do I use logs to identify security issues?](#heading--using-logs-for-security)
+* [How do I implement PostgreSQL security?](#heading--postgres-security)
+* [What else can I do to harden MAAS?](#heading--what-else-to-do)
+* [Whom do I contact for MAAS security consulting?](#heading--security-consulting)
 
 <h2 id="heading--firewalls">Use a firewall</h2>
 <p>Each rack controller must be able to initiate TCP connections on the following ports:</p>
@@ -138,7 +138,7 @@ You could then follow that with commands similar to these:
     sudo ufw allow 5250:5270/tcp
     sudo ufw allow 5250:5270/udp
 
-Recognize that your particular configuration and version may vary, so consult the appropriate firewall manual pages for your specific MAAS host system.
+Recognise that your particular configuration and version may vary, so consult the appropriate firewall manual pages for your specific MAAS host system.
 
 <h2 id="heading--tls">Configure a TLS-terminating load balancer</h2>
 
@@ -146,7 +146,51 @@ One of the best steps you can take to improve both security and availability of 
 
 <details><summary>What is a TLS-terminated load balancer?</summary>
 
-In the context of MAAS, a [load balancer (external link)](https://www.nginx.com/resources/glossary/load-balancing/) distributes the incoming Web UI and API requests across multiple region controllers.  This reduces both load on MAAS and wait times for user requests.  Typically, this is known as a high-availability (HA) configuration, although there are two other [HA configurations](/t/high-availability/804) that can be enabled for MAAS: one for BMC access (for powering on machines), and one for DHCP, which enables primary and secondary DHCP instances that manage the same VLAN.
+<!-- deb-2-7-cli
+In the context of MAAS, a [load balancer (external link)](https://www.nginx.com/resources/glossary/load-balancing/) distributes the incoming Web UI and API requests across multiple region controllers.  This reduces both load on MAAS and wait times for user requests.  Typically, this is known as a high-availability (HA) configuration, although there are two other [HA configurations](/t/high-availability/2688) that can be enabled for MAAS: one for BMC access (for powering on machines), and one for DHCP, which enables primary and secondary DHCP instances that manage the same VLAN.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+In the context of MAAS, a [load balancer (external link)](https://www.nginx.com/resources/glossary/load-balancing/) distributes the incoming Web UI and API requests across multiple region controllers.  This reduces both load on MAAS and wait times for user requests.  Typically, this is known as a high-availability (HA) configuration, although there are two other [HA configurations](/t/high-availability/2689) that can be enabled for MAAS: one for BMC access (for powering on machines), and one for DHCP, which enables primary and secondary DHCP instances that manage the same VLAN.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+In the context of MAAS, a [load balancer (external link)](https://www.nginx.com/resources/glossary/load-balancing/) distributes the incoming Web UI and API requests across multiple region controllers.  This reduces both load on MAAS and wait times for user requests.  Typically, this is known as a high-availability (HA) configuration, although there are two other [HA configurations](/t/high-availability/2690) that can be enabled for MAAS: one for BMC access (for powering on machines), and one for DHCP, which enables primary and secondary DHCP instances that manage the same VLAN.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+In the context of MAAS, a [load balancer (external link)](https://www.nginx.com/resources/glossary/load-balancing/) distributes the incoming Web UI and API requests across multiple region controllers.  This reduces both load on MAAS and wait times for user requests.  Typically, this is known as a high-availability (HA) configuration, although there are two other [HA configurations](/t/high-availability/2691) that can be enabled for MAAS: one for BMC access (for powering on machines), and one for DHCP, which enables primary and secondary DHCP instances that manage the same VLAN.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+In the context of MAAS, a [load balancer (external link)](https://www.nginx.com/resources/glossary/load-balancing/) distributes the incoming Web UI and API requests across multiple region controllers.  This reduces both load on MAAS and wait times for user requests.  Typically, this is known as a high-availability (HA) configuration, although there are two other [HA configurations](/t/high-availability/2692) that can be enabled for MAAS: one for BMC access (for powering on machines), and one for DHCP, which enables primary and secondary DHCP instances that manage the same VLAN.
+ deb-2-9-cli -->
+
+In the context of MAAS, a [load balancer (external link)](https://www.nginx.com/resources/glossary/load-balancing/) distributes the incoming Web UI and API requests across multiple region controllers.  This reduces both load on MAAS and wait times for user requests.  Typically, this is known as a high-availability (HA) configuration, although there are two other [HA configurations](/t/high-availability/2693) that can be enabled for MAAS: one for BMC access (for powering on machines), and one for DHCP, which enables primary and secondary DHCP instances that manage the same VLAN.
+
+<!-- snap-2-7-cli
+In the context of MAAS, a [load balancer (external link)](https://www.nginx.com/resources/glossary/load-balancing/) distributes the incoming Web UI and API requests across multiple region controllers.  This reduces both load on MAAS and wait times for user requests.  Typically, this is known as a high-availability (HA) configuration, although there are two other [HA configurations](/t/high-availability/2682) that can be enabled for MAAS: one for BMC access (for powering on machines), and one for DHCP, which enables primary and secondary DHCP instances that manage the same VLAN.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+In the context of MAAS, a [load balancer (external link)](https://www.nginx.com/resources/glossary/load-balancing/) distributes the incoming Web UI and API requests across multiple region controllers.  This reduces both load on MAAS and wait times for user requests.  Typically, this is known as a high-availability (HA) configuration, although there are two other [HA configurations](/t/high-availability/2683) that can be enabled for MAAS: one for BMC access (for powering on machines), and one for DHCP, which enables primary and secondary DHCP instances that manage the same VLAN.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+In the context of MAAS, a [load balancer (external link)](https://www.nginx.com/resources/glossary/load-balancing/) distributes the incoming Web UI and API requests across multiple region controllers.  This reduces both load on MAAS and wait times for user requests.  Typically, this is known as a high-availability (HA) configuration, although there are two other [HA configurations](/t/high-availability/2684) that can be enabled for MAAS: one for BMC access (for powering on machines), and one for DHCP, which enables primary and secondary DHCP instances that manage the same VLAN.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+In the context of MAAS, a [load balancer (external link)](https://www.nginx.com/resources/glossary/load-balancing/) distributes the incoming Web UI and API requests across multiple region controllers.  This reduces both load on MAAS and wait times for user requests.  Typically, this is known as a high-availability (HA) configuration, although there are two other [HA configurations](/t/high-availability/2685) that can be enabled for MAAS: one for BMC access (for powering on machines), and one for DHCP, which enables primary and secondary DHCP instances that manage the same VLAN.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+In the context of MAAS, a [load balancer (external link)](https://www.nginx.com/resources/glossary/load-balancing/) distributes the incoming Web UI and API requests across multiple region controllers.  This reduces both load on MAAS and wait times for user requests.  Typically, this is known as a high-availability (HA) configuration, although there are two other [HA configurations](/t/high-availability/2686) that can be enabled for MAAS: one for BMC access (for powering on machines), and one for DHCP, which enables primary and secondary DHCP instances that manage the same VLAN.
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+In the context of MAAS, a [load balancer (external link)](https://www.nginx.com/resources/glossary/load-balancing/) distributes the incoming Web UI and API requests across multiple region controllers.  This reduces both load on MAAS and wait times for user requests.  Typically, this is known as a high-availability (HA) configuration, although there are two other [HA configurations](/t/high-availability/2687) that can be enabled for MAAS: one for BMC access (for powering on machines), and one for DHCP, which enables primary and secondary DHCP instances that manage the same VLAN.
+ snap-2-9-ui -->
 
 A TLS-terminated load balancer is a load balancer that carries encryption and decryption as far down the pipe as possible, in this case, all the way to the load balancer itself. Note that, even though the "SSL" keyword may be used to enable operation, the term SSL is considered obsolete.  Hence we choose to use the term "TLS" instead, referring to **Transport Layer Security**.
 
@@ -214,7 +258,51 @@ Finally, restart the (already-running) load balancer so that these changes can t
 
 Note that you can also [enable HAProxy logging (external link)](https://www.digitalocean.com/community/tutorials/how-to-implement-ssl-termination-with-haproxy-on-ubuntu-14-04) if desired.  This logging is an optional feature of the HAProxy tool and is thus left to your discretion.  
 
-If desired, you can [bypass the use of SSL](/t/high-availability/804#heading--load-balancing-with-haproxy-optional) in your HAProxy.  Alternatively, you can [set up TLS encryption on your MAAS web UI](/t/configuring-tls-encryption/764) without implementing HAProxy.
+<!-- deb-2-7-cli
+If desired, you can [bypass the use of SSL](/t/high-availability/2688#heading--load-balancing-with-haproxy-optional) in your HAProxy.  Alternatively, you can [set up TLS encryption on your MAAS web UI](/t/configuring-tls-encryption/2544) without implementing HAProxy.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+If desired, you can [bypass the use of SSL](/t/high-availability/2689#heading--load-balancing-with-haproxy-optional) in your HAProxy.  Alternatively, you can [set up TLS encryption on your MAAS web UI](/t/configuring-tls-encryption/2545) without implementing HAProxy.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+If desired, you can [bypass the use of SSL](/t/high-availability/2690#heading--load-balancing-with-haproxy-optional) in your HAProxy.  Alternatively, you can [set up TLS encryption on your MAAS web UI](/t/configuring-tls-encryption/2546) without implementing HAProxy.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+If desired, you can [bypass the use of SSL](/t/high-availability/2691#heading--load-balancing-with-haproxy-optional) in your HAProxy.  Alternatively, you can [set up TLS encryption on your MAAS web UI](/t/configuring-tls-encryption/2547) without implementing HAProxy.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+If desired, you can [bypass the use of SSL](/t/high-availability/2692#heading--load-balancing-with-haproxy-optional) in your HAProxy.  Alternatively, you can [set up TLS encryption on your MAAS web UI](/t/configuring-tls-encryption/2548) without implementing HAProxy.
+ deb-2-9-cli -->
+
+If desired, you can [bypass the use of SSL](/t/high-availability/2693#heading--load-balancing-with-haproxy-optional) in your HAProxy.  Alternatively, you can [set up TLS encryption on your MAAS web UI](/t/configuring-tls-encryption/2549) without implementing HAProxy.
+
+<!-- snap-2-7-cli
+If desired, you can [bypass the use of SSL](/t/high-availability/2682#heading--load-balancing-with-haproxy-optional) in your HAProxy.  Alternatively, you can [set up TLS encryption on your MAAS web UI](/t/configuring-tls-encryption/2538) without implementing HAProxy.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+If desired, you can [bypass the use of SSL](/t/high-availability/2683#heading--load-balancing-with-haproxy-optional) in your HAProxy.  Alternatively, you can [set up TLS encryption on your MAAS web UI](/t/configuring-tls-encryption/2539) without implementing HAProxy.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+If desired, you can [bypass the use of SSL](/t/high-availability/2684#heading--load-balancing-with-haproxy-optional) in your HAProxy.  Alternatively, you can [set up TLS encryption on your MAAS web UI](/t/configuring-tls-encryption/2540) without implementing HAProxy.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+If desired, you can [bypass the use of SSL](/t/high-availability/2685#heading--load-balancing-with-haproxy-optional) in your HAProxy.  Alternatively, you can [set up TLS encryption on your MAAS web UI](/t/configuring-tls-encryption/2541) without implementing HAProxy.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+If desired, you can [bypass the use of SSL](/t/high-availability/2686#heading--load-balancing-with-haproxy-optional) in your HAProxy.  Alternatively, you can [set up TLS encryption on your MAAS web UI](/t/configuring-tls-encryption/2542) without implementing HAProxy.
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+If desired, you can [bypass the use of SSL](/t/high-availability/2687#heading--load-balancing-with-haproxy-optional) in your HAProxy.  Alternatively, you can [set up TLS encryption on your MAAS web UI](/t/configuring-tls-encryption/2543) without implementing HAProxy.
+ snap-2-9-ui -->
 
 
 <h2 id="heading--using-logs-for-security">Use logs to identify security issues</h2>
@@ -226,13 +314,13 @@ There are four categories of log files that you can use to help identify securit
 * MAAS log files
 * system log files
 
-This section will offer some advice, as well as links to more detailed infromation on these categories.
+This section will offer some advice, as well as links to more detailed information on these categories.
 
 <h3 id="heading--firewall-logs-subsection">Firewall logs</h3>
 
 The Ubuntu firewall, [UFW (external link)](https://wiki.ubuntu.com/UncomplicatedFirewall), is a front-end for [iptables (external link)](https://help.ubuntu.com/community/IptablesHowTo), so the UFW log output is very similar to what you'll encounter in iptables itself.  If you want to secure your MAAS installation, it's very important to periodically review your UFW logs, found in `/var/log/ufw*`.
 
-Learning to recognize issues in the UFW/iptables log is an art form, so we're not going to give an extended tutorial here.  Still, there are some key indicators that might help you spot security issues.
+Learning to recognise issues in the UFW/iptables log is an art form, so we're not going to give an extended tutorial here.  Still, there are some key indicators that might help you spot security issues.
 
 You might look for something probing a port that's not supporting an application service.  Attackers use port scanners to look for openings.  You might see entries like these:
 
@@ -263,7 +351,7 @@ Look for source-routed packets, that is, packets with a source address internal 
 
 Review the IP addresses that are being rejected and dropped.  Try to identify them with a `ping -a <IP address>`.  Spoofed addresses won't have an owner (and you can block them).  Real addresses have a [whois (external link)](http://www.internic.net/whois.html) entry, so it's possible you can contact the ISP to report and resolve this issue.
 
-There are many other firewall log analysis techniques, and a number of good open-source and commercial log analysis programs.  If you decide to analyze directly, though, you're basically looking for blocked connection issues, connections to (potentially) open ports you're not using, and suspicious-looking outbound connections.
+There are many other firewall log analysis techniques, and a number of good open-source and commercial log analysis programs.  If you decide to analyse directly, though, you're basically looking for blocked connection issues, connections to (potentially) open ports you're not using, and suspicious-looking outbound connections.
 
 <h3 id="heading--web-server-logs-subsection">Web server logs</h3>
 
@@ -275,7 +363,7 @@ Detecting malicious activity directed toward your Web server is best done with a
 
 Web server log analysis is also an art form, so we don't plan to offer a comprehensive tutorial here, but here are few examples of things to look for in your logs:
 
-* multiple requests in less than one second, or some other appropriate timeframe.
+* multiple requests in less than one second, or some other appropriate time-frame.
 
 * multiple secure/login page accesses in a one-minute window, especially when they fail.
 

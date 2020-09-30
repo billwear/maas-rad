@@ -86,7 +86,51 @@ When you click on the "Commissioning" tab under a given machine, you will see a 
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/f2e52a4bf55b37e5ff63e7d1fab1aac32aebc48c.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/f2e52a4bf55b37e5ff63e7d1fab1aac32aebc48c.jpeg"></a> 
 
-Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/822#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+<!-- deb-2-7-cli
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2472#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2473#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ deb-2-7-ui -->
+
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2474#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+
+<!-- deb-2-8-ui
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2475#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2476#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2477#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2466#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2467#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2468#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2469#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2470#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2471#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ snap-2-9-ui -->
 
 <h2>00-maas-00-support-info</h2>
 

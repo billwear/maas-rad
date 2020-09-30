@@ -86,12 +86,12 @@ MAAS currently does not provide specific tools to back up and restore a working 
 
 #### Quick questions you may have:
 
-* [What configuration files should I capture in my backup?](/t/backup/792#heading--configuration-files)
-* [How should I prepare PostgreSQL data for backup?](/t/backup/792#heading--postgresql-export)
-* [What services should I stop before backing up?](/t/backup/792#heading--stop-critical-services)
-* [How should I archive files to make the backup more efficient?](/t/backup/792#heading--archive-configuration-files)
-* [How do I restore my system, should the need arise?](/t/backup/792#heading--restore-files)
-* [What steps should I take to restore the database to normal operation?](/t/backup/792#heading--recreatingupdating-the-db)
+* [What configuration files should I capture in my backup?](#heading--configuration-files)
+* [How should I prepare PostgreSQL data for backup?](#heading--postgresql-export)
+* [What services should I stop before backing up?](#heading--stop-critical-services)
+* [How should I archive files to make the backup more efficient?](#heading--archive-configuration-files)
+* [How do I restore my system, should the need arise?](#heading--restore-files)
+* [What steps should I take to restore the database to normal operation?](#heading--recreatingupdating-the-db)
 
 <h2 id="heading--configuration-files">Configuration files</h2>
 
