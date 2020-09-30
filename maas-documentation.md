@@ -359,7 +359,7 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 - [NTP](/t/ntp-services-snap-2-8-ui/2961)
 - [Network discovery](/t/network-discovery-snap-2-8-ui/2925)
 - [IPv6](/t/ipv6-addressing-snap-2-8-ui/2769)
-- [SSL](/t/configuring-tls-encryption-snap-2-8-ui/2541)
+- [TLS encryption](/t/configuring-tls-encryption-snap-2-8-ui/2541)
 - [STP](/t/managing-stp-snap-2-8-ui/2913)
 - [Availability zones (AZs)](/t/availability-zones-snap-2-8-ui/2325)
 

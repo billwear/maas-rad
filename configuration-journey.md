@@ -233,7 +233,18 @@ have changed, use the command's 'refresh' sub-command to fetch the
 latest version of this help information from the server.
 </details>
 
-<h3>Configuration</h3>
+<h2>Configuration</h2>
+
+Configuring MAAS consists of four broad steps:
+
+1. Setting upstream DNS
+2. Importing an SSH key for your admin user
+3. Importing images
+4. Configuring DNS
+
+This section will cover those four operations
+
+<h3>Setting DNS</h3>
 
 After logging in for the first time, you will need to set a number of system-wide configuration options.  First up, you should configure DNS.  You can check out the help for DNS settings, known in the CLI as a "DNS forwarder":
 
@@ -243,7 +254,15 @@ maas $PROFILE maas set-config name=upstream_dns value="8.8.8.8"
 
 Here, we've set the DNS forwarder to "8.8.8.8" (Google), which is a reliable value.
 
-<h4>Importing images</h4>
+<h3>Setting SSH for the admin user</h3>
+
+To add a public SSH key to a MAAS user account, type the following command:
+
+```
+maas $PROFILE sshkeys create "key=$SSH_KEY"
+```
+
+<h3>Importing images</h3>
 
 Before going any further, it's worthwhile to start the image import, as it can sometimes take a few minutes.  You can see what images you already have downloaded with this command:
 
@@ -303,11 +322,120 @@ maas admin boot-resources import
 which offers a shorter confirmation message:
 
 ```
-
 Success.
 Machine-readable output follows:
 Import of boot resources started
 ```
+
+<h3>Enablling DNS</h3>
+
+Once your image has been imported, you'll want to get DHCP working, which means finding the untagged VLAN. In truth, it shouldn’t be too hard, because at this point, there still should only be one.
+
+In order to turn on DHCP, you need to know two things besides the VLAN name (“untagged”): the fabric ID and the primary rack controller name. To start, all the fabrics will be on the same untagged VLAN, so any fabric will do. You can find a valid fabric ID by reading it from any subnet, so just pick one  (e.g., 192.168.123.0/24) and find a usable fabric ID like this:
+
+```
+maas $PROFILE subnet read $SUBNET_CIDR | grep fabric_id
+```
+
+which returns (in this example):
+
+```
+"fabric_id": $FABRIC_ID,
+```
+
+Next, find the name of the primary rack controller. It's usually fairly obvious, but for purposes of argument, assume that it's not known. You can get it this way:
+
+```
+maas $PROFILE rack-controllers read | grep hostname | cut -d '"' -f 4
+```
+
+This returns a hostname, which we'll call:
+
+```
+$RACK_CONTR_HOSTNAME
+```
+
+Finally, you need to create an IP range for DHCP, in this case, a dynamic range:
+
+```
+maas $PROFILE ipranges create type=dynamic start_ip=$START_IP end_ip=$END_IP
+```
+
+This command returns something similar to this sample output:
+
+    Success.
+    Machine-readable output follows:
+    {
+        "subnet": {
+            "name": "192.168.123.0/24",
+            "description": "",
+            "vlan": {
+                "vid": 0,
+                "mtu": 1500,
+                "dhcp_on": false,
+                "external_dhcp": null,
+                "relay_vlan": null,
+                "fabric": "fabric-2",
+                "primary_rack": null,
+                "name": "untagged",
+                "id": 5003,
+                "space": "undefined",
+                "secondary_rack": null,
+                "fabric_id": 2,
+                "resource_uri": "/MAAS/api/2.0/vlans/5003/"
+            },
+            "cidr": "192.168.123.0/24",
+            "rdns_mode": 2,
+            "gateway_ip": null,
+            "dns_servers": [],
+            "allow_dns": true,
+            "allow_proxy": true,
+            "active_discovery": false,
+            "managed": true,
+            "id": 4,
+            "space": "undefined",
+            "resource_uri": "/MAAS/api/2.0/subnets/4/"
+        },
+        "type": "dynamic",
+        "start_ip": "192.168.123.190",
+        "end_ip": "192.168.123.253",
+        "user": {
+            "is_superuser": true,
+            "username": "admin",
+            "email": "admin@admin.com",
+            "is_local": true,
+            "resource_uri": "/MAAS/api/2.0/users/admin/"
+        },
+        "comment": "",
+        "id": 1,
+        "resource_uri": "/MAAS/api/2.0/ipranges/1/"
+    }
+
+So you should now be able to turn on DHCP like this:
+
+```
+maas $PROFILE vlan update $FABRIC_ID untagged dhcp_on=True primary_rack=$RACK_CONTR_HOSTHNAME
+```
+
+If you've done everything correctly, you should see JSON output similar to this sample:
+
+    Success.
+    Machine-readable output follows:
+    {
+        "vid": 0,
+        "mtu": 1500,
+        "dhcp_on": true,
+        "external_dhcp": null,
+        "relay_vlan": null,
+        "fabric": "fabric-2",
+        "space": "undefined",
+        "primary_rack": "8dwnne",
+        "secondary_rack": null,
+        "name": "untagged",
+        "fabric_id": 2,
+        "id": 5003,
+        "resource_uri": "/MAAS/api/2.0/vlans/5003/"
+    }
 
 snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
 
@@ -452,6 +580,8 @@ While you are testing MAAS, be sure to check out filters, which can narrow your 
 While you are testing MAAS, be sure to check out filters, which can narrow your view based on both [tags](/t/maas-tags/2891) and hardware characteristics.  You can select and manage machines in either filtered or full views.
  snap-2-9-ui -->
 
+<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
+
 <h3 id="heading--images">Images</h3>
 
 When it comes to running applications, MAAS can easily deploy any supported variant of Ubuntu, including LTS and non-LTR versions for x86, ARM, PPC and s390x systems. You can also deploy several other operating systems to your machines, including CentOS 7, CentOS 6, Windows, RHEL, and ESXi images, via <a href="https://www.ubuntu.com/support" rel="nofollow noopener">Ubuntu Advantage^</a>.
@@ -459,6 +589,7 @@ When it comes to running applications, MAAS can easily deploy any supported vari
 <a href="https://discourse.maas.io/uploads/default/original/1X/27c47222c1fc0e34ed70134a1007dde067d2de81.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/27c47222c1fc0e34ed70134a1007dde067d2de81.jpeg"></a> 
 
 <h3 id="heading--vm-hosts">VM hosts</h3>
+
 snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
 
 <!-- deb-2-7-cli
