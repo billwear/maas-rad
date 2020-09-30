@@ -119,7 +119,7 @@ The columns list the following details for each machine:
 
 <h2 id="heading--machine-life-cycle">Machine life-cycle</h2>
 
-One of the most important things to understand about machines is their life-cycle.  Machines can be disovered or added, commissioned by MAAS, acquired, deployed, released, marked broken, tested, put into rescue mode, and deleted.  In addition, pools, zones, and tags can be set for machines.
+One of the most important things to understand about machines is their life-cycle.  Machines can be discovered or added, commissioned by MAAS, acquired, deployed, released, marked broken, tested, put into rescue mode, and deleted.  In addition, pools, zones, and tags can be set for machines.
 
 All of these states and actions represent the possible life-cycle of a machine.  This life-cycle isn't strict or linear -- it depends on how you use a machine -- but it's useful to give a general overview of how machines tend to change states.  In the discussion that follows, states and actions are shown in **bold** type.
 
@@ -141,7 +141,7 @@ All of these states and actions represent the possible life-cycle of a machine. 
 
 * You can **abort** any operation that's in progress.
 
-* You also have the option to set tags, availiabity zone, or resource pool at various stages along the way.
+* You also have the option to set tags, availability zone, or resource pool at various stages along the way.
 
 Since these actions are not necessarily sequential, and the available actions change as the machine state changes, it's not very useful to make a state diagram or flowchart.  Instead, consider the following table:
 
@@ -555,7 +555,7 @@ Help interpreting these logs can be found under the [Logging](/t/maas-logging/28
 
 <h3 id="heading--event-logs-h3">Find a machine's event logs</h3>
 
-The "Event" tab displays a list ot timestamped status updates for events and actions performed on the machine:
+The "Event" tab displays a list of timestamped status updates for events and actions performed on the machine:
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/114ada7188f8ebf12883a54c0976ad8abda1d211.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/114ada7188f8ebf12883a54c0976ad8abda1d211.jpeg"></a> 
 

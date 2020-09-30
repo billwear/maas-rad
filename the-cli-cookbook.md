@@ -1,6 +1,6 @@
 The following recipes may help you make better use of the [MAAS CLI](/t/maas-cli/802).  Each recipe includes the relevant CLI command sequence, with the results processed through `jq` and other relevant command-line utilities to produce cleaner output.  Understand that this material isn't meant to replace the CLI, just to give you some hints about using it.
 
-#### Catalog of recipes:
+#### Catalogue of recipes:
 
 * [Basic machine list](/t/the-cli-cookbook/2218#heading--basic-machine-list)
   * [sorted by machine name](/t/the-cli-cookbook/2218#heading--sorted-by-machine-name)
@@ -12,6 +12,7 @@ The following recipes may help you make better use of the [MAAS CLI](/t/maas-cli
   * [sorted by VLAN](/t/the-cli-cookbook/2218#heading--sorted-by-vlan)
   * [sorted by fabric](/t/the-cli-cookbook/2218#heading--sorted-by-fabric)
   * [sorted by subnet](/t/the-cli-cookbook/2218#heading--sorted-by-subnet)
+* [Make machines](/t/the-cli-cookbook/2218#heading--make-machines)
 * [VM host list](/t/the-cli-cookbook/2218#heading--vm-host-list)
 * [Creating KVMs & getting feedback](/t/the-cli-cookbook/2218#heading--create-kvm)
 
@@ -155,7 +156,7 @@ Remember to:
 
 <details><summary>Also, be aware of how multiple lines are parsed by the shell:</summary>
 
-* Quoted sections, such as the long command generally following `jq`, need no special accomodations to break lines.  You can break the lines anywhere that's convenient for you, as long as you maintain at least a single space between "words."  
+* Quoted sections, such as the long command generally following `jq`, need no special accommodations to break lines.  You can break the lines anywhere that's convenient for you, as long as you maintain at least a single space between "words."  
 
 * Any non-quoted section (i.e., part of a shell command) must have a `\` at the end of each line, before a continuation line.
 
@@ -349,18 +350,18 @@ So if your desired VM host is ID 4, you'd type:
 lsmm --vmhost -c 4
 ```
 
-<h2>mkmm series: Creating MAAS machines</h2>
+<h2>Recipes for creating MAAS machines</h2>
 
-The following scripts walk you through creating MAAS machines of various types.  In these simple recipes, there's **no validation** of input, so use at your own risk -- although it would be trivial to add validation for your favorite machine types.
+The following scripts walk you through creating MAAS machines of various types.  In these simple recipes, there's **no validation** of input, so use at your own risk -- although it would be trivial to add validation for your favourite machine types.
 
-<h3 id="heading--mkkvm">mkmm --kvm: Make a libvirt VM</h3>
+<h3 id="heading--make-machines">Make a libvirt VM</h3>
 
-This very basic recipe creates a libvirt virtual machine.  The parameters can be entered interactively (`mkmm --kvm -i`) or in "batch" mode (for scripting commands in a batch shellscript) by using `mkmm --kvm -b`:
+This very basic recipe creates a libvirt virtual machine.  The parameters can be entered interactively (`<scriptname> --kvm -i`) or in "batch" mode (for scripting commands in a batch shellscript) by using `<scriptname> --kvm -b`, where <scriptname> is up to you:
 
 ```
 #!/bin/bash
 #
-# mkmm -- make MAAS machines
+# MAAS CLI make machines recipe
 #  --kvm = create a libvirt KVM
 #
 # -i = interactive mode
@@ -395,7 +396,7 @@ fi
 In interactive mode, the script prompts you for all needed parameters; note that the power type isn't needed, because it's "virsh" in this case.  Interactive mode looks like this:
 
 ```
-stormrider@wintermute:tmp$ mkmm --kvm -i
+stormrider@wintermute:tmp$ foo --kvm -i
 architecture? amd64
 MAC address? 52:54:00:1e:a5:7e
 power ID? e9f84356-5106-40ee-9088-3e35ec7d50cf
@@ -407,7 +408,7 @@ If you prefer to batch your machine creation in shellscripts, you can use the `-
 
 ```
 #!/bin/bash
-mkmm --kvm -i amd64 52:54:00:1e:a5:7e e9f84356-5106-40ee-9088-3e35ec7d50cf qemu+ssh://stormrider@192.168.123.1/system xxxxxxx
+foo --kvm -b amd64 52:54:00:1e:a5:7e e9f84356-5106-40ee-9088-3e35ec7d50cf qemu+ssh://stormrider@192.168.123.1/system xxxxxxx
 ```
 
 This mode allows you to add a number of lines to a longer shellscript, facilitating automatic creation or even the use of a makefile (if you're creative).

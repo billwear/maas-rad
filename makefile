@@ -48,7 +48,18 @@ TARGET_DEPS += originals/availability-zones-snap-2-8-cli-2324.md
 TARGET_DEPS += originals/availability-zones-snap-2-8-ui-2325.md
 TARGET_DEPS += originals/availability-zones-snap-2-9-cli-2326.md
 TARGET_DEPS += originals/availability-zones-snap-2-9-ui-2327.md
-TARGET_DEPS += originals/backup-792.md
+TARGET_DEPS += originals/backup-deb-2-7-cli-2340.md
+TARGET_DEPS += originals/backup-deb-2-7-ui-2341.md
+TARGET_DEPS += originals/backup-deb-2-8-cli-2342.md
+TARGET_DEPS += originals/backup-deb-2-8-cli-2343.md
+TARGET_DEPS += originals/backup-deb-2-9-cli-2344.md
+TARGET_DEPS += originals/backup-deb-2-9-cli-2345.md
+TARGET_DEPS += originals/backup-snap-2-7-cli-2334.md
+TARGET_DEPS += originals/backup-snap-2-7-ui-2335.md
+TARGET_DEPS += originals/backup-snap-2-8-cli-2336.md
+TARGET_DEPS += originals/backup-snap-2-8-ui-2337.md
+TARGET_DEPS += originals/backup-snap-2-9-cli-2338.md
+TARGET_DEPS += originals/backup-snap-2-9-ui-2339.md
 TARGET_DEPS += originals/block-devices-deb-2-7-cli-2352.md
 TARGET_DEPS += originals/block-devices-deb-2-7-ui-2353.md
 TARGET_DEPS += originals/block-devices-deb-2-8-cli-2354.md
@@ -229,7 +240,18 @@ TARGET_DEPS += originals/give-me-an-example-of-maas-snap-2-8-cli-2648.md
 TARGET_DEPS += originals/give-me-an-example-of-maas-snap-2-8-ui-2649.md
 TARGET_DEPS += originals/give-me-an-example-of-maas-snap-2-9-cli-2650.md
 TARGET_DEPS += originals/give-me-an-example-of-maas-snap-2-9-ui-2651.md
-TARGET_DEPS += originals/hardening-your-maas-installation-1381.md
+TARGET_DEPS += originals/hardening-your-maas-installation-deb-2-7-cli-2664.md
+TARGET_DEPS += originals/hardening-your-maas-installation-deb-2-7-ui-2665.md
+TARGET_DEPS += originals/hardening-your-maas-installation-deb-2-8-cli-2666.md
+TARGET_DEPS += originals/hardening-your-maas-installation-deb-2-8-ui-2667.md
+TARGET_DEPS += originals/hardening-your-maas-installation-deb-2-9-cli-2668.md
+TARGET_DEPS += originals/hardening-your-maas-installation-deb-2-9-ui-2669.md
+TARGET_DEPS += originals/hardening-your-maas-installation-snap-2-7-cli-2658.md
+TARGET_DEPS += originals/hardening-your-maas-installation-snap-2-7-ui-2659.md
+TARGET_DEPS += originals/hardening-your-maas-installation-snap-2-8-cli-2660.md
+TARGET_DEPS += originals/hardening-your-maas-installation-snap-2-8-ui-2661.md
+TARGET_DEPS += originals/hardening-your-maas-installation-snap-2-9-cli-2662.md
+TARGET_DEPS += originals/hardening-your-maas-installation-snap-2-9-ui-2663.md
 TARGET_DEPS += originals/hardware-testing-deb-2-7-cli-2676.md
 TARGET_DEPS += originals/hardware-testing-deb-2-7-ui-2677.md
 TARGET_DEPS += originals/hardware-testing-deb-2-8-cli-2678.md
@@ -534,6 +556,18 @@ TARGET_DEPS += originals/power-management-snap-2-8-cli-3008.md
 TARGET_DEPS += originals/power-management-snap-2-8-ui-3009.md
 TARGET_DEPS += originals/power-management-snap-2-9-cli-3010.md
 TARGET_DEPS += originals/power-management-snap-2-9-ui-3011.md
+TARGET_DEPS += originals/prometheus-metrics-deb-2-7-cli-3024.md
+TARGET_DEPS += originals/prometheus-metrics-deb-2-7-ui-3025.md
+TARGET_DEPS += originals/prometheus-metrics-deb-2-8-cli-3026.md
+TARGET_DEPS += originals/prometheus-metrics-deb-2-8-ui-3027.md
+TARGET_DEPS += originals/prometheus-metrics-deb-2-9-cli-3028.md
+TARGET_DEPS += originals/prometheus-metrics-deb-2-9-ui-3029.md
+TARGET_DEPS += originals/prometheus-metrics-snap-2-7-cli-3018.md
+TARGET_DEPS += originals/prometheus-metrics-snap-2-7-ui-3019.md
+TARGET_DEPS += originals/prometheus-metrics-snap-2-8-cli-3020.md
+TARGET_DEPS += originals/prometheus-metrics-snap-2-8-ui-3021.md
+TARGET_DEPS += originals/prometheus-metrics-snap-2-9-cli-3022.md
+TARGET_DEPS += originals/prometheus-metrics-snap-2-9-ui-3023.md
 TARGET_DEPS += originals/proxy-deb-2-7-cli-3036.md
 TARGET_DEPS += originals/proxy-deb-2-7-ui-3037.md
 TARGET_DEPS += originals/proxy-deb-2-8-cli-3038.md
@@ -1087,7 +1121,7 @@ originals/troubleshooting-837.md: troubleshooting.md
 originals/cli-commissioning-and-hardware-testing-scripts-832.md: cli-commissioning-and-hardware-testing-scripts.md
 	chmod 644 originals/*
 	cp cli-commissioning-and-hardware-testing-scripts.md cli-commissioning-and-hardware-testing-scripts-832.md
-	xpub push discourse  cli-commissioning-and-hardware-testing-scripts-832.mdd
+	xpub push discourse cli-commissioning-and-hardware-testing-scripts-832.md
 	xpub pull discourse 832 832
 	cp -p cli-commissioning-and-hardware-testing-scripts-832.md originals
 	rm cli-commissioning-and-hardware-testing-scripts-832.md
@@ -3208,14 +3242,68 @@ originals/language-details-contributing-to-maas-docs-snap-2-8-ui-2793.md: langua
 	rm language-details-contributing-to-maas-docs-deb-2-9-ui-2801.md
 	chmod 444 originals/*
  
-originals/hardening-your-maas-installation-1381.md: hardening-your-maas-installation.md
+originals/hardening-your-maas-installation-deb-2-7-cli-2664.md: hardening-your-maas-installation.md
 	chmod 644 originals/*
-	cp hardening-your-maas-installation.md hardening-your-maas-installation-1381.md
-	xpub push discourse hardening-your-maas-installation-1381.md
-	xpub pull discourse 1381 1381
-	cp -p hardening-your-maas-installation-1381.md originals
-	rm hardening-your-maas-installation-1381.md
-	chmod 444 originals/*
+	cp hardening-your-maas-installation.md hardening-your-maas-installation-deb-2-7-cli-2664.md
+	xpub push discourse -t deb-2-7-cli hardening-your-maas-installation-deb-2-7-cli-2664.md
+	xpub pull discourse 2664 2664
+	cp -p hardening-your-maas-installation-deb-2-7-cli-2664.md originals
+	rm hardening-your-maas-installation-deb-2-7-cli-2664.md
+	cp hardening-your-maas-installation.md hardening-your-maas-installation-deb-2-7-ui-2665.md
+	xpub push discourse -t deb-2-7-ui hardening-your-maas-installation-deb-2-7-ui-2665.md
+	xpub pull discourse 2665 2665
+	cp -p hardening-your-maas-installation-deb-2-7-ui-2665.md originals
+	rm hardening-your-maas-installation-deb-2-7-ui-2665.md
+	cp hardening-your-maas-installation.md hardening-your-maas-installation-deb-2-8-cli-2666.md
+	xpub push discourse -t deb-2-8-cli hardening-your-maas-installation-deb-2-8-cli-2666.md
+	xpub pull discourse 2666 2666
+	cp -p hardening-your-maas-installation-deb-2-8-cli-2666.md originals
+	rm hardening-your-maas-installation-deb-2-8-cli-2666.md
+	cp hardening-your-maas-installation.md hardening-your-maas-installation-deb-2-8-ui-2667.md
+	xpub push discourse -t deb-2-8-ui hardening-your-maas-installation-deb-2-8-ui-2667.md
+	xpub pull discourse 2667 2667
+	cp -p hardening-your-maas-installation-deb-2-8-ui-2667.md originals
+	rm hardening-your-maas-installation-deb-2-8-ui-2667.md
+	cp hardening-your-maas-installation.md hardening-your-maas-installation-deb-2-9-cli-2668.md
+	xpub push discourse -t deb-2-9-cli hardening-your-maas-installation-deb-2-9-cli-2668.md
+	xpub pull discourse 2668 2668
+	cp -p hardening-your-maas-installation-deb-2-9-cli-2668.md originals
+	rm hardening-your-maas-installation-deb-2-9-cli-2668.md
+	cp hardening-your-maas-installation.md hardening-your-maas-installation-deb-2-9-ui-2669.md
+	xpub push discourse -t deb-2-9-ui hardening-your-maas-installation-deb-2-9-ui-2669.md
+	xpub pull discourse 2669 2669
+	cp -p hardening-your-maas-installation-deb-2-9-ui-2669.md originals
+	rm hardening-your-maas-installation-deb-2-9-ui-2669.md
+	cp hardening-your-maas-installation.md hardening-your-maas-installation-snap-2-7-cli-2658.md
+	xpub push discourse -t snap-2-7-cli hardening-your-maas-installation-snap-2-7-cli-2658.md
+	xpub pull discourse 2658 2658
+	cp -p hardening-your-maas-installation-snap-2-7-cli-2658.md originals
+	rm hardening-your-maas-installation-snap-2-7-cli-2658.md
+	cp hardening-your-maas-installation.md hardening-your-maas-installation-snap-2-7-ui-2659.md
+	xpub push discourse -t snap-2-7-ui hardening-your-maas-installation-snap-2-7-ui-2659.md
+	xpub pull discourse 2659 2659
+	cp -p hardening-your-maas-installation-snap-2-7-ui-2659.md originals
+	rm hardening-your-maas-installation-snap-2-7-ui-2659.md
+	cp hardening-your-maas-installation.md hardening-your-maas-installation-snap-2-8-cli-2660.md
+	xpub push discourse -t snap-2-8-cli hardening-your-maas-installation-snap-2-8-cli-2660.md
+	xpub pull discourse 2660 2660
+	cp -p hardening-your-maas-installation-snap-2-8-cli-2660.md originals
+	rm hardening-your-maas-installation-snap-2-8-cli-2660.md
+	cp hardening-your-maas-installation.md hardening-your-maas-installation-snap-2-8-ui-2661.md
+	xpub push discourse -t snap-2-8-ui hardening-your-maas-installation-snap-2-8-ui-2661.md
+	xpub pull discourse 2661 2661
+	cp -p hardening-your-maas-installation-snap-2-8-ui-2661.md originals
+	rm hardening-your-maas-installation-snap-2-8-ui-2661.md
+	cp hardening-your-maas-installation.md hardening-your-maas-installation-snap-2-9-cli-2662.md
+	xpub push discourse -t snap-2-9-cli hardening-your-maas-installation-snap-2-9-cli-2662.md
+	xpub pull discourse 2662 2662
+	cp -p hardening-your-maas-installation-snap-2-9-cli-2662.md originals
+	rm hardening-your-maas-installation-snap-2-9-cli-2662.md
+	cp hardening-your-maas-installation.md hardening-your-maas-installation-snap-2-9-ui-2663.md
+	xpub push discourse -t snap-2-9-ui hardening-your-maas-installation-snap-2-9-ui-2663.md
+	xpub pull discourse 2663 2663
+	cp -p hardening-your-maas-installation-snap-2-9-ui-2663.md originals
+	rm hardening-your-maas-installation-snap-2-9-ui-2663.md
  
 originals/ubuntu-kernels-snap-2-9-cli-3178.md: ubuntu-kernels.md
 	chmod 644 originals/*
@@ -3619,13 +3707,68 @@ originals/cli-resource-pool-management-800.md: cli-resource-pool-management.md
 	rm cli-resource-pool-management-800.md
 	chmod 444 originals/*
  
-originals/backup-792.md: backup.md
+originals/backup-deb-2-7-cli-2340.md: backup.md
 	chmod 644 originals/*
-	cp backup.md backup-792.md
-	xpub push discourse backup-792.md
-	xpub pull discourse 792 792
-	cp -p backup-792.md originals
-	rm backup-snap-792.md
+	cp backup.md backup-deb-2-8-cli-2342.md
+	xpub push discourse -t deb-2-8-cli backup-deb-2-8-cli-2342.md
+	xpub pull discourse 2342 2342
+	cp -p backup-deb-2-8-cli-2342.md originals
+	rm backup-deb-2-8-cli-2342.md
+	cp backup.md backup-snap-2-8-ui-2337.md
+	xpub push discourse -t snap-2-8-ui backup-snap-2-8-ui-2337.md
+	xpub pull discourse 2337 2337
+	cp -p backup-snap-2-8-ui-2337.md originals
+	rm backup-snap-2-8-ui-2337.md
+	cp backup.md backup-snap-2-7-ui-2335.md
+	xpub push discourse -t snap-2-7-ui backup-snap-2-7-ui-2335.md
+	xpub pull discourse 2335 2335
+	cp -p backup-snap-2-7-ui-2335.md originals
+	rm backup-snap-2-7-ui-2335.md
+	cp backup.md backup-deb-2-9-cli-2344.md
+	xpub push discourse -t deb-2-9-cli backup-deb-2-9-cli-2344.md
+	xpub pull discourse 2344 2344
+	cp -p backup-deb-2-9-cli-2344.md originals
+	rm backup-deb-2-9-cli-2344.md
+	cp backup.md backup-deb-2-7-ui-2341.md
+	xpub push discourse -t deb-2-7-ui backup-deb-2-7-ui-2341.md
+	xpub pull discourse 2341 2341
+	cp -p backup-deb-2-7-ui-2341.md originals
+	rm backup-deb-2-7-ui-2341.md
+	cp backup.md backup-deb-2-8-ui-2343.md
+	xpub push discourse -t deb-2-8-ui backup-deb-2-8-ui-2343.md
+	xpub pull discourse 2343 2343
+	cp -p backup-deb-2-8-ui-2343.md originals
+	rm backup-deb-2-8-ui-2343.md
+	cp backup.md backup-deb-2-9-ui-2345.md
+	xpub push discourse -t deb-2-9-ui backup-deb-2-9-ui-2345.md
+	xpub pull discourse 2345 2345
+	cp -p backup-deb-2-9-ui-2345.md originals
+	rm backup-deb-2-9-ui-2345.md
+	cp backup.md backup-snap-2-9-cli-2338.md
+	xpub push discourse -t snap-2-9-cli backup-snap-2-9-cli-2338.md
+	xpub pull discourse 2338 2338
+	cp -p backup-snap-2-9-cli-2338.md originals
+	rm backup-snap-2-9-cli-2338.md
+	cp backup.md backup-snap-2-7-cli-2334.md
+	xpub push discourse -t snap-2-7-cli backup-snap-2-7-cli-2334.md
+	xpub pull discourse 2334 2334
+	cp -p backup-snap-2-7-cli-2334.md originals
+	rm backup-snap-2-7-cli-2334.md
+	cp backup.md backup-snap-2-9-ui-2339.md
+	xpub push discourse -t snap-2-9-ui backup-snap-2-9-ui-2339.md
+	xpub pull discourse 2339 2339
+	cp -p backup-snap-2-9-ui-2339.md originals
+	rm backup-snap-2-9-ui-2339.md
+	cp backup.md backup-deb-2-7-cli-2340.md
+	xpub push discourse -t deb-2-7-cli backup-deb-2-7-cli-2340.md
+	xpub pull discourse 2340 2340
+	cp -p backup-deb-2-7-cli-2340.md originals
+	rm backup-deb-2-7-cli-2340.md
+	cp backup.md backup-snap-2-8-cli-2352.md
+	xpub push discourse -t snap-2-8-cli backup-snap-2-8-cli-2352.md
+	xpub pull discourse 2352 2352
+	cp -p backup-snap-2-8-cli-2352.md originals
+	rm backup-snap-2-8-cli-2352.md
 	chmod 444 originals/*
  
 originals/concepts-and-terms-785.md: concepts-and-terms.md
@@ -4306,13 +4449,68 @@ originals/maas-tags-deb-2-8-cli-2894.md: maas-tags.md
 	rm maas-tags-deb-2-9-cli-2896.md
 	chmod 444 originals/*
  
-originals/prometheus-metrics-813.md: prometheus-metrics.md
+originals/prometheus-metrics-deb-2-7-cli-3024.md: prometheus-metrics.md
 	chmod 644 originals/*
-	cp prometheus-metrics.md prometheus-metrics-813.md
-	xpub push discourse prometheus-metrics-813.md
-	xpub pull discourse 813 813
-	cp -p prometheus-metrics-813.md originals
-	rm prometheus-metrics-813.md
+	cp prometheus-metrics.md prometheus-metrics-deb-2-7-cli-3024.md
+	xpub push discourse -t deb-2-7-cli prometheus-metrics-deb-2-7-cli-3024.md
+	xpub pull discourse 3024 3024
+	cp -p prometheus-metrics-deb-2-7-cli-3024.md originals
+	rm prometheus-metrics-deb-2-7-cli-3024.md
+	cp prometheus-metrics.md prometheus-metrics-deb-2-7-ui-3025.md
+	xpub push discourse -t deb-2-7-ui prometheus-metrics-deb-2-7-ui-3025.md
+	xpub pull discourse 3025 3025
+	cp -p prometheus-metrics-deb-2-7-ui-3025.md originals
+	rm prometheus-metrics-deb-2-7-ui-3025.md
+	cp prometheus-metrics.md prometheus-metrics-deb-2-8-cli-3026.md
+	xpub push discourse -t deb-2-8-cli prometheus-metrics-deb-2-8-cli-3026.md
+	xpub pull discourse 3026 3026
+	cp -p prometheus-metrics-deb-2-8-cli-3026.md originals
+	rm prometheus-metrics-deb-2-8-cli-3026.md
+	cp prometheus-metrics.md prometheus-metrics-deb-2-8-ui-3027.md
+	xpub push discourse -t deb-2-8-ui prometheus-metrics-deb-2-8-ui-3027.md
+	xpub pull discourse 3027 3027
+	cp -p prometheus-metrics-deb-2-8-ui-3027.md originals
+	rm prometheus-metrics-deb-2-8-ui-3027.md
+	cp prometheus-metrics.md prometheus-metrics-deb-2-9-cli-3028.md
+	xpub push discourse -t deb-2-9-cli prometheus-metrics-deb-2-9-cli-3028.md
+	xpub pull discourse 3028 3028
+	cp -p prometheus-metrics-deb-2-9-cli-3028.md originals
+	rm prometheus-metrics-deb-2-9-cli-3028.md
+	cp prometheus-metrics.md prometheus-metrics-deb-2-9-ui-3029.md
+	xpub push discourse -t deb-2-9-ui prometheus-metrics-deb-2-9-ui-3029.md
+	xpub pull discourse 3029 3029
+	cp -p prometheus-metrics-deb-2-9-ui-3029.md originals
+	rm prometheus-metrics-deb-2-9-ui-3029.md
+	cp prometheus-metrics.md prometheus-metrics-snap-2-7-cli-3018.md
+	xpub push discourse -t snap-2-7-cli prometheus-metrics-snap-2-7-cli-3018.md
+	xpub pull discourse 3018 3018
+	cp -p prometheus-metrics-snap-2-7-cli-3018.md originals
+	rm prometheus-metrics-snap-2-7-cli-3018.md
+	cp prometheus-metrics.md prometheus-metrics-snap-2-7-ui-3019.md
+	xpub push discourse -t snap-2-7-ui prometheus-metrics-snap-2-7-ui-3019.md
+	xpub pull discourse 3019 3019
+	cp -p prometheus-metrics-snap-2-7-ui-3019.md originals
+	rm prometheus-metrics-snap-2-7-ui-3019.md
+	cp prometheus-metrics.md prometheus-metrics-snap-2-8-cli-3020.md
+	xpub push discourse -t snap-2-8-cli prometheus-metrics-snap-2-8-cli-3020.md
+	xpub pull discourse 3020 3020
+	cp -p prometheus-metrics-snap-2-8-cli-3020.md originals
+	rm prometheus-metrics-snap-2-8-cli-3020.md
+	cp prometheus-metrics.md prometheus-metrics-snap-2-8-ui-3021.md
+	xpub push discourse -t snap-2-8-ui prometheus-metrics-snap-2-8-ui-3021.md
+	xpub pull discourse 3021 3021
+	cp -p prometheus-metrics-snap-2-8-ui-3021.md originals
+	rm prometheus-metrics-snap-2-8-ui-3021.md
+	cp prometheus-metrics.md prometheus-metrics-snap-2-9-cli-3022.md
+	xpub push discourse -t snap-2-9-cli prometheus-metrics-snap-2-9-cli-3022.md
+	xpub pull discourse 3022 3022
+	cp -p prometheus-metrics-snap-2-9-cli-3022.md originals
+	rm prometheus-metrics-snap-2-9-cli-3022.md
+	cp prometheus-metrics.md prometheus-metrics-snap-2-9-ui-3023.md
+	xpub push discourse -t snap-2-9-ui prometheus-metrics-snap-2-9-ui-3023.md
+	xpub pull discourse 3023 3023
+	cp -p prometheus-metrics-snap-2-9-ui-3023.md originals
+	rm prometheus-metrics-snap-2-9-ui-3023.md
 	chmod 444 originals/*
  
 originals/commissioning-and-hardware-testing-scripts-deb-2-7-ui-2485.md: commissioning-and-hardware-testing-scripts.md

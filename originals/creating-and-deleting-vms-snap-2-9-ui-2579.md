@@ -80,7 +80,7 @@
 |Snap|[CLI](/t/creating-and-deleting-vms-snap-2-7-cli/2574) ~ [UI](/t/creating-and-deleting-vms-snap-2-7-ui/2575)|[CLI](/t/creating-and-deleting-vms-snap-2-8-cli/2576) ~ [UI](/t/creating-and-deleting-vms-snap-2-8-ui/2577)|[CLI](/t/creating-and-deleting-vms-snap-2-9-cli/2578) ~ UI|
 |Packages|[CLI](/t/creating-and-deleting-vms-deb-2-7-cli/2580) ~ [UI](/t/creating-and-deleting-vms-deb-2-7-ui/2581)|[CLI](/t/creating-and-deleting-vms-deb-2-8-cli/2582) ~ [UI](/t/creating-and-deleting-vms-deb-2-8-ui/2583)|[CLI](/t/creating-and-deleting-vms-deb-2-9-cli/2584) ~ [UI](/t/creating-and-deleting-vms-deb-2-9-ui/2585)|
 
-If you have created a VM host, you will want to create and delete virtual machines (VMs); this article explains how to do so.
+If you have already created a VM host, you will want to create and delete virtual machines (VMs); this article explains how to do so.
 
 #### Quick questions you may have:
 

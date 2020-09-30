@@ -16,7 +16,7 @@ Various parts of MAAS rely on OAuth to negotiate a connection to nodes. If the c
 
 Sometimes the hardware can boot from PXE, but fail to load correct drivers when booting the received image. This is sometimes the case when no open source drivers are available for the network hardware.
 
-**SOLUTION:** The best fix for this problem is to install a Linux-friendly network adapter. It *is* theoretically possible to modify the boot image to include proprietary drivers, but it is not a straightforward task.
+**SOLUTION:** The best fix for this problem is to install a Linux-friendly network adaptor. It *is* theoretically possible to modify the boot image to include proprietary drivers, but it is not a straightforward task.
 
 <h2 id="heading--node-deployment-fails">Node deployment fails</h2>
 

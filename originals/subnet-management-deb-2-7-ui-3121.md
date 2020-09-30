@@ -154,7 +154,22 @@ To disable (or re-enable) subnet management navigate to the 'Subnets' page and s
 
 <a href="https://assets.ubuntu.com/v1/e5d80c8c-installconfig-network-subnet-management__2.6-management-toggle.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/e5d80c8c-installconfig-network-subnet-management__2.6-management-toggle.png"></a>
 
-See [MAAS CLI](/t/common-cli-tasks/794#heading--control-subnet-management) for how to do this with the CLI.
+<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
+
+To enable or disable subnet management:
+
+``` bash
+maas $PROFILE subnet update $SUBNET_CIDR managed=false|true
+```
+
+For example, to disable:
+
+``` bash
+maas $PROFILE subnet update 192.168.1.0/24 managed=false
+```
+
+You can use the subnet's ID in place of the CIDR address.
+snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
 
 <h2 id="heading--ip-address-tracking">IP address tracking</h2>
 

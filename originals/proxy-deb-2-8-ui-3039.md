@@ -107,7 +107,39 @@ You must install the proxy on the same host as the region controller (via the 'm
 
 <h2 id="heading--configure-proxy">Configure proxy</h2>
 
-See the [MAAS CLI](/t/common-cli-tasks/794#heading--configure-proxying) for how to configure proxying with the CLI. Note that you can only configure per-subnet proxies via the CLI.
+<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
+Enabling and disabling proxying, in general, is done via a boolean option ('true' or 'false'). The following command will disable proxying completely:
+
+``` bash
+maas $PROFILE maas set-config name=enable_http_proxy value=false
+```
+
+To set an external proxy, ensure proxying is enabled (see above) and then define it:
+
+``` bash
+maas $PROFILE maas set-config name=http_proxy value=$EXTERNAL_PROXY
+```
+
+For example,
+
+``` bash
+maas $PROFILE maas set-config name=enable_http_proxy value=true
+maas $PROFILE maas set-config name=http_proxy value=http://squid.example.com:3128/
+```
+
+Enabling and disabling proxying per subnet is done via a boolean option ('true' or 'false'). Here is how you can disable proxying on a per-subnet basis:
+
+``` bash
+maas $PROFILE subnet update $SUBNET_CIDR allow_proxy=false
+```
+
+For example,
+
+``` bash
+maas $PROFILE subnet update 192.168.0.0/22 allow_proxy=false
+```
+
+snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
 
 In the web UI, visit the 'Settings' page and select the 'Network services' tab. The 'Proxy' section is at the top. You can apply your changes by pressing the 'Save' button.
 
@@ -122,5 +154,3 @@ An upstream cache peer can be defined by enabling the 'Peer' checkbox and enteri
 To prevent MAAS machines from using a proxy, enable the 'Don't use a proxy' checkbox.
 
 [note type="caution"]Note that the proxy service will still be running[/note]
-
-<!-- LINKS -->

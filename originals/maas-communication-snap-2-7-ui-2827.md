@@ -154,7 +154,7 @@ The MAAS region and rack controllers interact in a number of different ways, dep
 2. MAAS translates this to an API request to the region controller.
 3. The region controller locates the rack controller that has BMC access to the machine in question, that is, the rack controller that can power on that machine.
 4. That same rack controller powers on the machine via IPMI request.
-5. The rack controller tasked with providing DHCP handles assigning an IP address to the machine via the [DORA](/t/concepts-and-terms/785#heading--dhcp) sequence (Discover, Offer, Request, Acknowledge).  **Note** that this rack controller doesnt have to be the same one that powers on the machine.
+5. The rack controller tasked with providing DHCP handles assigning an IP address to the machine via the [DORA](/t/concepts-and-terms/785#heading--dhcp) sequence (Discover, Offer, Request, Acknowledge).  **Note** that this rack controller doesn't have to be the same one that powers on the machine.
 6. The DHCP-managing rack controller inserts itself as the DHCP "next-server" and requests a network boot.
 7. (Still) the same rack controller RPCs the region controller to get what's needed to boot an ephemeral Ubuntu kernel, namely the kernel, any kernel parameters, an initrd daemon, and a squashfs load.
 8. That same rack controller transforms the RPC response from the region controller into a valid PXE config and tells the machine to come get its files.

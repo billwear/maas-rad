@@ -1,4 +1,6 @@
-The [web UI](/t/commissioning-and-hardware-testing-scripts/833) enables you to easily write, upload and execute your hardware testing scripts and see the results. However, the [MAAS CLI](/t/maas-cli/802) supports options not available from the web UI, including access to earlier versions of your scripts, script deletion and result automation.
+With MAAS, you can easily write, upload and execute your hardware testing scripts and see the results.
+
+<!-- However, the [MAAS CLI](/t/maas-cli/802) supports options not available from the web UI, including access to earlier versions of your scripts, script deletion and result automation. -->
 
 #### Quick questions you may have:
 

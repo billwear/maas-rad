@@ -87,7 +87,7 @@ Under the "Tests" tab for any machine which has undergone testing, the Tests log
 By default, every MAAS machine is tested with the `smartctl-validate` script, which is a script prepared by Canonical using the [smartmontools](https://www.smartmontools.org) kit.  This is a disk integrity test.  Typical output includes the following:
 
 ```
-INFO: Veriying SMART support for the following drive: /dev/sda
+INFO: Verifying SMART support for the following drive: /dev/sda
 INFO: Running command: sudo -n smartctl --all /dev/sda
 INFO: SMART support is available; continuing...
 INFO: Verifying SMART data on /dev/sda

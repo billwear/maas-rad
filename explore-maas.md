@@ -137,7 +137,7 @@ Note that this step installs a a running PostgreSQL and a MAAS-ready database in
     
     postgres=# \l
 
-This will produce a list of databases, one of which will be `maasdb`, owned by `maas`.  Note that this database is still empty because MAAS is not yet initialized and, hence, is not yet using the database.  Once this is done, you can run the `maas init` command:
+This will produce a list of databases, one of which will be `maasdb`, owned by `maas`.  Note that this database is still empty because MAAS is not yet initialised and, hence, is not yet using the database.  Once this is done, you can run the `maas init` command:
 
     sudo maas init region+rack --database-uri maas-test-db:///
 

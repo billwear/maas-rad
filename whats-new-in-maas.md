@@ -224,7 +224,21 @@ NOTE that this is currently a Beta release, so there will be bugs, instabilities
 - [How do I install MAAS 2.9 Beta from packages?](/t/maas-installation-deb-2-9-ui/3329)
 - [What bugs are fixed so far in this release?](#heading--bug-fixes)
 
+<h2 id="heading--release-notes">New features in 2.9 Beta4</h2>
+
+MAAS 2.9 Beta4 was released on 25 September 2020 and brings the following updates to the BETA product.
+
+<h3 id="heading--rad">IPMI BMC detection improvements (RAD)</h3>
+
+This release improves the IPMI BMC detection capability:
+
+* The IPMI cipher suite ID will now be automatically detected. MAAS tries to find the most secure cipher suite available. Preference order is 17, 3, 8, 12. If detection fails MAAS will fall back to using freeipmi-tool default, 3, which is what previous versions of MAAS use.
+
+* The IPMI K_g BMC key will now be automatically detected if previously set. 
+
 <h2 id="heading--release-notes">New features in 2.9 Beta3</h2>
+
+MAAS 2.9 Beta3 was released on 18 September 2020 and brings the following updates to the BETA product.
 
 <h3 id="heading--rad">Reader Adaptive Documentation (RAD)</h3>
 
@@ -236,7 +250,7 @@ This release will include offline documentation for those users whose MAAS insta
 
 <h2 id="heading--bmc-improve">BMC improvements</h2>
 
-Beta 3 (18 September 2020) - A number of substantial improvements to BMC usage have been released, including the following:
+A number of substantial improvements to BMC usage have been released, including the following:
 
 *  IPMI, HP Moonshot, and Facebook Wedge BMC detection and configuration scripts have been migrated to the commissioning script `30-maas-01-bmc-config `.
 * BMC detection and configuration are now logged to commissioning results.
@@ -244,7 +258,7 @@ Beta 3 (18 September 2020) - A number of substantial improvements to BMC usage h
 
 <h3 id="heading--ipmi-driver">IPMI power driver upgrades</h3>
 
-Beta 3 (18 September 2020) - Three new configuration options have been added to the IPMI power driver, including:
+Three new configuration options have been added to the IPMI power driver, including:
 
 * K_g - The BMC Key of the IPMI device. Used to encrypt all traffic to and from the device during communication.
 * Cipher Suite ID - The cipher suite to use when communicating with the IPMI BMC. Only 3, 8, 12, and 17 are available as only those enable ciphers for authentication, integrity, and confidentiality. Defaults to 3, freeipmi-tools default. See http://fish2.com/ipmi/bp.pdf for more information.
@@ -252,17 +266,25 @@ Beta 3 (18 September 2020) - Three new configuration options have been added to 
 
 See the [2.9 UI](https://maas.io/docs/snap/2.9/ui/power-management#heading--ipmi) or [2.9 CLI](https://maas.io/docs/snap/2.9/cli/power-management#heading--ipmi) power management pages for details.
 
+<h2 id="heading--release-notes">New features in 2.9 Beta2</h2>
+
+MAAS 2.9 Beta2 was released on 11 September 2020 and brings the following updates to the BETA product.
+
 <h3 id="heading--enlistment-scripts">Improvements in enlistment scripting</h2>
 
-Beta 2 (11 September 2020) - Script flow and capabilities have been improved in the following ways:
+Script flow and capabilities have been improved in the following ways:
 
 * `maas-run-remote-scripts` can now enlist machines.
 * Enlistment `user_data` scripts have been removed.
 * The metadata endpoints `http://<MAAS>:5240/<latest or 2012-03-01>/` and `http://<MAAS>:5240/<latest or 2012-03-01>/meta-data/` are now available anonymously for use during enlistment.
 
+<h2 id="heading--release-notes">New features in 2.9 Beta1</h2>
+
+MAAS 2.9 Beta1 was released on 08 September 2020 and brings the following updates to the BETA product.
+
 <h3 id="heading--commissioning-scripts">Major improvements to commissioning script capabilities</h3>
 
-Beta 1 (08 September 2020) - The following major changes were made to commissioning script flow and capabilities:
+The following major changes were made to commissioning script flow and capabilities:
 
 * Commissioning scripts can now send BMC configuration data:
 * Commissioning scripts can now be used to configure BMC data. 
@@ -274,7 +296,7 @@ Beta 1 (08 September 2020) - The following major changes were made to commission
 
 <h3 id="heading--commissioning-reorder">Commissioning script reordering</h3>
 
-Beta 1 (08 September 2020) - Commissioning scripts have been reordered and some are now set to run in parallel. You can now easily set a script to run before the builtin MAAS commissioning scripts.  Here are the changes:
+Commissioning scripts have been reordered and some are now set to run in parallel. You can now easily set a script to run before the builtin MAAS commissioning scripts.  Here are the changes:
 
 * 00-maas-03-install-lldpd -> 20-maas-01-install-lldpd
 * 00-maas-05-dhcp-unconfigured-ifaces -> 20-maas-02-dhcp-unconfigured-ifaces
@@ -288,7 +310,7 @@ Beta 1 (08 September 2020) - Commissioning scripts have been reordered and some 
   
 <h3 id="heading--commissioning-speed">Improvements in commissioning speed and logging</h3>
 
-Beta 1 (08 September 2020) - The following improvements have been made to speed up the commissioning process, mostly by running scripts in parallel (see above):
+The following improvements have been made to speed up the commissioning process, mostly by running scripts in parallel (see above):
 
 * Commissioning should now take 60s.
 * Logging has been added to 20-maas-01-install-lldpd  (commissioning log output).
@@ -297,9 +319,11 @@ Beta 1 (08 September 2020) - The following improvements have been made to speed 
 
 <h2 id="heading--bug-fixes">Bug fixes</h2>
 
-<h2 id="heading--2-8-known-issues">Known issues</h2>
+<h2 id="heading--known-issues">Known issues</h2>
 
 * **RAD LHS menu:** There is a known issue with the Reader Adaptive Documentation left-hand-side menu (navigation), in that the menu links cannot currently be adapted to the RAD parameters.  This means that selecting a different page in the LHS menu will take you the the RAD for the current recommended version (in this case, Snap/2.8/UI).  Every page that is different in RAD, though, should present you with a top menu, so that you can choose the RAD parameters matching your own preferences. 
+
+* ** Beta4 snap builds:** The Beta4 snap builds may not work on ARM64 or PPC64 architectures, due to a build issue which is currently being resolved.
 snap-2-9-cli snap-2-9-ui deb-2-9-cli deb-2-9-ui -->
 
 <!-- snap-2-8-cli snap-2-8-ui deb-2-8-cli deb-2-8-ui

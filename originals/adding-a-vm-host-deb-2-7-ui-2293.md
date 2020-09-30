@@ -80,7 +80,7 @@
 |Packages|[CLI](/t/adding-a-vm-host-deb-2-7-cli/2292) ~ [UI](/t/adding-a-vm-host-deb-2-7-ui/2293)|[CLI](/t/adding-a-vm-host-deb-2-8-cli/2294) ~ [UI](/t/adding-a-vm-host-deb-2-8-ui/2295)|[CLI](/t/adding-a-vm-host-deb-2-9-cli/2296) ~ [UI](/t/adding-a-vm-host-deb-2-9-ui/2297)|
  snap-2-9-ui -->
 
-A VM host is simply a machine which can run virtual machines (VMs) by allocating  resources across the VMs you want to create.  If needed, you can overcommit resources, allocating more resources than actually available, so long as you don't try to use more than the VM host has available at any one time. Once MAAS has enlisted, commissioned, and acquired a newly-added machine, you can deploy it as a VM host.  Alternatively, you can create a VM host from a machine you've already got running.
+A VM host is simply a machine which can run virtual machines (VMs) by allocating  resources across the VMs you want to create.  If needed, you can over-commit resources, allocating more resources than actually available, so long as you don't try to use more than the VM host has available at any one time. Once MAAS has enlisted, commissioned, and acquired a newly-added machine, you can deploy it as a VM host.  Alternatively, you can create a VM host from a machine you've already got running.
 
 <!-- deb-2-7-cli
 [note type="caution" status="Warning"]
@@ -94,7 +94,7 @@ You **must** [configure your network](/t/vm-host-networking/3216) to support a V
 * [How do I add a VM host with the web UI?](#heading--adding-a-vm-host)
 * [How do I add a VM host with the API/CLI?](#heading--adding-a-vm-host-cli)
 * [How do I configure a VM host after I've added it?](#heading--configuration)
-* [How do I overcommit resources on a host?](#heading--overcommit-resources)
+* [How do I over-commit resources on a host?](#heading--overcommit-resources)
 * [How do I add a VM host using MAAS versions below 2.5?](https://old-docs.maas.io/2.5/en/manage-kvm-add-host)
  deb-2-7-cli -->
 
@@ -109,7 +109,7 @@ You **must** [configure your network](/t/vm-host-networking/3217) to support a V
 * [How do I add a VM host with the web UI?](#heading--adding-a-vm-host)
 * [How do I add a VM host with the API/CLI?](#heading--adding-a-vm-host-cli)
 * [How do I configure a VM host after I've added it?](#heading--configuration)
-* [How do I overcommit resources on a host?](#heading--overcommit-resources)
+* [How do I over-commit resources on a host?](#heading--overcommit-resources)
 * [How do I add a VM host using MAAS versions below 2.5?](https://old-docs.maas.io/2.5/en/manage-kvm-add-host)
 
 <!-- deb-2-8-cli
@@ -124,7 +124,7 @@ You **must** [configure your network](/t/vm-host-networking/3218) to support a V
 * [How do I add a VM host with the web UI?](#heading--adding-a-vm-host)
 * [How do I add a VM host with the API/CLI?](#heading--adding-a-vm-host-cli)
 * [How do I configure a VM host after I've added it?](#heading--configuration)
-* [How do I overcommit resources on a host?](#heading--overcommit-resources)
+* [How do I over-commit resources on a host?](#heading--overcommit-resources)
 * [How do I add a VM host using MAAS versions below 2.5?](https://old-docs.maas.io/2.5/en/manage-kvm-add-host)
  deb-2-8-cli -->
 
@@ -140,7 +140,7 @@ You **must** [configure your network](/t/vm-host-networking/3219) to support a V
 * [How do I add a VM host with the web UI?](#heading--adding-a-vm-host)
 * [How do I add a VM host with the API/CLI?](#heading--adding-a-vm-host-cli)
 * [How do I configure a VM host after I've added it?](#heading--configuration)
-* [How do I overcommit resources on a host?](#heading--overcommit-resources)
+* [How do I over-commit resources on a host?](#heading--overcommit-resources)
 * [How do I add a VM host using MAAS versions below 2.5?](https://old-docs.maas.io/2.5/en/manage-kvm-add-host)
  deb-2-8-ui -->
 
@@ -156,7 +156,7 @@ You **must** [configure your network](/t/vm-host-networking/3220) to support a V
 * [How do I add a VM host with the web UI?](#heading--adding-a-vm-host)
 * [How do I add a VM host with the API/CLI?](#heading--adding-a-vm-host-cli)
 * [How do I configure a VM host after I've added it?](#heading--configuration)
-* [How do I overcommit resources on a host?](#heading--overcommit-resources)
+* [How do I over-commit resources on a host?](#heading--overcommit-resources)
 * [How do I add a VM host using MAAS versions below 2.5?](https://old-docs.maas.io/2.5/en/manage-kvm-add-host)
  deb-2-9-cli -->
 
@@ -172,7 +172,7 @@ You **must** [configure your network](/t/vm-host-networking/3221) to support a V
 * [How do I add a VM host with the web UI?](#heading--adding-a-vm-host)
 * [How do I add a VM host with the API/CLI?](#heading--adding-a-vm-host-cli)
 * [How do I configure a VM host after I've added it?](#heading--configuration)
-* [How do I overcommit resources on a host?](#heading--overcommit-resources)
+* [How do I over-commit resources on a host?](#heading--overcommit-resources)
 * [How do I add a VM host using MAAS versions below 2.5?](https://old-docs.maas.io/2.5/en/manage-kvm-add-host)
  deb-2-9-ui -->
 
@@ -188,7 +188,7 @@ You **must** [configure your network](/t/vm-host-networking/3210) to support a V
 * [How do I add a VM host with the web UI?](#heading--adding-a-vm-host)
 * [How do I add a VM host with the API/CLI?](#heading--adding-a-vm-host-cli)
 * [How do I configure a VM host after I've added it?](#heading--configuration)
-* [How do I overcommit resources on a host?](#heading--overcommit-resources)
+* [How do I over-commit resources on a host?](#heading--overcommit-resources)
 * [How do I add a VM host using MAAS versions below 2.5?](https://old-docs.maas.io/2.5/en/manage-kvm-add-host)
  snap-2-7-cli -->
 
@@ -204,7 +204,7 @@ You **must** [configure your network](/t/vm-host-networking/3211) to support a V
 * [How do I add a VM host with the web UI?](#heading--adding-a-vm-host)
 * [How do I add a VM host with the API/CLI?](#heading--adding-a-vm-host-cli)
 * [How do I configure a VM host after I've added it?](#heading--configuration)
-* [How do I overcommit resources on a host?](#heading--overcommit-resources)
+* [How do I over-commit resources on a host?](#heading--overcommit-resources)
 * [How do I add a VM host using MAAS versions below 2.5?](https://old-docs.maas.io/2.5/en/manage-kvm-add-host)
  snap-2-7-ui -->
 
@@ -220,7 +220,7 @@ You **must** [configure your network](/t/vm-host-networking/3212) to support a V
 * [How do I add a VM host with the web UI?](#heading--adding-a-vm-host)
 * [How do I add a VM host with the API/CLI?](#heading--adding-a-vm-host-cli)
 * [How do I configure a VM host after I've added it?](#heading--configuration)
-* [How do I overcommit resources on a host?](#heading--overcommit-resources)
+* [How do I over-commit resources on a host?](#heading--overcommit-resources)
 * [How do I add a VM host using MAAS versions below 2.5?](https://old-docs.maas.io/2.5/en/manage-kvm-add-host)
  snap-2-8-cli -->
 
@@ -236,7 +236,7 @@ You **must** [configure your network](/t/vm-host-networking/3213) to support a V
 * [How do I add a VM host with the web UI?](#heading--adding-a-vm-host)
 * [How do I add a VM host with the API/CLI?](#heading--adding-a-vm-host-cli)
 * [How do I configure a VM host after I've added it?](#heading--configuration)
-* [How do I overcommit resources on a host?](#heading--overcommit-resources)
+* [How do I over-commit resources on a host?](#heading--overcommit-resources)
 * [How do I add a VM host using MAAS versions below 2.5?](https://old-docs.maas.io/2.5/en/manage-kvm-add-host)
  snap-2-8-ui -->
 
@@ -252,7 +252,7 @@ You **must** [configure your network](/t/vm-host-networking/3214) to support a V
 * [How do I add a VM host with the web UI?](#heading--adding-a-vm-host)
 * [How do I add a VM host with the API/CLI?](#heading--adding-a-vm-host-cli)
 * [How do I configure a VM host after I've added it?](#heading--configuration)
-* [How do I overcommit resources on a host?](#heading--overcommit-resources)
+* [How do I over-commit resources on a host?](#heading--overcommit-resources)
 * [How do I add a VM host using MAAS versions below 2.5?](https://old-docs.maas.io/2.5/en/manage-kvm-add-host)
  snap-2-9-cli -->
 
@@ -268,7 +268,7 @@ You **must** [configure your network](/t/vm-host-networking/3215) to support a V
 * [How do I add a VM host with the web UI?](#heading--adding-a-vm-host)
 * [How do I add a VM host with the API/CLI?](#heading--adding-a-vm-host-cli)
 * [How do I configure a VM host after I've added it?](#heading--configuration)
-* [How do I overcommit resources on a host?](#heading--overcommit-resources)
+* [How do I over-commit resources on a host?](#heading--overcommit-resources)
 * [How do I add a VM host using MAAS versions below 2.5?](https://old-docs.maas.io/2.5/en/manage-kvm-add-host)
  snap-2-9-ui -->
 
@@ -342,7 +342,7 @@ VM hosts have several configuration options. Modify these by selecting the 'Conf
 Using the CLI, it's possible to update the configuration of a VM host.  You can change these configurable parameters with an `update` command -- but first, you'll want to know how to check the values of configurable parameters, both before and after the change.
 
 <h3>List VM-hosts</h3>
-To begin, you can list your avsailable KVM-hosts with the following command:
+To begin, you can list your available KVM-hosts with the following command:
 
 ```
 maas admin vm-hosts read | jq -r '(["ID, "VM-HOST","SYSID","CORES",
@@ -409,9 +409,9 @@ If you really want to set your VM host to a new one, you just need to create a n
 Then double-check it with `catvmpools`, and assign your VM host to it using the earlier command. 
 deb-2-7-cli deb-2-8-cli deb-2-9-cli snap-2-8-cli snap-2-7-cli snap-2-9-cli -->
 
-<h3 id="heading--overcommit-resources">Overcommit resources</h3>
+<h3 id="heading--overcommit-resources">Over-commit resources</h3>
 
-Overcommitted resources are those allocated beyond what's available in the physical resource. Using sliders on the configuration page, you can limit whether MAAS will attempt to overcommit CPU and memory. The input fields to the right of the sliders accept floating-point values from 0 to 10, with a default value of 1.
+Over-committed resources are those allocated beyond what's available in the physical resource. Using sliders on the configuration page, you can limit whether MAAS will attempt to overcommit CPU and memory. The input fields to the right of the sliders accept floating-point values from 0 to 10, with a default value of 1.
 
 The following shows theoretical examples of these ratios and how they affect physical resource allocation:
 
@@ -422,4 +422,4 @@ The following shows theoretical examples of these ratios and how they affect phy
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/27a8f21392af3d29a500e33f99e1f79c578cf29c.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/27a8f21392af3d29a500e33f99e1f79c578cf29c.jpeg"></a> 
 
-Overcommitting resources allows a user to compose many MAAS-managed machines without worrying about the physical limitations of the host. For example, on a physical host with four cores and 12 GB of memory, you could compose four libvirt machines, each using two cores and 4 GB of memory.  This arrangement overcommits the available physical resources. Provided you never run all four VMs simultaneously, you would have all the benefits of MAAS-managed VMs without over-taxing your host.
+Over-committing resources allows a user to compose many MAAS-managed machines without worrying about the physical limitations of the host. For example, on a physical host with four cores and 12 GB of memory, you could compose four libvirt machines, each using two cores and 4 GB of memory.  This arrangement over commits the available physical resources. Provided you never run all four VMs simultaneously, you would have all the benefits of MAAS-managed VMs without over-taxing your host.

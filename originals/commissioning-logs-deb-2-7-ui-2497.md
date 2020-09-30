@@ -86,11 +86,55 @@ When you click on the "Commissioning" tab under a given machine, you will see a 
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/f2e52a4bf55b37e5ff63e7d1fab1aac32aebc48c.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/f2e52a4bf55b37e5ff63e7d1fab1aac32aebc48c.jpeg"></a> 
 
-Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/822#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+<!-- deb-2-7-cli
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2472#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ deb-2-7-cli -->
+
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2473#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+
+<!-- deb-2-8-cli
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2474#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2475#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2476#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2477#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2466#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2467#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2468#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2469#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2470#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2471#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
+ snap-2-9-ui -->
 
 <h2>00-maas-00-support-info</h2>
 
-MAAS gathers information that helps to identify and characterize the machine for debugging purposes, such as the kernel, versioning of various components, etc.  This script gathers this information, mostly as a bundle to be provided to a support specialist to help get the baseline for the machine in question.
+MAAS gathers information that helps to identify and characterise the machine for debugging purposes, such as the kernel, versioning of various components, etc.  This script gathers this information, mostly as a bundle to be provided to a support specialist to help get the baseline for the machine in question.
 
 Typical output, generated when a machine passes this script, is shown below:
 
@@ -295,10 +339,10 @@ Here's a quick breakdown of what you see in the above output:
 * **CLOUD CONFIG QUERY:** a cloud-init query is used to retrieve cloud instance metadata used by cloud-init when booting an instance.  This section shows the specific metadata retrieved during cloud-init query for this machine.
 * **CPU CORE COUNT AND MODEL:** the data produced here is similar to the output you could retrieve by running `nproc` and then attempting a `cat /sys/devices/cpu/caps/pmu_name` -- and so on.  There several ways to retrieve this info, but all can produce the number and type of CPU(s) available.
 * **PCI INFO:** the devices, real or virtual, that are connected to the machine via PCI (Peripheral Component Interconnect) bus.
-* **USB INFO:** the devices, real or virtual, that are connected to the machien via USB bus.
+* **USB INFO:** the devices, real or virtual, that are connected to the machine via USB bus.
 * **MODALIASES:** a modalias is a sysfs technique to capture the information that a hardware item exposes to the kernel, with the file basically providing a template or structure for this information.  Each of the entries in this list describe one particular part of the machine's (real or virtual) hardware, down to the level of alarm timers, framebuffers, and even speakers.  In the event of a bug, this information can help your support engineer (or yourself) understand exactly what hardware is configured for this machine.
 * **SERIAL PORTS:** this section just lists the serial devices made available on this machine.
-* **NETWORK INTERFACES:** summarizes the network interfaces available on this machine -- essentially an abbreviated version of the output from some form of an `ip` command.
+* **NETWORK INTERFACES:** summarises the network interfaces available on this machine -- essentially an abbreviated version of the output from some form of an `ip` command.
 * **BLOCK DEVICE SUMMARY:** a thumbnail sketch of the block devices (usually storage) available on this machine.
 * **#dmidecode...:** this section presents the basic DMI data, including the BIOS type, extent, size, and table location.
 * **DMI DATA:** the raw (undecoded) DMI table for this machine, presented for verification of the following DMI data sections, if desired.
@@ -1033,11 +1077,11 @@ The output is similar to the modaliases output shown in the `00-maas-00-support-
 * **sc** denotes a bus subclass code.
 * **i** is followed by an interface code.
 
-There are many more fields, depending upon the device type, and a wide variety of codes for every field for every device.  Every bus has its own schema for modalias -- hence, cataloging these combinations is beyond the scope of this document set.  Understanding the way these codes are constructed, though, may help you know how to find needed information for a specific situation.
+There are many more fields, depending upon the device type, and a wide variety of codes for every field for every device.  Every bus has its own schema for modalias -- hence, cataloguing these combinations is beyond the scope of this document set.  Understanding the way these codes are constructed, though, may help you know how to find needed information for a specific situation.
 
 <h2>00-maas-05-dhcp-unconfigured-ifaces</h2>
 
-MAAS will want to know all the ways the machine is connected to the network. Only PXE comes online during boot; this script brings all the other networks online so they can be recognized.  Under normal conditions, this script does not produce a significant amount of output.
+MAAS will want to know all the ways the machine is connected to the network. Only PXE comes online during boot; this script brings all the other networks online so they can be recognised.  Under normal conditions, this script does not produce a significant amount of output.
 
 <h2>00-maas-06-get-fruid-api-data</h2>
 

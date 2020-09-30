@@ -80,7 +80,7 @@
 |Packages|[CLI](/t/commissioning-and-hardware-testing-scripts-deb-2-7-cli/2484) ~ [UI](/t/commissioning-and-hardware-testing-scripts-deb-2-7-ui/2485)|[CLI](/t/commissioning-and-hardware-testing-scripts-deb-2-8-cli/2486) ~ [UI](/t/commissioning-and-hardware-testing-scripts-deb-2-8-ui/2487)|[CLI](/t/commissioning-and-hardware-testing-scripts-deb-2-9-cli/2488) ~ [UI](/t/commissioning-and-hardware-testing-scripts-deb-2-9-ui/2489)|
  snap-2-9-ui -->
 
-MAAS runs scripts during enlistment, commissioning and testing to collect data about nodes. Both enlistment and commissioning run all builtin commissioning scripts, though enlistment runs only builtins. Commissioning also runs any user-uploaded commissioning scripts by default, unless the user manually provides a list of scripts to run. MAAS uses these commissioning scripts to configure hardware and perform other tasks during commissioning, such as updating the firmware. Similarly, MAAS employs hardware testing scripts to evaluate system hardware and report its status. 
+MAAS runs scripts during enlistment, commissioning and testing to collect data about nodes. Both enlistment and commissioning run all builtin commissioning scripts, though enlistment runs only built-ins. Commissioning also runs any user-uploaded commissioning scripts by default, unless the user manually provides a list of scripts to run. MAAS uses these commissioning scripts to configure hardware and perform other tasks during commissioning, such as updating the firmware. Similarly, MAAS employs hardware testing scripts to evaluate system hardware and report its status. 
 
 ---
 
@@ -204,7 +204,7 @@ The key of the dictionary must be a string, and it's this string that's used by 
     -   `runtime`: Specifies how long the script may run. This overrides the timeout value. It is currently only passed as the environment variable RUNTIME.
 -   `title`: The title of the parameter field when displayed in the UI. The following types have the following default values:
     -   `storage`: storage device.
-    -   `interface`: interface specifer.
+    -   `interface`: interface specifier.
     -   `url`: valid URL.
 -   `argument-format`: Specifies how the argument should be passed to the script. Input is described as `{input}`. The storage type may also use `{name}`, `{path}`, `{model}` or `{serial}`. MAAS will look up the values of path, model, and serial based on user selection. For storage, `{input}` is synonymous with `{path}`. The interface type may also use `{name}`, `{mac_address}`, `{product}`, or `{vendor}`. For interface `{input}` is synonymous with `{name}`. The following types have the following default values:
     -   `storage`: `--storage={path}`
@@ -283,7 +283,7 @@ The YAML file must represent a dictionary with the following fields:
 Optionally, a script may define what results to return in the YAML file in the [Metadata fields](#Metadata%20fields). The `results` field should contain a dictionary of dictionaries. The key for each dictionary is a name which is returned by the results YAML. Each dictionary may contain the following fields:
 
 -   `title` - The title for the result, used in the UI.
--   `description` - The description of the field used as a tooltip in the UI.
+-   `description` - The description of the field used as a tool-tip in the UI.
 
 Example degrade detection:
 

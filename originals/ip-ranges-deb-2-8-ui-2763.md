@@ -90,13 +90,46 @@ This article gives specific instructions about creating and managing IP ranges.
 
 #### Quick questions you may have:
 
-* [How do I create an IP range?](/t/ip-ranges/760#heading--create-a-range)
-* [How do I edit an existing IP range?](/t/ip-ranges/760#heading--edit-a-range)
-* [How do I delete an existing IP range?](/t/ip-ranges/760#heading--delete-a-range)
+* [How do I create an IP range?](#heading--create-a-range)
+* [How do I edit an existing IP range?](#heading--edit-a-range)
+* [How do I delete an existing IP range?](#heading--delete-a-range)
 
 <h2 id="heading--create-a-range">Create a range</h2>
 
-Choose 'Reserve range' or 'Reserve dynamic range'. If you choose the latter, MAAS will automatically provide DHCP for enlistment and commissioning provided that the associated VLAN has DHCP enabled. Read the [DHCP page](/t/managing-dhcp/759).
+To create a range with the web UI, choose the "Subnets" option across the top:
+
+<a href=https://discourse.maas.io/uploads/default/original/1X/2bc3b241b917325dac57a42771a0f9cfeb411bde.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/2bc3b241b917325dac57a42771a0f9cfeb411bde.jpeg"></a>
+
+In the "SUBNET" column, choose the subnet for which you want to create an IP range(s):
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/051bf1e56a31c7e7dcb196b12ddf55435b3f0571.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/051bf1e56a31c7e7dcb196b12ddf55435b3f0571.jpeg"></a>
+
+Scroll down to "Reserved ranges" on the subnet screen and click on the "Reserve range" drop-down:
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/a76e24de7c65d3553f853bc2b6a96671d756651b.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/a76e24de7c65d3553f853bc2b6a96671d756651b.jpeg"></a>
+
+
+<!-- deb-2-7-ui
+Choose 'Reserve range' or 'Reserve dynamic range'. If you choose the latter, MAAS will automatically provide DHCP for enlistment and commissioning provided that the associated VLAN has DHCP enabled. Read the [DHCP page](/t/managing-dhcp/2905).
+ deb-2-7-ui -->
+
+Choose 'Reserve range' or 'Reserve dynamic range'. If you choose the latter, MAAS will automatically provide DHCP for enlistment and commissioning provided that the associated VLAN has DHCP enabled. Read the [DHCP page](/t/managing-dhcp/2907).
+
+<!-- deb-2-9-ui
+Choose 'Reserve range' or 'Reserve dynamic range'. If you choose the latter, MAAS will automatically provide DHCP for enlistment and commissioning provided that the associated VLAN has DHCP enabled. Read the [DHCP page](/t/managing-dhcp/2909).
+ deb-2-9-ui -->
+
+<!-- snap-2-7-ui
+Choose 'Reserve range' or 'Reserve dynamic range'. If you choose the latter, MAAS will automatically provide DHCP for enlistment and commissioning provided that the associated VLAN has DHCP enabled. Read the [DHCP page](/t/managing-dhcp/2899).
+ snap-2-7-ui -->
+
+<!-- snap-2-8-ui
+Choose 'Reserve range' or 'Reserve dynamic range'. If you choose the latter, MAAS will automatically provide DHCP for enlistment and commissioning provided that the associated VLAN has DHCP enabled. Read the [DHCP page](/t/managing-dhcp/2901).
+ snap-2-8-ui -->
+
+<!-- snap-2-9-ui
+Choose 'Reserve range' or 'Reserve dynamic range'. If you choose the latter, MAAS will automatically provide DHCP for enlistment and commissioning provided that the associated VLAN has DHCP enabled. Read the [DHCP page](/t/managing-dhcp/2903).
+ snap-2-9-ui -->
 
 When you choose either of those two options, a window will appear allowing you to enter start and end addresses for the range as well as a comment.
 
@@ -106,14 +139,59 @@ Below is an example window when creating a 'reserved range' (the windows are ide
 
 Click the 'Reserve' button when done.
 
-See [MAAS CLI](/t/common-cli-tasks/794#heading--create-a-reserved-ip-range) for doing this with the CLI.
+<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
+See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for an explanation of the two kinds of reserved IP ranges MAAS uses.
+
+To create a range of dynamic IP addresses that will be used by MAAS for node enlistment, commissioning, and possibly deployment:
+
+``` bash
+maas $PROFILE ipranges create type=dynamic \
+    start_ip=$IP_DYNAMIC_RANGE_LOW end_ip=$IP_DYNAMIC_RANGE_HIGH \
+    comment='This is a reserved dynamic range'
+```
+
+To create a range of IP addresses that will not be used by MAAS:
+
+``` bash
+maas $PROFILE ipranges create type=reserved \
+    start_ip=$IP_STATIC_RANGE_LOW end_ip=$IP_STATIC_RANGE_HIGH \
+    comment='This is a reserved range'
+```
+
+To reserve a single IP address that will not be used by MAAS:
+
+``` bash
+maas $PROFILE ipaddresses reserve ip_address=$IP_STATIC_SINGLE
+```
+
+To remove such a single reserved IP address:
+
+``` bash
+maas $PROFILE ipaddresses release ip=$IP_STATIC_SINGLE
+```
+
+snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
 
 <h2 id="heading--edit-a-range">Edit a range</h2>
+
+<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
+To edit an IP range, first find the ID of the desired IP range with the command:
+
+```
+maas admin ipranges read
+```
+
+Examine the JSON output to find the ID corresponding to the IP range you want to edit, then enter:
+
+```
+maas admin iprange update $ID start_ip="<start ip>" end_ip="<end ip>" comment="freeform comment"
+```
+
+This command will update the IP range associated with $ID.
+snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
 
 Click the 'Menu' button at the far right of the row corresponding to the subnet in question and select 'Edit reserved range' from the menu that appears. Edit the fields as desired and click the 'Save' button.
 
 <h2 id="heading--delete-a-range">Delete a range</h2>
 
 Select 'Remove range' from the menu that appears when clicking the 'Menu' button at the far right of the row corresponding to the subnet in question.
-
-<!-- LINKS -->

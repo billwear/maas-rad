@@ -94,7 +94,7 @@ With the MAAS Image Builder, you can:
 * <a href="#bwi">create Windows images</a>
 * <a href="#doci">create other kinds of custom images</a>
 
-You can customize most images as much or as little as you wish, then use them to commission machines with MAAS. 
+You can customise most images as much or as little as you wish, then use them to commission machines with MAAS. 
 
 <a name="imib"><h3>Install MAAS Image Builder</h3></a>
 
@@ -113,7 +113,7 @@ Once you have added the private PPA, you can install the Image Builder like this
 
     $ sudo apt-get install maas-image-builder
 
-All done? Great!  Now you can build and customize images for MAAS machines, as shown in the sections below.
+All done? Great!  Now you can build and customise images for MAAS machines, as shown in the sections below.
 
 <a name="bci"><h3>Create custom CentOS images</h3></a>
 
@@ -139,9 +139,9 @@ MAAS Image Builder can create CentOS images behind a proxy -- just set the ‘ht
     $ sudo maas-image-builder -o centos6-i386-root-tgz --arch i386 centos --edition 6
     $ sudo maas-image-builder -o centos7-amd64-root-tgz --arch amd64 centos --edition 7
 
-<h4>Customizing CentOS images</h4>
+<h4>Customising CentOS images</h4>
 
-Starting from MAAS Image Builder 1.0.4, customization of CentOS images is now supported.  You can provide a custom kickstart, in _addition_ to the kickstart that MAAS Image Builder uses to create the images. You can customize your image like this:
+Starting from MAAS Image Builder 1.0.4, customisation of CentOS images is now supported.  You can provide a custom kickstart, in _addition_ to the kickstart that MAAS Image Builder uses to create the images. You can customise your image like this:
 
     $ sudo maas-image-builder -o centos7-amd64-root-tgz --arch amd64 centos --edition 7 --custom-kickstart ./custom.ks
 

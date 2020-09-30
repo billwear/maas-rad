@@ -268,18 +268,22 @@ snap-2-8-ui -->
 
 ---
 
+<!-- deb-2-8-cli deb-2-8-ui snap-2-8-cli snap-2-8-ui
 <h2 id="heading--whats-new">New version of MAAS</h2>
 
-<!-- deb-2-8-cli deb-2-8-ui snap-2-8-cli snap-2-8-ui
 - [What's new in 2.8](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
 deb-2-8-cli deb-2-8-ui snap-2-8-cli snap-2-8-ui -->
 
-<!-- deb-2-7-cli deb-2-7-ui snap-2-7-cli snap-2-7-ui
+<!-- deb-2-7-cli deb-2-7-ui snap-2-7-cli snap-2-7-uil
+<h2 id="heading--whats-new">New version of MAAS</h2>
+
 - [What's new in 2.7](https://discourse.maas.io/t/whats-new-in-maas-2-7/1306)
 deb-2-7-cli deb-2-7-ui snap-2-7-cli snap-2-7-ui -->
 
 <!-- deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui
-- What's new in 2.9 (under development)
+<h2 id="heading--whats-new">BETA version of MAAS</h2>
+
+- What's new in 2.9 (Beta4)
 deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 
 ---
@@ -355,7 +359,7 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 - [NTP](/t/ntp-services-snap-2-8-ui/2961)
 - [Network discovery](/t/network-discovery-snap-2-8-ui/2925)
 - [IPv6](/t/ipv6-addressing-snap-2-8-ui/2769)
-- [SSL](/t/configuring-tls-encryption-snap-2-8-ui/2541)
+- [TLS encryption](/t/configuring-tls-encryption-snap-2-8-ui/2541)
 - [STP](/t/managing-stp-snap-2-8-ui/2913)
 - [Availability zones (AZs)](/t/availability-zones-snap-2-8-ui/2325)
 
@@ -368,9 +372,9 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 
 ### Operations
 
-- [Prometheus metrics](/t/prometheus-metrics/813)
-- [Backup](/t/backup/792)
-- [MAAS security](/t/hardening-your-maas-installation/1381)
+- [Prometheus metrics](/t/prometheus-metrics-snap-2-8-ui/3021)
+- [Backup](/t/backup-snap-2-8-ui/2337)
+- [MAAS security](/t/hardening-your-maas-installation-snap-2-8-ui/2661)
 - [Logging](/t/maas-logging-snap-2-8-ui/2865)
   - [Commissioning logs](/t/commissioning-logs-snap-2-8-ui/2493)
 - [User accounts](/t/user-accounts-snap-2-8-ui/3201)
@@ -497,6 +501,18 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 |https://discourse.maas.io/t/-/2331|/docs/deb/2.8/ui/availability-zones|
 |https://discourse.maas.io/t/-/2332|/docs/deb/2.9/cli/availability-zones|
 |https://discourse.maas.io/t/-/2333|/docs/deb/2.9/ui/availability-zones|
+|https://discourse.maas.io/t/-/2334|/docs/snap/2.7/cli/backup|
+|https://discourse.maas.io/t/-/2335|/docs/snap/2.7/ui/backup|
+|https://discourse.maas.io/t/-/2336|/docs/snap/2.8/cli/backup|
+|https://discourse.maas.io/t/-/2337|/docs/snap/2.8/ui/backup|
+|https://discourse.maas.io/t/-/2338|/docs/snap/2.9/cli/backup|
+|https://discourse.maas.io/t/-/2339|/docs/snap/2.9/ui/backup|
+|https://discourse.maas.io/t/-/2340|/docs/deb/2.7/cli/backup|
+|https://discourse.maas.io/t/-/2341|/docs/deb/2.7/ui/backup|
+|https://discourse.maas.io/t/-/2342|/docs/deb/2.8/cli/backup|
+|https://discourse.maas.io/t/-/2343|/docs/deb/2.8/ui/backup|
+|https://discourse.maas.io/t/-/2344|/docs/deb/2.9/cli/backup|
+|https://discourse.maas.io/t/-/2345|/docs/deb/2.9/ui/backup|
 |https://discourse.maas.io/t/-/2346|/docs/snap/2.7/cli/block-devices|
 |https://discourse.maas.io/t/-/2347|/docs/snap/2.7/ui/block-devices|
 |https://discourse.maas.io/t/-/2348|/docs/snap/2.8/cli/block-devices|
@@ -725,6 +741,30 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 |https://discourse.maas.io/t/-/2727|/docs/deb/2.8/ui/controllers|
 |https://discourse.maas.io/t/-/2728|/docs/deb/2.9/cli/controllers|
 |https://discourse.maas.io/t/-/2729|/docs/deb/2.9/ui/controllers|
+|https://discourse.maas.io/t/-/3024|/docs/deb/2.7/cli/prometheus-metrics|
+|https://discourse.maas.io/t/-/3025|/docs/deb/2.7/ui/prometheus-metrics|
+|https://discourse.maas.io/t/-/3026|/docs/deb/2.8/cli/prometheus-metrics|
+|https://discourse.maas.io/t/-/3027|/docs/deb/2.8/ui/prometheus-metrics|
+|https://discourse.maas.io/t/-/3028|/docs/deb/2.9/cli/prometheus-metrics|
+|https://discourse.maas.io/t/-/3029|/docs/deb/2.9/ui/prometheus-metrics|
+|https://discourse.maas.io/t/-/3018|/docs/snap/2.7/cli/prometheus-metrics|
+|https://discourse.maas.io/t/-/3019|/docs/snap/2.7/ui/prometheus-metrics|
+|https://discourse.maas.io/t/-/3020|/docs/snap/2.8/cli/prometheus-metrics|
+|https://discourse.maas.io/t/-/3021|/docs/snap/2.8/ui/prometheus-metrics|
+|https://discourse.maas.io/t/-/3022|/docs/snap/2.9/cli/prometheus-metrics|
+|https://discourse.maas.io/t/-/3023|/docs/snap/2.9/ui/prometheus-metrics|
+|https://discourse.maas.io/t/-/2664|/docs/deb/2.7/cli/hardening-your-maas-installation|
+|https://discourse.maas.io/t/-/2665|/docs/deb/2.7/ui/hardening-your-maas-installation|
+|https://discourse.maas.io/t/-/2666|/docs/deb/2.8/cli/hardening-your-maas-installation|
+|https://discourse.maas.io/t/-/2667|/docs/deb/2.8/ui/hardening-your-maas-installation|
+|https://discourse.maas.io/t/-/2668|/docs/deb/2.9/cli/hardening-your-maas-installation|
+|https://discourse.maas.io/t/-/2669|/docs/deb/2.9/ui/hardening-your-maas-installation|
+|https://discourse.maas.io/t/-/2658|/docs/snap/2.7/cli/hardening-your-maas-installation|
+|https://discourse.maas.io/t/-/2659|/docs/snap/2.7/ui/hardening-your-maas-installation|
+|https://discourse.maas.io/t/-/2660|/docs/snap/2.8/cli/hardening-your-maas-installation|
+|https://discourse.maas.io/t/-/2661|/docs/snap/2.8/ui/hardening-your-maas-installation|
+|https://discourse.maas.io/t/-/2662|/docs/snap/2.9/cli/hardening-your-maas-installation|
+|https://discourse.maas.io/t/-/2663|/docs/snap/2.9/ui/hardening-your-maas-installation|
 |https://discourse.maas.io/t/-/2730|/docs/snap/2.7/cli/machines|
 |https://discourse.maas.io/t/-/2731|/docs/snap/2.7/ui/machines|
 |https://discourse.maas.io/t/-/2732|/docs/snap/2.8/cli/machines|
@@ -1217,84 +1257,84 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 |https://discourse.maas.io/t/-/768/|/docs/networking|
 |https://discourse.maas.io/t/-/769/|/docs/install-from-packages|
 |https://discourse.maas.io/t/-/770/|/docs/partitions|
-|https://discourse.maas.io/t/rack-controller/771/|/docs/rack-controller|
-|https://discourse.maas.io/t/region-controller/772/|/docs/region-controller|
+|https://discourse.maas.io/t/-/771/|/docs/rack-controller|
+|https://discourse.maas.io/t/-/772/|/docs/region-controller|
 |https://discourse.maas.io/t/install-from-a-snap/773/|/docs/install-from-a-snap|
-|https://discourse.maas.io/t/disk-erasure/774/|/docs/disk-erasure|
-|https://discourse.maas.io/t/storage/775/|/docs/storage|
-|https://discourse.maas.io/t/maas-logging/1468|/docs/logging|
-|https://discourse.maas.io/t/commissioning-logs/1478|/docs/commissioning-logs|
+|https://discourse.maas.io/t/-/774/|/docs/disk-erasure|
+|https://discourse.maas.io/t/-/775/|/docs/storage|
+|https://discourse.maas.io/t/-/1468|/docs/logging|
+|https://discourse.maas.io/t/-/1478|/docs/commissioning-logs|
 |https://discourse.maas.io/t/upgrade-2-3-to-2-4-from-ubuntu-16-04/777/|/docs/upgrade-2-3-to-2-4-from-ubuntu-16-04|
 |https://discourse.maas.io/t/upgrade-from-1-9-to-2-x/778/|/docs/upgrade-from-1-9-to-2-x|
-|https://discourse.maas.io/t/upgrading-maas/779/|/docs/upgrading-maas|
-|https://discourse.maas.io/t/vmware-vmfs-datastores/780/|/docs/vmware-vmfs-datastores|
-|https://discourse.maas.io/t/configuration-journey/781/|/docs/configuration-journey|
-|https://discourse.maas.io/t/web-ui/782/|/docs/web-ui|
-|https://discourse.maas.io/t/maas-communcation/783/|/docs/maas-communication|
-|https://discourse.maas.io/t/zone-examples/784/|/docs/zone-examples|
-|https://discourse.maas.io/t/concepts-and-terms/785/|/docs/concepts-and-terms|
-|https://discourse.maas.io/t/introduction-to-controllers/786/|/docs/introduction-to-controllers|
-|https://discourse.maas.io/t/explore-maas/787/|/docs/explore-maas|
+|https://discourse.maas.io/t/-/779/|/docs/upgrading-maas|
+|https://discourse.maas.io/t/-/780/|/docs/vmware-vmfs-datastores|
+|https://discourse.maas.io/t/-/781/|/docs/configuration-journey|
+|https://discourse.maas.io/t/-/782/|/docs/web-ui|
+|https://discourse.maas.io/t/-/783/|/docs/maas-communication|
+|https://discourse.maas.io/t/-/784/|/docs/zone-examples|
+|https://discourse.maas.io/t/-/785/|/docs/concepts-and-terms|
+|https://discourse.maas.io/t/-/786/|/docs/introduction-to-controllers|
+|https://discourse.maas.io/t/-/787/|/docs/explore-maas|
 |https://discourse.maas.io/t/whats-new-in-2-6/788/|/docs/whats-new-in-2-6|
-|https://discourse.maas.io/t/maas-requirements/789/|/docs/maas-requirements|
-|https://discourse.maas.io/t/what-is-maas/840/|/docs/what-is-maas|
-|https://discourse.maas.io/t/user-accounts/790/|/docs/user-accounts|
-|https://discourse.maas.io/t/audit-event-logs/791/|/docs/audit-event-logs|
-|https://discourse.maas.io/t/backup/792/|/docs/backup|
-|https://discourse.maas.io/t/advanced-cli-tasks/793/|/docs/advanced-cli-tasks|
-|https://discourse.maas.io/t/common-cli-tasks/794/|/docs/common-cli-tasks|
-|https://discourse.maas.io/t/cli-composable-machines-management/795/|/docs/composable-hardware|
-|https://discourse.maas.io/t/cli-dhcp-snippet-management/796/|/docs/cli-dhcp-snippet-management|
-|https://discourse.maas.io/t/cli-image-management/797/|/docs/cli-image-management|
-|https://discourse.maas.io/t/cli-interface-management/798/|/docs/cli-interface-management|
-|https://discourse.maas.io/t/cli-kernel-management/799/|/docs/cli-kernel-management|
-|https://discourse.maas.io/t/cli-resource-pool-management/800/|/docs/cli-resource-pool-management|
-|https://discourse.maas.io/t/cli-tag-management/801/|/docs/cli-tag-management|
-|https://discourse.maas.io/t/maas-cli/802/|/docs/maas-cli|
-|https://discourse.maas.io/t/postgresql-ha-hot-standby/803/|/docs/postgresql-ha-hot-standby|
-|https://discourse.maas.io/t/high-availability/804/|/docs/high-availability|
-|https://discourse.maas.io/t/creating-and-deleting-new-vms/806/|/docs/creating-and-deleting-new-vms|
-|https://discourse.maas.io/t/introduction-to-vm-hosting/1524|/docs/intro-to-vm-hosting|
-|https://discourse.maas.io/t/api-client/810/|/docs/api-client|
-|https://discourse.maas.io/t/hardening-your-maas-installation/1381|/docs/security|
-|https://discourse.maas.io/t/prometheus-metrics/813/|/docs/prometheus-metrics|
-|https://discourse.maas.io/t/package-repositories/814/|/docs/package-repositories|
-|https://discourse.maas.io/t/add-an-rsd-host/815/|/docs/add-an-rsd-host|
-|https://discourse.maas.io/t/creating-and-deleting-machines/816/|/docs/creating-and-deleting-machines|
-|https://discourse.maas.io/t/intel-rack-scale-design-rsd-introduction/817/|/docs/intel-rack-scale-design-rsd-introduction|
-|https://discourse.maas.io/t/rsd-storage/818/|/docs/rsd-storage|
-|https://discourse.maas.io/t/interactive-search/819/|/docs/interactive-search|
-|https://discourse.maas.io/t/availability-zones/820/|/docs/availability-zones|
-|https://discourse.maas.io/t/documentation-index/839/|/docs/documentation-index|
-|https://discourse.maas.io/t/add-machines/821/|/docs/add-machines|
-|https://discourse.maas.io/t/commission-nodes/822/|/docs/commission-nodes|
-|https://discourse.maas.io/t/custom-machine-setup/824/|/docs/custom-machine-setup|
-|https://discourse.maas.io/t/deploy-nodes/825/|/docs/deploy-nodes|
-|https://discourse.maas.io/t/hardware-testing/826/|/docs/hardware-testing|
-|https://discourse.maas.io/t/kernel-boot-options/827/|/docs/kernel-boot-options|
-|https://discourse.maas.io/t/ubuntu-kernels/828/|/docs/ubuntu-kernels|
-|https://discourse.maas.io/t/node-overview/829/|/docs/machine-overview|
-|https://discourse.maas.io/t/bmc-power-types/830/|/docs/bmc-power-types|
-|https://discourse.maas.io/t/resource-pools/831/|/docs/resource-pools|
-|https://discourse.maas.io/t/cli-testing-scripts/832/|/docs/cli-testing-scripts|
-|/t/cli-commissioning-and-hardware-testing-scripts/832|/docs/cli-testing-scripts|
-|https://discourse.maas.io/t/commissioning-and-hardware-testing-scripts/833/|/docs/commissioning-and-hardware-testing-scripts|
-|https://discourse.maas.io/t/tags/834/|/docs/tags|
-|https://discourse.maas.io/t/historical-release-notes/835/|/docs/historical-release-notes|
-|https://discourse.maas.io/t/troubleshooting/837/|/docs/troubleshooting|
-|https://discourse.maas.io/t/getting-help/838/|/docs/getting-help|
-|https://discourse.maas.io/t/historical-release-notes/835/ |/docs/whats-new-in-2-6|
+|https://discourse.maas.io/t/-/789/|/docs/maas-requirements|
+|https://discourse.maas.io/t/-/840/|/docs/what-is-maas|
+|https://discourse.maas.io/t/-/790/|/docs/user-accounts|
+|https://discourse.maas.io/t/-/791/|/docs/audit-event-logs|
+|https://discourse.maas.io/t/-/792/|/docs/backup|
+|https://discourse.maas.io/t/-/793/|/docs/advanced-cli-tasks|
+|https://discourse.maas.io/t/-/794/|/docs/common-cli-tasks|
+|https://discourse.maas.io/t/-/795/|/docs/composable-hardware|
+|https://discourse.maas.io/t/-/796/|/docs/cli-dhcp-snippet-management|
+|https://discourse.maas.io/t/-/797/|/docs/cli-image-management|
+|https://discourse.maas.io/t/-/798/|/docs/cli-interface-management|
+|https://discourse.maas.io/t/-/799/|/docs/cli-kernel-management|
+|https://discourse.maas.io/t/-/800/|/docs/cli-resource-pool-management|
+|https://discourse.maas.io/t/-/801/|/docs/cli-tag-management|
+|https://discourse.maas.io/t/-/802/|/docs/maas-cli|
+|https://discourse.maas.io/t/-/803/|/docs/postgresql-ha-hot-standby|
+|https://discourse.maas.io/t/-/804/|/docs/high-availability|
+|https://discourse.maas.io/t/-/806/|/docs/creating-and-deleting-new-vms|
+|https://discourse.maas.io/t/-/1524|/docs/intro-to-vm-hosting|
+|https://discourse.maas.io/t/-/810/|/docs/api-client|
+|https://discourse.maas.io/t/-/1381|/docs/security|
+|https://discourse.maas.io/t/-/813/|/docs/prometheus-metrics|
+|https://discourse.maas.io/t/-/814/|/docs/package-repositories|
+|https://discourse.maas.io/t/-/815/|/docs/add-an-rsd-host|
+|https://discourse.maas.io/t/-/816/|/docs/creating-and-deleting-machines|
+|https://discourse.maas.io/t/-/817/|/docs/intel-rack-scale-design-rsd-introduction|
+|https://discourse.maas.io/t/-/818/|/docs/rsd-storage|
+|https://discourse.maas.io/t/-/819/|/docs/interactive-search|
+|https://discourse.maas.io/t/-/820/|/docs/availability-zones|
+|https://discourse.maas.io/t/-/839/|/docs/documentation-index|
+|https://discourse.maas.io/t/-/821/|/docs/add-machines|
+|https://discourse.maas.io/t/-/822/|/docs/commission-nodes|
+|https://discourse.maas.io/t/-/824/|/docs/custom-machine-setup|
+|https://discourse.maas.io/t/-/825/|/docs/deploy-nodes|
+|https://discourse.maas.io/t/-/826/|/docs/hardware-testing|
+|https://discourse.maas.io/t/-/827/|/docs/kernel-boot-options|
+|https://discourse.maas.io/t/-/828/|/docs/ubuntu-kernels|
+|https://discourse.maas.io/t/-/829/|/docs/machine-overview|
+|https://discourse.maas.io/t/-/830/|/docs/bmc-power-types|
+|https://discourse.maas.io/t/-/831/|/docs/resource-pools|
+|https://discourse.maas.io/t/-/832/|/docs/cli-testing-scripts|
+|/t/-/832|/docs/cli-testing-scripts|
+|https://discourse.maas.io/t/-/833/|/docs/commissioning-and-hardware-testing-scripts|
+|https://discourse.maas.io/t/-/834/|/docs/tags|
+|https://discourse.maas.io/t/-/835/|/docs/historical-release-notes|
+|https://discourse.maas.io/t/-/837/|/docs/troubleshooting|
+|https://discourse.maas.io/t/-/838/|/docs/getting-help|
+|https://discourse.maas.io/t/-/835/ |/docs/whats-new-in-2-6|
 |https://discourse.maas.io/t/whats-new-in-maas-2-7/1306 |/docs/whats-new-in-2-7|
-|https://discourse.maas.io/t/historical-release-notes/835/ |/docs/maas-2-7-release-notes|
+|https://discourse.maas.io/t/-/835/ |/docs/maas-2-7-release-notes|
 |https://discourse.maas.io/t/whats-new-in-maas-2-8/1655|/docs/release-notes|
-|https://discourse.maas.io/t/network-testing/1267|/docs/network-testing|
-|https://discourse.maas.io/t/markdown-test/1561|/docs/markdown-test|
-|https://discourse.maas.io/t/maas-image-builder/1112|/docs/image-builder|
-|https://discourse.maas.io/t/language-details-contributing-to-maas-docs/745/|/docs/language-details-contributing-to-maas-docs|
+|https://discourse.maas.io/t/-/1267|/docs/network-testing|
+|https://discourse.maas.io/t/-/1561|/docs/markdown-test|
+|https://discourse.maas.io/t/-/1112|/docs/image-builder|
+|https://discourse.maas.io/t/-/745/|/docs/language-details-contributing-to-maas-docs|
 |DEPRECATED TOPIC (MAY NEED MARKING AS SUCH)|PRESERVED PATH|
-|https://discourse.maas.io/t/building-the-docs/744/|/docs/building-the-docs|
-|https://discourse.maas.io/t/working-with-git-and-github/746/|/docs/working-with-git-and-github|
-|https://discourse.maas.io/t/the-cli-cookbook/2218/|/docs/cli-cookbook|
+|https://discourse.maas.io/t/-/744/|/docs/building-the-docs|
+|https://discourse.maas.io/t/-/746/|/docs/working-with-git-and-github|
+|https://discourse.maas.io/t/-/2218/|/docs/cli-cookbook|
 [/details]
 
 ## Redirects

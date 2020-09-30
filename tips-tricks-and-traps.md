@@ -45,7 +45,7 @@ Also, make sure that remote access is set up for the newly created `maas` user i
 
     host    maasdb  maas    0/0     md5
 
-Be sure to replace `0/0`, above, with the proper CIDR to restrict acccess to a specific subnet.  Finally, you can import the database dump with:
+Be sure to replace `0/0`, above, with the proper CIDR to restrict access to a specific subnet.  Finally, you can import the database dump with:
 
     sudo -u postgres pg_restore -d maasdb maasdb-dump.tar
 

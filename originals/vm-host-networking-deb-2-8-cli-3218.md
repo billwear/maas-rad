@@ -84,12 +84,19 @@ In order to  deploy a VM host in your MAAS network, you first need to set up a b
 
 #### Quick questions you may have:
 
-* [How do I set up a VM host bridge with the MAAS UI?](/t/vm-host-networking/1526#heading--maas-bridge-web-ui)
-* [How do I set up a VM host bridge with the MAAS CLI/API?](/t/vm-host-networking/1526#heading--maas-bridge-cli)
-* [How do I set up a VM host bridge with netplan?](/t/vm-host-networking/1526#heading--maas-bridge-netplan)
-* [How do I set up a VM host bridge with libvirt?](/t/vm-host-networking/1526#heading--maas-bridge-libvirt)
-* [How do I set up SSH for use by libvirt?](/t/vm-host-networking/1526#heading--set-up-ssh)
-* [What else must I do to use LXD VM hosts?](/t/vm-host-networking/1526#heading--lxd-setup)
+<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
+* [How do I set up a VM host bridge with the web UI?](#heading--maas-bridge-web-ui)
+* [How do I set up a VM host bridge with netplan?](#heading--maas-bridge-netplan)
+* [How do I set up a VM host bridge with libvirt?](#heading--maas-bridge-libvirt)
+* [How do I set up SSH for use by libvirt?](#heading--set-up-ssh)
+* [What else must I do to use LXD VM hosts?](#heading--lxd-setup)
+snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
+
+* [How do I set up a VM host bridge with the MAAS CLI/API?](#heading--maas-bridge-cli)
+* [How do I set up a VM host bridge with netplan?](#heading--maas-bridge-netplan)
+* [How do I set up a VM host bridge with libvirt?](#heading--maas-bridge-libvirt)
+* [How do I set up SSH for use by libvirt?](#heading--set-up-ssh)
+* [What else must I do to use LXD VM hosts?](#heading--lxd-setup)
 
 To enable VM host networking features, MAAS must match the VM host IP address of a potential VM host with a known device (a machine or controller). For example, if a machine not known to MAAS is set up as a VM host, enhanced interface selection features will not be available.
 
@@ -97,6 +104,7 @@ To enable VM host networking features, MAAS must match the VM host IP address of
 It's essential to enforce usage of IP addresses to avoid domain name conflicts, should different controllers resolve the same domain name with different IP addresses. You should also avoid using 127.0.0.1 when running multiple controllers, as it would confuse MAAS.
 [/note]
 
+<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
 <h2 id="heading--maas-bridge-web-ui">Set up VM host bridge with MAAS UI</h2>
 
 You can use the MAAS UI to configure a bridge to connect a VM host to MAAS:
@@ -118,6 +126,8 @@ When you're done, it should look something like this:
 5. Deploy Ubuntu
 
 
+snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
+
 <h2 id="heading--maas-bridge-cli">Use the MAAS API to configure a bridge</h2>
 
 You can also use the MAAS CLI/API to configure a VM host bridge, with the following procedure:
@@ -137,6 +147,7 @@ You can also use the MAAS CLI/API to configure a VM host bridge, with the follow
 4. Connect the bridge to the subnet:
 
           maas $PROFILE interface link-subnet $SYSTEM_ID $BRIDGE_ID subnet=$SUBNET_ID mode="STATIC" ip_address="10.0.0.101"
+
 
 <h2 id="heading--maas-bridge-netplan">Use netplan to configure a bridge</h2>
 
@@ -371,7 +382,7 @@ $ sudo snap refresh
 All snaps up to date.
 ```
 
-<h3 id="heading--lxd-init">Initialize LXD prior to use</h3>
+<h3 id="heading--lxd-init">Initialise LXD prior to use</h3>
 
 Once LXD is installed it needs to be configured with `lxd init` before first use:
 
@@ -383,11 +394,11 @@ Your interactive output should look something like the following. Note a few poi
 
 1. `Would you like to use LXD clustering? (yes/no) [default=no]: no` - MAAS does not support LXD clusters in this Beta version.
 
-2. `Name of the storage backend to use (btrfs, dir, lvm, zfs, ceph) [default=zfs]: dir` - Beta testing has primarily been with dir; other options should work, but less testing has been done, so use at your own risk.
+2. `Name of the storage back-end to use (btrfs, dir, lvm, zfs, ceph) [default=zfs]: dir` - Beta testing has primarily been with dir; other options should work, but less testing has been done, so use at your own risk.
 
 3. `Would you like to connect to a MAAS server? (yes/no) [default=no]: no` - When LXD is connected to MAAS containers or virtual machines created by LXD will be automatically added to MAAS as devices.  This feature should work, but has limited testing in this Beta version.
 
-4. `Would you like to configure LXD to use an existing bridge or host interface? (yes/no) [default=no]: yes` - The bridge LXD creates is isolated and not managed by MAAS. If this bridge is used, you would be able to add the LXD VM host and compose virutal machines, but commissioning, deploying, and any other MAAS action which uses the network will fail -- so `yes` is the correct answer here.
+4. `Would you like to configure LXD to use an existing bridge or host interface? (yes/no) [default=no]: yes` - The bridge LXD creates is isolated and not managed by MAAS. If this bridge is used, you would be able to add the LXD VM host and compose virtual machines, but commissioning, deploying, and any other MAAS action which uses the network will fail -- so `yes` is the correct answer here.
 
 5. `Name of the existing bridge or host interface: br0` - br0 is the name of the bridge the user configured (see sections above) which is connected to a MAAS-managed network.
 
@@ -398,7 +409,7 @@ Your interactive output should look something like the following. Note a few poi
 Would you like to use LXD clustering? (yes/no) [default=no]: no
 Do you want to configure a new storage pool? (yes/no) [default=yes]: yes
 Name of the new storage pool [default=default]:  
-Name of the storage backend to use (btrfs, dir, lvm, zfs, ceph) [default=zfs]: dir
+Name of the storage back-end to use (btrfs, dir, lvm, zfs, ceph) [default=zfs]: dir
 Would you like to connect to a MAAS server? (yes/no) [default=no]: no
 Would you like to create a new local network bridge? (yes/no) [default=yes]: no
 Would you like to configure LXD to use an existing bridge or host interface? (yes/no) [default=no]: yes
