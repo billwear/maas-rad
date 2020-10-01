@@ -1,232 +1,225 @@
 <!-- deb-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|CLI ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
+|Packages|CLI ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ UI|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
+|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ UI|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|CLI ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
+|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|CLI ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ UI|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
+|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ UI|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|CLI ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
+|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|CLI ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ UI|
+|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
+|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ UI|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|CLI ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|CLI ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
+|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  snap-2-7-cli -->
 
+<!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ UI|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ UI|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
+|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
+ snap-2-7-ui -->
 
-<!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|CLI ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
- snap-2-8-cli -->
+|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|CLI ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
+|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ UI|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ UI|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
+|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|CLI ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|CLI ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
+|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ UI|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ UI|
+|Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  snap-2-9-ui -->
 
-MAAS supports four types of kernels for its Ubuntu machines.
-
--   General availability kernels
--   Hardware enablement kernels
--   Hardware enablement kernels (pre-release)
--   Low latency kernels
-
-This article explains each of these kernels, and offers instructions and further references regarding their use.
+MAAS has a robust logging capability, which presents several different views, including a number of node-specific log files, and several syslogd-style text logs.  Each of these logs provides different information, or at the very least, different views of the same information.  MAAS gathers logging information the various MAAS states and records both automated and user-driven actions.
 
 #### Quick questions you may have:
 
-* [What is a general availability kernel?](#heading--general-availability-kernels)
-* [What is a hardware enablement kernel?](#heading--hardware-enablement-kernels)
-* [What is a pre-release hardware enablement kernel?](#heading--hardware-enablement-kernels-pre-release)
-* [What is a low latency kernel?](#heading--low-latency-kernels)
-* [How do I set a minimum kernel for enlistment and commissioning?](#heading--set-a-default-minimum-kernel-for-enlistment-and-commissioning)
-* [How to I set a minimum deploy kernel for a machine?](#heading--set-a-minimum-deploy-kernel-for-a-machine)
-* [How do I set a specific kernel during machine deployment?](#heading--set-a-specific-kernel-during-machine-deployment)
+<!-- deb-2-7-cli
+* [What are commissioning logs?](/t/commissioning-logs/2496)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3132)
+ deb-2-7-cli -->
 
-<h2 id="heading--general-availability-kernels">General availability kernels</h2>
+<!-- deb-2-7-ui
+* [What are commissioning logs?](/t/commissioning-logs/2497)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3133)
+ deb-2-7-ui -->
 
-The *general availability* (GA) kernel is based on the *generic* kernel that ships with a new Ubuntu version. Subsequent fixes are applied regularly by the 'daily' *stream* used when setting up the global image source for MAAS.
+<!-- deb-2-8-cli
+* [What are commissioning logs?](/t/commissioning-logs/2498)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3134)
+ deb-2-8-cli -->
 
-MAAS denotes a GA kernel like this:
+<!-- deb-2-8-ui
+* [What are commissioning logs?](/t/commissioning-logs/2499)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3135)
+ deb-2-8-ui -->
 
-`ga-<version>`: The GA kernel reflects the major kernel version of the shipped Ubuntu release. For example, 'ga-16.04' is based on the 'generic' 4.4 Ubuntu kernel. As per Ubuntu policy, a GA kernel will never have its major version upgraded until the underlying release is upgraded.
+<!-- deb-2-9-cli
+* [What are commissioning logs?](/t/commissioning-logs/2500)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3136)
+ deb-2-9-cli -->
 
-<h2 id="heading--hardware-enablement-kernels">Hardware enablement kernels</h2>
+<!-- deb-2-9-ui
+* [What are commissioning logs?](/t/commissioning-logs/2501)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3137)
+ deb-2-9-ui -->
 
-New hardware gets released all the time. If an Ubuntu host runs an older kernel, it's unlikely that MAAS can support the hardware. Canonical does make every effort to back-port more recent kernels enabling more hardware. The acronym HWE stands for "Hardware Enablement."
+<!-- snap-2-7-cli
+* [What are commissioning logs?](/t/commissioning-logs/2490)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3126)
+ snap-2-7-cli -->
 
-You also gain kernel improvements and new features when installing an HWE kernel.
+<!-- snap-2-7-ui
+* [What are commissioning logs?](/t/commissioning-logs/2491)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3127)
+ snap-2-7-ui -->
 
-[note]
-There is the notion of an HWE *stack*, which refers to the window manager and kernel when the Ubuntu host is running a desktop environment. HWE stacks do not apply to MAAS since machines are provisioned strictly as non-graphical servers.
-[/note]
+* [What are commissioning logs?](/t/commissioning-logs/2492)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3128)
 
-Note that these back-ported/HWE kernels are only available for LTS releases (e.g. Trusty, Xenial, etc.). For example, the first available HWE kernel for Ubuntu 16.04 LTS (Xenial) will be the GA kernel from Ubuntu 16.10 (Yakkety).
+<!-- snap-2-8-ui
+* [What are commissioning logs?](/t/commissioning-logs/2493)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3129)
+ snap-2-8-ui -->
 
-Before MAAS 2.1 on Xenial, HWE kernels are referred to by the notation `hwe-<release letter>`. So, to install the Yakkety HWE kernel on Xenial, the `hwe-y` kernel is used. By default, when using the web UI, MAAS imports all available HWE kernels along with its generic boot images. So if you are importing Trusty images, then the following HWE kernels are included: `hwe-u`, `hwe-v`, `hwe-w`, `hwe-x` (presuming the Xenial HWE kernel is available).
+<!-- snap-2-9-cli
+* [What are commissioning logs?](/t/commissioning-logs/2494)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3130)
+ snap-2-9-cli -->
 
-In MAAS 2.1, starting with Xenial kernels, the notation has changed. The following is used to refer to the latest HWE kernel available for Xenial: `hwe-16.04`.
+<!-- snap-2-9-ui
+* [What are commissioning logs?](/t/commissioning-logs/2495)
+* [What is the syslog logging path?](#heading--path)
+* [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
+* [What are test logs?](/t/test-logs/3131)
+ snap-2-9-ui -->
 
-See [LTS Enablement Stack^](https://wiki.ubuntu.com/Kernel/LTSEnablementStack) (Ubuntu wiki) for the latest information on HWE.
+The discussion of these logs and their contents can be very extensive, so each type of logging has its own documentation section, reachable from the left-hand menu -- or from the list of questions above.
 
-<h2 id="heading--hardware-enablement-kernels-pre-release">Hardware enablement kernels (pre-release)</h2>
+<h2 id="heading--path">The syslog logging path</h2>
 
-The pre-release HWE kernel is known as the *edge* HWE kernel.
+<!-- deb-2-7-ui deb-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-9-ui deb-2-9-cli
+Syslog data is kept in `/var/log/maas/rsyslog/<machine-name><yyyy-mm-dd>/messages`.  Every machine known to MAAS will have corresponding syslogs.
+deb-2-7-ui deb-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-9-ui deb-2-9-cli -->
 
-MAAS denotes the edge kernel like this: `hwe-<version>-edge`.
+Syslog data is kept in `/var/snap/maas/common/log/rsyslog/<machine-name><yyyy-mm-dd>/messages`. Every machine known to MAAS will have corresponding syslogs.
 
-So 'hwe-16.04' is considered older than 'hwe-16.04-edge'.
 
-See [Rolling LTS Enablement Stack^](https://wiki.ubuntu.com/Kernel/RollingLTSEnablementStack#hwe-16.04-edge) (Ubuntu wiki) for more information.
+<h2 id="heading--using-a-remote-syslog-server">Using a remote syslog server</h2>
 
-<h2 id="heading--low-latency-kernels">Low latency kernels</h2>
+<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
+To add a remote syslog server, click the Settings tab and then click the Network services tab. Scroll down to the Syslog section, where you can add a syslog URL or IP:
 
-The low-latency kernel is based on the GA kernel, but uses a more aggressive configuration to reduce latency. It is categorised as a soft real-time kernel. For more information, see [Criteria for real-time computing^](https://en.wikipedia.org/wiki/Real-time_computing#Criteria_for_real-time_computing) (Wikipedia).
+<a href="https://assets.ubuntu.com/v1/e139d4e9-installconfig-syslog__2.6-remote-syslog.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/e139d4e9-installconfig-syslog__2.6-remote-syslog.png"></a>
 
-MAAS denotes a low latency kernel in a few ways:
+Click the Save button to save your changes.
+snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
 
--   `hwe-x-lowlatency`: the Xenial low latency HWE kernel for Trusty
--   `ga-16.04-lowlatency`: the low latency GA kernel for Xenial
--   `hwe-16.04-lowlatency`: the low latency HWE kernel for Xenial
-
-<h2 id="heading--using-kernels">Using kernels</h2>
-
-The kernel installed on a machine during deployment is, by default, the Ubuntu release's native kernel (GA). However, it is possible to tell MAAS to use a different kernel. Via the Web UI, MAAS can help you choose one of these kernels.  There are three different contexts for your choice:
-
--   globally (default minimum enlistment and commissioning kernel)
--   per machine (minimum deploy kernel)
--   per machine during deployment (specific deploy kernel)
-
-<h2 id="heading--set-a-default-minimum-kernel-for-enlistment-and-commissioning">Set a default minimum kernel for enlistment and commissioning</h2>
-
-To set the default minimum enlistment and commissioning kernel (based on Ubuntu release: GA kernel) for all machines visit the 'General' tab of the 'Settings' page and select a kernel in the 'Default Minimum Kernel Version' field of the *Commissioning* section. Don't forget to click 'Save'.
-
-<a href="https://assets.ubuntu.com/v1/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png"></a>
-
-<h2 id="heading--set-a-minimum-deploy-kernel-for-a-machine">Set a minimum deploy kernel for a machine</h2>
-
-To set the minimum deploy kernel on a machine basis, click on a machine from the 'Machines' page of the web UI and switch to its 'Configuration' page. Click 'Edit' in the 'Machine configuration' section, select a kernel in the 'Minimum Kernel' field followed by 'Save changes'.
-
-<a href="https://assets.ubuntu.com/v1/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png"></a>
-
-<h2 id="heading--set-a-specific-kernel-during-machine-deployment">Set a specific kernel during machine deployment</h2>
-
-To set a specific kernel during deployment, select a machine from the 'Machines' page and choose 'Deploy' under 'Take action'. Then choose a kernel from the (third) kernel field. Hit 'Deploy machine' to initiate the deployment.
-
-<a href="https://assets.ubuntu.com/v1/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png"></a>
-
-MAAS verifies that the specified kernel is available for the given Ubuntu release (series) before deploying the machine.
-
-<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
-<h2 id="heading--set-a-default-minimum-kernel-for-enlistment-and-commissioning">Set a default minimum kernel for enlistment and commissioning</h2>
-
-To set a default minimum kernel for all new and commissioned machines:
+To add or update a remote syslog server in your MAAS environment:
 
 ``` bash
-maas $PROFILE maas set-config name=default_min_hwe_kernel value=$KERNEL
+maas $PROFILE maas set-config name="remote_syslog" value="$SYSLOG_FQDN"
 ```
 
-For example, to set it to the 16.04 GA kernel:
+For example, to set your syslog server to `192.168.100.11`:
 
 ``` bash
-maas $PROFILE maas set-config name=default_min_hwe_kernel value=ga-16.04
+maas $PROFILE maas set-config name="remote_syslog" value=192.168.100.11
 ```
 
-[note]
-The command option `default_min_hwe_kernel` appears to apply to only HWE kernels but this is not the case.
-[/note]
+If you clear the `remote_syslog` value, MAAS will revert to the default behaviour, which is to send all syslog information to all MAAS region controllers.
 
-<h2 id="heading--set-a-minimum-deploy-kernel-for-a-machine">Set a minimum deploy kernel for a machine</h2>
-
-To set the minimum deploy kernel on a per-machine basis:
+For example:
 
 ``` bash
-maas $PROFILE machine update $SYSTEM_ID min_hwe_kernel=$HWE_KERNEL
-```
-
-For example, to set it to the HWE 16.04 kernel:
-
-``` bash
-maas $PROFILE machine update $SYSTEM_ID min_hwe_kernel=hwe-16.04
-```
-
-[note]
-The command option `default_min_hwe_kernel` appears to apply to only HWE kernels but this is not the case.
-[/note]
-
-<h2 id="heading--set-a-specific-kernel-during-machine-deployment">Set a specific kernel during machine deployment</h2>
-
-To set a specific kernel during the deployment of a machine:
-
-``` bash
-maas $PROFILE machine deploy $SYSTEM_ID distro_series=$SERIES hwe_kernel=$KERNEL
-```
-
-The operation will fail if the kernel specified by `hwe_kernel` is older than the kernel (possibly) given by `default_min_hwe_kernel`. Similarly, it will not work if the kernel is not available for the given distro series (such as 'hwe-16.10' for 'xenial').
-
-For example, to deploy a Xenial node with the HWE 16.04 edge kernel:
-
-``` bash
-maas $PROFILE machine deploy $SYSTEM_ID distro_series=xenial hwe_kernel=hwe-16.04-edge
+maas $PROFILE maas set-config name="remote_syslog" value=""
 ```
 
 [note]
-The command option `hwe_kernel` appears to apply to only HWE kernels but this is not the case.
+Note that MAAS controllers' syslogs are not forwarded to the external syslog server -- only machine syslog information is forwarded.
 [/note]
-snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
+
+See [MAAS CLI](/t/cli-advanced-tasks/793#heading--add-or-update-a-remote-syslog-server) to learn how to add a remote syslog server using the CLI.
+
+<!-- LINKS -->
+<!-- * [What are machine logs?](/t/machine-logs/1480)
+* [What are event logs?](/t/event-logs/1481)
+* [What is the maas.log file?](/t/the-maas-log-file/1482)
+* [What is the rackd.log file?](/t/the-rackd-log-file/1483)
+* [What is the regiond.log file?](/t/the-regiond-log-file/1484)
+* [What is the HTTP access log file?](/t/the-http-access-log-file/1485)
+* [What is the HTTP error log file?](/t/the-http-error-log-file/1486)
+* [What are the proxy log files?](/t/the-proxy-log-files/1487)
+* [What are the MAAS rsyslog files?](/t/the-maas-rsyslog-files/1488) -->

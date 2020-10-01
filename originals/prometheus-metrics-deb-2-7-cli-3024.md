@@ -100,7 +100,13 @@ All available metrics are prefixed with `maas_`, to make it easier to look them 
 
 Whenever you install the `python3-prometheus-client` library, Prometheus endpoints are exposed over HTTP by the `rackd` and `regiond` processes under the default `/metrics` path.
 
+[note]
+Currently, prometheus metrics are shared when rack and region are running on the same machine, even though each service provides its own port.  You can safely only query one of the two ports if you're running both region and rack.
+[/note]
+
+<!-- snap-2-7-ui snap-2-7-cli snap-2-8-ui snap-2-8-cli snap-2-9-ui snap-2-9-cli
 For a snap-based MAAS installation, the libraries already included in the snap so that metrics will be available out of the box.
+snap-2-7-ui snap-2-7-cli snap-2-8-ui snap-2-8-cli snap-2-9-ui snap-2-9-cli -->
 
 For a Debian-based MAAS installation, install the library and restart MAAS services as follows:
 
@@ -170,5 +176,3 @@ To follow the progress of the deployment, run the following:
 Once you deploy everything, the Grafana UI is accessible on port `3000` with the credentials `admin`/`grafana`. The Prometheus UI will be available on port `9090`.
 
 The repository also provides some sample dashboard covering the most common use cases for graphs. These are available under `grafana/dashboards`.  You can import them from the Grafana UI or API.
-
-<!-- LINKS -->
