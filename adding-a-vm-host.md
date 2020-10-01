@@ -320,7 +320,6 @@ Both $USERNAME and $PASSWORD are optional for the virsh power type. $ZONE and $T
 The `power_...` parameters will vary with power type.  See the [API reference](/docs/api#power-types) for a listing of available power types.
 
 <h3>Some examples</h3>
-
 For example, to create an RSD VM host, enter:
 
 ``` bash
@@ -351,9 +350,7 @@ deb-2-7-ui deb-2-8-ui deb-2-9-ui snap-2-8-ui snap-2-7-ui snap-2-9-ui -->
 Using the CLI, it's possible to update the configuration of a VM host.  You can change these configurable parameters with an `update` command -- but first, you'll want to know how to check the values of configurable parameters, both before and after the change.
 
 <h3>List VM-hosts</h3>
-
 To begin, you can list your available KVM-hosts with the following command:
-
 
 ```
 maas admin vm-hosts read | jq -r '(["ID, "VM-HOST","SYSID","CORES",
@@ -431,8 +428,6 @@ The following shows theoretical examples of these ratios and how they affect phy
 -   `32 physical CPU cores * 10.0 multiplier  = 320 virtual CPU cores`
 -   `128GB physical memory  * 5.5 multiplier  = 704G virtual Memory`
 
-<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
 <a href="https://discourse.maas.io/uploads/default/original/1X/27a8f21392af3d29a500e33f99e1f79c578cf29c.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/27a8f21392af3d29a500e33f99e1f79c578cf29c.jpeg"></a> 
-snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
 
 Over-committing resources allows a user to compose many MAAS-managed machines without worrying about the physical limitations of the host. For example, on a physical host with four cores and 12 GB of memory, you could compose four libvirt machines, each using two cores and 4 GB of memory.  This arrangement over commits the available physical resources. Provided you never run all four VMs simultaneously, you would have all the benefits of MAAS-managed VMs without over-taxing your host.

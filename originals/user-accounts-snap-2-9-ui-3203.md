@@ -86,11 +86,11 @@ Additionally, in order for a user to log into a MAAS-deployed machine that user 
 
 #### Quick questions you may have:
 
-* [How do I add a user?](#heading--add-a-user)
-* [How do I change a user's preferences?](#heading--user-preferences)
-* [How do I add an SSH key for a user?](#heading--ssh-keys)
-* [How do I add an API key for a user?](#heading--api-key)
-* [How do users change their password?](#heading--change-password)
+* [How do I add a user?](/t/user-accounts/790#heading--add-a-user)
+* [How do I change a user's preferences?](/t/user-accounts/790#heading--user-preferences)
+* [How do I add an SSH key for a user?](/t/user-accounts/790#heading--ssh-keys)
+* [How do I add an API key for a user?](/t/user-accounts/790#heading--api-key)
+* [How do users change their password?](/t/user-accounts/790#heading--change-password)
 
 You can manage user accounts from the 'Users' tab of the 'Settings' page.
 
@@ -117,74 +117,8 @@ Clicking the MAAS username in the top right corner will show that user's prefere
 
 Before a user can deploy a machine, they must import at least one public SSH key into MAAS. This key allows the user to access the deployed machine. The user must possess the corresponding private key. See [Public key authentication](https://www.ssh.com/ssh/public-key-authentication) (ssh.com) if you're not familiar with SSH keys.
 
-<!-- deb-2-7-cli
 [note]
-The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2532)).
-[/note]
- deb-2-7-cli -->
-
-<!-- deb-2-7-ui
-[note]
-The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2533)).
-[/note]
- deb-2-7-ui -->
-
-<!-- deb-2-8-cli
-[note]
-The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2534)).
-[/note]
- deb-2-8-cli -->
-
-<!-- deb-2-8-ui
-[note]
-The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2535)).
-[/note]
- deb-2-8-ui -->
-
-<!-- deb-2-9-cli
-[note]
-The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2536)).
-[/note]
- deb-2-9-cli -->
-
-<!-- deb-2-9-ui
-[note]
-The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2537)).
-[/note]
- deb-2-9-ui -->
-
-<!-- snap-2-7-cli
-[note]
-The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2526)).
-[/note]
- snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-[note]
-The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2527)).
-[/note]
- snap-2-7-ui -->
-
-<!-- snap-2-8-cli
-[note]
-The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2528)).
-[/note]
- snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-[note]
-The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2529)).
-[/note]
- snap-2-8-ui -->
-
-<!-- snap-2-9-cli
-[note]
-The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2530)).
-[/note]
- snap-2-9-cli -->
-
-[note]
-The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2531)).
+The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/781)).
 [/note]
 
 To add a locally-generated public key, select 'Upload' from the 'Source' menu and paste the complete contents of your key file, usually called `id_rsa.pub`, into the 'Public key' field. Click 'Import' to add the key to MAAS.
