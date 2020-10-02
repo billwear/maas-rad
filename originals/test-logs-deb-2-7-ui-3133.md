@@ -80,7 +80,7 @@
 |Packages|[CLI](/t/test-logs-deb-2-7-cli/3132) ~ [UI](/t/test-logs-deb-2-7-ui/3133)|[CLI](/t/test-logs-deb-2-8-cli/3134) ~ [UI](/t/test-logs-deb-2-8-ui/3135)|[CLI](/t/test-logs-deb-2-9-cli/3136) ~ [UI](/t/test-logs-deb-2-9-ui/3137)|
  snap-2-9-ui -->
 
-Under the "Tests" tab for any machine which has undergone testing, the Tests log screen shows a list of tests that have been run for that machine, along with a timestamp and result.  You can view the detailed logs for each test script from this tab.
+For any machine which has undergone testing, the Tests log screen -- under the "Tests" tab -- shows a list of tests that have been run for that machine, along with a timestamp and result.  You can view the detailed logs for each test script from this tab.
 
 By default, every MAAS machine is tested with the `smartctl-validate` script, which is a script prepared by Canonical using the [smartmontools](https://www.smartmontools.org) kit.  This is a disk integrity test.  Typical output includes the following:
 

@@ -80,7 +80,7 @@
 |Packages|[CLI](/t/backup-deb-2-7-cli/2340) ~ [UI](/t/backup-deb-2-7-ui/2341)|[CLI](/t/backup-deb-2-8-cli/2342) ~ [UI](/t/backup-deb-2-8-ui/2343)|[CLI](/t/backup-deb-2-9-cli/2344) ~ [UI](/t/backup-deb-2-9-ui/2345)|
  snap-2-9-ui -->
 
-MAAS currently does not provide specific tools to back up and restore a working MAAS configuration. MAAS servers are part of your data centre, just like other Linux-based servers, so your current backup and disaster recovery solution will probably back up your MAAS environment.  Even so, you should know which files and actions are critical -- to ensure that you get a clean backup, and further ensure that you can restore it cleanly.
+MAAS currently does not provide specific tools to back up and restore a working MAAS configuration. MAAS servers are part of your data centre, just like other Linux-based servers, so your current backup and disaster recovery solution should be sufficient to back up your MAAS environment.  Even so, you should know which files and actions are critical -- to ensure that you get a clean backup, and further ensure that you can restore it cleanly.
 
 #### Quick questions you may have:
 
@@ -180,7 +180,7 @@ Next, copy across the old configuration files to their new locations, taking car
 
 ``` bash
 sudo mv /etc/maas /etc/_maas; mv /var/lib/maas /var/lib/_maas
-sudo cp -prf etc/maas /etc/; cp -prf var/lib/maas /var/lib/
+essudo cp -prf etc/maas /etc/; cp -prf var/lib/maas /var/lib/
 ```
 
 If your restore process regenerated the `/var/lib/maas/secret` file, make sure update this secret on any additional rack controllers.

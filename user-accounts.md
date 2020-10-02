@@ -117,7 +117,7 @@ Clicking the MAAS username in the top right corner will show that user's prefere
 
 <h3 id="heading--ssh-keys">SSH keys</h3>
 
-Before a user can deploy a machine, they must import at least one public SSH key into MAAS. This key allows the user to access the deployed machine. The user must possess the corresponding private key. See [Public key authentication](https://www.ssh.com/ssh/public-key-authentication) (ssh.com) if you're not familiar with SSH keys.
+Before a user can deploy a machine, they must import at least one public SSH key into MAAS. This key allows the user to access the deployed machine with the corresponding private key, which the user must possess. See [Public key authentication](https://www.ssh.com/ssh/public-key-authentication) (ssh.com) if you're not familiar with SSH keys.
 
 <!-- deb-2-7-cli
 [note]

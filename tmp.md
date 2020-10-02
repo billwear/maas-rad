@@ -1,232 +1,209 @@
 <!-- deb-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|CLI ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/user-accounts-snap-2-7-cli/3198) ~ [UI](/t/user-accounts-snap-2-7-ui/3199)|[CLI](/t/user-accounts-snap-2-8-cli/3200) ~ [UI](/t/user-accounts-snap-2-8-ui/3201)|[CLI](/t/user-accounts-snap-2-9-cli/3202) ~ [UI](/t/user-accounts-snap-2-9-ui/3203)|
+|Packages|CLI ~ [UI](/t/user-accounts-deb-2-7-ui/3205)|[CLI](/t/user-accounts-deb-2-8-cli/3206) ~ [UI](/t/user-accounts-deb-2-8-ui/3207)|[CLI](/t/user-accounts-deb-2-9-cli/3208) ~ [UI](/t/user-accounts-deb-2-9-ui/3209)|
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ UI|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/user-accounts-snap-2-7-cli/3198) ~ [UI](/t/user-accounts-snap-2-7-ui/3199)|[CLI](/t/user-accounts-snap-2-8-cli/3200) ~ [UI](/t/user-accounts-snap-2-8-ui/3201)|[CLI](/t/user-accounts-snap-2-9-cli/3202) ~ [UI](/t/user-accounts-snap-2-9-ui/3203)|
+|Packages|[CLI](/t/user-accounts-deb-2-7-cli/3204) ~ UI|[CLI](/t/user-accounts-deb-2-8-cli/3206) ~ [UI](/t/user-accounts-deb-2-8-ui/3207)|[CLI](/t/user-accounts-deb-2-9-cli/3208) ~ [UI](/t/user-accounts-deb-2-9-ui/3209)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|CLI ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/user-accounts-snap-2-7-cli/3198) ~ [UI](/t/user-accounts-snap-2-7-ui/3199)|[CLI](/t/user-accounts-snap-2-8-cli/3200) ~ [UI](/t/user-accounts-snap-2-8-ui/3201)|[CLI](/t/user-accounts-snap-2-9-cli/3202) ~ [UI](/t/user-accounts-snap-2-9-ui/3203)|
+|Packages|[CLI](/t/user-accounts-deb-2-7-cli/3204) ~ [UI](/t/user-accounts-deb-2-7-ui/3205)|CLI ~ [UI](/t/user-accounts-deb-2-8-ui/3207)|[CLI](/t/user-accounts-deb-2-9-cli/3208) ~ [UI](/t/user-accounts-deb-2-9-ui/3209)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ UI|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/user-accounts-snap-2-7-cli/3198) ~ [UI](/t/user-accounts-snap-2-7-ui/3199)|[CLI](/t/user-accounts-snap-2-8-cli/3200) ~ [UI](/t/user-accounts-snap-2-8-ui/3201)|[CLI](/t/user-accounts-snap-2-9-cli/3202) ~ [UI](/t/user-accounts-snap-2-9-ui/3203)|
+|Packages|[CLI](/t/user-accounts-deb-2-7-cli/3204) ~ [UI](/t/user-accounts-deb-2-7-ui/3205)|[CLI](/t/user-accounts-deb-2-8-cli/3206) ~ UI|[CLI](/t/user-accounts-deb-2-9-cli/3208) ~ [UI](/t/user-accounts-deb-2-9-ui/3209)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|CLI ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/user-accounts-snap-2-7-cli/3198) ~ [UI](/t/user-accounts-snap-2-7-ui/3199)|[CLI](/t/user-accounts-snap-2-8-cli/3200) ~ [UI](/t/user-accounts-snap-2-8-ui/3201)|[CLI](/t/user-accounts-snap-2-9-cli/3202) ~ [UI](/t/user-accounts-snap-2-9-ui/3203)|
+|Packages|[CLI](/t/user-accounts-deb-2-7-cli/3204) ~ [UI](/t/user-accounts-deb-2-7-ui/3205)|[CLI](/t/user-accounts-deb-2-8-cli/3206) ~ [UI](/t/user-accounts-deb-2-8-ui/3207)|CLI ~ [UI](/t/user-accounts-deb-2-9-ui/3209)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ UI|
+|Snap|[CLI](/t/user-accounts-snap-2-7-cli/3198) ~ [UI](/t/user-accounts-snap-2-7-ui/3199)|[CLI](/t/user-accounts-snap-2-8-cli/3200) ~ [UI](/t/user-accounts-snap-2-8-ui/3201)|[CLI](/t/user-accounts-snap-2-9-cli/3202) ~ [UI](/t/user-accounts-snap-2-9-ui/3203)|
+|Packages|[CLI](/t/user-accounts-deb-2-7-cli/3204) ~ [UI](/t/user-accounts-deb-2-7-ui/3205)|[CLI](/t/user-accounts-deb-2-8-cli/3206) ~ [UI](/t/user-accounts-deb-2-8-ui/3207)|[CLI](/t/user-accounts-deb-2-9-cli/3208) ~ UI|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|CLI ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|CLI ~ [UI](/t/user-accounts-snap-2-7-ui/3199)|[CLI](/t/user-accounts-snap-2-8-cli/3200) ~ [UI](/t/user-accounts-snap-2-8-ui/3201)|[CLI](/t/user-accounts-snap-2-9-cli/3202) ~ [UI](/t/user-accounts-snap-2-9-ui/3203)|
+|Packages|[CLI](/t/user-accounts-deb-2-7-cli/3204) ~ [UI](/t/user-accounts-deb-2-7-ui/3205)|[CLI](/t/user-accounts-deb-2-8-cli/3206) ~ [UI](/t/user-accounts-deb-2-8-ui/3207)|[CLI](/t/user-accounts-deb-2-9-cli/3208) ~ [UI](/t/user-accounts-deb-2-9-ui/3209)|
  snap-2-7-cli -->
 
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ UI|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/user-accounts-snap-2-7-cli/3198) ~ UI|[CLI](/t/user-accounts-snap-2-8-cli/3200) ~ [UI](/t/user-accounts-snap-2-8-ui/3201)|[CLI](/t/user-accounts-snap-2-9-cli/3202) ~ [UI](/t/user-accounts-snap-2-9-ui/3203)|
+|Packages|[CLI](/t/user-accounts-deb-2-7-cli/3204) ~ [UI](/t/user-accounts-deb-2-7-ui/3205)|[CLI](/t/user-accounts-deb-2-8-cli/3206) ~ [UI](/t/user-accounts-deb-2-8-ui/3207)|[CLI](/t/user-accounts-deb-2-9-cli/3208) ~ [UI](/t/user-accounts-deb-2-9-ui/3209)|
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|CLI ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/user-accounts-snap-2-7-cli/3198) ~ [UI](/t/user-accounts-snap-2-7-ui/3199)|CLI ~ [UI](/t/user-accounts-snap-2-8-ui/3201)|[CLI](/t/user-accounts-snap-2-9-cli/3202) ~ [UI](/t/user-accounts-snap-2-9-ui/3203)|
+|Packages|[CLI](/t/user-accounts-deb-2-7-cli/3204) ~ [UI](/t/user-accounts-deb-2-7-ui/3205)|[CLI](/t/user-accounts-deb-2-8-cli/3206) ~ [UI](/t/user-accounts-deb-2-8-ui/3207)|[CLI](/t/user-accounts-deb-2-9-cli/3208) ~ [UI](/t/user-accounts-deb-2-9-ui/3209)|
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ UI|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/user-accounts-snap-2-7-cli/3198) ~ [UI](/t/user-accounts-snap-2-7-ui/3199)|[CLI](/t/user-accounts-snap-2-8-cli/3200) ~ UI|[CLI](/t/user-accounts-snap-2-9-cli/3202) ~ [UI](/t/user-accounts-snap-2-9-ui/3203)|
+|Packages|[CLI](/t/user-accounts-deb-2-7-cli/3204) ~ [UI](/t/user-accounts-deb-2-7-ui/3205)|[CLI](/t/user-accounts-deb-2-8-cli/3206) ~ [UI](/t/user-accounts-deb-2-8-ui/3207)|[CLI](/t/user-accounts-deb-2-9-cli/3208) ~ [UI](/t/user-accounts-deb-2-9-ui/3209)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|CLI ~ [UI](/t/ubuntu-kernels-snap-2-9-ui/3179)|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/user-accounts-snap-2-7-cli/3198) ~ [UI](/t/user-accounts-snap-2-7-ui/3199)|[CLI](/t/user-accounts-snap-2-8-cli/3200) ~ [UI](/t/user-accounts-snap-2-8-ui/3201)|CLI ~ [UI](/t/user-accounts-snap-2-9-ui/3203)|
+|Packages|[CLI](/t/user-accounts-deb-2-7-cli/3204) ~ [UI](/t/user-accounts-deb-2-7-ui/3205)|[CLI](/t/user-accounts-deb-2-8-cli/3206) ~ [UI](/t/user-accounts-deb-2-8-ui/3207)|[CLI](/t/user-accounts-deb-2-9-cli/3208) ~ [UI](/t/user-accounts-deb-2-9-ui/3209)|
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/ubuntu-kernels-snap-2-7-cli/3174) ~ [UI](/t/ubuntu-kernels-snap-2-7-ui/3175)|[CLI](/t/ubuntu-kernels-snap-2-8-cli/3176) ~ [UI](/t/ubuntu-kernels-snap-2-8-ui/3177)|[CLI](/t/ubuntu-kernels-snap-2-9-cli/3178) ~ UI|
-|Packages|[CLI](/t/ubuntu-kernels-deb-2-7-cli/3180) ~ [UI](/t/ubuntu-kernels-deb-2-7-ui/3181)|[CLI](/t/ubuntu-kernels-deb-2-8-cli/3182) ~ [UI](/t/ubuntu-kernels-deb-2-8-ui/3183)|[CLI](/t/ubuntu-kernels-deb-2-9-cli/3184) ~ [UI](/t/ubuntu-kernels-deb-2-9-ui/3185)|
+|Snap|[CLI](/t/user-accounts-snap-2-7-cli/3198) ~ [UI](/t/user-accounts-snap-2-7-ui/3199)|[CLI](/t/user-accounts-snap-2-8-cli/3200) ~ [UI](/t/user-accounts-snap-2-8-ui/3201)|[CLI](/t/user-accounts-snap-2-9-cli/3202) ~ UI|
+|Packages|[CLI](/t/user-accounts-deb-2-7-cli/3204) ~ [UI](/t/user-accounts-deb-2-7-ui/3205)|[CLI](/t/user-accounts-deb-2-8-cli/3206) ~ [UI](/t/user-accounts-deb-2-8-ui/3207)|[CLI](/t/user-accounts-deb-2-9-cli/3208) ~ [UI](/t/user-accounts-deb-2-9-ui/3209)|
  snap-2-9-ui -->
 
-MAAS supports four types of kernels for its Ubuntu machines.
+Presumably, you have already created an administrative user, but MAAS can also have regular users (who log in to the interface or use the CLI). What users you create depends on how you intend to use MAAS.  An administrator can manage all aspects of MAAS, whereas a non-administrator user can perform a subset of tasks on machines they acquire and deploy.  MAAS limits the details a non-admin user can view, such as nodes allocated to other users. Also, non-admin users cannot access the global settings page in the web UI, nor any of the equivalent API calls from the command line.
 
--   General availability kernels
--   Hardware enablement kernels
--   Hardware enablement kernels (pre-release)
--   Low latency kernels
-
-This article explains each of these kernels, and offers instructions and further references regarding their use.
+Additionally, in order for a user to log into a MAAS-deployed machine that user must have their public SSH key installed on it.  This article explains how to create users and add their public SSH keys to MAAS, so that every deployed machine will automatically have that key installed.
 
 #### Quick questions you may have:
 
-* [What is a general availability kernel?](#heading--general-availability-kernels)
-* [What is a hardware enablement kernel?](#heading--hardware-enablement-kernels)
-* [What is a pre-release hardware enablement kernel?](#heading--hardware-enablement-kernels-pre-release)
-* [What is a low latency kernel?](#heading--low-latency-kernels)
-* [How do I set a minimum kernel for enlistment and commissioning?](#heading--set-a-default-minimum-kernel-for-enlistment-and-commissioning)
-* [How to I set a minimum deploy kernel for a machine?](#heading--set-a-minimum-deploy-kernel-for-a-machine)
-* [How do I set a specific kernel during machine deployment?](#heading--set-a-specific-kernel-during-machine-deployment)
+* [How do I add a user?](#heading--add-a-user)
+* [How do I change a user's preferences?](#heading--user-preferences)
+* [How do I add an SSH key for a user?](#heading--ssh-keys)
+* [How do I add an API key for a user?](#heading--api-key)
+* [How do users change their password?](#heading--change-password)
 
-<h2 id="heading--general-availability-kernels">General availability kernels</h2>
+You can manage user accounts from the 'Users' tab of the 'Settings' page.
 
-The *general availability* (GA) kernel is based on the *generic* kernel that ships with a new Ubuntu version. Subsequent fixes are applied regularly by the 'daily' *stream* used when setting up the global image source for MAAS.
-
-MAAS denotes a GA kernel like this:
-
-`ga-<version>`: The GA kernel reflects the major kernel version of the shipped Ubuntu release. For example, 'ga-16.04' is based on the 'generic' 4.4 Ubuntu kernel. As per Ubuntu policy, a GA kernel will never have its major version upgraded until the underlying release is upgraded.
-
-<h2 id="heading--hardware-enablement-kernels">Hardware enablement kernels</h2>
-
-New hardware gets released all the time. If an Ubuntu host runs an older kernel, it's unlikely that MAAS can support the hardware. Canonical does make every effort to back-port more recent kernels enabling more hardware. The acronym HWE stands for "Hardware Enablement."
-
-You also gain kernel improvements and new features when installing an HWE kernel.
+<a href="https://assets.ubuntu.com/v1/76402e4b-manage-user-accounts__2.4_current-users.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/76402e4b-manage-user-accounts__2.4_current-users.png"></a>
 
 [note]
-There is the notion of an HWE *stack*, which refers to the window manager and kernel when the Ubuntu host is running a desktop environment. HWE stacks do not apply to MAAS since machines are provisioned strictly as non-graphical servers.
+A currently logged in user cannot delete themselves from the web UI.
 [/note]
 
-Note that these back-ported/HWE kernels are only available for LTS releases (e.g. Trusty, Xenial, etc.). For example, the first available HWE kernel for Ubuntu 16.04 LTS (Xenial) will be the GA kernel from Ubuntu 16.10 (Yakkety).
+<h2 id="heading--add-a-user">Add a user</h2>
 
-Before MAAS 2.1 on Xenial, HWE kernels are referred to by the notation `hwe-<release letter>`. So, to install the Yakkety HWE kernel on Xenial, the `hwe-y` kernel is used. By default, when using the web UI, MAAS imports all available HWE kernels along with its generic boot images. So if you are importing Trusty images, then the following HWE kernels are included: `hwe-u`, `hwe-v`, `hwe-w`, `hwe-x` (presuming the Xenial HWE kernel is available).
+Clicking the 'Add user' button will result in a form to be displayed:
 
-In MAAS 2.1, starting with Xenial kernels, the notation has changed. The following is used to refer to the latest HWE kernel available for Xenial: `hwe-16.04`.
+<a href="https://assets.ubuntu.com/v1/1c59c2c5-manage-user-accounts__2.4_add-user.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/1c59c2c5-manage-user-accounts__2.4_add-user.png"></a>
 
-See [LTS Enablement Stack^](https://wiki.ubuntu.com/Kernel/LTSEnablementStack) (Ubuntu wiki) for the latest information on HWE.
+Fill in the fields and hit 'Add user' when done.
 
-<h2 id="heading--hardware-enablement-kernels-pre-release">Hardware enablement kernels (pre-release)</h2>
 
-The pre-release HWE kernel is known as the *edge* HWE kernel.
+<h2 id="heading--user-preferences">User preferences</h2>
 
-MAAS denotes the edge kernel like this: `hwe-<version>-edge`.
+Clicking the MAAS username in the top right corner will show that user's preferences.
 
-So 'hwe-16.04' is considered older than 'hwe-16.04-edge'.
+<h3 id="heading--ssh-keys">SSH keys</h3>
 
-See [Rolling LTS Enablement Stack^](https://wiki.ubuntu.com/Kernel/RollingLTSEnablementStack#hwe-16.04-edge) (Ubuntu wiki) for more information.
+Before a user can deploy a machine, they must import at least one public SSH key into MAAS. This key allows the user to access the deployed machine with the corresponding private key, which the user must possess. See [Public key authentication](https://www.ssh.com/ssh/public-key-authentication) (ssh.com) if you're not familiar with SSH keys.
 
-<h2 id="heading--low-latency-kernels">Low latency kernels</h2>
+<!-- deb-2-7-cli
+[note]
+The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2532)).
+[/note]
+deb-2-7-cli -->
 
-The low-latency kernel is based on the GA kernel, but uses a more aggressive configuration to reduce latency. It is categorised as a soft real-time kernel. For more information, see [Criteria for real-time computing^](https://en.wikipedia.org/wiki/Real-time_computing#Criteria_for_real-time_computing) (Wikipedia).
+<!-- deb-2-7-ui
+[note]
+The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2533)).
+[/note]
+ deb-2-7-ui -->
 
-MAAS denotes a low latency kernel in a few ways:
+<!-- deb-2-8-cli
+[note]
+The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2534)).
+[/note]
+ deb-2-8-cli -->
 
--   `hwe-x-lowlatency`: the Xenial low latency HWE kernel for Trusty
--   `ga-16.04-lowlatency`: the low latency GA kernel for Xenial
--   `hwe-16.04-lowlatency`: the low latency HWE kernel for Xenial
+<!-- deb-2-8-ui
+[note]
+The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2535)).
+[/note]
+ deb-2-8-ui -->
 
-<h2 id="heading--using-kernels">Using kernels</h2>
+<!-- deb-2-9-cli
+[note]
+The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2536)).
+[/note]
+ deb-2-9-cli -->
 
-The kernel installed on a machine during deployment is, by default, the Ubuntu release's native kernel (GA). However, it is possible to tell MAAS to use a different kernel. Via the Web UI, MAAS can help you choose one of these kernels.  There are three different contexts for your choice:
+<!-- deb-2-9-ui
+[note]
+The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2537)).
+[/note]
+ deb-2-9-ui -->
 
--   globally (default minimum enlistment and commissioning kernel)
--   per machine (minimum deploy kernel)
--   per machine during deployment (specific deploy kernel)
-
-<h2 id="heading--set-a-default-minimum-kernel-for-enlistment-and-commissioning">Set a default minimum kernel for enlistment and commissioning</h2>
-
-To set the default minimum enlistment and commissioning kernel (based on Ubuntu release: GA kernel) for all machines visit the 'General' tab of the 'Settings' page and select a kernel in the 'Default Minimum Kernel Version' field of the *Commissioning* section. Don't forget to click 'Save'.
-
-<a href="https://assets.ubuntu.com/v1/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/e0c7f298-nodes-kernels__2.6-default-minimum-kernel.png"></a>
-
-<h2 id="heading--set-a-minimum-deploy-kernel-for-a-machine">Set a minimum deploy kernel for a machine</h2>
-
-To set the minimum deploy kernel on a machine basis, click on a machine from the 'Machines' page of the web UI and switch to its 'Configuration' page. Click 'Edit' in the 'Machine configuration' section, select a kernel in the 'Minimum Kernel' field followed by 'Save changes'.
-
-<a href="https://assets.ubuntu.com/v1/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/e1016632-nodes-kernels__2.6-machine-minimum-kernel.png"></a>
-
-<h2 id="heading--set-a-specific-kernel-during-machine-deployment">Set a specific kernel during machine deployment</h2>
-
-To set a specific kernel during deployment, select a machine from the 'Machines' page and choose 'Deploy' under 'Take action'. Then choose a kernel from the (third) kernel field. Hit 'Deploy machine' to initiate the deployment.
-
-<a href="https://assets.ubuntu.com/v1/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/0d25737f-nodes-kernels__2.6-machine-during-deploy-kernel.png"></a>
-
-MAAS verifies that the specified kernel is available for the given Ubuntu release (series) before deploying the machine.
-
-<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
-<h2 id="heading--set-a-default-minimum-kernel-for-enlistment-and-commissioning">Set a default minimum kernel for enlistment and commissioning</h2>
-
-To set a default minimum kernel for all new and commissioned machines:
-
-``` bash
-maas $PROFILE maas set-config name=default_min_hwe_kernel value=$KERNEL
-```
-
-For example, to set it to the 16.04 GA kernel:
-
-``` bash
-maas $PROFILE maas set-config name=default_min_hwe_kernel value=ga-16.04
-```
+<!-- snap-2-7-cli
+[note]
+The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2526)).
+[/note]
+ snap-2-7-cli -->
 
 [note]
-The command option `default_min_hwe_kernel` appears to apply to only HWE kernels but this is not the case.
+The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2527)).
 [/note]
 
-<h2 id="heading--set-a-minimum-deploy-kernel-for-a-machine">Set a minimum deploy kernel for a machine</h2>
+<!-- snap-2-8-cli
+[note]
+The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2528)).
+[/note]
+ snap-2-8-cli -->
 
-To set the minimum deploy kernel on a per-machine basis:
+<!-- snap-2-8-ui
+[note]
+The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2529)).
+[/note]
+ snap-2-8-ui -->
 
-``` bash
-maas $PROFILE machine update $SYSTEM_ID min_hwe_kernel=$HWE_KERNEL
-```
+<!-- snap-2-9-cli
+[note]
+The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2530)).
+[/note]
+ snap-2-9-cli -->
 
-For example, to set it to the HWE 16.04 kernel:
+<!-- snap-2-9-ui
+[note]
+The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2531)).
+[/note]
+ snap-2-9-ui -->
 
-``` bash
-maas $PROFILE machine update $SYSTEM_ID min_hwe_kernel=hwe-16.04
-```
+To add a locally-generated public key, select 'Upload' from the 'Source' menu and paste the complete contents of your key file, usually called `id_rsa.pub`, into the 'Public key' field. Click 'Import' to add the key to MAAS.
+
+Public keys residing on either [Launchpad](https://help.launchpad.net/YourAccount) or [GitHub](https://help.github.com/articles/connecting-to-github-with-ssh/) can also be added. Select either from the 'Source' menu and specify the user ID associated with the key(s). Press the 'Import' button to add any keys MAAS discovers to the current user's MAAS account.
+
+<a href="https://assets.ubuntu.com/v1/fc95765e-manage-user-accounts__2.4_add-user-ssh-key.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/fc95765e-manage-user-accounts__2.4_add-user-ssh-key.png"></a>
+
+<h3 id="heading--api-key">API key</h3>
+
+The user preferences page includes an API key for the currently active user. This key can be copied and regenerated as needed. The API key is used to login to the API from the [MAAS CLI](/t/maas-cli/802). Other services connecting to MAAS such as [Juju](https://jujucharms.com/docs/stable/clouds-maas) will also need this key.
+
+<h3 id="heading--change-password">Change password</h3>
+
+The current user can change their password at the bottom of the page by entering the old password and entering the new password twice. Click 'Save password' to finish.
+
+<a href="https://assets.ubuntu.com/v1/289ef578-manage-user-accounts__2.4_change-user-password.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/289ef578-manage-user-accounts__2.4_change-user-password.png"></a>
 
 [note]
-The command option `default_min_hwe_kernel` appears to apply to only HWE kernels but this is not the case.
+An administrator can change any user's password from within the 'Users' tab of the 'Settings' page.
 [/note]
 
-<h2 id="heading--set-a-specific-kernel-during-machine-deployment">Set a specific kernel during machine deployment</h2>
-
-To set a specific kernel during the deployment of a machine:
-
-``` bash
-maas $PROFILE machine deploy $SYSTEM_ID distro_series=$SERIES hwe_kernel=$KERNEL
-```
-
-The operation will fail if the kernel specified by `hwe_kernel` is older than the kernel (possibly) given by `default_min_hwe_kernel`. Similarly, it will not work if the kernel is not available for the given distro series (such as 'hwe-16.10' for 'xenial').
-
-For example, to deploy a Xenial node with the HWE 16.04 edge kernel:
-
-``` bash
-maas $PROFILE machine deploy $SYSTEM_ID distro_series=xenial hwe_kernel=hwe-16.04-edge
-```
-
-[note]
-The command option `hwe_kernel` appears to apply to only HWE kernels but this is not the case.
-[/note]
-snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->

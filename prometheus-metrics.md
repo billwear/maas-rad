@@ -82,7 +82,7 @@
 |Packages|[CLI](/t/prometheus-metrics-deb-2-7-cli/3024) ~ [UI](/t/prometheus-metrics-deb-2-7-ui/3025)|[CLI](/t/prometheus-metrics-deb-2-8-cli/3026) ~ [UI](/t/prometheus-metrics-deb-2-8-ui/3027)|[CLI](/t/prometheus-metrics-deb-2-9-cli/3028) ~ [UI](/t/prometheus-metrics-deb-2-9-ui/3029)|
  snap-2-9-ui -->
 
-MAAS services can provide [Prometheus^](https://prometheus.io/) endpoints for collecting performance metrics.  These include:
+MAAS services can provide [Prometheus](https://prometheus.io/) endpoints for collecting performance metrics.  These include:
 
 -   TFTP server file transfer latency
 -   HTTP requests latency
@@ -103,7 +103,7 @@ All available metrics are prefixed with `maas_`, to make it easier to look them 
 Whenever you install the `python3-prometheus-client` library, Prometheus endpoints are exposed over HTTP by the `rackd` and `regiond` processes under the default `/metrics` path.
 
 [note]
-Currently, prometheus metrics are shared when rack and region are running on the same machine, even though each service provides its own port.  You can safely only query one of the two ports if you're running both region and rack.
+Currently, prometheus metrics are shared when rack and region controllers are running on the same machine, even though each service provides its own port.  You can safely only query one of the two ports if you're running both controllers.
 [/note]
 
 <!-- snap-2-7-ui snap-2-7-cli snap-2-8-ui snap-2-8-cli snap-2-9-ui snap-2-9-cli

@@ -3,7 +3,7 @@
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/maas-logging-snap-2-7-cli/2862) ~ [UI](/t/maas-logging-snap-2-7-ui/2863)|[CLI](/t/maas-logging-snap-2-8-cli/2864) ~ [UI](/t/maas-logging-snap-2-8-ui/2865)|[CLI](/t/maas-logging-snap-2-9-cli/2866) ~ [UI](/t/maas-logging-snap-2-9-ui/2867)|
 |Packages|CLI ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
- deb-2-7-cli -->
+deb-2-7-cli -->
 
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
@@ -89,7 +89,7 @@ MAAS has a robust logging capability, which presents several different views, in
 * [What is the syslog logging path?](#heading--path)
 * [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
 * [What are test logs?](/t/test-logs/3132)
- deb-2-7-cli -->
+deb-2-7-cli -->
 
 * [What are commissioning logs?](/t/commissioning-logs/2497)
 * [What is the syslog logging path?](#heading--path)
@@ -205,15 +205,12 @@ For example:
 ``` bash
 maas $PROFILE maas set-config name="remote_syslog" value=""
 ```
-snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
 
 [note]
 Note that MAAS controllers' syslogs are not forwarded to the external syslog server -- only machine syslog information is forwarded.
 [/note]
+snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
 
-See [MAAS CLI](/t/cli-advanced-tasks/793#heading--add-or-update-a-remote-syslog-server) to learn how to add a remote syslog server using the CLI.
-
-<!-- LINKS -->
 <!-- * [What are machine logs?](/t/machine-logs/1480)
 * [What are event logs?](/t/event-logs/1481)
 * [What is the maas.log file?](/t/the-maas-log-file/1482)

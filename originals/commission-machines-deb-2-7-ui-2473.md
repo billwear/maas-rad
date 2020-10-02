@@ -3,7 +3,7 @@
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/commission-machines-snap-2-7-cli/2466) ~ [UI](/t/commission-machines-snap-2-7-ui/2467)|[CLI](/t/commission-machines-snap-2-8-cli/2468) ~ [UI](/t/commission-machines-snap-2-8-ui/2469)|[CLI](/t/commission-machines-snap-2-9-cli/2470) ~ [UI](/t/commission-machines-snap-2-9-ui/2471)|
 |Packages|CLI ~ [UI](/t/commission-machines-deb-2-7-ui/2473)|[CLI](/t/commission-machines-deb-2-8-cli/2474) ~ [UI](/t/commission-machines-deb-2-8-ui/2475)|[CLI](/t/commission-machines-deb-2-9-cli/2476) ~ [UI](/t/commission-machines-deb-2-9-ui/2477)|
- deb-2-7-cli -->
+deb-2-7-cli -->
 
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
@@ -88,7 +88,7 @@ Since MAAS doesn’t know whether you might intend to actually include these dis
 
 <!-- deb-2-7-cli
 When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2280)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2484) to meet your specific needs.
- deb-2-7-cli -->
+deb-2-7-cli -->
 
 When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2281)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2485) to meet your specific needs.
 

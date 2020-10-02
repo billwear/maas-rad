@@ -211,9 +211,6 @@ maas $PROFILE maas set-config name="remote_syslog" value=""
 Note that MAAS controllers' syslogs are not forwarded to the external syslog server -- only machine syslog information is forwarded.
 [/note]
 
-See [MAAS CLI](/t/cli-advanced-tasks/793#heading--add-or-update-a-remote-syslog-server) to learn how to add a remote syslog server using the CLI.
-
-<!-- LINKS -->
 <!-- * [What are machine logs?](/t/machine-logs/1480)
 * [What are event logs?](/t/event-logs/1481)
 * [What is the maas.log file?](/t/the-maas-log-file/1482)

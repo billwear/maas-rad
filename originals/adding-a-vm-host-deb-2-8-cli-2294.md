@@ -315,7 +315,6 @@ Both $USERNAME and $PASSWORD are optional for the virsh power type. $ZONE and $T
 The `power_...` parameters will vary with power type.  See the [API reference](/docs/api#power-types) for a listing of available power types.
 
 <h3>Some examples</h3>
-
 For example, to create an RSD VM host, enter:
 
 ``` bash
@@ -344,9 +343,7 @@ deb-2-7-ui deb-2-8-ui deb-2-9-ui snap-2-8-ui snap-2-7-ui snap-2-9-ui -->
 Using the CLI, it's possible to update the configuration of a VM host.  You can change these configurable parameters with an `update` command -- but first, you'll want to know how to check the values of configurable parameters, both before and after the change.
 
 <h3>List VM-hosts</h3>
-
 To begin, you can list your available KVM-hosts with the following command:
-
 
 ```
 maas admin vm-hosts read | jq -r '(["ID, "VM-HOST","SYSID","CORES",

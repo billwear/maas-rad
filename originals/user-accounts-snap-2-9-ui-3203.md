@@ -115,13 +115,13 @@ Clicking the MAAS username in the top right corner will show that user's prefere
 
 <h3 id="heading--ssh-keys">SSH keys</h3>
 
-Before a user can deploy a machine, they must import at least one public SSH key into MAAS. This key allows the user to access the deployed machine. The user must possess the corresponding private key. See [Public key authentication](https://www.ssh.com/ssh/public-key-authentication) (ssh.com) if you're not familiar with SSH keys.
+Before a user can deploy a machine, they must import at least one public SSH key into MAAS. This key allows the user to access the deployed machine with the corresponding private key, which the user must possess. See [Public key authentication](https://www.ssh.com/ssh/public-key-authentication) (ssh.com) if you're not familiar with SSH keys.
 
 <!-- deb-2-7-cli
 [note]
 The user normally imports their initial SSH key on the first login to the web UI (see [Configuration journey](/t/configuration-journey/2532)).
 [/note]
- deb-2-7-cli -->
+deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 [note]
@@ -206,5 +206,3 @@ The current user can change their password at the bottom of the page by entering
 [note]
 An administrator can change any user's password from within the 'Users' tab of the 'Settings' page.
 [/note]
-
-<!-- LINKS -->

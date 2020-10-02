@@ -519,7 +519,6 @@ TARGET_DEPS += originals/ntp-services-snap-2-8-cli-2960.md
 TARGET_DEPS += originals/ntp-services-snap-2-8-ui-2961.md
 TARGET_DEPS += originals/ntp-services-snap-2-9-cli-2962.md
 TARGET_DEPS += originals/ntp-services-snap-2-9-ui-2963.md
-TARGET_DEPS += originals/package-repositories-814.md
 TARGET_DEPS += originals/partitions-deb-2-7-cli-2988.md
 TARGET_DEPS += originals/partitions-deb-2-7-ui-2989.md
 TARGET_DEPS += originals/partitions-deb-2-8-cli-2990.md

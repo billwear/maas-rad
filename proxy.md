@@ -90,7 +90,7 @@ There are three possible options:
 -   external proxy
 -   no proxy
 
-Configuring proxying with MAAS consists of enabling/disabling one of the above three options and enabling/disabling proxying on a specific subnet.
+Configuring a proxy with MAAS consists of enabling/disabling one of the above three options and enabling/disabling proxying on a specific subnet.
 
 #### Quick questions you may have:
 
