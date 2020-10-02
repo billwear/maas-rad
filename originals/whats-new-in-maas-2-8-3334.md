@@ -95,7 +95,7 @@ Thanks to everyone who reported the issues with previous 2.7 releases and helped
 
 <h3>MAAS 2.7.2 released</h3>
 
-On 30 July 2020, MAAS 2.7.2 was released, replacing the `2.7/stable` channel in snap and the [ppa:maas/2.7^](https://launchpad.net/~maas/+archive/ubuntu/2.7).  You can update your 2.7 release to 2.7.2 by with:
+On 30 July 2020, MAAS 2.7.2 was released, replacing the `2.7/stable` channel in snap and the [ppa:maas/2.7&#2794;](https://launchpad.net/~maas/+archive/ubuntu/2.7).  You can update your 2.7 release to 2.7.2 by with:
 
     snap refresh --channel=2.7/stable
 

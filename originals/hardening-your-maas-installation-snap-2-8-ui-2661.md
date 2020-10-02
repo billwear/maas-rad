@@ -387,7 +387,11 @@ As mentioned above, there are a large number of Web server exploits, and this do
 
 <h3 id="heading--maas-log-file-subsection">MAAS log files</h3>
 
-Presently, your primary use of MAAS log files to improve security is to periodically check log files for login failures.  You can check for this activity in the `regiond.log` file.  For reference, a valid login request looks like this entry: 
+<!-- deb-2-7-ui deb-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-9-ui deb-2-9-cli
+Presently, your primary use of MAAS log files to improve security is to periodically check log files for login failures.  You can check for this activity in the `regiond.log` file, found at `/var/log/maas/regiond.log`.  For reference, a valid login request looks like this entry: 
+deb-2-7-ui deb-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-9-ui deb-2-9-cli -->
+
+Presently, your primary use of MAAS log files to improve security is to periodically check log files for login failures.  You can check for this activity in the `regiond.log` file, found at `/var/snap/maas/common/log/regiond.log`.  For reference, a valid login request looks like this entry: 
 
     2020-03-31 21:17:56 regiond: [info] 10.132.172.1 GET /MAAS/accounts/login/ HTTP/1.1
     --> 200 OK (referrer: http://10.132.172.231:5240/MAAS/r/; agent: Mozilla/5.0 (X11;
@@ -440,6 +444,7 @@ You should pick good passwords and store them securely (e.g. in a KeePassX passw
 
 MAAS configuration files should be set to have permission `640`: readable by logins belonging to the `maas` group and writeable only by the `root` user. Currently, the `regiond.conf` file contains the login credentials for the PostgreSQL database used by MAAS to keep track of all machines, networks, and configuration.
 
+<!-- deb-2-7-ui deb-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-9-ui deb-2-9-cli
 ``` bash
 chmod 640 /etc/maas/rackd.conf
 chmod 640 /etc/maas/regiond.conf
@@ -451,17 +456,27 @@ After:
 -rw-r----- 1 root maas   90 Sep 27 14:13 rackd.conf
 -rw-r----- 1 root maas  157 Sep 27 14:14 regiond.conf
 ```
+deb-2-7-ui deb-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-9-ui deb-2-9-cli -->
+
+``` bash
+chmod 640 /var/snap/maas/current/rackd.conf
+chmod 640 /var/snap/maas/current/regiond.conf
+```
+
+After:
+
+``` no-highlight
+-rw-r----- 1 root maas   90 Sep 27 14:13 rackd.conf
+-rw-r----- 1 root maas  157 Sep 27 14:14 regiond.conf
+```
+<h3 id="heading--snaps-and-security">About snap security</h3>
+
+Since snaps are fully confined or "sandboxed," they bring a lot of inherent security to the contained application.  More detailed information can be found in [this snap blog (external link)](https://snapcraft.io/blog/where-eagles-snap-snap-security-overview).
 
 <h3 id="heading--shared-secrets">Shared secrets</h2>
 
 When you add a new rack or region controller, MAAS asks for a shared secret it will use to communicate with the rest of MAAS. This secret is also exposed in the web UI when you click the 'Add rack controller' button on the Controllers page.  MAAS automatically generates this secret when your first region controller installed, and stores the secret in a plain text file.  This file is automatically protected with the correct permissions, so there is no need for any action on your part.
 
-<h3 id="heading--snaps-and-security">About snap security</h3>
-
-Since snaps are fully confined or "sandboxed," they bring a lot of inherent security to the contained application.  More detailed information can be found in [this snap blog (external link)](https://snapcraft.io/blog/where-eagles-snap-snap-security-overview).
-
 <h2 id="heading--security-consulting">Whom to contact about MAAS security consulting</h2>
 
 If you need help implementing MAAS security, please [contact us (external link)](https://maas.io/contact-us).  We will be happy to assist you in arranging security consulting appropriate to your needs.
-
-<!-- LINKS -->

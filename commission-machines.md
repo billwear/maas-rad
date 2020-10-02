@@ -3,7 +3,7 @@
 |-----:|:-----:|:-----:|:-----:|
 |Snap|[CLI](/t/commission-machines-snap-2-7-cli/2466) ~ [UI](/t/commission-machines-snap-2-7-ui/2467)|[CLI](/t/commission-machines-snap-2-8-cli/2468) ~ [UI](/t/commission-machines-snap-2-8-ui/2469)|[CLI](/t/commission-machines-snap-2-9-cli/2470) ~ [UI](/t/commission-machines-snap-2-9-ui/2471)|
 |Packages|CLI ~ [UI](/t/commission-machines-deb-2-7-ui/2473)|[CLI](/t/commission-machines-deb-2-8-cli/2474) ~ [UI](/t/commission-machines-deb-2-8-ui/2475)|[CLI](/t/commission-machines-deb-2-9-cli/2476) ~ [UI](/t/commission-machines-deb-2-9-ui/2477)|
- deb-2-7-cli -->
+deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
@@ -88,16 +88,62 @@ Enlistment happens when MAAS starts; it reaches out on connected subnets to loca
 
 Since MAAS doesn’t know whether you might intend to actually include these discovered machines in your cloud configuration, it won’t automatically take them over, but it will read them to get an idea how they’re set up. MAAS then presents these machines to you with a MAAS state of “New.” This allows you to examine them and decide whether or not you want MAAS to manage them.
 
-When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/821)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/833) to meet your specific needs.
+<!-- deb-2-7-cli
+When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2280)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2484) to meet your specific needs.
+deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2281)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2485) to meet your specific needs.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2282)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2486) to meet your specific needs.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2283)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2487) to meet your specific needs.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2284)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2488) to meet your specific needs.
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2285)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2489) to meet your specific needs.
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2274)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2478) to meet your specific needs.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2275)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2479) to meet your specific needs.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2276)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2480) to meet your specific needs.
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2277)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2481) to meet your specific needs.
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2278)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2482) to meet your specific needs.
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2279)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2483) to meet your specific needs.
+ snap-2-9-ui -->
 
 #### Questions you may have:
 
-* [How are machines commissioned?](/t/commission-machines/822#heading--commissioning-machines)
-* [How can I commission NUMA and SR-IOV nodes?](/t/commission-machines/822#heading--numa-sriov-commissioning)
-* [What are MAAS commissioning scripts?](/t/commission-machines/822#heading--commissioning-scripts)
-* [What post-commission configuration is possible?](/t/commission-machines/822#heading--post-commission-configuration)
-* [What is a bond interface and how do I create one?](/t/commission-machines/822#heading--bond-interfaces)
-* [What is a bridge interface and how do I create one?](/t/commission-machines/822#heading--bridge-interfaces)
+* [How are machines commissioned?](#heading--commissioning-machines)
+* [How can I commission NUMA and SR-IOV nodes?](#heading--numa-sriov-commissioning)
+* [What are MAAS commissioning scripts?](#heading--commissioning-scripts)
+* [What post-commission configuration is possible?](#heading--post-commission-configuration)
+* [What is a bond interface and how do I create one?](#heading--bond-interfaces)
+* [What is a bridge interface and how do I create one?](#heading--bridge-interfaces)
 
 <h2 id="heading--commissioning-machines">How machines are commissioned</h2>
 

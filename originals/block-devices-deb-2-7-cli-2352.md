@@ -1,483 +1,219 @@
+<!-- deb-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/block-devices-snap-2-7-cli/2346) ~ [UI](/t/block-devices-snap-2-7-ui/2347)|[CLI](/t/block-devices-snap-2-8-cli/2348) ~ [UI](/t/block-devices-snap-2-8-ui/2349)|[CLI](/t/block-devices-snap-2-9-cli/2350) ~ [UI](/t/block-devices-snap-2-9-ui/2351)|
-|Packages|CLI ~ [UI](/t/block-devices-deb-2-7-ui/2353)|[CLI](/t/block-devices-deb-2-8-cli/2354) ~ [UI](/t/block-devices-deb-2-8-ui/2355)|[CLI](/t/block-devices-deb-2-9-cli/2356) ~ [UI](/t/block-devices-deb-2-9-ui/2357)|
+|Snap|[CLI](/t/backup-snap-2-7-cli/2334) ~ [UI](/t/backup-snap-2-7-ui/2335)|[CLI](/t/backup-snap-2-8-cli/2336) ~ [UI](/t/backup-snap-2-8-ui/2337)|[CLI](/t/backup-snap-2-9-cli/2338) ~ [UI](/t/backup-snap-2-9-ui/2339)|
+|Packages|CLI ~ [UI](/t/backup-deb-2-7-ui/2341)|[CLI](/t/backup-deb-2-8-cli/2342) ~ [UI](/t/backup-deb-2-8-ui/2343)|[CLI](/t/backup-deb-2-9-cli/2344) ~ [UI](/t/backup-deb-2-9-ui/2345)|
+ deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/block-devices-snap-2-7-cli/2346) ~ [UI](/t/block-devices-snap-2-7-ui/2347)|[CLI](/t/block-devices-snap-2-8-cli/2348) ~ [UI](/t/block-devices-snap-2-8-ui/2349)|[CLI](/t/block-devices-snap-2-9-cli/2350) ~ [UI](/t/block-devices-snap-2-9-ui/2351)|
-|Packages|[CLI](/t/block-devices-deb-2-7-cli/2352) ~ UI|[CLI](/t/block-devices-deb-2-8-cli/2354) ~ [UI](/t/block-devices-deb-2-8-ui/2355)|[CLI](/t/block-devices-deb-2-9-cli/2356) ~ [UI](/t/block-devices-deb-2-9-ui/2357)|
+|Snap|[CLI](/t/backup-snap-2-7-cli/2334) ~ [UI](/t/backup-snap-2-7-ui/2335)|[CLI](/t/backup-snap-2-8-cli/2336) ~ [UI](/t/backup-snap-2-8-ui/2337)|[CLI](/t/backup-snap-2-9-cli/2338) ~ [UI](/t/backup-snap-2-9-ui/2339)|
+|Packages|[CLI](/t/backup-deb-2-7-cli/2340) ~ UI|[CLI](/t/backup-deb-2-8-cli/2342) ~ [UI](/t/backup-deb-2-8-ui/2343)|[CLI](/t/backup-deb-2-9-cli/2344) ~ [UI](/t/backup-deb-2-9-ui/2345)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/block-devices-snap-2-7-cli/2346) ~ [UI](/t/block-devices-snap-2-7-ui/2347)|[CLI](/t/block-devices-snap-2-8-cli/2348) ~ [UI](/t/block-devices-snap-2-8-ui/2349)|[CLI](/t/block-devices-snap-2-9-cli/2350) ~ [UI](/t/block-devices-snap-2-9-ui/2351)|
-|Packages|[CLI](/t/block-devices-deb-2-7-cli/2352) ~ [UI](/t/block-devices-deb-2-7-ui/2353)|CLI ~ [UI](/t/block-devices-deb-2-8-ui/2355)|[CLI](/t/block-devices-deb-2-9-cli/2356) ~ [UI](/t/block-devices-deb-2-9-ui/2357)|
+|Snap|[CLI](/t/backup-snap-2-7-cli/2334) ~ [UI](/t/backup-snap-2-7-ui/2335)|[CLI](/t/backup-snap-2-8-cli/2336) ~ [UI](/t/backup-snap-2-8-ui/2337)|[CLI](/t/backup-snap-2-9-cli/2338) ~ [UI](/t/backup-snap-2-9-ui/2339)|
+|Packages|[CLI](/t/backup-deb-2-7-cli/2340) ~ [UI](/t/backup-deb-2-7-ui/2341)|CLI ~ [UI](/t/backup-deb-2-8-ui/2343)|[CLI](/t/backup-deb-2-9-cli/2344) ~ [UI](/t/backup-deb-2-9-ui/2345)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/block-devices-snap-2-7-cli/2346) ~ [UI](/t/block-devices-snap-2-7-ui/2347)|[CLI](/t/block-devices-snap-2-8-cli/2348) ~ [UI](/t/block-devices-snap-2-8-ui/2349)|[CLI](/t/block-devices-snap-2-9-cli/2350) ~ [UI](/t/block-devices-snap-2-9-ui/2351)|
-|Packages|[CLI](/t/block-devices-deb-2-7-cli/2352) ~ [UI](/t/block-devices-deb-2-7-ui/2353)|[CLI](/t/block-devices-deb-2-8-cli/2354) ~ UI|[CLI](/t/block-devices-deb-2-9-cli/2356) ~ [UI](/t/block-devices-deb-2-9-ui/2357)|
+|Snap|[CLI](/t/backup-snap-2-7-cli/2334) ~ [UI](/t/backup-snap-2-7-ui/2335)|[CLI](/t/backup-snap-2-8-cli/2336) ~ [UI](/t/backup-snap-2-8-ui/2337)|[CLI](/t/backup-snap-2-9-cli/2338) ~ [UI](/t/backup-snap-2-9-ui/2339)|
+|Packages|[CLI](/t/backup-deb-2-7-cli/2340) ~ [UI](/t/backup-deb-2-7-ui/2341)|[CLI](/t/backup-deb-2-8-cli/2342) ~ UI|[CLI](/t/backup-deb-2-9-cli/2344) ~ [UI](/t/backup-deb-2-9-ui/2345)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/block-devices-snap-2-7-cli/2346) ~ [UI](/t/block-devices-snap-2-7-ui/2347)|[CLI](/t/block-devices-snap-2-8-cli/2348) ~ [UI](/t/block-devices-snap-2-8-ui/2349)|[CLI](/t/block-devices-snap-2-9-cli/2350) ~ [UI](/t/block-devices-snap-2-9-ui/2351)|
-|Packages|[CLI](/t/block-devices-deb-2-7-cli/2352) ~ [UI](/t/block-devices-deb-2-7-ui/2353)|[CLI](/t/block-devices-deb-2-8-cli/2354) ~ [UI](/t/block-devices-deb-2-8-ui/2355)|CLI ~ [UI](/t/block-devices-deb-2-9-ui/2357)|
+|Snap|[CLI](/t/backup-snap-2-7-cli/2334) ~ [UI](/t/backup-snap-2-7-ui/2335)|[CLI](/t/backup-snap-2-8-cli/2336) ~ [UI](/t/backup-snap-2-8-ui/2337)|[CLI](/t/backup-snap-2-9-cli/2338) ~ [UI](/t/backup-snap-2-9-ui/2339)|
+|Packages|[CLI](/t/backup-deb-2-7-cli/2340) ~ [UI](/t/backup-deb-2-7-ui/2341)|[CLI](/t/backup-deb-2-8-cli/2342) ~ [UI](/t/backup-deb-2-8-ui/2343)|CLI ~ [UI](/t/backup-deb-2-9-ui/2345)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/block-devices-snap-2-7-cli/2346) ~ [UI](/t/block-devices-snap-2-7-ui/2347)|[CLI](/t/block-devices-snap-2-8-cli/2348) ~ [UI](/t/block-devices-snap-2-8-ui/2349)|[CLI](/t/block-devices-snap-2-9-cli/2350) ~ [UI](/t/block-devices-snap-2-9-ui/2351)|
-|Packages|[CLI](/t/block-devices-deb-2-7-cli/2352) ~ [UI](/t/block-devices-deb-2-7-ui/2353)|[CLI](/t/block-devices-deb-2-8-cli/2354) ~ [UI](/t/block-devices-deb-2-8-ui/2355)|[CLI](/t/block-devices-deb-2-9-cli/2356) ~ UI|
+|Snap|[CLI](/t/backup-snap-2-7-cli/2334) ~ [UI](/t/backup-snap-2-7-ui/2335)|[CLI](/t/backup-snap-2-8-cli/2336) ~ [UI](/t/backup-snap-2-8-ui/2337)|[CLI](/t/backup-snap-2-9-cli/2338) ~ [UI](/t/backup-snap-2-9-ui/2339)|
+|Packages|[CLI](/t/backup-deb-2-7-cli/2340) ~ [UI](/t/backup-deb-2-7-ui/2341)|[CLI](/t/backup-deb-2-8-cli/2342) ~ [UI](/t/backup-deb-2-8-ui/2343)|[CLI](/t/backup-deb-2-9-cli/2344) ~ UI|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|CLI ~ [UI](/t/block-devices-snap-2-7-ui/2347)|[CLI](/t/block-devices-snap-2-8-cli/2348) ~ [UI](/t/block-devices-snap-2-8-ui/2349)|[CLI](/t/block-devices-snap-2-9-cli/2350) ~ [UI](/t/block-devices-snap-2-9-ui/2351)|
-|Packages|[CLI](/t/block-devices-deb-2-7-cli/2352) ~ [UI](/t/block-devices-deb-2-7-ui/2353)|[CLI](/t/block-devices-deb-2-8-cli/2354) ~ [UI](/t/block-devices-deb-2-8-ui/2355)|[CLI](/t/block-devices-deb-2-9-cli/2356) ~ [UI](/t/block-devices-deb-2-9-ui/2357)|
+|Snap|CLI ~ [UI](/t/backup-snap-2-7-ui/2335)|[CLI](/t/backup-snap-2-8-cli/2336) ~ [UI](/t/backup-snap-2-8-ui/2337)|[CLI](/t/backup-snap-2-9-cli/2338) ~ [UI](/t/backup-snap-2-9-ui/2339)|
+|Packages|[CLI](/t/backup-deb-2-7-cli/2340) ~ [UI](/t/backup-deb-2-7-ui/2341)|[CLI](/t/backup-deb-2-8-cli/2342) ~ [UI](/t/backup-deb-2-8-ui/2343)|[CLI](/t/backup-deb-2-9-cli/2344) ~ [UI](/t/backup-deb-2-9-ui/2345)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/block-devices-snap-2-7-cli/2346) ~ UI|[CLI](/t/block-devices-snap-2-8-cli/2348) ~ [UI](/t/block-devices-snap-2-8-ui/2349)|[CLI](/t/block-devices-snap-2-9-cli/2350) ~ [UI](/t/block-devices-snap-2-9-ui/2351)|
-|Packages|[CLI](/t/block-devices-deb-2-7-cli/2352) ~ [UI](/t/block-devices-deb-2-7-ui/2353)|[CLI](/t/block-devices-deb-2-8-cli/2354) ~ [UI](/t/block-devices-deb-2-8-ui/2355)|[CLI](/t/block-devices-deb-2-9-cli/2356) ~ [UI](/t/block-devices-deb-2-9-ui/2357)|
+|Snap|[CLI](/t/backup-snap-2-7-cli/2334) ~ UI|[CLI](/t/backup-snap-2-8-cli/2336) ~ [UI](/t/backup-snap-2-8-ui/2337)|[CLI](/t/backup-snap-2-9-cli/2338) ~ [UI](/t/backup-snap-2-9-ui/2339)|
+|Packages|[CLI](/t/backup-deb-2-7-cli/2340) ~ [UI](/t/backup-deb-2-7-ui/2341)|[CLI](/t/backup-deb-2-8-cli/2342) ~ [UI](/t/backup-deb-2-8-ui/2343)|[CLI](/t/backup-deb-2-9-cli/2344) ~ [UI](/t/backup-deb-2-9-ui/2345)|
  snap-2-7-ui -->
 
-<!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/block-devices-snap-2-7-cli/2346) ~ [UI](/t/block-devices-snap-2-7-ui/2347)|CLI ~ [UI](/t/block-devices-snap-2-8-ui/2349)|[CLI](/t/block-devices-snap-2-9-cli/2350) ~ [UI](/t/block-devices-snap-2-9-ui/2351)|
-|Packages|[CLI](/t/block-devices-deb-2-7-cli/2352) ~ [UI](/t/block-devices-deb-2-7-ui/2353)|[CLI](/t/block-devices-deb-2-8-cli/2354) ~ [UI](/t/block-devices-deb-2-8-ui/2355)|[CLI](/t/block-devices-deb-2-9-cli/2356) ~ [UI](/t/block-devices-deb-2-9-ui/2357)|
- snap-2-8-cli -->
+|Snap|[CLI](/t/backup-snap-2-7-cli/2334) ~ [UI](/t/backup-snap-2-7-ui/2335)|CLI ~ [UI](/t/backup-snap-2-8-ui/2337)|[CLI](/t/backup-snap-2-9-cli/2338) ~ [UI](/t/backup-snap-2-9-ui/2339)|
+|Packages|[CLI](/t/backup-deb-2-7-cli/2340) ~ [UI](/t/backup-deb-2-7-ui/2341)|[CLI](/t/backup-deb-2-8-cli/2342) ~ [UI](/t/backup-deb-2-8-ui/2343)|[CLI](/t/backup-deb-2-9-cli/2344) ~ [UI](/t/backup-deb-2-9-ui/2345)|
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/block-devices-snap-2-7-cli/2346) ~ [UI](/t/block-devices-snap-2-7-ui/2347)|[CLI](/t/block-devices-snap-2-8-cli/2348) ~ UI|[CLI](/t/block-devices-snap-2-9-cli/2350) ~ [UI](/t/block-devices-snap-2-9-ui/2351)|
-|Packages|[CLI](/t/block-devices-deb-2-7-cli/2352) ~ [UI](/t/block-devices-deb-2-7-ui/2353)|[CLI](/t/block-devices-deb-2-8-cli/2354) ~ [UI](/t/block-devices-deb-2-8-ui/2355)|[CLI](/t/block-devices-deb-2-9-cli/2356) ~ [UI](/t/block-devices-deb-2-9-ui/2357)|
+|Snap|[CLI](/t/backup-snap-2-7-cli/2334) ~ [UI](/t/backup-snap-2-7-ui/2335)|[CLI](/t/backup-snap-2-8-cli/2336) ~ UI|[CLI](/t/backup-snap-2-9-cli/2338) ~ [UI](/t/backup-snap-2-9-ui/2339)|
+|Packages|[CLI](/t/backup-deb-2-7-cli/2340) ~ [UI](/t/backup-deb-2-7-ui/2341)|[CLI](/t/backup-deb-2-8-cli/2342) ~ [UI](/t/backup-deb-2-8-ui/2343)|[CLI](/t/backup-deb-2-9-cli/2344) ~ [UI](/t/backup-deb-2-9-ui/2345)|
  snap-2-8-ui -->
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/block-devices-snap-2-7-cli/2346) ~ [UI](/t/block-devices-snap-2-7-ui/2347)|[CLI](/t/block-devices-snap-2-8-cli/2348) ~ [UI](/t/block-devices-snap-2-8-ui/2349)|CLI ~ [UI](/t/block-devices-snap-2-9-ui/2351)|
-|Packages|[CLI](/t/block-devices-deb-2-7-cli/2352) ~ [UI](/t/block-devices-deb-2-7-ui/2353)|[CLI](/t/block-devices-deb-2-8-cli/2354) ~ [UI](/t/block-devices-deb-2-8-ui/2355)|[CLI](/t/block-devices-deb-2-9-cli/2356) ~ [UI](/t/block-devices-deb-2-9-ui/2357)|
+|Snap|[CLI](/t/backup-snap-2-7-cli/2334) ~ [UI](/t/backup-snap-2-7-ui/2335)|[CLI](/t/backup-snap-2-8-cli/2336) ~ [UI](/t/backup-snap-2-8-ui/2337)|CLI ~ [UI](/t/backup-snap-2-9-ui/2339)|
+|Packages|[CLI](/t/backup-deb-2-7-cli/2340) ~ [UI](/t/backup-deb-2-7-ui/2341)|[CLI](/t/backup-deb-2-8-cli/2342) ~ [UI](/t/backup-deb-2-8-ui/2343)|[CLI](/t/backup-deb-2-9-cli/2344) ~ [UI](/t/backup-deb-2-9-ui/2345)|
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/block-devices-snap-2-7-cli/2346) ~ [UI](/t/block-devices-snap-2-7-ui/2347)|[CLI](/t/block-devices-snap-2-8-cli/2348) ~ [UI](/t/block-devices-snap-2-8-ui/2349)|[CLI](/t/block-devices-snap-2-9-cli/2350) ~ UI|
-|Packages|[CLI](/t/block-devices-deb-2-7-cli/2352) ~ [UI](/t/block-devices-deb-2-7-ui/2353)|[CLI](/t/block-devices-deb-2-8-cli/2354) ~ [UI](/t/block-devices-deb-2-8-ui/2355)|[CLI](/t/block-devices-deb-2-9-cli/2356) ~ [UI](/t/block-devices-deb-2-9-ui/2357)|
+|Snap|[CLI](/t/backup-snap-2-7-cli/2334) ~ [UI](/t/backup-snap-2-7-ui/2335)|[CLI](/t/backup-snap-2-8-cli/2336) ~ [UI](/t/backup-snap-2-8-ui/2337)|[CLI](/t/backup-snap-2-9-cli/2338) ~ UI|
+|Packages|[CLI](/t/backup-deb-2-7-cli/2340) ~ [UI](/t/backup-deb-2-7-ui/2341)|[CLI](/t/backup-deb-2-8-cli/2342) ~ [UI](/t/backup-deb-2-8-ui/2343)|[CLI](/t/backup-deb-2-9-cli/2344) ~ [UI](/t/backup-deb-2-9-ui/2345)|
  snap-2-9-ui -->
 
-Once the initial storage layout has been configured on a machine, you can perform many operations to view and adjust the entire storage layout for the machine. In MAAS there are two different types of block devices.
+MAAS currently does not provide specific tools to back up and restore a working MAAS configuration. MAAS servers are part of your data centre, just like other Linux-based servers, so your current backup and disaster recovery solution will probably back up your MAAS environment.  Even so, you should know which files and actions are critical -- to ensure that you get a clean backup, and further ensure that you can restore it cleanly.
 
-**Physical**
+#### Quick questions you may have:
 
-A physical block device is a physically attached block device such as a 100GB hard drive connected to a server.
+* [What configuration files should I capture in my backup?](#heading--configuration-files)
+* [How should I prepare PostgreSQL data for backup?](#heading--postgresql-export)
+* [What services should I stop before backing up?](#heading--stop-critical-services)
+* [How should I archive files to make the backup more efficient?](#heading--archive-configuration-files)
+* [How do I restore my system, should the need arise?](#heading--restore-files)
+* [What steps should I take to restore the database to normal operation?](#heading--recreatingupdating-the-db)
 
-**Virtual**
+<h2 id="heading--configuration-files">Configuration files</h2>
 
-A virtual block device is a block device that is exposed by the Linux kernel when an operation is performed. Almost all the operations on a physical block device can be performed on a virtual block device, such as a RAID device exposed as md0.
+The following MAAS components need to be backed-up and restored, on each region and rack controller, to recreate a working environment:
 
-<h3 id="heading--list-block-devices">List Block Devices</h3>
+<!-- deb-2-7-ui deb-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-9-ui deb-2-9-cli
+1.  The PostgreSQL database
+2.  The configuration files in `/etc/maas`
+3.  The configuration files in `/var/lib/maas`
 
-To view all block devices on a machine use the read operation. This list both physical and virtual block devices, as you can see in the output from the following command:
+`/var/lib/maas/boot-resources` can safely be excluded as this contains images easily re-downloaded within MAAS.
+deb-2-7-ui deb-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-9-ui deb-2-9-cli -->
 
-``` bash
-maas admin block-devices read <node-id>
-```
+1.  The PostgreSQL database
+2.  The configuration files in `/snap/maas/current/etc/maas`
+3.  The configuration files in `/var/snap/maas/common/maas/`
 
-Output:
+`/var/snap/maas/common/maas/boot-resources` can safely be excluded as this contains images easily re-downloaded within MAAS.
 
-``` nohighlight
-Success.
-Machine-readable output follows:
-[
-    {
-        "id": 10,
-        "path": "/dev/disk/by-dname/vda",
-        "serial": "",
-        "block_size": 4096,
-        "available_size": 0,
-        "resource_uri": "/MAAS/api/2.0/nodes/4y3h8a/blockdevices/10/",
-        "filesystem": null,
-        "id_path": "/dev/vda",
-        "size": 5368709120,
-        "partition_table_type": "MBR",
-        "model": "",
-        "type": "physical",
-        "uuid": null,
-        "used_size": 5365563392,
-        "used_for": "MBR partitioned with 1 partition",
-        "partitions": [
-            {
-                "bootable": false,
-                "id": 9,
-                "resource_uri":"/MAAS/api/2.0/nodes/4y3h8a/blockdevices/10/partition/9",
-                "path": "/dev/disk/by-dname/vda-part1",
-                "uuid": "aae082cd-8be0-4a64-ab49-e998abd6ea43",
-                "used_for": "LVM volume for vgroot",
-                "size": 5360320512,
-                "type": "partition",
-                "filesystem": {
-                    "uuid": "a56ebfa6-8ef4-48b5-b6bc-9f9d27065d24",
-                    "mount_options": null,
-                    "label": null,
-                    "fstype": "lvm-pv",
-                    "mount_point": null
-                }
-            }
-        ],
-        "tags": [
-            "rotary"
-        ],
-        "name": "vda"
-    },
-    {
-        "id": 11,
-        "path": "/dev/disk/by-dname/lvroot",
-        "serial": null,
-        "block_size": 4096,
-        "available_size": 0,
-        "resource_uri": "/MAAS/api/2.0/nodes/4y3h8a/blockdevices/11/",
-        "filesystem": {
-            "uuid": "7181a0c0-9e16-4276-8a55-c77364d137ca",
-            "mount_options": null,
-            "label": "root",
-            "fstype": "ext4",
-            "mount_point": "/"
-        },
-        "id_path": null,
-        "size": 3221225472,
-        "partition_table_type": null,
-        "model": null,
-        "type": "virtual",
-        "uuid": "fc8ba89e-9149-412c-bcea-e596eb7c0d14",
-        "used_size": 3221225472,
-        "used_for": "ext4 formatted filesystem mounted at /",
-        "partitions": [],
-        "tags": [],
-        "name": "vgroot-lvroot"
-    }
-]
-```
+Other configuration files, such as those used by your network configuration (`/etc/network/interfaces`, for example) will need to be backed-up and restored according to your specific deployment requirements.
 
-<h3 id="heading--read-block-device">Read Block Device</h3>
+<h2 id="heading--postgresql-export">PostgreSQL export</h2>
 
-If you want to read just one block device instead of listing all block devices the read operation on the block device endpoint provides that information. To display the details on device '11' from the previous output, for example, we could enter:
+The following procedure involves some assumptions: 
+
+* you have installed region and rack controllers on the same machine. 
+* you have installed MAAS on Ubuntu 18.04 LTS (Bionic).
+* you are restoring software an identical hardware and network configuration.
+
+To backup your PostgreSQL database to a file called `dump.sql` in your home directories, enter the following:
 
 ``` bash
-maas admin block-device read <node-id> 11
+sudo -u postgres pg_dumpall -c > ~/dump.sql
 ```
 
-The above command generates the following output:
-
-``` nohighlight
-Success.
-Machine-readable output follows:
-{
-    "available_size": 0,
-    "path": "/dev/disk/by-dname/vgroot-lvroot",
-    "name": "vgroot-lvroot",
-    "used_for": "ext4 formatted filesystem mounted at /",
-    "type": "virtual",
-    "used_size": 3221225472,
-    "filesystem": {
-        "uuid": "7181a0c0-9e16-4276-8a55-c77364d137ca",
-        "mount_point": "/",
-        "mount_options": null,
-        "fstype": "ext4",
-        "label": "root"
-    },
-    "id_path": null,
-    "id": 11,
-    "partition_table_type": null,
-    "block_size": 4096,
-    "tags": [],
-    "resource_uri": "/MAAS/api/2.0/nodes/4y3h8a/blockdevices/11/",
-    "uuid": "fc8ba89e-9149-412c-bcea-e596eb7c0d14",
-    "serial": null,
-    "partitions": [],
-    "size": 3221225472,
-    "model": null
-}
-```
-
-It is also possible to use the name of the block device, such as 'sda' or 'vda', instead of its 'id':
+If you run the above `pg_dumpall` process in the background, you can ensure this has completed and that there are no other established sessions with the following command:
 
 ``` bash
-s admin block-device read <node-id> vda
+sudo -u postgres psql -c  "SELECT * FROM pg_stat_activity"
+```
+
+Running sessions, such as pg_dumpall, will appear in the `application_name` column of the output alongside `psql` running the above `pg_stat_activity` query. Excepting psql, if `application_name` is empty, you can safely stop the database service.
+
+<h2 id="heading--stop-critical-services">Stop critical services</h2>
+
+To avoid conflicting updates during a backup, stop the following services with the `sudo systemctl stop <service>` command:
+
+-   postgresql.service
+-   maas-dhcpd.service
+-   maas-rackd.service
+-   maas-regiond.service
+
+<h2 id="heading--archive-configuration-files">Archive configuration files</h2>
+
+Archive the database and the required configuration files with a command similar to the following:
+
+<!-- deb-2-7-ui deb-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-9-ui deb-2-9-cli
+``` bash
+sudo tar cvpzf ~/backup.tgz --exclude=/var/lib/maas/boot-resources /etc/maas /var/lib/maas ~/dump.sql
+```
+deb-2-7-ui deb-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-9-ui deb-2-9-cli -->
+
+``` bash
+sudo tar cvpzf ~/backup.tgz --exclude=/var/snap/maas/common/maas/boot-resources /snap/maas/current/etc/maas /var/snap/maas/common/maas ~/dump.sql
+```
+
+Make sure you move the resulting `backup.tgz` to some external storage you can access when restoring the system.
+
+We've now backed up all the components necessary to recreate a MAAS deployment. Next, we'll discuss how to restore this configuration.
+
+<h2 id="heading--restore-files">Restore files</h2>
+
+Start with a freshly-updated installation of Ubuntu on identical hardware. Reinstall MAAS via the standard procedure (`sudo apt install maas`), then stop the following services (PostgreSQL needs to keep running):
+
+-   maas-dhcpd.service
+-   maas-rackd.service
+-   maas-regiond.service
+
+Copy the backup file to the new machine and untar its contents (`sudo tar xvzpf backup.tgz`).
+
+To restore the state of the database, enter the following from the backup directory:
+
+``` bash
+sudo -u postgres psql -f dump.sql postgres
+```
+
+Next, copy across the old configuration files to their new locations, taking care to move the originals aside just in case:
+
+<!-- deb-2-7-ui deb-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-9-ui deb-2-9-cli
+``` bash
+sudo mv /etc/maas /etc/_maas; mv /var/lib/maas /var/lib/_maas
+sudo cp -prf etc/maas /etc/; cp -prf var/lib/maas /var/lib/
+```
+
+If your restore process regenerated the `/var/lib/maas/secret` file, make sure update this secret on any additional rack controllers.
+deb-2-7-ui deb-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-9-ui deb-2-9-cli -->
+
+``` bash
+sudo mv /snap/maas/current/etc/maas /snap/maas/current/etc/_maas
+sudo mv /var/snap/maas/common/maas /var/snap/maas/common/_maas
+sudo cp -prf /snap/maas/current/etc/maas /snap/maas/current/etc/
+sudo cp -prf /var/snap/maas/common/maas /var/snap/maas/common/
+```
+
+If your restore process regenerated the `/var/snap/maas/common/maas/secret` file, make sure update this secret on any additional rack controllers.
+
+[note]
+Take care to preserve the correct permissions when restoring files and directories.
+[/note]
+
+<h2 id="heading--recreatingupdating-the-db">Recreating/updating the DB</h2>
+
+When you restore a backup, you'll have to "upgrade" the DB schema to re-create DB triggers or ensure that the schema matches the currently-running version.
+
+MAAS relies on various DB triggers for multiple operations. As such, it is always required to re-create those after restoring from a backup. Similarly, newer versions of MAAS may have new or missing migrations, and merely restoring a backup may not be enough to restore normal operation.
+
+As such, it is required to re-create the DB triggers (or upgrade the DB and run new/missing migrations) with the following command:
+
+``` bash
+sudo maas-region dbupgrade
 ```
 
 [note]
-MAAS allows the name of a block device to be changed. If the block device name has changed then the API call needs to use the new name.
+Please note to run this command on one of the Region Controllers (if this is a multi-region MAAS cluster).
 [/note]
 
-    Using the ID is safer as it never changes.
-
-<h3 id="heading--create-block-device">Create Block Device</h3>
-
-MAAS gathers the required information itself on block devices when re- commissioning a machine. If this doesn't provide the required information, it is also possible - though not recommended - for an administrator to use the API to manually add a physical block device to a machine.
-
-``` bash
-maas admin block-devices create <node-id> name=vdb model="QEMU" serial="QM00001" size=21474836480 block_size=4096
-```
-
-Depending on your configuration, output should be similar to the following:
-
-``` nohighlight
-Success.
-Machine-readable output follows:
-{
-    "available_size": 21474836480,
-    "path": "/dev/disk/by-dname/vdb",
-    "name": "vdb",
-    "used_for": "Unused",
-    "type": "physical",
-    "used_size": 0,
-    "filesystem": null,
-    "id_path": "",
-    "id": 12,
-    "partition_table_type": null,
-    "block_size": 4096,
-    "tags": [],
-    "resource_uri": "/MAAS/api/2.0/nodes/4y3h8a/blockdevices/12/",
-    "uuid": null,
-    "serial": "QM00001",
-    "partitions": [],
-    "size": 21474836480,
-    "model": "QEMU"
-}
-```
-
-[note]
-The serial number is what MAAS will use when a machine is deployed to find the specific block device. It's important that this be correct. In a rare chance that your block device does not provide a model or serial number you can provide an id_path. The id_path should be a path that is always the same, no matter the kernel version.
-[/note]
-
-<h3 id="heading--update-block-device">Update Block Device</h3>
-
-An administrator can also update the details held on a physical block device, such as its name, from the API:
-
-``` bash
-maas admin block-device update <node-id> 12 name=newroot
-```
-
-Output from this command will show that the 'name' has changed:
-
-``` nohighlight
-Success.
-Machine-readable output follows:
-{
-    "block_size": 4096,
-    "size": 21474836480,
-    "filesystem": null,
-    "model": "QEMU",
-    "name": "newroot",
-    "partitions": [],
-    "tags": [],
-    "used_size": 0,
-    "path": "/dev/disk/by-dname/newroot",
-    "id_path": "",
-    "uuid": null,
-    "available_size": 21474836480,
-    "id": 12,
-    "used_for": "Unused",
-    "type": "physical",
-    "resource_uri": "/MAAS/api/2.0/nodes/4y3h8a/blockdevices/12/",
-    "partition_table_type": null,
-    "serial": "QM00001"
-}
-```
-
-<h3 id="heading--delete-block-device">Delete Block Device</h3>
-
-Physical and virtual block devices can be deleted by an administrator, while ordinary users can only delete virtual block devices:
-
-``` bash
-maas admin block-device delete <node-id> 12
-```
-
-<h3 id="heading--format-block-device">Format Block Device</h3>
-
-An entire block device can be formatted by defining a filesystem with the 'format' API call:
-
-``` bash
-maas admin block-device format <node-id> 11 fstype=ext4
-```
-
-Successful output from this command will look similar to this:
-
-``` nohighlight
-Success.
-Machine-readable output follows:
-{
-    "block_size": 4096,
-    "size": 3221225472,
-    "filesystem": {
-        "label": "",
-        "fstype": "ext4",
-        "mount_options": null,
-        "uuid": "75e42f49-9a45-466c-8425-87a40e4f4148",
-        "mount_point": null
-    },
-    "model": null,
-    "name": "vgroot-lvroot",
-    "partitions": [],
-    "tags": [],
-    "used_size": 3221225472,
-    "path": "/dev/disk/by-dname/vgroot-lvroot",
-    "id_path": null,
-    "uuid": "fc8ba89e-9149-412c-bcea-e596eb7c0d14",
-    "available_size": 0,
-    "id": 11,
-    "used_for": "Unmounted ext4 formatted filesystem",
-    "type": "virtual",
-    "resource_uri": "/MAAS/api/2.0/nodes/4y3h8a/blockdevices/11/",
-    "partition_table_type": null,
-    "serial": null
-}
-```
-
-[note]
-You cannot format a block device that contains partitions or is used to make another virtual block device.
-[/note]
-
-<h3 id="heading--unformat-block-device">Unformat Block Device</h3>
-
-You can remove the filesystem from a block device with the 'unformat' API call:
-
-``` bash
-maas admin block-device unformat <node-id> 11
-```
-
-The output from this command should show the filesystem is now 'null':
-
-``` nohighlight
-Success.
-Machine-readable output follows:
-{
-    "available_size": 3221225472,
-    "path": "/dev/disk/by-dname/vgroot-lvroot",
-    "name": "vgroot-lvroot",
-    "used_for": "Unused",
-    "type": "virtual",
-    "used_size": 0,
-    "filesystem": null,
-    "id_path": null,
-    "id": 11,
-    "partition_table_type": null,
-    "block_size": 4096,
-    "tags": [],
-    "resource_uri": "/MAAS/api/2.0/nodes/4y3h8a/blockdevices/11/",
-    "uuid": "fc8ba89e-9149-412c-bcea-e596eb7c0d14",
-    "serial": null,
-    "partitions": [],
-    "size": 3221225472,
-    "model": null
-}
-```
-
-<h3 id="heading--mount-block-device">Mount Block Device</h3>
-
-If a block device has a filesystem, you can use the 'maas' command to mount a block devices at a given mount point:
-
-``` bash
-maas admin block-device mount <node-id> 11 mount_point=/srv
-```
-
-The mount point is included in the successful output from the command:
-
-``` nohighlight
-Success.
-Machine-readable output follows:
-{
-    "available_size": 0,
-    "path": "/dev/disk/by-dname/vgroot-lvroot",
-    "name": "vgroot-lvroot",
-    "used_for": "ext4 formatted filesystem mounted at /srv",
-    "type": "virtual",
-    "used_size": 3221225472,
-    "filesystem": {
-        "uuid": "6f5965ad-49f7-42da-95ff-8000b739c39f",
-        "mount_point": "/srv",
-        "mount_options": "",
-        "fstype": "ext4",
-        "label": ""
-    },
-    "id_path": null,
-    "id": 11,
-    "partition_table_type": null,
-    "block_size": 4096,
-    "tags": [],
-    "resource_uri": "/MAAS/api/2.0/nodes/4y3h8a/blockdevices/11/",
-    "uuid": "fc8ba89e-9149-412c-bcea-e596eb7c0d14",
-    "serial": null,
-    "partitions": [],
-    "size": 3221225472,
-    "model": null
-}
-```
-
-<h3 id="heading--unmount-block-device">Unmount Block Device</h3>
-
-To remove the mount point from the block device, use the 'unmount' call:
-
-``` bash
-maas admin block-device unmount <node-id> 11 mount_point=/srv
-```
-
-The previous command will include a nullified 'mount_point' in its output:
-
-``` nohighlight
-Success.
-Machine-readable output follows:
-{
-    "available_size": 0,
-    "path": "/dev/disk/by-dname/vgroot-lvroot",
-    "name": "vgroot-lvroot",
-    "used_for": "Unmounted ext4 formatted filesystem",
-    "type": "virtual",
-    "used_size": 3221225472,
-    "filesystem": {
-        "uuid": "6f5965ad-49f7-42da-95ff-8000b739c39f",
-        "mount_point": null,
-        "mount_options": null,
-        "fstype": "ext4",
-        "label": ""
-    },
-    "id_path": null,
-    "id": 11,
-    "partition_table_type": null,
-    "block_size": 4096,
-    "tags": [],
-    "resource_uri": "/MAAS/api/2.0/nodes/4y3h8a/blockdevices/11/",
-    "uuid": "fc8ba89e-9149-412c-bcea-e596eb7c0d14",
-    "serial": null,
-    "partitions": [],
-    "size": 3221225472,
-    "model": null
-}
-```
-
-<h3 id="heading--set-as-boot-disk">Set as Boot Disk</h3>
-
-By default, MAAS picks the first added block device to the machine as the boot disk. In most cases this works as expected as the BIOS usually enumerates the boot disk as the first block device. There are cases where this fails and the boot disk needs to be set to another disk. This API allow setting which block device on a machine MAAS should use as the boot disk.:
-
-``` bash
-maas admin block-device set-boot-disk <node-id> 10
-```
-
-[note]
-Only an administrator can set which block device should be used as the boot disk and only a physical block device can be set as as the boot disk. This operation should be done before a machine is acquired or the storage layout will be applied to the previous boot disk.
-[/note]
+Now either restart your system(s) or the stopped services. You'll find your MAAS deployment fully restored.
