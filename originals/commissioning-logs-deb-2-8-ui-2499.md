@@ -80,53 +80,102 @@
 |Packages|[CLI](/t/commissioning-logs-deb-2-7-cli/2496) ~ [UI](/t/commissioning-logs-deb-2-7-ui/2497)|[CLI](/t/commissioning-logs-deb-2-8-cli/2498) ~ [UI](/t/commissioning-logs-deb-2-8-ui/2499)|[CLI](/t/commissioning-logs-deb-2-9-cli/2500) ~ [UI](/t/commissioning-logs-deb-2-9-ui/2501)|
  snap-2-9-ui -->
 
+<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
+The command line allows you to retrieve the verbatim logs of commissioning script runs, including those that are currently in progress.
+
+If you only want to see the latest or currently-running result, you can use `current-commissioning`, `current-testing`, or `current-installation` instead of an id:
+
+``` bash
+maas $PROFILE node-script-result read $SYSTEM_ID $RESULTS
+```
+
+You can also limit which results are returned by type (commissioning, testing, or installation), script name, or script run:
+
+``` bash
+maas $PROFILE node-script-results read \
+ $SYSTEM_ID type=$SCRIPT_TYPE filters=$SCRIPT_NAME,$TAGS
+```
+
+You can also suppress failed results, which is useful if you want to ignore a known failure:
+
+``` bash
+maas $PROFILE node-script-results update \
+ $SYSTEM_ID type=$SCRIPT_TYPE filters=$SCRIPT_NAME,$TAGS suppressed=$SUPPRESSED
+```
+
+where `$SUPPRESSED` is either `True` or `False`. The JSON formatted output to the above command will include 'results' dictionary with an entry for `suppressed`:
+
+``` json
+"results": [
+    {
+        "id": 21,
+        "created": "Tue, 02 Apr 2019 17:00:36 -0000",
+        "updated": "Tue, 02 Apr 2019 20:56:41 -0000",
+        "name": "smartctl-validate",
+        "status": 5,
+        "status_name": "Aborted",
+        "exit_status": null,
+        "started": "Tue, 02 Apr 2019 20:56:41 -0000",
+        "ended": "Tue, 02 Apr 2019 20:56:41 -0000",
+        "runtime": "0:00:00",
+        "starttime": 1554238601.765214,
+        "endtime": 1554238601.765214,
+        "estimated_runtime": "0:00:00",
+        "parameters": {
+            "storage": {
+                "argument_format": "{path}",
+                "type": "storage",
+                "value": {
+                    "id_path": "/dev/vda",
+                    "model": "",
+                    "name": "sda",
+                    "physical_blockdevice_id": 1,
+                    "serial": ""
+                }
+            }
+        },
+        "script_id": 1,
+        "script_revision_id": null,
+        "suppressed": true
+    }
+]
+```
+
+Finally, results can be downloaded, either to stdout, stderr, as combined output or as a tar.xz:
+
+``` bash
+maas $PROFILE node-script-result download $SYSTEM_ID $RUN_ID output=all \
+ filetype=tar.xz > $LOCAL_FILENAME
+```
+
+[note]
+**$RUN_ID** is labelled `id` in the verbose result output.
+[/note]
+snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
+
 Commissioning logs, which are presented on the "Commissioning" tab for any machine in the "Ready" state, contain a list of commissioning scripts with a timestamp and result.  You can view the detailed logs for each of these scripts from this tab.
 
 When you click on the "Commissioning" tab under a given machine, you will see a screen similar to this one:
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/f2e52a4bf55b37e5ff63e7d1fab1aac32aebc48c.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/f2e52a4bf55b37e5ff63e7d1fab1aac32aebc48c.jpeg"></a> 
 
-<!-- deb-2-7-cli
-Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2472#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
- deb-2-7-cli -->
-
 <!-- deb-2-7-ui
 Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2473#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
  deb-2-7-ui -->
 
-<!-- deb-2-8-cli
-Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2474#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
- deb-2-8-cli -->
-
 Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2475#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
-
-<!-- deb-2-9-cli
-Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2476#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
- deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2477#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
  deb-2-9-ui -->
 
-<!-- snap-2-7-cli
-Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2466#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
- snap-2-7-cli -->
-
 <!-- snap-2-7-ui
 Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2467#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
  snap-2-7-ui -->
 
-<!-- snap-2-8-cli
-Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2468#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
- snap-2-8-cli -->
-
 <!-- snap-2-8-ui
 Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2469#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
  snap-2-8-ui -->
-
-<!-- snap-2-9-cli
-Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2470#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
- snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/2471#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
@@ -134,14 +183,21 @@ Each of the items in the "NAME" column is the name of a [commissioning script](/
 
 <h2>00-maas-00-support-info</h2>
 
+MAAS gathers information that helps to identify and characterise the machine for debugging purposes, such as the kernel, versioning of various components, etc.  This script gathers this information, mostly as a bundle to be provided to a support specialist to help get the baseline for the machine in question.  Typical output, generated when a machine passes this script, is shown in the foldout below.
+
+<!-- snap-2-9-cli snap-2-9-ui deb-2-9-cli deb-2-9-cli
+<h2>maas-support-info</h2>
+
 MAAS gathers information that helps to identify and characterise the machine for debugging purposes, such as the kernel, versioning of various components, etc.  This script gathers this information, mostly as a bundle to be provided to a support specialist to help get the baseline for the machine in question.
 
-Typical output, generated when a machine passes this script, is shown below:
+This script runs in parallel with other scripts to speed commissioning. Typical output, generated when a machine passes this script, is shown in the foldout below.
+snap-2-9-cli snap-2-9-ui deb-2-9-cli deb-2-9-cli -->
 
+<details><summary>Typical script output</summary>
 
 ````
 -----BEGIN KERNEL INFO-----
-Linux 52-54-00-0b-6d-8c 4.15.0-91-generic #92-Ubuntu SMP Fri Feb 28 11:09:48 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+Linux 52-54-00-0b-6d-8c 4.15.0-91-generic #92-Ubuntu SMP Fri Feb 28 11:09:48 UTC 2020 86_64 x86_64 x86_64 GNU/Linux
 -----END KERNEL INFO-----
 -----BEGIN KERNEL COMMAND LINE-----
 nomodeset ro root=squash:http://192.168.122.2:5248/images/ubuntu/amd64/generic/bionic/daily/squashfs ip=::::52-54-00-0b-6d-8c:BOOTIF ip6=off overlayroot=tmpfs overlayroot_cfgdisk=disabled cc:{'datasource_list': ['MAAS']}end_cc cloud-config-url=http://192-168-122-0--24.maas-internal:5248/MAAS/metadata/latest/by-id/pb6833/?op=get_preseed apparmor=0 log_host=192.168.122.2 log_port=5247 BOOTIF=01-52:54:00:0b:6d:8c
@@ -331,8 +387,9 @@ processor-version=pc-i440fx-eoan
 processor-frequency=2000 MHz
 -----END DMI KEYPAIRS-----
 ````
+</details>
 
-Here's a quick breakdown of what you see in the above output:
+Here's a quick breakdown of what you see in the script output:
 
 * **KERNEL INFO:** this is the output of `uname -a` -- the MAC address is the machine name in this case.
 * **KERNEL COMMAND LINE:** these are the kernel command line parameters, directed at various modules built into the kernel.  The function `modprobe` parses this kernel command line and collects the relevant module parameters when it loads a module.  Note that this command line could also be used to pull in loadable modules.
@@ -350,8 +407,15 @@ Here's a quick breakdown of what you see in the above output:
 
 <h2>00-maas-01-lshw</h2>
 
-This script pulls system BIOS and vendor info, and generates user-defined tags for later use.  Typical script output from a successful run looks something like this:
+This script pulls system BIOS and vendor info, and generates user-defined tags for later use.  Typical script output from a successful run looks something like the foldout below.
 
+<!-- snap-2-9-ui snap-2-9-cli deb-2-9-ui deb-2-9-cli
+<h2>maas-lshw</h2>
+
+This script pulls system BIOS and vendor info, and generates user-defined tags for later use.  `maas-lshw` runs in parallel with other scripts to speed up the commissioning process. Typical script output from a successful run looks something like the foldout below.
+snap-2-9-ui snap-2-9-cli deb-2-9-ui deb-2-9-cli -->
+
+<details><summary>Typical script output</summary>
 ````
 <?xml version="1.0" standalone="yes" ?>
 <!-- generated by lshw-B.02.18 -->
@@ -976,6 +1040,7 @@ This script pulls system BIOS and vendor info, and generates user-defined tags f
 </node>
 </list>
 ````
+</details>
 
 This output is roughly equivalent to the output of `lshw -xml` on the machine in question.  There are many references to decode this information, so for now, here is a short glossary of most the terms (essentially, the tags) that typically appear in a listing like this:
 
@@ -998,21 +1063,47 @@ This output is roughly equivalent to the output of `lshw -xml` on the machine in
 
 Some additional fields may be present in this output.  These will be identified and described as necessary for specific instances and situations.
 
+<!-- snap-2-7-ui snap-2-7-cli deb-2-7-ui deb-2-7-cli
 <h2>00-maas-02-virtuality</h2>
 
-This script checks whether the machine being commissioning is a virtual machine, which may affect how MAAS interacts with it.  The typical output of a successful run does not normally contain a lot of information, as shown below:
+This script checks whether the machine being commissioned is a virtual machine, which may affect how MAAS interacts with it.  The typical output of a successful run does not normally contain a lot of information, as shown below:
 
 ````
 kvm
 ````
 
+This script will be phased on in the next release of MAAS, with the functionality being incorporated into `50-maas-01-commissioning`.
+snap-2-7-ui snap-2-7-cli deb-2-7-ui deb-2-7-cli -->
+
+<h2>00-maas-02-virtuality</h2>
+
+This script, phased out as part of the 2.8 release, checked whether the machine being commissioned was a virtual machine. From MAAS 2.8 going forward, this functionality resides in the script `50-maas-01-commissioning`.  
+
+
 <h2>00-maas-03-install-lldpd</h2>
 
 This script installs the link layer discovery protocol (LLDP) daemon, which will later capture networking information about the machine. The lldpd needs to be installed early because it requires about a 60-second delay before running.  Under normal conditions, there is typically no output from this script in the logs.
 
+<!-- snap-2-9-ui snap-2-9-cli deb-2-9-ui deb-2-9-cli
+
+<h2>20-maas-01-install-lldpd</h2>
+
+This script installs the link layer discovery protocol (LLDP) daemon, which will later capture networking information about the machine.  This logs the basic install process to the commissioning logs in real time.
+snap-2-9-ui snap-2-9-cli deb-2-9-ui deb-2-9-cli -->
+
+
 <h2>00-maas-04-list-modaliases</h2>
 
-This script figures out what hardware modules are loaded, providing a way to autorun certain scripts based on which modules are loaded.  Successful log output looks something like this:
+This script figures out what hardware modules are loaded, providing a way to autorun certain scripts based on which modules are loaded.  Successful log output looks something like the foldout below.
+
+<!-- snap-2-9-ui snap-2-9-cli deb-2-9-ui deb-2-9-cli
+
+<h2>maas-list-modaliases</h2>
+
+This script figures out what hardware modules are loaded, providing a way to autorun certain scripts based on which modules are loaded.  `maas-list-modaliases` runs in parallel with other scripts to speed up the commissioning process.  Successful log output looks something like the foldout below.
+snap-2-9-ui snap-2-9-cli deb-2-9-ui deb-2-9-cli -->
+
+<details><summary>Typical script output</summary>
 
 ````
 acpi:ACPI0010:PNP0A05:
@@ -1066,6 +1157,7 @@ virtio:d00000001v00001AF4
 virtio:d00000003v00001AF4
 virtio:d00000005v00001AF4
 ````
+</details>
 
 The output is similar to the modaliases output shown in the `00-maas-00-support-info` output.  Here, we can decode some of the fields for a PCI entry, for example, set off my one or more consecutive letters:
 
@@ -1079,13 +1171,29 @@ The output is similar to the modaliases output shown in the `00-maas-00-support-
 
 There are many more fields, depending upon the device type, and a wide variety of codes for every field for every device.  Every bus has its own schema for modalias -- hence, cataloguing these combinations is beyond the scope of this document set.  Understanding the way these codes are constructed, though, may help you know how to find needed information for a specific situation.
 
+
 <h2>00-maas-05-dhcp-unconfigured-ifaces</h2>
 
 MAAS will want to know all the ways the machine is connected to the network. Only PXE comes online during boot; this script brings all the other networks online so they can be recognised.  Under normal conditions, this script does not produce a significant amount of output.
 
+<!-- snap-2-9-ui snap-2-9-cli deb-2-9-ui deb-2-9-cli
+<h2>20-maas-02-dhcp-unconfigured-ifaces</h2>
+
+MAAS will want to know all the ways the machine is connected to the network. Only PXE comes online during boot; this script brings all the other networks online so they can be recognised.  This script logs the discovery of these networks to the commissioning logs.
+snap-2-9-ui snap-2-9-cli deb-2-9-ui deb-2-9-cli -->
+
 <h2>00-maas-06-get-fruid-api-data</h2>
 
-This script gathers information for the Facebook wedge power type.  Typical output from a successful run looks something like this:
+This script gathers information for the Facebook wedge power type.  Typical output from a successful run looks something like the foldout below.
+
+<!-- snap-2-9-ui snap-2-9-cli deb-2-9-ui deb-2-9-cli
+
+<h2>maas-get-fruid-api-data</h2>
+
+This script gathers information for the Facebook wedge power type, and it runs in parallel with other scripts to improve commissioning speed. Typical output from a successful run looks something like the foldout below.
+snap-2-9-ui snap-2-9-cli deb-2-9-ui deb-2-9-cli -->
+
+<details><summary>Typical script output</summary>
 
 ````
 + sleep 5
@@ -1097,13 +1205,22 @@ This script gathers information for the Facebook wedge power type.  Typical outp
 + '[' lo '!=' lo ']'
 + exit 0
 ````
+</details>
 
 You will note that this output does not actually contain any specific information, but rather the echoed commands of a script to gather the information.
 
+
 <h2>00-maas-08-serial-ports</h2>
 
-This script lists what serial ports are available on the machine.  Log output from a normal, successful run is simply a list of serial ports, something like this:
+This script lists what serial ports are available on the machine.  Log output from a normal, successful run is simply a list of serial ports, something like the foldout below.
 
+<!-- snap-2-9-ui snap-2-9-cli deb-2-9-ui deb-2-9-cli
+<h2>maas-serial-ports</h2>
+
+This script lists what serial ports are available on the machine; it runs in parallel to speed up commissioning.  Log output from a normal, successful run is simply a list of serial ports, something like the foldout below.
+snap-2-9-ui snap-2-9-cli deb-2-9-ui deb-2-9-cli -->
+
+<details><summary>Typical script output</summary>
 ````
 /sys/devices/platform/serial8250/tty/ttyS1
 /sys/devices/platform/serial8250/tty/ttyS10
@@ -1206,6 +1323,7 @@ This script lists what serial ports are available on the machine.  Log output fr
 /sys/devices/virtual/tty/tty9
 /sys/devices/virtual/tty/ttyprintk
 ````
+</details>
 
 The output of this script may be useful when you're trying to verify that a particular serial interface is active and available on your machine.
 
@@ -1232,7 +1350,9 @@ This script is just used to get the IP address, which can then be associated wit
 
 This script is the main MAAS tool, gathering information on machine resources, such as storage, network devices, CPU, RAM, etc. We currently pull this data using lxd: We use a Go binary built from lxd source that just contains the minimum source to gather the resource information we need.
 
-Output from a successful run is fairly robust, and looks something like this:
+Output from a successful run is fairly robust, and looks something like the foldout below:
+
+<details><summary>Typical script output</summary>
 
 ````
 --2020-03-23 22:02:15--  http://192.168.122.2:5248/machine-resources/amd64
@@ -1461,6 +1581,7 @@ n                "device_path": "pci-0000:00:01.1-ata-1",
     }
 }
 ````
+</details>
 
 This output represents a catalogue of the resources available on this machine, in a format readable by both humans and machines.  You can use this to verify that your configuration is what you expected.
 
@@ -1477,3 +1598,19 @@ nomodeset ro root=squash:http://192.168.122.2:5248/images/ubuntu/amd64/generic/b
 ````
 
 These are the kernel command line parameters, which control the invocation of various modules built into the kernel.  The function `modprobe` parses this kernel command line and collects the relevant module parameters when it loads a module.  Note that this command line could also be used to pull in loadable modules.
+
+<!-- snap-2-9-ui snap-2-9-cli deb-2-9-ui deb-2-9-cli
+<h2>maas-capture-lldp</h2>
+
+This script gathers LLDP network information to be presented on the logs page; this data is not used by MAAS at all.  The script runs in parallel with other scripts for speed. Note that the log output from a successful run is uninteresting.
+
+<h2>maas-kernel-cmdline</h2>
+
+This script is used to update the boot devices; it double-checks that the right boot interface is selected.  Successful output is the specific command that boots the machine kernel, something like this:
+
+````
+nomodeset ro root=squash:http://192.168.122.2:5248/images/ubuntu/amd64/generic/bionic/daily/squashfs ip=::::52-54-00-0b-6d-8c:BOOTIF ip6=off overlayroot=tmpfs overlayroot_cfgdisk=disabled cc:{'datasource_list': ['MAAS']}end_cc cloud-config-url=http://192-168-122-0--24.maas-internal:5248/MAAS/metadata/latest/by-id/pb6833/?op=get_preseed apparmor=0 log_host=192.168.122.2 log_port=5247 BOOTIF=01-52:54:00:0b:6d:8c
+````
+
+These are the kernel command line parameters, which control the invocation of various modules built into the kernel.  The function `modprobe` parses this kernel command line and collects the relevant module parameters when it loads a module.  Note that this command line could also be used to pull in loadable modules.
+snap-2-9-cli snap-2-9-ui deb-2-9-cli deb-2-9-cli -->
