@@ -464,9 +464,74 @@ When selecting [multiple machines](/t/introduction-to-machines/2735), scripts wh
 
 Similarly, scripts selected by tag on the [command line](/t/cli-commissioning-and-hardware-testing-scripts/832) which specify the `for_hardware` field will only run on matching hardware.
 
-<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
 <h2 id="heading--upload-procedure">Upload procedure</h2>
 
+<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
+To upload a hardware testing script to MAAS, enter the following:
+
+``` bash
+maas $PROFILE node-scripts create name=$SCRIPT_NAME name> \
+ script=$PATH_TO_SCRIPT type=testing
+```
+
+Changing the type to commissioning adds the test script to the commissioning process.
+
+You can list all uploaded scripts with the following command:
+
+``` bash
+maas $PROFILE node-scripts read type=testing filters=$TAG
+```
+
+The optional filters argument lets you search for tags assigned to a script, such as using `TAG=cpu` with the above example.
+
+A [script's metadata](/t/commissioning-and-hardware-testing-scripts/833#hardware-test-script-sample), and even the script itself, can be updated from the command line:
+
+``` bash
+maas $PROFILE node-script update \
+ $SCRIPT_NAME script=$PATH_TO_SCRIPT comment=$COMMENT
+```
+
+The JSON formatted output to the above command will include 'history' dictionary entries, detailing script modification times and associated comments:
+
+``` json
+"history": [
+    {
+        "id": 40,
+        "created": "Tue, 12 Sep 2017 12:12:08 -0000",
+        "comment": "Updated version"
+    },
+    {
+        "id": 34,
+        "created": "Fri, 08 Sep 2017 17:07:46 -0000",
+        "comment": null
+    }
+]
+```
+
+MAAS keeps a history of all uploaded script versions, allowing you to easily revert to a previous version using the `id` of the version you wish to revert to:
+
+``` bash
+maas $PROFILE node-script revert $SCRIPT_NAME to=$VERSION_ID
+```
+
+[note type="negative" status="Warning"]
+The history for later modifications will be lost when reverting to an earlier version of the script.
+[/note]
+
+To download a script, enter the following:
+
+``` bash
+maas $PROFILE node-script download $SCRIPT_NAME > $LOCAL_FILENAME
+```
+
+To delete a script, use `delete`:
+
+``` bash
+maas $PROFILE node-script delete $SCRIPT_NAME
+```
+snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
+
+<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
 Scripts can be uploaded to MAAS using the web UI. Select the 'User scripts' tab of the 'Settings' page - the 'Commissioning scripts' section is near the top. Within the Commissioning scripts section, click the Upload script button followed by 'Choose file' to open a requester, locate the script, and select Upload to upload it to MAAS.
 snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
 

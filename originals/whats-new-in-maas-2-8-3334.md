@@ -199,7 +199,7 @@ snap-2-7 snap-2-7-ui deb-2-7 deb-2-7-ui -->
 <!-- snap-2-9-cli snap-2-9-ui deb-2-9-cli deb-2-9-ui
 <h2>MAAS 2.9 BETA release notes</h2>
 
-Following on from MAAS 2.8, we are happy to announce that MAAS 2.9 Beta4 is now available. This pending release should feature some critical bug fixes, along with some exciting new features.
+Following on from MAAS 2.8, we are happy to announce that MAAS 2.9 Beta<big>**5**</big> is now available. This release offers some exciting new features.
 
 [note]
 NOTE that this is currently a Beta release, so there will be bugs, instabilities, and missing features. Please remember to [file a bug^](https://bugs.launchpad.net/maas/+filebug) if you find one, and please interact with the developers on [discourse^](https://discourse.maas.io/).
@@ -208,7 +208,10 @@ NOTE that this is currently a Beta release, so there will be bugs, instabilities
 <h4>Quick questions you may have:</h4>
 
 - [What are the new features & fixes for 2.9?](#heading--release-notes)
-  - [New MAAS CLI power command](#heading--maas-power)
+  - [**BMC/IPMI default parameter additions**](#heading--bmc-param-additions)
+  - [**New global IPMI configuration options**](#heading--new-config-options)
+  - [**Addition of IPMI config options to UI**](#heading--global-config-settings)
+  - [**New MAAS CLI power command**](#heading--maas-power)
   - [Commissioning speed improvements](#heading--commissioning-speed)
   - [BMC improvements](#heading--bmc-improve)
   - [IPMI power driver upgrades](#heading--ipmi-driver)
@@ -223,13 +226,38 @@ NOTE that this is currently a Beta release, so there will be bugs, instabilities
 - [How do I install MAAS 2.9 Beta from packages?](/t/maas-installation-deb-2-9-ui/3329)
 - [What bugs are fixed so far in this release?](#heading--bug-fixes)
 
+<h2 id="heading--release-notes">New features in 2.9 Beta5</h2>
+
+MAAS 2.9 Beta5 is currently scheduled for release on 02 October 2020, bringing the following updates to the BETA product.
+
+<h3 id="heading--bmc-param-additions">30-maas-01-bmc-config parameter additions</h3>
+
+The following additional parameters have been added for IPMI BMC configuration.  These parameters will pull from the global defaults, eliminating the need to set the corresponding parameter in each instance.
+
+ * maas_auto_ipmi_user - The username for the MAAS created IPMI user. Default comes from the global configuration setting.
+ * maas_auto_ipmi_user_password - The password for the MAAS created IPMI user, by default a random password is generated.
+ * maas_auto_ipmi_k_g_bmc_key - he IPMI K_g preshared encryption key to be set when adding the MAAS IPMI user. Note not all IPMI BMCs support setting the k_g key, if MAAS is unable to set the key commissioning will fail. Default comes from the global configuration setting.
+ * maas_auto_ipmi_user_privilege_level - The IPMI user privilege level to use when adding the MAAS IPMI user. Possible options are USER, OPERATOR, or ADMIN. Default comes from the global configuration setting.
+
+<h3 id="heading--new-config-options">New global IPMI configuration options</h3>
+
+The following new global IPMI configuration options have been added:
+
+ * maas_auto_ipmi_k_g_bmc_key - sets a global default IPMI BMC key.
+
+ * maas_auto_ipmi_user_privilege_level - sets a global default IPMI BMC user privilege level.
+    
+<h3 id="heading--global-config-settings">Addition of IPMI config options to UI</h3>
+
+You may now set the global configuration options `maas_auto_ipmi_user`, `maas_auto_ipmi_k_g_bmc_key`, and `maas_auto_ipmi_user_privilege_level` on the "Settings" page in the UI under "Commissioning."
+
 <h2 id="heading--release-notes">New features in 2.9 Beta4</h2>
 
 MAAS 2.9 Beta4 was released on 25 September 2020 and brings the following updates to the BETA product.
 
 <h3 id="heading--maas-power">New maas.power CLI command</h3>
 
-Available in all MAAS 2.9 Beta releases is the new `maas.power` CLI command. This command nterfaces directly with the supported MAAS power drivers. This command be used to control the power on a machine before it has been added to MAAS, for all maas supported power drivers.  You can get power status, turn machines on or off, and cycle power.  The `maas.power --help` shows usage details, including syntax for naming each power type (consistent with other MAAS CLI commands).
+Available in all MAAS 2.9 Beta releases is the new `maas.power` CLI command. This command interfaces directly with the supported MAAS power drivers. This command can be used to control the power on a machine before it has been added to MAAS, for all maas supported power drivers.  You can get power status, turn machines on or off, and cycle power.  The `maas.power --help` shows usage details, including syntax for naming each power type (consistent with other MAAS CLI commands).
 
 There is also a [quick tutorial](https://discourse.maas.io/t/show-and-tell-maas-power-a-cli-tool-to-control-power-drivers/1657) available, if you would like to see the feature in action.
 
@@ -312,7 +340,9 @@ Commissioning scripts have been reordered and some are now set to run in paralle
 * 00-maas-06-get-fruid-api-data -> maas-get-fruid-api-data(now runs in parallel)
 * 00-maas-08-serial-ports -> maas-serial-ports(now runs in parallel)
 * 99-maas-01-capture-lldp -> maas-capture-lldp(now runs in parallel)
-  
+
+See the [commissioning logs page](https://maas.io/docs/snap/2.9/ui/commissioning-logs) for more details on these changes.
+
 <h3 id="heading--commissioning-speed">Improvements in commissioning speed and logging</h3>
 
 The following improvements have been made to speed up the commissioning process, mostly by running scripts in parallel (see above):

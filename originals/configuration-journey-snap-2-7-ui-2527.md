@@ -93,7 +93,7 @@ Replace $PROFILE with whatever username you set during the `createadmin` part of
 maas login $PROFILE $MAAS_URL < api-key-file
 ```
 
-Substitute $MAAS_URL with the URL that was returned to you when you initialized MAAS, for example, `192.168.43.251:5240/MAAS`.  Remember that, once you've logged in, you can get extensive CLI help with the command:
+Substitute $MAAS_URL with the URL that was returned to you when you initialised MAAS, for example, `192.168.43.251:5240/MAAS`.  Remember that, once you've logged in, you can get extensive CLI help with the command:
 
 ```
 maas admin --help
@@ -325,7 +325,7 @@ Machine-readable output follows:
 Import of boot resources started
 ```
 
-<h3>Enablling DNS</h3>
+<h3>Enabling DHCP</h3>
 
 Once your image has been imported, you'll want to get DHCP working, which means finding the untagged VLAN. In truth, it shouldn’t be too hard, because at this point, there still should only be one.
 
@@ -490,6 +490,10 @@ With this complete, you’ll see that MAAS has been successfully set up. Click �
 Note that you may have to wait a few moments for your selected images to sync locally.
 [/note]
 
+<h2 id="heading--enabling-dhcp">Enabling DHCP</h2>
+
+Before moving forward with MAAS, you'll want to enable DHCP.  You can do this very easily from the web UI by selecting "Subnets" from the top menu, choosing the VLAN on which you want to enable DHCP, and select the button marked, "Enable DHCP."
+
 <h2 id="heading--networking">Networking</h2>
 
 <!-- deb-2-7-ui
@@ -518,6 +522,7 @@ The Dashboard landing page lists non-registered devices that MAAS detected autom
 
 [note]
 Network discovery can be disabled at any time from the button on the Dashboard view.  Also note that you can get back to the dashboard at any time by clicking the MAAS logo.
+[/note]
 
 <h3 id="heading--spaces-fabrics-zones-and-subnets">Spaces, fabrics, zones and subnets</h3>
 
