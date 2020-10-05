@@ -80,7 +80,7 @@
 |Packages|[CLI](/t/maas-logging-deb-2-7-cli/2868) ~ [UI](/t/maas-logging-deb-2-7-ui/2869)|[CLI](/t/maas-logging-deb-2-8-cli/2870) ~ [UI](/t/maas-logging-deb-2-8-ui/2871)|[CLI](/t/maas-logging-deb-2-9-cli/2872) ~ [UI](/t/maas-logging-deb-2-9-ui/2873)|
  snap-2-9-ui -->
 
-MAAS has a robust logging capability, which presents several different views, including a number of node-specific log files, and several syslogd-style text logs.  Each of these logs provides different information, or at the very least, different views of the same information.  MAAS gathers logging information the various MAAS states and records both automated and user-driven actions.
+MAAS has a robust logging capability, which presents several different views, including a number of node-specific log files and several syslogd-style text logs.  Each of these logs provides different information, or at the very least, different views of the same information.  MAAS gathers logging information about the various MAAS states and records both automated and user-driven actions.
 
 #### Quick questions you may have:
 

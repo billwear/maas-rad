@@ -84,6 +84,37 @@ You can use the Web UI to manage the networking elements of MAAS, including subn
 
 <h2 id="heading--main-view">Main view</h2>
 
+
+<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
+To view the list of available subnets, enter the following command:
+
+```
+maas admin subnets read | \
+jq -r '(["FABRIC", "VLAN", "DHCP", "SUBNET"]
+| (., map(length*"-"))),
+(.[] | [.vlan.fabric, .vlan.name, .vlan.dhcp_on, .cidr])
+| @tsv' \
+| column -t
+```
+
+which produces output something like this:
+
+```
+FABRIC        VLAN      DHCP       SUBNET
+------        ----      ---------  ------
+Patient-Care  untagged  true       192.168.123.0/24
+fabric-0      untagged  false      0.0.0.0/0
+fabric-0      untagged  false      10.0.0.0/24
+fabric-1      untagged  false      10.70.132.0/24
+fabric-1      untagged  false      fd42:8b52:7114:9ef8::/64
+fabric-3      untagged  true       192.168.43.0/24
+fabric-3      untagged  true       2600:100d:b125:d5e9::/64
+fabric-3      untagged  true       2600:100d:b120:3933::/64
+fabric-3      untagged  true       2600:100d:b109:dee0::/64
+fabric-3      untagged  true       2600:100d:b104:94c0::/64
+```
+snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
+
 To access the main networking view visit the 'Subnets' page:
 
 <a href="https://assets.ubuntu.com/v1/657bb332-installconfig-networking__2.4_subnets.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/657bb332-installconfig-networking__2.4_subnets.png"></a>
@@ -137,6 +168,46 @@ Fabrics, VLANs, and spaces do not require much configuration beyond names and de
  snap-2-9-cli -->
 
 Fabrics, VLANs, and spaces do not require much configuration beyond names and descriptions. You can change the MTU for a VLAN, as well as [enable DHCP](/t/managing-dhcp/2903#heading--enabling-dhcp) (see 'Take action' button).  None of these options requires detailed instruction. A subnet, on the other hand, provides a number of configuration options relevant to the day-to-day operation of MAAS.
+
+<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
+<h3 id="heading--managing-subnets">Managing subnets</h3>
+
+You can view the details of an individual subnet with the command:
+
+```
+maas $PROFILE subnet read $SUBNET_ID \
+| jq -r '(["NAME","CIDR","GATEWAY","DNS","DISCOVERY","FABRIC","VLAN"]
+| (., map(length*"-"))), ([.name,.cidr,.gateway_ip // "-", .allow_dns,.active_discovery,.vlan.name,.vlan.fabric]) | @tsv' | column -t
+```
+
+This command retrieves output similar to this:
+
+```
+NAME              CIDR              GATEWAY  DNS   DISCOVERY  FABRIC    VLAN
+----              ----              -------  ---   ---------  ------    ----
+192.168.123.0/24  192.168.123.0/24  -        true  false      untagged  default
+```
+
+If you don't know the subnet ID, you can look it up like this:
+
+```
+maas $PROFILE subnets read \
+| jq -r '(["NAME", "SUBNET_ID"]
+| (., map(length*"-"))), (.[] | [.name, .id]) | @tsv' \
+| column -t | grep $SUBNET_NAME
+```
+
+For example, if you're using the "admin" profile, and your subnet name contains "192.168.123," you could find the subnet ID with this command:
+
+```
+maas admin subnets read \
+| jq -r '(["NAME", "SUBNET_ID"]
+| (., map(length*"-"))), (.[] | [.name, .id]) | @tsv' \
+| column -t | grep 192.168.123
+```
+
+Subnets support the following configurable values:
+snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
 
 <h3 id="heading--subnet-window">Subnet window</h3>
 
@@ -229,6 +300,15 @@ This section of the subnet page presents metrics regarding address usage by this
 <h4>Static Routes</h4>
 
 This section can be used to define a static route between two subnets. A route is defined on a per-subnet basis to use a particular gateway, using a configured destination and metric.
+
+<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
+To create a static route, use the following command:
+
+```
+maas admin static-routes create source=$SOURCE_SUBNET destination=$DEST_SUBNET \
+gateway_ip=$GATEWAY_IP
+```
+snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
 
 To create a static route, click the 'Add static route' button to reveal the edit pane. Enter a Gateway IP address, select a destination subnet from the 'Destination' drop-down list, and edit the routing metric value if needed. Clicking 'Add' will activate the route. Routes can be edited and removed using the icons to the right of each entry.
 

@@ -88,7 +88,7 @@ In addition, the machine subnet is usually on the untagged VLAN. If not, you wil
 
 This documentation presupposes that MAAS-managed DHCP is used to enlist and commission machines.  Using an external DHCP server for enlistment and commissioning may work, but note that this is not supported. MAAS cannot manage an external DHCP server, nor can it keep leases synchronised when you return a machine to the pool.
 
-This article delves into these issues and offers guidance on how to set up and manage your DHCP configuration.
+This article delves into these issues, offering guidance on setting up and managing your DHCP configuration.
 
 #### Quick questions you may have: 
 

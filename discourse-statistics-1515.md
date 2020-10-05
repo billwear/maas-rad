@@ -1,10 +1,10 @@
-Last updated on 28 Sep 2020 @ 13:37
+Last updated on 04 Oct 2020 @ 20:13
 
 ### Discourse statistics
 
 | Open | % | In progress | % | Closed | % | Total |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| 121 | 25.05 | 219 | 45.34 | 143 | 29.61 | 483 | 
+| 124 | 25.20 | 224 | 45.53 | 144 | 29.27 | 492 | 
 
 ### Open posts
 | Post | Last poster | Status | Posted |
@@ -128,8 +128,11 @@ Last updated on 28 Sep 2020 @ 13:37
 | [3309](https://discourse.maas.io/t/how-to-compose-vms-with-vlans-using-maas-cli/3309)  | Hybrid512 | Open | 18 Sep 2020 @ 03:21 |
 | [3316](https://discourse.maas.io/t/kvm-nodes-cant-access-internet/3316)  | juanoterocas | Open | 21 Sep 2020 @ 12:09 |
 | [3347](https://discourse.maas.io/t/how-to-re-install-the-system-under-legacy-boot/3347)  | Jerry | Open | 27 Sep 2020 @ 13:01 |
-| [3351](https://discourse.maas.io/t/ipmi-boot-option-issue/3351)  | dinosurr | Open | 27 Sep 2020 @ 14:05 |
 | [3352](https://discourse.maas.io/t/error-prevents-adding-machines-to-maas-no-datasource-found/3352)  | anspa | Open | 28 Sep 2020 @ 06:22 |
+| [3355](https://discourse.maas.io/t/maas-2-8-x-disable-sndfile-on-in-nginx-how/3355)  | dladmin | Open | 29 Sep 2020 @ 05:11 |
+| [3356](https://discourse.maas.io/t/maas-spaces-and-bindings/3356)  | dladmin | Open | 29 Sep 2020 @ 05:14 |
+| [3375](https://discourse.maas.io/t/for-hardware-pcidddd-running-on-all-hosts-regardless-device-presence/3375)  | art00rek | Open | 03 Oct 2020 @ 16:15 |
+| [3377](https://discourse.maas.io/t/maas-on-armbian/3377)  | thearde | Open | 04 Oct 2020 @ 05:01 |
 
 ### Posts in progress
 | Post | Last poster | Status | Last poster |
@@ -346,13 +349,18 @@ Last updated on 28 Sep 2020 @ 13:37
 | [1944](https://discourse.maas.io/t/cannot-commision-nodes-with-duplicate-uuids-on-maas-2-8/1944)  | knaledge | In progress | 25 Aug 2020 @ 12:02 |
 | [2219](https://discourse.maas.io/t/what-happens-to-wake-on-lan-on-machine-shutdown-during-enlistment-and-commissioning/2219)  | knaledge | In progress | 31 Aug 2020 @ 20:11 |
 | [2223](https://discourse.maas.io/t/is-the-pxe-network-mandatory-for-deployed-machines/2223)  | Hybrid512 | In progress | 01 Sep 2020 @ 09:00 |
-| [2243](https://discourse.maas.io/t/provisioning-of-raspberry-pi-4-with-maas/2243)  | ora726 | In progress | 08 Sep 2020 @ 11:48 |
-| [3286](https://discourse.maas.io/t/deploying-servers-with-full-disk-encryption-luks2/3286)  | trsoumi88 | In progress | 11 Sep 2020 @ 07:47 |
+| [2243](https://discourse.maas.io/t/provisioning-of-raspberry-pi-4-with-maas/2243)  | dbruno74 | In progress | 08 Sep 2020 @ 11:48 |
+| [3286](https://discourse.maas.io/t/deploying-servers-with-full-disk-encryption-luks2/3286)  | blinkiz | In progress | 11 Sep 2020 @ 07:47 |
 | [3287](https://discourse.maas.io/t/maas-ui-designing-the-new-maas-cli/3287)  | amylily | In progress | 14 Sep 2020 @ 04:28 |
-| [3293](https://discourse.maas.io/t/ipmi-cipher-suite-c17-support/3293)  | art00rek | In progress | 14 Sep 2020 @ 10:00 |
+| [3293](https://discourse.maas.io/t/ipmi-cipher-suite-c17-support/3293)  | ltrager | In progress | 14 Sep 2020 @ 10:00 |
 | [3297](https://discourse.maas.io/t/problem-with-pxe-2-1-v6-0-40/3297)  | phrancesco | In progress | 15 Sep 2020 @ 04:43 |
 | [3302](https://discourse.maas.io/t/landing-page-takes-multiple-minutes-to-load-2000-nodes/3302)  | seanhoughton | In progress | 15 Sep 2020 @ 16:57 |
 | [3344](https://discourse.maas.io/t/uid-light-support/3344)  | dvnt | In progress | 26 Sep 2020 @ 11:06 |
+| [3351](https://discourse.maas.io/t/ipmi-boot-option-issue/3351)  | ltrager | In progress | 27 Sep 2020 @ 14:05 |
+| [3353](https://discourse.maas.io/t/document-storage-test-status-somewhere/3353)  | snafuxnj | In progress | 28 Sep 2020 @ 15:07 |
+| [3360](https://discourse.maas.io/t/suggestions-on-how-to-manually-fail-a-maas-deployment/3360)  | d0ugal | In progress | 29 Sep 2020 @ 15:24 |
+| [3371](https://discourse.maas.io/t/unable-to-select-add-additional-commisioning-scripts-in-webui-when-commisioning/3371)  | adolfo94 | In progress | 01 Oct 2020 @ 08:00 |
+| [3373](https://discourse.maas.io/t/hardware-raid-1-with-centos-7/3373)  | adolfo94 | In progress | 01 Oct 2020 @ 16:54 |
 
 ### Closed posts
 | Post | Last poster | Status | Closed |
@@ -500,3 +508,4 @@ Last updated on 28 Sep 2020 @ 13:37
 | [3307](https://discourse.maas.io/t/cannot-upload-custom-image-err-argument-command-invalid-choice-create-choose-from-read-delete/3307)  | system | Closed | 17 Sep 2020 @ 07:39 |
 | [1496](https://discourse.maas.io/t/ssh-setup-fix/1496)  | billwear | Closed | 17 Sep 2020 @ 14:33 |
 | [3311](https://discourse.maas.io/t/maas-documentation-down/3311)  | system | Closed | 18 Sep 2020 @ 06:32 |
+| [3366](https://discourse.maas.io/t/how-to-use-without-the-ui/3366)  | system | Closed | 30 Sep 2020 @ 09:46 |

@@ -94,8 +94,6 @@ MAAS runs scripts during enlistment, commissioning and testing to collect data a
 * [How can I control the results output from the scripts?](#heading--results)
 * [What would some example scripts look like?](#heading--script-examples)
 * [How do I upload scripts to MAAS?](#heading--upload-procedure)
-* [How can I debug script issues and failures?](#heading--debugging)
-* [How can I use these scripts via the command line?](/t/cli-commissioning-and-hardware-testing-scripts/832)
 
 ---
 
@@ -152,6 +150,7 @@ Add machine -&gt; Enlistment (runs built-in commissioning scripts MAAS) -&gt; Ne
 NOTE: Scripts are run in alphabetical order in an ephemeral environment.  We recommend running your scripts after any MAAS built-in scripts.  This can be done by naming your scripts 99-z*.  It is possible to reboot the system during commissioning using a script, however, as the environment is ephemeral, any changes to the environment will be destroyed upon reboot (barring, of course, firmware type updates).
 
 This article explains script metadata, parameter passing, and results-reporting.  It also offers examples of both commissioning and hardware testing scripts.
+
 <h2 id="heading--metadata-fields">Metadata fields</h2>
 
 Metadata fields tell MAAS when to use the script, how it should run, and what information it's gathering. A script can have the following fields:
@@ -529,6 +528,105 @@ To delete a script, use `delete`:
 ``` bash
 maas $PROFILE node-script delete $SCRIPT_NAME
 ```
+
+<h2 id="heading--tags">Tags</h2>
+
+As with general [tag management](/t/cli-tag-management/801), tags make scripts easier to manage; grouping scripts together for commissioning and testing, for example:
+
+``` bash
+maas $PROFILE node-script add-tag $SCRIPT_NAME tag=$TAG
+maas $PROFILE node-script remove-tag $SCRIPT_NAME tag=$TAG
+```
+
+MAAS runs all commissioning scripts by default. However, you can select which custom scripts to run during commissioning by name or tag:
+
+``` bash
+maas $PROFILE machine commission \
+ commissioning_scripts=$SCRIPT_NAME,$SCRIPT_TAG
+```
+
+You can also select which testing scripts to run by name or tag:
+
+``` bash
+maas $PROFILE machine commission \
+ testing_scripts=$SCRIPT_NAME,$SCRIPT_TAG
+```
+
+Any testing scripts tagged with commissioning will also run during commissioning.
+
+<h2 id="heading--results">Results</h2>
+
+The command line allows you to not only view the current script's progress but also retrieve the verbatim output from any previous runs too.
+
+If you only want to see the latest or currently-running result, you can use `current-commissioning`, `current-testing`, or `current-installation` instead of an id:
+
+``` bash
+maas $PROFILE node-script-result read $SYSTEM_ID $RESULTS
+```
+
+You can also limit which results are returned by type (commissioning, testing, or installation), script name, or script run:
+
+``` bash
+maas $PROFILE node-script-results read \
+ $SYSTEM_ID type=$SCRIPT_TYPE filters=$SCRIPT_NAME,$TAGS
+```
+
+You can also suppress failed results, which is useful if you want to ignore a known failure:
+
+``` bash
+maas $PROFILE node-script-results update \
+ $SYSTEM_ID type=$SCRIPT_TYPE filters=$SCRIPT_NAME,$TAGS suppressed=$SUPPRESSED
+```
+
+where `$SUPPRESSED` is either `True` or `False`. The JSON formatted output to the above command will include 'results' dictionary with an entry for `suppressed`:
+
+``` json
+"results": [
+    {
+        "id": 21,
+        "created": "Tue, 02 Apr 2019 17:00:36 -0000",
+        "updated": "Tue, 02 Apr 2019 20:56:41 -0000",
+        "name": "smartctl-validate",
+        "status": 5,
+        "status_name": "Aborted",
+        "exit_status": null,
+        "started": "Tue, 02 Apr 2019 20:56:41 -0000",
+        "ended": "Tue, 02 Apr 2019 20:56:41 -0000",
+        "runtime": "0:00:00",
+        "starttime": 1554238601.765214,
+        "endtime": 1554238601.765214,
+        "estimated_runtime": "0:00:00",
+        "parameters": {
+            "storage": {
+                "argument_format": "{path}",
+                "type": "storage",
+                "value": {
+                    "id_path": "/dev/vda",
+                    "model": "",
+                    "name": "sda",
+                    "physical_blockdevice_id": 1,
+                    "serial": ""
+                }
+            }
+        },
+        "script_id": 1,
+        "script_revision_id": null,
+        "suppressed": true
+    }
+]
+```
+
+Finally, results can be downloaded, either to stdout, stderr, as combined output or as a tar.xz:
+
+``` bash
+maas $PROFILE node-script-result download $SYSTEM_ID $RUN_ID output=all \
+ filetype=tar.xz > $LOCAL_FILENAME
+```
+
+[note]
+**$RUN_ID** is labelled `id` in the verbose result output.
+[/note]
+
 snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
 
 <!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
@@ -669,10 +767,3 @@ Here, all the scripts are run again after downloading from MAAS, but no output d
 ``` bash
 /tmp/user_data.sh.*/bin/maas-run-remote-scripts --no-send /tmp/user_data.sh.*
 ```
-
-<h2 id="heading--command-line-access">Command line access</h2>
-
-For information about managing scripts, applying tags to scripts and seeing script results using the CLI, please see [CLI Testing Scripts](/t/cli-commissioning-and-hardware-testing-scripts/832).
-
-<!-- LINKS -->
-<!-- IMAGES -->

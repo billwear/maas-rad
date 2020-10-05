@@ -309,12 +309,7 @@ deb-2-9-cli deb-2-9-ui snap-2-9-cli snap-2-9-ui -->
 
 - [About MAAS](/t/about-maas-snap-2-8-ui/2265)
 - ["Give me an example"](/t/give-me-an-example-of-maas-snap-2-8-ui/2649)
-- [Explore MAAS](/t/explore-maas-snap-2-8-ui/2637)
 - [What's new in 2.8](/t/whats-new-in-maas-2-8/3334)
-- [Quick start](https://maas.io/install)
-
-### Installing MAAS
-
 - [Requirements](/t/maas-requirements-snap-2-8-ui/2877)
 - [Installation](/t/maas-installation-snap-2-8-ui/3321)
 - [Configuration journey](/t/configuration-journey-snap-2-8-ui/2529)
