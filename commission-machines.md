@@ -225,29 +225,39 @@ When a machine boots, MAAS first instructs it to run cloud-init to set up SSH ke
 
 * maas-lshw: this script pulls system BIOS and vendor info, and generates user-defined tags for later use.  **Runs in parallel with other scripts.**
 
-* 00-maas-03-install-lldpd: this script installs the link layer discovery protocol (LLDP) daemon, which will later capture networking information about the machine.  The lldpd needs to be installed early because it requires about a 60-second delay before running.
+* 20-maas-01-install-lldpd: this script installs the link layer discovery protocol (LLDP) daemon, which will later capture networking information about the machine.  This script provides some extensive logging.
 
-* 00-maas-04-list-modaliases: this script figures out what hardware modules are loaded, providing a way to autorun certain scripts based on which modules are loaded.
+* maas-list-modaliases: this script figures out what hardware modules are loaded, providing a way to autorun certain scripts based on which modules are loaded.  **Runs in parallel with other scripts.**
 
-* 00-maas-05-dhcp-unconfigured-ifaces: MAAS will want to know all the ways the machine is connected to the network.  Only PXE comes online during boot; this script brings all the other networks online so they can be recognised.
+* 20-maas-02-dhcp-unconfigured-ifaces: MAAS will want to know all the ways the machine is connected to the network.  Only PXE comes online during boot; this script brings all the other networks online so they can be recognised.  This script provides extensive logging.
 
-* 00-maas-06-get-fruid-api-data: this script gathers information for the Facebook wedge power type.
+* maas-get-fruid-api-data: this script gathers information for the Facebook wedge power type.  **Runs in parallel with other scripts.**
 
-* 00-maas-08-serial-ports: this script lists what serial ports are available on the machine.
+* maas-serial-ports: this script lists what serial ports are available on the machine.  **Runs in parallel with other scripts.**
 
 * 40-maas-01-network-interfaces: this script is just used to get the IP address, which can then be associated with a VLAN/subnet.
 
 * 50-maas-01-commissioning: this script is the main MAAS tool, gathering information on machine resources, such as storage, network devices, CPU, RAM, etc.  We currently pull this data using lxd: We use a Go binary built from lxd source that just contains the minimum source to gather the resource information we need.  This script also checks whether the machine being commissioning is a virtual machine, which may affect how MAAS interacts with it.
 
-* 99-maas-01-capture-lldp: this script gathers LLDP network information to be presented on the logs page; this data is not used by MAAS at all.
+* maas-capture-lldp: this script gathers LLDP network information to be presented on the logs page; this data is not used by MAAS at all.  **Runs in parallel with other scripts.**
 
-* 99-maas-05-kernel-cmdline: this script is used to update the boot devices; it double-checks that the right boot interface is selected.
+* maas-kernel-cmdline: this script is used to update the boot devices; it double-checks that the right boot interface is selected. 
 
 Commissioning runs the same dozen or so scripts as enlistment, gathering all the same information, but with some additional caveats: 
 
 * Commissioning also runs user-supplied commissioning scripts, if present.  Be aware that these scripts run as root, so they can execute any system command.
 
 * Commissioning runs test scripts which are not run during enlistment.
+
+* Commissioning scripts can send BMC configuration data, and can be used to configure BMC data.
+
+* The environment variable BMC_CONFIG_PATH is passed to serially run commissioning scripts; these scripts may write BMC power credentials to BMC_CONFIG_PATH in YAML format, where each key is a power parameter.  The first script to write BMC_CONFIG_PATH is the only script allowed to configure the BMC, allowing you to override MAAS' built-in BMC detection.  If the script returns 0, that value will be send to MAAS.
+
+* All built-in commissioning scripts have been migrated into the database.
+
+* `maas-run-remote-scripts` is capable of enlisting machines, so enlistment `user-data` scripts have been removed.
+
+* The metadata endpoints `http://<MAAS>:5240/<latest or 2012-03-01>/` and `http://<MAAS>:5240/<latest or 2012-03-01>/meta-data/` are now available anonymously for use during enlistment.
 snap-2-9-ui snap-2-9-cli deb-2-9-ui deb-2-9-cli -->
 
 <!-- snap-2-8-ui snap-2-8-cli snap-2-7-ui snap-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-7-ui deb-2-7-cli

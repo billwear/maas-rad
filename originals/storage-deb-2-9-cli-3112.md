@@ -84,11 +84,111 @@ You have significant latitude when choosing the final storage configuration of a
 
 #### Quick questions you may have:
 
+<!-- deb-2-7-cli
 * [How does UEFI booting work?](#heading--uefi)
 * [What kind of storage layouts are available?](#heading--layouts)
-* [How do I set storage layouts?](#heading--setting-layouts)
+* [How do I set global storage layouts?](#heading--setting-global-layouts)
+* [How do I set per-machine storage layouts?](#heading--per-machine-layouts)
 * [What storage modifications can I make at the filesystem level?](#heading--final-storage-modifications)
-* [How can I erase a disk?](/t/disk-erasure/774)
+* [How can I erase a disk?](/t/disk-erasure/2616)
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+* [How does UEFI booting work?](#heading--uefi)
+* [What kind of storage layouts are available?](#heading--layouts)
+* [How do I set global storage layouts?](#heading--setting-global-layouts)
+* [How do I set per-machine storage layouts?](#heading--per-machine-layouts)
+* [What storage modifications can I make at the filesystem level?](#heading--final-storage-modifications)
+* [How can I erase a disk?](/t/disk-erasure/2617)
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+* [How does UEFI booting work?](#heading--uefi)
+* [What kind of storage layouts are available?](#heading--layouts)
+* [How do I set global storage layouts?](#heading--setting-global-layouts)
+* [How do I set per-machine storage layouts?](#heading--per-machine-layouts)
+* [What storage modifications can I make at the filesystem level?](#heading--final-storage-modifications)
+* [How can I erase a disk?](/t/disk-erasure/2618)
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+* [How does UEFI booting work?](#heading--uefi)
+* [What kind of storage layouts are available?](#heading--layouts)
+* [How do I set global storage layouts?](#heading--setting-global-layouts)
+* [How do I set per-machine storage layouts?](#heading--per-machine-layouts)
+* [What storage modifications can I make at the filesystem level?](#heading--final-storage-modifications)
+* [How can I erase a disk?](/t/disk-erasure/2619)
+ deb-2-8-ui -->
+
+* [How does UEFI booting work?](#heading--uefi)
+* [What kind of storage layouts are available?](#heading--layouts)
+* [How do I set global storage layouts?](#heading--setting-global-layouts)
+* [How do I set per-machine storage layouts?](#heading--per-machine-layouts)
+* [What storage modifications can I make at the filesystem level?](#heading--final-storage-modifications)
+* [How can I erase a disk?](/t/disk-erasure/2620)
+
+<!-- deb-2-9-ui
+* [How does UEFI booting work?](#heading--uefi)
+* [What kind of storage layouts are available?](#heading--layouts)
+* [How do I set global storage layouts?](#heading--setting-global-layouts)
+* [How do I set per-machine storage layouts?](#heading--per-machine-layouts)
+* [What storage modifications can I make at the filesystem level?](#heading--final-storage-modifications)
+* [How can I erase a disk?](/t/disk-erasure/2621)
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+* [How does UEFI booting work?](#heading--uefi)
+* [What kind of storage layouts are available?](#heading--layouts)
+* [How do I set global storage layouts?](#heading--setting-global-layouts)
+* [How do I set per-machine storage layouts?](#heading--per-machine-layouts)
+* [What storage modifications can I make at the filesystem level?](#heading--final-storage-modifications)
+* [How can I erase a disk?](/t/disk-erasure/2610)
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+* [How does UEFI booting work?](#heading--uefi)
+* [What kind of storage layouts are available?](#heading--layouts)
+* [How do I set global storage layouts?](#heading--setting-global-layouts)
+* [How do I set per-machine storage layouts?](#heading--per-machine-layouts)
+* [What storage modifications can I make at the filesystem level?](#heading--final-storage-modifications)
+* [How can I erase a disk?](/t/disk-erasure/2611)
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+* [How does UEFI booting work?](#heading--uefi)
+* [What kind of storage layouts are available?](#heading--layouts)
+* [How do I set global storage layouts?](#heading--setting-global-layouts)
+* [How do I set per-machine storage layouts?](#heading--per-machine-layouts)
+* [What storage modifications can I make at the filesystem level?](#heading--final-storage-modifications)
+* [How can I erase a disk?](/t/disk-erasure/2612)
+ snap-2-8-cli -->
+
+<!-- snap-2-8-ui
+* [How does UEFI booting work?](#heading--uefi)
+* [What kind of storage layouts are available?](#heading--layouts)
+* [How do I set global storage layouts?](#heading--setting-global-layouts)
+* [How do I set per-machine storage layouts?](#heading--per-machine-layouts)
+* [What storage modifications can I make at the filesystem level?](#heading--final-storage-modifications)
+* [How can I erase a disk?](/t/disk-erasure/2613)
+ snap-2-8-ui -->
+
+<!-- snap-2-9-cli
+* [How does UEFI booting work?](#heading--uefi)
+* [What kind of storage layouts are available?](#heading--layouts)
+* [How do I set global storage layouts?](#heading--setting-global-layouts)
+* [How do I set per-machine storage layouts?](#heading--per-machine-layouts)
+* [What storage modifications can I make at the filesystem level?](#heading--final-storage-modifications)
+* [How can I erase a disk?](/t/disk-erasure/2614)
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+* [How does UEFI booting work?](#heading--uefi)
+* [What kind of storage layouts are available?](#heading--layouts)
+* [How do I set global storage layouts?](#heading--setting-global-layouts)
+* [How do I set per-machine storage layouts?](#heading--per-machine-layouts)
+* [What storage modifications can I make at the filesystem level?](#heading--final-storage-modifications)
+* [How can I erase a disk?](/t/disk-erasure/2615)
+ snap-2-9-ui -->
 
 A machine's storage is dependant upon the underlying system's disks, but its configuration (i.e., disk usage) is the result of a storage template. In MAAS, this template is called a layout, and MAAS applies it to a machine during commissioning.  Once a layout is applied, a regular user can make modifications to a machine at the filesystem level to arrive at the machine's final storage configuration.  When a machine is no longer needed, a user can choose from among several disk erasure types before releasing it.
 
@@ -220,27 +320,56 @@ The blank layout removes all storage configuration from all storage devices. It 
 Machines with the blank layout applied are not deployable; you must first configure storage manually.
 [/note]
 
-<h2 id="heading--setting-layouts">Setting layouts</h2>
+<h2 id="heading--setting-global-layouts">Setting layouts</h2>
 
 Layouts can be set globally and on a per-machine basis.
 
-<h3 id="heading--default-layout">Default layout</h3>
-
+<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
 All machines will have a default layout applied when commissioned. An administrator can configure the default layout on the 'Settings' page, under the 'Storage' tab.
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/80de3bc701552cd00bec707830accf380c214b17.png" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/80de3bc701552cd00bec707830accf380c214b17.png"></a>
+snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
 
-See [Disk erasure](/t/disk-erasure/774) for an explanation of the options related to the erasing of disks.
+All machines will have a default layout applied when commissioned. To set the default storage layout for all machines:
+
+```
+maas $PROFILE maas set-config name=default_storage_layout value=$LAYOUT_TYPE
+```
+
+For example, to set the default layout to Flat:
+
+```
+maas $PROFILE maas set-config name=default_storage_layout value=flat
+```
+
+Important: The new default will only apply to newly-commissioned machines.
+
 
 [note type="caution" status="Important"]
 The new default will only apply to newly-commissioned machines.
 [/note]
 
-To change the default with the CLI see [MAAS CLI - advanced tasks](/t/cli-advanced-tasks/793#heading--set-the-default-storage-layout).
+<h3 id="heading--per-machine-layouts">Machine layout</h3>
 
-<h3 id="heading--node-layout">Machine layout</h3>
+<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
+An administrator can change the layout for a single machine as well as customise that layout providing this is done while the machine has a status of 'Ready'. This is only possible via the CLI: to see how, click the "CLI" option for your version and delivery method above.
+snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
 
-An administrator can change the layout for a single machine as well as customise that layout providing this is done while the machine has a status of 'Ready'. This is only possible via the CLI at this time (see [MAAS CLI - advanced tasks](/t/cli-advanced-tasks/793#heading--set-a-storage-layout)).
+An administrator can set a storage layout for a machine with a status of ‘Ready’ like this:
+
+```
+maas $PROFILE machine set-storage-layout $SYSTEM_ID storage_layout=$LAYOUT_TYPE [$OPTIONS]
+```
+
+For example, to set an LVM layout where the logical volume has a size of 5 GB:
+
+```
+maas $PROFILE machine set-storage-layout $SYSTEM_ID storage_layout=lvm lv_size=5368709120
+
+```
+You must specify all storage sizes in bytes.
+
+This action will remove the configuration that may exist on any block device.
 
 [note]
 Only an administrator can modify storage at the block device level (providing the machine has a status of 'Ready').
@@ -249,9 +378,3 @@ Only an administrator can modify storage at the block device level (providing th
 <h2 id="heading--final-storage-modifications">Final storage modifications</h2>
 
 Once MAAS provisions a machine with block devices, via a layout or administrator customisation, a regular user can modify the resulting storage configuration at the filesystem level.
-
-<h2 id="heading--disk-erasure">Disk erasure</h2>
-
-You can erase machine storage in several ways. See [Disk erasure](/t/disk-erasure/774) for details.
-
-<!-- LINKS -->

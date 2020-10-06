@@ -87,7 +87,7 @@ Enlistment happens when MAAS starts; it reaches out on connected subnets to loca
 Since MAAS doesn’t know whether you might intend to actually include these discovered machines in your cloud configuration, it won’t automatically take them over, but it will read them to get an idea how they’re set up. MAAS then presents these machines to you with a MAAS state of “New.” This allows you to examine them and decide whether or not you want MAAS to manage them.
 
 <!-- deb-2-7-cli
-When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2280)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2484) to meet your specific needs.
+When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2280)). In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2484) to meet your specific needs.
 deb-2-7-cli -->
 
 <!-- deb-2-7-ui
@@ -104,8 +104,16 @@ When you configure a machine to netboot -- and turn it on while connected to the
 
 When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2284)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2488) to meet your specific needs.
 
+[note]
+Commissioning requires 60 seconds.
+[/note]
+
 <!-- deb-2-9-ui
 When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2285)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2489) to meet your specific needs.
+
+[note]
+Commissioning requires 60 seconds.
+[/note]
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
@@ -126,10 +134,18 @@ When you configure a machine to netboot -- and turn it on while connected to the
 
 <!-- snap-2-9-cli
 When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2278)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2482) to meet your specific needs.
+
+[note]
+Commissioning requires 60 seconds.
+[/note]
  snap-2-9-cli -->
 
 <!-- snap-2-9-ui
 When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/2279)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/2483) to meet your specific needs.
+
+[note]
+Commissioning requires 60 seconds.
+[/note]
  snap-2-9-ui -->
 
 #### Questions you may have:
@@ -190,7 +206,7 @@ Once commissioned, you may consider [creating or applying a tag](/t/maas-tags/83
 
 <h3 id="heading--numa-sriov-commissioning">Commission NUMA and SR-IOV nodes</h3>
 
-If you are using the NUMA architecture, MAAS version 2.7 guarantees that machines are assigned to a single NUMA node that contains all the machine's resources.  Note that you must recommission NUMA/SR-IOV machines that were previously commissioned under version 2.6 or earlier.
+If you are using the NUMA architecture, MAAS versions 2.7 and higher guarantee that machines are assigned to a single NUMA node that contains all the machine's resources.  Note that you must recommission NUMA/SR-IOV machines that were previously commissioned under version 2.6 or earlier.
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/7b47235ff57a570ccba6a6ed09186a3d7483f5a4.png" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/7b47235ff57a570ccba6a6ed09186a3d7483f5a4.png"></a> 
 
@@ -200,11 +216,50 @@ When using these nodes, you can specify a node index for interfaces and physical
 
 When a machine boots, MAAS first instructs it to run cloud-init to set up SSH keys (during commissioning only), set up NTP, and execute a script that runs other commissioning scripts.  Currently, the sequence of MAAS-provided commissioning scripts proceeds like this:
 
+* maas-support-info: MAAS gathers information that helps to identify and characterise the machine for debugging purposes, such as the kernel, versioning of various components, etc.  **Runs in parallel with other scripts.**
+
+* maas-lshw: this script pulls system BIOS and vendor info, and generates user-defined tags for later use.  **Runs in parallel with other scripts.**
+
+* 20-maas-01-install-lldpd: this script installs the link layer discovery protocol (LLDP) daemon, which will later capture networking information about the machine.  This script provides some extensive logging.
+
+* maas-list-modaliases: this script figures out what hardware modules are loaded, providing a way to autorun certain scripts based on which modules are loaded.  **Runs in parallel with other scripts.**
+
+* 20-maas-02-dhcp-unconfigured-ifaces: MAAS will want to know all the ways the machine is connected to the network.  Only PXE comes online during boot; this script brings all the other networks online so they can be recognised.  This script provides extensive logging.
+
+* maas-get-fruid-api-data: this script gathers information for the Facebook wedge power type.  **Runs in parallel with other scripts.**
+
+* maas-serial-ports: this script lists what serial ports are available on the machine.  **Runs in parallel with other scripts.**
+
+* 40-maas-01-network-interfaces: this script is just used to get the IP address, which can then be associated with a VLAN/subnet.
+
+* 50-maas-01-commissioning: this script is the main MAAS tool, gathering information on machine resources, such as storage, network devices, CPU, RAM, etc.  We currently pull this data using lxd: We use a Go binary built from lxd source that just contains the minimum source to gather the resource information we need.  This script also checks whether the machine being commissioning is a virtual machine, which may affect how MAAS interacts with it.
+
+* maas-capture-lldp: this script gathers LLDP network information to be presented on the logs page; this data is not used by MAAS at all.  **Runs in parallel with other scripts.**
+
+* maas-kernel-cmdline: this script is used to update the boot devices; it double-checks that the right boot interface is selected. 
+
+Commissioning runs the same dozen or so scripts as enlistment, gathering all the same information, but with some additional caveats: 
+
+* Commissioning also runs user-supplied commissioning scripts, if present.  Be aware that these scripts run as root, so they can execute any system command.
+
+* Commissioning runs test scripts which are not run during enlistment.
+
+* Commissioning scripts can send BMC configuration data, and can be used to configure BMC data.
+
+* The environment variable BMC_CONFIG_PATH is passed to serially run commissioning scripts; these scripts may write BMC power credentials to BMC_CONFIG_PATH in YAML format, where each key is a power parameter.  The first script to write BMC_CONFIG_PATH is the only script allowed to configure the BMC, allowing you to override MAAS' built-in BMC detection.  If the script returns 0, that value will be send to MAAS.
+
+* All built-in commissioning scripts have been migrated into the database.
+
+* `maas-run-remote-scripts` is capable of enlisting machines, so enlistment `user-data` scripts have been removed.
+
+* The metadata endpoints `http://<MAAS>:5240/<latest or 2012-03-01>/` and `http://<MAAS>:5240/<latest or 2012-03-01>/meta-data/` are now available anonymously for use during enlistment.
+
+<!-- snap-2-8-ui snap-2-8-cli snap-2-7-ui snap-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-7-ui deb-2-7-cli
 * 00-maas-00-support-info: MAAS gathers information that helps to identify and characterise the machine for debugging purposes, such as the kernel, versioning of various components, etc.
 
 * 00-maas-01-lshw: this script pulls system BIOS and vendor info, and generates user-defined tags for later use.
 
-* 00-maas-02-virtuality: this script checks whether the machine being commissioning is a virtual machine, which may affect how MAAS interacts with it.
+* 00-maas-02-virtuality: 
 
 * 00-maas-03-install-lldpd: this script installs the link layer discovery protocol (LLDP) daemon, which will later capture networking information about the machine.  The lldpd needs to be installed early because it requires about a 60-second delay before running.
 
@@ -218,7 +273,7 @@ When a machine boots, MAAS first instructs it to run cloud-init to set up SSH ke
 
 * 40-maas-01-network-interfaces: this script is just used to get the IP address, which can then be associated with a VLAN/subnet.
 
-* 50-maas-01-commissioning: this script is the main MAAS tool, gathering information on machine resources, such as storage, network devices, CPU, RAM, etc.  We currently pull this data using lxd: We use a Go binary built from lxd source that just contains the minimum source to gather the resource information we need.
+* 50-maas-01-commissioning: this script is the main MAAS tool, gathering information on machine resources, such as storage, network devices, CPU, RAM, etc.  We currently pull this data using lxd: We use a Go binary built from lxd source that just contains the minimum source to gather the resource information we need.  This script also checks whether the machine being commissioning is a virtual machine, which may affect how MAAS interacts with it.
 
 * 99-maas-01-capture-lldp: this script gathers LLDP network information to be presented on the logs page; this data is not used by MAAS at all.
 
@@ -229,6 +284,7 @@ Commissioning runs the same dozen or so scripts as enlistment, gathering all the
 * Commissioning also runs user-supplied commissioning scripts, if present.  Be aware that these scripts run as root, so they can execute any system command.
 
 * Commissioning runs test scripts which are not run during enlistment.
+snap-2-8-ui snap-2-8-cli snap-2-7-ui snap-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-7-ui deb-2-7-cli -->
 
 In both enlistment and commissioning, MAAS uses either the MAC address or the UUID to identify machines.  Currently, because some machine types encountered by MAAS do **not** use unique MAC addresses, we are trending toward using the UUID.
 

@@ -1,0 +1,109 @@
+#!/bin/bash
+xpub add discourse event-logs.md "Event logs (snap/2.7/CLI)" 5
+xpub add discourse event-logs.md "Event logs (snap/2.7/UI)"  5
+xpub add discourse event-logs.md "Event logs (snap/2.8/CLI)" 5
+xpub add discourse event-logs.md "Event logs (snap/2.8/UI)"  5
+xpub add discourse event-logs.md "Event logs (snap/2.9/CLI)" 5
+xpub add discourse event-logs.md "Event logs (snap/2.9.UI)"  5
+xpub add discourse event-logs.md "Event logs (deb/2.7/CLI)"  5
+xpub add discourse event-logs.md "Event logs (deb/2.7/UI)"   5
+xpub add discourse event-logs.md "Event logs (deb/2.8/CLI)"  5
+xpub add discourse event-logs.md "Event logs (deb/2.8/UI)"   5
+xpub add discourse event-logs.md "Event logs (deb/2.9/UI)"   5
+xpub add discourse event-logs.md "Event logs (deb/2.9/CLI)"  5
+xpub add discourse http-access-log.md "HTTP access log (snap/2.7/CLI)" 5
+xpub add discourse http-access-log.md "HTTP access log (snap/2.7/UI)"  5
+xpub add discourse http-access-log.md "HTTP access log (snap/2.8/CLI)" 5
+xpub add discourse http-access-log.md "HTTP access log (snap/2.8/UI)"  5
+xpub add discourse http-access-log.md "HTTP access log (snap/2.9/CLI)" 5
+xpub add discourse http-access-log.md "HTTP access log (snap/2.9.UI)"  5
+xpub add discourse http-access-log.md "HTTP access log (deb/2.7/CLI)"  5
+xpub add discourse http-access-log.md "HTTP access log (deb/2.7/UI)"   5
+xpub add discourse http-access-log.md "HTTP access log (deb/2.8/CLI)"  5
+xpub add discourse http-access-log.md "HTTP access log (deb/2.8/UI)"   5
+xpub add discourse http-access-log.md "HTTP access log (deb/2.9/UI)"   5
+xpub add discourse http-access-log.md "HTTP access log (deb/2.9/CLI)"  5
+xpub add discourse http-error-log.md "HTTP error log (snap/2.7/CLI)" 5
+xpub add discourse http-error-log.md "HTTP error log (snap/2.7/UI)"  5
+xpub add discourse http-error-log.md "HTTP error log (snap/2.8/CLI)" 5
+xpub add discourse http-error-log.md "HTTP error log (snap/2.8/UI)"  5
+xpub add discourse http-error-log.md "HTTP error log (snap/2.9/CLI)" 5
+xpub add discourse http-error-log.md "HTTP error log (snap/2.9.UI)"  5
+xpub add discourse http-error-log.md "HTTP error log (deb/2.7/CLI)"  5
+xpub add discourse http-error-log.md "HTTP error log (deb/2.7/UI)"   5
+xpub add discourse http-error-log.md "HTTP error log (deb/2.8/CLI)"  5
+xpub add discourse http-error-log.md "HTTP error log (deb/2.8/UI)"   5
+xpub add discourse http-error-log.md "HTTP error log (deb/2.9/UI)"   5
+xpub add discourse http-error-log.md "HTTP error log (deb/2.9/CLI)"  5
+xpub add discourse maas-log-file.md "MAAS log file (snap/2.7/CLI)" 5
+xpub add discourse maas-log-file.md "MAAS log file (snap/2.7/UI)"  5
+xpub add discourse maas-log-file.md "MAAS log file (snap/2.8/CLI)" 5
+xpub add discourse maas-log-file.md "MAAS log file (snap/2.8/UI)"  5
+xpub add discourse maas-log-file.md "MAAS log file (snap/2.9/CLI)" 5
+xpub add discourse maas-log-file.md "MAAS log file (snap/2.9.UI)"  5
+xpub add discourse maas-log-file.md "MAAS log file (deb/2.7/CLI)"  5
+xpub add discourse maas-log-file.md "MAAS log file (deb/2.7/UI)"   5
+xpub add discourse maas-log-file.md "MAAS log file (deb/2.8/CLI)"  5
+xpub add discourse maas-log-file.md "MAAS log file (deb/2.8/UI)"   5
+xpub add discourse maas-log-file.md "MAAS log file (deb/2.9/UI)"   5
+xpub add discourse maas-log-file.md "MAAS log file (deb/2.9/CLI)"  5
+xpub add discourse maas-rsyslog-files.md "MAAS rsyslog files (snap/2.7/CLI)" 5
+xpub add discourse maas-rsyslog-files.md "MAAS rsyslog files (snap/2.7/UI)"  5
+xpub add discourse maas-rsyslog-files.md "MAAS rsyslog files (snap/2.8/CLI)" 5
+xpub add discourse maas-rsyslog-files.md "MAAS rsyslog files (snap/2.8/UI)"  5
+xpub add discourse maas-rsyslog-files.md "MAAS rsyslog files (snap/2.9/CLI)" 5
+xpub add discourse maas-rsyslog-files.md "MAAS rsyslog files (snap/2.9.UI)"  5
+xpub add discourse maas-rsyslog-files.md "MAAS rsyslog files (deb/2.7/CLI)"  5
+xpub add discourse maas-rsyslog-files.md "MAAS rsyslog files (deb/2.7/UI)"   5
+xpub add discourse maas-rsyslog-files.md "MAAS rsyslog files (deb/2.8/CLI)"  5
+xpub add discourse maas-rsyslog-files.md "MAAS rsyslog files (deb/2.8/UI)"   5
+xpub add discourse maas-rsyslog-files.md "MAAS rsyslog files (deb/2.9/UI)"   5
+xpub add discourse maas-rsyslog-files.md "MAAS rsyslog files (deb/2.9/CLI)"  5
+xpub add discourse machine-logs.md "Machine logs (snap/2.7/CLI)" 5
+xpub add discourse machine-logs.md "Machine logs (snap/2.7/UI)"  5
+xpub add discourse machine-logs.md "Machine logs (snap/2.8/CLI)" 5
+xpub add discourse machine-logs.md "Machine logs (snap/2.8/UI)"  5
+xpub add discourse machine-logs.md "Machine logs (snap/2.9/CLI)" 5
+xpub add discourse machine-logs.md "Machine logs (snap/2.9.UI)"  5
+xpub add discourse machine-logs.md "Machine logs (deb/2.7/CLI)"  5
+xpub add discourse machine-logs.md "Machine logs (deb/2.7/UI)"   5
+xpub add discourse machine-logs.md "Machine logs (deb/2.8/CLI)"  5
+xpub add discourse machine-logs.md "Machine logs (deb/2.8/UI)"   5
+xpub add discourse machine-logs.md "Machine logs (deb/2.9/UI)"   5
+xpub add discourse machine-logs.md "Machine logs (deb/2.9/CLI)"  5
+xpub add discourse proxy-log.md "Proxy log (snap/2.7/CLI)" 5
+xpub add discourse proxy-log.md "Proxy log (snap/2.7/UI)"  5
+xpub add discourse proxy-log.md "Proxy log (snap/2.8/CLI)" 5
+xpub add discourse proxy-log.md "Proxy log (snap/2.8/UI)"  5
+xpub add discourse proxy-log.md "Proxy log (snap/2.9/CLI)" 5
+xpub add discourse proxy-log.md "Proxy log (snap/2.9.UI)"  5
+xpub add discourse proxy-log.md "Proxy log (deb/2.7/CLI)"  5
+xpub add discourse proxy-log.md "Proxy log (deb/2.7/UI)"   5
+xpub add discourse proxy-log.md "Proxy log (deb/2.8/CLI)"  5
+xpub add discourse proxy-log.md "Proxy log (deb/2.8/UI)"   5
+xpub add discourse proxy-log.md "Proxy log (deb/2.9/UI)"   5
+xpub add discourse proxy-log.md "Proxy log (deb/2.9/CLI)"  5
+xpub add discourse rackd-log.md "The rackd log file (snap/2.7/CLI)" 5
+xpub add discourse rackd-log.md "The rackd log file (snap/2.7/UI)"  5
+xpub add discourse rackd-log.md "The rackd log file (snap/2.8/CLI)" 5
+xpub add discourse rackd-log.md "The rackd log file (snap/2.8/UI)"  5
+xpub add discourse rackd-log.md "The rackd log file (snap/2.9/CLI)" 5
+xpub add discourse rackd-log.md "The rackd log file (snap/2.9.UI)"  5
+xpub add discourse rackd-log.md "The rackd log file (deb/2.7/CLI)"  5
+xpub add discourse rackd-log.md "The rackd log file (deb/2.7/UI)"   5
+xpub add discourse rackd-log.md "The rackd log file (deb/2.8/CLI)"  5
+xpub add discourse rackd-log.md "The rackd log file (deb/2.8/UI)"   5
+xpub add discourse rackd-log.md "The rackd log file (deb/2.9/UI)"   5
+xpub add discourse rackd-log.md "The rackd log file (deb/2.9/CLI)"  5
+xpub add discourse regiond-log.md "The regiond log file (snap/2.7/CLI)" 5
+xpub add discourse regiond-log.md "The regiond log file (snap/2.7/UI)"  5
+xpub add discourse regiond-log.md "The regiond log file (snap/2.8/CLI)" 5
+xpub add discourse regiond-log.md "The regiond log file (snap/2.8/UI)"  5
+xpub add discourse regiond-log.md "The regiond log file (snap/2.9/CLI)" 5
+xpub add discourse regiond-log.md "The regiond log file (snap/2.9.UI)"  5
+xpub add discourse regiond-log.md "The regiond log file (deb/2.7/CLI)"  5
+xpub add discourse regiond-log.md "The regiond log file (deb/2.7/UI)"   5
+xpub add discourse regiond-log.md "The regiond log file (deb/2.8/CLI)"  5
+xpub add discourse regiond-log.md "The regiond log file (deb/2.8/UI)"   5
+xpub add discourse regiond-log.md "The regiond log file (deb/2.9/UI)"   5
+xpub add discourse regiond-log.md "The regiond log file (deb/2.9/CLI)"  5

@@ -86,12 +86,26 @@ The region controller configures the NTP service to keep its time synchronised f
 
 <h2 id="heading--setting-ntp-server">Setting an external NTP server</h2>
 
-External sites, such as an existing NTP infrastructure, can be used directly as a time source for both rack controllers and machines. You can specify an external site by choosing the NTP server(s) and selecting the 'External Only' option. The region controller always uses an external site.
+External sites, such as an existing NTP infrastructure, can be used directly as a time source for both rack controllers and machines.
+
+<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
+You can specify an external site by choosing the NTP server(s) and selecting the 'External Only' option. The region controller always uses an external site.
 
 On the 'Settings' page, select the 'Network services' tab and scroll down to the 'NTP' section:
 
 <a href="https://assets.ubuntu.com/v1/69180b4a-installconfig-network-ntp__2.6-configure-ntp.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/69180b4a-installconfig-network-ntp__2.6-configure-ntp.png"></a>
 
 Enter the address of the desired NTP server. Apply any changes by pressing the 'Save' button.
+snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
 
-<!-- LINKS -->
+You can specify an external NTP server with two successive commands:
+
+```
+maas $PROFILE maas set-config name=ntp_servers value=$NTP_IP_ADDRESS
+```
+
+followed by:
+
+```
+maas admin maas set-config name=ntp_external_only value=true
+```

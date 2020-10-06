@@ -82,6 +82,65 @@
 
 Resource pools allow administrators to logically group resources -- machines and VM hosts -- into pools. Pools can help you budget machines for a particular set of functions.  For example, if you're using MAAS to manage a hospital data centre, you may want to keep a certain number of machines reserved for provider use, whether that be for the charts, documentation, or orders application.  You can use resource pools to reserve those machines, regardless of which of the three applications you end up loading onto a particular machine at any given time. 
 
+
+#### Quick questions you may have:
+
+* [How can I create a resource pool?](#heading--creating-a-resource-pool)
+* [How can I list available resource pools?](#heading--list-available-resource-pools)
+* [How can I list a single resource pool?](#heading--list-a-single-resource-pool)
+* [How can I update a resource pool?](#heading--update-a-resource-pool)
+* [How can I delete a resource pool?](#heading--delete-a-resource-pool)
+* [How can I add a machine to a resource pool?](#heading--add-a-machine-to-a-resource-pool)
+* [How can I get started with MAAS CLI?](/t/maas-cli/802)
+
+<h2 id="heading--creating-a-resource-pool">Creating a resource pool</h2>
+
+Here's an example that demonstrates how to create a new resource pool named `myresource`.
+
+``` bash
+maas $PROFILE resource-pools create name=myresource description="A new resource pool."
+```
+
+[note]
+The `description` field is optional.
+[/note]
+
+<h2 id="heading--list-available-resource-pools">List available resource pools</h2>
+
+``` bash
+maas $PROFILE resource-pools read
+```
+
+<h2 id="heading--list-a-single-resource-pool">List a single resource pool</h2>
+
+``` bash
+maas $PROFILE resource-pool read $RESOURCE_POOL_ID
+```
+
+<h2 id="heading--update-a-resource-pool">Update a resource pool</h2>
+
+``` bash
+maas $PROFILE resource-pool update $RESOURCE_POOL_ID name=newname description="A new description."
+```
+
+[note]
+The `name` and `description` fields are optional.
+[/note]
+
+<h2 id="heading--delete-a-resource-pool">Delete a resource pool</h2>
+
+``` bash
+maas $PROFILE resource-pool delete $RESOURCE_POOL_ID
+```
+
+<h2 id="heading--add-a-machine-to-a-resource-pool">Add a machine to a resource pool</h2>
+
+``` bash
+maas $PROFILE machine update $SYSTEM_ID pool=$POOL_NAME
+```
+
+
+<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
 #### Quick questions you may have:
 
 * [How can I add a resource pool?](#heading--add-a-resource-pool)
@@ -131,4 +190,4 @@ You can add a VM host to a resource pool when you create a new VM host, or you c
 
 To remove a VM host from a resource pool, follow the same procedure you would use to add a VM host to a resource pool, except select "default" as the new resource pool. This action will return the machine to the default resource pool.
 
-<!-- LINKS -->
+snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
