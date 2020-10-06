@@ -1415,450 +1415,450 @@ originals/http-access-log-deb-2-7-cli-3400.md: http-access-log.md
 
 originals/http-error-log-deb-2-7-cli-3412.md: http-error-log.md
 	chmod 644 originals/*
-	cp http-error-log.md http-error-log-deb-2-7-cli-2784.md
-	xpub push discourse -t deb-2-7-cli http-error-log-deb-2-7-cli-2784.md
-	xpub pull discourse 2784 2784
-	cp -p http-error-log-deb-2-7-cli-2784.md originals
-	rm http-error-log-deb-2-7-cli-2784.md
-	cp http-error-log.md http-error-log-snap-2-7-cli-2778.md
-	xpub push discourse -t snap-2-7-cli http-error-log-snap-2-7-cli-2778.md
-	xpub pull discourse 2778 2778
-	cp -p http-error-log-snap-2-7-cli-2778.md originals
-	rm http-error-log-snap-2-7-cli-2778.md
-	cp http-error-log.md http-error-log-deb-2-9-ui-2789.md
-	xpub push discourse -t deb-2-9-ui http-error-log-deb-2-9-ui-2789.md
-	xpub pull discourse 2789 2789
-	cp -p http-error-log-deb-2-9-ui-2789.md originals
-	rm http-error-log-deb-2-9-ui-2789.md
-	cp http-error-log.md http-error-log-snap-2-9-cli-2782.md
-	xpub push discourse -t snap-2-9-cli http-error-log-snap-2-9-cli-2782.md
-	xpub pull discourse 2782 2782
-	cp -p http-error-log-snap-2-9-cli-2782.md originals
-	rm http-error-log-snap-2-9-cli-2782.md
-	cp http-error-log.md http-error-log-deb-2-7-ui-2785.md
-	xpub push discourse -t deb-2-7-ui http-error-log-deb-2-7-ui-2785.md
-	xpub pull discourse 2785 2785
-	cp -p http-error-log-deb-2-7-ui-2785.md originals
-	rm http-error-log-deb-2-7-ui-2785.md
-	cp http-error-log.md http-error-log-deb-2-9-cli-2788.md
-	xpub push discourse -t deb-2-9-cli http-error-log-deb-2-9-cli-2788.md
-	xpub pull discourse 2788 2788
-	cp -p http-error-log-deb-2-9-cli-2788.md originals
-	rm http-error-log-deb-2-9-cli-2788.md
-	cp http-error-log.md http-error-log-snap-2-7-ui-2779.md
-	xpub push discourse -t snap-2-7-ui http-error-log-snap-2-7-ui-2779.md
-	xpub pull discourse 2779 2779
-	cp -p http-error-log-snap-2-7-ui-2779.md originals
-	rm http-error-log-snap-2-7-ui-2779.md
-	cp http-error-log.md http-error-log-snap-2-9-ui-2783.md
-	xpub push discourse -t snap-2-9-ui http-error-log-snap-2-9-ui-2783.md
-	xpub pull discourse 2783 2783
-	cp -p http-error-log-snap-2-9-ui-2783.md originals
-	rm http-error-log-snap-2-9-ui-2783.md
-	cp http-error-log.md http-error-log-snap-2-8-cli-2780.md
-	xpub push discourse -t snap-2-8-cli http-error-log-snap-2-8-cli-2780.md
-	xpub pull discourse 2780 2780
-	cp -p http-error-log-snap-2-8-cli-2780.md originals
-	rm http-error-log-snap-2-8-cli-2780.md
-	cp http-error-log.md http-error-log-deb-2-8-ui-2787.md
-	xpub push discourse -t deb-2-8-ui http-error-log-deb-2-8-ui-2787.md
-	xpub pull discourse 2787 2787
-	cp -p http-error-log-deb-2-8-ui-2787.md originals
-	rm http-error-log-deb-2-8-ui-2787.md
-	cp http-error-log.md http-error-log-deb-2-8-cli-2786.md
-	xpub push discourse -t deb-2-8-cli http-error-log-deb-2-8-cli-2786.md
-	xpub pull discourse 2786 2786
-	cp -p http-error-log-deb-2-8-cli-2786.md originals
-	rm http-error-log-deb-2-8-cli-2786.md
-	cp http-error-log.md http-error-log-snap-2-8-ui-2781.md
-	xpub push discourse -t snap-2-8-ui http-error-log-snap-2-8-ui-2781.md
-	xpub pull discourse 2781 2781
-	cp -p http-error-log-snap-2-8-ui-2781.md originals
-	rm http-error-log-snap-2-8-ui-2781.md
+	cp http-error-log.md http-error-log-deb-2-7-cli-3412.md
+	xpub push discourse -t deb-2-7-cli http-error-log-deb-2-7-cli-3412.md
+	xpub pull discourse 3412 3412
+	cp -p http-error-log-deb-2-7-cli-3412.md originals
+	rm http-error-log-deb-2-7-cli-3412.md
+	cp http-error-log.md http-error-log-snap-2-7-cli-3406.md
+	xpub push discourse -t snap-2-7-cli http-error-log-snap-2-7-cli-3406.md
+	xpub pull discourse 3406 3406
+	cp -p http-error-log-snap-2-7-cli-3406.md originals
+	rm http-error-log-snap-2-7-cli-3406.md
+	cp http-error-log.md http-error-log-deb-2-9-ui-3416.md
+	xpub push discourse -t deb-2-9-ui http-error-log-deb-2-9-ui-3416.md
+	xpub pull discourse 3416 3416
+	cp -p http-error-log-deb-2-9-ui-3416.md originals
+	rm http-error-log-deb-2-9-ui-3416.md
+	cp http-error-log.md http-error-log-snap-2-9-cli-3410.md
+	xpub push discourse -t snap-2-9-cli http-error-log-snap-2-9-cli-3410.md
+	xpub pull discourse 3410 3410
+	cp -p http-error-log-snap-2-9-cli-3410.md originals
+	rm http-error-log-snap-2-9-cli-3410.md
+	cp http-error-log.md http-error-log-deb-2-7-ui-3413.md
+	xpub push discourse -t deb-2-7-ui http-error-log-deb-2-7-ui-3413.md
+	xpub pull discourse 3413 3413
+	cp -p http-error-log-deb-2-7-ui-3413.md originals
+	rm http-error-log-deb-2-7-ui-3413.md
+	cp http-error-log.md http-error-log-deb-2-9-cli-3417.md
+	xpub push discourse -t deb-2-9-cli http-error-log-deb-2-9-cli-3417.md
+	xpub pull discourse 3417 3417
+	cp -p http-error-log-deb-2-9-cli-3417.md originals
+	rm http-error-log-deb-2-9-cli-3417.md
+	cp http-error-log.md http-error-log-snap-2-7-ui-3407.md
+	xpub push discourse -t snap-2-7-ui http-error-log-snap-2-7-ui-3407.md
+	xpub pull discourse 3407 3407
+	cp -p http-error-log-snap-2-7-ui-3407.md originals
+	rm http-error-log-snap-2-7-ui-3407.md
+	cp http-error-log.md http-error-log-snap-2-9-ui-3411.md
+	xpub push discourse -t snap-2-9-ui http-error-log-snap-2-9-ui-3411.md
+	xpub pull discourse 3411 3411
+	cp -p http-error-log-snap-2-9-ui-3411.md originals
+	rm http-error-log-snap-2-9-ui-3411.md
+	cp http-error-log.md http-error-log-snap-2-8-cli-3408.md
+	xpub push discourse -t snap-2-8-cli http-error-log-snap-2-8-cli-3408.md
+	xpub pull discourse 3408 3408
+	cp -p http-error-log-snap-2-8-cli-3408.md originals
+	rm http-error-log-snap-2-8-cli-3408.md
+	cp http-error-log.md http-error-log-deb-2-8-ui-3415.md
+	xpub push discourse -t deb-2-8-ui http-error-log-deb-2-8-ui-3415.md
+	xpub pull discourse 3415 3415
+	cp -p http-error-log-deb-2-8-ui-3415.md originals
+	rm http-error-log-deb-2-8-ui-3415.md
+	cp http-error-log.md http-error-log-deb-2-8-cli-3414.md
+	xpub push discourse -t deb-2-8-cli http-error-log-deb-2-8-cli-3414.md
+	xpub pull discourse 3414 3414
+	cp -p http-error-log-deb-2-8-cli-3414.md originals
+	rm http-error-log-deb-2-8-cli-3414.md
+	cp http-error-log.md http-error-log-snap-2-8-ui-3409.md
+	xpub push discourse -t snap-2-8-ui http-error-log-snap-2-8-ui-3409.md
+	xpub pull discourse 3409 3409
+	cp -p http-error-log-snap-2-8-ui-3409.md originals
+	rm http-error-log-snap-2-8-ui-3409.md
 	chmod 444 originals/*
 
 originals/maas-log-file-deb-2-7-cli-3424.md: maas-log-file.md
 	chmod 644 originals/*
-	cp maas-log-file.md maas-log-file-deb-2-7-cli-2784.md
-	xpub push discourse -t deb-2-7-cli maas-log-file-deb-2-7-cli-2784.md
-	xpub pull discourse 2784 2784
-	cp -p maas-log-file-deb-2-7-cli-2784.md originals
-	rm maas-log-file-deb-2-7-cli-2784.md
-	cp maas-log-file.md maas-log-file-snap-2-7-cli-2778.md
-	xpub push discourse -t snap-2-7-cli maas-log-file-snap-2-7-cli-2778.md
-	xpub pull discourse 2778 2778
-	cp -p maas-log-file-snap-2-7-cli-2778.md originals
-	rm maas-log-file-snap-2-7-cli-2778.md
-	cp maas-log-file.md maas-log-file-deb-2-9-ui-2789.md
-	xpub push discourse -t deb-2-9-ui maas-log-file-deb-2-9-ui-2789.md
-	xpub pull discourse 2789 2789
-	cp -p maas-log-file-deb-2-9-ui-2789.md originals
-	rm maas-log-file-deb-2-9-ui-2789.md
-	cp maas-log-file.md maas-log-file-snap-2-9-cli-2782.md
-	xpub push discourse -t snap-2-9-cli maas-log-file-snap-2-9-cli-2782.md
-	xpub pull discourse 2782 2782
-	cp -p maas-log-file-snap-2-9-cli-2782.md originals
-	rm maas-log-file-snap-2-9-cli-2782.md
-	cp maas-log-file.md maas-log-file-deb-2-7-ui-2785.md
-	xpub push discourse -t deb-2-7-ui maas-log-file-deb-2-7-ui-2785.md
-	xpub pull discourse 2785 2785
-	cp -p maas-log-file-deb-2-7-ui-2785.md originals
-	rm maas-log-file-deb-2-7-ui-2785.md
-	cp maas-log-file.md maas-log-file-deb-2-9-cli-2788.md
-	xpub push discourse -t deb-2-9-cli maas-log-file-deb-2-9-cli-2788.md
-	xpub pull discourse 2788 2788
-	cp -p maas-log-file-deb-2-9-cli-2788.md originals
-	rm maas-log-file-deb-2-9-cli-2788.md
-	cp maas-log-file.md maas-log-file-snap-2-7-ui-2779.md
-	xpub push discourse -t snap-2-7-ui maas-log-file-snap-2-7-ui-2779.md
-	xpub pull discourse 2779 2779
-	cp -p maas-log-file-snap-2-7-ui-2779.md originals
-	rm maas-log-file-snap-2-7-ui-2779.md
-	cp maas-log-file.md maas-log-file-snap-2-9-ui-2783.md
-	xpub push discourse -t snap-2-9-ui maas-log-file-snap-2-9-ui-2783.md
-	xpub pull discourse 2783 2783
-	cp -p maas-log-file-snap-2-9-ui-2783.md originals
-	rm maas-log-file-snap-2-9-ui-2783.md
-	cp maas-log-file.md maas-log-file-snap-2-8-cli-2780.md
-	xpub push discourse -t snap-2-8-cli maas-log-file-snap-2-8-cli-2780.md
-	xpub pull discourse 2780 2780
-	cp -p maas-log-file-snap-2-8-cli-2780.md originals
-	rm maas-log-file-snap-2-8-cli-2780.md
-	cp maas-log-file.md maas-log-file-deb-2-8-ui-2787.md
-	xpub push discourse -t deb-2-8-ui maas-log-file-deb-2-8-ui-2787.md
-	xpub pull discourse 2787 2787
-	cp -p maas-log-file-deb-2-8-ui-2787.md originals
-	rm maas-log-file-deb-2-8-ui-2787.md
-	cp maas-log-file.md maas-log-file-deb-2-8-cli-2786.md
-	xpub push discourse -t deb-2-8-cli maas-log-file-deb-2-8-cli-2786.md
-	xpub pull discourse 2786 2786
-	cp -p maas-log-file-deb-2-8-cli-2786.md originals
-	rm maas-log-file-deb-2-8-cli-2786.md
-	cp maas-log-file.md maas-log-file-snap-2-8-ui-2781.md
-	xpub push discourse -t snap-2-8-ui maas-log-file-snap-2-8-ui-2781.md
-	xpub pull discourse 2781 2781
-	cp -p maas-log-file-snap-2-8-ui-2781.md originals
-	rm maas-log-file-snap-2-8-ui-2781.md
+	cp maas-log-file.md maas-log-file-deb-2-7-cli-3424.md
+	xpub push discourse -t deb-2-7-cli maas-log-file-deb-2-7-cli-3424.md
+	xpub pull discourse 3424 3424
+	cp -p maas-log-file-deb-2-7-cli-3424.md originals
+	rm maas-log-file-deb-2-7-cli-3424.md
+	cp maas-log-file.md maas-log-file-snap-2-7-cli-3418.md
+	xpub push discourse -t snap-2-7-cli maas-log-file-snap-2-7-cli-3418.md
+	xpub pull discourse 3418 3418
+	cp -p maas-log-file-snap-2-7-cli-3418.md originals
+	rm maas-log-file-snap-2-7-cli-3418.md
+	cp maas-log-file.md maas-log-file-deb-2-9-ui-3419.md
+	xpub push discourse -t deb-2-9-ui maas-log-file-deb-2-9-ui-3419.md
+	xpub pull discourse 3419 3419
+	cp -p maas-log-file-deb-2-9-ui-3419.md originals
+	rm maas-log-file-deb-2-9-ui-3419.md
+	cp maas-log-file.md maas-log-file-snap-2-9-cli-3422.md
+	xpub push discourse -t snap-2-9-cli maas-log-file-snap-2-9-cli-3422.md
+	xpub pull discourse 3422 3422
+	cp -p maas-log-file-snap-2-9-cli-3422.md originals
+	rm maas-log-file-snap-2-9-cli-3422.md
+	cp maas-log-file.md maas-log-file-deb-2-7-ui-3425.md
+	xpub push discourse -t deb-2-7-ui maas-log-file-deb-2-7-ui-3425.md
+	xpub pull discourse 3425 3425
+	cp -p maas-log-file-deb-2-7-ui-3425.md originals
+	rm maas-log-file-deb-2-7-ui-3425.md
+	cp maas-log-file.md maas-log-file-deb-2-9-cli-3429.md
+	xpub push discourse -t deb-2-9-cli maas-log-file-deb-2-9-cli-3429.md
+	xpub pull discourse 3429 3429
+	cp -p maas-log-file-deb-2-9-cli-3429.md originals
+	rm maas-log-file-deb-2-9-cli-3429.md
+	cp maas-log-file.md maas-log-file-snap-2-7-ui-3419.md
+	xpub push discourse -t snap-2-7-ui maas-log-file-snap-2-7-ui-3419.md
+	xpub pull discourse 3419 3419
+	cp -p maas-log-file-snap-2-7-ui-3419.md originals
+	rm maas-log-file-snap-2-7-ui-3419.md
+	cp maas-log-file.md maas-log-file-snap-2-9-ui-3423.md
+	xpub push discourse -t snap-2-9-ui maas-log-file-snap-2-9-ui-3423.md
+	xpub pull discourse 3423 3423
+	cp -p maas-log-file-snap-2-9-ui-3423.md originals
+	rm maas-log-file-snap-2-9-ui-3423.md
+	cp maas-log-file.md maas-log-file-snap-2-8-cli-3420.md
+	xpub push discourse -t snap-2-8-cli maas-log-file-snap-2-8-cli-3420.md
+	xpub pull discourse 3420 3420
+	cp -p maas-log-file-snap-2-8-cli-3420.md originals
+	rm maas-log-file-snap-2-8-cli-3420.md
+	cp maas-log-file.md maas-log-file-deb-2-8-ui-3427.md
+	xpub push discourse -t deb-2-8-ui maas-log-file-deb-2-8-ui-3427.md
+	xpub pull discourse 3427 3427
+	cp -p maas-log-file-deb-2-8-ui-3427.md originals
+	rm maas-log-file-deb-2-8-ui-3427.md
+	cp maas-log-file.md maas-log-file-deb-2-8-cli-3426.md
+	xpub push discourse -t deb-2-8-cli maas-log-file-deb-2-8-cli-3426.md
+	xpub pull discourse 3426 3426
+	cp -p maas-log-file-deb-2-8-cli-3426.md originals
+	rm maas-log-file-deb-2-8-cli-3426.md
+	cp maas-log-file.md maas-log-file-snap-2-8-ui-3421.md
+	xpub push discourse -t snap-2-8-ui maas-log-file-snap-2-8-ui-3421.md
+	xpub pull discourse 3421 3421
+	cp -p maas-log-file-snap-2-8-ui-3421.md originals
+	rm maas-log-file-snap-2-8-ui-3421.md
 	chmod 444 originals/*
 
 originals/maas-rsyslog-files-deb-2-7-cli-3436.md: maas-rsyslog-files.md
 	chmod 644 originals/*
-	cp maas-rsyslog-files.md maas-rsyslog-files-deb-2-7-cli-2784.md
-	xpub push discourse -t deb-2-7-cli maas-rsyslog-files-deb-2-7-cli-2784.md
-	xpub pull discourse 2784 2784
-	cp -p maas-rsyslog-files-deb-2-7-cli-2784.md originals
-	rm maas-rsyslog-files-deb-2-7-cli-2784.md
-	cp maas-rsyslog-files.md maas-rsyslog-files-snap-2-7-cli-2778.md
-	xpub push discourse -t snap-2-7-cli maas-rsyslog-files-snap-2-7-cli-2778.md
-	xpub pull discourse 2778 2778
-	cp -p maas-rsyslog-files-snap-2-7-cli-2778.md originals
-	rm maas-rsyslog-files-snap-2-7-cli-2778.md
-	cp maas-rsyslog-files.md maas-rsyslog-files-deb-2-9-ui-2789.md
-	xpub push discourse -t deb-2-9-ui maas-rsyslog-files-deb-2-9-ui-2789.md
-	xpub pull discourse 2789 2789
-	cp -p maas-rsyslog-files-deb-2-9-ui-2789.md originals
-	rm maas-rsyslog-files-deb-2-9-ui-2789.md
-	cp maas-rsyslog-files.md maas-rsyslog-files-snap-2-9-cli-2782.md
-	xpub push discourse -t snap-2-9-cli maas-rsyslog-files-snap-2-9-cli-2782.md
-	xpub pull discourse 2782 2782
-	cp -p maas-rsyslog-files-snap-2-9-cli-2782.md originals
-	rm maas-rsyslog-files-snap-2-9-cli-2782.md
-	cp maas-rsyslog-files.md maas-rsyslog-files-deb-2-7-ui-2785.md
-	xpub push discourse -t deb-2-7-ui maas-rsyslog-files-deb-2-7-ui-2785.md
-	xpub pull discourse 2785 2785
-	cp -p maas-rsyslog-files-deb-2-7-ui-2785.md originals
-	rm maas-rsyslog-files-deb-2-7-ui-2785.md
-	cp maas-rsyslog-files.md maas-rsyslog-files-deb-2-9-cli-2788.md
-	xpub push discourse -t deb-2-9-cli maas-rsyslog-files-deb-2-9-cli-2788.md
-	xpub pull discourse 2788 2788
-	cp -p maas-rsyslog-files-deb-2-9-cli-2788.md originals
-	rm maas-rsyslog-files-deb-2-9-cli-2788.md
-	cp maas-rsyslog-files.md maas-rsyslog-files-snap-2-7-ui-2779.md
-	xpub push discourse -t snap-2-7-ui maas-rsyslog-files-snap-2-7-ui-2779.md
-	xpub pull discourse 2779 2779
-	cp -p maas-rsyslog-files-snap-2-7-ui-2779.md originals
-	rm maas-rsyslog-files-snap-2-7-ui-2779.md
-	cp maas-rsyslog-files.md maas-rsyslog-files-snap-2-9-ui-2783.md
-	xpub push discourse -t snap-2-9-ui maas-rsyslog-files-snap-2-9-ui-2783.md
-	xpub pull discourse 2783 2783
-	cp -p maas-rsyslog-files-snap-2-9-ui-2783.md originals
-	rm maas-rsyslog-files-snap-2-9-ui-2783.md
-	cp maas-rsyslog-files.md maas-rsyslog-files-snap-2-8-cli-2780.md
-	xpub push discourse -t snap-2-8-cli maas-rsyslog-files-snap-2-8-cli-2780.md
-	xpub pull discourse 2780 2780
-	cp -p maas-rsyslog-files-snap-2-8-cli-2780.md originals
-	rm maas-rsyslog-files-snap-2-8-cli-2780.md
-	cp maas-rsyslog-files.md maas-rsyslog-files-deb-2-8-ui-2787.md
-	xpub push discourse -t deb-2-8-ui maas-rsyslog-files-deb-2-8-ui-2787.md
-	xpub pull discourse 2787 2787
-	cp -p maas-rsyslog-files-deb-2-8-ui-2787.md originals
-	rm maas-rsyslog-files-deb-2-8-ui-2787.md
-	cp maas-rsyslog-files.md maas-rsyslog-files-deb-2-8-cli-2786.md
-	xpub push discourse -t deb-2-8-cli maas-rsyslog-files-deb-2-8-cli-2786.md
-	xpub pull discourse 2786 2786
-	cp -p maas-rsyslog-files-deb-2-8-cli-2786.md originals
-	rm maas-rsyslog-files-deb-2-8-cli-2786.md
-	cp maas-rsyslog-files.md maas-rsyslog-files-snap-2-8-ui-2781.md
-	xpub push discourse -t snap-2-8-ui maas-rsyslog-files-snap-2-8-ui-2781.md
-	xpub pull discourse 2781 2781
-	cp -p maas-rsyslog-files-snap-2-8-ui-2781.md originals
-	rm maas-rsyslog-files-snap-2-8-ui-2781.md
+	cp maas-rsyslog-files.md maas-rsyslog-files-deb-2-7-cli-3436.md
+	xpub push discourse -t deb-2-7-cli maas-rsyslog-files-deb-2-7-cli-3436.md
+	xpub pull discourse 3436 3436
+	cp -p maas-rsyslog-files-deb-2-7-cli-3436.md originals
+	rm maas-rsyslog-files-deb-2-7-cli-3436.md
+	cp maas-rsyslog-files.md maas-rsyslog-files-snap-2-7-cli-3430.md
+	xpub push discourse -t snap-2-7-cli maas-rsyslog-files-snap-2-7-cli-3430.md
+	xpub pull discourse 3430 3430
+	cp -p maas-rsyslog-files-snap-2-7-cli-3430.md originals
+	rm maas-rsyslog-files-snap-2-7-cli-3430.md
+	cp maas-rsyslog-files.md maas-rsyslog-files-deb-2-9-ui-3440.md
+	xpub push discourse -t deb-2-9-ui maas-rsyslog-files-deb-2-9-ui-3440.md
+	xpub pull discourse 3440 3440
+	cp -p maas-rsyslog-files-deb-2-9-ui-3440.md originals
+	rm maas-rsyslog-files-deb-2-9-ui-3440.md
+	cp maas-rsyslog-files.md maas-rsyslog-files-snap-2-9-cli-3434.md
+	xpub push discourse -t snap-2-9-cli maas-rsyslog-files-snap-2-9-cli-3434.md
+	xpub pull discourse 3434 3434
+	cp -p maas-rsyslog-files-snap-2-9-cli-3434.md originals
+	rm maas-rsyslog-files-snap-2-9-cli-3434.md
+	cp maas-rsyslog-files.md maas-rsyslog-files-deb-2-7-ui-3437.md
+	xpub push discourse -t deb-2-7-ui maas-rsyslog-files-deb-2-7-ui-3437.md
+	xpub pull discourse 3437 3437
+	cp -p maas-rsyslog-files-deb-2-7-ui-3437.md originals
+	rm maas-rsyslog-files-deb-2-7-ui-3437.md
+	cp maas-rsyslog-files.md maas-rsyslog-files-deb-2-9-cli-3441.md
+	xpub push discourse -t deb-2-9-cli maas-rsyslog-files-deb-2-9-cli-3441.md
+	xpub pull discourse 3441 3441
+	cp -p maas-rsyslog-files-deb-2-9-cli-3441.md originals
+	rm maas-rsyslog-files-deb-2-9-cli-3441.md
+	cp maas-rsyslog-files.md maas-rsyslog-files-snap-2-7-ui-3431.md
+	xpub push discourse -t snap-2-7-ui maas-rsyslog-files-snap-2-7-ui-3431.md
+	xpub pull discourse 3431 3431
+	cp -p maas-rsyslog-files-snap-2-7-ui-3431.md originals
+	rm maas-rsyslog-files-snap-2-7-ui-3431.md
+	cp maas-rsyslog-files.md maas-rsyslog-files-snap-2-9-ui-3435.md
+	xpub push discourse -t snap-2-9-ui maas-rsyslog-files-snap-2-9-ui-3435.md
+	xpub pull discourse 3435 3435
+	cp -p maas-rsyslog-files-snap-2-9-ui-3435.md originals
+	rm maas-rsyslog-files-snap-2-9-ui-3435.md
+	cp maas-rsyslog-files.md maas-rsyslog-files-snap-2-8-cli-3432.md
+	xpub push discourse -t snap-2-8-cli maas-rsyslog-files-snap-2-8-cli-3432.md
+	xpub pull discourse 3432 3432
+	cp -p maas-rsyslog-files-snap-2-8-cli-3432.md originals
+	rm maas-rsyslog-files-snap-2-8-cli-3432.md
+	cp maas-rsyslog-files.md maas-rsyslog-files-deb-2-8-ui-3439.md
+	xpub push discourse -t deb-2-8-ui maas-rsyslog-files-deb-2-8-ui-3439.md
+	xpub pull discourse 3439 3439
+	cp -p maas-rsyslog-files-deb-2-8-ui-3439.md originals
+	rm maas-rsyslog-files-deb-2-8-ui-3439.md
+	cp maas-rsyslog-files.md maas-rsyslog-files-deb-2-8-cli-3438.md
+	xpub push discourse -t deb-2-8-cli maas-rsyslog-files-deb-2-8-cli-3438.md
+	xpub pull discourse 3438 3438
+	cp -p maas-rsyslog-files-deb-2-8-cli-3438.md originals
+	rm maas-rsyslog-files-deb-2-8-cli-3438.md
+	cp maas-rsyslog-files.md maas-rsyslog-files-snap-2-8-ui-3433.md
+	xpub push discourse -t snap-2-8-ui maas-rsyslog-files-snap-2-8-ui-3433.md
+	xpub pull discourse 3433 3433
+	cp -p maas-rsyslog-files-snap-2-8-ui-3433.md originals
+	rm maas-rsyslog-files-snap-2-8-ui-3433.md
 	chmod 444 originals/*
 
 originals/machine-logs-deb-2-7-cli-3448.md: machine-logs.md
 	chmod 644 originals/*
-	cp machine-logs.md machine-logs-deb-2-7-cli-2784.md
-	xpub push discourse -t deb-2-7-cli machine-logs-deb-2-7-cli-2784.md
-	xpub pull discourse 2784 2784
-	cp -p machine-logs-deb-2-7-cli-2784.md originals
-	rm machine-logs-deb-2-7-cli-2784.md
-	cp machine-logs.md machine-logs-snap-2-7-cli-2778.md
-	xpub push discourse -t snap-2-7-cli machine-logs-snap-2-7-cli-2778.md
-	xpub pull discourse 2778 2778
-	cp -p machine-logs-snap-2-7-cli-2778.md originals
-	rm machine-logs-snap-2-7-cli-2778.md
-	cp machine-logs.md machine-logs-deb-2-9-ui-2789.md
-	xpub push discourse -t deb-2-9-ui machine-logs-deb-2-9-ui-2789.md
-	xpub pull discourse 2789 2789
-	cp -p machine-logs-deb-2-9-ui-2789.md originals
-	rm machine-logs-deb-2-9-ui-2789.md
-	cp machine-logs.md machine-logs-snap-2-9-cli-2782.md
-	xpub push discourse -t snap-2-9-cli machine-logs-snap-2-9-cli-2782.md
-	xpub pull discourse 2782 2782
-	cp -p machine-logs-snap-2-9-cli-2782.md originals
-	rm machine-logs-snap-2-9-cli-2782.md
-	cp machine-logs.md machine-logs-deb-2-7-ui-2785.md
-	xpub push discourse -t deb-2-7-ui machine-logs-deb-2-7-ui-2785.md
-	xpub pull discourse 2785 2785
-	cp -p machine-logs-deb-2-7-ui-2785.md originals
-	rm machine-logs-deb-2-7-ui-2785.md
-	cp machine-logs.md machine-logs-deb-2-9-cli-2788.md
-	xpub push discourse -t deb-2-9-cli machine-logs-deb-2-9-cli-2788.md
-	xpub pull discourse 2788 2788
-	cp -p machine-logs-deb-2-9-cli-2788.md originals
-	rm machine-logs-deb-2-9-cli-2788.md
-	cp machine-logs.md machine-logs-snap-2-7-ui-2779.md
-	xpub push discourse -t snap-2-7-ui machine-logs-snap-2-7-ui-2779.md
-	xpub pull discourse 2779 2779
-	cp -p machine-logs-snap-2-7-ui-2779.md originals
-	rm machine-logs-snap-2-7-ui-2779.md
-	cp machine-logs.md machine-logs-snap-2-9-ui-2783.md
-	xpub push discourse -t snap-2-9-ui machine-logs-snap-2-9-ui-2783.md
-	xpub pull discourse 2783 2783
-	cp -p machine-logs-snap-2-9-ui-2783.md originals
-	rm machine-logs-snap-2-9-ui-2783.md
-	cp machine-logs.md machine-logs-snap-2-8-cli-2780.md
-	xpub push discourse -t snap-2-8-cli machine-logs-snap-2-8-cli-2780.md
-	xpub pull discourse 2780 2780
-	cp -p machine-logs-snap-2-8-cli-2780.md originals
-	rm machine-logs-snap-2-8-cli-2780.md
-	cp machine-logs.md machine-logs-deb-2-8-ui-2787.md
-	xpub push discourse -t deb-2-8-ui machine-logs-deb-2-8-ui-2787.md
-	xpub pull discourse 2787 2787
-	cp -p machine-logs-deb-2-8-ui-2787.md originals
-	rm machine-logs-deb-2-8-ui-2787.md
-	cp machine-logs.md machine-logs-deb-2-8-cli-2786.md
-	xpub push discourse -t deb-2-8-cli machine-logs-deb-2-8-cli-2786.md
-	xpub pull discourse 2786 2786
-	cp -p machine-logs-deb-2-8-cli-2786.md originals
-	rm machine-logs-deb-2-8-cli-2786.md
-	cp machine-logs.md machine-logs-snap-2-8-ui-2781.md
-	xpub push discourse -t snap-2-8-ui machine-logs-snap-2-8-ui-2781.md
-	xpub pull discourse 2781 2781
-	cp -p machine-logs-snap-2-8-ui-2781.md originals
-	rm machine-logs-snap-2-8-ui-2781.md
+	cp machine-logs.md machine-logs-deb-2-7-cli-3448.md
+	xpub push discourse -t deb-2-7-cli machine-logs-deb-2-7-cli-3448.md
+	xpub pull discourse 3448 3448
+	cp -p machine-logs-deb-2-7-cli-3448.md originals
+	rm machine-logs-deb-2-7-cli-3448.md
+	cp machine-logs.md machine-logs-snap-2-7-cli-3442.md
+	xpub push discourse -t snap-2-7-cli machine-logs-snap-2-7-cli-3442.md
+	xpub pull discourse 3442 3442
+	cp -p machine-logs-snap-2-7-cli-3442.md originals
+	rm machine-logs-snap-2-7-cli-3442.md
+	cp machine-logs.md machine-logs-deb-2-9-ui-3452.md
+	xpub push discourse -t deb-2-9-ui machine-logs-deb-2-9-ui-3452.md
+	xpub pull discourse 3452 3452
+	cp -p machine-logs-deb-2-9-ui-3452.md originals
+	rm machine-logs-deb-2-9-ui-3452.md
+	cp machine-logs.md machine-logs-snap-2-9-cli-3446.md
+	xpub push discourse -t snap-2-9-cli machine-logs-snap-2-9-cli-3446.md
+	xpub pull discourse 3446 3446
+	cp -p machine-logs-snap-2-9-cli-3446.md originals
+	rm machine-logs-snap-2-9-cli-3446.md
+	cp machine-logs.md machine-logs-deb-2-7-ui-3449.md
+	xpub push discourse -t deb-2-7-ui machine-logs-deb-2-7-ui-3449.md
+	xpub pull discourse 3449 3449
+	cp -p machine-logs-deb-2-7-ui-3449.md originals
+	rm machine-logs-deb-2-7-ui-3449.md
+	cp machine-logs.md machine-logs-deb-2-9-cli-3453.md
+	xpub push discourse -t deb-2-9-cli machine-logs-deb-2-9-cli-3453.md
+	xpub pull discourse 3453 3453
+	cp -p machine-logs-deb-2-9-cli-3453.md originals
+	rm machine-logs-deb-2-9-cli-3453.md
+	cp machine-logs.md machine-logs-snap-2-7-ui-3443.md
+	xpub push discourse -t snap-2-7-ui machine-logs-snap-2-7-ui-3443.md
+	xpub pull discourse 3443 3443
+	cp -p machine-logs-snap-2-7-ui-3443.md originals
+	rm machine-logs-snap-2-7-ui-3443.md
+	cp machine-logs.md machine-logs-snap-2-9-ui-3447.md
+	xpub push discourse -t snap-2-9-ui machine-logs-snap-2-9-ui-3447.md
+	xpub pull discourse 3447 3447
+	cp -p machine-logs-snap-2-9-ui-3447.md originals
+	rm machine-logs-snap-2-9-ui-3447.md
+	cp machine-logs.md machine-logs-snap-2-8-cli-3444.md
+	xpub push discourse -t snap-2-8-cli machine-logs-snap-2-8-cli-3444.md
+	xpub pull discourse 3444 3444
+	cp -p machine-logs-snap-2-8-cli-3444.md originals
+	rm machine-logs-snap-2-8-cli-3444.md
+	cp machine-logs.md machine-logs-deb-2-8-ui-3451.md
+	xpub push discourse -t deb-2-8-ui machine-logs-deb-2-8-ui-3451.md
+	xpub pull discourse 3451 3451
+	cp -p machine-logs-deb-2-8-ui-3451.md originals
+	rm machine-logs-deb-2-8-ui-3451.md
+	cp machine-logs.md machine-logs-deb-2-8-cli-3450.md
+	xpub push discourse -t deb-2-8-cli machine-logs-deb-2-8-cli-3450.md
+	xpub pull discourse 3450 3450
+	cp -p machine-logs-deb-2-8-cli-3450.md originals
+	rm machine-logs-deb-2-8-cli-3450.md
+	cp machine-logs.md machine-logs-snap-2-8-ui-3445.md
+	xpub push discourse -t snap-2-8-ui machine-logs-snap-2-8-ui-3445.md
+	xpub pull discourse 3445 3445
+	cp -p machine-logs-snap-2-8-ui-3445.md originals
+	rm machine-logs-snap-2-8-ui-3445.md
 	chmod 444 originals/*
 
 originals/proxy-log-deb-2-7-cli-3460.md: proxy-log.md
 	chmod 644 originals/*
-	cp proxy-log.md proxy-log-deb-2-7-cli-2784.md
-	xpub push discourse -t deb-2-7-cli proxy-log-deb-2-7-cli-2784.md
-	xpub pull discourse 2784 2784
-	cp -p proxy-log-deb-2-7-cli-2784.md originals
-	rm proxy-log-deb-2-7-cli-2784.md
-	cp proxy-log.md proxy-log-snap-2-7-cli-2778.md
-	xpub push discourse -t snap-2-7-cli proxy-log-snap-2-7-cli-2778.md
-	xpub pull discourse 2778 2778
-	cp -p proxy-log-snap-2-7-cli-2778.md originals
-	rm proxy-log-snap-2-7-cli-2778.md
-	cp proxy-log.md proxy-log-deb-2-9-ui-2789.md
-	xpub push discourse -t deb-2-9-ui proxy-log-deb-2-9-ui-2789.md
-	xpub pull discourse 2789 2789
-	cp -p proxy-log-deb-2-9-ui-2789.md originals
-	rm proxy-log-deb-2-9-ui-2789.md
-	cp proxy-log.md proxy-log-snap-2-9-cli-2782.md
-	xpub push discourse -t snap-2-9-cli proxy-log-snap-2-9-cli-2782.md
-	xpub pull discourse 2782 2782
-	cp -p proxy-log-snap-2-9-cli-2782.md originals
-	rm proxy-log-snap-2-9-cli-2782.md
-	cp proxy-log.md proxy-log-deb-2-7-ui-2785.md
-	xpub push discourse -t deb-2-7-ui proxy-log-deb-2-7-ui-2785.md
-	xpub pull discourse 2785 2785
-	cp -p proxy-log-deb-2-7-ui-2785.md originals
-	rm proxy-log-deb-2-7-ui-2785.md
-	cp proxy-log.md proxy-log-deb-2-9-cli-2788.md
-	xpub push discourse -t deb-2-9-cli proxy-log-deb-2-9-cli-2788.md
-	xpub pull discourse 2788 2788
-	cp -p proxy-log-deb-2-9-cli-2788.md originals
-	rm proxy-log-deb-2-9-cli-2788.md
-	cp proxy-log.md proxy-log-snap-2-7-ui-2779.md
-	xpub push discourse -t snap-2-7-ui proxy-log-snap-2-7-ui-2779.md
-	xpub pull discourse 2779 2779
-	cp -p proxy-log-snap-2-7-ui-2779.md originals
-	rm proxy-log-snap-2-7-ui-2779.md
-	cp proxy-log.md proxy-log-snap-2-9-ui-2783.md
-	xpub push discourse -t snap-2-9-ui proxy-log-snap-2-9-ui-2783.md
-	xpub pull discourse 2783 2783
-	cp -p proxy-log-snap-2-9-ui-2783.md originals
-	rm proxy-log-snap-2-9-ui-2783.md
-	cp proxy-log.md proxy-log-snap-2-8-cli-2780.md
-	xpub push discourse -t snap-2-8-cli proxy-log-snap-2-8-cli-2780.md
-	xpub pull discourse 2780 2780
-	cp -p proxy-log-snap-2-8-cli-2780.md originals
-	rm proxy-log-snap-2-8-cli-2780.md
-	cp proxy-log.md proxy-log-deb-2-8-ui-2787.md
-	xpub push discourse -t deb-2-8-ui proxy-log-deb-2-8-ui-2787.md
-	xpub pull discourse 2787 2787
-	cp -p proxy-log-deb-2-8-ui-2787.md originals
-	rm proxy-log-deb-2-8-ui-2787.md
-	cp proxy-log.md proxy-log-deb-2-8-cli-2786.md
-	xpub push discourse -t deb-2-8-cli proxy-log-deb-2-8-cli-2786.md
-	xpub pull discourse 2786 2786
-	cp -p proxy-log-deb-2-8-cli-2786.md originals
-	rm proxy-log-deb-2-8-cli-2786.md
-	cp proxy-log.md proxy-log-snap-2-8-ui-2781.md
-	xpub push discourse -t snap-2-8-ui proxy-log-snap-2-8-ui-2781.md
-	xpub pull discourse 2781 2781
-	cp -p proxy-log-snap-2-8-ui-2781.md originals
-	rm proxy-log-snap-2-8-ui-2781.md
+	cp proxy-log.md proxy-log-deb-2-7-cli-3460.md
+	xpub push discourse -t deb-2-7-cli proxy-log-deb-2-7-cli-3460.md
+	xpub pull discourse 3460 3460
+	cp -p proxy-log-deb-2-7-cli-3460.md originals
+	rm proxy-log-deb-2-7-cli-3460.md
+	cp proxy-log.md proxy-log-snap-2-7-cli-3454.md
+	xpub push discourse -t snap-2-7-cli proxy-log-snap-2-7-cli-3454.md
+	xpub pull discourse 3454 3454
+	cp -p proxy-log-snap-2-7-cli-3454.md originals
+	rm proxy-log-snap-2-7-cli-3454.md
+	cp proxy-log.md proxy-log-deb-2-9-ui-3464.md
+	xpub push discourse -t deb-2-9-ui proxy-log-deb-2-9-ui-3464.md
+	xpub pull discourse 3464 3464
+	cp -p proxy-log-deb-2-9-ui-3464.md originals
+	rm proxy-log-deb-2-9-ui-3464.md
+	cp proxy-log.md proxy-log-snap-2-9-cli-3458.md
+	xpub push discourse -t snap-2-9-cli proxy-log-snap-2-9-cli-3458.md
+	xpub pull discourse 3458 3458
+	cp -p proxy-log-snap-2-9-cli-3458.md originals
+	rm proxy-log-snap-2-9-cli-3458.md
+	cp proxy-log.md proxy-log-deb-2-7-ui-3461.md
+	xpub push discourse -t deb-2-7-ui proxy-log-deb-2-7-ui-3461.md
+	xpub pull discourse 3461 3461
+	cp -p proxy-log-deb-2-7-ui-3461.md originals
+	rm proxy-log-deb-2-7-ui-3461.md
+	cp proxy-log.md proxy-log-deb-2-9-cli-3454.md
+	xpub push discourse -t deb-2-9-cli proxy-log-deb-2-9-cli-3454.md
+	xpub pull discourse 3454 3454
+	cp -p proxy-log-deb-2-9-cli-3454.md originals
+	rm proxy-log-deb-2-9-cli-3454.md
+	cp proxy-log.md proxy-log-snap-2-7-ui-3455.md
+	xpub push discourse -t snap-2-7-ui proxy-log-snap-2-7-ui-3455.md
+	xpub pull discourse 3455 3455
+	cp -p proxy-log-snap-2-7-ui-3455.md originals
+	rm proxy-log-snap-2-7-ui-3455.md
+	cp proxy-log.md proxy-log-snap-2-9-ui-3459.md
+	xpub push discourse -t snap-2-9-ui proxy-log-snap-2-9-ui-3459.md
+	xpub pull discourse 3459 3459
+	cp -p proxy-log-snap-2-9-ui-3459.md originals
+	rm proxy-log-snap-2-9-ui-3459.md
+	cp proxy-log.md proxy-log-snap-2-8-cli-3456.md
+	xpub push discourse -t snap-2-8-cli proxy-log-snap-2-8-cli-3456.md
+	xpub pull discourse 3456 3456
+	cp -p proxy-log-snap-2-8-cli-3456.md originals
+	rm proxy-log-snap-2-8-cli-3456.md
+	cp proxy-log.md proxy-log-deb-2-8-ui-3463.md
+	xpub push discourse -t deb-2-8-ui proxy-log-deb-2-8-ui-3463.md
+	xpub pull discourse 3463 3463
+	cp -p proxy-log-deb-2-8-ui-3463.md originals
+	rm proxy-log-deb-2-8-ui-3463.md
+	cp proxy-log.md proxy-log-deb-2-8-cli-3462.md
+	xpub push discourse -t deb-2-8-cli proxy-log-deb-2-8-cli-3462.md
+	xpub pull discourse 3462 3462
+	cp -p proxy-log-deb-2-8-cli-3462.md originals
+	rm proxy-log-deb-2-8-cli-3462.md
+	cp proxy-log.md proxy-log-snap-2-8-ui-3457.md
+	xpub push discourse -t snap-2-8-ui proxy-log-snap-2-8-ui-3457.md
+	xpub pull discourse 3457 3457
+	cp -p proxy-log-snap-2-8-ui-3457.md originals
+	rm proxy-log-snap-2-8-ui-3457.md
 	chmod 444 originals/*
 
 originals/the-rackd-log-file-deb-2-7-cli-3472.md: rackd-log.md
 	chmod 644 originals/*
-	cp the-rackd-log-file.md the-rackd-log-file-deb-2-7-cli-2784.md
-	xpub push discourse -t deb-2-7-cli the-rackd-log-file-deb-2-7-cli-2784.md
-	xpub pull discourse 2784 2784
-	cp -p the-rackd-log-file-deb-2-7-cli-2784.md originals
-	rm the-rackd-log-file-deb-2-7-cli-2784.md
-	cp the-rackd-log-file.md the-rackd-log-file-snap-2-7-cli-2778.md
-	xpub push discourse -t snap-2-7-cli the-rackd-log-file-snap-2-7-cli-2778.md
-	xpub pull discourse 2778 2778
-	cp -p the-rackd-log-file-snap-2-7-cli-2778.md originals
-	rm the-rackd-log-file-snap-2-7-cli-2778.md
-	cp the-rackd-log-file.md the-rackd-log-file-deb-2-9-ui-2789.md
-	xpub push discourse -t deb-2-9-ui the-rackd-log-file-deb-2-9-ui-2789.md
-	xpub pull discourse 2789 2789
-	cp -p the-rackd-log-file-deb-2-9-ui-2789.md originals
-	rm the-rackd-log-file-deb-2-9-ui-2789.md
-	cp the-rackd-log-file.md the-rackd-log-file-snap-2-9-cli-2782.md
-	xpub push discourse -t snap-2-9-cli the-rackd-log-file-snap-2-9-cli-2782.md
-	xpub pull discourse 2782 2782
-	cp -p the-rackd-log-file-snap-2-9-cli-2782.md originals
-	rm the-rackd-log-file-snap-2-9-cli-2782.md
-	cp the-rackd-log-file.md the-rackd-log-file-deb-2-7-ui-2785.md
-	xpub push discourse -t deb-2-7-ui the-rackd-log-file-deb-2-7-ui-2785.md
-	xpub pull discourse 2785 2785
-	cp -p the-rackd-log-file-deb-2-7-ui-2785.md originals
-	rm the-rackd-log-file-deb-2-7-ui-2785.md
-	cp the-rackd-log-file.md the-rackd-log-file-deb-2-9-cli-2788.md
-	xpub push discourse -t deb-2-9-cli the-rackd-log-file-deb-2-9-cli-2788.md
-	xpub pull discourse 2788 2788
-	cp -p the-rackd-log-file-deb-2-9-cli-2788.md originals
-	rm the-rackd-log-file-deb-2-9-cli-2788.md
-	cp the-rackd-log-file.md the-rackd-log-file-snap-2-7-ui-2779.md
-	xpub push discourse -t snap-2-7-ui the-rackd-log-file-snap-2-7-ui-2779.md
-	xpub pull discourse 2779 2779
-	cp -p the-rackd-log-file-snap-2-7-ui-2779.md originals
-	rm the-rackd-log-file-snap-2-7-ui-2779.md
-	cp the-rackd-log-file.md the-rackd-log-file-snap-2-9-ui-2783.md
-	xpub push discourse -t snap-2-9-ui the-rackd-log-file-snap-2-9-ui-2783.md
-	xpub pull discourse 2783 2783
-	cp -p the-rackd-log-file-snap-2-9-ui-2783.md originals
-	rm the-rackd-log-file-snap-2-9-ui-2783.md
-	cp the-rackd-log-file.md the-rackd-log-file-snap-2-8-cli-2780.md
-	xpub push discourse -t snap-2-8-cli the-rackd-log-file-snap-2-8-cli-2780.md
-	xpub pull discourse 2780 2780
-	cp -p the-rackd-log-file-snap-2-8-cli-2780.md originals
-	rm the-rackd-log-file-snap-2-8-cli-2780.md
-	cp the-rackd-log-file.md the-rackd-log-file-deb-2-8-ui-2787.md
-	xpub push discourse -t deb-2-8-ui the-rackd-log-file-deb-2-8-ui-2787.md
-	xpub pull discourse 2787 2787
-	cp -p the-rackd-log-file-deb-2-8-ui-2787.md originals
-	rm the-rackd-log-file-deb-2-8-ui-2787.md
-	cp the-rackd-log-file.md the-rackd-log-file-deb-2-8-cli-2786.md
-	xpub push discourse -t deb-2-8-cli the-rackd-log-file-deb-2-8-cli-2786.md
-	xpub pull discourse 2786 2786
-	cp -p the-rackd-log-file-deb-2-8-cli-2786.md originals
-	rm the-rackd-log-file-deb-2-8-cli-2786.md
-	cp the-rackd-log-file.md the-rackd-log-file-snap-2-8-ui-2781.md
-	xpub push discourse -t snap-2-8-ui the-rackd-log-file-snap-2-8-ui-2781.md
-	xpub pull discourse 2781 2781
-	cp -p the-rackd-log-file-snap-2-8-ui-2781.md originals
-	rm the-rackd-log-file-snap-2-8-ui-2781.md
+	cp the-rackd-log-file.md the-rackd-log-file-deb-2-7-cli-3472.md
+	xpub push discourse -t deb-2-7-cli the-rackd-log-file-deb-2-7-cli-3472.md
+	xpub pull discourse 3472 3472
+	cp -p the-rackd-log-file-deb-2-7-cli-3472.md originals
+	rm the-rackd-log-file-deb-2-7-cli-3472.md
+	cp the-rackd-log-file.md the-rackd-log-file-snap-2-7-cli-3466.md
+	xpub push discourse -t snap-2-7-cli the-rackd-log-file-snap-2-7-cli-3466.md
+	xpub pull discourse 3466 3466
+	cp -p the-rackd-log-file-snap-2-7-cli-3466.md originals
+	rm the-rackd-log-file-snap-2-7-cli-3466.md
+	cp the-rackd-log-file.md the-rackd-log-file-deb-2-9-ui-3476.md
+	xpub push discourse -t deb-2-9-ui the-rackd-log-file-deb-2-9-ui-3476.md
+	xpub pull discourse 3476 3476
+	cp -p the-rackd-log-file-deb-2-9-ui-3476.md originals
+	rm the-rackd-log-file-deb-2-9-ui-3476.md
+	cp the-rackd-log-file.md the-rackd-log-file-snap-2-9-cli-3470.md
+	xpub push discourse -t snap-2-9-cli the-rackd-log-file-snap-2-9-cli-3470.md
+	xpub pull discourse 3470 3470
+	cp -p the-rackd-log-file-snap-2-9-cli-3470.md originals
+	rm the-rackd-log-file-snap-2-9-cli-3470.md
+	cp the-rackd-log-file.md the-rackd-log-file-deb-2-7-ui-3473.md
+	xpub push discourse -t deb-2-7-ui the-rackd-log-file-deb-2-7-ui-3473.md
+	xpub pull discourse 3473 3473
+	cp -p the-rackd-log-file-deb-2-7-ui-3473.md originals
+	rm the-rackd-log-file-deb-2-7-ui-3473.md
+	cp the-rackd-log-file.md the-rackd-log-file-deb-2-9-cli-3477.md
+	xpub push discourse -t deb-2-9-cli the-rackd-log-file-deb-2-9-cli-3477.md
+	xpub pull discourse 3477 3477
+	cp -p the-rackd-log-file-deb-2-9-cli-3477.md originals
+	rm the-rackd-log-file-deb-2-9-cli-3477.md
+	cp the-rackd-log-file.md the-rackd-log-file-snap-2-7-ui-3467.md
+	xpub push discourse -t snap-2-7-ui the-rackd-log-file-snap-2-7-ui-3467.md
+	xpub pull discourse 3467 3467
+	cp -p the-rackd-log-file-snap-2-7-ui-3467.md originals
+	rm the-rackd-log-file-snap-2-7-ui-3467.md
+	cp the-rackd-log-file.md the-rackd-log-file-snap-2-9-ui-3471.md
+	xpub push discourse -t snap-2-9-ui the-rackd-log-file-snap-2-9-ui-3471.md
+	xpub pull discourse 3471 3471
+	cp -p the-rackd-log-file-snap-2-9-ui-3471.md originals
+	rm the-rackd-log-file-snap-2-9-ui-3471.md
+	cp the-rackd-log-file.md the-rackd-log-file-snap-2-8-cli-3468.md
+	xpub push discourse -t snap-2-8-cli the-rackd-log-file-snap-2-8-cli-3468.md
+	xpub pull discourse 3468 3468
+	cp -p the-rackd-log-file-snap-2-8-cli-3468.md originals
+	rm the-rackd-log-file-snap-2-8-cli-3468.md
+	cp the-rackd-log-file.md the-rackd-log-file-deb-2-8-ui-3475.md
+	xpub push discourse -t deb-2-8-ui the-rackd-log-file-deb-2-8-ui-3475.md
+	xpub pull discourse 3475 3475
+	cp -p the-rackd-log-file-deb-2-8-ui-3475.md originals
+	rm the-rackd-log-file-deb-2-8-ui-3475.md
+	cp the-rackd-log-file.md the-rackd-log-file-deb-2-8-cli-3474.md
+	xpub push discourse -t deb-2-8-cli the-rackd-log-file-deb-2-8-cli-3474.md
+	xpub pull discourse 3474 3474
+	cp -p the-rackd-log-file-deb-2-8-cli-3474.md originals
+	rm the-rackd-log-file-deb-2-8-cli-3474.md
+	cp the-rackd-log-file.md the-rackd-log-file-snap-2-8-ui-3469.md
+	xpub push discourse -t snap-2-8-ui the-rackd-log-file-snap-2-8-ui-3469.md
+	xpub pull discourse 3469 3469
+	cp -p the-rackd-log-file-snap-2-8-ui-3469.md originals
+	rm the-rackd-log-file-snap-2-8-ui-3469.md
 	chmod 444 originals/*
 
 originals/the-regiond-log-file-deb-2-7-cli-3484.md: regiond-log.md
 	chmod 644 originals/*
-	cp the-regiond-log-file.md the-regiond-log-file-deb-2-7-cli-2784.md
-	xpub push discourse -t deb-2-7-cli the-regiond-log-file-deb-2-7-cli-2784.md
-	xpub pull discourse 2784 2784
-	cp -p the-regiond-log-file-deb-2-7-cli-2784.md originals
-	rm the-regiond-log-file-deb-2-7-cli-2784.md
-	cp the-regiond-log-file.md the-regiond-log-file-snap-2-7-cli-2778.md
-	xpub push discourse -t snap-2-7-cli the-regiond-log-file-snap-2-7-cli-2778.md
-	xpub pull discourse 2778 2778
-	cp -p the-regiond-log-file-snap-2-7-cli-2778.md originals
-	rm the-regiond-log-file-snap-2-7-cli-2778.md
-	cp the-regiond-log-file.md the-regiond-log-file-deb-2-9-ui-2789.md
-	xpub push discourse -t deb-2-9-ui the-regiond-log-file-deb-2-9-ui-2789.md
-	xpub pull discourse 2789 2789
-	cp -p the-regiond-log-file-deb-2-9-ui-2789.md originals
-	rm the-regiond-log-file-deb-2-9-ui-2789.md
-	cp the-regiond-log-file.md the-regiond-log-file-snap-2-9-cli-2782.md
-	xpub push discourse -t snap-2-9-cli the-regiond-log-file-snap-2-9-cli-2782.md
-	xpub pull discourse 2782 2782
-	cp -p the-regiond-log-file-snap-2-9-cli-2782.md originals
-	rm the-regiond-log-file-snap-2-9-cli-2782.md
-	cp the-regiond-log-file.md the-regiond-log-file-deb-2-7-ui-2785.md
-	xpub push discourse -t deb-2-7-ui the-regiond-log-file-deb-2-7-ui-2785.md
-	xpub pull discourse 2785 2785
-	cp -p the-regiond-log-file-deb-2-7-ui-2785.md originals
-	rm the-regiond-log-file-deb-2-7-ui-2785.md
-	cp the-regiond-log-file.md the-regiond-log-file-deb-2-9-cli-2788.md
-	xpub push discourse -t deb-2-9-cli the-regiond-log-file-deb-2-9-cli-2788.md
-	xpub pull discourse 2788 2788
-	cp -p the-regiond-log-file-deb-2-9-cli-2788.md originals
-	rm the-regiond-log-file-deb-2-9-cli-2788.md
-	cp the-regiond-log-file.md the-regiond-log-file-snap-2-7-ui-2779.md
-	xpub push discourse -t snap-2-7-ui the-regiond-log-file-snap-2-7-ui-2779.md
-	xpub pull discourse 2779 2779
-	cp -p the-regiond-log-file-snap-2-7-ui-2779.md originals
-	rm the-regiond-log-file-snap-2-7-ui-2779.md
-	cp the-regiond-log-file.md the-regiond-log-file-snap-2-9-ui-2783.md
-	xpub push discourse -t snap-2-9-ui the-regiond-log-file-snap-2-9-ui-2783.md
-	xpub pull discourse 2783 2783
-	cp -p the-regiond-log-file-snap-2-9-ui-2783.md originals
-	rm the-regiond-log-file-snap-2-9-ui-2783.md
-	cp the-regiond-log-file.md the-regiond-log-file-snap-2-8-cli-2780.md
-	xpub push discourse -t snap-2-8-cli the-regiond-log-file-snap-2-8-cli-2780.md
-	xpub pull discourse 2780 2780
-	cp -p the-regiond-log-file-snap-2-8-cli-2780.md originals
-	rm the-regiond-log-file-snap-2-8-cli-2780.md
-	cp the-regiond-log-file.md the-regiond-log-file-deb-2-8-ui-2787.md
-	xpub push discourse -t deb-2-8-ui the-regiond-log-file-deb-2-8-ui-2787.md
-	xpub pull discourse 2787 2787
-	cp -p the-regiond-log-file-deb-2-8-ui-2787.md originals
-	rm the-regiond-log-file-deb-2-8-ui-2787.md
-	cp the-regiond-log-file.md the-regiond-log-file-deb-2-8-cli-2786.md
-	xpub push discourse -t deb-2-8-cli the-regiond-log-file-deb-2-8-cli-2786.md
-	xpub pull discourse 2786 2786
-	cp -p the-regiond-log-file-deb-2-8-cli-2786.md originals
-	rm the-regiond-log-file-deb-2-8-cli-2786.md
-	cp the-regiond-log-file.md the-regiond-log-file-snap-2-8-ui-2781.md
-	xpub push discourse -t snap-2-8-ui the-regiond-log-file-snap-2-8-ui-2781.md
-	xpub pull discourse 2781 2781
-	cp -p the-regiond-log-file-snap-2-8-ui-2781.md originals
-	rm the-regiond-log-file-snap-2-8-ui-2781.md
+	cp the-regiond-log-file.md the-regiond-log-file-deb-2-7-cli-3484.md
+	xpub push discourse -t deb-2-7-cli the-regiond-log-file-deb-2-7-cli-3484.md
+	xpub pull discourse 3484 3484
+	cp -p the-regiond-log-file-deb-2-7-cli-3484.md originals
+	rm the-regiond-log-file-deb-2-7-cli-3484.md
+	cp the-regiond-log-file.md the-regiond-log-file-snap-2-7-cli-2478.md
+	xpub push discourse -t snap-2-7-cli the-regiond-log-file-snap-2-7-cli-2478.md
+	xpub pull discourse 2478 2478
+	cp -p the-regiond-log-file-snap-2-7-cli-2478.md originals
+	rm the-regiond-log-file-snap-2-7-cli-2478.md
+	cp the-regiond-log-file.md the-regiond-log-file-deb-2-9-ui-3488.md
+	xpub push discourse -t deb-2-9-ui the-regiond-log-file-deb-2-9-ui-3488.md
+	xpub pull discourse 3488 3488
+	cp -p the-regiond-log-file-deb-2-9-ui-3488.md originals
+	rm the-regiond-log-file-deb-2-9-ui-3488.md
+	cp the-regiond-log-file.md the-regiond-log-file-snap-2-9-cli-3482.md
+	xpub push discourse -t snap-2-9-cli the-regiond-log-file-snap-2-9-cli-3482.md
+	xpub pull discourse 3482 3482
+	cp -p the-regiond-log-file-snap-2-9-cli-3482.md originals
+	rm the-regiond-log-file-snap-2-9-cli-3482.md
+	cp the-regiond-log-file.md the-regiond-log-file-deb-2-7-ui-3485.md
+	xpub push discourse -t deb-2-7-ui the-regiond-log-file-deb-2-7-ui-3485.md
+	xpub pull discourse 3485 3485
+	cp -p the-regiond-log-file-deb-2-7-ui-3485.md originals
+	rm the-regiond-log-file-deb-2-7-ui-3485.md
+	cp the-regiond-log-file.md the-regiond-log-file-deb-2-9-cli-3489.md
+	xpub push discourse -t deb-2-9-cli the-regiond-log-file-deb-2-9-cli-3489.md
+	xpub pull discourse 3489 3489
+	cp -p the-regiond-log-file-deb-2-9-cli-3489.md originals
+	rm the-regiond-log-file-deb-2-9-cli-3489.md
+	cp the-regiond-log-file.md the-regiond-log-file-snap-2-7-ui-3479.md
+	xpub push discourse -t snap-2-7-ui the-regiond-log-file-snap-2-7-ui-3479.md
+	xpub pull discourse 3479 3479
+	cp -p the-regiond-log-file-snap-2-7-ui-3479.md originals
+	rm the-regiond-log-file-snap-2-7-ui-3479.md
+	cp the-regiond-log-file.md the-regiond-log-file-snap-2-9-ui-3483.md
+	xpub push discourse -t snap-2-9-ui the-regiond-log-file-snap-2-9-ui-3483.md
+	xpub pull discourse 3483 3483
+	cp -p the-regiond-log-file-snap-2-9-ui-3483.md originals
+	rm the-regiond-log-file-snap-2-9-ui-3483.md
+	cp the-regiond-log-file.md the-regiond-log-file-snap-2-8-cli-3480.md
+	xpub push discourse -t snap-2-8-cli the-regiond-log-file-snap-2-8-cli-3480.md
+	xpub pull discourse 3480 3480
+	cp -p the-regiond-log-file-snap-2-8-cli-3480.md originals
+	rm the-regiond-log-file-snap-2-8-cli-3480.md
+	cp the-regiond-log-file.md the-regiond-log-file-deb-2-8-ui-3487.md
+	xpub push discourse -t deb-2-8-ui the-regiond-log-file-deb-2-8-ui-3487.md
+	xpub pull discourse 3487 3487
+	cp -p the-regiond-log-file-deb-2-8-ui-3487.md originals
+	rm the-regiond-log-file-deb-2-8-ui-3487.md
+	cp the-regiond-log-file.md the-regiond-log-file-deb-2-8-cli-3486.md
+	xpub push discourse -t deb-2-8-cli the-regiond-log-file-deb-2-8-cli-3486.md
+	xpub pull discourse 3486 3486
+	cp -p the-regiond-log-file-deb-2-8-cli-3486.md originals
+	rm the-regiond-log-file-deb-2-8-cli-3486.md
+	cp the-regiond-log-file.md the-regiond-log-file-snap-2-8-ui-3481.md
+	xpub push discourse -t snap-2-8-ui the-regiond-log-file-snap-2-8-ui-3481.md
+	xpub pull discourse 3481 3481
+	cp -p the-regiond-log-file-snap-2-8-ui-3481.md originals
+	rm the-regiond-log-file-snap-2-8-ui-3481.md
 	chmod 444 originals/*
 
 originals/python-api-client-810.md: python-api-client.md
