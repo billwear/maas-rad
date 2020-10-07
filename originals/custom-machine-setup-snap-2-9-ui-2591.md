@@ -140,7 +140,12 @@ Customisation in MAAS happens in two ways:
 
 <h3 id="heading--templates">Templates</h3>
 
-The [Tempita^](https://raw.githubusercontent.com/ravenac95/tempita/master/docs/index.txt) template files are found within the `/var/snap/maas/current/preseeds/` for the snap and `/etc/maas/preseeds/` directory for the debian package on the region controller. Each template uses a filename prefix that corresponds to a particular phase of MAAS machine deployment:
+The [Tempita^](https://raw.githubusercontent.com/ravenac95/tempita/master/docs/index.txt) template files are found in the `/var/snap/maas/current/preseeds/` directory on the region controller. Each template uses a filename prefix that corresponds to a particular phase of MAAS machine deployment:
+
+<!-- deb-2-7-ui deb-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-9-ui deb-2-9-cli
+The [Tempita^](https://raw.githubusercontent.com/ravenac95/tempita/master/docs/index.txt) template files are found in the `/etc/maas/preseeds/` directory on the region controller. Each template uses a filename prefix that corresponds to a particular phase of MAAS machine deployment:
+deb-2-7-ui deb-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-9-ui deb-2-9-cli -->
+
 
 |       Phase       |                 Filename prefix                 |
 |:-----------------:|:-----------------------------------------------:|

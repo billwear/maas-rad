@@ -91,15 +91,6 @@ MAAS has a robust logging capability, which presents several different views, in
 * [What is the syslog logging path?](#heading--path)
 * [How do I use a remote syslog server?](#heading--using-a-remote-syslog-server)
 * [What are test logs?](/t/test-logs/3132)
-* [What are machine logs?](/t/machine-logs/1480)
-* [What are event logs?](/t/event-logs/1481)
-* [What is the maas.log file?](/t/the-maas-log-file/1482)
-* [What is the rackd.log file?](/t/the-rackd-log-file/1483)
-* [What is the regiond.log file?](/t/the-regiond-log-file/1484)
-* [What is the HTTP access log file?](/t/the-http-access-log-file/1485)
-* [What is the HTTP error log file?](/t/the-http-error-log-file/1486)
-* [What are the proxy log files?](/t/the-proxy-log-files/1487)
-* [What are the MAAS rsyslog files?](/t/the-maas-rsyslog-files/1488)
 deb-2-7-cli -->
 
 <!-- deb-2-7-ui
@@ -190,7 +181,6 @@ deb-2-7-ui deb-2-7-cli deb-2-8-ui deb-2-8-cli deb-2-9-ui deb-2-9-cli -->
 <!-- snap-2-7-ui snap-2-7-cli snap-2-8-ui snap-2-8-cli snap-2-9-ui snap-2-9-cli
 Syslog data is kept in `/var/snap/maas/common/log/rsyslog/<machine-name><yyyy-mm-dd>/messages`. Every machine known to MAAS will have corresponding syslogs.
 snap-2-7-ui snap-2-7-cli snap-2-8-ui snap-2-8-cli snap-2-9-ui snap-2-9-cli -->
-
 
 <h2 id="heading--using-a-remote-syslog-server">Using a remote syslog server</h2>
 
