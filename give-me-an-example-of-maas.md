@@ -108,7 +108,7 @@ You can generate a list similar to this for your machines with the command:
 maas admin machines read | jq -r '(["FQDN","POWER","STATUS",
 "OWNER", "TAGS", "POOL", "NOTE", "ZONE"] | (., map(length*"-"))),
 (.[] | [.hostname, .power_state, .status_name, .owner // "-", 
-.tag_names[0] // "-", .pool.name, .descripton // "-", .zone.name]) | @tsv' | column -t
+.tag_names[0] // "-", .pool.name, .description // "-", .zone.name]) | @tsv' | column -t
 ```
 
 Be aware that newly-created machines will only have default settings for tags, resource pools, zones, and notes, and will probably all be in the "Ready" state, with no owner.
@@ -318,7 +318,7 @@ FQDN               POWER  STATUS  OWNER  TAGS     POOL     NOTE  ZONE
 52-54-00-1e-a5-7e  off    Ready   -      virtual  default  -     default
 52-54-00-2e-b7-1e  off    Ready   -      virtual  default  -     default
 52-54-00-2e-c4-40  off    Ready   -      virtual  default  -     default
-52-54-00-2e-ee-17  off    Ready   -      virtual  default  -     default
+52-54-00-2e-eke-17  off    Ready   -      virtual  default  -     default
 52-54-00-2f-6d-3c  off    Ready   -      virtual  default  -     default
 52-54-00-4a-2a-30  off    Ready   -      virtual  default  -     default
 52-54-00-4e-60-b2  off    Ready   -      virtual  default  -     default

@@ -1733,7 +1733,7 @@ originals/proxy-log-deb-2-7-cli-3460.md: proxy-log.md
 	rm proxy-log-snap-2-8-ui-3457.md
 	chmod 444 originals/*
 
-originals/the-rackd-log-file-deb-2-7-cli-3472.md: rackd-log.md
+originals/the-rackd-log-file-deb-2-7-cli-3472.md: the-rackd-log-file.md
 	chmod 644 originals/*
 	cp the-rackd-log-file.md the-rackd-log-file-deb-2-7-cli-3472.md
 	xpub push discourse -t deb-2-7-cli the-rackd-log-file-deb-2-7-cli-3472.md
@@ -1797,7 +1797,7 @@ originals/the-rackd-log-file-deb-2-7-cli-3472.md: rackd-log.md
 	rm the-rackd-log-file-snap-2-8-ui-3469.md
 	chmod 444 originals/*
 
-originals/the-regiond-log-file-deb-2-7-cli-3484.md: regiond-log.md
+originals/the-regiond-log-file-deb-2-7-cli-3484.md: the-regiond-log-file.md
 	chmod 644 originals/*
 	cp the-regiond-log-file.md the-regiond-log-file-deb-2-7-cli-3484.md
 	xpub push discourse -t deb-2-7-cli the-regiond-log-file-deb-2-7-cli-3484.md
