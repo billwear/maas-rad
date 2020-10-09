@@ -1,393 +1,317 @@
 <!-- deb-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/select-and-import-images-snap-2-7-cli/3090) ~ [UI](/t/select-and-import-images-snap-2-7-ui/3091)|[CLI](/t/select-and-import-images-snap-2-8-cli/3092) ~ [UI](/t/select-and-import-images-snap-2-8-ui/3093)|[CLI](/t/select-and-import-images-snap-2-9-cli/3094) ~ [UI](/t/select-and-import-images-snap-2-9-ui/3095)|
-|Packages|CLI ~ [UI](/t/select-and-import-images-deb-2-7-ui/3097)|[CLI](/t/select-and-import-images-deb-2-8-cli/3098) ~ [UI](/t/select-and-import-images-deb-2-8-ui/3099)|[CLI](/t/select-and-import-images-deb-2-9-cli/3100) ~ [UI](/t/select-and-import-images-deb-2-9-ui/3101)|
+|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
+|Packages|CLI ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/select-and-import-images-snap-2-7-cli/3090) ~ [UI](/t/select-and-import-images-snap-2-7-ui/3091)|[CLI](/t/select-and-import-images-snap-2-8-cli/3092) ~ [UI](/t/select-and-import-images-snap-2-8-ui/3093)|[CLI](/t/select-and-import-images-snap-2-9-cli/3094) ~ [UI](/t/select-and-import-images-snap-2-9-ui/3095)|
-|Packages|[CLI](/t/select-and-import-images-deb-2-7-cli/3096) ~ UI|[CLI](/t/select-and-import-images-deb-2-8-cli/3098) ~ [UI](/t/select-and-import-images-deb-2-8-ui/3099)|[CLI](/t/select-and-import-images-deb-2-9-cli/3100) ~ [UI](/t/select-and-import-images-deb-2-9-ui/3101)|
+|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
+|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ UI|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/select-and-import-images-snap-2-7-cli/3090) ~ [UI](/t/select-and-import-images-snap-2-7-ui/3091)|[CLI](/t/select-and-import-images-snap-2-8-cli/3092) ~ [UI](/t/select-and-import-images-snap-2-8-ui/3093)|[CLI](/t/select-and-import-images-snap-2-9-cli/3094) ~ [UI](/t/select-and-import-images-snap-2-9-ui/3095)|
-|Packages|[CLI](/t/select-and-import-images-deb-2-7-cli/3096) ~ [UI](/t/select-and-import-images-deb-2-7-ui/3097)|CLI ~ [UI](/t/select-and-import-images-deb-2-8-ui/3099)|[CLI](/t/select-and-import-images-deb-2-9-cli/3100) ~ [UI](/t/select-and-import-images-deb-2-9-ui/3101)|
+|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
+|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|CLI ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/select-and-import-images-snap-2-7-cli/3090) ~ [UI](/t/select-and-import-images-snap-2-7-ui/3091)|[CLI](/t/select-and-import-images-snap-2-8-cli/3092) ~ [UI](/t/select-and-import-images-snap-2-8-ui/3093)|[CLI](/t/select-and-import-images-snap-2-9-cli/3094) ~ [UI](/t/select-and-import-images-snap-2-9-ui/3095)|
-|Packages|[CLI](/t/select-and-import-images-deb-2-7-cli/3096) ~ [UI](/t/select-and-import-images-deb-2-7-ui/3097)|[CLI](/t/select-and-import-images-deb-2-8-cli/3098) ~ UI|[CLI](/t/select-and-import-images-deb-2-9-cli/3100) ~ [UI](/t/select-and-import-images-deb-2-9-ui/3101)|
+|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
+|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ UI|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/select-and-import-images-snap-2-7-cli/3090) ~ [UI](/t/select-and-import-images-snap-2-7-ui/3091)|[CLI](/t/select-and-import-images-snap-2-8-cli/3092) ~ [UI](/t/select-and-import-images-snap-2-8-ui/3093)|[CLI](/t/select-and-import-images-snap-2-9-cli/3094) ~ [UI](/t/select-and-import-images-snap-2-9-ui/3095)|
-|Packages|[CLI](/t/select-and-import-images-deb-2-7-cli/3096) ~ [UI](/t/select-and-import-images-deb-2-7-ui/3097)|[CLI](/t/select-and-import-images-deb-2-8-cli/3098) ~ [UI](/t/select-and-import-images-deb-2-8-ui/3099)|CLI ~ [UI](/t/select-and-import-images-deb-2-9-ui/3101)|
+|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
+|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|CLI ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/select-and-import-images-snap-2-7-cli/3090) ~ [UI](/t/select-and-import-images-snap-2-7-ui/3091)|[CLI](/t/select-and-import-images-snap-2-8-cli/3092) ~ [UI](/t/select-and-import-images-snap-2-8-ui/3093)|[CLI](/t/select-and-import-images-snap-2-9-cli/3094) ~ [UI](/t/select-and-import-images-snap-2-9-ui/3095)|
-|Packages|[CLI](/t/select-and-import-images-deb-2-7-cli/3096) ~ [UI](/t/select-and-import-images-deb-2-7-ui/3097)|[CLI](/t/select-and-import-images-deb-2-8-cli/3098) ~ [UI](/t/select-and-import-images-deb-2-8-ui/3099)|[CLI](/t/select-and-import-images-deb-2-9-cli/3100) ~ UI|
+|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
+|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ UI|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|CLI ~ [UI](/t/select-and-import-images-snap-2-7-ui/3091)|[CLI](/t/select-and-import-images-snap-2-8-cli/3092) ~ [UI](/t/select-and-import-images-snap-2-8-ui/3093)|[CLI](/t/select-and-import-images-snap-2-9-cli/3094) ~ [UI](/t/select-and-import-images-snap-2-9-ui/3095)|
-|Packages|[CLI](/t/select-and-import-images-deb-2-7-cli/3096) ~ [UI](/t/select-and-import-images-deb-2-7-ui/3097)|[CLI](/t/select-and-import-images-deb-2-8-cli/3098) ~ [UI](/t/select-and-import-images-deb-2-8-ui/3099)|[CLI](/t/select-and-import-images-deb-2-9-cli/3100) ~ [UI](/t/select-and-import-images-deb-2-9-ui/3101)|
+|Snap|CLI ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
+|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/select-and-import-images-snap-2-7-cli/3090) ~ UI|[CLI](/t/select-and-import-images-snap-2-8-cli/3092) ~ [UI](/t/select-and-import-images-snap-2-8-ui/3093)|[CLI](/t/select-and-import-images-snap-2-9-cli/3094) ~ [UI](/t/select-and-import-images-snap-2-9-ui/3095)|
-|Packages|[CLI](/t/select-and-import-images-deb-2-7-cli/3096) ~ [UI](/t/select-and-import-images-deb-2-7-ui/3097)|[CLI](/t/select-and-import-images-deb-2-8-cli/3098) ~ [UI](/t/select-and-import-images-deb-2-8-ui/3099)|[CLI](/t/select-and-import-images-deb-2-9-cli/3100) ~ [UI](/t/select-and-import-images-deb-2-9-ui/3101)|
+|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ UI|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
+|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/select-and-import-images-snap-2-7-cli/3090) ~ [UI](/t/select-and-import-images-snap-2-7-ui/3091)|CLI ~ [UI](/t/select-and-import-images-snap-2-8-ui/3093)|[CLI](/t/select-and-import-images-snap-2-9-cli/3094) ~ [UI](/t/select-and-import-images-snap-2-9-ui/3095)|
-|Packages|[CLI](/t/select-and-import-images-deb-2-7-cli/3096) ~ [UI](/t/select-and-import-images-deb-2-7-ui/3097)|[CLI](/t/select-and-import-images-deb-2-8-cli/3098) ~ [UI](/t/select-and-import-images-deb-2-8-ui/3099)|[CLI](/t/select-and-import-images-deb-2-9-cli/3100) ~ [UI](/t/select-and-import-images-deb-2-9-ui/3101)|
+|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|CLI ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
+|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/select-and-import-images-snap-2-7-cli/3090) ~ [UI](/t/select-and-import-images-snap-2-7-ui/3091)|[CLI](/t/select-and-import-images-snap-2-8-cli/3092) ~ UI|[CLI](/t/select-and-import-images-snap-2-9-cli/3094) ~ [UI](/t/select-and-import-images-snap-2-9-ui/3095)|
-|Packages|[CLI](/t/select-and-import-images-deb-2-7-cli/3096) ~ [UI](/t/select-and-import-images-deb-2-7-ui/3097)|[CLI](/t/select-and-import-images-deb-2-8-cli/3098) ~ [UI](/t/select-and-import-images-deb-2-8-ui/3099)|[CLI](/t/select-and-import-images-deb-2-9-cli/3100) ~ [UI](/t/select-and-import-images-deb-2-9-ui/3101)|
+|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ UI|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
+|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
  snap-2-8-ui -->
 
+<!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/select-and-import-images-snap-2-7-cli/3090) ~ [UI](/t/select-and-import-images-snap-2-7-ui/3091)|[CLI](/t/select-and-import-images-snap-2-8-cli/3092) ~ [UI](/t/select-and-import-images-snap-2-8-ui/3093)|CLI ~ [UI](/t/select-and-import-images-snap-2-9-ui/3095)|
-|Packages|[CLI](/t/select-and-import-images-deb-2-7-cli/3096) ~ [UI](/t/select-and-import-images-deb-2-7-ui/3097)|[CLI](/t/select-and-import-images-deb-2-8-cli/3098) ~ [UI](/t/select-and-import-images-deb-2-8-ui/3099)|[CLI](/t/select-and-import-images-deb-2-9-cli/3100) ~ [UI](/t/select-and-import-images-deb-2-9-ui/3101)|
+|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|CLI ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
+|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+ snap-2-9-cli -->
 
-<!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/select-and-import-images-snap-2-7-cli/3090) ~ [UI](/t/select-and-import-images-snap-2-7-ui/3091)|[CLI](/t/select-and-import-images-snap-2-8-cli/3092) ~ [UI](/t/select-and-import-images-snap-2-8-ui/3093)|[CLI](/t/select-and-import-images-snap-2-9-cli/3094) ~ UI|
-|Packages|[CLI](/t/select-and-import-images-deb-2-7-cli/3096) ~ [UI](/t/select-and-import-images-deb-2-7-ui/3097)|[CLI](/t/select-and-import-images-deb-2-8-cli/3098) ~ [UI](/t/select-and-import-images-deb-2-8-ui/3099)|[CLI](/t/select-and-import-images-deb-2-9-cli/3100) ~ [UI](/t/select-and-import-images-deb-2-9-ui/3101)|
- snap-2-9-ui -->
+|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ UI|
+|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
 
-MAAS is only useful once it has images available to provision its nodes. Therefore, one key post-install task is to select and import images from the boot source. Once MAAS imports images, it will update them on an hourly basis, via a default synch mechanism.  This page explains how to select and import the images that MAAS requires to provision its nodes.
-
-<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
+A rack controller can connect to multiple VLANs, each from a different network interface. This configuration provides a scaling factor that can help as a network architecture grows in size.
 
 #### Quick questions you may have:
 
-* [How do I import standard images from maas.io?](#heading--import-maasio-image-ui)
-* [How do I use other image mirrors to download images?](#heading--image-mirrors)
-* [How do I import and provision non-Ubuntu images?](#heading--other-images)
-
-Note that it is possible to build your own images in a limited sense: see [MAAS Image Builder](/t/maas-image-builder/1112).
-
-<h2 id="heading--import-maasio-image-ui">Importing images from maas.io</h2>
-
-The 'Images' page shows what images and architectures have been selected and downloaded. By default, MAAS will automatically grab the most recent Ubuntu LTS releases (and amd64 architecture). Below, we have selected two additional releases:
-
-<a href="https://discourse.maas.io/uploads/default/original/1X/d208922f1126ec92f6ef06cfaa5e16dbbfc613d0.png" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/d208922f1126ec92f6ef06cfaa5e16dbbfc613d0.png"></a>
-snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
-
-<!-- deb-2-7-ui
-You can tell MAAS to sync images hourly, at the region level, using a toggle switch in the top-right corner of the screen.  See [Boot image sources](/t/images/2701#boot-image-sources)) for more details. We highly recommended synching images hourly. Syncing at the rack controller level (from regiond) occurs every 5 min and cannot be disabled.
- deb-2-7-ui -->
-
-<!-- deb-2-8-ui
-You can tell MAAS to sync images hourly, at the region level, using a toggle switch in the top-right corner of the screen.  See [Boot image sources](/t/images/2703#boot-image-sources)) for more details. We highly recommended synching images hourly. Syncing at the rack controller level (from regiond) occurs every 5 min and cannot be disabled.
- deb-2-8-ui -->
-
-<!-- deb-2-9-ui
-You can tell MAAS to sync images hourly, at the region level, using a toggle switch in the top-right corner of the screen.  See [Boot image sources](/t/images/2705#boot-image-sources)) for more details. We highly recommended synching images hourly. Syncing at the rack controller level (from regiond) occurs every 5 min and cannot be disabled.
- deb-2-9-ui -->
-
-<!-- snap-2-7-ui
-You can tell MAAS to sync images hourly, at the region level, using a toggle switch in the top-right corner of the screen.  See [Boot image sources](/t/images/2695#boot-image-sources)) for more details. We highly recommended synching images hourly. Syncing at the rack controller level (from regiond) occurs every 5 min and cannot be disabled.
- snap-2-7-ui -->
-
-<!-- snap-2-8-ui
-You can tell MAAS to sync images hourly, at the region level, using a toggle switch in the top-right corner of the screen.  See [Boot image sources](/t/images/2697#boot-image-sources)) for more details. We highly recommended synching images hourly. Syncing at the rack controller level (from regiond) occurs every 5 min and cannot be disabled.
- snap-2-8-ui -->
-
-<!-- snap-2-9-ui
-You can tell MAAS to sync images hourly, at the region level, using a toggle switch in the top-right corner of the screen.  See [Boot image sources](/t/images/2699#boot-image-sources)) for more details. We highly recommended synching images hourly. Syncing at the rack controller level (from regiond) occurs every 5 min and cannot be disabled.
- snap-2-9-ui -->
-
-<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
-Click the 'Save selection' button to initiate the import. MAAS will present existing images along with the newly-selected ones. The latter will have their status updated as the import is processed:
-
-<a href="https://discourse.maas.io/uploads/default/original/1X/f7daa92c97f1ada61c2172044d43856ed3e14b5f.png" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/f7daa92c97f1ada61c2172044d43856ed3e14b5f.png"></a>
-
-To remove an image, unselect it and click 'Save selection'.
-
-<h2 id="heading--image-mirrors">Image mirrors</h2>
-
-You can also host Ubuntu images on a mirror. Configure this mirror by selecting 'Custom' beneath 'Choose source'. Enter the mirror URL and click 'Connect'.
-
-Advanced options, such as using a GPG key or keyring to validate the mirror path (snap installation location: /snap/maas/current/usr/share/keyrings/ubuntu-cloudimage-keyring.gpg), are revealed by clicking 'Show advanced options':
-
-<a href="https://discourse.maas.io/uploads/default/original/1X/dbe44a827e70e318a6139c3e335019a6a27c4374.png" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/dbe44a827e70e318a6139c3e335019a6a27c4374.png"></a>
-snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
-
 <!-- deb-2-7-cli
-Optionally, a local mirror can be set up as the boot source. MAAS will then use it instead of the standard internet-based server. Local mirroring significantly reduces the time required import images. See [Local image mirror](/t/local-image-mirror/2808) for instructions.
+* [How does MAAS communication work?](/t/maas-communication/2832)
+* [How do I install a rack controller?](#heading--install-a-rack-controller)
+* [How do I list rack controllers?](#heading--list-rack-controllers)
+* [How do I configure MAAS for multiple API servers?](/t/high-availability/2688#heading--multiple-region-endpoints)
+* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
-Optionally, a local mirror can be set up as the boot source. MAAS will then use it instead of the standard internet-based server. Local mirroring significantly reduces the time required import images. See [Local image mirror](/t/local-image-mirror/2809) for instructions.
+* [How does MAAS communication work?](/t/maas-communication/2833)
+* [How do I install a rack controller?](#heading--install-a-rack-controller)
+* [How do I list rack controllers?](#heading--list-rack-controllers)
+* [How do I configure MAAS for multiple API servers?](/t/high-availability/2689#heading--multiple-region-endpoints)
+* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
-Optionally, a local mirror can be set up as the boot source. MAAS will then use it instead of the standard internet-based server. Local mirroring significantly reduces the time required import images. See [Local image mirror](/t/local-image-mirror/2810) for instructions.
+* [How does MAAS communication work?](/t/maas-communication/2834)
+* [How do I install a rack controller?](#heading--install-a-rack-controller)
+* [How do I list rack controllers?](#heading--list-rack-controllers)
+* [How do I configure MAAS for multiple API servers?](/t/high-availability/2690#heading--multiple-region-endpoints)
+* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
-Optionally, a local mirror can be set up as the boot source. MAAS will then use it instead of the standard internet-based server. Local mirroring significantly reduces the time required import images. See [Local image mirror](/t/local-image-mirror/2811) for instructions.
+* [How does MAAS communication work?](/t/maas-communication/2835)
+* [How do I install a rack controller?](#heading--install-a-rack-controller)
+* [How do I list rack controllers?](#heading--list-rack-controllers)
+* [How do I configure MAAS for multiple API servers?](/t/high-availability/2691#heading--multiple-region-endpoints)
+* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
-Optionally, a local mirror can be set up as the boot source. MAAS will then use it instead of the standard internet-based server. Local mirroring significantly reduces the time required import images. See [Local image mirror](/t/local-image-mirror/2812) for instructions.
+* [How does MAAS communication work?](/t/maas-communication/2836)
+* [How do I install a rack controller?](#heading--install-a-rack-controller)
+* [How do I list rack controllers?](#heading--list-rack-controllers)
+* [How do I configure MAAS for multiple API servers?](/t/high-availability/2692#heading--multiple-region-endpoints)
+* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
-Optionally, a local mirror can be set up as the boot source. MAAS will then use it instead of the standard internet-based server. Local mirroring significantly reduces the time required import images. See [Local image mirror](/t/local-image-mirror/2813) for instructions.
+* [How does MAAS communication work?](/t/maas-communication/2837)
+* [How do I install a rack controller?](#heading--install-a-rack-controller)
+* [How do I list rack controllers?](#heading--list-rack-controllers)
+* [How do I configure MAAS for multiple API servers?](/t/high-availability/2683#heading--multiple-region-endpoints)
+* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
-Optionally, a local mirror can be set up as the boot source. MAAS will then use it instead of the standard internet-based server. Local mirroring significantly reduces the time required import images. See [Local image mirror](/t/local-image-mirror/2802) for instructions.
+* [How does MAAS communication work?](/t/maas-communication/2826)
+* [How do I install a rack controller?](#heading--install-a-rack-controller)
+* [How do I list rack controllers?](#heading--list-rack-controllers)
+* [How do I configure MAAS for multiple API servers?](/t/high-availability/2682#heading--multiple-region-endpoints)
+* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
-Optionally, a local mirror can be set up as the boot source. MAAS will then use it instead of the standard internet-based server. Local mirroring significantly reduces the time required import images. See [Local image mirror](/t/local-image-mirror/2803) for instructions.
+* [How does MAAS communication work?](/t/maas-communication/2827)
+* [How do I install a rack controller?](#heading--install-a-rack-controller)
+* [How do I list rack controllers?](#heading--list-rack-controllers)
+* [How do I configure MAAS for multiple API servers?](/t/high-availability/2683#heading--multiple-region-endpoints)
+* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
-Optionally, a local mirror can be set up as the boot source. MAAS will then use it instead of the standard internet-based server. Local mirroring significantly reduces the time required import images. See [Local image mirror](/t/local-image-mirror/2804) for instructions.
+* [How does MAAS communication work?](/t/maas-communication/2828)
+* [How do I install a rack controller?](#heading--install-a-rack-controller)
+* [How do I list rack controllers?](#heading--list-rack-controllers)
+* [How do I configure MAAS for multiple API servers?](/t/high-availability/2684#heading--multiple-region-endpoints)
+* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
  snap-2-8-cli -->
 
 <!-- snap-2-8-ui
-Optionally, a local mirror can be set up as the boot source. MAAS will then use it instead of the standard internet-based server. Local mirroring significantly reduces the time required import images. See [Local image mirror](/t/local-image-mirror/2805) for instructions.
+* [How does MAAS communication work?](/t/maas-communication/2829)
+* [How do I install a rack controller?](#heading--install-a-rack-controller)
+* [How do I list rack controllers?](#heading--list-rack-controllers)
+* [How do I configure MAAS for multiple API servers?](/t/high-availability/2685#heading--multiple-region-endpoints)
+* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
  snap-2-8-ui -->
 
-Optionally, a local mirror can be set up as the boot source. MAAS will then use it instead of the standard internet-based server. Local mirroring significantly reduces the time required import images. See [Local image mirror](/t/local-image-mirror/2806) for instructions.
+<!-- snap-2-9-cli
+* [How does MAAS communication work?](/t/maas-communication/2830)
+* [How do I install a rack controller?](#heading--install-a-rack-controller)
+* [How do I list rack controllers?](#heading--list-rack-controllers)
+* [How do I configure MAAS for multiple API servers?](/t/high-availability/2686#heading--multiple-region-endpoints)
+* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
+ snap-2-9-cli -->
 
-<!-- snap-2-9-ui
-Optionally, a local mirror can be set up as the boot source. MAAS will then use it instead of the standard internet-based server. Local mirroring significantly reduces the time required import images. See [Local image mirror](/t/local-image-mirror/2807) for instructions.
- snap-2-9-ui -->
+* [How does MAAS communication work?](/t/maas-communication/2831)
+* [How do I install a rack controller?](#heading--install-a-rack-controller)
+* [How do I list rack controllers?](#heading--list-rack-controllers)
+* [How do I configure MAAS for multiple API servers?](/t/high-availability/2687#heading--multiple-region-endpoints)
+* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
 
-<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
-<h2 id="heading--other-images">Other images</h2>
+<h2 id="heading--install-a-rack-controller">Install a rack controller</h2>
 
-It is also possible to import and provision images other than Ubuntu. Images supported and provided by MAAS will appear beneath the 'Other Images' section. Currently, images for CentOS 6.6, CentOS 7.0, and CentOS 8.0 are available. These images can be imported and used just like the Ubuntu images above.
-
-<a href="https://discourse.maas.io/uploads/default/original/1X/198aa78b2dd3a650f1b3909ae2c9269e159ca1dc.png" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/198aa78b2dd3a650f1b3909ae2c9269e159ca1dc.png"></a>
-snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
-
-<!-- deb-2-7-cli
-You can tell MAAS to sync images hourly, at the region level.  See [Boot image sources](/t/images/2700#boot-image-sources)) for more details. We highly recommended synching images hourly. Syncing at the rack controller level (from regiond) occurs every 5 min and cannot be disabled.
- deb-2-7-cli -->
-
-<!-- deb-2-8-cli
-You can tell MAAS to sync images hourly, at the region level.  See [Boot image sources](/t/images/2702#boot-image-sources)) for more details. We highly recommended synching images hourly. Syncing at the rack controller level (from regiond) occurs every 5 min and cannot be disabled.
- deb-2-8-cli -->
-
-<!-- deb-2-9-cli
-You can tell MAAS to sync images hourly, at the region level.  See [Boot image sources](/t/images/2704#boot-image-sources)) for more details. We highly recommended synching images hourly. Syncing at the rack controller level (from regiond) occurs every 5 min and cannot be disabled.
- deb-2-9-cli -->
- 
-<!-- snap-2-7-cli
-You can tell MAAS to sync images hourly, at the region level.  See [Boot image sources](/t/images/2694#boot-image-sources)) for more details. We highly recommended synching images hourly. Syncing at the rack controller level (from regiond) occurs every 5 min and cannot be disabled.
- snap-2-7-cli -->
- 
-<!-- snap-2-8-cli
-You can tell MAAS to sync images hourly, at the region level.  See [Boot image sources](/t/images/2696#boot-image-sources)) for more details. We highly recommended synching images hourly. Syncing at the rack controller level (from regiond) occurs every 5 min and cannot be disabled.
- snap-2-8-cli -->
-
-You can tell MAAS to sync images hourly, at the region level.  See [Boot image sources](/t/images/2698#boot-image-sources)) for more details. We highly recommended synching images hourly. Syncing at the rack controller level (from regiond) occurs every 5 min and cannot be disabled.
-
-
-#### Quick questions you may have:
-
-* [How do I get started with the MAAS CLI?](/t/maas-cli/802)
-* [How do I list boot sources?](#heading--list-boot-sources)
-* [How do I select images?](#heading--select-image)
-* [How do I list image selections?](#heading--list-image-selections)
-* [How do I import newly-selected images?](#heading--import-newly-selected-images)
-* [How do I list currently available images?](#heading--list-currently-available-images)
-* [How do I delete a boot source?](#heading--delete-a-boot-source)
-* [How do I edit a boot source?](#heading--edit-a-boot-source)
-
-<h2 id="heading--list-boot-sources">List boot sources</h2>
-
-If you want to download boot sources, i.e., the locations from which you may download images, try the following:
+<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
+To install and register a rack controller with the MAAS:
 
 ``` bash
-maas $PROFILE boot-sources read
+sudo apt install maas-rack-controller
+sudo maas-rack register
 ```
 
 [note]
-Although multiple boot sources may be listed, MAAS can only practically work with a single boot source.
+The register command is not required when you are adding a rack controller to a system that already houses an API server.
 [/note]
+snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
 
-<h2 id="heading--select-images">Select images</h2>
+<!-- deb-2-7-cli deb-2-8-cli deb-2-9-cli
+MAAS will ask for the URL of the region API server. If you provide a hostname, ensure it is resolvable. Next, MAAS will prompt you for the secret key, stored in file `/var/lib/maas/secret` on the API server.
+deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
 
-Use the `boot-source-selections` command to select images from a boot source. After selecting new images, you will need to [import](#heading--import-newly-selected-images) them.
+<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli
+MAAS will ask for the URL of the region API server. If you provide a hostname, ensure it is resolvable. Next, MAAS will prompt you for the secret key, stored in file `/var/snap/maas/common/maas/secret` on the API server.
+snap-2-7-cli snap-2-8-cli snap-2-9-cli -->
 
-``` bash
-maas $PROFILE boot-source-selections create $SOURCE_ID \
-    os="ubuntu" release="$SERIES" arches="$ARCH" \
-    subarches="$KERNEL" labels="*"
-```
-
-For example, to select all kernels for 64-bit Trusty from a boot source with an id of '1':
-
-``` bash
-maas $PROFILE boot-source-selections create 1 \
-    os="ubuntu" release="trusty" arches="amd64" \
-    subarches="*" labels="*"
-```
-
-<h3 id="heading--hardware-enablement-hwe">Hardware enablement (HWE)</h3>
-
-For example, to get just the latest amd64 HWE kernel available for Trusty, which, at time of writing, is from Xenial:
+<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
+Based on the above, then, we could have also entered:
 
 ``` bash
-maas $PROFILE boot-source-selections create 1 \
-    os="ubuntu" release="trusty" arches="amd64" \
-    subarches="hwe-x" labels="*"
+sudo maas-rack register --url http://10.5.1.5:5240/MAAS \
+    --secret fa847000e7cb681101d26e3477e6e39e
 ```
+snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
 
-For Xenial kernels (and starting with MAAS 2.1), notation has changed. To select the latest amd64 HWE kernel available for Xenial:
+Installing a rack controller consists of installing the rack controller software and then registering the rack controller with the region API server.  When MAAS installs a rack controller on the same host as the region API server, registration occurs automatically. 
 
-``` bash
-maas $PROFILE boot-source-selections create 1 \
-    os="ubuntu" release="xenial" arches="amd64" \
-    subarches="hwe-16.04" labels="*"
-```
+Once registered, this extra rack controller will appear immediately alongside the primary controller in the web UI and begin to sync with it:
 
-<h2 id="heading--list-image-selections">List image selections</h2>
+<a href="https://discourse.maas.io/uploads/default/original/1X/0a5f1d374a3e53235a83eb157163be49016e63b5.png" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/0a5f1d374a3e53235a83eb157163be49016e63b5.png"></a> 
 
-To list image selections for a boot source:
-
-``` bash
-maas $PROFILE boot-source-selections read $SOURCE_ID
-```
-
-<h2 id="heading--import-newly-selected-images">Import newly-selected images</h2>
-
-To import newly-selected images (boot resources):
-
-``` bash
-maas $PROFILE boot-resources import
-```
-
-Once newly-selected images are imported, a sync mechanism is enabled (by default) to keep them up to date. The refresh time interval is 60 minutes.
-
-Available images resulting from this action are reflected in the web UI.
-
-<h2 id="heading--list-currently-available-images">List currently available images</h2>
-
-To list currently available/imported images (boot resources):
-
-``` bash
-maas $PROFILE boot-resources read
-```
-
-<h2 id="heading--delete-a-boot-source">Delete a boot source</h2>
-
-To delete a boot source (the location from which you can download images): 
-
-``` bash
-maas $PROFILE boot-source delete $SOURCE_ID
-```
-
-If you delete the sole boot source, then the fields 'Sync URL' and 'Keyring Path' in the web UI will take on null values.
-
-<h2 id="heading--edit-a-boot-source">Edit a boot source</h2>
-
-You can edit an existing boot source by changing the GPG keyring file ($KEYRING_FILE) and the location ($URL).
-
-Update the boot source:
-
-``` bash
-maas $PROFILE boot-source update $SOURCE_ID \
-    url=$URL keyring_filename=$KEYRING_FILE
-```
-
-At this time MAAS only supports a boot source containing official MAAS images. As a result, you can only edit a boot source if you have set up a mirror of its images. The location can change, but the keyring remains constant:
-
-KEYRING_FILE=/usr/share/keyrings/ubuntu-cloudimage-keyring.gpg
-
-<h2 id="heading--add-a-boot-source">Add a boot source</h2>
-
-[note]
-To avoid unnecessary complexity, you should probably delete any existing boot sources before adding a new one.
-[/note]
-
-Presented below are two use cases for adding a boot source:
-
-1.  Use a local image mirror (official images)
-2.  If you deleted the default image, recreate it
-
-The general syntax is:
-
-``` bash
-maas $PROFILE boot-sources create \
-    url=$URL keyring_filename=$KEYRING_FILE
-```
-
-The output will include a new numeric ID that identifies the boot source ($SOURCE_ID).
-
-Since MAAS can only practically work with a single boot source, so you will need to delete any existing sources. Note that the location (URL) is the only variable. The only supported keyring is:
-
-KEYRING_FILE=/usr/share/keyrings/ubuntu-cloudimage-keyring.gpg
-
-If you added a sole boot source, then the fields 'Sync URL' and 'Keyring Path' in the web UI will reflect its values.
-
-<h3 id="heading--using-a-local-image-mirror">Using a local image mirror</h3>
-
+<h2 id="heading--list-rack-controllers">List rack controllers</h2>
 
 <!-- deb-2-7-cli
-Once the mirror is set up according to [Local image mirror](/t/local-image-mirror/2808) it is just a matter of specifying the mirror location (URL). Since the images come from the default source, you should use the default keyring. If you are following the above mirror document, the variable values should be:
+You can also list and confirm all registered rack controllers:
+
+``` bash
+maas $PROFILE rack-controllers read | grep hostname | cut -d '"' -f 4
+```
+
+Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2688) configurations.
  deb-2-7-cli -->
 
+<!-- deb-2-7-ui
+You can also list and confirm all registered rack controllers via the CLI; select the "Packages 2.7 CLI" link at the top of the page to find out how.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2689) configurations.
+ deb-2-7-ui -->
+
 <!-- deb-2-8-cli
-Once the mirror is set up according to [Local image mirror](/t/local-image-mirror/2810) it is just a matter of specifying the mirror location (URL). Since the images come from the default source, you should use the default keyring. If you are following the above mirror document, the variable values should be:
+You can also list and confirm all registered rack controllers:
+
+``` bash
+maas $PROFILE rack-controllers read | grep hostname | cut -d '"' -f 4
+```
+
+Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2690) configurations.
  deb-2-8-cli -->
 
+<!-- deb-2-8-ui
+You can also list and confirm all registered rack controllers via the CLI; select the "Packages 2.8 CLI" link at the top of the page to find out how. Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2691) configurations.
+ deb-2-8-ui -->
+
 <!-- deb-2-9-cli
-Once the mirror is set up according to [Local image mirror](/t/local-image-mirror/2812) it is just a matter of specifying the mirror location (URL). Since the images come from the default source, you should use the default keyring. If you are following the above mirror document, the variable values should be:
+You can also list and confirm all registered rack controllers:
+
+``` bash
+maas $PROFILE rack-controllers read | grep hostname | cut -d '"' -f 4
+```
+
+Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2692) configurations.
  deb-2-9-cli -->
 
+<!-- deb-2-9-ui
+You can also list and confirm all registered rack controllers via the CLI; select the "Packages 2.9 CLI" link at the top of the page to find out how.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2693) configurations.
+ deb-2-9-ui -->
+
 <!-- snap-2-7-cli
-Once the mirror is set up according to [Local image mirror](/t/local-image-mirror/2802) it is just a matter of specifying the mirror location (URL). Since the images come from the default source, you should use the default keyring. If you are following the above mirror document, the variable values should be:
+You can also list and confirm all registered rack controllers:
+
+``` bash
+maas $PROFILE rack-controllers read | grep hostname | cut -d '"' -f 4
+```
+
+Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2682) configurations.
  snap-2-7-cli -->
 
+<!-- snap-2-7-ui
+You can also list and confirm all registered rack controllers via the CLI; select the "Snap 2.7 CLI" link at the top of the page to find out how.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2683) configurations.
+ snap-2-7-ui -->
+
 <!-- snap-2-8-cli
-Once the mirror is set up according to [Local image mirror](/t/local-image-mirror/2804) it is just a matter of specifying the mirror location (URL). Since the images come from the default source, you should use the default keyring. If you are following the above mirror document, the variable values should be:
+You can also list and confirm all registered rack controllers:
+
+``` bash
+maas $PROFILE rack-controllers read | grep hostname | cut -d '"' -f 4
+```
+
+Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2684) configurations.
  snap-2-8-cli -->
 
-Once the mirror is set up according to [Local image mirror](/t/local-image-mirror/2806) it is just a matter of specifying the mirror location (URL). Since the images come from the default source, you should use the default keyring. If you are following the above mirror document, the variable values should be:
+<!-- snap-2-8-ui
+You can also list and confirm all registered rack controllers via the CLI; select the "Snap 2.8 CLI" link at the top of the page to find out how.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2685) configurations.
+ snap-2-8-ui -->
 
+<!-- snap-2-9-cli
+You can also list and confirm all registered rack controllers:
 
--   URL=https://$MIRROR/maas/images/ephemeral-v3/daily/
--   KEYRING_FILE=/usr/share/keyrings/ubuntu-cloudimage-keyring.gpg
+``` bash
+maas $PROFILE rack-controllers read | grep hostname | cut -d '"' -f 4
+```
 
-Where $MIRROR is the mirror server's hostname or IP address.
+ Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2686) configurations.
+ snap-2-9-cli -->
 
-<h3 id="heading--recreate-the-default-boot-source">Recreate the default boot source</h3>
+You can also list and confirm all registered rack controllers via the CLI; select the "Snap 2.9 CLI" link at the top of the page to find out how.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2687) configurations.
 
-Recreate the default boot source if it was ever deleted using the following variable values:
+<div class="p-notification">
+<p class="p-notification__response">If you are using VM nodes, you must ensure that the new rack controller can communicate with the VM host.</p>
+</div>
 
--   URL=https://images.maas.io/ephemeral-v3/daily/
--   KEYRING_FILE=/usr/share/keyrings/ubuntu-cloudimage-keyring.gpg
+<h2 id="heading--unregister-a-rack-controller">Unregister a rack controller</h2>
+
+Most likely, you would only “unregister” an extra, unnecessary rack controller.  In this case, you need to <em>delete</em> it from the region API server; there is no ‘unregister’ command.
+
+To do so, navigate to the ‘Controllers’ page of the web UI. Enter the controller’s page by clicking on the machine you want to delete and select ‘Delete’ from the drop-down (and then ‘Delete controller’). MAAS will do the right thing if the controller is used for DHCP HA; that is, the DHCP HA needs to be disabled.
+
+Although similar, this is not the same as deletion. Here, you are deleting a machine that is a part of MAAS itself.
+
+<div class="p-notification">
+<p class="p-notification__response">Unless you remove the software on this machine, rebooting it will cause the machine to re-instate itself as a rack controller. This behaviour may change with future versions of MAAS.</p>
+</div>

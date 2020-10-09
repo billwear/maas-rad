@@ -6,9 +6,9 @@ This article is a list of advanced tasks you can perform with the MAAS CLI.
 * [How do I edit machine hostname and power parameters?](/t/cli-advanced-tasks/793#heading--edit-node-hostname-and-power-parameters)
 * [How do I relay DHCP?](/t/cli-advanced-tasks/793#heading--relay-dhcp)
 * [How do I assign a network interface to a fabric?](/t/cli-advanced-tasks/793#heading--assign-a-network-interface-to-a-fabric)
-* [How do I change the IP assignment mode of a network interface?](/t/cli-advanced-tasks/793#heading--change-the-ip-assignment-mode-of-a-network-interface)
-* [How do I install a rack controller?](/t/cli-advanced-tasks/793#heading--install-a-rack-controller)
-* [How do I list rack controllers?](/t/cli-advanced-tasks/793#heading--list-rack-controllers)
+* [How do I change the IP assignment mode of a network interface?](/t/commission-machines-snap-2-8-cli/2468##heading--post-commission-configuration)
+* [How do I install a rack controller?](/t/rack-controllers-snap-2-8-cli/3056#heading--install-a-rack-controller)
+* [How do I list rack controllers?](/t/rack-controllers-snap-2-8-cli/3056#heading--list-rack-controllers)
 * [How do I set the default storage layout?](/t/cli-advanced-tasks/793#heading--set-the-default-storage-layout)
 * [How do I set a storage layout?](/t/cli-advanced-tasks/793#heading--set-a-storage-layout)
 * [How do I create an A or AAAA record in DNS?](/t/cli-advanced-tasks/793#heading--create-an-a-or-aaaa-record-in-dns)
@@ -133,74 +133,6 @@ The output shows that the interface is now on fabric-0:
 ``` no-highlight
 {"id":8,"name":"eth0","mac":"52:54:00:01:01:01","vid":0,"fabric":"fabric-0"}
 {"id":9,"name":"eth1","mac":"52:54:00:01:01:02","vid":null,"fabric":null}
-```
-
-<h2 id="heading--change-the-ip-assignment-mode-of-a-network-interface">Change the IP assignment mode of a network interface</h2>
-
-If you want to edit the IP assignment mode of a network interface, the existing subnet link first needs to be removed.
-
-Begin by finding the interface ID as well as the interface's subnet link ID with the command:
-
-``` bash
-maas $PROFILE node read $SYSTEM_ID
-```
-
-Once that's done, proceed to unlink and link:
-
-``` bash
-maas $PROFILE interface unlink-subnet $SYSTEM_ID $INTERFACE_ID id=$SUBNET_LINK_ID
-maas $PROFILE interface link-subnet $SYSTEM_ID $INTERFACE_ID mode=$IP_MODE subnet=$SUBNET_CIDR [$OPTIONS]
-```
-
-For instance, to have interface '58', with subnet link '146', on machine 'exqn37' use DHCP on subnet '192.168.1.0/24':
-
-``` bash
-maas $PROFILE interface unlink-subnet exqn37 58 id=146
-maas $PROFILE interface link-subnet exqn37 58 mode=dhcp subnet=192.168.1.0/24
-```
-
-If instead of DHCP, you desire a static address, then the second command would look like this:
-
-``` bash
-maas $PROFILE interface link-subnet exqn37 58 mode=static subnet=192.168.1.0/24 ip_address=192.168.1.113
-```
-
-For a summary of IP assignment modes see [Post-commission configuration](/t/commission-machines/822#heading--post-commission-configuration).
-
-<h2 id="heading--install-a-rack-controller">Install a rack controller</h2>
-
-To install and register a rack controller with the MAAS:
-
-``` bash
-sudo apt install maas-rack-controller
-sudo maas-rack register
-```
-
-[note]
-The register command is not required when you are adding a rack controller to a system that already houses an API server.
-[/note]
-
-MAAS will ask for the URL of the region API server. If you provide a hostname, ensure it is resolvable. Next, MAAS will prompt you for the secret key, stored in file `/var/lib/maas/secret` on the API server.
-
-You can get the above information from the web UI by visiting the 'Controllers' page and clicking the button 'Add rack controller'. Here is an example of what you may see:
-
-<a href="https://assets.ubuntu.com/v1/61fa1b99-manage-maas-cli-advanced__2.2_install-rackd.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/61fa1b99-manage-maas-cli-advanced__2.2_install-rackd.png"></a>
-
-Based on the above, then, we could have also entered:
-
-``` bash
-sudo maas-rack register --url http://10.5.1.5:5240/MAAS \
-    --secret fa847000e7cb681101d26e3477e6e39e
-```
-
-See [Rack controller](/t/rack-controllers/771) for an overview.
-
-<h2 id="heading--list-rack-controllers">List rack controllers</h2>
-
-To list all rack controllers registered with the region:
-
-``` bash
-maas $PROFILE rack-controllers read | grep hostname | cut -d '"' -f 4
 ```
 
 <h2 id="heading--set-the-default-storage-layout">Set the default storage layout</h2>

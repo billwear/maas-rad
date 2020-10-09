@@ -56,26 +56,39 @@ The output looks like this:
 "node2"
 "e8xa8m"
 ```
+<h2 id="heading--commission-a-node">Commission a machine</h2>
 
-<h2 id="heading--commission-a-node">Commission a node</h2>
-
-To commission a node:
+To commission a machine:
 
 ``` bash
 maas $PROFILE machine commission $SYSTEM_ID
 ```
 
 [note]
-To commission a node, it must have a status of 'New'.
+To commission a machines, it must have a status of 'New'.
 [/note]
 
-To commission all nodes in the 'New' state:
+To commission all machines in the 'New' state:
 
 ``` bash
 maas $PROFILE machines accept-all
 ```
 
-See [Commission nodes](/t/commission-machines/822).
+You have the option of setting some parameters to change how commission runs:
+
+* `enable_ssh`: Optional integer. Controls whether to enable SSH for the commissioning environment using the user's SSH key(s). '1' == True, '0' == False. Roughly equivalent to the **Allow SSH access and prevent machine powering off** in the web UI.
+
+* `skip_bmc_config`: Optional integer.  Controls whether to skip re-configuration of the BMC for IPMI based machines. '1' == True, '0' == False.
+
+* `skip_networking`: Optional integer.  Controls whether to skip re-configuring the networking on the machine after the commissioning has completed. '1' == True, '0' == False. Roughly equivalent to **Retain network configuration** in the web UI.
+
+* `skip_storage`: Optional integer.  Controls hether to skip re-configuring the storage on the machine after the commissioning has completed. '1' == True, '0' == False.  Roughly equivalent to **Retain storage configuration** in the web UI.
+
+* `commissioning_scripts`: Optional string.  A comma seperated list of commissioning script names and tags to be run. By default all custom commissioning scripts are run. Built-in commissioning scripts always run. Selecting 'update_firmware' or 'configure_hba' will run firmware updates or configure HBA's on matching machines.
+
+* `testing_scripts`: Optional string.  A comma seperated list of testing script names and tags to be run. By default all tests tagged 'commissioning' will be run. Set to 'none' to disable running tests.
+
+* `parameters`: Optional string.  Scripts selected to run may define their own parameters. These parameters may be passed using the parameter name. Optionally a parameter may have the script name prepended to have that parameter only apply to that specific script.
 
 <h2 id="heading--acquire-a-node">Acquire a node</h2>
 

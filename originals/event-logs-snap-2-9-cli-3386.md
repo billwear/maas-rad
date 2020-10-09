@@ -100,3 +100,15 @@ To view the Events log (for a particular machine), select a machine from the mac
 
 You can also see a more detailed view by selecting "View full history" in near the upper right of the log output.
 snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
+
+To view the raw Events log, enter the following command:
+
+```
+maas $PROFILE events query
+```
+
+You can tabulate the results, sorted by machine, with the following command:
+
+```
+maas admin events query | jq -r '(["HOSTNAME","TIMESTAMP","TYPE","DESCRIPTION"] | (., map(length*"-"))),
+(.events[] | [.hostname, .created, .type, .description // "-"]) | @tsv' | column -t -s $'\t'

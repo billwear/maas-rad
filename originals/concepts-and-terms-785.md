@@ -1,87 +1,3 @@
-<!-- deb-2-7-cli
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/concepts-and-terms-snap-2-7-cli/2514) ~ [UI](/t/concepts-and-terms-snap-2-7-ui/2515)|[CLI](/t/concepts-and-terms-snap-2-8-cli/2516) ~ [UI](/t/concepts-and-terms-snap-2-8-ui/2517)|[CLI](/t/concepts-and-terms-snap-2-9-cli/2518) ~ [UI](/t/concepts-and-terms-snap-2-9-ui/2519)|
-|Packages|CLI ~ [UI](/t/concepts-and-terms-deb-2-7-ui/2521)|[CLI](/t/concepts-and-terms-deb-2-8-cli/2522) ~ [UI](/t/concepts-and-terms-deb-2-8-ui/2523)|[CLI](/t/concepts-and-terms-deb-2-9-cli/2524) ~ [UI](/t/concepts-and-terms-deb-2-9-ui/2525)|
- deb-2-7-cli -->
-
-<!-- deb-2-7-ui
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/concepts-and-terms-snap-2-7-cli/2514) ~ [UI](/t/concepts-and-terms-snap-2-7-ui/2515)|[CLI](/t/concepts-and-terms-snap-2-8-cli/2516) ~ [UI](/t/concepts-and-terms-snap-2-8-ui/2517)|[CLI](/t/concepts-and-terms-snap-2-9-cli/2518) ~ [UI](/t/concepts-and-terms-snap-2-9-ui/2519)|
-|Packages|[CLI](/t/concepts-and-terms-deb-2-7-cli/2520) ~ UI|[CLI](/t/concepts-and-terms-deb-2-8-cli/2522) ~ [UI](/t/concepts-and-terms-deb-2-8-ui/2523)|[CLI](/t/concepts-and-terms-deb-2-9-cli/2524) ~ [UI](/t/concepts-and-terms-deb-2-9-ui/2525)|
- deb-2-7-ui -->
-
-<!-- deb-2-8-cli
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/concepts-and-terms-snap-2-7-cli/2514) ~ [UI](/t/concepts-and-terms-snap-2-7-ui/2515)|[CLI](/t/concepts-and-terms-snap-2-8-cli/2516) ~ [UI](/t/concepts-and-terms-snap-2-8-ui/2517)|[CLI](/t/concepts-and-terms-snap-2-9-cli/2518) ~ [UI](/t/concepts-and-terms-snap-2-9-ui/2519)|
-|Packages|[CLI](/t/concepts-and-terms-deb-2-7-cli/2520) ~ [UI](/t/concepts-and-terms-deb-2-7-ui/2521)|CLI ~ [UI](/t/concepts-and-terms-deb-2-8-ui/2523)|[CLI](/t/concepts-and-terms-deb-2-9-cli/2524) ~ [UI](/t/concepts-and-terms-deb-2-9-ui/2525)|
- deb-2-8-cli -->
-
-<!-- deb-2-8-ui
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/concepts-and-terms-snap-2-7-cli/2514) ~ [UI](/t/concepts-and-terms-snap-2-7-ui/2515)|[CLI](/t/concepts-and-terms-snap-2-8-cli/2516) ~ [UI](/t/concepts-and-terms-snap-2-8-ui/2517)|[CLI](/t/concepts-and-terms-snap-2-9-cli/2518) ~ [UI](/t/concepts-and-terms-snap-2-9-ui/2519)|
-|Packages|[CLI](/t/concepts-and-terms-deb-2-7-cli/2520) ~ [UI](/t/concepts-and-terms-deb-2-7-ui/2521)|[CLI](/t/concepts-and-terms-deb-2-8-cli/2522) ~ UI|[CLI](/t/concepts-and-terms-deb-2-9-cli/2524) ~ [UI](/t/concepts-and-terms-deb-2-9-ui/2525)|
- deb-2-8-ui -->
-
-<!-- deb-2-9-cli
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/concepts-and-terms-snap-2-7-cli/2514) ~ [UI](/t/concepts-and-terms-snap-2-7-ui/2515)|[CLI](/t/concepts-and-terms-snap-2-8-cli/2516) ~ [UI](/t/concepts-and-terms-snap-2-8-ui/2517)|[CLI](/t/concepts-and-terms-snap-2-9-cli/2518) ~ [UI](/t/concepts-and-terms-snap-2-9-ui/2519)|
-|Packages|[CLI](/t/concepts-and-terms-deb-2-7-cli/2520) ~ [UI](/t/concepts-and-terms-deb-2-7-ui/2521)|[CLI](/t/concepts-and-terms-deb-2-8-cli/2522) ~ [UI](/t/concepts-and-terms-deb-2-8-ui/2523)|CLI ~ [UI](/t/concepts-and-terms-deb-2-9-ui/2525)|
- deb-2-9-cli -->
-
-<!-- deb-2-9-ui
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/concepts-and-terms-snap-2-7-cli/2514) ~ [UI](/t/concepts-and-terms-snap-2-7-ui/2515)|[CLI](/t/concepts-and-terms-snap-2-8-cli/2516) ~ [UI](/t/concepts-and-terms-snap-2-8-ui/2517)|[CLI](/t/concepts-and-terms-snap-2-9-cli/2518) ~ [UI](/t/concepts-and-terms-snap-2-9-ui/2519)|
-|Packages|[CLI](/t/concepts-and-terms-deb-2-7-cli/2520) ~ [UI](/t/concepts-and-terms-deb-2-7-ui/2521)|[CLI](/t/concepts-and-terms-deb-2-8-cli/2522) ~ [UI](/t/concepts-and-terms-deb-2-8-ui/2523)|[CLI](/t/concepts-and-terms-deb-2-9-cli/2524) ~ UI|
- deb-2-9-ui -->
-
-<!-- snap-2-7-cli
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|CLI ~ [UI](/t/concepts-and-terms-snap-2-7-ui/2515)|[CLI](/t/concepts-and-terms-snap-2-8-cli/2516) ~ [UI](/t/concepts-and-terms-snap-2-8-ui/2517)|[CLI](/t/concepts-and-terms-snap-2-9-cli/2518) ~ [UI](/t/concepts-and-terms-snap-2-9-ui/2519)|
-|Packages|[CLI](/t/concepts-and-terms-deb-2-7-cli/2520) ~ [UI](/t/concepts-and-terms-deb-2-7-ui/2521)|[CLI](/t/concepts-and-terms-deb-2-8-cli/2522) ~ [UI](/t/concepts-and-terms-deb-2-8-ui/2523)|[CLI](/t/concepts-and-terms-deb-2-9-cli/2524) ~ [UI](/t/concepts-and-terms-deb-2-9-ui/2525)|
- snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/concepts-and-terms-snap-2-7-cli/2514) ~ UI|[CLI](/t/concepts-and-terms-snap-2-8-cli/2516) ~ [UI](/t/concepts-and-terms-snap-2-8-ui/2517)|[CLI](/t/concepts-and-terms-snap-2-9-cli/2518) ~ [UI](/t/concepts-and-terms-snap-2-9-ui/2519)|
-|Packages|[CLI](/t/concepts-and-terms-deb-2-7-cli/2520) ~ [UI](/t/concepts-and-terms-deb-2-7-ui/2521)|[CLI](/t/concepts-and-terms-deb-2-8-cli/2522) ~ [UI](/t/concepts-and-terms-deb-2-8-ui/2523)|[CLI](/t/concepts-and-terms-deb-2-9-cli/2524) ~ [UI](/t/concepts-and-terms-deb-2-9-ui/2525)|
- snap-2-7-ui -->
-
-<!-- snap-2-8-cli
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/concepts-and-terms-snap-2-7-cli/2514) ~ [UI](/t/concepts-and-terms-snap-2-7-ui/2515)|CLI ~ [UI](/t/concepts-and-terms-snap-2-8-ui/2517)|[CLI](/t/concepts-and-terms-snap-2-9-cli/2518) ~ [UI](/t/concepts-and-terms-snap-2-9-ui/2519)|
-|Packages|[CLI](/t/concepts-and-terms-deb-2-7-cli/2520) ~ [UI](/t/concepts-and-terms-deb-2-7-ui/2521)|[CLI](/t/concepts-and-terms-deb-2-8-cli/2522) ~ [UI](/t/concepts-and-terms-deb-2-8-ui/2523)|[CLI](/t/concepts-and-terms-deb-2-9-cli/2524) ~ [UI](/t/concepts-and-terms-deb-2-9-ui/2525)|
- snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/concepts-and-terms-snap-2-7-cli/2514) ~ [UI](/t/concepts-and-terms-snap-2-7-ui/2515)|[CLI](/t/concepts-and-terms-snap-2-8-cli/2516) ~ UI|[CLI](/t/concepts-and-terms-snap-2-9-cli/2518) ~ [UI](/t/concepts-and-terms-snap-2-9-ui/2519)|
-|Packages|[CLI](/t/concepts-and-terms-deb-2-7-cli/2520) ~ [UI](/t/concepts-and-terms-deb-2-7-ui/2521)|[CLI](/t/concepts-and-terms-deb-2-8-cli/2522) ~ [UI](/t/concepts-and-terms-deb-2-8-ui/2523)|[CLI](/t/concepts-and-terms-deb-2-9-cli/2524) ~ [UI](/t/concepts-and-terms-deb-2-9-ui/2525)|
- snap-2-8-ui -->
-
-<!-- snap-2-9-cli
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/concepts-and-terms-snap-2-7-cli/2514) ~ [UI](/t/concepts-and-terms-snap-2-7-ui/2515)|[CLI](/t/concepts-and-terms-snap-2-8-cli/2516) ~ [UI](/t/concepts-and-terms-snap-2-8-ui/2517)|CLI ~ [UI](/t/concepts-and-terms-snap-2-9-ui/2519)|
-|Packages|[CLI](/t/concepts-and-terms-deb-2-7-cli/2520) ~ [UI](/t/concepts-and-terms-deb-2-7-ui/2521)|[CLI](/t/concepts-and-terms-deb-2-8-cli/2522) ~ [UI](/t/concepts-and-terms-deb-2-8-ui/2523)|[CLI](/t/concepts-and-terms-deb-2-9-cli/2524) ~ [UI](/t/concepts-and-terms-deb-2-9-ui/2525)|
- snap-2-9-cli -->
-
-<!-- snap-2-9-ui
-||2.7|2.8|2.9|
-|-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/concepts-and-terms-snap-2-7-cli/2514) ~ [UI](/t/concepts-and-terms-snap-2-7-ui/2515)|[CLI](/t/concepts-and-terms-snap-2-8-cli/2516) ~ [UI](/t/concepts-and-terms-snap-2-8-ui/2517)|[CLI](/t/concepts-and-terms-snap-2-9-cli/2518) ~ UI|
-|Packages|[CLI](/t/concepts-and-terms-deb-2-7-cli/2520) ~ [UI](/t/concepts-and-terms-deb-2-7-ui/2521)|[CLI](/t/concepts-and-terms-deb-2-8-cli/2522) ~ [UI](/t/concepts-and-terms-deb-2-8-ui/2523)|[CLI](/t/concepts-and-terms-deb-2-9-cli/2524) ~ [UI](/t/concepts-and-terms-deb-2-9-ui/2525)|
- snap-2-9-ui -->
-
 Built on a foundation of networking knowledge, MAAS introduces a number of new terms, and adds some nuances to common terms.  Some of these terms may be common networking terms you never looked up; others represent more complex concepts that may be unique to MAAS.  This article presents and explains some of these important terms.
 
 <details><summary>Show me an alphabetical list of terms</summary>
@@ -106,6 +22,7 @@ Built on a foundation of networking knowledge, MAAS introduces a number of new t
 * [Network infrastructure](/t/concepts-and-terms/785#heading--network-infrastructure)
 * [Network interface](/t/concepts-and-terms/785#heading--network-interface)
 * [Network topology](/t/concepts-and-terms/785#heading--network-topology)
+* [NUMA](/t/concepts-and-terms/785#heading--numa)
 * [Nodes](/t/concepts-and-terms/785#heading--nodes)
 * [Package repositories](/t/package-repositories/814)
 * [Packet](/t/concepts-and-terms/785#heading--packet)
@@ -524,6 +441,16 @@ To add this PPA, then, hit the 'Add repository' button and fill in the fields. B
 Click 'Add repository' to save the configuration.
 
 See [Launchpad PPAs](https://help.launchpad.net/Packaging/PPA) for more information on PPAs.
+
+<h2 id="heading--numa">NUMA/vNUMA</a>
+
+NUMA stands for "Non-Uniform Memory Access."  In this context, "non-uniform" means that any given CPU can access its dedicated memory faster than the memory dedicated to other CPUs.  A NUMA configuration groups CPU(s) and memory as a dedicated node, which reduces memory access times, so the CPU won't spend a lot of time stalled in wait states -- that is, waiting for access to data in memory, either because the memory is relatively far away (proximity) or because other CPUs have access to the same memory (shared memory). In other words, NUMA works better when the CPU has dedicated memory that is relatively close by.  The process of optimizing thread and process scheduling so that the CPU running the code and the required data are close together is sometimes known as "creating affinity."
+
+In this context, "far away" could mean physical distance (more wire or a longer bus distance), more interceding processes (as in virtual machines), or both.  
+
+This affinity creates NUMA "nodes," which can be addressed as black boxes from a symmetric multi-processing (SMP) point of view.  Tasks are assigned to nodes to minimize overhead and wait states.  There is more flexibility in creating affinity when using virtual machines, because memory and CPU are constructs overlaid on existing hardware, rather than hard silicon.  While this seems as if it might make SMP easier, in fact, it creates difficulties because of the nature of virtual machines and the potential number of interceding processes that manage virtual memory.  For optimum performance, VMs should be aligned to a single NUMA node, so that resources are not split across nodes.
+
+In practice, this means that VMs would be "pinned" to specific physical cores (CPUs) to create stability.  While the user has the choice of how to pin VMs, MAAS provides visual information that helps the user see how VMs are allocated to physical hardware, and make adjustments if that arrangement isn't (or turns out not to be) optimal.
 
 <h2 id="heading--network-tutorial">Brief network tutorial</h2>
 

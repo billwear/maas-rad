@@ -204,7 +204,7 @@ snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
 #### Quick questions you may have:
 
 * [How do I get started with the MAAS CLI?](/t/maas-cli/802)
-* [How do I effect rudimentary tag creation?](#heading--rudimentary-tag-creation)
+* [How do I create tags?](#heading--rudimentary-tag-creation)
 * [How do I do tag creation and auto-assignment?](#heading--tag-creation-and-auto-assignment)
 * [How do I delete a tag?](#heading--delete-a-tag)
 * [How do I list all tags?](#heading--list-all-tags)
@@ -213,7 +213,7 @@ snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
 * [How do I effect manual tag assignment?](#heading--manual-tag-assignment)
 * [How do I effect hybrid tag assignment?](#heading--hybrid-tag-assignment)
 
-<h2 id="heading--rudimentary-tag-creation">Rudimentary tag creation</h2>
+<h2 id="heading--rudimentary-tag-creation">Tag creation</h2>
 
 ``` bash
 maas $PROFILE tags create name=$TAG_NAME
@@ -237,6 +237,24 @@ maas $PROFILE tags create name='gpu' \
 ```
 
 We recommend that each tag have a short name and a comment that adequately describes it. You should make sure to create both of these because they will help you identify and use the tag later.
+
+<h2 id="heading--tags-for-network-interfaces</h2>
+
+It's also possible to assign tags to specific network interfaces. You can use these tags when searching for machines within the web UI and when allocating machines from the API.
+
+Network interface tags can only be assigned when a machine is in either a 'Ready' or a 'Broken' state.
+
+To add a tag to a network interface, use the following command:
+
+```
+maas $PROFILE interface add-tag $SYSTEM_ID $INTERFACE_ID tag=$TAG_STRING
+```
+
+To delete a tag from a network interface:
+
+```
+maas $PROFILE interface remove-tag $SYSTEM_ID $INTERFACE_ID tag=$TAG_STRING
+```
 
 <h2 id="heading--delete-a-tag">Delete a tag</h2>
 
