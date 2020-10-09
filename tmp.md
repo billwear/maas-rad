@@ -1,317 +1,252 @@
+<!-- flip -->
 <!-- deb-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|CLI ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|CLI ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
  deb-2-7-cli -->
 
 <!-- deb-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ UI|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ UI|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
  deb-2-7-ui -->
 
 <!-- deb-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|CLI ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|CLI ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
  deb-2-8-cli -->
 
 <!-- deb-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ UI|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ UI|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
  deb-2-8-ui -->
 
 <!-- deb-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|CLI ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|CLI ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
  deb-2-9-cli -->
 
 <!-- deb-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ UI|
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ UI|
  deb-2-9-ui -->
 
 <!-- snap-2-7-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|CLI ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|CLI ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
  snap-2-7-cli -->
 
 <!-- snap-2-7-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ UI|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ UI|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
  snap-2-7-ui -->
 
 <!-- snap-2-8-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|CLI ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|CLI ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
  snap-2-8-cli -->
 
-<!-- snap-2-8-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ UI|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
- snap-2-8-ui -->
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ UI|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
 
 <!-- snap-2-9-cli
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|CLI ~ [UI](/t/rack-controllers-snap-2-9-ui/3059)|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|CLI ~ [UI](/t/availability-zones-snap-2-9-ui/2327)|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
  snap-2-9-cli -->
 
+<!-- snap-2-9-ui
 ||2.7|2.8|2.9|
 |-----:|:-----:|:-----:|:-----:|
-|Snap|[CLI](/t/rack-controllers-snap-2-7-cli/3054) ~ [UI](/t/rack-controllers-snap-2-7-ui/3055)|[CLI](/t/rack-controllers-snap-2-8-cli/3056) ~ [UI](/t/rack-controllers-snap-2-8-ui/3057)|[CLI](/t/rack-controllers-snap-2-9-cli/3058) ~ UI|
-|Packages|[CLI](/t/rack-controllers-deb-2-7-cli/3060) ~ [UI](/t/rack-controllers-deb-2-7-ui/3061)|[CLI](/t/rack-controllers-deb-2-8-cli/3062) ~ [UI](/t/rack-controllers-deb-2-8-ui/3063)|[CLI](/t/rack-controllers-deb-2-9-cli/3064) ~ [UI](/t/rack-controllers-deb-2-9-ui/3065)|
+|Snap|[CLI](/t/availability-zones-snap-2-7-cli/2322) ~ [UI](/t/availability-zones-snap-2-7-ui/2323)|[CLI](/t/availability-zones-snap-2-8-cli/2324) ~ [UI](/t/availability-zones-snap-2-8-ui/2325)|[CLI](/t/availability-zones-snap-2-9-cli/2326) ~ UI|
+|Packages|[CLI](/t/availability-zones-deb-2-7-cli/2328) ~ [UI](/t/availability-zones-deb-2-7-ui/2329)|[CLI](/t/availability-zones-deb-2-8-cli/2330) ~ [UI](/t/availability-zones-deb-2-8-ui/2331)|[CLI](/t/availability-zones-deb-2-9-cli/2332) ~ [UI](/t/availability-zones-deb-2-9-ui/2333)|
+ snap-2-9-ui -->
 
-A rack controller can connect to multiple VLANs, each from a different network interface. This configuration provides a scaling factor that can help as a network architecture grows in size.
+<!-- deb-2-7-cli
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3276) for more details.
+ deb-2-7-cli -->
+
+<!-- deb-2-7-ui
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3277) for more details.
+ deb-2-7-ui -->
+
+<!-- deb-2-8-cli
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3278) for more details.
+ deb-2-8-cli -->
+
+<!-- deb-2-8-ui
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3279) for more details.
+ deb-2-8-ui -->
+
+<!-- deb-2-9-cli
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3280) for more details.
+ deb-2-9-cli -->
+
+<!-- deb-2-9-ui
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3281) for more details.
+ deb-2-9-ui -->
+
+<!-- snap-2-7-cli
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3270) for more details.
+ snap-2-7-cli -->
+
+<!-- snap-2-7-ui
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3271) for more details.
+ snap-2-7-ui -->
+
+<!-- snap-2-8-cli
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3272) for more details.
+ snap-2-8-cli -->
+
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3273) for more details.
+
+<!-- snap-2-9-cli
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3274) for more details.
+ snap-2-9-cli -->
+
+<!-- snap-2-9-ui
+An availability zone is an organisational unit containing nodes, where each node is in exactly one zone. While in production, a machine can be allocated from a specific zone.  Availability zones can be used for fault-tolerance, service performance, and power management. See [Zone examples](/t/zone-examples/3275) for more details.
+ snap-2-9-ui -->
+
+A newly installed MAAS comes with a default zone which initially contains all nodes. You cannot remove the 'default' zone or change its name, but you can create new zones and assign machine to them.  You can safely ignore this article if you're not interested in leveraging zones.
 
 #### Quick questions you may have:
 
-<!-- deb-2-7-cli
-* [How does MAAS communication work?](/t/maas-communication/2832)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I list rack controllers?](#heading--list-rack-controllers)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2688#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- deb-2-7-cli -->
+* [How do I list availability zones?](#heading--list-zones)
+* [How do I add an availability zone?](#heading--add-a-zone)
+* [How do I edit an existing availability zone?](#heading--edit-a-zone)
+* [How do I delete an existing availability zone?](#heading--delete-a-zone)
+* [How do I assign a machine to an availability zone?](#heading--assign-a-node-to-a-zone)
+* [How do I allocate a machine in a particular zone?](#heading--allocate-a-node-in-a-zone)
 
-<!-- deb-2-7-ui
-* [How does MAAS communication work?](/t/maas-communication/2833)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I list rack controllers?](#heading--list-rack-controllers)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2689#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- deb-2-7-ui -->
 
-<!-- deb-2-8-cli
-* [How does MAAS communication work?](/t/maas-communication/2834)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I list rack controllers?](#heading--list-rack-controllers)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2690#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- deb-2-8-cli -->
+<h2 id="heading--list-zones">List availabilty zones</h2>
 
-<!-- deb-2-8-ui
-* [How does MAAS communication work?](/t/maas-communication/2835)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I list rack controllers?](#heading--list-rack-controllers)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2691#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- deb-2-8-ui -->
+To see a list of availability zones, choose "AZs" from the top menu:
 
-<!-- deb-2-9-cli
-* [How does MAAS communication work?](/t/maas-communication/2836)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I list rack controllers?](#heading--list-rack-controllers)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2692#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- deb-2-9-cli -->
+<a href="https://discourse.maas.io/uploads/default/original/1X/5ac446f2bda76276069fe5a1c302ff2acbf425a2.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/5ac446f2bda76276069fe5a1c302ff2acbf425a2.jpeg"></a>
 
-<!-- deb-2-9-ui
-* [How does MAAS communication work?](/t/maas-communication/2837)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I list rack controllers?](#heading--list-rack-controllers)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2683#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- deb-2-9-ui -->
+<h2 id="heading--add-a-zone">Add a zone</h2>
 
-<!-- snap-2-7-cli
-* [How does MAAS communication work?](/t/maas-communication/2826)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I list rack controllers?](#heading--list-rack-controllers)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2682#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- snap-2-7-cli -->
+To create a zone, navigate to the 'AZs' page of the web UI and use the 'Add AZ' button. Enter a name for the zone and click 'Add AZ'.
 
-<!-- snap-2-7-ui
-* [How does MAAS communication work?](/t/maas-communication/2827)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I list rack controllers?](#heading--list-rack-controllers)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2683#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- snap-2-7-ui -->
+<a href="https://assets.ubuntu.com/v1/f4032f39-manage-zones__2.4_add-zone.png" target = "_blank"><img src="https://assets.ubuntu.com/v1/f4032f39-manage-zones__2.4_add-zone.png"></a>
 
-<!-- snap-2-8-cli
-* [How does MAAS communication work?](/t/maas-communication/2828)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I list rack controllers?](#heading--list-rack-controllers)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2684#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- snap-2-8-cli -->
+<h2 id="heading--edit-a-zone">Edit a zone</h2>
 
-<!-- snap-2-8-ui
-* [How does MAAS communication work?](/t/maas-communication/2829)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I list rack controllers?](#heading--list-rack-controllers)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2685#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- snap-2-8-ui -->
+To edit a zone, on the 'AZs' page, select a zone and use the 'Edit' button:
 
-<!-- snap-2-9-cli
-* [How does MAAS communication work?](/t/maas-communication/2830)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I list rack controllers?](#heading--list-rack-controllers)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2686#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
- snap-2-9-cli -->
+<a href="https://discourse.maas.io/uploads/default/original/1X/cf5c2b91e0c3e97ec3f5a813c8a2ed85e9139e19.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/cf5c2b91e0c3e97ec3f5a813c8a2ed85e9139e19.jpeg"></a>
 
-* [How does MAAS communication work?](/t/maas-communication/2831)
-* [How do I install a rack controller?](#heading--install-a-rack-controller)
-* [How do I list rack controllers?](#heading--list-rack-controllers)
-* [How do I configure MAAS for multiple API servers?](/t/high-availability/2687#heading--multiple-region-endpoints)
-* [How do I unregister a rack controller?](#heading--unregister-a-rack-controller)
+This selection allows you to change the name and description for the added (or edited) zone:
 
-<h2 id="heading--install-a-rack-controller">Install a rack controller</h2>
+<a href="https://discourse.maas.io/uploads/default/original/1X/11fb5b6c13609a7ef976aa301e02f43422080066.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/11fb5b6c13609a7ef976aa301e02f43422080066.jpeg"></a>
+
+<h2 id="heading--delete-a-zone">Delete a zone</h2>
+
+To delete a zone, on the 'AZs' page, select a zone and use the 'Delete AZ' button. Doing so will also move any potential machine associations to the default zone.
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/afb0576940f2e20266dc907911f837378958a64a.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/afb0576940f2e20266dc907911f837378958a64a.jpeg"></a>
+
+<h2 id="heading--assign-a-node-to-a-zone">Assign a machine to a zone</h2>
+
+To assign a machine to a zone, from the 'Machines' page, select a machine (or multiple machines) and choose 'Set zone' using the 'Take action' button:
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/97db7cbfd8059d2c67566a065e08c56a20b58071.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/97db7cbfd8059d2c67566a065e08c56a20b58071.jpeg"></a>
+
+After selecting a zone hit the 'Set zone...' button to apply the change.
+
+You can also edit a machine's 'Configuration' page to change its zone.
 
 <!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
-To install and register a rack controller with the MAAS:
 
-``` bash
-sudo apt install maas-rack-controller
-sudo maas-rack register
+<h2 id="heading--list-zones">List availability zones</h2>
+
+To see a list of availability zones, enter the following command:
+
+```
+maas $PROFILE zones read \
+| jq -r '(["ZONE","NAME","DESCRIPTION"]
+| (., map(length*"-"))), (.[] | [.id, .name, .description])
+| @tsv' | column -t
 ```
 
-[note]
-The register command is not required when you are adding a rack controller to a system that already houses an API server.
-[/note]
+which produces output similar to:
+
+```
+ZONE  NAME         DESCRIPTION
+----  ----         -----------
+5     BizOffice
+1     default
+4     Inventory
+2     Medications
+3     Payroll
+6     ProServ
+```
+
+<h2 id="heading--add-a-zone">Add a zone</h2>
+
+To create a zone, enter the following command:
+
+```
+maas $PROFILE zones create name=$ZONE_NAME description=$ZONE_DESCRIPTION
+```
+
+<h2 id="heading--edit-a-zone">Edit a zone</h2>
+
+To edit a zone, enter a command similar to the following:
+
+```
+maas $PROFILE zone update $OLD_ZONE_NAME name=$NEW_ZONE_NAME \
+description=$ZONE_DESCRIPTION
+```
+
+<h2 id="heading--delete-a-zone">Delete a zone</h2>
+
+To delete a zone, enter a command like this:
+
+```
+maas $PROFILE zone delete $ZONE_NAME
+```
+
+<h2 id="heading--assign-a-node-to-a-zone">Assign a machine to a zone</h2>
+
+To assign a machine to a zone, first retrieve the machine's system ID like this:
+
+```
+maas PROFILE machines read | jq '.[] | .hostname, .system_id'
+```
+
+Then enter the following command, using the system ID you just retrieved:
+
+```
+maas admin machine update $SYSTEM_ID zone=$ZONE_NAME
+```
+
+<h2 id="heading--allocate-a-node-in-a-zone">Allocate a machine in a zone</h2>
+
+To deploy in a particular zone, call the `acquire` method in the region-controller API &lt;region-controller-api&gt; as before, but pass the `zone` parameter with the name of the zone. This method will allocate a machine in that zone, or fail with an HTTP 409 ("conflict") error if the zone has no machines available that match your request.
+
+Alternatively, you may want to request a machine that is not in a particular zone or one that is not in any of several zones. To do that, specify the `not_in_zone` parameter to `acquire`. This parameter takes a list of zone names; the allocated machine will not be in any of them. Again, if that leaves no machines available that match your request, the call will return a "conflict" error.
+
+It is possible, though not usually useful, to combine the `zone` and `not_in_zone` parameters. If your choice for `zone` is also present in `not_in_zone`, no machine will ever match your request. Or if it's not, then the `not_in_zone` values will not affect the result of the call at all.
 snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
-
-<!-- deb-2-7-cli deb-2-8-cli deb-2-9-cli
-MAAS will ask for the URL of the region API server. If you provide a hostname, ensure it is resolvable. Next, MAAS will prompt you for the secret key, stored in file `/var/lib/maas/secret` on the API server.
-deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
-
-<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli
-MAAS will ask for the URL of the region API server. If you provide a hostname, ensure it is resolvable. Next, MAAS will prompt you for the secret key, stored in file `/var/snap/maas/common/maas/secret` on the API server.
-snap-2-7-cli snap-2-8-cli snap-2-9-cli -->
-
-<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
-Based on the above, then, we could have also entered:
-
-``` bash
-sudo maas-rack register --url http://10.5.1.5:5240/MAAS \
-    --secret fa847000e7cb681101d26e3477e6e39e
-```
-snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
-
-Installing a rack controller consists of installing the rack controller software and then registering the rack controller with the region API server.  When MAAS installs a rack controller on the same host as the region API server, registration occurs automatically. 
-
-Once registered, this extra rack controller will appear immediately alongside the primary controller in the web UI and begin to sync with it:
-
-<a href="https://discourse.maas.io/uploads/default/original/1X/0a5f1d374a3e53235a83eb157163be49016e63b5.png" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/0a5f1d374a3e53235a83eb157163be49016e63b5.png"></a> 
-
-<h2 id="heading--list-rack-controllers">List rack controllers</h2>
-
-<!-- deb-2-7-cli
-You can also list and confirm all registered rack controllers:
-
-``` bash
-maas $PROFILE rack-controllers read | grep hostname | cut -d '"' -f 4
-```
-
-Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2688) configurations.
- deb-2-7-cli -->
-
-<!-- deb-2-7-ui
-You can also list and confirm all registered rack controllers via the CLI; select the "Packages 2.7 CLI" link at the top of the page to find out how.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2689) configurations.
- deb-2-7-ui -->
-
-<!-- deb-2-8-cli
-You can also list and confirm all registered rack controllers:
-
-``` bash
-maas $PROFILE rack-controllers read | grep hostname | cut -d '"' -f 4
-```
-
-Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2690) configurations.
- deb-2-8-cli -->
-
-<!-- deb-2-8-ui
-You can also list and confirm all registered rack controllers via the CLI; select the "Packages 2.8 CLI" link at the top of the page to find out how. Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2691) configurations.
- deb-2-8-ui -->
-
-<!-- deb-2-9-cli
-You can also list and confirm all registered rack controllers:
-
-``` bash
-maas $PROFILE rack-controllers read | grep hostname | cut -d '"' -f 4
-```
-
-Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2692) configurations.
- deb-2-9-cli -->
-
-<!-- deb-2-9-ui
-You can also list and confirm all registered rack controllers via the CLI; select the "Packages 2.9 CLI" link at the top of the page to find out how.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2693) configurations.
- deb-2-9-ui -->
-
-<!-- snap-2-7-cli
-You can also list and confirm all registered rack controllers:
-
-``` bash
-maas $PROFILE rack-controllers read | grep hostname | cut -d '"' -f 4
-```
-
-Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2682) configurations.
- snap-2-7-cli -->
-
-<!-- snap-2-7-ui
-You can also list and confirm all registered rack controllers via the CLI; select the "Snap 2.7 CLI" link at the top of the page to find out how.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2683) configurations.
- snap-2-7-ui -->
-
-<!-- snap-2-8-cli
-You can also list and confirm all registered rack controllers:
-
-``` bash
-maas $PROFILE rack-controllers read | grep hostname | cut -d '"' -f 4
-```
-
-Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2684) configurations.
- snap-2-8-cli -->
-
-<!-- snap-2-8-ui
-You can also list and confirm all registered rack controllers via the CLI; select the "Snap 2.8 CLI" link at the top of the page to find out how.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2685) configurations.
- snap-2-8-ui -->
-
-<!-- snap-2-9-cli
-You can also list and confirm all registered rack controllers:
-
-``` bash
-maas $PROFILE rack-controllers read | grep hostname | cut -d '"' -f 4
-```
-
- Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2686) configurations.
- snap-2-9-cli -->
-
-You can also list and confirm all registered rack controllers via the CLI; select the "Snap 2.9 CLI" link at the top of the page to find out how.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/2687) configurations.
-
-<div class="p-notification">
-<p class="p-notification__response">If you are using VM nodes, you must ensure that the new rack controller can communicate with the VM host.</p>
-</div>
-
-<h2 id="heading--unregister-a-rack-controller">Unregister a rack controller</h2>
-
-Most likely, you would only “unregister” an extra, unnecessary rack controller.  In this case, you need to <em>delete</em> it from the region API server; there is no ‘unregister’ command.
-
-To do so, navigate to the ‘Controllers’ page of the web UI. Enter the controller’s page by clicking on the machine you want to delete and select ‘Delete’ from the drop-down (and then ‘Delete controller’). MAAS will do the right thing if the controller is used for DHCP HA; that is, the DHCP HA needs to be disabled.
-
-Although similar, this is not the same as deletion. Here, you are deleting a machine that is a part of MAAS itself.
-
-<div class="p-notification">
-<p class="p-notification__response">Unless you remove the software on this machine, rebooting it will cause the machine to re-instate itself as a rack controller. This behaviour may change with future versions of MAAS.</p>
-</div>

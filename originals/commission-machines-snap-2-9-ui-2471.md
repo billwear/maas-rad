@@ -453,7 +453,11 @@ Once commissioned, you may consider [creating or applying a tag](/t/maas-tags/28
 
 <h3 id="heading--numa-sriov-commissioning">Commission NUMA and SR-IOV nodes</h3>
 
-If you are using the NUMA architecture, MAAS versions 2.7 and higher guarantee that machines are assigned to a single NUMA node that contains all the machine's resources.  Note that you must recommission NUMA/SR-IOV machines that were previously commissioned under version 2.6 or earlier.
+If you are using the NUMA architecture, MAAS versions 2.7 and higher guarantee that machines are assigned to a single NUMA node that contains all the machine's resources. Node boundaries are critical, especially in vNUMA situations.  Splitting nodes can create unnecessary latency.  You want the NUMA node boundaries to match VM boundaries if at all possible.
+
+[note]
+You must recommission NUMA/SR-IOV machines that were previously commissioned under version 2.6 or earlier.
+[/note]
 
 <a href="https://discourse.maas.io/uploads/default/original/1X/7b47235ff57a570ccba6a6ed09186a3d7483f5a4.png" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/7b47235ff57a570ccba6a6ed09186a3d7483f5a4.png"></a> 
 

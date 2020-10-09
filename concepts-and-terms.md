@@ -8,10 +8,12 @@ Built on a foundation of networking knowledge, MAAS introduces a number of new t
 * [Device](/t/concepts-and-terms/785#heading--devices)
 * [DHCP](/t/concepts-and-terms/785#heading--dhcp)
 * [DHCP relay](/t/concepts-and-terms/785#heading--dhcp-relay)
+* [Edge clouds](/t/concepts-and-terms/785#heading--edge-clouds)
 * [Fabrics](/t/concepts-and-terms/785#heading--fabrics)
 * [Hub](/t/concepts-and-terms/785#heading--hub)
 * [Images](/t/concepts-and-terms/785#heading--images)
 * [Interfaces](/t/concepts-and-terms/785#heading--interfaces)
+* [isolcpus](/t/concepts-and-terms/785#heading--isolcpus)
 * [LAN](/t/concepts-and-terms/785#heading--lan)
 * [MAC address](/t/concepts-and-terms/785#heading--mac-address)
 * [Machine](/t/concepts-and-terms/785#heading--machines)
@@ -33,6 +35,7 @@ Built on a foundation of networking knowledge, MAAS introduces a number of new t
 * [Series](/t/concepts-and-terms/785#heading--series)
 * [Server](/t/concepts-and-terms/785#heading--server)
 * [Spaces](/t/concepts-and-terms/785#heading--spaces)
+* [SR-IOV](/t/concepts-and-terms/785#heading-sr-iov)
 * [Subnets](/t/concepts-and-terms/785#heading--subnets)
 * [Switch](/t/concepts-and-terms/785#heading--switch)
 * [Tags](/t/concepts-and-terms/785#heading--tags)
@@ -444,13 +447,51 @@ See [Launchpad PPAs](https://help.launchpad.net/Packaging/PPA) for more informat
 
 <h2 id="heading--numa">NUMA/vNUMA</a>
 
-NUMA stands for "Non-Uniform Memory Access."  In this context, "non-uniform" means that any given CPU can access its dedicated memory faster than the memory dedicated to other CPUs.  A NUMA configuration groups CPU(s) and memory as a dedicated node, which reduces memory access times, so the CPU won't spend a lot of time stalled in wait states -- that is, waiting for access to data in memory, either because the memory is relatively far away (proximity) or because other CPUs have access to the same memory (shared memory). In other words, NUMA works better when the CPU has dedicated memory that is relatively close by.  The process of optimizing thread and process scheduling so that the CPU running the code and the required data are close together is sometimes known as "creating affinity."
+NUMA stands for "Non-Uniform Memory Access."  In this context, "non-uniform" means that any given CPU core can access its dedicated memory faster than the memory dedicated to other cores.  A NUMA configuration groups core(s) and memory as a dedicated node, which reduces memory access times, so the core won't spend a lot of time stalled in wait states -- that is, waiting for access to data in memory, either because the memory is relatively far away (proximity) or because other cores have access to the same memory (shared memory). In other words, NUMA works better when the core has dedicated memory that is relatively close by.
 
-In this context, "far away" could mean physical distance (more wire or a longer bus distance), more interceding processes (as in virtual machines), or both.  
+In this context, "far away" could mean physical distance (more wire or a longer bus distance), more interceding processes (as in virtual machines), or both.  The process of optimising thread and process scheduling so that the core running the code and the required data are close together is sometimes known as "creating affinity." This affinity creates NUMA "nodes," which can be addressed as black boxes from a symmetric multi-processing (SMP) point of view.  Tasks are assigned to nodes to minimise overhead and wait states.
 
-This affinity creates NUMA "nodes," which can be addressed as black boxes from a symmetric multi-processing (SMP) point of view.  Tasks are assigned to nodes to minimize overhead and wait states.  There is more flexibility in creating affinity when using virtual machines, because memory and CPU are constructs overlaid on existing hardware, rather than hard silicon.  While this seems as if it might make SMP easier, in fact, it creates difficulties because of the nature of virtual machines and the potential number of interceding processes that manage virtual memory.  For optimum performance, VMs should be aligned to a single NUMA node, so that resources are not split across nodes.
+There is more flexibility in creating affinity when using virtual machines, because memory and core are constructs overlaid on existing hardware, rather than hard silicon.  While this seems as if it might make SMP easier, in fact, it creates difficulties because of the nature of virtual machines and the potential number of interceding processes that manage virtual memory.  For optimum performance, VMs should be aligned to a single NUMA node, so that resources are not split across nodes.
 
-In practice, this means that VMs would be "pinned" to specific physical cores (CPUs) to create stability.  While the user has the choice of how to pin VMs, MAAS provides visual information that helps the user see how VMs are allocated to physical hardware, and make adjustments if that arrangement isn't (or turns out not to be) optimal.
+In practice, this means that VMs would be "pinned" to specific cores to create stability.  While the user has the choice of how to pin VMs, MAAS provides visual information that helps the user see how VMs are allocated to physical hardware, and make adjustments if that arrangement isn't (or turns out not to be) optimal.
+
+If you want to dig deeper, there is a [more through treatment of NUMA](https://en.wikipedia.org/wiki/Non-uniform_memory_access) on Wikipedia.
+
+<h2 id="heading--sr-iov">SR-IOV</h2>
+
+With traditional ethernet, a packet comes into the NIC and interrupt is fired for the one core assigned to handle NIC interrupts.  That core has to go get the packet, find the destination MAC address or VLAN tag, then go interrupt the destination core -- which has to get the packet and write it to the memory of the VM it's managing. Statistically speaking, that's basically two core interrupts for every incoming packet.
+
+Many smart NICs are able to sort network packets into queues, based on MAC address or VLAN tag of the intended recipient, a technology sometimes known as "VMDq".  In these cases, each queue has its own interrupt, so each core gets interrupted only for its own packets. This arrangement is much faster than having one core assigned to handle all network interrupts.  Even so, the hypervisor still has to copy every packet from the NIC to the VM, physically touching each packet.
+
+With SR-IOV, it's possible to have no core interrupts when packets come in.  SR-IOV creates "virtual functions," with dedicated queues for transmitting and receiving.  Each VM is directly assigned hardware resources via a virtual function driver, which knows how to DMA-copy data directly between the NIC and the memory space of the relevant VM. Essentially, SR-IOV is like a "jumper wire" between the NIC and the VM, bypassing the core.  This prevents interrupting the core when packets arrive for it, and significantly reduces the core workload when sending network packets.
+
+For a deeper dive, try this [SR-IOV presentation](https://www.youtube.com/watch?v=hRHsk8Nycdg) from Intel.
+
+<h2 id="heading--isolcpus">Isolating CPUs</h2>
+
+For certain operations, it's useful to shield a from having to execute general system processes and take interrupts.  These are sometimes referred to as "isolcpus," more correctly described as booting a core with the `isolcpus` boot parameter.  This parameter restricts the shielded core to processes assigned directly to it, avoiding sharing bandwidth with the general scheduler and preventing the core from taking non-specific interrupts.
+
+When used with VMs, users can maximise performance by configuring isolcpus in the kernel, to prevent the general scheduler and other tasks from using bandwidth on your VM core(s).
+
+<h2 id="heading--edge-clouds">Edge clouds</h2>
+
+Edge clouds are designed to minimise latency, so that your cloud computing experience is nearer to real-time.  The use of "edge" doesn't specifically refer to the edges of the cloud, but to the machines that are at the "edge of the problem," or more to the point, "the edge of the cloud that is closest to your application."  Sometimes these are separate clouds in your own data centre, though they can also be parts of a remote cloud that are closer to you in network terms.
+
+There are a number of complex decision lops and optimisation algorithms used by edge clouds, but the primary purpose is low-latency computing where possible.  If the servers closest to you (network-wise) can handle the load, they do; if not, they can call on other servers just a little further away.
+
+Edge clouds can be planned and enhanced by using NUMA and SR-IOV techniques.  NUMA can help you create SMP nodes on VM cores the shortest (network) distance away from your application.  SR-IOV can, in general, reduce network latency even more by eliminating core involvement in network traffic. You can create virtual machines and assign NUMA nodes to minimise network latency, and then ensure that   MAAS gives you NUMA tools to find out whether you're achieving this sort of optimisation, and help you make decisions about how to adjust and improve over time.
+
+<h2 id="Hugepages">Hugepages</h2>
+
+Computer memory is addressed not as raw RAM, but as virtual memory. Assisted by the CPU's memory management unit (MMU), the kernel maps virtual memory to a physical location. Virtual memory is divided into pages, which can be swapped in and out to disk during normal operation (hence the term "swap space").  When programs access memory, the CPU needs to know which physical page has the data, so it relies on the kernel's "page table" to find the right virtual-to-physical address mapping.
+
+Since this page table is big and slow, the CPU has a special buffer -- the Translation Lookaside Buffer (TLB) -- that caches address mapping.  This means after the first access to a page, subsequent accesses are much faster.  Since this buffer is implemented in hardware, for speed, the size is limited to, say, 4096 bytes.
+
+When the core is accessing lots of pages, the speed advantage of the TLB can be lost.  Hugepages allow one TLB entry to point to 2MB, instead of just 4096 bytes.  With 512 TLB entires, typically, you can map 1GB of memory.  Hugepages come with a catch, though: if you have to swap pages, it (obviously) takes longer.
+
+There's no tried and true formula for when to use them, but the key consideration is that you want to use most of a hugepage when you swap.  Rather than using little sections of a hugepage, which would mean losing the performance advantage from constant swapping, you want to maximize the use of each hugepage.  While there's no simple, empirical way to calculate this answer, you can do it by trial-and-error observation.
+
+MAAS provides the dashboards and tools necessary to monitor and adjust your use of hugepages, so that you can find the right balance.
 
 <h2 id="heading--network-tutorial">Brief network tutorial</h2>
 

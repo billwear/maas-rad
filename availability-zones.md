@@ -135,11 +135,20 @@ A newly installed MAAS comes with a default zone which initially contains all no
 
 #### Quick questions you may have:
 
+* [How do I list availability zones?](#heading--list-zones)
 * [How do I add an availability zone?](#heading--add-a-zone)
 * [How do I edit an existing availability zone?](#heading--edit-a-zone)
 * [How do I delete an existing availability zone?](#heading--delete-a-zone)
 * [How do I assign a machine to an availability zone?](#heading--assign-a-node-to-a-zone)
 * [How do I allocate a machine in a particular zone?](#heading--allocate-a-node-in-a-zone)
+
+<!-- snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui
+
+<h2 id="heading--list-zones">List availabilty zones</h2>
+
+To see a list of availability zones, choose "AZs" from the top menu:
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/5ac446f2bda76276069fe5a1c302ff2acbf425a2.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/5ac446f2bda76276069fe5a1c302ff2acbf425a2.jpeg"></a>
 
 <h2 id="heading--add-a-zone">Add a zone</h2>
 
@@ -149,19 +158,95 @@ To create a zone, navigate to the 'AZs' page of the web UI and use the 'Add AZ' 
 
 <h2 id="heading--edit-a-zone">Edit a zone</h2>
 
-To edit a zone, on the 'AZs' page, select a zone and use the 'Edit' button. This selection allows you to change the name and description for the added (or edited) zone.
+To edit a zone, on the 'AZs' page, select a zone and use the 'Edit' button:
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/cf5c2b91e0c3e97ec3f5a813c8a2ed85e9139e19.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/cf5c2b91e0c3e97ec3f5a813c8a2ed85e9139e19.jpeg"></a>
+
+This selection allows you to change the name and description for the added (or edited) zone:
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/11fb5b6c13609a7ef976aa301e02f43422080066.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/11fb5b6c13609a7ef976aa301e02f43422080066.jpeg"></a>
 
 <h2 id="heading--delete-a-zone">Delete a zone</h2>
 
 To delete a zone, on the 'AZs' page, select a zone and use the 'Delete AZ' button. Doing so will also move any potential machine associations to the default zone.
 
+<a href="https://discourse.maas.io/uploads/default/original/1X/afb0576940f2e20266dc907911f837378958a64a.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/afb0576940f2e20266dc907911f837378958a64a.jpeg"></a>
+
 <h2 id="heading--assign-a-node-to-a-zone">Assign a machine to a zone</h2>
 
-To assign a machine to a zone, from the 'Machines' page, select a machine (or multiple machines) and choose 'Set zone' using the 'Take action' button. After selecting a zone hit the 'Set zone...' button to apply the change.
+To assign a machine to a zone, from the 'Machines' page, select a machine (or multiple machines) and choose 'Set zone' using the 'Take action' button:
+
+<a href="https://discourse.maas.io/uploads/default/original/1X/97db7cbfd8059d2c67566a065e08c56a20b58071.jpeg" target = "_blank"><img src="https://discourse.maas.io/uploads/default/original/1X/97db7cbfd8059d2c67566a065e08c56a20b58071.jpeg"></a>
+
+After selecting a zone hit the 'Set zone...' button to apply the change.
 
 You can also edit a machine's 'Configuration' page to change its zone.
+snap-2-7-ui snap-2-8-ui snap-2-9-ui deb-2-7-ui deb-2-8-ui deb-2-9-ui -->
 
-Both ways are available in the API as well: edit an individual machine through a PUT request to the machine's URI, or set the zone on multiple machines at once by calling the `set_zone` operation on the machines endpoint.
+<!-- snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli
+
+<h2 id="heading--list-zones">List availability zones</h2>
+
+To see a list of availability zones, enter the following command:
+
+```
+maas $PROFILE zones read \
+| jq -r '(["ZONE","NAME","DESCRIPTION"]
+| (., map(length*"-"))), (.[] | [.id, .name, .description])
+| @tsv' | column -t
+```
+
+which produces output similar to:
+
+```
+ZONE  NAME         DESCRIPTION
+----  ----         -----------
+5     BizOffice
+1     default
+4     Inventory
+2     Medications
+3     Payroll
+6     ProServ
+```
+
+<h2 id="heading--add-a-zone">Add a zone</h2>
+
+To create a zone, enter the following command:
+
+```
+maas $PROFILE zones create name=$ZONE_NAME description=$ZONE_DESCRIPTION
+```
+
+<h2 id="heading--edit-a-zone">Edit a zone</h2>
+
+To edit a zone, enter a command similar to the following:
+
+```
+maas $PROFILE zone update $OLD_ZONE_NAME name=$NEW_ZONE_NAME \
+description=$ZONE_DESCRIPTION
+```
+
+<h2 id="heading--delete-a-zone">Delete a zone</h2>
+
+To delete a zone, enter a command like this:
+
+```
+maas $PROFILE zone delete $ZONE_NAME
+```
+
+<h2 id="heading--assign-a-node-to-a-zone">Assign a machine to a zone</h2>
+
+To assign a machine to a zone, first retrieve the machine's system ID like this:
+
+```
+maas PROFILE machines read | jq '.[] | .hostname, .system_id'
+```
+
+Then enter the following command, using the system ID you just retrieved:
+
+```
+maas admin machine update $SYSTEM_ID zone=$ZONE_NAME
+```
 
 <h2 id="heading--allocate-a-node-in-a-zone">Allocate a machine in a zone</h2>
 
@@ -170,5 +255,4 @@ To deploy in a particular zone, call the `acquire` method in the region-controll
 Alternatively, you may want to request a machine that is not in a particular zone or one that is not in any of several zones. To do that, specify the `not_in_zone` parameter to `acquire`. This parameter takes a list of zone names; the allocated machine will not be in any of them. Again, if that leaves no machines available that match your request, the call will return a "conflict" error.
 
 It is possible, though not usually useful, to combine the `zone` and `not_in_zone` parameters. If your choice for `zone` is also present in `not_in_zone`, no machine will ever match your request. Or if it's not, then the `not_in_zone` values will not affect the result of the call at all.
-
-<!-- LINKS -->
+snap-2-7-cli snap-2-8-cli snap-2-9-cli deb-2-7-cli deb-2-8-cli deb-2-9-cli -->
